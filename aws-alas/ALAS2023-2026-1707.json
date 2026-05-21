@@ -1,0 +1,59 @@
+{
+  "id": "ALAS2023-2026-1707",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1707 (low): glslang",
+  "description": "A vulnerability, which was classified as problematic, has been found in Khronos Group glslang 15.1.0. Affected by this issue is the function glslang::TIntermediate::isConversionAllowed of the file glslang/MachineIndependent/Intermediate.cpp. The manipulation leads to null pointer dereference. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used. (CVE-2025-3010)",
+  "severity": "low",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-15",
+  "modified_date": "2026-05-25",
+  "affected": [
+    "al2023:glslang"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Glslang",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:glslang:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-3010"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update glslang --releasever 2023.11.20260514",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-3010",
+      "source": "aws-alas",
+      "title": "CVE-2025-3010",
+      "description": "",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1707.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1707.html"
+  ]
+}

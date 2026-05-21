@@ -1,0 +1,250 @@
+{
+  "id": "postgresql-182-178-1612-1516-and-1421-released-3235",
+  "source": "postgresql",
+  "aliases": [],
+  "title": "PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 Released!",
+  "description": "PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 Released! — 5 security fixes",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 8.8,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-02-12",
+  "modified_date": "",
+  "affected": [
+    "postgresql:postgresql"
+  ],
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "18.2",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:18.2:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2003"
+        },
+        {
+          "id": "CVE-2026-2004"
+        },
+        {
+          "id": "CVE-2026-2005"
+        },
+        {
+          "id": "CVE-2026-2006"
+        },
+        {
+          "id": "CVE-2026-2007"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "17.8",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:17.8:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2003"
+        },
+        {
+          "id": "CVE-2026-2004"
+        },
+        {
+          "id": "CVE-2026-2005"
+        },
+        {
+          "id": "CVE-2026-2006"
+        },
+        {
+          "id": "CVE-2026-2007"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "16.12",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:16.12:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2003"
+        },
+        {
+          "id": "CVE-2026-2004"
+        },
+        {
+          "id": "CVE-2026-2005"
+        },
+        {
+          "id": "CVE-2026-2006"
+        },
+        {
+          "id": "CVE-2026-2007"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "15.16",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:15.16:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2003"
+        },
+        {
+          "id": "CVE-2026-2004"
+        },
+        {
+          "id": "CVE-2026-2005"
+        },
+        {
+          "id": "CVE-2026-2006"
+        },
+        {
+          "id": "CVE-2026-2007"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "14.21",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:14.21:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2003"
+        },
+        {
+          "id": "CVE-2026-2004"
+        },
+        {
+          "id": "CVE-2026-2005"
+        },
+        {
+          "id": "CVE-2026-2006"
+        },
+        {
+          "id": "CVE-2026-2007"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "18.2",
+    "17.8",
+    "16.12",
+    "15.16",
+    "14.21"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-2003",
+      "source": "postgresql",
+      "title": "PostgreSQL",
+      "description": "Improper validation of type\noidvector\nin PostgreSQL allows a database user to\ndisclose a few bytes of server memory. We have not ruled out viability of\nattacks that arrange for presence of confidential information in disclosed\nbytes, but they seem unlikely. Versions before PostgreSQL 18.2, 17.8, 16.12,\n15.16, and 14.21 are affected.",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "cvss_vector": null,
+      "published_date": "2026-02-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2026-2003/"
+      ]
+    },
+    {
+      "id": "CVE-2026-2004",
+      "source": "postgresql",
+      "title": "PostgreSQL",
+      "description": "Missing validation of type of input in PostgreSQL\nintarray\nextension\nselectivity estimator function allows an object creator to execute arbitrary\ncode as the operating system user running the database. Versions before\nPostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 are affected.",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": null,
+      "published_date": "2026-02-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2026-2004/"
+      ]
+    },
+    {
+      "id": "CVE-2026-2005",
+      "source": "postgresql",
+      "title": "PostgreSQL",
+      "description": "Heap buffer overflow in PostgreSQL\npgcrypto\nallows a ciphertext provider to\nexecute arbitrary code as the operating system user running the database.\nVersions before PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 are affected.",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": null,
+      "published_date": "2026-02-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2026-2005/"
+      ]
+    },
+    {
+      "id": "CVE-2026-2006",
+      "source": "postgresql",
+      "title": "PostgreSQL missing validation of multibyte character length executes arbitrary code",
+      "description": "Missing validation of multibyte character length in PostgreSQL text manipulation\nallows a database user to issue crafted queries that achieve a buffer overrun.\nThat suffices to execute arbitrary code as the operating system user running the\ndatabase.  Versions before PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 are\naffected.",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": null,
+      "published_date": "2026-02-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2026-2006/"
+      ]
+    },
+    {
+      "id": "CVE-2026-2007",
+      "source": "postgresql",
+      "title": "PostgreSQL",
+      "description": "Heap buffer overflow in PostgreSQL\npg_trgm\nallows a database user to achieve\nunknown impacts via a crafted input string.  The attacker has limited control\nover the byte patterns to be written, but we have not ruled out the viability of\nattacks that lead to privilege escalation.  PostgreSQL 18.1 and 18.0 are affected.",
+      "severity": "high",
+      "cvss_score": 8.2,
+      "cvss_vector": null,
+      "published_date": "2026-02-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2026-2007/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [
+    {
+      "name": "Altan Birler",
+      "role": "reporter",
+      "url": ""
+    },
+    {
+      "name": "Heikki Linnakangas",
+      "role": "reporter",
+      "url": ""
+    }
+  ],
+  "url": "https://www.postgresql.org/about/news/postgresql-182-178-1612-1516-and-1421-released-3235/",
+  "vendor": "postgresql",
+  "references": [
+    "https://www.postgresql.org/about/news/postgresql-182-178-1612-1516-and-1421-released-3235/"
+  ]
+}

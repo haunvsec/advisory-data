@@ -1,0 +1,196 @@
+{
+  "id": "RHSA-2026:19811",
+  "source": "redhat",
+  "aliases": [],
+  "title": "Red Hat Security Advisory: freerdp security update",
+  "description": "Red Hat Security Advisory: freerdp security update",
+  "severity": "moderate",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-825",
+    "CWE-190",
+    "CWE-787",
+    "CWE-191",
+    "CWE-369",
+    "CWE-125"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-20",
+  "modified_date": "2026-05-21",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-25952"
+        },
+        {
+          "id": "CVE-2026-26986"
+        },
+        {
+          "id": "CVE-2026-27951"
+        },
+        {
+          "id": "CVE-2026-29775"
+        },
+        {
+          "id": "CVE-2026-31883"
+        },
+        {
+          "id": "CVE-2026-31884"
+        },
+        {
+          "id": "CVE-2026-31885"
+        },
+        {
+          "id": "CVE-2026-33985"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-25952",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP: Denial of service due to use-after-free vulnerability",
+      "description": "",
+      "severity": "moderate",
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-25952"
+      ]
+    },
+    {
+      "id": "CVE-2026-26986",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP: Denial of Service via double free vulnerability during disconnect",
+      "description": "",
+      "severity": "moderate",
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-26986"
+      ]
+    },
+    {
+      "id": "CVE-2026-27951",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP: Denial of Service via endless blocking loop in Stream_EnsureCapacity",
+      "description": "",
+      "severity": "moderate",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27951"
+      ]
+    },
+    {
+      "id": "CVE-2026-29775",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP has a heap-buffer-overflow in bitmap_cache_put via OOB cacheId",
+      "description": "",
+      "severity": "moderate",
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-29775"
+      ]
+    },
+    {
+      "id": "CVE-2026-31883",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP: Denial of Service via crafted audio data in RDP",
+      "description": "",
+      "severity": "moderate",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31883"
+      ]
+    },
+    {
+      "id": "CVE-2026-31884",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP has a division-by-zero in ADPCM decoders when `nBlockAlign` is 0",
+      "description": "",
+      "severity": "moderate",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31884"
+      ]
+    },
+    {
+      "id": "CVE-2026-31885",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP has an out-of-bounds read in ADPCM decoders due to missing predictor/step_index bounds checks",
+      "description": "",
+      "severity": "moderate",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31885"
+      ]
+    },
+    {
+      "id": "CVE-2026-33985",
+      "source": "redhat",
+      "title": "FreeRDP: FreeRDP: Information disclosure via heap memory out of bounds read",
+      "description": "",
+      "severity": "moderate",
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33985"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19811",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19811"
+  ]
+}

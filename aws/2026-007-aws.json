@@ -1,0 +1,61 @@
+{
+  "id": "2026-007-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2026-4270 - AWS API MCP File Access Restriction Bypass",
+  "description": "CVE-2026-4270 - AWS API MCP File Access Restriction Bypass\nPosted on:\nMar 16, 2026\nBulletin ID:\n2026-007-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n03/16/2026 9:15 AM PDT\nDescription:\nThe AWS API MCP Server is an open source Model Context Protocol (MCP) server that enables AI assistants to interact with AWS services and resources through AWS CLI commands. It provides programmatic access to manage your AWS infrastructure while maintaining proper security controls.\nThis server acts as a bridge between AI assistants and AWS services, allowing you to create, update, and manage AWS resources across all available services. The server includes a configurable file access feature that controls how AWS CLI commands interact with the local file system. By default, file operations are restricted to a designated working directory (workdir), but this can be configured to allow unrestricted file system access (unrestricted) or to block all local file path arguments entirely (no-access).\nWe identified\nCVE-2026-4270\n: Improper Protection of Alternate Path exists in the no-access and workdir feature of the AWS API MCP Server versions >= 0.2.14 and < 1.3.9 on all platforms may allow the bypass of intended file access restriction and expose arbitrary local file contents in the MCP client application context.\nImpacted versions:\nawslabs.aws-api-mcp-server >= 0.2.14, < 1.3.9\nResolution:\nThis issue has been addressed in awslabs.aws-api-mcp-server version\n1.3.9\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nNo workarounds.\nReferences:\nCVE-2026-4270\nGHSA-2cpp-j2fc-qhp7\nAcknowledgement:\nWe would like to thank Varonis Threat Labs for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-03-16",
+  "modified_date": "",
+  "affected": [
+    "aws:The AWS API MCP Server is an open source Model Context Protocol (MCP) server that enables AI assistants to interact with AWS services and resources through AWS CLI commands. It provides programmatic access to manage your AWS infrastructure while maintaining proper security controls."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4270"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "1.3.9"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-4270",
+      "source": "aws",
+      "title": "CVE-2026-4270",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-16",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-007-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-007-aws/"
+  ]
+}

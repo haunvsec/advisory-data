@@ -1,0 +1,59 @@
+{
+  "id": "ALAS2023-2026-1697",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1697 (medium): perl-Text-CSV_XS",
+  "description": "CSV_XS versions before 1.62 for Perl have a use-after-free when registered callbacks extend the Perl argument stack, which may enable type confusion or memory corruption. (CVE-2026-7111)",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-15",
+  "modified_date": "2026-05-15",
+  "affected": [
+    "al2023:perl-Text-CSV_XS"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Perl-Text-CSV_XS",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:perl-text-csv_xs:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-7111"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update perl-Text-CSV_XS --releasever 2023.11.20260514",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-7111",
+      "source": "aws-alas",
+      "title": "CVE-2026-7111",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1697.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1697.html"
+  ]
+}

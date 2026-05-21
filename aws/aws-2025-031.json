@@ -1,0 +1,59 @@
+{
+  "id": "aws-2025-031",
+  "source": "aws",
+  "aliases": [],
+  "title": "Overly Permissive Trust Policy in Harmonix on AWS EKS",
+  "description": "Overly Permissive Trust Policy in Harmonix on AWS EKS\nPosted on:\nDec 15, 2025\nBulletin ID:\nAWS-2025-031\nScope:\nAWS\nContent Type:\nInformational\nPublication Date:\n2025/12/15 11:45 AM PST\nDescription:\nHarmonix on AWS is an open source reference architecture and implementation of a Developer Platform that extends the CNCF Backstage project. We identified CVE-2025-14503 where an overly-permissive IAM trust policy in the Harmonix on AWS framework may allow authenticated users to escalate privileges via role assumption. The sample code for the EKS environment provisioning role is configured to trust the account root principal, which may enable any account principal with sts:AssumeRole permissions to assume the role with administrative privileges.\nImpacted versions:\nv0.3.0 through v0.4.1\nResolution:\nThis issue has been addressed in\nHarmonix on AWS version 0.4.2\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nIf you cannot immediately upgrade to version 0.4.2 or later, we recommend reviewing and restricting the IAM trust policies in your Harmonix on AWS deployment, particularly focusing on the EKS environment provisioning role to ensure it does not trust the account root principal. The provisioning role from the sample code can be found in the IAM console and will have the following name pattern:\n*-eks-*-provisioning-role\nCloudTrail events can be reviewed and monitored for ‘AssumeRole’ event names where the requestParameters.roleArn field includes the ARN of the provisioning role\nReferences:\nHarmonix on AWS version 0.4.2\nCVE-2025-14503\nGHSA-qm86-gqrq-mqcw\nAcknowledgement:\nWe would like to thank Security researcher r00tdaddy for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "informational",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-12-15",
+  "modified_date": "",
+  "affected": [
+    "aws:Harmonix on AWS is an open source reference architecture and implementation of a Developer Platform that extends the CNCF Backstage project. We identified CVE-2025-14503 where an overly-permissive IAM trust policy in the Harmonix on AWS framework may allow authenticated users to escalate privileges via role assumption. The sample code for the EKS environment provisioning role is configured to trust the account root principal, which may enable any account principal with sts:AssumeRole permissions to assume the role with administrative privileges."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-14503"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-14503",
+      "source": "aws",
+      "title": "CVE-2025-14503",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-12-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-031/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-031/"
+  ]
+}

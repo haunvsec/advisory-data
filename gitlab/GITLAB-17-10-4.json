@@ -1,0 +1,159 @@
+{
+  "id": "GITLAB-17-10-4",
+  "source": "gitlab",
+  "aliases": [],
+  "title": "GitLab Patch Release: 17.10.4, 17.9.6, 17.8.7",
+  "description": "<!-- markdownlint-disable -->\n<!-- vale off -->\n<!-- For detailed instructions on how to complete this, please see https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/blog-post.md -->\n<p>On April 9, 2025, we released versions 17.10.4, 17.9.6, 17.8.7 for GitLab Community Edition (CE) and Enterprise Edition (EE).</p>\n<p>These versions contain important bug and security fixes, and we strongly recommend that all self-managed GitLab installations be upgraded to\none of these versions immediately. GitLab.com is already running the patched version. GitLab Dedicated customers do not need to take action.</p>\n<p>GitLab releases fixes for vulnerabilities in patch releases. There are two types of patch releases:\nscheduled releases, and ad-hoc critical patches for high-severity vulnerabilities. Scheduled releases are released twice a month on the second and fourth Wednesdays.\nFor more information, you can visit our <a href=\"https://handbook.gitlab.com/handbook/engineering/releases/\">releases handbook</a> and <a href=\"https://about.gitlab.com/security/faq/\">security FAQ</a>.\nYou can see all of GitLab release blog posts <a href=\"https://about.gitlab.com/releases/categories/releases/\">here</a>.</p>\n<p>For security fixes, the issues detailing each vulnerability are made public on our\n<a href=\"https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&amp;state=closed&amp;label_name%5B%5D=bug%3A%3Avulnerability&amp;confidential=no&amp;first_page_size=100\">issue tracker</a>\n30 days after the release in which they were patched.</p>\n<p>We are committed to ensuring all aspects of GitLab that are exposed to customers or that host customer data are held to\nthe highest security standards. As part of maintaining good security hygiene, it is highly recommended that all customers\nupgrade to the latest patch release for their supported version. You can read more\n<a href=\"https://about.gitlab.com/blog/gitlab-instance-security-best-practices/\">best practices in securing yo",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-04-09",
+  "modified_date": "",
+  "affected": [
+    "gitlab:gitlab-ce",
+    "gitlab:gitlab-ee"
+  ],
+  "affected_products": [
+    {
+      "vendor": "gitlab",
+      "product": "GitLab CE",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-11129"
+        },
+        {
+          "id": "CVE-2025-0362"
+        },
+        {
+          "id": "CVE-2025-1677"
+        },
+        {
+          "id": "CVE-2025-2408"
+        },
+        {
+          "id": "CVE-2025-2469"
+        }
+      ]
+    },
+    {
+      "vendor": "gitlab",
+      "product": "GitLab EE",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-11129"
+        },
+        {
+          "id": "CVE-2025-0362"
+        },
+        {
+          "id": "CVE-2025-1677"
+        },
+        {
+          "id": "CVE-2025-2408"
+        },
+        {
+          "id": "CVE-2025-2469"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2024-11129",
+      "source": "gitlab",
+      "title": "CVE-2024-11129",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-04-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-17-10-4-released/"
+      ]
+    },
+    {
+      "id": "CVE-2025-0362",
+      "source": "gitlab",
+      "title": "CVE-2025-0362",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-04-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-17-10-4-released/"
+      ]
+    },
+    {
+      "id": "CVE-2025-1677",
+      "source": "gitlab",
+      "title": "CVE-2025-1677",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-04-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-17-10-4-released/"
+      ]
+    },
+    {
+      "id": "CVE-2025-2408",
+      "source": "gitlab",
+      "title": "CVE-2025-2408",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-04-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-17-10-4-released/"
+      ]
+    },
+    {
+      "id": "CVE-2025-2469",
+      "source": "gitlab",
+      "title": "CVE-2025-2469",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-04-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-17-10-4-released/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-17-10-4-released/",
+  "vendor": "gitlab",
+  "references": [
+    "https://docs.gitlab.com/releases/patches/patch-release-gitlab-17-10-4-released/"
+  ]
+}

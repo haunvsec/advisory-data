@@ -1,0 +1,57 @@
+{
+  "id": "aws-2025-016",
+  "source": "aws",
+  "aliases": [],
+  "title": "[Redirected] Memory Dump Issue in AWS CodeBuild",
+  "description": "Memory Dump Issue in AWS CodeBuild\nBulletin ID\n: AWS-2025-016\nScope\n: AWS\nContent Type\n: Important\nRelease Date\n: 2025/07/25 6:00 PM PDT\nDescription\nAWS CodeBuild\nis a fully managed on-demand continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy.\nSecurity researchers reported a CodeBuild issue that could be leveraged for unapproved code modification absent sufficient repository controls and credential scoping. The researchers demonstrated how a threat actor could submit a Pull Request (PR) that, if executed through an automated CodeBuild build process, could extract the source code repository (e.g. GitHub, BitBucket, or GitLab) access token through a memory dump within the CodeBuild build environment. If the access token has write permissions, the threat actor could commit malicious code to the repository. This issue is present in all regions for CodeBuild.\nDuring our investigation, we identified this technique was leveraged by a threat actor who extracted the source code repository access token for the AWS Toolkit for Visual Studio Code and AWS SDK for .NET repositories. We have assigned\nCVE-2025-8217\nfor this, please refer to the\nAWS Security Bulletin AWS-2025-015\nfor additional information.\nSource code repository credentials are required in CodeBuild to access repository content, create webhooks for automated builds, and execute the build on your behalf. If a PR submitter obtains CodeBuild's repository credentials, they could gain elevated permissions beyond their normal access level. Depending on the permissions customers grant in CodeBuild, these credentials might allow elevated privileges like webhook creation, which CodeBuild requires to integrate with source code repositories and set up automated builds, or commit code to the repository.\nTo determine if this issue was leveraged by an untrusted contributor, we recommend reviewing git logs, e.g. GitHub logs, and look for anomalous activity of the credentials granted to CodeBuild.\nWe will update this bulletin if we have additional information to share.\nResolution\nCodeBuild has included additional protections against memory dumps within container builds using unprivileged mode. However, because builds execute code committed by contributors in the build environment, they have access to anything the build environment has access to. Therefore, we strongly recommend customers do not use automatic PR builds from untrusted repository contributors. For public repositories that want to continue to support automatic builds of untrusted contributions, we advise using the self-hosted\nGitHub Actions runners feature\nin CodeBuild as it is not impacted by this issue.\nTo disable automatic builds of PR from untrusted contributors, take any of the following approaches:\nDisable webhook builds by unchecking \"Rebuild every time a code change is pushed to this repository\" in the CodeBuild console, or\nSet a webhook event filter to not allow aut",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-08-12",
+  "modified_date": "",
+  "affected": [],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Aws-2025-016",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:aws:aws-2025-016:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8217"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-8217",
+      "source": "aws",
+      "title": "CVE-2025-8217",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-016/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-016/"
+  ]
+}

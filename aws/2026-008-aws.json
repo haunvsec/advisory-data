@@ -1,0 +1,59 @@
+{
+  "id": "2026-008-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2026-4269 - Improper S3 ownership verification in Bedrock AgentCore Starter Toolkit",
+  "description": "CVE-2026-4269 - Improper S3 ownership verification in Bedrock AgentCore Starter Toolkit\nPosted on:\nMar 16, 2026\nBulletin ID:\n2026-008-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n03/16/2026 11:15 AM PDT\nDescription:\nA missing S3 ownership verification in the Bedrock AgentCore Starter Toolkit before version v0.1.13 may allow a remote actor to inject code during the build process, leading to code execution in the AgentCore Runtime.\nImpacted versions:\nAll versions of Bedrock AgentCore Starter Toolkit versions before v0.1.13. This issue only affects users of the Bedrock AgentCore Starter Toolkit before version v0.1.13 who build the Toolkit after September 24, 2025. Any users on a version >=v0.1.13, and any users on previous versions who built the toolkit before September 24, 2025 are not affected.\nResolution:\nTo remediate this issue, customers should upgrade to version\nv0.1.13\nor greater.\nReferences:\nCVE-2026-4269\nGHSA-xfhr-q72q-jcrj\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-03-16",
+  "modified_date": "",
+  "affected": [
+    "aws:A missing S3 ownership verification in the Bedrock AgentCore Starter Toolkit before version v0.1.13 may allow a remote actor to inject code during the build process, leading to code execution in the AgentCore Runtime."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4269"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-4269",
+      "source": "aws",
+      "title": "CVE-2026-4269",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-16",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-008-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-008-aws/"
+  ]
+}

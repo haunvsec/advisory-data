@@ -1,0 +1,91 @@
+{
+  "id": "2026-014-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "Issues with AWS Research and Engineering Studio (RES)",
+  "description": "Issues with AWS Research and Engineering Studio (RES)\nPosted on:\nApr 6, 2026\nBulletin ID:\n2026-014-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n04/6/2026 2:00 PM PST\nDescription:\nResearch and Engineering Studio (RES) on AWS is an open source, web portal design for administrators to create and manage secure cloud-based research and engineering environments. We have identified the following issues with the AWS Research and Engineering Studio (RES).\nCVE-2026-5707\n: Unsanitized input in an OS Command in the virtual desktop session name handling in AWS Research and Engineering Studio (RES) version 2025.03 through 2025.12.01 might allow a remote authenticated actor to execute arbitrary commands as root on the virtual desktop host via a crafted session name.\nCVE-2026-5708\n: Improper control of user-modifiable attributes in the session creation component in AWS Research and Engineering Studio (RES) before version 2026.03 might allow an authenticated remote user to escalate privileges and assume the Virtual Desktop Host instance profile permissions and interact with other AWS resources and services via a crafted API request.\nCVE-2026-5709\n: Unsanitized input in the FileBrowser API in AWS Research and Engineering Studio (RES) version 2024.10 through 2025.12.01 might allow a remote authenticated actor to execute arbitrary commands on the cluster-manager EC2 instance via crafted input when using the FileBrowser functionality.\nImpacted versions\n: <= 2025.12.01\nResolution:\nThis issue has been addressed in\nRES version 2026.03\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds\nUser can apply a patch to the existing RES environment following the mitigation instructions [\n2025.12.01 and earlier\n] Preventing Command Injection via Session Name, [\n2025.12.01 and earlier\n] Privilege Escalation via Instance Profile Injection, or [\n2025.12.01 and earlier\n] Command injection via FileBrow.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-04-06",
+  "modified_date": "",
+  "affected": [
+    "aws:Research and Engineering Studio (RES) on AWS is an open source, web portal design for administrators to create and manage secure cloud-based research and engineering environments. We have identified the following issues with the AWS Research and Engineering Studio (RES)."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-5708"
+        },
+        {
+          "id": "CVE-2026-5707"
+        },
+        {
+          "id": "CVE-2026-5709"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-5708",
+      "source": "aws",
+      "title": "CVE-2026-5708",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-06",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5707",
+      "source": "aws",
+      "title": "CVE-2026-5707",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-06",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5709",
+      "source": "aws",
+      "title": "CVE-2026-5709",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-06",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-014-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-014-aws/"
+  ]
+}

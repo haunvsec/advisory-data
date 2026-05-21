@@ -1,0 +1,319 @@
+{
+  "id": "postgresql-171-165-159-1414-1317-and-1221-released-2955",
+  "source": "postgresql",
+  "aliases": [],
+  "title": "PostgreSQL 17.1, 16.5, 15.9, 14.14, 13.17, and 12.21 Released!",
+  "description": "PostgreSQL 17.1, 16.5, 15.9, 14.14, 13.17, and 12.21 Released! — 6 security fixes",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 8.8,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2024-11-14",
+  "modified_date": "",
+  "affected": [
+    "postgresql:postgresql"
+  ],
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "17.1",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:17.1:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-10976"
+        },
+        {
+          "id": "CVE-2023-2455"
+        },
+        {
+          "id": "CVE-2016-2193"
+        },
+        {
+          "id": "CVE-2024-10977"
+        },
+        {
+          "id": "CVE-2024-10978"
+        },
+        {
+          "id": "CVE-2024-10979"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "16.5",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:16.5:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-10976"
+        },
+        {
+          "id": "CVE-2023-2455"
+        },
+        {
+          "id": "CVE-2016-2193"
+        },
+        {
+          "id": "CVE-2024-10977"
+        },
+        {
+          "id": "CVE-2024-10978"
+        },
+        {
+          "id": "CVE-2024-10979"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "15.9",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:15.9:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-10976"
+        },
+        {
+          "id": "CVE-2023-2455"
+        },
+        {
+          "id": "CVE-2016-2193"
+        },
+        {
+          "id": "CVE-2024-10977"
+        },
+        {
+          "id": "CVE-2024-10978"
+        },
+        {
+          "id": "CVE-2024-10979"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "14.14",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:14.14:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-10976"
+        },
+        {
+          "id": "CVE-2023-2455"
+        },
+        {
+          "id": "CVE-2016-2193"
+        },
+        {
+          "id": "CVE-2024-10977"
+        },
+        {
+          "id": "CVE-2024-10978"
+        },
+        {
+          "id": "CVE-2024-10979"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "13.17",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:13.17:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-10976"
+        },
+        {
+          "id": "CVE-2023-2455"
+        },
+        {
+          "id": "CVE-2016-2193"
+        },
+        {
+          "id": "CVE-2024-10977"
+        },
+        {
+          "id": "CVE-2024-10978"
+        },
+        {
+          "id": "CVE-2024-10979"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "12.21",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:12.21:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-10976"
+        },
+        {
+          "id": "CVE-2023-2455"
+        },
+        {
+          "id": "CVE-2016-2193"
+        },
+        {
+          "id": "CVE-2024-10977"
+        },
+        {
+          "id": "CVE-2024-10978"
+        },
+        {
+          "id": "CVE-2024-10979"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "17.1",
+    "16.5",
+    "15.9",
+    "14.14",
+    "13.17",
+    "12.21"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2024-10976",
+      "source": "postgresql",
+      "title": "PostgreSQL row security below e.g. subqueries disregards user ID changes",
+      "description": "Incomplete tracking in PostgreSQL of tables with row security allows a reused\nquery to view or change different rows from those intended.",
+      "severity": "medium",
+      "cvss_score": 4.2,
+      "cvss_vector": null,
+      "published_date": "2024-11-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-10976/"
+      ]
+    },
+    {
+      "id": "CVE-2023-2455",
+      "source": "postgresql",
+      "title": "and",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-11-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2023-2455/"
+      ]
+    },
+    {
+      "id": "CVE-2016-2193",
+      "source": "postgresql",
+      "title": "fixed most interaction between row security and user ID changes.",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-11-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2016-2193/"
+      ]
+    },
+    {
+      "id": "CVE-2024-10977",
+      "source": "postgresql",
+      "title": "PostgreSQL libpq retains an error message from man-in-the-middle",
+      "description": "Client use of server error message in PostgreSQL allows a server not trusted\nunder current SSL or GSS settings to furnish arbitrary non-NUL bytes to the\nlibpq application. For example, a man-in-the-middle attacker could send a long\nerror message that a human or screen-scraper user of psql mistakes for valid\nquery results. This is probably not a concern for clients where the user\ninterface unambiguously indicates the boundary between one error message and\nother text. Versions before PostgreSQL 17",
+      "severity": "low",
+      "cvss_score": 3.1,
+      "cvss_vector": null,
+      "published_date": "2024-11-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-10977/"
+      ]
+    },
+    {
+      "id": "CVE-2024-10978",
+      "source": "postgresql",
+      "title": "PostgreSQL SET ROLE, SET SESSION AUTHORIZATION reset to wrong user ID",
+      "description": "Incorrect privilege assignment in PostgreSQL allows a less-privileged\napplication user to view or change different rows from those intended. An attack\nrequires the application to use\nSET ROLE\n,\nSET SESSION AUTHORIZATION\n,\nor an equivalent feature. The problem arises when an application query uses\nparameters from the attacker or conveys query results to the attacker. If that\nquery reacts to\ncurrent_setting('role')\nor the current user ID, it may modify\nor return data as though the session had not ",
+      "severity": "medium",
+      "cvss_score": 4.2,
+      "cvss_vector": null,
+      "published_date": "2024-11-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-10978/"
+      ]
+    },
+    {
+      "id": "CVE-2024-10979",
+      "source": "postgresql",
+      "title": "PostgreSQL PL/Perl environment variable changes execute arbitrary code",
+      "description": "Incorrect control of environment variables in PostgreSQL\nPL/Perl\nallows an\nunprivileged database user to change sensitive process environment variables\n(e.g.\nPATH\n). That often suffices to enable arbitrary code execution, even if\nthe attacker lacks a database server operating system user. Versions before\nPostgreSQL 17.1, 16.5, 15.9, 14.14, 13.17, and 12.21 are affected.",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": null,
+      "published_date": "2024-11-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-10979/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [
+    {
+      "name": "Wolfgang Walther",
+      "role": "reporter",
+      "url": ""
+    },
+    {
+      "name": "Jacob Champion",
+      "role": "reporter",
+      "url": ""
+    },
+    {
+      "name": "Tom Lane",
+      "role": "reporter",
+      "url": ""
+    },
+    {
+      "name": "Coby Abrams",
+      "role": "reporter",
+      "url": ""
+    }
+  ],
+  "url": "https://www.postgresql.org/about/news/postgresql-171-165-159-1414-1317-and-1221-released-2955/",
+  "vendor": "postgresql",
+  "references": [
+    "https://www.postgresql.org/about/news/postgresql-171-165-159-1414-1317-and-1221-released-2955/"
+  ]
+}

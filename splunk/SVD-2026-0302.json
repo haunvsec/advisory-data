@@ -1,0 +1,59 @@
+{
+  "id": "SVD-2026-0302",
+  "source": "splunk",
+  "aliases": [],
+  "title": "Remote Command Execution (RCE) through the '/splunkd/__upload/indexing/preview' REST endpoint in Splunk Enterprise",
+  "description": "Remote Command Execution (RCE) through the '/splunkd/__upload/indexing/preview' REST endpoint in Splunk Enterprise",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": 3.1,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-03-11",
+  "modified_date": "",
+  "affected": [
+    "splunk:splunk-enterprise"
+  ],
+  "affected_products": [
+    {
+      "vendor": "splunk",
+      "product": "Splunk Enterprise",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:splunk:splunk_enterprise:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20163"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "Upgrade Splunk Enterprise to versions 10.2.0, 10.0.4, 9.4.9, 9.3.10, or higher.\nIn addition to upgrading, to remedy the issue, set the following configurations:\n- In\nprops.conf\n, set\nunarchive_cmd_start_mode = direct\n- In\nserver.conf\nunder the\n[general]\nstanza, set\nallowed_unarchive_commands\nto an explicit allowlist of approved commands for unarchiving.\nSee\nprops.conf\nand\nserver.conf\nfor more information.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\n",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-20163",
+      "source": "splunk",
+      "title": "Remote Command Execution (RCE) through the '/splunkd/__upload/indexing/preview' REST endpoint in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://advisory.splunk.com/advisories/SVD-2026-0302",
+  "vendor": "splunk",
+  "references": [
+    "https://advisory.splunk.com/advisories/SVD-2026-0302"
+  ]
+}

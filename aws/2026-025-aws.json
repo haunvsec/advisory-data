@@ -1,0 +1,59 @@
+{
+  "id": "2026-025-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2026-7791 - Local Privilege Escalation via TOCTOU Race Condition in Amazon WorkSpaces Skylight Agent",
+  "description": "CVE-2026-7791 - Local Privilege Escalation via TOCTOU Race Condition in Amazon WorkSpaces Skylight Agent\nPosted on:\nMay 4, 2026\nBulletin ID:\n2026-025-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n05/04/2026 15:15 PM PDT\nDescription:\nAmazon Skylight Workspace Config Service (slwsconfigservice) is a critical background service within\nAmazon WorkSpaces\nthat manages system configuration, monitors health, and updates components. We identified\nCVE-2026-7791\nwhich allows a local non-admin authenticated user to escalate privileges to SYSTEM by exploiting a race condition in the Skylight Workspace Config Service's log file archival process.\nThis issue impacts Amazon WorkSpaces customers using Windows WorkSpaces that have not opted-in to enable \"\nLocal Administrator Setting\n\" on their directory.\nImpacted versions:\n< 2.6.2034.0 of the Windows Amazon Skylight Workspace Config Service (slwsconfigservice)\nResolution:\nThis issue has been addressed in 2.6.2034.0 version. We recommend upgrading to the latest version of the Amazon Skylight Workspace Config Service. Affected customers can self-service the update by rebooting impacted WorkSpaces.\nReferences:\nCVE-2026-7791\nAcknowledgment:\nWe would like to thank Cymulate for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-04",
+  "modified_date": "",
+  "affected": [
+    "aws:Amazon Skylight Workspace Config Service (slwsconfigservice) is a critical background service within"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Skylight Workspace Config Service (slwsconfigservice) is a critical background service within",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:aws:amazon_skylight_workspace_config_service__slwsconfigservice__is_a_critical_background_service_within:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-7791"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-7791",
+      "source": "aws",
+      "title": "CVE-2026-7791",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-04",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-025-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-025-aws/"
+  ]
+}

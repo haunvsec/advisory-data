@@ -1,0 +1,504 @@
+{
+  "id": "security-bulletin-november-21-2023-1318881573",
+  "source": "atlassian",
+  "aliases": [],
+  "title": "Security Bulletin - November 21 2023",
+  "description": "Security Bulletin - November 21 2023 — 18 CVEs",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2023-11-21",
+  "modified_date": "",
+  "affected": [
+    "atlassian:cache-poisoning-org.eclipse.jetty:jetty-server-in-jira-software-data-center-and-server",
+    "atlassian:deserialization-com.fasterxml.jackson.core:jackson-databind-in-jira-software-data-center-and-server",
+    "atlassian:dos-(denial-of-service)-com.fasterxml.jackson.core-in-jira-software-data-center-and-server",
+    "atlassian:dos-(denial-of-service)-com.fasterxml.jackson.core:jackson-databind-in-jira-software-data-center-and-server",
+    "atlassian:dos-(denial-of-service)-com.google.code.gson:gson-in-jira-software-data-center-and-server",
+    "atlassian:dos-(denial-of-service)-io.netty:netty-codec-http2-in-confluence-data-center-and-server",
+    "atlassian:dos-(denial-of-service)-io.netty:netty-codec-http2-in-jira-software-data-center-and-server",
+    "atlassian:dos-(denial-of-service)-jackson-databind-in-jira-software-data-center-and-server",
+    "atlassian:dos-(denial-of-service)-net.sourceforge.nekohtml:nekohtml-in-confluence-data-center-and-server",
+    "atlassian:dos-(denial-of-service)-org.apache.tomcat:tomcat-catalina-in-confluence-data-center-and-server"
+  ],
+  "affected_products": [
+    {
+      "vendor": "atlassian",
+      "product": "Atlassian Jira",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:atlassian:jira:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-2976"
+        },
+        {
+          "id": "CVE-2022-25647"
+        },
+        {
+          "id": "CVE-2021-37714"
+        },
+        {
+          "id": "CVE-2022-42004"
+        },
+        {
+          "id": "CVE-2022-42003"
+        },
+        {
+          "id": "CVE-2021-46877"
+        },
+        {
+          "id": "CVE-2020-36518"
+        },
+        {
+          "id": "CVE-2023-42794"
+        },
+        {
+          "id": "CVE-2023-44487"
+        },
+        {
+          "id": "CVE-2017-7656"
+        },
+        {
+          "id": "CVE-2021-28165"
+        },
+        {
+          "id": "CVE-2017-9735"
+        },
+        {
+          "id": "CVE-2022-41704"
+        },
+        {
+          "id": "CVE-2022-40146"
+        },
+        {
+          "id": "CVE-2022-42890"
+        },
+        {
+          "id": "CVE-2022-45143"
+        },
+        {
+          "id": "CVE-2022-28366"
+        },
+        {
+          "id": "CVE-2022-42252"
+        }
+      ]
+    },
+    {
+      "vendor": "atlassian",
+      "product": "Atlassian Confluence",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:atlassian:confluence:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-2976"
+        },
+        {
+          "id": "CVE-2022-25647"
+        },
+        {
+          "id": "CVE-2021-37714"
+        },
+        {
+          "id": "CVE-2022-42004"
+        },
+        {
+          "id": "CVE-2022-42003"
+        },
+        {
+          "id": "CVE-2021-46877"
+        },
+        {
+          "id": "CVE-2020-36518"
+        },
+        {
+          "id": "CVE-2023-42794"
+        },
+        {
+          "id": "CVE-2023-44487"
+        },
+        {
+          "id": "CVE-2017-7656"
+        },
+        {
+          "id": "CVE-2021-28165"
+        },
+        {
+          "id": "CVE-2017-9735"
+        },
+        {
+          "id": "CVE-2022-41704"
+        },
+        {
+          "id": "CVE-2022-40146"
+        },
+        {
+          "id": "CVE-2022-42890"
+        },
+        {
+          "id": "CVE-2022-45143"
+        },
+        {
+          "id": "CVE-2022-28366"
+        },
+        {
+          "id": "CVE-2022-42252"
+        }
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-2976"
+        },
+        {
+          "id": "CVE-2022-25647"
+        },
+        {
+          "id": "CVE-2021-37714"
+        },
+        {
+          "id": "CVE-2022-42004"
+        },
+        {
+          "id": "CVE-2022-42003"
+        },
+        {
+          "id": "CVE-2021-46877"
+        },
+        {
+          "id": "CVE-2020-36518"
+        },
+        {
+          "id": "CVE-2023-42794"
+        },
+        {
+          "id": "CVE-2023-44487"
+        },
+        {
+          "id": "CVE-2017-7656"
+        },
+        {
+          "id": "CVE-2021-28165"
+        },
+        {
+          "id": "CVE-2017-9735"
+        },
+        {
+          "id": "CVE-2022-41704"
+        },
+        {
+          "id": "CVE-2022-40146"
+        },
+        {
+          "id": "CVE-2022-42890"
+        },
+        {
+          "id": "CVE-2022-45143"
+        },
+        {
+          "id": "CVE-2022-28366"
+        },
+        {
+          "id": "CVE-2022-42252"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2023-2976",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-25647",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2021-37714",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-42004",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-42003",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2021-46877",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2020-36518",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2023-42794",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2023-44487",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2017-7656",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2021-28165",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2017-9735",
+      "source": "atlassian",
+      "title": "All versions including and after 8.20.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-41704",
+      "source": "atlassian",
+      "title": "All versions including and after 6.13.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-40146",
+      "source": "atlassian",
+      "title": "All versions including and after 6.13.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-42890",
+      "source": "atlassian",
+      "title": "All versions including and after 6.13.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-45143",
+      "source": "atlassian",
+      "title": "All versions including and after 6.13.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-28366",
+      "source": "atlassian",
+      "title": "All versions including and after 6.13.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-42252",
+      "source": "atlassian",
+      "title": "All versions including and after 6.13.0",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-11-21",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html",
+  "vendor": "atlassian",
+  "references": [
+    "https://confluence.atlassian.com/security/security-bulletin-november-21-2023-1318881573.html"
+  ]
+}

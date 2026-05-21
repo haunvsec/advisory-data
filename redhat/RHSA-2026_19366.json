@@ -1,0 +1,68 @@
+{
+  "id": "RHSA-2026:19366",
+  "source": "redhat",
+  "aliases": [],
+  "title": "Red Hat Security Advisory: python-markdown security update",
+  "description": "Red Hat Security Advisory: python-markdown security update",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 7.5,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "cwe_ids": [
+    "CWE-617"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-19",
+  "modified_date": "2026-05-20",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-69534"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-69534",
+      "source": "redhat",
+      "title": "python-markdown: denial of service via malformed HTML-like sequences",
+      "description": "Python-Markdown version 3.8 contain a vulnerability where malformed HTML-like sequences can cause html.parser.HTMLParser to raise an unhandled AssertionError during Markdown parsing. Because Python-Markdown does not catch this exception, any application that processes attacker-controlled Markdown may crash. This enables remote, unauthenticated Denial of Service in web applications, documentation systems, CI/CD pipelines, and any service that renders untrusted Markdown. The issue was acknowledged by the vendor and fixed in version 3.8.1. This issue causes a remote Denial of Service in any application parsing untrusted Markdown, and can lead to Information Disclosure through uncaught exceptions.",
+      "severity": "important",
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-03-12",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-69534",
+        "https://github.com/Python-Markdown/markdown/issues/1534",
+        "https://github.com/Python-Markdown/markdown",
+        "https://github.com/Python-Markdown/markdown/actions/runs/15736122892",
+        "http://www.openwall.com/lists/oss-security/2026/03/06/4"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19366",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19366"
+  ]
+}

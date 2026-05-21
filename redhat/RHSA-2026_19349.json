@@ -1,0 +1,106 @@
+{
+  "id": "RHSA-2026:19349",
+  "source": "redhat",
+  "aliases": [],
+  "title": "Red Hat Security Advisory: freerdp security update",
+  "description": "Red Hat Security Advisory: freerdp security update",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 7.5,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "cwe_ids": [
+    "CWE-190",
+    "CWE-131",
+    "CWE-252",
+    "CWE-122"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-19",
+  "modified_date": "2026-05-20",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-33983"
+        },
+        {
+          "id": "CVE-2026-33984"
+        }
+      ]
+    },
+    {
+      "vendor": "freerdp",
+      "product": "FreeRDP",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:freerdp:freerdp:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-33983"
+        },
+        {
+          "id": "CVE-2026-33984"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-33983",
+      "source": "redhat",
+      "title": "FreeRDP: FreeRDP: Denial of Service via specially crafted Remote Desktop Protocol messages",
+      "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to version 3.24.2, progressive_decompress_tile_upgrade() detects a mismatch via progressive_rfx_quant_cmp_equal() but only emits WLog_WARN, execution continues. The wrapped value (247) is used as a shift exponent, causing undefined behavior and an approximately 80 billion iteration loop (CPU DoS). This issue has been patched in version 3.24.2.",
+      "severity": "important",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-03-31",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33983",
+        "https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-4gfm-4p52-h478",
+        "https://github.com/FreeRDP/FreeRDP/commit/78188ab479c8e6eb9ba2475b3732c76b4bbe5425"
+      ]
+    },
+    {
+      "id": "CVE-2026-33984",
+      "source": "redhat",
+      "title": "FreeRDP: FreeRDP: Heap buffer overflow allows arbitrary code execution via crafted pixel data",
+      "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to version 3.24.2, in resize_vbar_entry() in libfreerdp/codec/clear.c, vBarEntry->size is updated to vBarEntry->count before the winpr_aligned_recalloc() call. If realloc fails, size is inflated while pixels still points to the old, smaller buffer. On a subsequent call where count <= size (the inflated value), realloc is skipped. The caller then writes count * bpp bytes of attacker-controlled pixel data into the undersized buffer, causing a heap buffer overflow. This issue has been patched in version 3.24.2.",
+      "severity": "important",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-04-02",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33984",
+        "https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-8469-2xcx-frf6",
+        "https://github.com/FreeRDP/FreeRDP/commit/dc7fdb165095139be779a4000199bc1706b06ad5"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19349",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19349"
+  ]
+}

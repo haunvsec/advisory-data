@@ -1,0 +1,91 @@
+{
+  "id": "ALAS2023-2026-1638",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1638 (important): python3.13",
+  "description": "Mitgation of CVE-2026-4519 was incomplete. If the URL contained \"%action\" the mitigation could be bypassed for certain browser types the \"webbrowser.open()\" API could have commands injected into the underlying shell. See CVE-2026-4519 for details. (CVE-2026-4786) Use-after-free (UAF) was possible in the `lzma.LZMADecompressor`, `bz2.BZ2Decompressor`, and `gzip.GzipFile` when a memory allocation fails with a `MemoryError` and the decompression instance is re-used. This scenario can be triggered if the process is under memory pressure. The fix cleans up the dangling pointer in this specific error condition. The vulnerability is only present if the program re-uses decompressor instances across multiple decompression calls even after a `MemoryError` is raised during decompression. Using the helper functions to one-shot decompress data such as `lzma.decompress()`, `bz2.decompress()`, `gzip.decompress()`, and `zlib.decompress()` are not affected as a new decompressor instance is used per call. If the decompressor instance is not re-used after an error condition, this usage is similarly not vulnerable. (CVE-2026-6100)",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-14",
+  "modified_date": "2026-05-14",
+  "affected": [
+    "al2023:python3.13"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Python3.13",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:python3.13:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4519"
+        },
+        {
+          "id": "CVE-2026-4786"
+        },
+        {
+          "id": "CVE-2026-6100"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update python3.13 --releasever 2023.11.20260511",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-4519",
+      "source": "aws-alas",
+      "title": "CVE-2026-4519",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-4786",
+      "source": "aws-alas",
+      "title": "CVE-2026-4786",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6100",
+      "source": "aws-alas",
+      "title": "CVE-2026-6100",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1638.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1638.html"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "RHSA-2026:19357",
+  "source": "redhat",
+  "aliases": [],
+  "title": "Red Hat Security Advisory: krb5 security update",
+  "description": "Red Hat Security Advisory: krb5 security update",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": 5.9,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "cwe_ids": [
+    "CWE-476",
+    "CWE-191"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-19",
+  "modified_date": "2026-05-20",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40355"
+        },
+        {
+          "id": "CVE-2026-40356"
+        }
+      ]
+    },
+    {
+      "vendor": "mit",
+      "product": "Kerberos 5",
+      "version_range": "< 1.22.3",
+      "fixed_version": "1.22.3",
+      "cpe": "cpe:2.3:a:mit:kerberos_5:1.22.3:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40355"
+        },
+        {
+          "id": "CVE-2026-40356"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-40355",
+      "source": "redhat",
+      "title": "krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx mechanism",
+      "description": "In MIT Kerberos 5 (aka krb5) before 1.22.3, there is a NULL pointer dereference if an application calls gss_accept_sec_context() on a system with a NegoEx mechanism registered in /etc/gss/mech. An unauthenticated remote attacker can trigger this, causing the process to terminate in parse_nego_message.",
+      "severity": "important",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-04-28",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-40355",
+        "https://web.mit.edu/kerberos/advisories/",
+        "https://cems.fun/2026/04/27/krb5-two-unauthenticated-network-vulnerabilities.html",
+        "https://github.com/krb5/krb5/commit/2e75f0d9362fb979f5fc92829431a590a130929f"
+      ]
+    },
+    {
+      "id": "CVE-2026-40356",
+      "source": "redhat",
+      "title": "krb5: MIT Kerberos 5 (krb5): Denial of Service via integer underflow and out-of-bounds read",
+      "description": "In MIT Kerberos 5 (aka krb5) before 1.22.3, there is an integer underflow and resultant out-of-bounds read if an application calls gss_accept_sec_context() on a system with a NegoEx mechanism registered in /etc/gss/mech. An unauthenticated remote attacker can trigger this, possibly causing the process to terminate in parse_message.",
+      "severity": "important",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-04-28",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-40356",
+        "https://web.mit.edu/kerberos/advisories/",
+        "https://cems.fun/2026/04/27/krb5-two-unauthenticated-network-vulnerabilities.html",
+        "https://github.com/krb5/krb5/commit/2e75f0d9362fb979f5fc92829431a590a130929f"
+      ]
+    }
+  ],
+  "exploits": [
+    {
+      "product": "PoC",
+      "url": "https://cems.fun/2026/04/27/krb5-two-unauthenticated-network-vulnerabilities.html"
+    }
+  ],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19357",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19357"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "cisco-sa-isis-dos-kDMxpSzK",
+  "source": "cisco",
+  "aliases": [],
+  "title": "Cisco IOS XR Software Multi-Instance Intermediate System-to-Intermediate System Denial of Service Vulnerability",
+  "description": "Cisco IOS XR Software Multi-Instance Intermediate System-to-Intermediate System Denial of Service Vulnerability",
+  "severity": "high",
+  "cvss_scores": [
+    {
+      "version": "3.1",
+      "score": 7.4,
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "severity": ""
+    }
+  ],
+  "cvss_score": 7.4,
+  "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+  "cwe_ids": [
+    "CWE-1287"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-03-11",
+  "modified_date": "2026-03-11",
+  "affected": [
+    "cisco:cisco-sa-isis-dos-kDMxpSzK"
+  ],
+  "affected_products": [
+    {
+      "vendor": "cisco",
+      "product": "Cisco IOS XR",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:cisco:ios_xr:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20074"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-20074",
+      "source": "cisco",
+      "title": "Cisco IOS XR Software Multi-Instance Intermediate System-to-Intermediate System Denial of Service Vulnerability",
+      "description": "A vulnerability in the Intermediate System-to-Intermediate System (IS-IS) multi-instance routing feature of Cisco IOS XR Software could allow an unauthenticated, adjacent attacker to cause the IS-IS process to restart unexpectedly.\r\n\r\nThis vulnerability is due to insufficient input validation of ingress IS-IS packets. An attacker could exploit this vulnerability by sending crafted IS-IS packets to an affected device after forming an adjacency. A successful exploit could allow the attacker to cause the IS-IS process to restart unexpectedly, resulting in a temporary loss of connectivity to advertised networks and a denial of service (DoS) condition.\r\nNote: The IS-IS protocol is a routing protocol. To exploit this vulnerability, an attacker must be Layer 2-adjacent to the affected device and must have formed an adjacency.&nbsp;&nbsp;",
+      "severity": "high",
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "published_date": "2026-03-11",
+      "modified_date": "2026-03-11",
+      "affected": [],
+      "references": [
+        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-isis-dos-kDMxpSzK"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-isis-dos-kDMxpSzK",
+  "vendor": "cisco",
+  "references": [
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-isis-dos-kDMxpSzK"
+  ]
+}

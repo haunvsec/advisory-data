@@ -1,0 +1,203 @@
+{
+  "id": "ALAS2023-2026-1672",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1672 (medium): tomcat9",
+  "description": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') vulnerability in Apache Tomcat via invalid chunk extension. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.18, from 10.1.0-M1 through 10.1.52, from 9.0.0.M1 through 9.0.115, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other, unsupported versions may also be affected. Users are recommended to upgrade to version 11.0.20, 10.1.52 or 9.0.116, which fix the issue. (CVE-2026-24880) Occasional URL redirection to untrusted Site ('Open Redirect') vulnerability in Apache Tomcat via the LoadBalancerDrainingValve. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.18, from 10.1.0-M1 through 10.1.52, from 9.0.0.M23 through 9.0.115, from 8.5.30 through 8.5.100. Other, unsupported versions may also be affected Users are recommended to upgrade to version 11.0.20, 10.1.53 or 9.0.116, which fix the issue. (CVE-2026-25854) Configured cipher preference order not preserved vulnerability in Apache Tomcat.",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-14",
+  "modified_date": "2026-05-14",
+  "affected": [
+    "al2023:tomcat9"
+  ],
+  "affected_products": [
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-66614"
+        },
+        {
+          "id": "CVE-2026-24880"
+        },
+        {
+          "id": "CVE-2026-25854"
+        },
+        {
+          "id": "CVE-2026-29129"
+        },
+        {
+          "id": "CVE-2026-29145"
+        },
+        {
+          "id": "CVE-2026-29146"
+        },
+        {
+          "id": "CVE-2026-32990"
+        },
+        {
+          "id": "CVE-2026-34483"
+        },
+        {
+          "id": "CVE-2026-34487"
+        },
+        {
+          "id": "CVE-2026-34500"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update tomcat9 --releasever 2023.11.20260511",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-66614",
+      "source": "aws-alas",
+      "title": "CVE-2025-66614",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-24880",
+      "source": "aws-alas",
+      "title": "CVE-2026-24880",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-25854",
+      "source": "aws-alas",
+      "title": "CVE-2026-25854",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-29129",
+      "source": "aws-alas",
+      "title": "CVE-2026-29129",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-29145",
+      "source": "aws-alas",
+      "title": "CVE-2026-29145",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-29146",
+      "source": "aws-alas",
+      "title": "CVE-2026-29146",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32990",
+      "source": "aws-alas",
+      "title": "CVE-2026-32990",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34483",
+      "source": "aws-alas",
+      "title": "CVE-2026-34483",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34487",
+      "source": "aws-alas",
+      "title": "CVE-2026-34487",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34500",
+      "source": "aws-alas",
+      "title": "CVE-2026-34500",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1672.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1672.html"
+  ]
+}

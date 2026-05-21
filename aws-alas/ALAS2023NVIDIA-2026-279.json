@@ -1,0 +1,59 @@
+{
+  "id": "ALAS2023NVIDIA-2026-279",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023NVIDIA-2026-279 (medium): cuda-toolkit",
+  "description": "NVIDIA CUDA Toolkit contains a vulnerability in command `cuobjdump` where a user may cause an out-of-bound write by passing in a malformed ELF file. A successful exploit of this vulnerability may lead to code execution or denial of service. (CVE-2024-0110)",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-15",
+  "modified_date": "2026-05-25",
+  "affected": [
+    "al2023:cuda-toolkit"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Cuda-toolkit",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:cuda-toolkit:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-0110"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update cuda-toolkit --releasever latest",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2024-0110",
+      "source": "aws-alas",
+      "title": "CVE-2024-0110",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-279.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-279.html"
+  ]
+}

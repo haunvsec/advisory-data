@@ -1,0 +1,80 @@
+{
+  "id": "RHSA-2026:19367",
+  "source": "redhat",
+  "aliases": [],
+  "title": "Red Hat Security Advisory: giflib update",
+  "description": "Red Hat Security Advisory: giflib update",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": 5.1,
+  "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "cwe_ids": [
+    "CWE-825"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-19",
+  "modified_date": "2026-05-20",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-23868"
+        }
+      ]
+    },
+    {
+      "vendor": "giflib",
+      "product": "Giflib",
+      "version_range": "<= 6.1.1",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:giflib:giflib:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-23868"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-23868",
+      "source": "redhat",
+      "title": "giflib: Giflib: Double-free vulnerability leading to memory corruption",
+      "description": "Giflib contains a double-free vulnerability that is the result of a shallow copy in GifMakeSavedImage and incorrect error handling. The conditions needed to trigger this vulnerability are difficult but may be possible.",
+      "severity": "important",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-03-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23868",
+        "https://www.facebook.com/security/advisories/cve-2026-23868",
+        "https://sourceforge.net/p/giflib/code/ci/f5b7267aed3665ef025c13823e454170d031c106/tree/gifalloc.c?diff=5146815377b7395944cb683a08c43eee3f631eb7"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19367",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19367"
+  ]
+}

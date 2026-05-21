@@ -1,0 +1,285 @@
+{
+  "id": "GITLAB-18-11-1",
+  "source": "gitlab",
+  "aliases": [],
+  "title": "GitLab Patch Release: 18.11.1, 18.10.4, 18.9.6",
+  "description": "<!-- markdownlint-disable -->\n<!-- vale off -->\n<!-- For detailed instructions on how to complete this, please see https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/blog-post.md -->\n<p>On April 22, 2026, we released versions 18.11.1, 18.10.4, 18.9.6 for GitLab Community Edition (CE) and Enterprise Edition (EE).</p>\n<p>These versions contain important bug and security fixes, and we strongly recommend that all self-managed GitLab installations be upgraded to\none of these versions immediately. GitLab.com is already running the patched version. GitLab Dedicated customers do not need to take action.</p>\n<p>GitLab releases fixes for vulnerabilities in patch releases. There are two types of patch releases:\nscheduled releases and ad-hoc critical patches for high-severity vulnerabilities. Scheduled releases are released twice a month on the second and fourth Wednesdays.\nFor more information, please visit our <a href=\"https://handbook.gitlab.com/handbook/engineering/releases/\">releases handbook</a> and <a href=\"https://about.gitlab.com/security/faq/\">security FAQ</a>.\nYou can see all of GitLab release blog posts <a href=\"https://about.gitlab.com/releases/categories/releases/\">here</a>.</p>\n<p>For security fixes, the issues detailing each vulnerability are made public on our\n<a href=\"https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&amp;state=closed&amp;label_name%5B%5D=bug%3A%3Avulnerability&amp;confidential=no&amp;first_page_size=100\">issue tracker</a>\n30 days after the release in which they were patched.</p>\n<p>We are committed to ensuring that all aspects of GitLab that are exposed to customers or that host customer data are held to\nthe highest security standards. To maintain good security hygiene, it is highly recommended that all customers\nupgrade to the latest patch release for their supported version. You can read more\n<a href=\"https://about.gitlab.com/blog/2020/05/20/gitlab-instance-security-best-practices/\">best practices in securi",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-04-22",
+  "modified_date": "",
+  "affected": [
+    "gitlab:gitlab-ce",
+    "gitlab:gitlab-ee"
+  ],
+  "affected_products": [
+    {
+      "vendor": "gitlab",
+      "product": "GitLab CE",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-0186"
+        },
+        {
+          "id": "CVE-2025-3922"
+        },
+        {
+          "id": "CVE-2025-6016"
+        },
+        {
+          "id": "CVE-2025-9957"
+        },
+        {
+          "id": "CVE-2026-1660"
+        },
+        {
+          "id": "CVE-2026-3254"
+        },
+        {
+          "id": "CVE-2026-4922"
+        },
+        {
+          "id": "CVE-2026-5262"
+        },
+        {
+          "id": "CVE-2026-5377"
+        },
+        {
+          "id": "CVE-2026-5816"
+        },
+        {
+          "id": "CVE-2026-6515"
+        }
+      ]
+    },
+    {
+      "vendor": "gitlab",
+      "product": "GitLab EE",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-0186"
+        },
+        {
+          "id": "CVE-2025-3922"
+        },
+        {
+          "id": "CVE-2025-6016"
+        },
+        {
+          "id": "CVE-2025-9957"
+        },
+        {
+          "id": "CVE-2026-1660"
+        },
+        {
+          "id": "CVE-2026-3254"
+        },
+        {
+          "id": "CVE-2026-4922"
+        },
+        {
+          "id": "CVE-2026-5262"
+        },
+        {
+          "id": "CVE-2026-5377"
+        },
+        {
+          "id": "CVE-2026-5816"
+        },
+        {
+          "id": "CVE-2026-6515"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-0186",
+      "source": "gitlab",
+      "title": "CVE-2025-0186",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    },
+    {
+      "id": "CVE-2025-3922",
+      "source": "gitlab",
+      "title": "CVE-2025-3922",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    },
+    {
+      "id": "CVE-2025-6016",
+      "source": "gitlab",
+      "title": "CVE-2025-6016",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    },
+    {
+      "id": "CVE-2025-9957",
+      "source": "gitlab",
+      "title": "CVE-2025-9957",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    },
+    {
+      "id": "CVE-2026-1660",
+      "source": "gitlab",
+      "title": "CVE-2026-1660",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    },
+    {
+      "id": "CVE-2026-3254",
+      "source": "gitlab",
+      "title": "CVE-2026-3254",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    },
+    {
+      "id": "CVE-2026-4922",
+      "source": "gitlab",
+      "title": "CVE-2026-4922",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    },
+    {
+      "id": "CVE-2026-5262",
+      "source": "gitlab",
+      "title": "CVE-2026-5262",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    },
+    {
+      "id": "CVE-2026-5377",
+      "source": "gitlab",
+      "title": "CVE-2026-5377",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    },
+    {
+      "id": "CVE-2026-5816",
+      "source": "gitlab",
+      "title": "CVE-2026-5816",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6515",
+      "source": "gitlab",
+      "title": "CVE-2026-6515",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/",
+  "vendor": "gitlab",
+  "references": [
+    "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-1-released/"
+  ]
+}

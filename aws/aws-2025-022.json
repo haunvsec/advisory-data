@@ -1,0 +1,61 @@
+{
+  "id": "aws-2025-022",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2025-11573 - Denial of Service issue in Amazon.IonDotnet",
+  "description": "CVE-2025-11573 - Denial of Service issue in Amazon.IonDotnet\nPosted on:\nOct 9, 2025\nBulletin ID:\nAWS-2025-022\nScope:\nAmazon\nContent Type:\nImportant (requires attention)\nPublication Date:\n2025/10/09 11:00 AM PDT\nDescription:\nAmazon.IonDotnet is a library for the Dotnet language that is used to read and write Amazon Ion data.\nWe identified\nCVE-2025-11573\n, which describes an infinite loop issue in Amazon.IonDotnet library versions <v1.3.2 that may allow a threat actor to cause a denial of service through a specially crafted text input. As of August 20, 2025, this library has been deprecated and will not receive further updates.\nAffected versions:\n<1.3.2\nResolution:\nThis issue has been addressed in Amazon.IonDotnet version\n1.3.2\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nOnly accept data from trusted sources, written using a supported Ion library.\nReferences:\nCVE-2025-11573\nGHSA-q5r6-9qwq-g2wj\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-10-09",
+  "modified_date": "",
+  "affected": [
+    "aws:Amazon.IonDotnet is a library for the Dotnet language that is used to read and write Amazon Ion data."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "<1.3.2",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-11573"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "1.3.2"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-11573",
+      "source": "aws",
+      "title": "CVE-2025-11573",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-10-09",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-022/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-022/"
+  ]
+}

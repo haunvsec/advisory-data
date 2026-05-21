@@ -1,0 +1,75 @@
+{
+  "id": "MFSA2026-09",
+  "source": "mozilla",
+  "aliases": [],
+  "title": "MFSA 2026-09Security Vulnerabilities fixed in Firefox for iOS 147.2.1",
+  "description": "MFSA 2026-09Security Vulnerabilities fixed in Firefox for iOS 147.2.1",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 4.3,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-02-16",
+  "modified_date": "",
+  "affected": [
+    "mozilla:firefox-for-ios"
+  ],
+  "affected_products": [
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2032"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Firefox for iOS",
+      "version_range": "<= *",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox_for_ios:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2032"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-2032",
+      "source": "mozilla",
+      "title": "CVE-2026-2032",
+      "description": "Malicious scripts that interrupt new tab page loading could cause desynchronization between the address bar and page content, allowing the attacker to spoof arbitrary HTML under a trusted domain. This vulnerability was fixed in Firefox for iOS 147.2.1.",
+      "severity": "high",
+      "cvss_score": 4.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+      "published_date": "2026-02-16",
+      "modified_date": "2026-04-14",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2012152",
+        "https://www.mozilla.org/security/advisories/mfsa2026-09/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-09/",
+  "vendor": "mozilla",
+  "references": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2026-09/"
+  ]
+}

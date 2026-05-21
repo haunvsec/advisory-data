@@ -1,0 +1,125 @@
+{
+  "id": "postgresql-164-158-1413-1316-1220-and-17-beta-3-released-2910",
+  "source": "postgresql",
+  "aliases": [],
+  "title": "PostgreSQL 16.4, 15.8, 14.13, 13.16, 12.20, and 17 Beta 3 Released!",
+  "description": "PostgreSQL 16.4, 15.8, 14.13, 13.16, 12.20, and 17 Beta 3 Released! — 1 security fixes",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 8.8,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2024-08-08",
+  "modified_date": "",
+  "affected": [
+    "postgresql:postgresql"
+  ],
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "16.4",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:16.4:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-7348"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "15.8",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:15.8:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-7348"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "14.13",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:14.13:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-7348"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "13.16",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:13.16:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-7348"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "12.20",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:12.20:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-7348"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "16.4",
+    "15.8",
+    "14.13",
+    "13.16",
+    "12.20"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2024-7348",
+      "source": "postgresql",
+      "title": "PostgreSQL relation replacement during pg_dump executes arbitrary SQL",
+      "description": "An attacker able to create and drop non-temporary objects could inject SQL code\nthat would be executed by a concurrent\npg_dump\nsession with the privileges of the role running\npg_dump\n(which is often a\nsuperuser). The attack involves replacing a sequence or similar object with a\nview or foreign table that will execute malicious code. To prevent this,\nintroduce a new server parameter\nrestrict_nonsystem_relation_kind\nthat can\ndisable expansion of non-builtin views as well as access to foreign table",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": null,
+      "published_date": "2024-08-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-7348/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [
+    {
+      "name": "Noah Misch",
+      "role": "reporter",
+      "url": ""
+    }
+  ],
+  "url": "https://www.postgresql.org/about/news/postgresql-164-158-1413-1316-1220-and-17-beta-3-released-2910/",
+  "vendor": "postgresql",
+  "references": [
+    "https://www.postgresql.org/about/news/postgresql-164-158-1413-1316-1220-and-17-beta-3-released-2910/"
+  ]
+}

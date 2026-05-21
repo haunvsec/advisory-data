@@ -1,0 +1,59 @@
+{
+  "id": "ALAS2023-2026-1670",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1670 (medium): libpng",
+  "description": "Use-after-free in png_set_PLTE, png_set_tRNS and png_set_hIST in libpng before 1.6.57. Passing a pointer returned by the corresponding getter back into the setter causes the setter to read from a stale pointer after freeing the internal buffer, leading to corrupted chunk data and potential heap information disclosure. (CVE-2026-34757)",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-14",
+  "modified_date": "2026-05-14",
+  "affected": [
+    "al2023:libpng"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Libpng",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:libpng:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-34757"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update libpng --releasever 2023.11.20260511",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-34757",
+      "source": "aws-alas",
+      "title": "CVE-2026-34757",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1670.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1670.html"
+  ]
+}

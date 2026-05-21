@@ -1,0 +1,59 @@
+{
+  "id": "2026-022-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP",
+  "description": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP\nPosted on:\nApr 29, 2026\nBulletin ID:\n2026-022-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n04/29/2026 11:45 AM PDT\nDescription:\nFreeRTOS-Plus-TCP is an open-source, scalable TCP/IP stack for FreeRTOS. We identified\nCVE-2026-7424\n, where an integer underflow issue in the DHCPv6 sub-option parser could allow an adjacent network user to corrupt the device's IPv6 address assignment, DNS configuration, and lease times, and to cause a denial of service (IP task freeze requiring hardware reset).\nImpacted versions:\nFreeRTOS-Plus-TCP >=V4.0.0 AND <=V4.2.5, >=V4.3.0 AND <= V4.4.0\nResolution:\nThis issue has been addressed in FreeRTOS-Plus-TCP version\nV4.4.1\nand\nV4.2.6\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nUsers who cannot immediately upgrade can disable DHCPv6 by setting ipconfigUSE_DHCPv6 to 0 in their FreeRTOSIPConfig.h configuration file. Note that this workaround requires manual IPv6 address configuration.\nReferences:\nCVE-2026-7424\nGHSA-wrhm-c99p-2p8g\nAcknowledgment:\nWe would like to thank security researcher @Eun0us | Espilon for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-04-29",
+  "modified_date": "",
+  "affected": [
+    "aws:FreeRTOS-Plus-TCP is an open-source, scalable TCP/IP stack for FreeRTOS. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "AWS FreeRTOS",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:freertos:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-7424"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-7424",
+      "source": "aws",
+      "title": "CVE-2026-7424",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-29",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/"
+  ]
+}

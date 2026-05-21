@@ -1,0 +1,219 @@
+{
+  "id": "RHSA-2026:19342",
+  "source": "redhat",
+  "aliases": [],
+  "title": "Red Hat Security Advisory: tigervnc security update",
+  "description": "Red Hat Security Advisory: tigervnc security update",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 8.5,
+  "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:L",
+  "cwe_ids": [
+    "CWE-191",
+    "CWE-125",
+    "CWE-825",
+    "CWE-279",
+    "CWE-732"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-19",
+  "modified_date": "2026-05-20",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-33999"
+        },
+        {
+          "id": "CVE-2026-34000"
+        },
+        {
+          "id": "CVE-2026-34001"
+        },
+        {
+          "id": "CVE-2026-34003"
+        },
+        {
+          "id": "CVE-2026-34352"
+        }
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "< *",
+      "fixed_version": "*",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:_:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-33999"
+        },
+        {
+          "id": "CVE-2026-34000"
+        },
+        {
+          "id": "CVE-2026-34001"
+        },
+        {
+          "id": "CVE-2026-34003"
+        },
+        {
+          "id": "CVE-2026-34352"
+        }
+      ]
+    },
+    {
+      "vendor": "tigervnc",
+      "product": "TigerVNC",
+      "version_range": "< 1.16.2",
+      "fixed_version": "1.16.2",
+      "cpe": "cpe:2.3:a:tigervnc:tigervnc:1.16.2:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-33999"
+        },
+        {
+          "id": "CVE-2026-34000"
+        },
+        {
+          "id": "CVE-2026-34001"
+        },
+        {
+          "id": "CVE-2026-34003"
+        },
+        {
+          "id": "CVE-2026-34352"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-33999",
+      "source": "redhat",
+      "title": "xorg: xwayland: X.Org X server: Denial of Service via integer underflow in XKB compatibility map handling",
+      "description": "A flaw was found in the X.Org X server. This integer underflow vulnerability, specifically in the XKB compatibility map handling, allows an attacker with local or remote X11 server access to trigger a buffer read overrun. This can lead to memory-safety violations and potentially a denial of service (DoS) or other severe impacts.",
+      "severity": "important",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-05-04",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33999",
+        "https://access.redhat.com/errata/RHSA-2026:10739",
+        "https://access.redhat.com/errata/RHSA-2026:11352",
+        "https://access.redhat.com/errata/RHSA-2026:11369",
+        "https://access.redhat.com/errata/RHSA-2026:11388",
+        "https://access.redhat.com/errata/RHSA-2026:11656",
+        "https://access.redhat.com/errata/RHSA-2026:11692",
+        "https://access.redhat.com/errata/RHSA-2026:13414",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2451106"
+      ]
+    },
+    {
+      "id": "CVE-2026-34000",
+      "source": "redhat",
+      "title": "xwayland: xorg: X.Org X server: Information disclosure and denial of service via out-of-bounds read in XKB geometry processing.",
+      "description": "A flaw was found in the X.Org X server. This out-of-bounds read vulnerability in the XKB geometry processing, specifically within the `CheckSetGeom()` and `XkbAddGeomKeyAlias` functions, allows an attacker to read uninitialized or out-of-bounds memory. An attacker with a connection to the X11 server, either locally or remotely, can exploit this without user interaction. This could lead to the disclosure of memory contents or cause a denial of service by crashing the server.",
+      "severity": "important",
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-05-05",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34000",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2451107"
+      ]
+    },
+    {
+      "id": "CVE-2026-34001",
+      "source": "redhat",
+      "title": "xorg: xwayland: X.Org X server: Use-after-free vulnerability leads to server crash and potential memory corruption",
+      "description": "A flaw was found in the X.Org X server. This use-after-free vulnerability occurs in the XSYNC fence triggering logic, specifically within the miSyncTriggerFence() function. An attacker with access to the X11 server can exploit this without user interaction, leading to a server crash and potentially enabling memory corruption. This could result in a denial of service or further compromise of the system.",
+      "severity": "important",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-05-04",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34001",
+        "https://access.redhat.com/errata/RHSA-2026:10739",
+        "https://access.redhat.com/errata/RHSA-2026:11352",
+        "https://access.redhat.com/errata/RHSA-2026:11369",
+        "https://access.redhat.com/errata/RHSA-2026:11388",
+        "https://access.redhat.com/errata/RHSA-2026:11656",
+        "https://access.redhat.com/errata/RHSA-2026:11692",
+        "https://access.redhat.com/errata/RHSA-2026:13414",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2451109"
+      ]
+    },
+    {
+      "id": "CVE-2026-34003",
+      "source": "redhat",
+      "title": "xorg: xwayland: X.Org X server: Information exposure and denial of service via out-of-bounds memory access",
+      "description": "A flaw was found in the X.Org X server's XKB key types request validation. A local attacker could send a specially crafted request to the X server, leading to an out-of-bounds memory access vulnerability. This could result in the disclosure of sensitive information or cause the server to crash, leading to a Denial of Service (DoS). In certain configurations, higher impact outcomes may be possible.",
+      "severity": "important",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-05-04",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34003",
+        "https://access.redhat.com/errata/RHSA-2026:10739",
+        "https://access.redhat.com/errata/RHSA-2026:11352",
+        "https://access.redhat.com/errata/RHSA-2026:11369",
+        "https://access.redhat.com/errata/RHSA-2026:11388",
+        "https://access.redhat.com/errata/RHSA-2026:11656",
+        "https://access.redhat.com/errata/RHSA-2026:11692",
+        "https://access.redhat.com/errata/RHSA-2026:13414",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2451113"
+      ]
+    },
+    {
+      "id": "CVE-2026-34352",
+      "source": "redhat",
+      "title": "TigerVNC: x0vncserver: TigerVNC x0vncserver: Information disclosure, data manipulation, and denial of service via incorrect permissions",
+      "description": "In TigerVNC before 1.16.2, Image.cxx in x0vncserver allows other users to observe or manipulate the screen contents, or cause an application crash, because of incorrect permissions.",
+      "severity": "important",
+      "cvss_score": 6.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-03-27",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34352",
+        "https://www.openwall.com/lists/oss-security/2026/03/26/7",
+        "https://github.com/TigerVNC/tigervnc/commit/0b5cab169d847789efa54459a87659d3fd484393",
+        "https://sourceforge.net/projects/tigervnc/files/stable/1.16.2",
+        "https://groups.google.com/g/tigervnc-announce/c/anHL9WLshLI"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19342",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19342"
+  ]
+}

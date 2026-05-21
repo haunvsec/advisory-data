@@ -1,0 +1,310 @@
+{
+  "id": "postgresql-176-1610-1514-1419-1322-and-18-beta-3-released-3118",
+  "source": "postgresql",
+  "aliases": [],
+  "title": "PostgreSQL 17.6, 16.10, 15.14, 14.19, 13.22, and 18 Beta 3 Released!",
+  "description": "PostgreSQL 17.6, 16.10, 15.14, 14.19, 13.22, and 18 Beta 3 Released! — 7 security fixes",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 8.8,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-08-14",
+  "modified_date": "",
+  "affected": [
+    "postgresql:postgresql"
+  ],
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "17.6",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:17.6:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8713"
+        },
+        {
+          "id": "CVE-2017-7484"
+        },
+        {
+          "id": "CVE-2019-10130"
+        },
+        {
+          "id": "CVE-2025-8714"
+        },
+        {
+          "id": "CVE-2024-21096"
+        },
+        {
+          "id": "CVE-2025-8715"
+        },
+        {
+          "id": "CVE-2012-0868"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "16.10",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:16.10:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8713"
+        },
+        {
+          "id": "CVE-2017-7484"
+        },
+        {
+          "id": "CVE-2019-10130"
+        },
+        {
+          "id": "CVE-2025-8714"
+        },
+        {
+          "id": "CVE-2024-21096"
+        },
+        {
+          "id": "CVE-2025-8715"
+        },
+        {
+          "id": "CVE-2012-0868"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "15.14",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:15.14:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8713"
+        },
+        {
+          "id": "CVE-2017-7484"
+        },
+        {
+          "id": "CVE-2019-10130"
+        },
+        {
+          "id": "CVE-2025-8714"
+        },
+        {
+          "id": "CVE-2024-21096"
+        },
+        {
+          "id": "CVE-2025-8715"
+        },
+        {
+          "id": "CVE-2012-0868"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "14.19",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:14.19:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8713"
+        },
+        {
+          "id": "CVE-2017-7484"
+        },
+        {
+          "id": "CVE-2019-10130"
+        },
+        {
+          "id": "CVE-2025-8714"
+        },
+        {
+          "id": "CVE-2024-21096"
+        },
+        {
+          "id": "CVE-2025-8715"
+        },
+        {
+          "id": "CVE-2012-0868"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "13.22",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:13.22:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8713"
+        },
+        {
+          "id": "CVE-2017-7484"
+        },
+        {
+          "id": "CVE-2019-10130"
+        },
+        {
+          "id": "CVE-2025-8714"
+        },
+        {
+          "id": "CVE-2024-21096"
+        },
+        {
+          "id": "CVE-2025-8715"
+        },
+        {
+          "id": "CVE-2012-0868"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "17.6",
+    "16.10",
+    "15.14",
+    "14.19",
+    "13.22"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-8713",
+      "source": "postgresql",
+      "title": "PostgreSQL optimizer statistics can expose sampled data within a view, partition, or child table",
+      "description": "PostgreSQL optimizer statistics allow a user to read sampled data within a\nview that the user cannot access. Separately, statistics allow a user to read\nsampled data that a row security policy intended to hide. PostgreSQL maintains\nstatistics for tables by sampling data available in columns; this data is\nconsulted during the query planning process. Prior to this release, a user\ncould craft a leaky operator that bypassed view access control lists (ACLs)\nand bypassed row security policies in parti",
+      "severity": "low",
+      "cvss_score": 3.1,
+      "cvss_vector": null,
+      "published_date": "2025-08-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2025-8713/"
+      ]
+    },
+    {
+      "id": "CVE-2017-7484",
+      "source": "postgresql",
+      "title": "and",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-08-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2017-7484/"
+      ]
+    },
+    {
+      "id": "CVE-2019-10130",
+      "source": "postgresql",
+      "title": "intended to close this",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-08-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2019-10130/"
+      ]
+    },
+    {
+      "id": "CVE-2025-8714",
+      "source": "postgresql",
+      "title": "PostgreSQL",
+      "description": "Untrusted data inclusion in pg_dump in PostgreSQL allows a malicious superuser\nof the origin server to inject arbitrary code for restore-time execution as\nthe client operating system account running psql to restore the dump, via psql\nmeta-commands. pg_dumpall is also affected. pg_restore is affected when used\nto generate a plain-format dump. This is similar to MySQL",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": null,
+      "published_date": "2025-08-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2025-8714/"
+      ]
+    },
+    {
+      "id": "CVE-2024-21096",
+      "source": "postgresql",
+      "title": ".",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-08-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-21096/"
+      ]
+    },
+    {
+      "id": "CVE-2025-8715",
+      "source": "postgresql",
+      "title": "PostgreSQL",
+      "description": "Improper neutralization of newlines in pg_dump in PostgreSQL allows a user of\nthe origin server to inject arbitrary code for restore-time execution as the\nclient operating system account running psql to restore the dump, via psql\nmeta-commands inside a purpose-crafted object name. The same attacks can\nachieve SQL injection as a superuser of the restore target server. pg_dumpall,\npg_restore, and pg_upgrade are also affected. Versions before PostgreSQL 17.6,\n16.10, 15.14, 14.19, and 13.22 are affe",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": null,
+      "published_date": "2025-08-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2025-8715/"
+      ]
+    },
+    {
+      "id": "CVE-2012-0868",
+      "source": "postgresql",
+      "title": "had fixed this class of problem, but version 11.20",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-08-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2012-0868/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [
+    {
+      "name": "Dean Rasheed",
+      "role": "reporter",
+      "url": ""
+    },
+    {
+      "name": "Noah Misch",
+      "role": "reporter",
+      "url": ""
+    }
+  ],
+  "url": "https://www.postgresql.org/about/news/postgresql-176-1610-1514-1419-1322-and-18-beta-3-released-3118/",
+  "vendor": "postgresql",
+  "references": [
+    "https://www.postgresql.org/about/news/postgresql-176-1610-1514-1419-1322-and-18-beta-3-released-3118/"
+  ]
+}

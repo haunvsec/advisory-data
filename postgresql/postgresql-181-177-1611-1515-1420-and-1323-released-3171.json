@@ -1,0 +1,172 @@
+{
+  "id": "postgresql-181-177-1611-1515-1420-and-1323-released-3171",
+  "source": "postgresql",
+  "aliases": [],
+  "title": "PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 Released!",
+  "description": "PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 Released! — 2 security fixes",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": 5.9,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-11-13",
+  "modified_date": "",
+  "affected": [
+    "postgresql:postgresql"
+  ],
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "18.1",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:18.1:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-12817"
+        },
+        {
+          "id": "CVE-2025-12818"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "17.7",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:17.7:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-12817"
+        },
+        {
+          "id": "CVE-2025-12818"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "16.11",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:16.11:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-12817"
+        },
+        {
+          "id": "CVE-2025-12818"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "15.15",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:15.15:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-12817"
+        },
+        {
+          "id": "CVE-2025-12818"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "14.20",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:14.20:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-12817"
+        },
+        {
+          "id": "CVE-2025-12818"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "13.23",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:13.23:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-12817"
+        },
+        {
+          "id": "CVE-2025-12818"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "18.1",
+    "17.7",
+    "16.11",
+    "15.15",
+    "14.20",
+    "13.23"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-12817",
+      "source": "postgresql",
+      "title": "PostgreSQL",
+      "description": "Missing authorization in PostgreSQL\nCREATE STATISTICS\ncommand allows a table owner to achieve denial of service against other\nCREATE STATISTICS\nusers by creating in any schema. A later\nCREATE STATISTICS\nfor the same name, from a user having the\nCREATE\nprivilege, would then fail.\nVersions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are\naffected.",
+      "severity": "low",
+      "cvss_score": 3.1,
+      "cvss_vector": null,
+      "published_date": "2025-11-13",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2025-12817/"
+      ]
+    },
+    {
+      "id": "CVE-2025-12818",
+      "source": "postgresql",
+      "title": "PostgreSQL libpq undersizes allocations, via integer wraparound",
+      "description": "Integer wraparound in multiple PostgreSQL\nlibpq\nclient library functions allows an application input provider or network peer to\ncause libpq to undersize an allocation and write out-of-bounds by hundreds of\nmegabytes.  This results in a segmentation fault for the application using\nlibpq. Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are\naffected.",
+      "severity": "medium",
+      "cvss_score": 5.9,
+      "cvss_vector": null,
+      "published_date": "2025-11-13",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2025-12818/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [
+    {
+      "name": "Jelte Fennema-Nio",
+      "role": "reporter",
+      "url": ""
+    }
+  ],
+  "url": "https://www.postgresql.org/about/news/postgresql-181-177-1611-1515-1420-and-1323-released-3171/",
+  "vendor": "postgresql",
+  "references": [
+    "https://www.postgresql.org/about/news/postgresql-181-177-1611-1515-1420-and-1323-released-3171/"
+  ]
+}

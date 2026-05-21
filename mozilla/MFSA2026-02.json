@@ -1,0 +1,283 @@
+{
+  "id": "MFSA2026-02",
+  "source": "mozilla",
+  "aliases": [],
+  "title": "MFSA 2026-02Security Vulnerabilities fixed in Firefox ESR 115.32",
+  "description": "MFSA 2026-02Security Vulnerabilities fixed in Firefox ESR 115.32",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": 9.8,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-01-13",
+  "modified_date": "",
+  "affected": [
+    "mozilla:firefox-esr"
+  ],
+  "affected_products": [
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0877"
+        },
+        {
+          "id": "CVE-2026-0879"
+        },
+        {
+          "id": "CVE-2026-0880"
+        },
+        {
+          "id": "CVE-2026-0882"
+        },
+        {
+          "id": "CVE-2026-0886"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "<= 115.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0877"
+        },
+        {
+          "id": "CVE-2026-0879"
+        },
+        {
+          "id": "CVE-2026-0880"
+        },
+        {
+          "id": "CVE-2026-0882"
+        },
+        {
+          "id": "CVE-2026-0886"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "<= 140.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0877"
+        },
+        {
+          "id": "CVE-2026-0879"
+        },
+        {
+          "id": "CVE-2026-0880"
+        },
+        {
+          "id": "CVE-2026-0882"
+        },
+        {
+          "id": "CVE-2026-0886"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "<= *",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0877"
+        },
+        {
+          "id": "CVE-2026-0879"
+        },
+        {
+          "id": "CVE-2026-0880"
+        },
+        {
+          "id": "CVE-2026-0882"
+        },
+        {
+          "id": "CVE-2026-0886"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Thunderbird",
+      "version_range": "<= 140.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0877"
+        },
+        {
+          "id": "CVE-2026-0879"
+        },
+        {
+          "id": "CVE-2026-0880"
+        },
+        {
+          "id": "CVE-2026-0882"
+        },
+        {
+          "id": "CVE-2026-0886"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Thunderbird",
+      "version_range": "<= *",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0877"
+        },
+        {
+          "id": "CVE-2026-0879"
+        },
+        {
+          "id": "CVE-2026-0880"
+        },
+        {
+          "id": "CVE-2026-0882"
+        },
+        {
+          "id": "CVE-2026-0886"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-0877",
+      "source": "mozilla",
+      "title": "CVE-2026-0877",
+      "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 147, Firefox ESR 115.32, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "published_date": "2026-01-13",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=1999257",
+        "https://www.mozilla.org/security/advisories/mfsa2026-01/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-02/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-03/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-04/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-05/"
+      ]
+    },
+    {
+      "id": "CVE-2026-0879",
+      "source": "mozilla",
+      "title": "CVE-2026-0879",
+      "description": "Sandbox escape due to incorrect boundary conditions in the Graphics component. This vulnerability was fixed in Firefox 147, Firefox ESR 115.32, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "high",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-01-13",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2004602",
+        "https://www.mozilla.org/security/advisories/mfsa2026-01/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-02/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-03/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-04/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-05/"
+      ]
+    },
+    {
+      "id": "CVE-2026-0880",
+      "source": "mozilla",
+      "title": "CVE-2026-0880",
+      "description": "Sandbox escape due to integer overflow in the Graphics component. This vulnerability was fixed in Firefox 147, Firefox ESR 115.32, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-01-13",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2005014",
+        "https://www.mozilla.org/security/advisories/mfsa2026-01/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-02/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-03/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-04/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-05/"
+      ]
+    },
+    {
+      "id": "CVE-2026-0882",
+      "source": "mozilla",
+      "title": "CVE-2026-0882",
+      "description": "Use-after-free in the IPC component. This vulnerability was fixed in Firefox 147, Firefox ESR 115.32, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-01-13",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=1924125",
+        "https://www.mozilla.org/security/advisories/mfsa2026-01/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-02/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-03/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-04/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-05/"
+      ]
+    },
+    {
+      "id": "CVE-2026-0886",
+      "source": "mozilla",
+      "title": "CVE-2026-0886",
+      "description": "Incorrect boundary conditions in the Graphics component. This vulnerability was fixed in Firefox 147, Firefox ESR 115.32, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "high",
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "published_date": "2026-01-13",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2005658",
+        "https://www.mozilla.org/security/advisories/mfsa2026-01/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-02/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-03/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-04/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-05/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-02/",
+  "vendor": "mozilla",
+  "references": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2026-02/"
+  ]
+}

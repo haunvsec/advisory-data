@@ -1,0 +1,59 @@
+{
+  "id": "2026-003-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2026-1386 - Arbitrary Host File Overwrite via Symlink in Firecracker Jailer",
+  "description": "CVE-2026-1386 - Arbitrary Host File Overwrite via Symlink in Firecracker Jailer\nPosted on:\nJan 23, 2026\nBulletin ID:\n2026-003-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n2026/01/23 12:30 PM PST\nDescription:\nFirecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services. Firecracker runs in user space and uses the Linux Kernel-based Virtual Machine (KVM) to create microVMs. Each Firecracker microVM is further isolated with common Linux user-space security barriers by a companion program called \"jailer\". The jailer provides a second line of defense in case a user escapes from the microVM boundaries and it is released at each Firecracker version.\nWe are aware of\nCVE-2026-1386\n, an issue that is related to the Firecracker jailer, which under certain circumstances can allow an user to overwrite arbitrary files in the host filesystem.\nAWS services that use Firecracker are not impacted by the issue as we appropriately restrict access to the host and the jailer folder, blocking the preconditions required for the attack to happen.\nImpacted versions:\nFirecracker version v1.13.1 and earlier and 1.14.0\nResolution:\nThis issue has been addressed in Firecracker version v1.14.1 and v1.13.2. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nIf users are unable to upgrade to Firecracker version v1.14.1 or v1.13.2, we recommend protecting the jailer folder using UNIX user permissions to restrict their access to only trusted users with these example commands.\nchown <trusted user> <jail folder path>\nchmod 700 <jail folder path>\nReferences:\nCVE-2026-1386\nGHSA-36j2-f825-qvgc\nAcknowledgement:\nWe would like to thank an Independent Security Researcher for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-01-23",
+  "modified_date": "",
+  "affected": [
+    "aws:Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services. Firecracker runs in user space and uses the Linux Kernel-based Virtual Machine (KVM) to create microVMs. Each Firecracker microVM is further isolated with common Linux user-space security barriers by a companion program called \"jailer\". The jailer provides a second line of defense in case a user escapes from the microVM boundaries and it is released at each Firecracker version."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "AWS Firecracker",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:firecracker:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-1386"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-1386",
+      "source": "aws",
+      "title": "CVE-2026-1386",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-01-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-003-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-003-aws/"
+  ]
+}

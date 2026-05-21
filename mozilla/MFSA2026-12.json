@@ -1,0 +1,75 @@
+{
+  "id": "MFSA2026-12",
+  "source": "mozilla",
+  "aliases": [],
+  "title": "MFSA 2026-12Security Vulnerabilities fixed in Firefox for iOS 147.4",
+  "description": "MFSA 2026-12Security Vulnerabilities fixed in Firefox for iOS 147.4",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": 9.8,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-02-24",
+  "modified_date": "",
+  "affected": [
+    "mozilla:firefox-for-ios"
+  ],
+  "affected_products": [
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2634"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Firefox for iOS",
+      "version_range": "<= *",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox_for_ios:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2634"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-2634",
+      "source": "mozilla",
+      "title": "CVE-2026-2634",
+      "description": "Malicious scripts could cause desynchronization between the address bar and web content before a response is received in Firefox iOS, allowing attacker-controlled pages to be presented under spoofed domains. This vulnerability was fixed in Firefox for iOS 147.4.",
+      "severity": "high",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-02-24",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=1975529",
+        "https://www.mozilla.org/security/advisories/mfsa2026-12/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-12/",
+  "vendor": "mozilla",
+  "references": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2026-12/"
+  ]
+}

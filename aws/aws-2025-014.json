@@ -1,0 +1,139 @@
+{
+  "id": "aws-2025-014",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2025-8069 - AWS Client VPN Windows Client Local Privilege Escalation",
+  "description": "CVE-2025-8069 - AWS Client VPN Windows Client Local Privilege Escalation\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n2025/07/23 8:30 AM PDT\nDescription:\nAWS Client VPN\nis a managed client-based VPN service that enables secure access to AWS and on-premises resources. The AWS Client VPN client software runs on end-user devices, supporting Windows, macOS, and Linux and provides the ability for end users to establish a secure tunnel to the AWS Client VPN Service.\nWe identified\nCVE-2025-8069\n, an issue in AWS Client VPN. During the AWS Client VPN client installation on Windows devices, the install process references the C:\\usr\\local\\windows-x86_64-openssl-localbuild\\ssl directory location to fetch the OpenSSL configuration file. As a result, a non-admin user could place arbitrary code in the configuration file. If an admin user starts the AWS Client VPN client installation process, that code could be executed with root-level privileges. This issue does not affect Linux or Mac devices.\nAffected version:\n4.1.0, 5.0.0, 5.0.1, 5.0.2, 5.1.0, 5.2.0, 5.2.1\nResolution:\nThis issue has been addressed in AWS Client VPN Client version\n5.2.2\n. We recommend users discontinue any new installations of AWS Client VPN on Windows prior to version 5.2.2.\nWorkaround:\nN/A\nReferences:\nCVE-2025-8069\nAcknowledgement:\nWe would like to thank Zero Day Initiative for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-07-23",
+  "modified_date": "",
+  "affected": [
+    "aws:AWS Client VPN"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Client VPN",
+      "version_range": "4.1.0",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:client_vpn:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8069"
+        }
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "Amazon Client VPN",
+      "version_range": "5.0.0",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:client_vpn:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8069"
+        }
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "Amazon Client VPN",
+      "version_range": "5.0.1",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:client_vpn:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8069"
+        }
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "Amazon Client VPN",
+      "version_range": "5.0.2",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:client_vpn:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8069"
+        }
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "Amazon Client VPN",
+      "version_range": "5.1.0",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:client_vpn:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8069"
+        }
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "Amazon Client VPN",
+      "version_range": "5.2.0",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:client_vpn:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8069"
+        }
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "Amazon Client VPN",
+      "version_range": "5.2.1",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:client_vpn:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-8069"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "5.2.2"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-8069",
+      "source": "aws",
+      "title": "CVE-2025-8069",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-07-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-014/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-014/"
+  ]
+}

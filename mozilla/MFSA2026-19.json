@@ -1,0 +1,119 @@
+{
+  "id": "MFSA2026-19",
+  "source": "mozilla",
+  "aliases": [],
+  "title": "MFSA 2026-19Security Vulnerabilities fixed in Firefox 148.0.2",
+  "description": "MFSA 2026-19Security Vulnerabilities fixed in Firefox 148.0.2",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 8.8,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-03-10",
+  "modified_date": "",
+  "affected": [
+    "mozilla:firefox"
+  ],
+  "affected_products": [
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-3845"
+        },
+        {
+          "id": "CVE-2026-3846"
+        },
+        {
+          "id": "CVE-2026-3847"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "<= *",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-3845"
+        },
+        {
+          "id": "CVE-2026-3846"
+        },
+        {
+          "id": "CVE-2026-3847"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-3845",
+      "source": "mozilla",
+      "title": "CVE-2026-3845",
+      "description": "Heap buffer overflow in the Audio/Video: Playback component in Firefox for Android. This vulnerability was fixed in Firefox 148.0.2.",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-03-10",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2020174",
+        "https://www.mozilla.org/security/advisories/mfsa2026-19/"
+      ]
+    },
+    {
+      "id": "CVE-2026-3846",
+      "source": "mozilla",
+      "title": "CVE-2026-3846",
+      "description": "Same-origin policy bypass in the CSS Parsing and Computation component. This vulnerability was fixed in Firefox 148.0.2.",
+      "severity": "high",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+      "published_date": "2026-03-10",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2018400",
+        "https://www.mozilla.org/security/advisories/mfsa2026-19/"
+      ]
+    },
+    {
+      "id": "CVE-2026-3847",
+      "source": "mozilla",
+      "title": "CVE-2026-3847",
+      "description": "Memory safety bugs present in Firefox 148.0.2. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 148.0.2.",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-03-10",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/buglist.cgi?bug_id=2017513%2C2017622%2C2019341",
+        "https://www.mozilla.org/security/advisories/mfsa2026-19/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-19/",
+  "vendor": "mozilla",
+  "references": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2026-19/"
+  ]
+}

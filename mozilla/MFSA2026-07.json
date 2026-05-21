@@ -1,0 +1,90 @@
+{
+  "id": "MFSA2026-07",
+  "source": "mozilla",
+  "aliases": [],
+  "title": "MFSA 2026-07Security Vulnerabilities fixed in Thunderbird 147.0.1",
+  "description": "MFSA 2026-07Security Vulnerabilities fixed in Thunderbird 147.0.1",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": 4.3,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-01-28",
+  "modified_date": "",
+  "affected": [
+    "mozilla:thunderbird"
+  ],
+  "affected_products": [
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Thunderbird",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0818"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Thunderbird",
+      "version_range": "<= 140.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0818"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Thunderbird",
+      "version_range": "<= *",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0818"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-0818",
+      "source": "mozilla",
+      "title": "CVE-2026-0818",
+      "description": "When a user explicitly requested Thunderbird to decrypt an inline OpenPGP message that was embedded in a text section of an email that was formatted and styled with HTML and CSS, then the decrypted contents were rendered in a context in which the CSS styles from the outer messages were active. If the user had additionally allowed loading of the remote content referenced by the outer email message, and the email was crafted by the sender using a combination of CSS rules and fonts and animations, then it was possible to extract the secret contents of the email. This vulnerability was fixed in Thunderbird 147.0.1 and Thunderbird 140.7.1.",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+      "published_date": "2026-01-28",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=1881530",
+        "https://www.mozilla.org/security/advisories/mfsa2026-07/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-08/",
+        "https://lists.debian.org/debian-lts-announce/2026/02/msg00005.html"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-07/",
+  "vendor": "mozilla",
+  "references": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2026-07/"
+  ]
+}

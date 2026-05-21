@@ -1,0 +1,111 @@
+{
+  "id": "RHSA-2026:19365",
+  "source": "redhat",
+  "aliases": [],
+  "title": "Red Hat Security Advisory: jq security update",
+  "description": "Red Hat Security Advisory: jq security update",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 7.5,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "cwe_ids": [
+    "CWE-125",
+    "CWE-341",
+    "CWE-328",
+    "CWE-407"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-19",
+  "modified_date": "2026-05-20",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-39979"
+        },
+        {
+          "id": "CVE-2026-40164"
+        }
+      ]
+    },
+    {
+      "vendor": "jqlang",
+      "product": "Jq",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:jqlang:jq:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-39979"
+        },
+        {
+          "id": "CVE-2026-40164"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-39979",
+      "source": "redhat",
+      "title": "jq: out-of-bounds read in jv_parse_sized() on error formatting for non-NUL-terminated buffers",
+      "description": "jq is a command-line JSON processor. In commits before 2f09060afab23fe9390cce7cb860b10416e1bf5f, the jv_parse_sized() API in libjq accepts a counted buffer with an explicit length parameter, but its error-handling path formats the input buffer using %s in jv_string_fmt(), which reads until a NUL terminator is found rather than respecting the caller-supplied length. This means that when malformed JSON is passed in a non-NUL-terminated buffer, the error construction logic performs an out-of-bounds read past the end of the buffer. The vulnerability is reachable by any libjq consumer calling jv_parse_sized() with untrusted input, and depending on memory layout, can result in memory disclosure or process termination. The issue has been patched in commit 2f09060afab23fe9390cce7cb860b10416e1bf5f.",
+      "severity": "important",
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-04-14",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-39979",
+        "https://github.com/jqlang/jq/security/advisories/GHSA-2hhh-px8h-355p",
+        "https://github.com/jqlang/jq/commit/2f09060afab23fe9390cce7cb860b10416e1bf5f"
+      ]
+    },
+    {
+      "id": "CVE-2026-40164",
+      "source": "redhat",
+      "title": "jq: jq: Denial of Service via crafted JSON object causing hash collisions",
+      "description": "jq is a command-line JSON processor. Before commit 0c7d133c3c7e37c00b6d46b658a02244fdd3c784, jq used MurmurHash3 with a hardcoded, publicly visible seed (0x432A9843) for all JSON object hash table operations, which allowed an attacker to precompute key collisions offline. By supplying a crafted JSON object (~100 KB) where all keys hashed to the same bucket, hash table lookups degraded from O(1) to O(n), turning any jq expression into an O(n²) operation and causing significant CPU exhaustion. This affected common jq use cases such as CI/CD pipelines, web services, and data processing scripts, and was far more practical to exploit than existing heap overflow issues since it required only a small payload. This issue has been patched in commit 0c7d133c3c7e37c00b6d46b658a02244fdd3c784.",
+      "severity": "important",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-04-14",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-40164",
+        "https://github.com/jqlang/jq/security/advisories/GHSA-wwj8-gxm6-jc29",
+        "https://github.com/jqlang/jq/commit/0c7d133c3c7e37c00b6d46b658a02244fdd3c784"
+      ]
+    }
+  ],
+  "exploits": [
+    {
+      "product": "PoC",
+      "url": "https://github.com/jqlang/jq/security/advisories/GHSA-2hhh-px8h-355p"
+    }
+  ],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19365",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19365"
+  ]
+}

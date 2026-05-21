@@ -1,0 +1,59 @@
+{
+  "id": "aws-2025-018",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2025-9039 - Issue with Amazon ECS agent introspection server",
+  "description": "CVE-2025-9039 - Issue with Amazon ECS agent introspection server\nPosted on:\nAug 14, 2025\nBulletin ID:\nAWS-2025-018\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n2025/08/14 09:15 AM PDT\nDescription:\nAmazon Elastic Container Service (Amazon ECS)\nis a fully managed container orchestration service that enables customers to deploy, manage, and scale containerized applications. Amazon ECS container agent provides an\nintrospection API\nthat provides information about the overall state of the Amazon ECS agent and the container instances.\nWe identified\nCVE-2025-9039\n, an issue in the Amazon ECS agent. Under certain conditions, this issue could allow an introspection server to be accessed off-host by another instance if the instances are in the same security group or if their security groups allow inbound connections to the introspection server port. This issue does not affect instances where the option to allow off-host access to the introspection server is set to 'false'.\nAffected versions:\nECS Agent versions 0.0.3 through 1.97.0\nResolution:\nThis issue has been addressed in ECS Agent version 1.97.1. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nCustomers who cannot update to the latest AMI can modify the Amazon EC2 security groups to restrict incoming access to the introspection server port (51678).\nReferences:\nCVE-2025-9039\nGHSA-wm7x-ww72-r77q\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-08-14",
+  "modified_date": "",
+  "affected": [
+    "aws:Amazon Elastic Container Service (Amazon ECS)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Elastic Container Service",
+      "version_range": "ECS Agent versions 0.0.3 through 1.97.0",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:aws:amazon_elastic_container_service:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-9039"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-9039",
+      "source": "aws",
+      "title": "CVE-2025-9039",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-08-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-018/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-018/"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ALAS2023-2026-1665",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1665 (important): python3.11-pip",
+  "description": "pip handles concatenated tar and ZIP files as ZIP files regardless of filename or whether a file is both a tar and ZIP file. This behavior could result in confusing installation behavior, such as installing \"incorrect\" files according to the filename of the archive. New behavior only proceeds with installation if the file identifies uniquely as a ZIP or tar archive, not as both. (CVE-2026-3219) pip prior to version 26.1 would run self-update check functionality after installing wheel files which required importing well-known Python modules names. These module imports were intentionally deferred to increase startup time of the pip CLI. The patch changes self-update functionality to run before wheels are installed to prevent newly-installed modules from being imported shortly after the installation of a wheel package. Users should still review package contents prior to installation. (CVE-2026-6357)",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-14",
+  "modified_date": "2026-05-14",
+  "affected": [
+    "al2023:python3.11-pip"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Python3.11-pip",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:python3.11-pip:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-3219"
+        },
+        {
+          "id": "CVE-2026-6357"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update python3.11-pip --releasever 2023.11.20260511",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-3219",
+      "source": "aws-alas",
+      "title": "CVE-2026-3219",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6357",
+      "source": "aws-alas",
+      "title": "CVE-2026-6357",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1665.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1665.html"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "postgresql-162-156-1411-1314-and-1218-released-2807",
+  "source": "postgresql",
+  "aliases": [],
+  "title": "PostgreSQL 16.2, 15.6, 14.11, 13.14, and 12.18 Released!",
+  "description": "PostgreSQL 16.2, 15.6, 14.11, 13.14, and 12.18 Released! — 1 security fixes",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2024-02-08",
+  "modified_date": "",
+  "affected": [
+    "postgresql:postgresql"
+  ],
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "16.2",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:16.2:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-0985"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "15.6",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:15.6:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-0985"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "14.11",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:14.11:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-0985"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "13.14",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:13.14:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-0985"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "12.18",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:12.18:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-0985"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "16.2",
+    "15.6",
+    "14.11",
+    "13.14",
+    "12.18"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2024-0985",
+      "source": "postgresql",
+      "title": "PostgreSQL non-owner",
+      "description": "One step of a concurrent refresh command was run under weak security\nrestrictions. If a materialized view's owner could persuade a superuser or\nother high-privileged user to perform a concurrent refresh on that view,\nthe view's owner could control code executed with the privileges of the user\nrunning\nREFRESH\n. The fix for the vulnerability makes is so that all\nuser-determined code is run as the view's owner, as expected.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-02-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-0985/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [
+    {
+      "name": "Pedro Gallegos",
+      "role": "reporter",
+      "url": ""
+    }
+  ],
+  "url": "https://www.postgresql.org/about/news/postgresql-162-156-1411-1314-and-1218-released-2807/",
+  "vendor": "postgresql",
+  "references": [
+    "https://www.postgresql.org/about/news/postgresql-162-156-1411-1314-and-1218-released-2807/"
+  ]
+}

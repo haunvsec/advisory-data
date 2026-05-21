@@ -1,0 +1,59 @@
+{
+  "id": "2026-010-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2026-4428: Issues with AWS-LC - CRL Distribution Point Scope Check Logic Error",
+  "description": "CVE-2026-4428: Issues with AWS-LC - CRL Distribution Point Scope Check Logic Error\nBulletin ID:\n2026-010-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n03/19/2026 13:30 PM PDT\nDescription:\nAWS-LC is a general-purpose cryptographic library maintained by AWS. We identified\nCVE-2026-4428\naffecting X.509 certificate verification.\nA logic error in the CRL (Certificate Revocation List) distribution point matching in AWS-LC allows a revoked certificate to bypass revocation checks during certificate validation, when the application enables CRL checking and uses partitioned CRLs with Issuing Distribution Point (IDP) extensions.\nApplications that do not enable CRL checking (X509_V_FLAG_CRL_CHECK) are not affected. Applications using complete (non-partitioned) CRLs without IDP extensions are also not affected.\nImpacted versions:\nCRL Distribution Point Scope Check Logic Error in AWS-LC >= v1.24.0, < v1.71.0\nCRL Distribution Point Scope Check Logic Error in AWS-LC-FIPS >= AWS-LC-FIPS-3.0.0, < AWS-LC-FIPS-3.3.0\nCRL Distribution Point Scope Check Logic Error in aws-lc-sys >= v0.15.0, < v0.39.0\nCRL Distribution Point Scope Check Logic Error in aws-lc-fips-sys >= v0.13.0, < v0.13.13\nResolution:\nThese issues have been addressed in\nAWS-LC version v1.71.0\n,\nAWS-LC-FIPS version AWS-LC-FIPS-3.3.0\n,\naws-lc-sys version v0.39.0\n, and\naws-lc-fips-sys version v0.13.13\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nApplications can workaround this issue if they do not enable CRL checking (X509_V_FLAG_CRL_CHECK). Applications using complete (non-partitioned) CRLs without IDP extensions are also not affected.\nReferences:\nCVE-2026-4428\nGHSA-q87m-xr7j-vrww\nGHSA-9f94-5g5w-gf6r\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-03-19",
+  "modified_date": "",
+  "affected": [
+    "aws:AWS-LC is a general-purpose cryptographic library maintained by AWS. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "AWS-LC is a general-purpose cryptographic library maintained by AWS. We identified",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:aws:aws-lc_is_a_general-purpose_cryptographic_library_maintained_by_aws._we_identified:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4428"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-4428",
+      "source": "aws",
+      "title": "CVE-2026-4428",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-19",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-010-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-010-aws/"
+  ]
+}

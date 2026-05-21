@@ -1,0 +1,59 @@
+{
+  "id": "ALAS2023-2026-1636",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1636 (medium): firewalld",
+  "description": "A flaw was found in firewalld. A local unprivileged user can exploit this vulnerability by mis-authorizing two runtime D-Bus (Desktop Bus) setters, setZoneSettings2 and setPolicySettings. This mis-authorization allows the user to modify the runtime firewall state without proper authentication, leading to unauthorized changes in network security configurations. (CVE-2026-4948)",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-14",
+  "modified_date": "2026-05-14",
+  "affected": [
+    "al2023:firewalld"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Firewalld",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:firewalld:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4948"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update firewalld --releasever 2023.11.20260511",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-4948",
+      "source": "aws-alas",
+      "title": "CVE-2026-4948",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1636.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1636.html"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "2026-029-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "Fragnesia Local Privilege Escalation report via ESP-in-TCP in the Linux Kernel",
+  "description": "\"Fragnesia\" Local Privilege Escalation report via ESP-in-TCP in the Linux Kernel (CVE-2026-46300)\nBulletin ID:\n2026-029-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n05/13/2026 13:45 PM PDT\nLast Updated Date:\n05/14/2026 13:45 PM PDT\n⚠️This is an ongoing issue. Information is subject to change. Please refer to our\nSecurity Bulletin (ID: 2026-030-AWS)\nfor the most updated patching information.\nDescription:\nAmazon is aware of\nCVE-2026-46300\n, a report of an additional privilege escalation issue in the Linux kernel related to the DirtyFrag/copy.fail class of issues (\nCVE-2026-43284\n). The proof of concept uses a vector via the loadable module espintcp. Amazon Linux and Bottlerocket don't provide this module, and are not affected.\nAs defense in depth we will include a correctness patch to the core networking code to harden against possible similar issues in network protocol implementations that rely on this behavior.\nRelated Security Bulletins - copy.fail variants:\nSecurity Bulletin 2026-027-AWS\n- CVE-2026-43284 and CVE-2026-31431 (also known as \"DirtyFrag\" or copy.fail 2)\nSecurity Bulletin 2026-026-AWS\n- CVE-2026-31431 (also known as copy.fail)\nReferences:\nhttps://github.com/v12-security/pocs/tree/main/fragnesia\n\"Dirty Frag\" and other issues in Amazon Linux kernels\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-13",
+  "modified_date": "",
+  "affected": [
+    "aws:Amazon is aware of"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon is aware of",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:aws:amazon_is_aware_of:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-31431"
+        },
+        {
+          "id": "CVE-2026-43284"
+        },
+        {
+          "id": "CVE-2026-46300"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-31431",
+      "source": "aws",
+      "title": "CVE-2026-31431",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-13",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-43284",
+      "source": "aws",
+      "title": "CVE-2026-43284",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-13",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46300",
+      "source": "aws",
+      "title": "CVE-2026-46300",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-13",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-029-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-029-aws/"
+  ]
+}

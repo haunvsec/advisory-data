@@ -1,0 +1,75 @@
+{
+  "id": "2026-027-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "Dirty Frag and other issues in Amazon Linux kernels",
+  "description": "\"Dirty Frag\" and other issues in Amazon Linux kernels\nBulletin ID:\n2026-027-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n05/07/2026 19:45 PM PDT\nModification Date:\n05/13/2026 13:30 PM PDT\n⚠️This is an ongoing issue. Information is subject to change. Please refer to our\nSecurity Bulletin (ID: 2026-030-AWS)\nfor the most updated patching information.\nDescription:\nAmazon is aware of a class of issues in the Linux kernel (\nCVE-2026-43284\n) related to the original issue (\nCVE-2026-31431\n). The issues commonly referred to as \"DirtyFrag\" are present in a number of loadable modules, including xfrm_user/esp4/esp6. On systems that allow unprivileged users to create sockets directly or through CAP_NET_ADMIN, or allow the creation of unprivileged user namespaces (user+net), an actor may gain access to kernel memory and thus escalate their privileges.\nCustomer Action Required for Affected Services\nAmazon Linux:\nAmazon Linux kernels 4.14, 5.4, 5.10, 5.15, 6.1, 6.12, and 6.18 are affected. AWS has released updates to Amazon Linux addressing this issue and customers should apply the latest kernel updates. We recommend referring to the Amazon Linux Security Center (ALAS) for updated information related to this issue.\nWe recommend that customers apply the available kernel updates for their environment. To mitigate known vectors without applying kernel updates, customers should take the following actions:\nCheck if the modules are loaded on the host for all affected modules with the following command:\nlsmod | grep -E \"esp4|esp6|rxrpc\"\nIf any of the affected modules are listed in the output, they are currently loaded. If they represent unexpected usage, reboot after the following commands. If they represent known usage, please evaluate other mitigation options.\nDisable future loading of the affected modules individually with the following commands:\necho 'install esp4 /bin/false' >> /etc/modprobe.d/cve-copyfail2.conf\necho 'install esp6 /bin/false' >> /etc/modprobe.d/cve-copyfail2.conf\necho 'install rxrpc /bin/false' >> /etc/modprobe.d/cve-copyfail2.conf\nAlternatively, if the affected modules are not currently loaded, disable loading of all additional kernel modules with the following command:\nsysctl -w kernel.modules_disabled=1\nPlease note, this change is permanent until the next reboot.\nTo mitigate the vector specific to namespaces, the following command disables the option to create them:\nsysctl -w user.max_user_namespaces=0\nFor customers who are using the modules mentioned above, please monitor your environment for anomalous setuid executions. To find more information about \"Copyfail v1\", please refer to our\nSecurity Bulletin\n.\nMore information will be published as soon as updates are available on our\nSecurity Bulletin (ID: 2026-030-AWS)\n.\nRelated Security Bulletins - copy.fail variants:\nSecurity Bulletin 2026-029-AWS\n- CVE-2026-43284 (also known as \"Fragnesia\")\nSecurity Bulletin 2026-026-AWS\n- CVE-2026-31431 (also known as copy.fail",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-07",
+  "modified_date": "",
+  "affected": [
+    "aws:Amazon is aware of a class of issues in the Linux kernel ("
+  ],
+  "affected_products": [
+    {
+      "vendor": "f5",
+      "product": "Linux Kernel",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux_kernel:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-31431"
+        },
+        {
+          "id": "CVE-2026-43284"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-31431",
+      "source": "aws",
+      "title": "CVE-2026-31431",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-43284",
+      "source": "aws",
+      "title": "CVE-2026-43284",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-027-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-027-aws/"
+  ]
+}

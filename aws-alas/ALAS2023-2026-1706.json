@@ -1,0 +1,59 @@
+{
+  "id": "ALAS2023-2026-1706",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1706 (low): firefox",
+  "description": "libexpat before 2.7.6 uses insufficient entropy, and thus hash flooding can occur via a crafted XML document. (CVE-2026-41080)",
+  "severity": "low",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-15",
+  "modified_date": "2026-05-25",
+  "affected": [
+    "al2023:firefox"
+  ],
+  "affected_products": [
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41080"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update firefox --releasever 2023.11.20260514",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-41080",
+      "source": "aws-alas",
+      "title": "CVE-2026-41080",
+      "description": "",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1706.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1706.html"
+  ]
+}

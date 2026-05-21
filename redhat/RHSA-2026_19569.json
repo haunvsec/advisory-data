@@ -1,0 +1,291 @@
+{
+  "id": "RHSA-2026:19569",
+  "source": "redhat",
+  "aliases": [],
+  "title": "Red Hat Security Advisory: kernel security update",
+  "description": "Red Hat Security Advisory: kernel security update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-416",
+    "CWE-390",
+    "CWE-190",
+    "CWE-763",
+    "CWE-787",
+    "CWE-911",
+    "CWE-805",
+    "CWE-123",
+    "CWE-269"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-20",
+  "modified_date": "2026-05-21",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux Real Time (v. 10)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-56603"
+        },
+        {
+          "id": "CVE-2025-39766"
+        },
+        {
+          "id": "CVE-2025-68724"
+        },
+        {
+          "id": "CVE-2025-68741"
+        },
+        {
+          "id": "CVE-2026-23270"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31402"
+        },
+        {
+          "id": "CVE-2026-31408"
+        },
+        {
+          "id": "CVE-2026-31607"
+        },
+        {
+          "id": "CVE-2026-43128"
+        },
+        {
+          "id": "CVE-2026-43284"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2024-56603",
+      "source": "redhat",
+      "title": "kernel: net: af_can: do not leave a dangling sk pointer in can_create()",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2024-56603"
+      ]
+    },
+    {
+      "id": "CVE-2025-39766",
+      "source": "redhat",
+      "title": "kernel: net/sched: Make cake_enqueue return NET_XMIT_CN when past buffer_limit",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-39766"
+      ]
+    },
+    {
+      "id": "CVE-2025-68724",
+      "source": "redhat",
+      "title": "kernel: crypto: asymmetric_keys - prevent overflow in asymmetric_key_generate_id",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68724"
+      ]
+    },
+    {
+      "id": "CVE-2025-68741",
+      "source": "redhat",
+      "title": "kernel: scsi: qla2xxx: Fix improper freeing of purex item",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68741"
+      ]
+    },
+    {
+      "id": "CVE-2026-23270",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: Use-after-free in traffic control (act_ct) may lead to denial of service or privilege escalation",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23270"
+      ]
+    },
+    {
+      "id": "CVE-2026-23401",
+      "source": "redhat",
+      "title": "kernel: Linux kernel KVM: Privilege escalation or denial of service due to improper shadow page table entry handling",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23401"
+      ]
+    },
+    {
+      "id": "CVE-2026-31402",
+      "source": "redhat",
+      "title": "kernel: nfsd: fix heap overflow in NFSv4.0 LOCK replay cache",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31402"
+      ]
+    },
+    {
+      "id": "CVE-2026-31408",
+      "source": "redhat",
+      "title": "kernel: Bluetooth: SCO: Fix use-after-free in sco_recv_frame() due to missing sock_hold",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31408"
+      ]
+    },
+    {
+      "id": "CVE-2026-31607",
+      "source": "redhat",
+      "title": "kernel: usbip: validate number_of_packets in usbip_pack_ret_submit()",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31607"
+      ]
+    },
+    {
+      "id": "CVE-2026-43128",
+      "source": "redhat",
+      "title": "kernel: RDMA/umem: Fix double dma_buf_unpin in failure path",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43128"
+      ]
+    },
+    {
+      "id": "CVE-2026-43284",
+      "source": "redhat",
+      "title": "kernel: \"Dirty Frag\" ESP XFRM variant is a new universal Local Privilege Escalation (LPE) vulnerability in the Linux kernel",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43284"
+      ]
+    },
+    {
+      "id": "CVE-2026-46300",
+      "source": "redhat",
+      "title": "kernel: \"Fragnesia\" is a variant of Dirty Frag vulnerability in the ESP/XFRM leading to Local Privilege Escalation (LPE) vulnerability in the Linux kernel",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46300"
+      ]
+    },
+    {
+      "id": "CVE-2026-46333",
+      "source": "redhat",
+      "title": "kernel: Read root-owned files as an unprivileged user",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46333"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19569",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19569"
+  ]
+}

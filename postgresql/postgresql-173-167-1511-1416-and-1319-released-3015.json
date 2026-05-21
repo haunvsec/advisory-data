@@ -1,0 +1,119 @@
+{
+  "id": "postgresql-173-167-1511-1416-and-1319-released-3015",
+  "source": "postgresql",
+  "aliases": [],
+  "title": "PostgreSQL 17.3, 16.7, 15.11, 14.16, and 13.19 Released!",
+  "description": "PostgreSQL 17.3, 16.7, 15.11, 14.16, and 13.19 Released! — 1 security fixes",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 8.1,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-02-13",
+  "modified_date": "",
+  "affected": [
+    "postgresql:postgresql"
+  ],
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "17.3",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:17.3:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-1094"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "16.7",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:16.7:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-1094"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "15.11",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:15.11:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-1094"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "14.16",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:14.16:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-1094"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "13.19",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:13.19:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-1094"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "17.3",
+    "16.7",
+    "15.11",
+    "14.16",
+    "13.19"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-1094",
+      "source": "postgresql",
+      "title": "PostgreSQL quoting APIs miss neutralizing quoting syntax in text that fails encoding validation",
+      "description": "Improper neutralization of quoting syntax in PostgreSQL\nlibpq\nfunctions\nPQescapeLiteral()\n,\nPQescapeIdentifier()\n,\nPQescapeString()\n, and\nPQescapeStringConn()\nallows a database input provider to achieve SQL\ninjection in certain usage patterns. Specifically, SQL injection requires the\napplication to use the function result to construct input to psql, the\nPostgreSQL interactive terminal. Similarly, improper neutralization of quoting\nsyntax in PostgreSQL command line utility programs allows a sourc",
+      "severity": "high",
+      "cvss_score": 8.1,
+      "cvss_vector": null,
+      "published_date": "2025-02-13",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2025-1094/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.postgresql.org/about/news/postgresql-173-167-1511-1416-and-1319-released-3015/",
+  "vendor": "postgresql",
+  "references": [
+    "https://www.postgresql.org/about/news/postgresql-173-167-1511-1416-and-1319-released-3015/"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "ALAS2023-2026-1703",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1703 (medium): nss",
+  "description": "Incorrect boundary conditions in the Libraries component in NSS. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10. (CVE-2026-6766) Other issue in the Libraries component in NSS. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, and Firefox ESR 140.10. (CVE-2026-6767) Incorrect boundary conditions in the Libraries component in NSS. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, and Firefox ESR 140.10. (CVE-2026-6772)",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-15",
+  "modified_date": "2026-05-25",
+  "affected": [
+    "al2023:nss"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Nss",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:nss:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6766"
+        },
+        {
+          "id": "CVE-2026-6767"
+        },
+        {
+          "id": "CVE-2026-6772"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update nss --releasever 2023.11.20260514",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-6766",
+      "source": "aws-alas",
+      "title": "CVE-2026-6766",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6767",
+      "source": "aws-alas",
+      "title": "CVE-2026-6767",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6772",
+      "source": "aws-alas",
+      "title": "CVE-2026-6772",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1703.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1703.html"
+  ]
+}

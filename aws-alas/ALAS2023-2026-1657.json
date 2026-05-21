@@ -1,0 +1,59 @@
+{
+  "id": "ALAS2023-2026-1657",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1657 (medium): lcms2",
+  "description": "Little CMS (lcms2) through 2.18 has an integer overflow in CubeSize in cmslut.c because the overflow check is performed after the multiplication. (CVE-2026-41254)",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-14",
+  "modified_date": "2026-05-14",
+  "affected": [
+    "al2023:lcms2"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Lcms2",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:lcms2:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41254"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update lcms2 --releasever 2023.11.20260511",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-41254",
+      "source": "aws-alas",
+      "title": "CVE-2026-41254",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1657.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1657.html"
+  ]
+}

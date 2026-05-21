@@ -1,0 +1,170 @@
+{
+  "id": "RHSA-2026:19475",
+  "source": "redhat",
+  "aliases": [],
+  "title": "Red Hat Security Advisory: osbuild-composer security update",
+  "description": "Red Hat Security Advisory: osbuild-composer security update",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": 9.1,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "cwe_ids": [
+    "CWE-1286"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-20",
+  "modified_date": "2026-05-20",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Crypto/tls",
+      "version_range": "< 1.24.13",
+      "fixed_version": "1.24.13",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.24.13:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Crypto/tls",
+      "version_range": "< 1.25.7",
+      "fixed_version": "1.25.7",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.25.7:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Crypto/tls",
+      "version_range": "< 1.26.0-rc.3",
+      "fixed_version": "1.26.0-rc.3",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.26.0-rc.3:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Net/url",
+      "version_range": "< 1.25.8",
+      "fixed_version": "1.25.8",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.25.8:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Net/url",
+      "version_range": "< 1.26.1",
+      "fixed_version": "1.26.1",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.26.1:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-68121",
+      "source": "redhat",
+      "title": "crypto/tls: crypto/tls: Incorrect certificate validation during TLS session resumption",
+      "description": "During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.",
+      "severity": "important",
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-29",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68121",
+        "https://groups.google.com/g/golang-announce/c/K09ubi9FQFk",
+        "https://go.dev/cl/737700",
+        "https://go.dev/issue/77217",
+        "https://pkg.go.dev/vuln/GO-2026-4337"
+      ]
+    },
+    {
+      "id": "CVE-2026-25679",
+      "source": "redhat",
+      "title": "net/url: Incorrect parsing of IPv6 host literals in net/url",
+      "description": "url.Parse insufficiently validated the host/authority component and accepted some invalid URLs.",
+      "severity": "important",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-03-10",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-25679",
+        "https://go.dev/cl/752180",
+        "https://go.dev/issue/77578",
+        "https://groups.google.com/g/golang-announce/c/EdhZqrQ98hk",
+        "https://pkg.go.dev/vuln/GO-2026-4601"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19475",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19475"
+  ]
+}

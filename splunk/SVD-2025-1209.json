@@ -1,0 +1,85 @@
+{
+  "id": "SVD-2025-1209",
+  "source": "splunk",
+  "aliases": [],
+  "title": "Third-Party Package Updates in Splunk Enterprise - December 2025",
+  "description": "Third-Party Package Updates in Splunk Enterprise - December 2025",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 7.7,
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:P",
+  "cwe_ids": [
+    "CWE-22"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-12-03",
+  "modified_date": "",
+  "affected": [
+    "splunk:splunk-enterprise"
+  ],
+  "affected_products": [
+    {
+      "vendor": "splunk",
+      "product": "Splunk Enterprise",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:splunk:splunk_enterprise:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-47273"
+        }
+      ]
+    },
+    {
+      "vendor": "pypa",
+      "product": "Setuptools",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:pypa:setuptools:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-47273"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "Upgrade Splunk Enterprise to versions 10.0.2, 9.4.6, 9.3.8, 9.2.10, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Enterprise\n10.0\nBelow 10.0.2\n10.0.2\nSplunk Enterprise\n9.4\n9.4.0 to 9.4.5\n9.4.6\nSplunk Enterprise\n9.3\n9.3.0 to 9.3.7\n9.3.8\nSplunk Enterprise\n9.2\n9.2.0 to 9.2.9\n9.2.10",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-47273",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - December 2025",
+      "description": "setuptools is a package that allows users to download, build, install, upgrade, and uninstall Python packages. A path traversal vulnerability in `PackageIndex` is present in setuptools prior to version 78.1.1. An attacker would be allowed to write files to arbitrary locations on the filesystem with the permissions of the process running the Python code, which could escalate to remote code execution depending on the context. Version 78.1.1 fixes the issue.",
+      "severity": "high",
+      "cvss_score": 7.7,
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:P",
+      "published_date": "2025-12-03",
+      "modified_date": "2025-05-28",
+      "affected": [],
+      "references": [
+        "https://github.com/pypa/setuptools/security/advisories/GHSA-5rjg-fvgr-3xxf",
+        "https://github.com/pypa/setuptools/issues/4946",
+        "https://github.com/pypa/setuptools/commit/250a6d17978f9f6ac3ac887091f2d32886fbbb0b",
+        "https://github.com/pypa/setuptools/blob/6ead555c5fb29bc57fe6105b1bffc163f56fd558/setuptools/package_index.py#L810C1-L825C88",
+        "https://lists.debian.org/debian-lts-announce/2025/05/msg00035.html"
+      ]
+    }
+  ],
+  "exploits": [
+    {
+      "product": "PoC",
+      "url": "https://github.com/pypa/setuptools/issues/4946"
+    }
+  ],
+  "credits": [],
+  "url": "https://advisory.splunk.com/advisories/SVD-2025-1209",
+  "vendor": "splunk",
+  "references": [
+    "https://advisory.splunk.com/advisories/SVD-2025-1209"
+  ]
+}

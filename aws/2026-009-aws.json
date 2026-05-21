@@ -1,0 +1,59 @@
+{
+  "id": "2026-009-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "Arbitrary code execution via crafted project files in Kiro IDE",
+  "description": "Arbitrary code execution via crafted project files in Kiro IDE\nPosted on:\nMar 17, 2026\nBulletin ID:\n2026-009-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n03/17/2026 12:15 PM PDT\nDescription:\nKiro is an AI-powered IDE for agentic software development. We identified\nCVE-2026-4295\n, where improper trust boundary enforcement allowed arbitrary code execution when a user opened a maliciously crafted project directory.\nImpacted versions:\n< 0.8.0\nResolution:\nThis issue has been addressed in Kiro IDE version 0.8.0. The latest version is available\nhere\n.\nWorkarounds:\nUsers who cannot immediately upgrade should avoid opening untrusted project directories in Kiro IDE.\nReferences:\nCVE-2026-4295\nLatest version of Kiro IDE\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-03-17",
+  "modified_date": "",
+  "affected": [
+    "aws:Kiro is an AI-powered IDE for agentic software development. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Kiro is an AI-powered IDE for agentic software development. We identified",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:aws:kiro_is_an_ai-powered_ide_for_agentic_software_development._we_identified:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4295"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-4295",
+      "source": "aws",
+      "title": "CVE-2026-4295",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-17",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-009-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-009-aws/"
+  ]
+}

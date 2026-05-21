@@ -1,0 +1,119 @@
+{
+  "id": "postgresql-175-169-1513-1418-and-1321-released-3072",
+  "source": "postgresql",
+  "aliases": [],
+  "title": "PostgreSQL 17.5, 16.9, 15.13, 14.18, and 13.21 Released!",
+  "description": "PostgreSQL 17.5, 16.9, 15.13, 14.18, and 13.21 Released! — 1 security fixes",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": 5.9,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-05-08",
+  "modified_date": "",
+  "affected": [
+    "postgresql:postgresql"
+  ],
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "17.5",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:17.5:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-4207"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "16.9",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:16.9:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-4207"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "15.13",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:15.13:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-4207"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "14.18",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:14.18:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-4207"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "13.21",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:13.21:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-4207"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "17.5",
+    "16.9",
+    "15.13",
+    "14.18",
+    "13.21"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-4207",
+      "source": "postgresql",
+      "title": "PostgreSQL GB18030 encoding validation can read one byte past end of allocation for text that fails validation",
+      "description": "A buffer over-read in PostgreSQL GB18030 encoding validation allows a database\ninput provider to achieve temporary denial of service on platforms where a\n1-byte over-read can elicit process termination. This affects the database\nserver and also libpq. Versions before PostgreSQL 17.5, 16.9, 15.13, 14.18, and\n13.21 are affected.\nBug Fixes and Improvements\nThis update fixes over 60 bugs that were reported in the last several months.\nThe issues listed below affect PostgreSQL 17. Some of these issues",
+      "severity": "medium",
+      "cvss_score": 5.9,
+      "cvss_vector": null,
+      "published_date": "2025-05-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2025-4207/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.postgresql.org/about/news/postgresql-175-169-1513-1418-and-1321-released-3072/",
+  "vendor": "postgresql",
+  "references": [
+    "https://www.postgresql.org/about/news/postgresql-175-169-1513-1418-and-1321-released-3072/"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "MFSA2026-18",
+  "source": "mozilla",
+  "aliases": [],
+  "title": "MFSA 2026-18Security Vulnerabilities fixed in Focus for iOS 148.2",
+  "description": "MFSA 2026-18Security Vulnerabilities fixed in Focus for iOS 148.2",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 4.3,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-03-09",
+  "modified_date": "",
+  "affected": [
+    "mozilla:focus"
+  ],
+  "affected_products": [
+    {
+      "vendor": "mozilla",
+      "product": "Focus",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:focus:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2919"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Focus for iOS",
+      "version_range": "<= *",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:focus_for_ios:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2919"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-2919",
+      "source": "mozilla",
+      "title": "CVE-2026-2919",
+      "description": "Malicious scripts could display attacker-controlled web content under spoofed domains in Focus for iOS by stalling a _self navigation to an invalid port and triggering an iframe redirect, causing the UI to display a trusted domain without user interaction. This vulnerability was fixed in Focus for iOS 148.2.",
+      "severity": "high",
+      "cvss_score": 4.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "published_date": "2026-03-09",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=1975842",
+        "https://www.mozilla.org/security/advisories/mfsa2026-18/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-18/",
+  "vendor": "mozilla",
+  "references": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2026-18/"
+  ]
+}

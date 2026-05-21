@@ -1,0 +1,59 @@
+{
+  "id": "ALAS2023-2026-1643",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1643 (medium): freerdp",
+  "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Versions prior to 3.25.0 have an off-by-one in the path traversal filter in `channels/drive/client/drive_file.c`. The `contains_dotdot()` function catches `../` and `..\\` mid-path but misses `..` when it's the last component with no trailing separator. A rogue RDP server can read, list, or write files one directory above the client's shared folder through RDPDR requests. This requires the victim to connect with drive redirection enabled. Version 3.25.0 patches the issue. (CVE-2026-40254)",
+  "severity": "medium",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-14",
+  "modified_date": "2026-05-14",
+  "affected": [
+    "al2023:freerdp"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Freerdp",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:freerdp:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40254"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update freerdp --releasever 2023.11.20260511",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-40254",
+      "source": "aws-alas",
+      "title": "CVE-2026-40254",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1643.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1643.html"
+  ]
+}

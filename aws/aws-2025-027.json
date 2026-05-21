@@ -1,0 +1,59 @@
+{
+  "id": "aws-2025-027",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2025-12829 - Integer Overflow issue in Amazon Ion-C",
+  "description": "CVE-2025-12829 - Integer Overflow issue in Amazon Ion-C\nPosted on:\nNov 7, 2025\nBulletin ID:\nAWS-2025-027\nScope:\nAmazon\nContent Type:\nImportant (requires attention)\nPublication Date:\n2025/11/7 10:15 AM PDT\nDescription:\nAmazon's Ion-C is a library for the C language that is used to read and write Amazon Ion data.\nWe Identified\nCVE-2025-12829\n, which describes an uninitialized stack read issue in Ion-C versions <v1.1.4 that may allow a threat actor to craft data and serialize it to Ion text in such a way that sensitive data in memory could be exposed through UTF-8 escape sequences.\nImpacted versions:\n< v1.1.4\nResolution:\nThis issue has been addressed in\nIon-C version 1.1.4\n. We recommend only accepting data from trusted sources, which are written using a supported Ion library.\nReferences:\nCVE-2025-12829\nGHSA-7mgf-6x73-5h7r\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-11-07",
+  "modified_date": "",
+  "affected": [
+    "aws:Amazon's Ion-C is a library for the C language that is used to read and write Amazon Ion data."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-12829"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-12829",
+      "source": "aws",
+      "title": "CVE-2025-12829",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2025-11-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-027/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-027/"
+  ]
+}

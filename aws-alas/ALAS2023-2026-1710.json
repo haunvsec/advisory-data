@@ -1,0 +1,59 @@
+{
+  "id": "ALAS2023-2026-1710",
+  "source": "aws-alas",
+  "aliases": [],
+  "title": "ALAS2023-2026-1710 (important): kernel",
+  "description": "In the Linux kernel, the following vulnerability has been resolved: net: skbuff: propagate shared-frag marker through pskb_copy() (CVE-2026-46300)",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-15",
+  "modified_date": "2026-05-15",
+  "affected": [
+    "al2023:kernel"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Kernel",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:kernel:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-46300"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update kernel --releasever 2023.11.20260514",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-46300",
+      "source": "aws-alas",
+      "title": "CVE-2026-46300",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1710.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1710.html"
+  ]
+}

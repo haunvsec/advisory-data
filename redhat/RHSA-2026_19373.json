@@ -1,0 +1,196 @@
+{
+  "id": "RHSA-2026:19373",
+  "source": "redhat",
+  "aliases": [],
+  "title": "Red Hat Security Advisory: dnsmasq security update",
+  "description": "Red Hat Security Advisory: dnsmasq security update",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 8.4,
+  "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cwe_ids": [
+    "CWE-131",
+    "CWE-835",
+    "CWE-125",
+    "CWE-122",
+    "CWE-20"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-19",
+  "modified_date": "2026-05-20",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2291"
+        },
+        {
+          "id": "CVE-2026-4890"
+        },
+        {
+          "id": "CVE-2026-4891"
+        },
+        {
+          "id": "CVE-2026-4892"
+        },
+        {
+          "id": "CVE-2026-4893"
+        }
+      ]
+    },
+    {
+      "vendor": "dnsmasq",
+      "product": "Dnsmasq",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:dnsmasq:dnsmasq:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2291"
+        },
+        {
+          "id": "CVE-2026-4890"
+        },
+        {
+          "id": "CVE-2026-4891"
+        },
+        {
+          "id": "CVE-2026-4892"
+        },
+        {
+          "id": "CVE-2026-4893"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-2291",
+      "source": "redhat",
+      "title": "dnsmasq: dnsmasq: heap buffer overflow in cache via NAME_ESCAPE expansion",
+      "description": "dnsmasqs extract_name() function can be abused to cause a heap buffer overflow, allowing an attacker to inject false DNS cache entries, which could result in DNS lookups to redirect to an attacker-controlled IP address, or to cause a DoS.",
+      "severity": "important",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-05-13",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-2291",
+        "https://www.suse.com/security/cve/CVE-2026-2291.html",
+        "https://www.kb.cert.org/vuls/id/471747",
+        "https://thekelleys.org.uk/dnsmasq/CVE/",
+        "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+        "https://github.com/NixOS/nixpkgs/pull/519082",
+        "https://github.com/NixOS/nixpkgs/pull/519093",
+        "https://github.com/pi-hole/FTL/releases/tag/v6.6.2"
+      ]
+    },
+    {
+      "id": "CVE-2026-4890",
+      "source": "redhat",
+      "title": "dnsmasq: NSEC bitmap parsing infinite loop",
+      "description": "A Denial of Service (DoS) vulnerability in the DNSSEC validation of dnsmasq allows remote attackers to cause a denial of service via a crafted DNS packet.",
+      "severity": "important",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-4890",
+        "https://www.kb.cert.org/vuls/id/471747",
+        "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+        "https://thekelleys.org.uk/dnsmasq/CVE/",
+        "https://github.com/NixOS/nixpkgs/pull/519093",
+        "https://github.com/NixOS/nixpkgs/pull/519082",
+        "https://github.com/pi-hole/FTL/releases/tag/v6.6.2"
+      ]
+    },
+    {
+      "id": "CVE-2026-4891",
+      "source": "redhat",
+      "title": "dnsmasq: RRSIG rdlen underflow leading to heap OOB read",
+      "description": "A heap-based out-of-bounds read vulnerability in the DNSSEC validation of dnsmasq allows remote attackers to cause a denial of service via a crafted DNS packet.",
+      "severity": "important",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-4891",
+        "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+        "https://www.kb.cert.org/vuls/id/471747",
+        "https://thekelleys.org.uk/dnsmasq/CVE/",
+        "https://github.com/NixOS/nixpkgs/pull/519082",
+        "https://github.com/NixOS/nixpkgs/pull/519093",
+        "https://github.com/pi-hole/FTL/releases/tag/v6.6.2"
+      ]
+    },
+    {
+      "id": "CVE-2026-4892",
+      "source": "redhat",
+      "title": "dnsmasq: DHCPv6 CLID buffer overflow in helper process",
+      "description": "A heap-based out-of-bounds write vulnerability in the DHCPv6 implementation of dnsmasq allows local attackers to execute arbitrary code with root privileges via a crafted DHCPv6 packet.",
+      "severity": "important",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-4892",
+        "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+        "https://www.kb.cert.org/vuls/id/471747",
+        "https://thekelleys.org.uk/dnsmasq/CVE/",
+        "https://github.com/NixOS/nixpkgs/pull/519082",
+        "https://github.com/NixOS/nixpkgs/pull/519093",
+        "https://github.com/pi-hole/FTL/releases/tag/v6.6.2"
+      ]
+    },
+    {
+      "id": "CVE-2026-4893",
+      "source": "redhat",
+      "title": "dnsmasq: Broken ECS source validation bypass",
+      "description": "An information disclosure vulnerability in dnsmasq allows remote attackers to bypass source checks via a crafted DNS packet with RFC 7871 client subnet information.",
+      "severity": "important",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "published_date": "2026-05-19",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-4893",
+        "https://www.kb.cert.org/vuls/id/471747",
+        "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+        "https://thekelleys.org.uk/dnsmasq/CVE/",
+        "https://github.com/NixOS/nixpkgs/pull/519093",
+        "https://github.com/NixOS/nixpkgs/pull/519082",
+        "https://github.com/pi-hole/FTL/releases/tag/v6.6.2"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19373",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19373"
+  ]
+}

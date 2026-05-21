@@ -1,0 +1,155 @@
+{
+  "id": "postgresql-154-149-1312-1216-1121-and-postgresql-16-beta-3-released-2689",
+  "source": "postgresql",
+  "aliases": [],
+  "title": "PostgreSQL 15.4, 14.9, 13.12, 12.16, 11.21, and PostgreSQL 16 Beta 3 Released!",
+  "description": "PostgreSQL 15.4, 14.9, 13.12, 12.16, 11.21, and PostgreSQL 16 Beta 3 Released! — 2 security fixes",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2023-08-10",
+  "modified_date": "",
+  "affected": [
+    "postgresql:postgresql"
+  ],
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "15.4",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:15.4:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-39417"
+        },
+        {
+          "id": "CVE-2023-39418"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "14.9",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:14.9:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-39417"
+        },
+        {
+          "id": "CVE-2023-39418"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "13.12",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:13.12:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-39417"
+        },
+        {
+          "id": "CVE-2023-39418"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "12.16",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:12.16:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-39417"
+        },
+        {
+          "id": "CVE-2023-39418"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "11.21",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:11.21:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-39417"
+        },
+        {
+          "id": "CVE-2023-39418"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "15.4",
+    "14.9",
+    "13.12",
+    "12.16",
+    "11.21"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2023-39417",
+      "source": "postgresql",
+      "title": "Extension script",
+      "description": "test unsupported versions, but this problem is quite old.\nAn\nextension script\nis vulnerable if it uses\n@extowner@\n,\n@extschema@\n, or\n@extschema:...@\ninside a quoting construct (dollar quoting,\n''\n, or\n\"\"\n). No bundled extension\nis vulnerable. Vulnerable uses do appear in a documentation example and in\nnon-bundled extensions. Hence, the attack prerequisite is an administrator\nhaving installed files of a vulnerable, trusted, non-bundled extension. Subject\nto that prerequisite, this enables an atta",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2023-39417/"
+      ]
+    },
+    {
+      "id": "CVE-2023-39418",
+      "source": "postgresql",
+      "title": "MERGE",
+      "description": "PostgreSQL 15 introduced the\nMERGE\ncommand, which fails to test new rows against row security policies defined for\nUPDATE\nand\nSELECT\n. If\nUPDATE\nand\nSELECT\npolicies forbid some row that\nINSERT\npolicies do not forbid, a\nuser could store such rows.  Subsequent consequences are application-dependent.\nThis affects only databases that have used\nCREATE POLICY\nto define a row security policy.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2023-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2023-39418/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [
+    {
+      "name": "Dean Rasheed",
+      "role": "reporter",
+      "url": ""
+    }
+  ],
+  "url": "https://www.postgresql.org/about/news/postgresql-154-149-1312-1216-1121-and-postgresql-16-beta-3-released-2689/",
+  "vendor": "postgresql",
+  "references": [
+    "https://www.postgresql.org/about/news/postgresql-154-149-1312-1216-1121-and-postgresql-16-beta-3-released-2689/"
+  ]
+}

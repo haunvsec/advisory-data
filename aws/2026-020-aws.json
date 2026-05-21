@@ -1,0 +1,59 @@
+{
+  "id": "2026-020-aws",
+  "source": "aws",
+  "aliases": [],
+  "title": "CVE-2026-7191- Arbitrary Code Execution via Sandbox Bypass in QnABot on AWS",
+  "description": "CVE-2026-7191- Arbitrary Code Execution via Sandbox Bypass in QnABot on AWS\nPosted on:\nApr 27, 2026\nBulletin ID:\n2026-020-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n04/27/2026 13:15 PM PDT\nDescription:\nQnABot on AWS is an open-source solution that provides a multi-channel, multi-language conversational interface powered by Amazon Lex, Amazon OpenSearch Service, and optionally Amazon Bedrock.\nWe identified\nCVE-2026-7191\n, where the improper use of the static-eval npm package may allow an authenticated administrator to execute arbitrary code within the fulfillment Lambda execution context. By injecting a crafted conditional chaining expression via the Content Designer interface, an actor with Admin access could bypass the intended expression sandbox through JavaScript prototype manipulation. Successful exploitation may grant direct access to backend resources, including Lambda environment variables, OpenSearch indices, S3 objects, and DynamoDB tables, that are not exposed through normal administrative interfaces.\nImpacted versions:\n<=7.2.4\nResolution:\nThis issue has been addressed in\nQnABot on AWS version 7.3.0\n. The static-eval dependency has been removed and replaced with a limited, custom expression evaluator. We recommend upgrading to a version > v7.2.4 and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nThere is no workaround for this issue. Upgrade to version 7.3.0 or later.\nReferences:\nCVE-2026-7191\nGHSA-h47x-8hgm-m83h\nAcknowledgment:\nWe would like to thank Endor Labs for responsibly disclosing this issue to AWS.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-04-27",
+  "modified_date": "",
+  "affected": [
+    "aws:QnABot on AWS is an open-source solution that provides a multi-channel, multi-language conversational interface powered by Amazon Lex, Amazon OpenSearch Service, and optionally Amazon Bedrock."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-7191"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-7191",
+      "source": "aws",
+      "title": "CVE-2026-7191",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-27",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-020-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-020-aws/"
+  ]
+}

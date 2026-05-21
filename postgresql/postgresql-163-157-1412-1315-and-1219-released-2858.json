@@ -1,0 +1,245 @@
+{
+  "id": "postgresql-163-157-1412-1315-and-1219-released-2858",
+  "source": "postgresql",
+  "aliases": [],
+  "title": "PostgreSQL 16.3, 15.7, 14.12, 13.15, and 12.19 Released!",
+  "description": "PostgreSQL 16.3, 15.7, 14.12, 13.15, and 12.19 Released! — 9 security fixes",
+  "severity": "low",
+  "cvss_scores": [],
+  "cvss_score": 3.1,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2024-05-09",
+  "modified_date": "",
+  "affected": [
+    "postgresql:postgresql"
+  ],
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "16.3",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:16.3:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-4317"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "15.7",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:15.7:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-4317"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "14.12",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:14.12:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-4317"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "13.15",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:13.15:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-4317"
+        }
+      ]
+    },
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "12.19",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:12.19:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-4317"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "16.3",
+    "15.7",
+    "14.12",
+    "13.15",
+    "12.19"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2024-4317",
+      "source": "postgresql",
+      "title": "Restrict visibility of",
+      "description": "Missing authorization in PostgreSQL built-in views\npg_stats_ext\nand\npg_stats_ext_exprs\nallows an unprivileged database user to read most common values and other\nstatistics from\nCREATE STATISTICS\ncommands of other users. The most common values may reveal column values the\neavesdropper could not otherwise read or results of functions they cannot\nexecute.\nThis fix only fixes fresh PostgreSQL installations, namely those that are\ncreated with the\ninitdb\nutility after this fix is applied. If you have ",
+      "severity": "low",
+      "cvss_score": 3.1,
+      "cvss_vector": null,
+      "published_date": "2024-05-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-4317/"
+      ]
+    },
+    {
+      "id": "CVE-2024-4317",
+      "source": "postgresql",
+      "title": "that wish to",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-05-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-4317/"
+      ]
+    },
+    {
+      "id": "CVE-2024-4317",
+      "source": "postgresql",
+      "title": ".sql",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-05-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-4317/"
+      ]
+    },
+    {
+      "id": "CVE-2024-4317",
+      "source": "postgresql",
+      "title": ".sql;hb=refs/heads/REL_16_STABLE",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-05-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-4317/"
+      ]
+    },
+    {
+      "id": "CVE-2024-4317",
+      "source": "postgresql",
+      "title": ".sql;hb=refs/heads/REL_15_STABLE",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-05-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-4317/"
+      ]
+    },
+    {
+      "id": "CVE-2024-4317",
+      "source": "postgresql",
+      "title": ".sql;hb=refs/heads/REL_14_STABLE",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-05-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-4317/"
+      ]
+    },
+    {
+      "id": "CVE-2024-4317",
+      "source": "postgresql",
+      "title": ".sql",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-05-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-4317/"
+      ]
+    },
+    {
+      "id": "CVE-2024-4317",
+      "source": "postgresql",
+      "title": ".sql",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-05-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-4317/"
+      ]
+    },
+    {
+      "id": "CVE-2024-4317",
+      "source": "postgresql",
+      "title": ".sql",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2024-05-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://www.postgresql.org/support/security/CVE-2024-4317/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [
+    {
+      "name": "Lukas Fittl",
+      "role": "reporter",
+      "url": ""
+    }
+  ],
+  "url": "https://www.postgresql.org/about/news/postgresql-163-157-1412-1315-and-1219-released-2858/",
+  "vendor": "postgresql",
+  "references": [
+    "https://www.postgresql.org/about/news/postgresql-163-157-1412-1315-and-1219-released-2858/"
+  ]
+}
