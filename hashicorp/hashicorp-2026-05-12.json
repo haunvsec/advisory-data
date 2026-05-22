@@ -1,0 +1,134 @@
+{
+  "id": "hashicorp-2026-05-12",
+  "source": "hashicorp",
+  "aliases": [
+    "CVE-2026-5061",
+    "CVE-2026-6959",
+    "CVE-2026-7474",
+    "CVE-2026-8052"
+  ],
+  "title": "Hashicorp Security Advisories - 2026-05-12",
+  "description": "Merged 4 hashicorp security advisories published on 2026-05-12. Original advisory IDs: HCSEC-2026-13, HCSEC-2026-12, HCSEC-2026-15, HCSEC-2026-14\n\nTitles:\n- HCSEC-2026-13 - Nomad's exec2 task driver vulnerable to arbitrary file read/write on client host through symlink attack\n- HCSEC-2026-12 - Consul-template vulnerable to sandbox path bypass in file helper through symlink attack\n- HCSEC-2026-15 - Nomad vulnerable to path traversal in dynamic host volume which may lead to code execution\n- HCSEC-2026-14 - Nomad arbitrary file read/write on client host through symlink attack",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-12",
+  "modified_date": "2026-05-12",
+  "affected": [
+    "hashicorp:nomad",
+    "hashicorp:consul"
+  ],
+  "affected_products": [
+    {
+      "vendor": "hashicorp",
+      "product": "HashiCorp Nomad",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:hashicorp:nomad:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-8052"
+        },
+        {
+          "id": "CVE-2026-7474"
+        },
+        {
+          "id": "CVE-2026-6959"
+        }
+      ]
+    },
+    {
+      "vendor": "hashicorp",
+      "product": "HashiCorp Consul",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:hashicorp:consul:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-5061"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-5061",
+      "source": "hashicorp",
+      "title": "CVE-2026-5061",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://discuss.hashicorp.com/t/77414"
+      ]
+    },
+    {
+      "id": "CVE-2026-6959",
+      "source": "hashicorp",
+      "title": "CVE-2026-6959",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://discuss.hashicorp.com/t/77416"
+      ]
+    },
+    {
+      "id": "CVE-2026-7474",
+      "source": "hashicorp",
+      "title": "CVE-2026-7474",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://discuss.hashicorp.com/t/77417"
+      ]
+    },
+    {
+      "id": "CVE-2026-8052",
+      "source": "hashicorp",
+      "title": "CVE-2026-8052",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://discuss.hashicorp.com/t/77415"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://discuss.hashicorp.com/t/hcsec-2026-13-nomads-exec2-task-driver-vulnerable-to-arbitrary-file-read-write-on-client-host-through-symlink-attack/77415",
+  "vendor": "hashicorp",
+  "references": [
+    "https://discuss.hashicorp.com/t/hcsec-2026-13-nomads-exec2-task-driver-vulnerable-to-arbitrary-file-read-write-on-client-host-through-symlink-attack/77415",
+    "https://discuss.hashicorp.com/t/hcsec-2026-12-consul-template-vulnerable-to-sandbox-path-bypass-in-file-helper-through-symlink-attack/77414",
+    "https://discuss.hashicorp.com/t/hcsec-2026-15-nomad-vulnerable-to-path-traversal-in-dynamic-host-volume-which-may-lead-to-code-execution/77417",
+    "https://discuss.hashicorp.com/t/hcsec-2026-14-nomad-arbitrary-file-read-write-on-client-host-through-symlink-attack/77416"
+  ]
+}

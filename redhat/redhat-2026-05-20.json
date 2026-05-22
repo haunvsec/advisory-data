@@ -1,0 +1,4799 @@
+{
+  "id": "redhat-2026-05-20",
+  "source": "redhat",
+  "aliases": [
+    "CVE-2024-56603",
+    "CVE-2025-14087",
+    "CVE-2025-14512",
+    "CVE-2025-21999",
+    "CVE-2025-38024",
+    "CVE-2025-39766",
+    "CVE-2025-47913",
+    "CVE-2025-59032",
+    "CVE-2025-61726",
+    "CVE-2025-61729",
+    "CVE-2025-68121",
+    "CVE-2025-68724",
+    "CVE-2025-68741",
+    "CVE-2025-71116",
+    "CVE-2025-71238",
+    "CVE-2026-22984",
+    "CVE-2026-22990",
+    "CVE-2026-23136",
+    "CVE-2026-23191",
+    "CVE-2026-23204",
+    "CVE-2026-23243",
+    "CVE-2026-23270",
+    "CVE-2026-23401",
+    "CVE-2026-25679",
+    "CVE-2026-25952",
+    "CVE-2026-26986",
+    "CVE-2026-27857",
+    "CVE-2026-27858",
+    "CVE-2026-27951",
+    "CVE-2026-29775",
+    "CVE-2026-31402",
+    "CVE-2026-31408",
+    "CVE-2026-31419",
+    "CVE-2026-31532",
+    "CVE-2026-31607",
+    "CVE-2026-31883",
+    "CVE-2026-31884",
+    "CVE-2026-31885",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-33186",
+    "CVE-2026-33810",
+    "CVE-2026-33985",
+    "CVE-2026-34588",
+    "CVE-2026-34986",
+    "CVE-2026-37555",
+    "CVE-2026-41651",
+    "CVE-2026-43128",
+    "CVE-2026-43163",
+    "CVE-2026-43284",
+    "CVE-2026-46300",
+    "CVE-2026-46333",
+    "CVE-2026-4775",
+    "CVE-2026-4786",
+    "CVE-2026-4878",
+    "CVE-2026-6100",
+    "CVE-2026-6746",
+    "CVE-2026-6747",
+    "CVE-2026-6748",
+    "CVE-2026-6749",
+    "CVE-2026-6750",
+    "CVE-2026-6751",
+    "CVE-2026-6752",
+    "CVE-2026-6753",
+    "CVE-2026-6754",
+    "CVE-2026-6757",
+    "CVE-2026-6759",
+    "CVE-2026-6761",
+    "CVE-2026-6762",
+    "CVE-2026-6763",
+    "CVE-2026-6764",
+    "CVE-2026-6765",
+    "CVE-2026-6766",
+    "CVE-2026-6767",
+    "CVE-2026-6769",
+    "CVE-2026-6770",
+    "CVE-2026-6771",
+    "CVE-2026-6772",
+    "CVE-2026-6776",
+    "CVE-2026-6785",
+    "CVE-2026-6786",
+    "CVE-2026-7320",
+    "CVE-2026-7321",
+    "CVE-2026-7322",
+    "CVE-2026-7323"
+  ],
+  "title": "Redhat Security Advisories - 2026-05-20",
+  "description": "Merged 68 redhat security advisories published on 2026-05-20. Original advisory IDs: RHSA-2026:19715, RHSA-2026:19559, RHSA-2026:19666, RHSA-2026:19719, RHSA-2026:19575, RHSA-2026:19467, RHSA-2026:19466, RHSA-2026:19523, RHSA-2026:19574, RHSA-2026:19722, RHSA-2026:19714, RHSA-2026:19702, RHSA-2026:19610, RHSA-2026:19811, RHSA-2026:19542, RHSA-2026:19450, RHSA-2026:19549, RHSA-2026:19565, RHSA-2026:19573, RHSA-2026:19457, RHSA-2026:19586, RHSA-2026:19569, RHSA-2026:19705, RHSA-2026:19590, RHSA-2026:19601, RHSA-2026:19657, RHSA-2026:19704, RHSA-2026:19587, RHSA-2026:19568, RHSA-2026:19456, RHSA-2026:19460, RHSA-2026:19572, RHSA-2026:19564, RHSA-2026:19875, RHSA-2026:19571, RHSA-2026:19567, RHSA-2026:19588, RHSA-2026:19475, RHSA-2026:19459, RHSA-2026:19711, RHSA-2026:19750, RHSA-2026:19455, RHSA-2026:19550, RHSA-2026:19454, RHSA-2026:19585, RHSA-2026:19655, RHSA-2026:19634, RHSA-2026:19458, RHSA-2026:19566, RHSA-2026:19589...\n\nTitles:\n- Red Hat Security Advisory: git-lfs security update\n- Red Hat Security Advisory: libsndfile security update\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: opentelemetry-collector security update\n- Red Hat Security Advisory: kpatch-patch-5_14_0-70_124_1, kpatch-patch-5_14_0-70_132_1, kpatch-patch-5_14_0-70_144_1, kpatch-patch-5_14_0-70_155_1, and kpatch-patch-5_14_0-70_167_1 security update\n- Red Hat Security Advisory: thunderbird security update\n- Red Hat Security Advisory: glib2 security update\n- Red Hat Security Advisory: kpatch-patch-4_18_0-553_109_1, kpatch-patch-4_18_0-553_40_1, kpatch-patch-4_18_0-553_53_1, kpatch-patch-4_18_0-553_72_1, and kpatch-patch-4_18_0-553_85_1 security update\n- Red Hat Security Advisory: rhc-worker-playbook security update\n- Red Hat Security Advisory: libtiff security update\n- Red Hat Security Advisory: freerdp security update\n- Red Hat Security Advisory: firefox security update\n- Red Hat Security Advisory: yggdrasil security update\n- Red Hat Security Advisory: python3 security update\n- Red Hat Security Advisory: kpatch-patch-5_14_0-284_104_1, kpatch-patch-5_14_0-284_117_1, kpatch-patch-5_14_0-284_134_1, kpatch-patch-5_14_0-284_148_1, and kpatch-patch-5_14_0-284_158_1 security update\n- Red Hat Security Advisory: PackageKit security update\n- Red Hat Security Advisory: openexr security update\n- Red Hat Security Advisory: libcap security update\n- Red Hat Security Advisory: kpatch-patch-4_18_0-477_107_1, kpatch-patch-4_18_0-477_120_1, kpatch-patch-4_18_0-477_130_1, kpatch-patch-4_18_0-477_89_1, and kpatch-patch-4_18_0-477_97_1 security update\n- Red Hat Security Advisory: kpatch-patch-4_18_0-372_137_1, kpatch-patch-4_18_0-372_145_1, kpatch-patch-4_18_0-372_158_1, kpatch-patch-4_18_0-372_170_1, and kpatch-patch-4_18_0-372_181_1 security update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: python3.9 security update\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: dovecot security update\n- Red Hat Security Advisory: golang-github-openprinting-ipp-usb security update\n- Red Hat Security Advisory: container-tools:rhel8 security update\n- Red Hat Security Advisory: python security update\n- Red Hat Security Advisory: kpatch-patch-5_14_0-427_100_1, kpatch-patch-5_14_0-427_113_1, kpatch-patch-5_14_0-427_55_1, kpatch-patch-5_14_0-427_68_2, and kpatch-patch-5_14_0-427_84_1 security update",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": 9.8,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cwe_ids": [
+    "CWE-770",
+    "CWE-367",
+    "CWE-764",
+    "CWE-190",
+    "CWE-123",
+    "CWE-269",
+    "CWE-1286",
+    "CWE-1050",
+    "CWE-551",
+    "CWE-1289",
+    "CWE-131",
+    "CWE-825",
+    "CWE-824",
+    "CWE-266",
+    "CWE-787",
+    "CWE-823",
+    "CWE-1021",
+    "CWE-66",
+    "CWE-805",
+    "CWE-359",
+    "CWE-125",
+    "CWE-676",
+    "CWE-440",
+    "CWE-358",
+    "CWE-191",
+    "CWE-369",
+    "CWE-88",
+    "CWE-416",
+    "CWE-390",
+    "CWE-763",
+    "CWE-911",
+    "CWE-366",
+    "CWE-617",
+    "CWE-1285",
+    "CWE-672",
+    "CWE-501",
+    "CWE-229",
+    "CWE-20",
+    "CWE-400"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-20",
+  "modified_date": "2026-05-21",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
+    "redhat:Red Hat Enterprise Linux CRB (v. 8)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.0)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.4)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux Real Time (v. 10)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.0)",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
+    "redhat:Red Hat Enterprise Linux Real Time (v. 9)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.6)",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux NFV E4S (v.9.0)",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.0)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.4)",
+    "redhat:Red Hat Enterprise Linux NFV (v. 8)",
+    "redhat:Red Hat Enterprise Linux RT (v. 8)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32282"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
+          "id": "CVE-2026-37555"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        },
+        {
+          "id": "CVE-2026-25679"
+        },
+        {
+          "id": "CVE-2026-32281"
+        },
+        {
+          "id": "CVE-2026-33186"
+        },
+        {
+          "id": "CVE-2026-33810"
+        },
+        {
+          "id": "CVE-2026-34986"
+        },
+        {
+          "id": "CVE-2026-43284"
+        },
+        {
+          "id": "CVE-2026-6746"
+        },
+        {
+          "id": "CVE-2026-6747"
+        },
+        {
+          "id": "CVE-2026-6748"
+        },
+        {
+          "id": "CVE-2026-6749"
+        },
+        {
+          "id": "CVE-2026-6750"
+        },
+        {
+          "id": "CVE-2026-6751"
+        },
+        {
+          "id": "CVE-2026-6752"
+        },
+        {
+          "id": "CVE-2026-6753"
+        },
+        {
+          "id": "CVE-2026-6754"
+        },
+        {
+          "id": "CVE-2026-6757"
+        },
+        {
+          "id": "CVE-2026-6759"
+        },
+        {
+          "id": "CVE-2026-6761"
+        },
+        {
+          "id": "CVE-2026-6762"
+        },
+        {
+          "id": "CVE-2026-6763"
+        },
+        {
+          "id": "CVE-2026-6764"
+        },
+        {
+          "id": "CVE-2026-6765"
+        },
+        {
+          "id": "CVE-2026-6766"
+        },
+        {
+          "id": "CVE-2026-6767"
+        },
+        {
+          "id": "CVE-2026-6769"
+        },
+        {
+          "id": "CVE-2026-6770"
+        },
+        {
+          "id": "CVE-2026-6771"
+        },
+        {
+          "id": "CVE-2026-6772"
+        },
+        {
+          "id": "CVE-2026-6776"
+        },
+        {
+          "id": "CVE-2026-6785"
+        },
+        {
+          "id": "CVE-2026-6786"
+        },
+        {
+          "id": "CVE-2025-14087"
+        },
+        {
+          "id": "CVE-2025-14512"
+        },
+        {
+          "id": "CVE-2026-4775"
+        },
+        {
+          "id": "CVE-2026-25952"
+        },
+        {
+          "id": "CVE-2026-26986"
+        },
+        {
+          "id": "CVE-2026-27951"
+        },
+        {
+          "id": "CVE-2026-29775"
+        },
+        {
+          "id": "CVE-2026-31883"
+        },
+        {
+          "id": "CVE-2026-31884"
+        },
+        {
+          "id": "CVE-2026-31885"
+        },
+        {
+          "id": "CVE-2026-33985"
+        },
+        {
+          "id": "CVE-2026-4786"
+        },
+        {
+          "id": "CVE-2026-6100"
+        },
+        {
+          "id": "CVE-2024-56603"
+        },
+        {
+          "id": "CVE-2025-39766"
+        },
+        {
+          "id": "CVE-2025-68724"
+        },
+        {
+          "id": "CVE-2025-68741"
+        },
+        {
+          "id": "CVE-2026-23270"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31402"
+        },
+        {
+          "id": "CVE-2026-31408"
+        },
+        {
+          "id": "CVE-2026-31607"
+        },
+        {
+          "id": "CVE-2026-43128"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-41651"
+        },
+        {
+          "id": "CVE-2026-34588"
+        },
+        {
+          "id": "CVE-2025-71116"
+        },
+        {
+          "id": "CVE-2026-22984"
+        },
+        {
+          "id": "CVE-2026-22990"
+        },
+        {
+          "id": "CVE-2026-23136"
+        },
+        {
+          "id": "CVE-2026-23204"
+        },
+        {
+          "id": "CVE-2026-43163"
+        },
+        {
+          "id": "CVE-2026-4878"
+        },
+        {
+          "id": "CVE-2025-21999"
+        },
+        {
+          "id": "CVE-2025-71238"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-7320"
+        },
+        {
+          "id": "CVE-2026-7321"
+        },
+        {
+          "id": "CVE-2026-7322"
+        },
+        {
+          "id": "CVE-2026-7323"
+        },
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2025-59032"
+        },
+        {
+          "id": "CVE-2026-27857"
+        },
+        {
+          "id": "CVE-2026-27858"
+        },
+        {
+          "id": "CVE-2025-47913"
+        },
+        {
+          "id": "CVE-2025-61726"
+        },
+        {
+          "id": "CVE-2025-61729"
+        },
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-31419"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "<= 115.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6746"
+        },
+        {
+          "id": "CVE-2026-6747"
+        },
+        {
+          "id": "CVE-2026-6748"
+        },
+        {
+          "id": "CVE-2026-6749"
+        },
+        {
+          "id": "CVE-2026-6750"
+        },
+        {
+          "id": "CVE-2026-6751"
+        },
+        {
+          "id": "CVE-2026-6752"
+        },
+        {
+          "id": "CVE-2026-6753"
+        },
+        {
+          "id": "CVE-2026-6754"
+        },
+        {
+          "id": "CVE-2026-6757"
+        },
+        {
+          "id": "CVE-2026-6759"
+        },
+        {
+          "id": "CVE-2026-6761"
+        },
+        {
+          "id": "CVE-2026-6762"
+        },
+        {
+          "id": "CVE-2026-6763"
+        },
+        {
+          "id": "CVE-2026-6764"
+        },
+        {
+          "id": "CVE-2026-6765"
+        },
+        {
+          "id": "CVE-2026-6766"
+        },
+        {
+          "id": "CVE-2026-6767"
+        },
+        {
+          "id": "CVE-2026-6769"
+        },
+        {
+          "id": "CVE-2026-6770"
+        },
+        {
+          "id": "CVE-2026-6771"
+        },
+        {
+          "id": "CVE-2026-6772"
+        },
+        {
+          "id": "CVE-2026-6776"
+        },
+        {
+          "id": "CVE-2026-6785"
+        },
+        {
+          "id": "CVE-2026-6786"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "<= 140.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6746"
+        },
+        {
+          "id": "CVE-2026-6747"
+        },
+        {
+          "id": "CVE-2026-6748"
+        },
+        {
+          "id": "CVE-2026-6749"
+        },
+        {
+          "id": "CVE-2026-6750"
+        },
+        {
+          "id": "CVE-2026-6751"
+        },
+        {
+          "id": "CVE-2026-6752"
+        },
+        {
+          "id": "CVE-2026-6753"
+        },
+        {
+          "id": "CVE-2026-6754"
+        },
+        {
+          "id": "CVE-2026-6757"
+        },
+        {
+          "id": "CVE-2026-6759"
+        },
+        {
+          "id": "CVE-2026-6761"
+        },
+        {
+          "id": "CVE-2026-6762"
+        },
+        {
+          "id": "CVE-2026-6763"
+        },
+        {
+          "id": "CVE-2026-6764"
+        },
+        {
+          "id": "CVE-2026-6765"
+        },
+        {
+          "id": "CVE-2026-6766"
+        },
+        {
+          "id": "CVE-2026-6767"
+        },
+        {
+          "id": "CVE-2026-6769"
+        },
+        {
+          "id": "CVE-2026-6770"
+        },
+        {
+          "id": "CVE-2026-6771"
+        },
+        {
+          "id": "CVE-2026-6772"
+        },
+        {
+          "id": "CVE-2026-6776"
+        },
+        {
+          "id": "CVE-2026-6785"
+        },
+        {
+          "id": "CVE-2026-6786"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "<= *",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6746"
+        },
+        {
+          "id": "CVE-2026-6747"
+        },
+        {
+          "id": "CVE-2026-6748"
+        },
+        {
+          "id": "CVE-2026-6749"
+        },
+        {
+          "id": "CVE-2026-6750"
+        },
+        {
+          "id": "CVE-2026-6751"
+        },
+        {
+          "id": "CVE-2026-6752"
+        },
+        {
+          "id": "CVE-2026-6753"
+        },
+        {
+          "id": "CVE-2026-6754"
+        },
+        {
+          "id": "CVE-2026-6757"
+        },
+        {
+          "id": "CVE-2026-6759"
+        },
+        {
+          "id": "CVE-2026-6761"
+        },
+        {
+          "id": "CVE-2026-6762"
+        },
+        {
+          "id": "CVE-2026-6763"
+        },
+        {
+          "id": "CVE-2026-6764"
+        },
+        {
+          "id": "CVE-2026-6765"
+        },
+        {
+          "id": "CVE-2026-6766"
+        },
+        {
+          "id": "CVE-2026-6767"
+        },
+        {
+          "id": "CVE-2026-6769"
+        },
+        {
+          "id": "CVE-2026-6770"
+        },
+        {
+          "id": "CVE-2026-6771"
+        },
+        {
+          "id": "CVE-2026-6772"
+        },
+        {
+          "id": "CVE-2026-6776"
+        },
+        {
+          "id": "CVE-2026-6785"
+        },
+        {
+          "id": "CVE-2026-6786"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Thunderbird",
+      "version_range": "<= 140.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6746"
+        },
+        {
+          "id": "CVE-2026-6747"
+        },
+        {
+          "id": "CVE-2026-6748"
+        },
+        {
+          "id": "CVE-2026-6749"
+        },
+        {
+          "id": "CVE-2026-6750"
+        },
+        {
+          "id": "CVE-2026-6751"
+        },
+        {
+          "id": "CVE-2026-6752"
+        },
+        {
+          "id": "CVE-2026-6753"
+        },
+        {
+          "id": "CVE-2026-6754"
+        },
+        {
+          "id": "CVE-2026-6757"
+        },
+        {
+          "id": "CVE-2026-6759"
+        },
+        {
+          "id": "CVE-2026-6761"
+        },
+        {
+          "id": "CVE-2026-6762"
+        },
+        {
+          "id": "CVE-2026-6763"
+        },
+        {
+          "id": "CVE-2026-6764"
+        },
+        {
+          "id": "CVE-2026-6765"
+        },
+        {
+          "id": "CVE-2026-6766"
+        },
+        {
+          "id": "CVE-2026-6767"
+        },
+        {
+          "id": "CVE-2026-6769"
+        },
+        {
+          "id": "CVE-2026-6770"
+        },
+        {
+          "id": "CVE-2026-6771"
+        },
+        {
+          "id": "CVE-2026-6772"
+        },
+        {
+          "id": "CVE-2026-6776"
+        },
+        {
+          "id": "CVE-2026-6785"
+        },
+        {
+          "id": "CVE-2026-6786"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Thunderbird",
+      "version_range": "<= *",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6746"
+        },
+        {
+          "id": "CVE-2026-6747"
+        },
+        {
+          "id": "CVE-2026-6748"
+        },
+        {
+          "id": "CVE-2026-6749"
+        },
+        {
+          "id": "CVE-2026-6750"
+        },
+        {
+          "id": "CVE-2026-6751"
+        },
+        {
+          "id": "CVE-2026-6752"
+        },
+        {
+          "id": "CVE-2026-6753"
+        },
+        {
+          "id": "CVE-2026-6754"
+        },
+        {
+          "id": "CVE-2026-6757"
+        },
+        {
+          "id": "CVE-2026-6759"
+        },
+        {
+          "id": "CVE-2026-6761"
+        },
+        {
+          "id": "CVE-2026-6762"
+        },
+        {
+          "id": "CVE-2026-6763"
+        },
+        {
+          "id": "CVE-2026-6764"
+        },
+        {
+          "id": "CVE-2026-6765"
+        },
+        {
+          "id": "CVE-2026-6766"
+        },
+        {
+          "id": "CVE-2026-6767"
+        },
+        {
+          "id": "CVE-2026-6769"
+        },
+        {
+          "id": "CVE-2026-6770"
+        },
+        {
+          "id": "CVE-2026-6771"
+        },
+        {
+          "id": "CVE-2026-6772"
+        },
+        {
+          "id": "CVE-2026-6776"
+        },
+        {
+          "id": "CVE-2026-6785"
+        },
+        {
+          "id": "CVE-2026-6786"
+        }
+      ]
+    },
+    {
+      "vendor": "gnome",
+      "product": "Glib",
+      "version_range": "< 2.86.3",
+      "fixed_version": "2.86.3",
+      "cpe": "cpe:2.3:a:gnome:glib:2.86.3:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-14087"
+        },
+        {
+          "id": "CVE-2025-14512"
+        }
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "< *",
+      "fixed_version": "*",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:_:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-14087"
+        },
+        {
+          "id": "CVE-2025-14512"
+        },
+        {
+          "id": "CVE-2026-4878"
+        }
+      ]
+    },
+    {
+      "vendor": "red hat",
+      "product": "Red Hat Hardened Images",
+      "version_range": "< *",
+      "fixed_version": "*",
+      "cpe": "cpe:2.3:a:red_hat:red_hat_hardened_images:_:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-14087"
+        },
+        {
+          "id": "CVE-2025-14512"
+        },
+        {
+          "id": "CVE-2026-4878"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Crypto/tls",
+      "version_range": "< 1.25.9",
+      "fixed_version": "1.25.9",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.25.9:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-32283"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Crypto/tls",
+      "version_range": "< 1.26.2",
+      "fixed_version": "1.26.2",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.26.2:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-32283"
+        }
+      ]
+    },
+    {
+      "vendor": "red hat",
+      "product": "Red Hat Discovery 2",
+      "version_range": "< *",
+      "fixed_version": "*",
+      "cpe": "cpe:2.3:a:red_hat:red_hat_discovery_2:_:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4878"
+        }
+      ]
+    },
+    {
+      "vendor": "red hat",
+      "product": "Red Hat OpenShift distributed tracing 3.9.3",
+      "version_range": "< *",
+      "fixed_version": "*",
+      "cpe": "cpe:2.3:a:red_hat:red_hat_openshift_distributed_tracing_3.9.3:_:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4878"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Crypto/tls",
+      "version_range": "< 1.24.13",
+      "fixed_version": "1.24.13",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.24.13:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Crypto/tls",
+      "version_range": "< 1.25.7",
+      "fixed_version": "1.25.7",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.25.7:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Crypto/tls",
+      "version_range": "< 1.26.0-rc.3",
+      "fixed_version": "1.26.0-rc.3",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.26.0-rc.3:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Net/url",
+      "version_range": "< 1.25.8",
+      "fixed_version": "1.25.8",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.25.8:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    },
+    {
+      "vendor": "go standard library",
+      "product": "Net/url",
+      "version_range": "< 1.26.1",
+      "fixed_version": "1.26.1",
+      "cpe": "cpe:2.3:a:go_standard_library:*:1.26.1:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        }
+      ]
+    },
+    {
+      "vendor": "open-xchange gmbh",
+      "product": "OX Dovecot Pro",
+      "version_range": "<= 3.1.0",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:open-xchange_gmbh:ox_dovecot_pro:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-59032"
+        },
+        {
+          "id": "CVE-2026-27857"
+        },
+        {
+          "id": "CVE-2026-27858"
+        }
+      ]
+    },
+    {
+      "vendor": "open-xchange gmbh",
+      "product": "OX Dovecot Pro",
+      "version_range": "<= 2.4.0",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:open-xchange_gmbh:ox_dovecot_pro:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-59032"
+        },
+        {
+          "id": "CVE-2026-27857"
+        },
+        {
+          "id": "CVE-2026-27858"
+        }
+      ]
+    },
+    {
+      "vendor": "open-xchange gmbh",
+      "product": "OX Dovecot Pro",
+      "version_range": "<= 2.3.0",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:open-xchange_gmbh:ox_dovecot_pro:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-59032"
+        },
+        {
+          "id": "CVE-2026-27857"
+        },
+        {
+          "id": "CVE-2026-27858"
+        }
+      ]
+    },
+    {
+      "vendor": "packagekit",
+      "product": "PackageKit",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:packagekit:packagekit:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41651"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 7c7c80c32e00665234e373ab03fe82f5c5c2c230",
+      "fixed_version": "7c7c80c32e00665234e373ab03fe82f5c5c2c230",
+      "cpe": "cpe:2.3:a:linux:linux:7c7c80c32e00665234e373ab03fe82f5c5c2c230:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 3a3b73e135e3bd18423d0baa72571319c7feb759",
+      "fixed_version": "3a3b73e135e3bd18423d0baa72571319c7feb759",
+      "cpe": "cpe:2.3:a:linux:linux:3a3b73e135e3bd18423d0baa72571319c7feb759:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< f8f470e3a757425a8f98fb9a5991e3cf62fc7134",
+      "fixed_version": "f8f470e3a757425a8f98fb9a5991e3cf62fc7134",
+      "cpe": "cpe:2.3:a:linux:linux:f8f470e3a757425a8f98fb9a5991e3cf62fc7134:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 52daccfc3fa68ee1902d52124921453d7a335591",
+      "fixed_version": "52daccfc3fa68ee1902d52124921453d7a335591",
+      "cpe": "cpe:2.3:a:linux:linux:52daccfc3fa68ee1902d52124921453d7a335591:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< ee4c5a2a38596d548566560c0c022ab797e6f71a",
+      "fixed_version": "ee4c5a2a38596d548566560c0c022ab797e6f71a",
+      "cpe": "cpe:2.3:a:linux:linux:ee4c5a2a38596d548566560c0c022ab797e6f71a:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 336edd6b0f5b7fbffc3e065285610624f59e88df",
+      "fixed_version": "336edd6b0f5b7fbffc3e065285610624f59e88df",
+      "cpe": "cpe:2.3:a:linux:linux:336edd6b0f5b7fbffc3e065285610624f59e88df:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 16c45ced0b3839d3eee72a86bb172bef6cf58980",
+      "fixed_version": "16c45ced0b3839d3eee72a86bb172bef6cf58980",
+      "cpe": "cpe:2.3:a:linux:linux:16c45ced0b3839d3eee72a86bb172bef6cf58980:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< f81b33582f9339d2dc17c69b92040d3650bb4bae",
+      "fixed_version": "f81b33582f9339d2dc17c69b92040d3650bb4bae",
+      "cpe": "cpe:2.3:a:linux:linux:f81b33582f9339d2dc17c69b92040d3650bb4bae:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 4.8",
+      "fixed_version": "4.8",
+      "cpe": "cpe:2.3:a:linux:linux:4.8:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= 5.4.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= 5.10.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= 5.15.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= 6.1.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= 6.6.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= 6.12.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= 6.14.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= *",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< bad15420050db1803767e58756114800cce91ea4",
+      "fixed_version": "bad15420050db1803767e58756114800cce91ea4",
+      "cpe": "cpe:2.3:a:linux:linux:bad15420050db1803767e58756114800cce91ea4:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 5727ccf9d19ca414cb76d9b647883822e2789c2e",
+      "fixed_version": "5727ccf9d19ca414cb76d9b647883822e2789c2e",
+      "cpe": "cpe:2.3:a:linux:linux:5727ccf9d19ca414cb76d9b647883822e2789c2e:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 826af7fa62e347464b1b4e0ba2fe19a92438084f",
+      "fixed_version": "826af7fa62e347464b1b4e0ba2fe19a92438084f",
+      "cpe": "cpe:2.3:a:linux:linux:826af7fa62e347464b1b4e0ba2fe19a92438084f:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 2.6.37",
+      "fixed_version": "2.6.37",
+      "cpe": "cpe:2.3:a:linux:linux:2.6.37:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= 6.18.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 1371ef6b1ecf3676b8942f5dfb3634fb0648128e",
+      "fixed_version": "1371ef6b1ecf3676b8942f5dfb3634fb0648128e",
+      "cpe": "cpe:2.3:a:linux:linux:1371ef6b1ecf3676b8942f5dfb3634fb0648128e:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 362e45fd9069ffa1523f9f1633b606ebf72060d7",
+      "fixed_version": "362e45fd9069ffa1523f9f1633b606ebf72060d7",
+      "cpe": "cpe:2.3:a:linux:linux:362e45fd9069ffa1523f9f1633b606ebf72060d7:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 6eb2919474ca105c5b13d19574e25f0ddcf19ca2",
+      "fixed_version": "6eb2919474ca105c5b13d19574e25f0ddcf19ca2",
+      "cpe": "cpe:2.3:a:linux:linux:6eb2919474ca105c5b13d19574e25f0ddcf19ca2:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< a6a3e4af10993cb9e4b8f0548680aba0ab5f3b0d",
+      "fixed_version": "a6a3e4af10993cb9e4b8f0548680aba0ab5f3b0d",
+      "cpe": "cpe:2.3:a:linux:linux:a6a3e4af10993cb9e4b8f0548680aba0ab5f3b0d:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 9c80d688f402539dfc8f336de1380d6b4ee14316",
+      "fixed_version": "9c80d688f402539dfc8f336de1380d6b4ee14316",
+      "cpe": "cpe:2.3:a:linux:linux:9c80d688f402539dfc8f336de1380d6b4ee14316:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 205955f29c26330b1dc7fdeadd5bb97c38e26f56",
+      "fixed_version": "205955f29c26330b1dc7fdeadd5bb97c38e26f56",
+      "cpe": "cpe:2.3:a:linux:linux:205955f29c26330b1dc7fdeadd5bb97c38e26f56:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 52ab82cc5cf8ada5c3fb6ffe8f32fdb2fc27a34b",
+      "fixed_version": "52ab82cc5cf8ada5c3fb6ffe8f32fdb2fc27a34b",
+      "cpe": "cpe:2.3:a:linux:linux:52ab82cc5cf8ada5c3fb6ffe8f32fdb2fc27a34b:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 5551b02fdbfd85a325bb857f3a8f9c9f33397ed2",
+      "fixed_version": "5551b02fdbfd85a325bb857f3a8f9c9f33397ed2",
+      "cpe": "cpe:2.3:a:linux:linux:5551b02fdbfd85a325bb857f3a8f9c9f33397ed2:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 2.6.24",
+      "fixed_version": "2.6.24",
+      "cpe": "cpe:2.3:a:linux:linux:2.6.24:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= 6.19.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 20656cd1f243d3a154aac5dd1b823110b6906fe1",
+      "fixed_version": "20656cd1f243d3a154aac5dd1b823110b6906fe1",
+      "cpe": "cpe:2.3:a:linux:linux:20656cd1f243d3a154aac5dd1b823110b6906fe1:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< ed5909992f344a7d3f4024261e9f751d9618a27d",
+      "fixed_version": "ed5909992f344a7d3f4024261e9f751d9618a27d",
+      "cpe": "cpe:2.3:a:linux:linux:ed5909992f344a7d3f4024261e9f751d9618a27d:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< fd28c5618699180cd69619801e9ae6a5266c0a22",
+      "fixed_version": "fd28c5618699180cd69619801e9ae6a5266c0a22",
+      "cpe": "cpe:2.3:a:linux:linux:fd28c5618699180cd69619801e9ae6a5266c0a22:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 459158151a158a6703b49f3c9de0e536d8bd553f",
+      "fixed_version": "459158151a158a6703b49f3c9de0e536d8bd553f",
+      "cpe": "cpe:2.3:a:linux:linux:459158151a158a6703b49f3c9de0e536d8bd553f:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 695320de6eadb75aaed8be1787c4ce4c189e4c7b",
+      "fixed_version": "695320de6eadb75aaed8be1787c4ce4c189e4c7b",
+      "cpe": "cpe:2.3:a:linux:linux:695320de6eadb75aaed8be1787c4ce4c189e4c7b:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< bce7fe59d43531623f3e43779127bfb33804925d",
+      "fixed_version": "bce7fe59d43531623f3e43779127bfb33804925d",
+      "cpe": "cpe:2.3:a:linux:linux:bce7fe59d43531623f3e43779127bfb33804925d:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< aad885e774966e97b675dfe928da164214a71605",
+      "fixed_version": "aad885e774966e97b675dfe928da164214a71605",
+      "cpe": "cpe:2.3:a:linux:linux:aad885e774966e97b675dfe928da164214a71605:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 5.13",
+      "fixed_version": "5.13",
+      "cpe": "cpe:2.3:a:linux:linux:5.13:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 3453882f36c40d2339267093676585a89808a73d",
+      "fixed_version": "3453882f36c40d2339267093676585a89808a73d",
+      "cpe": "cpe:2.3:a:linux:linux:3453882f36c40d2339267093676585a89808a73d:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< d4cc7e4c80b1634c7b1497574a2fdb18df6c026c",
+      "fixed_version": "d4cc7e4c80b1634c7b1497574a2fdb18df6c026c",
+      "cpe": "cpe:2.3:a:linux:linux:d4cc7e4c80b1634c7b1497574a2fdb18df6c026c:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< f5b94654a4a19891a8108d66ef166de6c028c6cd",
+      "fixed_version": "f5b94654a4a19891a8108d66ef166de6c028c6cd",
+      "cpe": "cpe:2.3:a:linux:linux:f5b94654a4a19891a8108d66ef166de6c028c6cd:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 2884bf72fb8f03409e423397319205de48adca16",
+      "fixed_version": "2884bf72fb8f03409e423397319205de48adca16",
+      "cpe": "cpe:2.3:a:linux:linux:2884bf72fb8f03409e423397319205de48adca16:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 5.17",
+      "fixed_version": "5.17",
+      "cpe": "cpe:2.3:a:linux:linux:5.17:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 5e9cfffad898bbeaafd0ea608a6d267362f050fc",
+      "fixed_version": "5e9cfffad898bbeaafd0ea608a6d267362f050fc",
+      "cpe": "cpe:2.3:a:linux:linux:5e9cfffad898bbeaafd0ea608a6d267362f050fc:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 572f0bf536ebc14f6e7da3d21a85cf076de8358e",
+      "fixed_version": "572f0bf536ebc14f6e7da3d21a85cf076de8358e",
+      "cpe": "cpe:2.3:a:linux:linux:572f0bf536ebc14f6e7da3d21a85cf076de8358e:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 1a0f2de81f7fbdc538fc72d7d74609b79bc83cc0",
+      "fixed_version": "1a0f2de81f7fbdc538fc72d7d74609b79bc83cc0",
+      "cpe": "cpe:2.3:a:linux:linux:1a0f2de81f7fbdc538fc72d7d74609b79bc83cc0:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 7201a531b9a5ed892bfda5ded9194ef622de8ffa",
+      "fixed_version": "7201a531b9a5ed892bfda5ded9194ef622de8ffa",
+      "cpe": "cpe:2.3:a:linux:linux:7201a531b9a5ed892bfda5ded9194ef622de8ffa:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 34c1741254ff972e8375faf176678a248826fe3a",
+      "fixed_version": "34c1741254ff972e8375faf176678a248826fe3a",
+      "cpe": "cpe:2.3:a:linux:linux:34c1741254ff972e8375faf176678a248826fe3a:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< a535a9217ca3f2fccedaafb2fddb4c48f27d36dc",
+      "fixed_version": "a535a9217ca3f2fccedaafb2fddb4c48f27d36dc",
+      "cpe": "cpe:2.3:a:linux:linux:a535a9217ca3f2fccedaafb2fddb4c48f27d36dc:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 4.1",
+      "fixed_version": "4.1",
+      "cpe": "cpe:2.3:a:linux:linux:4.1:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "<= 7.0.*",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:linux:linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 93d4ba49d18e3d7fb41a9927c2d0cca5e9dfefd6",
+      "fixed_version": "93d4ba49d18e3d7fb41a9927c2d0cca5e9dfefd6",
+      "cpe": "cpe:2.3:a:linux:linux:93d4ba49d18e3d7fb41a9927c2d0cca5e9dfefd6:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 15b828a46f305ae9f05a7c16914b3ce273474205",
+      "fixed_version": "15b828a46f305ae9f05a7c16914b3ce273474205",
+      "cpe": "cpe:2.3:a:linux:linux:15b828a46f305ae9f05a7c16914b3ce273474205:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 4709234fd1b95136ceb789f639b1e7ea5de1b181",
+      "fixed_version": "4709234fd1b95136ceb789f639b1e7ea5de1b181",
+      "cpe": "cpe:2.3:a:linux:linux:4709234fd1b95136ceb789f639b1e7ea5de1b181:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 8f907d345bae8f4b3f004c5abc56bf2dfb851ea7",
+      "fixed_version": "8f907d345bae8f4b3f004c5abc56bf2dfb851ea7",
+      "cpe": "cpe:2.3:a:linux:linux:8f907d345bae8f4b3f004c5abc56bf2dfb851ea7:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 6e5b51e74a40d377bcd3081dd33fbaa0e1aa7e3d",
+      "fixed_version": "6e5b51e74a40d377bcd3081dd33fbaa0e1aa7e3d",
+      "cpe": "cpe:2.3:a:linux:linux:6e5b51e74a40d377bcd3081dd33fbaa0e1aa7e3d:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 2a93a4fac7b6051d3be7cd1b015fe7320cd0404d",
+      "fixed_version": "2a93a4fac7b6051d3be7cd1b015fe7320cd0404d",
+      "cpe": "cpe:2.3:a:linux:linux:2a93a4fac7b6051d3be7cd1b015fe7320cd0404d:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    },
+    {
+      "vendor": "linux",
+      "product": "Linux",
+      "version_range": "< 01363cb3fbd0238ffdeb09f53e9039c9edf8a730",
+      "fixed_version": "01363cb3fbd0238ffdeb09f53e9039c9edf8a730",
+      "cpe": "cpe:2.3:a:linux:linux:01363cb3fbd0238ffdeb09f53e9039c9edf8a730:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-38024"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23401"
+        },
+        {
+          "id": "CVE-2026-31419"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-46300"
+        },
+        {
+          "id": "CVE-2026-46333"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2024-56603",
+      "source": "redhat",
+      "title": "kernel: net: af_can: do not leave a dangling sk pointer in can_create()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2024-56603"
+      ]
+    },
+    {
+      "id": "CVE-2025-14087",
+      "source": "redhat",
+      "title": "glib: GLib: Buffer underflow in GVariant parser leads to heap corruption",
+      "description": "A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings.",
+      "severity": null,
+      "cvss_score": 5.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-14087",
+        "https://access.redhat.com/errata/RHSA-2026:15953",
+        "https://access.redhat.com/errata/RHSA-2026:15969",
+        "https://access.redhat.com/errata/RHSA-2026:15971",
+        "https://access.redhat.com/errata/RHSA-2026:7461",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2419093",
+        "https://gitlab.gnome.org/GNOME/glib/-/issues/3834"
+      ]
+    },
+    {
+      "id": "CVE-2025-14512",
+      "source": "redhat",
+      "title": "glib: Integer Overflow in GLib GIO Attribute Escaping Causes Heap Buffer Overflow",
+      "description": "A flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values.",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-14512",
+        "https://access.redhat.com/errata/RHSA-2026:15953",
+        "https://access.redhat.com/errata/RHSA-2026:15969",
+        "https://access.redhat.com/errata/RHSA-2026:15971",
+        "https://access.redhat.com/errata/RHSA-2026:7461",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2421339",
+        "https://gitlab.gnome.org/GNOME/glib/-/issues/3845"
+      ]
+    },
+    {
+      "id": "CVE-2025-21999",
+      "source": "redhat",
+      "title": "kernel: proc: fix UAF in proc_get_inode()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-21999"
+      ]
+    },
+    {
+      "id": "CVE-2025-38024",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: RDMA/rxe use-after-free vulnerability leading to potential arbitrary code execution",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/rxe: Fix slab-use-after-free Read in rxe_queue_cleanup bug\n\nCall Trace:\n <TASK>\n __dump_stack lib/dump_stack.c:94 [inline]\n dump_stack_lvl+0x7d/0xa0 lib/dump_stack.c:120\n print_address_description mm/kasan/report.c:378 [inline]\n print_report+0xcf/0x610 mm/kasan/report.c:489\n kasan_report+0xb5/0xe0 mm/kasan/report.c:602\n rxe_queue_cleanup+0xd0/0xe0 drivers/infiniband/sw/rxe/rxe_queue.c:195\n rxe_cq_cleanup+0x3f/0x50 drivers/infiniband/sw/rxe/rxe_cq.c:132\n __rxe_cleanup+0x168/0x300 drivers/infiniband/sw/rxe/rxe_pool.c:232\n rxe_create_cq+0x22e/0x3a0 drivers/infiniband/sw/rxe/rxe_verbs.c:1109\n create_cq+0x658/0xb90 drivers/infiniband/core/uverbs_cmd.c:1052\n ib_uverbs_create_cq+0xc7/0x120 drivers/infiniband/core/uverbs_cmd.c:1095\n ib_uverbs_write+0x969/0xc90 drivers/infiniband/core/uverbs_main.c:679\n vfs_write fs/read_write.c:677 [inline]\n vfs_write+0x26a/0xcc0 fs/read_write.c:659\n ksys_write+0x1b8/0x200 fs/read_write.c:731\n do_syscall_x64 arch/x86/entry/common.c:52 [inline]\n do_syscall_64+0xaa/0x1b0 arch/x86/entry/common.c:83\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\n\nIn the function rxe_create_cq, when rxe_cq_from_init fails, the function\nrxe_cleanup will be called to handle the allocated resources. In fact,\nsome memory resources have already been freed in the function\nrxe_cq_from_init. Thus, this problem will occur.\n\nThe solution is to let rxe_cleanup do all the work.",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-38024",
+        "https://git.kernel.org/stable/c/7c7c80c32e00665234e373ab03fe82f5c5c2c230",
+        "https://git.kernel.org/stable/c/3a3b73e135e3bd18423d0baa72571319c7feb759",
+        "https://git.kernel.org/stable/c/f8f470e3a757425a8f98fb9a5991e3cf62fc7134",
+        "https://git.kernel.org/stable/c/52daccfc3fa68ee1902d52124921453d7a335591",
+        "https://git.kernel.org/stable/c/ee4c5a2a38596d548566560c0c022ab797e6f71a",
+        "https://git.kernel.org/stable/c/336edd6b0f5b7fbffc3e065285610624f59e88df",
+        "https://git.kernel.org/stable/c/16c45ced0b3839d3eee72a86bb172bef6cf58980",
+        "https://git.kernel.org/stable/c/f81b33582f9339d2dc17c69b92040d3650bb4bae",
+        "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html",
+        "https://lists.debian.org/debian-lts-announce/2025/08/msg00010.html"
+      ]
+    },
+    {
+      "id": "CVE-2025-39766",
+      "source": "redhat",
+      "title": "kernel: net/sched: Make cake_enqueue return NET_XMIT_CN when past buffer_limit",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-39766"
+      ]
+    },
+    {
+      "id": "CVE-2025-47913",
+      "source": "redhat",
+      "title": "golang.org/x/crypto/ssh/agent: golang.org/x/crypto/ssh/agent: SSH client panic due to unexpected SSH_AGENT_SUCCESS",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-47913"
+      ]
+    },
+    {
+      "id": "CVE-2025-59032",
+      "source": "redhat",
+      "title": "dovecot: ManageSieve: Denial of Service via crafted SASL initial response in AUTHENTICATE command",
+      "description": "ManageSieve AUTHENTICATE command crashes when using literal as SASL initial response. This can be used to crash ManageSieve service repeatedly, making it unavailable for other users. Control access to ManageSieve port, or disable the service if it's not needed. Alternatively upgrade to a fixed version. No publicly available exploits are known.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-03-27",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-59032",
+        "https://documentation.open-xchange.com/dovecot/security/advisories/csaf/2026/oxdc-adv-2026-0001.json"
+      ]
+    },
+    {
+      "id": "CVE-2025-61726",
+      "source": "redhat",
+      "title": "golang: net/url: Memory exhaustion in query parameter parsing in net/url",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-61726"
+      ]
+    },
+    {
+      "id": "CVE-2025-61729",
+      "source": "redhat",
+      "title": "crypto/x509: golang: Denial of Service due to excessive resource consumption via crafted certificate",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-61729"
+      ]
+    },
+    {
+      "id": "CVE-2025-68121",
+      "source": "redhat",
+      "title": "crypto/tls: crypto/tls: Incorrect certificate validation during TLS session resumption",
+      "description": "During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.",
+      "severity": null,
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-29",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68121",
+        "https://groups.google.com/g/golang-announce/c/K09ubi9FQFk",
+        "https://go.dev/cl/737700",
+        "https://go.dev/issue/77217",
+        "https://pkg.go.dev/vuln/GO-2026-4337"
+      ]
+    },
+    {
+      "id": "CVE-2025-68724",
+      "source": "redhat",
+      "title": "kernel: crypto: asymmetric_keys - prevent overflow in asymmetric_key_generate_id",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68724"
+      ]
+    },
+    {
+      "id": "CVE-2025-68741",
+      "source": "redhat",
+      "title": "kernel: scsi: qla2xxx: Fix improper freeing of purex item",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68741"
+      ]
+    },
+    {
+      "id": "CVE-2025-71116",
+      "source": "redhat",
+      "title": "kernel: libceph: make decode_pool() more resilient against corrupted osdmaps",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-71116"
+      ]
+    },
+    {
+      "id": "CVE-2025-71238",
+      "source": "redhat",
+      "title": "kernel: Linux kernel (qla2xxx): Double free vulnerability leads to denial of service and potential privilege escalation.",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-71238"
+      ]
+    },
+    {
+      "id": "CVE-2026-22984",
+      "source": "redhat",
+      "title": "kernel: libceph: prevent potential out-of-bounds reads in handle_auth_done()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-22984"
+      ]
+    },
+    {
+      "id": "CVE-2026-22990",
+      "source": "redhat",
+      "title": "kernel: libceph: replace overzealous BUG_ON in osdmap_apply_incremental()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-22990"
+      ]
+    },
+    {
+      "id": "CVE-2026-23136",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: Denial of Service in libceph OSD client due to unreset sparse-read state",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.6,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23136"
+      ]
+    },
+    {
+      "id": "CVE-2026-23191",
+      "source": "redhat",
+      "title": "kernel: ALSA: aloop: Fix racy access at PCM trigger",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: aloop: Fix racy access at PCM trigger\n\nThe PCM trigger callback of aloop driver tries to check the PCM state\nand stop the stream of the tied substream in the corresponding cable.\nSince both check and stop operations are performed outside the cable\nlock, this may result in UAF when a program attempts to trigger\nfrequently while opening/closing the tied stream, as spotted by\nfuzzers.\n\nFor addressing the UAF, this patch changes two things:\n- It covers the most of code in loopback_check_format() with\n  cable->lock spinlock, and add the proper NULL checks.  This avoids\n  already some racy accesses.\n- In addition, now we try to check the state of the capture PCM stream\n  that may be stopped in this function, which was the major pain point\n  leading to UAF.",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23191",
+        "https://git.kernel.org/stable/c/bad15420050db1803767e58756114800cce91ea4",
+        "https://git.kernel.org/stable/c/5727ccf9d19ca414cb76d9b647883822e2789c2e",
+        "https://git.kernel.org/stable/c/826af7fa62e347464b1b4e0ba2fe19a92438084f"
+      ]
+    },
+    {
+      "id": "CVE-2026-23204",
+      "source": "redhat",
+      "title": "kernel: net/sched: cls_u32: use skb_header_pointer_careful()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23204"
+      ]
+    },
+    {
+      "id": "CVE-2026-23243",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: Denial of service and memory corruption in RDMA umad",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/umad: Reject negative data_len in ib_umad_write\n\nib_umad_write computes data_len from user-controlled count and the\nMAD header sizes. With a mismatched user MAD header size and RMPP\nheader length, data_len can become negative and reach ib_create_send_mad().\nThis can make the padding calculation exceed the segment size and trigger\nan out-of-bounds memset in alloc_send_rmpp_list().\n\nAdd an explicit check to reject negative data_len before creating the\nsend buffer.\n\nKASAN splat:\n[  211.363464] BUG: KASAN: slab-out-of-bounds in ib_create_send_mad+0xa01/0x11b0\n[  211.364077] Write of size 220 at addr ffff88800c3fa1f8 by task spray_thread/102\n[  211.365867] ib_create_send_mad+0xa01/0x11b0\n[  211.365887] ib_umad_write+0x853/0x1c80",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23243",
+        "https://git.kernel.org/stable/c/1371ef6b1ecf3676b8942f5dfb3634fb0648128e",
+        "https://git.kernel.org/stable/c/362e45fd9069ffa1523f9f1633b606ebf72060d7",
+        "https://git.kernel.org/stable/c/6eb2919474ca105c5b13d19574e25f0ddcf19ca2",
+        "https://git.kernel.org/stable/c/a6a3e4af10993cb9e4b8f0548680aba0ab5f3b0d",
+        "https://git.kernel.org/stable/c/9c80d688f402539dfc8f336de1380d6b4ee14316",
+        "https://git.kernel.org/stable/c/205955f29c26330b1dc7fdeadd5bb97c38e26f56",
+        "https://git.kernel.org/stable/c/52ab82cc5cf8ada5c3fb6ffe8f32fdb2fc27a34b",
+        "https://git.kernel.org/stable/c/5551b02fdbfd85a325bb857f3a8f9c9f33397ed2"
+      ]
+    },
+    {
+      "id": "CVE-2026-23270",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: Use-after-free in traffic control (act_ct) may lead to denial of service or privilege escalation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23270"
+      ]
+    },
+    {
+      "id": "CVE-2026-23401",
+      "source": "redhat",
+      "title": "kernel: Linux kernel KVM: Privilege escalation or denial of service due to improper shadow page table entry handling",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86/mmu: Drop/zap existing present SPTE even when creating an MMIO SPTE\n\nWhen installing an emulated MMIO SPTE, do so *after* dropping/zapping the\nexisting SPTE (if it's shadow-present).  While commit a54aa15c6bda3 was\nright about it being impossible to convert a shadow-present SPTE to an\nMMIO SPTE due to a _guest_ write, it failed to account for writes to guest\nmemory that are outside the scope of KVM.\n\nE.g. if host userspace modifies a shadowed gPTE to switch from a memslot\nto emulted MMIO and then the guest hits a relevant page fault, KVM will\ninstall the MMIO SPTE without first zapping the shadow-present SPTE.\n\n  ------------[ cut here ]------------\n  is_shadow_present_pte(*sptep)\n  WARNING: arch/x86/kvm/mmu/mmu.c:484 at mark_mmio_spte+0xb2/0xc0 [kvm], CPU#0: vmx_ept_stale_r/4292\n  Modules linked in: kvm_intel kvm irqbypass\n  CPU: 0 UID: 1000 PID: 4292 Comm: vmx_ept_stale_r Not tainted 7.0.0-rc2-eafebd2d2ab0-sink-vm #319 PREEMPT\n  Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 0.0.0 02/06/2015\n  RIP: 0010:mark_mmio_spte+0xb2/0xc0 [kvm]\n  Call Trace:\n   <TASK>\n   mmu_set_spte+0x237/0x440 [kvm]\n   ept_page_fault+0x535/0x7f0 [kvm]\n   kvm_mmu_do_page_fault+0xee/0x1f0 [kvm]\n   kvm_mmu_page_fault+0x8d/0x620 [kvm]\n   vmx_handle_exit+0x18c/0x5a0 [kvm_intel]\n   kvm_arch_vcpu_ioctl_run+0xc55/0x1c20 [kvm]\n   kvm_vcpu_ioctl+0x2d5/0x980 [kvm]\n   __x64_sys_ioctl+0x8a/0xd0\n   do_syscall_64+0xb5/0x730\n   entry_SYSCALL_64_after_hwframe+0x4b/0x53\n  RIP: 0033:0x47fa3f\n   </TASK>\n  ---[ end trace 0000000000000000 ]---",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23401",
+        "https://git.kernel.org/stable/c/20656cd1f243d3a154aac5dd1b823110b6906fe1",
+        "https://git.kernel.org/stable/c/ed5909992f344a7d3f4024261e9f751d9618a27d",
+        "https://git.kernel.org/stable/c/fd28c5618699180cd69619801e9ae6a5266c0a22",
+        "https://git.kernel.org/stable/c/459158151a158a6703b49f3c9de0e536d8bd553f",
+        "https://git.kernel.org/stable/c/695320de6eadb75aaed8be1787c4ce4c189e4c7b",
+        "https://git.kernel.org/stable/c/bce7fe59d43531623f3e43779127bfb33804925d",
+        "https://git.kernel.org/stable/c/aad885e774966e97b675dfe928da164214a71605"
+      ]
+    },
+    {
+      "id": "CVE-2026-25679",
+      "source": "redhat",
+      "title": "net/url: Incorrect parsing of IPv6 host literals in net/url",
+      "description": "url.Parse insufficiently validated the host/authority component and accepted some invalid URLs.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-03-10",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-25679",
+        "https://go.dev/cl/752180",
+        "https://go.dev/issue/77578",
+        "https://groups.google.com/g/golang-announce/c/EdhZqrQ98hk",
+        "https://pkg.go.dev/vuln/GO-2026-4601"
+      ]
+    },
+    {
+      "id": "CVE-2026-25952",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP: Denial of service due to use-after-free vulnerability",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-25952"
+      ]
+    },
+    {
+      "id": "CVE-2026-26986",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP: Denial of Service via double free vulnerability during disconnect",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-26986"
+      ]
+    },
+    {
+      "id": "CVE-2026-27857",
+      "source": "redhat",
+      "title": "dovecot: denial of service via specially crafted NOOP command",
+      "description": "Sending \"NOOP (((...)))\" command with 4000 parenthesis open+close results in ~1MB extra memory usage. Longer commands will result in client disconnection. This 1 MB can be left allocated for longer time periods by not sending the command ending LF. So attacker could connect possibly from even a single IP and create 1000 connections to allocate 1 GB of memory, which would likely result in reaching VSZ limit and killing the process and its other proxied connections. Attacker could connect possibly from even a single IP and create 1000 connections to allocate 1 GB of memory, which would likely result in reaching VSZ limit and killing the process and its other proxied connections. Install fixed version, there is no other remediation. No publicly available exploits are known.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-03-27",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27857",
+        "https://documentation.open-xchange.com/dovecot/security/advisories/csaf/2026/oxdc-adv-2026-0001.json"
+      ]
+    },
+    {
+      "id": "CVE-2026-27858",
+      "source": "redhat",
+      "title": "dovecot: denial of service via crafted message before authentication",
+      "description": "Attacker can send a specifically crafted message before authentication that causes managesieve to allocate large amount of memory.\r\n Attacker can force managesieve-login to be unavailable by repeatedly crashing the process. Protect access to managesieve protocol, or install fixed version. No publicly available exploits are known.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-03-27",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27858",
+        "https://documentation.open-xchange.com/dovecot/security/advisories/csaf/2026/oxdc-adv-2026-0001.json"
+      ]
+    },
+    {
+      "id": "CVE-2026-27951",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP: Denial of Service via endless blocking loop in Stream_EnsureCapacity",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27951"
+      ]
+    },
+    {
+      "id": "CVE-2026-29775",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP has a heap-buffer-overflow in bitmap_cache_put via OOB cacheId",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-29775"
+      ]
+    },
+    {
+      "id": "CVE-2026-31402",
+      "source": "redhat",
+      "title": "kernel: nfsd: fix heap overflow in NFSv4.0 LOCK replay cache",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31402"
+      ]
+    },
+    {
+      "id": "CVE-2026-31408",
+      "source": "redhat",
+      "title": "kernel: Bluetooth: SCO: Fix use-after-free in sco_recv_frame() due to missing sock_hold",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31408"
+      ]
+    },
+    {
+      "id": "CVE-2026-31419",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: Use-after-free in bonding driver leads to denial of service",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: bonding: fix use-after-free in bond_xmit_broadcast()\n\nbond_xmit_broadcast() reuses the original skb for the last slave\n(determined by bond_is_last_slave()) and clones it for others.\nConcurrent slave enslave/release can mutate the slave list during\nRCU-protected iteration, changing which slave is \"last\" mid-loop.\nThis causes the original skb to be double-consumed (double-freed).\n\nReplace the racy bond_is_last_slave() check with a simple index\ncomparison (i + 1 == slaves_count) against the pre-snapshot slave\ncount taken via READ_ONCE() before the loop.  This preserves the\nzero-copy optimization for the last slave while making the \"last\"\ndetermination stable against concurrent list mutations.\n\nThe UAF can trigger the following crash:\n\n==================================================================\nBUG: KASAN: slab-use-after-free in skb_clone\nRead of size 8 at addr ffff888100ef8d40 by task exploit/147\n\nCPU: 1 UID: 0 PID: 147 Comm: exploit Not tainted 7.0.0-rc3+ #4 PREEMPTLAZY\nCall Trace:\n <TASK>\n dump_stack_lvl (lib/dump_stack.c:123)\n print_report (mm/kasan/report.c:379 mm/kasan/report.c:482)\n kasan_report (mm/kasan/report.c:597)\n skb_clone (include/linux/skbuff.h:1724 include/linux/skbuff.h:1792 include/linux/skbuff.h:3396 net/core/skbuff.c:2108)\n bond_xmit_broadcast (drivers/net/bonding/bond_main.c:5334)\n bond_start_xmit (drivers/net/bonding/bond_main.c:5567 drivers/net/bonding/bond_main.c:5593)\n dev_hard_start_xmit (include/linux/netdevice.h:5325 include/linux/netdevice.h:5334 net/core/dev.c:3871 net/core/dev.c:3887)\n __dev_queue_xmit (include/linux/netdevice.h:3601 net/core/dev.c:4838)\n ip6_finish_output2 (include/net/neighbour.h:540 include/net/neighbour.h:554 net/ipv6/ip6_output.c:136)\n ip6_finish_output (net/ipv6/ip6_output.c:208 net/ipv6/ip6_output.c:219)\n ip6_output (net/ipv6/ip6_output.c:250)\n ip6_send_skb (net/ipv6/ip6_output.c:1985)\n udp_v6_send_skb (net/ipv6/udp.c:1442)\n udpv6_sendmsg (net/ipv6/udp.c:1733)\n __sys_sendto (net/socket.c:730 net/socket.c:742 net/socket.c:2206)\n __x64_sys_sendto (net/socket.c:2209)\n do_syscall_64 (arch/x86/entry/syscall_64.c:63 arch/x86/entry/syscall_64.c:94)\n entry_SYSCALL_64_after_hwframe (arch/x86/entry/entry_64.S:130)\n </TASK>\n\nAllocated by task 147:\n\nFreed by task 147:\n\nThe buggy address belongs to the object at ffff888100ef8c80\n which belongs to the cache skbuff_head_cache of size 224\nThe buggy address is located 192 bytes inside of\n freed 224-byte region [ffff888100ef8c80, ffff888100ef8d60)\n\nMemory state around the buggy address:\n ffff888100ef8c00: fb fb fb fb fc fc fc fc fc fc fc fc fc fc fc fc\n ffff888100ef8c80: fa fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb\n>ffff888100ef8d00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc\n                                                    ^\n ffff888100ef8d80: fc fc fc fc fc fc fc fc fa fb fb fb fb fb fb fb\n ffff888100ef8e00: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb\n==================================================================",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31419",
+        "https://git.kernel.org/stable/c/3453882f36c40d2339267093676585a89808a73d",
+        "https://git.kernel.org/stable/c/d4cc7e4c80b1634c7b1497574a2fdb18df6c026c",
+        "https://git.kernel.org/stable/c/f5b94654a4a19891a8108d66ef166de6c028c6cd",
+        "https://git.kernel.org/stable/c/2884bf72fb8f03409e423397319205de48adca16"
+      ]
+    },
+    {
+      "id": "CVE-2026-31532",
+      "source": "redhat",
+      "title": "kernel: can: raw: fix ro->uniq use-after-free in raw_rcv()",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ncan: raw: fix ro->uniq use-after-free in raw_rcv()\n\nraw_release() unregisters raw CAN receive filters via can_rx_unregister(),\nbut receiver deletion is deferred with call_rcu(). This leaves a window\nwhere raw_rcv() may still be running in an RCU read-side critical section\nafter raw_release() frees ro->uniq, leading to a use-after-free of the\npercpu uniq storage.\n\nMove free_percpu(ro->uniq) out of raw_release() and into a raw-specific\nsocket destructor. can_rx_unregister() takes an extra reference to the\nsocket and only drops it from the RCU callback, so freeing uniq from\nsk_destruct ensures the percpu area is not released until the relevant\ncallbacks have drained.\n\n[mkl: applied manually]",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-11",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31532",
+        "https://git.kernel.org/stable/c/5e9cfffad898bbeaafd0ea608a6d267362f050fc",
+        "https://git.kernel.org/stable/c/572f0bf536ebc14f6e7da3d21a85cf076de8358e",
+        "https://git.kernel.org/stable/c/1a0f2de81f7fbdc538fc72d7d74609b79bc83cc0",
+        "https://git.kernel.org/stable/c/7201a531b9a5ed892bfda5ded9194ef622de8ffa",
+        "https://git.kernel.org/stable/c/34c1741254ff972e8375faf176678a248826fe3a",
+        "https://git.kernel.org/stable/c/a535a9217ca3f2fccedaafb2fddb4c48f27d36dc"
+      ]
+    },
+    {
+      "id": "CVE-2026-31607",
+      "source": "redhat",
+      "title": "kernel: usbip: validate number_of_packets in usbip_pack_ret_submit()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31607"
+      ]
+    },
+    {
+      "id": "CVE-2026-31883",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP: Denial of Service via crafted audio data in RDP",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31883"
+      ]
+    },
+    {
+      "id": "CVE-2026-31884",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP has a division-by-zero in ADPCM decoders when `nBlockAlign` is 0",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31884"
+      ]
+    },
+    {
+      "id": "CVE-2026-31885",
+      "source": "redhat",
+      "title": "freerdp: FreeRDP has an out-of-bounds read in ADPCM decoders due to missing predictor/step_index bounds checks",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31885"
+      ]
+    },
+    {
+      "id": "CVE-2026-32280",
+      "source": "redhat",
+      "title": "crypto/x509: crypto/tls: golang: Go: Denial of Service vulnerability in certificate chain building",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32280"
+      ]
+    },
+    {
+      "id": "CVE-2026-32281",
+      "source": "redhat",
+      "title": "crypto/x509: golang: Go crypto/x509: Denial of Service via inefficient certificate chain validation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32281"
+      ]
+    },
+    {
+      "id": "CVE-2026-32282",
+      "source": "redhat",
+      "title": "golang: internal/syscall/unix: Root.Chmod can follow symlinks out of the root",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32282"
+      ]
+    },
+    {
+      "id": "CVE-2026-32283",
+      "source": "redhat",
+      "title": "crypto/tls: golang: Go crypto/tls: Denial of Service via multiple TLS 1.3 key update messages",
+      "description": "If one side of the TLS connection sends multiple key update messages post-handshake in a single record, the connection can deadlock, causing uncontrolled consumption of resources. This can lead to a denial of service. This only affects TLS 1.3.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-13",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32283",
+        "https://go.dev/cl/763767",
+        "https://go.dev/issue/78334",
+        "https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU",
+        "https://pkg.go.dev/vuln/GO-2026-4870"
+      ]
+    },
+    {
+      "id": "CVE-2026-33186",
+      "source": "redhat",
+      "title": "google.golang.org/grpc/grpc-go: google.golang.org/grpc/authz: gRPC-Go: Authorization bypass due to improper HTTP/2 path validation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33186"
+      ]
+    },
+    {
+      "id": "CVE-2026-33810",
+      "source": "redhat",
+      "title": "crypto/x509: golang: Go crypto/x509: Certificate validation bypass due to incorrect DNS constraint application",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:L",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33810"
+      ]
+    },
+    {
+      "id": "CVE-2026-33985",
+      "source": "redhat",
+      "title": "FreeRDP: FreeRDP: Information disclosure via heap memory out of bounds read",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33985"
+      ]
+    },
+    {
+      "id": "CVE-2026-34588",
+      "source": "redhat",
+      "title": "OpenEXR: OpenEXR: Arbitrary code execution and information disclosure via crafted EXR file",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34588"
+      ]
+    },
+    {
+      "id": "CVE-2026-34986",
+      "source": "redhat",
+      "title": "github.com/go-jose/go-jose/v3: github.com/go-jose/go-jose/v4: Go JOSE: Denial of Service via crafted JSON Web Encryption (JWE) object",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34986"
+      ]
+    },
+    {
+      "id": "CVE-2026-37555",
+      "source": "redhat",
+      "title": "libsndfile: integer overflow in ima_reader_init()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-37555"
+      ]
+    },
+    {
+      "id": "CVE-2026-41651",
+      "source": "redhat",
+      "title": "PackageKit: race condition vulnerability leads to arbitrary package installation as root",
+      "description": "PackageKit is a a D-Bus abstraction layer that allows the user to manage packages in a secure way using a cross-distro, cross-architecture API. PackageKit between and including versions 1.0.2 and 1.3.4 is vulnerable to a time-of-check time-of-use (TOCTOU) race condition on transaction flags that allows unprivileged users to install packages as root and thus leads to a local privilege escalation. This is patched in version 1.3.5.\n\nA local unprivileged user can install arbitrary RPM packages as root, including executing RPM scriptlets, without authentication. The vulnerability is a TOCTOU race condition on `transaction->cached_transaction_flags`  combined with a silent state-machine guard that discards illegal backward transitions while leaving corrupted flags in place. Three bugs exist in `src/pk-transaction.c`:\n1. Unconditional flag overwrite (line 4036): `InstallFiles()` writes caller-supplied flags to `transaction->cached_transaction_flags` without checking whether the transaction has already been  authorized/started. A second call blindly overwrites the flags even while the transaction is RUNNING.\n2. Silent state-transition rejection (lines 873–882): `pk_transaction_set_state()` silently discards backward state transitions (e.g. `RUNNING` → `WAITING_FOR_AUTH`) but the flag overwrite at step 1 already happened. The transaction continues running with corrupted flags.\n3. Late flag read at execution time (lines 2273–2277): The scheduler's idle callback reads cached_transaction_flags at dispatch time, not at authorization time. If flags were overwritten between authorization and execution, the backend sees the attacker's flags.",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-06",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-41651",
+        "https://github.com/PackageKit/PackageKit/security/advisories/GHSA-f55j-vvr9-69xv",
+        "https://github.com/PackageKit/PackageKit/blob/04057883189efa225a7c785591aa87cb299782f8/src/pk-transaction.c#L2273-L2277",
+        "https://github.com/PackageKit/PackageKit/blob/04057883189efa225a7c785591aa87cb299782f8/src/pk-transaction.c#L4036",
+        "https://github.com/PackageKit/PackageKit/blob/04057883189efa225a7c785591aa87cb299782f8/src/pk-transaction.c#L873-L882",
+        "https://github.security.telekom.com/2026/04/pack2theroot-linux-local-privilege-escalation.html",
+        "http://www.openwall.com/lists/oss-security/2026/04/22/6"
+      ]
+    },
+    {
+      "id": "CVE-2026-43128",
+      "source": "redhat",
+      "title": "kernel: RDMA/umem: Fix double dma_buf_unpin in failure path",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43128"
+      ]
+    },
+    {
+      "id": "CVE-2026-43163",
+      "source": "redhat",
+      "title": "kernel: md/bitmap: fix GPF in write_page caused by resize race",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.7,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43163"
+      ]
+    },
+    {
+      "id": "CVE-2026-43284",
+      "source": "redhat",
+      "title": "kernel: \"Dirty Frag\" ESP XFRM variant is a new universal Local Privilege Escalation (LPE) vulnerability in the Linux kernel",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43284"
+      ]
+    },
+    {
+      "id": "CVE-2026-46300",
+      "source": "redhat",
+      "title": "kernel: \"Fragnesia\" is a variant of Dirty Frag vulnerability in the ESP/XFRM leading to Local Privilege Escalation (LPE) vulnerability in the Linux kernel",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46300"
+      ]
+    },
+    {
+      "id": "CVE-2026-46333",
+      "source": "redhat",
+      "title": "kernel: Read root-owned files as an unprivileged user",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nptrace: slightly saner 'get_dumpable()' logic\n\nThe 'dumpability' of a task is fundamentally about the memory image of\nthe task - the concept comes from whether it can core dump or not - and\nmakes no sense when you don't have an associated mm.\n\nAnd almost all users do in fact use it only for the case where the task\nhas a mm pointer.\n\nBut we have one odd special case: ptrace_may_access() uses 'dumpable' to\ncheck various other things entirely independently of the MM (typically\nexplicitly using flags like PTRACE_MODE_READ_FSCREDS).  Including for\nthreads that no longer have a VM (and maybe never did, like most kernel\nthreads).\n\nIt's not what this flag was designed for, but it is what it is.\n\nThe ptrace code does check that the uid/gid matches, so you do have to\nbe uid-0 to see kernel thread details, but this means that the\ntraditional \"drop capabilities\" model doesn't make any difference for\nthis all.\n\nMake it all make a *bit* more sense by saying that if you don't have a\nMM pointer, we'll use a cached \"last dumpability\" flag if the thread\never had a MM (it will be zero for kernel threads since it is never\nset), and require a proper CAP_SYS_PTRACE capability to override.",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-15",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46333",
+        "https://git.kernel.org/stable/c/93d4ba49d18e3d7fb41a9927c2d0cca5e9dfefd6",
+        "https://git.kernel.org/stable/c/15b828a46f305ae9f05a7c16914b3ce273474205",
+        "https://git.kernel.org/stable/c/4709234fd1b95136ceb789f639b1e7ea5de1b181",
+        "https://git.kernel.org/stable/c/8f907d345bae8f4b3f004c5abc56bf2dfb851ea7",
+        "https://git.kernel.org/stable/c/6e5b51e74a40d377bcd3081dd33fbaa0e1aa7e3d",
+        "https://git.kernel.org/stable/c/2a93a4fac7b6051d3be7cd1b015fe7320cd0404d",
+        "https://git.kernel.org/stable/c/01363cb3fbd0238ffdeb09f53e9039c9edf8a730"
+      ]
+    },
+    {
+      "id": "CVE-2026-4775",
+      "source": "redhat",
+      "title": "libtiff: libtiff: Arbitrary code execution or denial of service via signed integer overflow in TIFF file processing",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-4775"
+      ]
+    },
+    {
+      "id": "CVE-2026-4786",
+      "source": "redhat",
+      "title": "python: cpython: Python: Arbitrary code execution via command injection in webbrowser.open() API",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:L",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-4786"
+      ]
+    },
+    {
+      "id": "CVE-2026-4878",
+      "source": "redhat",
+      "title": "libcap: libcap: Privilege escalation via TOCTOU race condition in cap_set_file()",
+      "description": "A flaw was found in libcap. A local unprivileged user can exploit a Time-of-check-to-time-of-use (TOCTOU) race condition in the `cap_set_file()` function. This allows an attacker with write access to a parent directory to redirect file capability updates to an attacker-controlled file. By doing so, capabilities can be injected into or stripped from unintended executables, leading to privilege escalation.",
+      "severity": null,
+      "cvss_score": 6.7,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-05-07",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-4878",
+        "https://access.redhat.com/errata/RHSA-2026:12423",
+        "https://access.redhat.com/errata/RHSA-2026:12441",
+        "https://access.redhat.com/errata/RHSA-2026:13285",
+        "https://access.redhat.com/errata/RHSA-2026:14162",
+        "https://access.redhat.com/errata/RHSA-2026:14937",
+        "https://access.redhat.com/errata/RHSA-2026:7473",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2447554",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2451615",
+        "http://www.openwall.com/lists/oss-security/2026/04/07/4",
+        "http://www.openwall.com/lists/oss-security/2026/04/07/14",
+        "http://www.openwall.com/lists/oss-security/2026/04/08/9",
+        "http://www.openwall.com/lists/oss-security/2026/04/09/5",
+        "http://www.openwall.com/lists/oss-security/2026/04/09/6"
+      ]
+    },
+    {
+      "id": "CVE-2026-6100",
+      "source": "redhat",
+      "title": "python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6100"
+      ]
+    },
+    {
+      "id": "CVE-2026-6746",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Use-after-free in the DOM: Core & HTML component",
+      "description": "Use-after-free in the DOM: Core & HTML component. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-22",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6746",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2014596",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-31/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6747",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Use-after-free in the WebRTC component",
+      "description": "Use-after-free in the WebRTC component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-22",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6747",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2021769",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6748",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Uninitialized memory in the Audio/Video: Web Codecs component",
+      "description": "Uninitialized memory in the Audio/Video: Web Codecs component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-21",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6748",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2022604",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6749",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Information disclosure due to uninitialized memory in the Graphics: Canvas2D component",
+      "description": "Information disclosure due to uninitialized memory in the Graphics: Canvas2D component. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-22",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6749",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2022610",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-31/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6750",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Privilege escalation in the Graphics: WebRender component",
+      "description": "Privilege escalation in the Graphics: WebRender component. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-24",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6750",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2023407",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-31/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6751",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Uninitialized memory in the Audio/Video: Web Codecs component",
+      "description": "Uninitialized memory in the Audio/Video: Web Codecs component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-21",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6751",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2025883",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6752",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the WebRTC component",
+      "description": "Incorrect boundary conditions in the WebRTC component. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-21",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6752",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2027499",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-31/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6753",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the WebRTC component",
+      "description": "Incorrect boundary conditions in the WebRTC component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-22",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6753",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2027501",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6754",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Use-after-free in the JavaScript Engine component",
+      "description": "Use-after-free in the JavaScript Engine component. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-22",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6754",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2027541",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-31/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6757",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Invalid pointer in the JavaScript: WebAssembly component",
+      "description": "Invalid pointer in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-22",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6757",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2013588",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6759",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Use-after-free in the Widget: Cocoa component",
+      "description": "Use-after-free in the Widget: Cocoa component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-22",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6759",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2016164",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6761",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Privilege escalation in the Networking component",
+      "description": "Privilege escalation in the Networking component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-23",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6761",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2017857",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6762",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Spoofing issue in the DOM: Core & HTML component",
+      "description": "Spoofing issue in the DOM: Core & HTML component. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-22",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6762",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2021080",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-31/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6763",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Mitigation bypass in the File Handling component",
+      "description": "Mitigation bypass in the File Handling component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-21",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6763",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2021666",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6764",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the DOM: Device Interfaces component",
+      "description": "Incorrect boundary conditions in the DOM: Device Interfaces component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-21",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6764",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2022162",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6765",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Information disclosure in the Form Autofill component",
+      "description": "Information disclosure in the Form Autofill component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-21",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6765",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2022419",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6766",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the Libraries component in NSS",
+      "description": "Incorrect boundary conditions in the Libraries component in NSS. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-21",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6766",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2023207",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6767",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Other issue in the Libraries component in NSS",
+      "description": "Other issue in the Libraries component in NSS. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-21",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6767",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2023209",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-31/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6769",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Privilege escalation in the Debugger component",
+      "description": "Privilege escalation in the Debugger component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-23",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6769",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2023753",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6770",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Other issue in the Storage: IndexedDB component",
+      "description": "Other issue in the Storage: IndexedDB component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "2026-04-21",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6770",
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=2024220",
+        "https://www.mozilla.org/security/advisories/mfsa2026-30/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-32/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-33/",
+        "https://www.mozilla.org/security/advisories/mfsa2026-34/"
+      ]
+    },
+    {
+      "id": "CVE-2026-6771",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Mitigation bypass in the DOM: Security component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6771"
+      ]
+    },
+    {
+      "id": "CVE-2026-6772",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the Libraries component in NSS",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6772"
+      ]
+    },
+    {
+      "id": "CVE-2026-6776",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the WebRTC: Networking component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6776"
+      ]
+    },
+    {
+      "id": "CVE-2026-6785",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bugs fixed in Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird ESR 140.10, Firefox 150 and Thunderbird 150",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6785"
+      ]
+    },
+    {
+      "id": "CVE-2026-6786",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bugs fixed in Firefox ESR 140.10, Thunderbird ESR 140.10, Firefox 150 and Thunderbird 150",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6786"
+      ]
+    },
+    {
+      "id": "CVE-2026-7320",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Information disclosure due to incorrect boundary conditions in the Audio/Video component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-7320"
+      ]
+    },
+    {
+      "id": "CVE-2026-7321",
+      "source": "redhat",
+      "title": "firefox: thunderbird: webrtc: Sandbox escape due to incorrect boundary conditions in the WebRTC: Networking component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-7321"
+      ]
+    },
+    {
+      "id": "CVE-2026-7322",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bugs fixed in Thunderbird ESR 140.10.1 and Thunderbird 150.0.1",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-7322"
+      ]
+    },
+    {
+      "id": "CVE-2026-7323",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bugs fixed in Firefox ESR 140.10.1 and Firefox 150.0.1",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-7323"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:19715",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:19715",
+    "https://access.redhat.com/errata/RHSA-2026:19559",
+    "https://access.redhat.com/errata/RHSA-2026:19666",
+    "https://access.redhat.com/errata/RHSA-2026:19719",
+    "https://access.redhat.com/errata/RHSA-2026:19575",
+    "https://access.redhat.com/errata/RHSA-2026:19467",
+    "https://access.redhat.com/errata/RHSA-2026:19466",
+    "https://access.redhat.com/errata/RHSA-2026:19523",
+    "https://access.redhat.com/errata/RHSA-2026:19574",
+    "https://access.redhat.com/errata/RHSA-2026:19722",
+    "https://access.redhat.com/errata/RHSA-2026:19714",
+    "https://access.redhat.com/errata/RHSA-2026:19702",
+    "https://access.redhat.com/errata/RHSA-2026:19610",
+    "https://access.redhat.com/errata/RHSA-2026:19811",
+    "https://access.redhat.com/errata/RHSA-2026:19542",
+    "https://access.redhat.com/errata/RHSA-2026:19450",
+    "https://access.redhat.com/errata/RHSA-2026:19549",
+    "https://access.redhat.com/errata/RHSA-2026:19565",
+    "https://access.redhat.com/errata/RHSA-2026:19573",
+    "https://access.redhat.com/errata/RHSA-2026:19457",
+    "https://access.redhat.com/errata/RHSA-2026:19586",
+    "https://access.redhat.com/errata/RHSA-2026:19569",
+    "https://access.redhat.com/errata/RHSA-2026:19705",
+    "https://access.redhat.com/errata/RHSA-2026:19590",
+    "https://access.redhat.com/errata/RHSA-2026:19601",
+    "https://access.redhat.com/errata/RHSA-2026:19657",
+    "https://access.redhat.com/errata/RHSA-2026:19704",
+    "https://access.redhat.com/errata/RHSA-2026:19587",
+    "https://access.redhat.com/errata/RHSA-2026:19568",
+    "https://access.redhat.com/errata/RHSA-2026:19456",
+    "https://access.redhat.com/errata/RHSA-2026:19460",
+    "https://access.redhat.com/errata/RHSA-2026:19572",
+    "https://access.redhat.com/errata/RHSA-2026:19564",
+    "https://access.redhat.com/errata/RHSA-2026:19875",
+    "https://access.redhat.com/errata/RHSA-2026:19571",
+    "https://access.redhat.com/errata/RHSA-2026:19567",
+    "https://access.redhat.com/errata/RHSA-2026:19588",
+    "https://access.redhat.com/errata/RHSA-2026:19475",
+    "https://access.redhat.com/errata/RHSA-2026:19459",
+    "https://access.redhat.com/errata/RHSA-2026:19711",
+    "https://access.redhat.com/errata/RHSA-2026:19750",
+    "https://access.redhat.com/errata/RHSA-2026:19455",
+    "https://access.redhat.com/errata/RHSA-2026:19550",
+    "https://access.redhat.com/errata/RHSA-2026:19454",
+    "https://access.redhat.com/errata/RHSA-2026:19585",
+    "https://access.redhat.com/errata/RHSA-2026:19655",
+    "https://access.redhat.com/errata/RHSA-2026:19634",
+    "https://access.redhat.com/errata/RHSA-2026:19458",
+    "https://access.redhat.com/errata/RHSA-2026:19566",
+    "https://access.redhat.com/errata/RHSA-2026:19589",
+    "https://access.redhat.com/errata/RHSA-2026:19659",
+    "https://access.redhat.com/errata/RHSA-2026:19570",
+    "https://access.redhat.com/errata/RHSA-2026:19462",
+    "https://access.redhat.com/errata/RHSA-2026:19453",
+    "https://access.redhat.com/errata/RHSA-2026:19465",
+    "https://access.redhat.com/errata/RHSA-2026:19609",
+    "https://access.redhat.com/errata/RHSA-2026:19577",
+    "https://access.redhat.com/errata/RHSA-2026:19664",
+    "https://access.redhat.com/errata/RHSA-2026:19721",
+    "https://access.redhat.com/errata/RHSA-2026:19720",
+    "https://access.redhat.com/errata/RHSA-2026:19560",
+    "https://access.redhat.com/errata/RHSA-2026:19576",
+    "https://access.redhat.com/errata/RHSA-2026:19608",
+    "https://access.redhat.com/errata/RHSA-2026:19521",
+    "https://access.redhat.com/errata/RHSA-2026:19464",
+    "https://access.redhat.com/errata/RHSA-2026:19452",
+    "https://access.redhat.com/errata/RHSA-2026:19468",
+    "https://access.redhat.com/errata/RHSA-2026:19604"
+  ]
+}

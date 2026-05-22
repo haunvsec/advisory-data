@@ -1,0 +1,194 @@
+{
+  "id": "aws-2026-04-24",
+  "source": "aws",
+  "aliases": [
+    "CVE-2026-6911",
+    "CVE-2026-6912",
+    "CVE-2026-6966",
+    "CVE-2026-6967",
+    "CVE-2026-6968"
+  ],
+  "title": "Aws Security Advisories - 2026-04-24",
+  "description": "Merged 2 aws security advisories published on 2026-04-24. Original advisory IDs: 2026-018-aws, 2026-019-aws\n\nTitles:\n- Issue with AWS Ops Wheel (CVE-2026-6911 and CVE-2026-6912\n- Issues in tough library and tuftool CLI utility",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 7.1,
+  "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:H/SA:L",
+  "cwe_ids": [
+    "CWE-347",
+    "CWE-345",
+    "CWE-22"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-04-24",
+  "modified_date": "2026-04-24",
+  "affected": [
+    "aws:AWS Ops Wheel is an open-source tool that helps teams make random selections using a virtual spinning wheel, deployed into customer AWS accounts via CloudFormation.",
+    "aws:Multiple security issues have been identified in the tough library and tuftool CLI utility. tough is a Rust library used for generating, signing, and managing TUF (The Update Framework) repositories, and tuftool is the command-line interface for repository management Operations."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6912"
+        },
+        {
+          "id": "CVE-2026-6911"
+        },
+        {
+          "id": "CVE-2026-6966"
+        },
+        {
+          "id": "CVE-2026-6967"
+        },
+        {
+          "id": "CVE-2026-6968"
+        }
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "Tough",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:aws:tough:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6966"
+        },
+        {
+          "id": "CVE-2026-6967"
+        },
+        {
+          "id": "CVE-2026-6968"
+        }
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "Tuftool",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:aws:tuftool:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6966"
+        },
+        {
+          "id": "CVE-2026-6967"
+        },
+        {
+          "id": "CVE-2026-6968"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-6911",
+      "source": "aws",
+      "title": "CVE-2026-6911",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-24",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6912",
+      "source": "aws",
+      "title": "CVE-2026-6912",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-24",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6966",
+      "source": "aws",
+      "title": "CVE-2026-6966",
+      "description": "Improper verification of cryptographic signature uniqueness in delegated role validation in awslabs/tough before tough-v0.22.0 allows remote authenticated users to bypass the TUF signature threshold requirement by duplicating a valid signature, causing the client to accept forged delegated role metadata.\n\nWe recommend you upgrade to tough-v0.22.0 / tuftool-v0.15.0.",
+      "severity": "high",
+      "cvss_score": 7,
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:H/SA:N",
+      "published_date": "2026-04-24",
+      "modified_date": "2026-04-24",
+      "affected": [],
+      "references": [
+        "https://aws.amazon.com/security/security-bulletins/2026-019-aws/",
+        "https://github.com/awslabs/tough/releases/tag/tough-v0.22.0",
+        "https://github.com/awslabs/tough/releases/tag/tuftool-v0.15.0",
+        "https://crates.io/crates/tough/0.22.0",
+        "https://crates.io/crates/tuftool/0.15.0",
+        "https://github.com/awslabs/tough/security/advisories/GHSA-8m7c-8m39-rv4x"
+      ]
+    },
+    {
+      "id": "CVE-2026-6967",
+      "source": "aws",
+      "title": "CVE-2026-6967",
+      "description": "Missing expiration, hash, and length enforcement in delegated metadata validation in awslabs/tough before tough-v0.22.0 allows remote authenticated users with delegated signing authority to bypass TUF specification integrity checks for delegated targets metadata and poison the local metadata cache, because load_delegations does not apply the same validation checks as the top-level targets metadata path.\n\nWe recommend you upgrade to tough-v0.22.0 / tuftool-v0.15.0.",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:H/SA:L",
+      "published_date": "2026-04-24",
+      "modified_date": "2026-04-24",
+      "affected": [],
+      "references": [
+        "https://aws.amazon.com/security/security-bulletins/2026-019-aws/",
+        "https://github.com/awslabs/tough/releases/tag/tough-v0.22.0",
+        "https://github.com/awslabs/tough/releases/tag/tuftool-v0.15.0",
+        "https://crates.io/crates/tough/0.22.0",
+        "https://crates.io/crates/tuftool/0.15.0",
+        "https://github.com/awslabs/tough/security/advisories/GHSA-4v58-8p28-2rq3"
+      ]
+    },
+    {
+      "id": "CVE-2026-6968",
+      "source": "aws",
+      "title": "CVE-2026-6968",
+      "description": "Incomplete path traversal fixes in awslabs/tough before tough-v0.22.0 allow remote authenticated users with delegated signing authority to write files outside intended output directories via absolute target names in copy_target/link_target, symlinked parent directories in save_target, or symlinked metadata filenames in SignedRole::write, because write paths trust the joined destination path without post-resolution containment verification.\n\nWe recommend you upgrade to tough-v0.22.0 / tuftool-v0.15.0.",
+      "severity": "high",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:H/SA:L",
+      "published_date": "2026-04-24",
+      "modified_date": "2026-04-24",
+      "affected": [],
+      "references": [
+        "https://aws.amazon.com/security/security-bulletins/2026-019-aws/",
+        "https://github.com/awslabs/tough/releases/tag/tough-v0.22.0",
+        "https://github.com/awslabs/tough/releases/tag/tuftool-v0.15.0",
+        "https://crates.io/crates/tough/0.22.0",
+        "https://crates.io/crates/tuftool/0.15.0",
+        "https://github.com/awslabs/tough/security/advisories/GHSA-v57p-gppj-p9vg"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-018-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-018-aws/",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-019-aws/"
+  ]
+}

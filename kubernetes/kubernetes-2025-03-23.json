@@ -1,0 +1,241 @@
+{
+  "id": "kubernetes-2025-03-23",
+  "source": "kubernetes",
+  "aliases": [
+    "CVE-2025-1097",
+    "CVE-2025-1098",
+    "CVE-2025-1974",
+    "CVE-2025-24513",
+    "CVE-2025-24514"
+  ],
+  "title": "Kubernetes Security Advisories - 2025-03-23",
+  "description": "Merged 5 kubernetes security advisories published on 2025-03-23. Original advisory IDs: CVE-2025-24514, CVE-2025-1974, CVE-2025-1098, CVE-2025-24513, CVE-2025-1097\n\nTitles:\n- ingress-nginx controller configuration injection via unsanitized auth-url annotation\n- ingress-nginx admission controller RCE escalation\n- ingress-nginx controller configuration injection via unsanitized mirror annotations\n- ingress-nginx controller auth secret file path traversal vulnerability\n- ingress-nginx controller configuration injection via unsanitized auth-tls-match-cn annotation",
+  "severity": null,
+  "cvss_scores": [
+    {
+      "version": "3.1",
+      "score": null,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H)",
+      "severity": ""
+    },
+    {
+      "version": "3.1",
+      "score": null,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H))",
+      "severity": ""
+    },
+    {
+      "version": "3.1",
+      "score": null,
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L))",
+      "severity": ""
+    }
+  ],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2025-03-23",
+  "modified_date": "2025-03-23",
+  "affected": [
+    "kubernetes:< v1.11.0",
+    "kubernetes:v1.11.0 \\- 1.11.4",
+    "kubernetes:v1.12.0"
+  ],
+  "affected_products": [
+    {
+      "vendor": "kubernetes",
+      "product": "< v1.11.0",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:__v1.11.0:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-24514"
+        },
+        {
+          "id": "CVE-2025-1974"
+        },
+        {
+          "id": "CVE-2025-1098"
+        },
+        {
+          "id": "CVE-2025-24513"
+        },
+        {
+          "id": "CVE-2025-1097"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "V1.11.0 \\- 1.11.4",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:v1.11.0__-_1.11.4:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-24514"
+        },
+        {
+          "id": "CVE-2025-1974"
+        },
+        {
+          "id": "CVE-2025-1098"
+        },
+        {
+          "id": "CVE-2025-24513"
+        },
+        {
+          "id": "CVE-2025-1097"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "V1.12.0",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:v1.12.0:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-24514"
+        },
+        {
+          "id": "CVE-2025-1974"
+        },
+        {
+          "id": "CVE-2025-1098"
+        },
+        {
+          "id": "CVE-2025-24513"
+        },
+        {
+          "id": "CVE-2025-1097"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "ingress-nginx [main@ab470eb](https://github.com/kubernetes/ingress-nginx/pull/13068/commits/ab470eb920924d62a197ebddd8a4cc3031a77ddf)",
+    "ingress-nginx [main@0ccf4ca](https://github.com/kubernetes/ingress-nginx/pull/13068/commits/0ccf4caaadec919680c455d221e53d97970d527d)",
+    "ingress-nginx [main@2e9f373](https://github.com/kubernetes/ingress-nginx/pull/13068/commits/2e9f37380afb7853fa6daa1c3e6659550aadfd90)",
+    "ingress-nginx [main@cbc1590](https://github.com/kubernetes/ingress-nginx/pull/13068/commits/cbc159094f6d1b1bf8cf1761eb119138d1f95df1)",
+    "ingress-nginx [main@06c992a](https://github.com/kubernetes/ingress-nginx/pull/13068/commits/06c992abd8eef9710359a236c443c613d29fdfad)"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-1097",
+      "source": "kubernetes",
+      "title": "ingress-nginx controller configuration injection via unsanitized auth-tls-match-cn annotation",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H)",
+      "published_date": "2025-03-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-1098",
+      "source": "kubernetes",
+      "title": "ingress-nginx controller configuration injection via unsanitized mirror annotations",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H)",
+      "published_date": "2025-03-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-1974",
+      "source": "kubernetes",
+      "title": "ingress-nginx admission controller RCE escalation",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H))",
+      "published_date": "2025-03-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-24513",
+      "source": "kubernetes",
+      "title": "ingress-nginx controller auth secret file path traversal vulnerability",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L))",
+      "published_date": "2025-03-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-24514",
+      "source": "kubernetes",
+      "title": "ingress-nginx controller configuration injection via unsanitized auth-url annotation",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H)",
+      "published_date": "2025-03-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [
+    {
+      "name": "This vulnerability was reported by Nir Ohfeld, Ronen Shustin and Sagi Tzadik from Wiz",
+      "role": "finder",
+      "url": ""
+    },
+    {
+      "name": "This vulnerability was reported by Nir Ohfeld, Ronen Shustin, Sagi Tzadik, and Hillai Ben Sasson from Wiz",
+      "role": "finder",
+      "url": ""
+    },
+    {
+      "name": "This vulnerability was reported by Nir Ohfeld, Ronen Shustin, Sagi Tzadik and Hillai Ben Sasson from Wiz",
+      "role": "finder",
+      "url": ""
+    },
+    {
+      "name": "This vulnerability was reported by Nir Ohfeld and Ronen Shustin from Wiz",
+      "role": "finder",
+      "url": ""
+    }
+  ],
+  "url": "https://www.cve.org/cverecord?id=CVE-2025-24514",
+  "vendor": "kubernetes",
+  "references": [
+    "https://www.cve.org/cverecord?id=CVE-2025-24514",
+    "https://github.com/kubernetes/kubernetes/issues/131006",
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2025-24514",
+    "https://www.cve.org/cverecord?id=CVE-2025-1974",
+    "https://github.com/kubernetes/kubernetes/issues/131009",
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2025-1974",
+    "https://www.cve.org/cverecord?id=CVE-2025-1098",
+    "https://github.com/kubernetes/kubernetes/issues/131008",
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2025-1098",
+    "https://www.cve.org/cverecord?id=CVE-2025-24513",
+    "https://github.com/kubernetes/kubernetes/issues/131005",
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2025-24513",
+    "https://www.cve.org/cverecord?id=CVE-2025-1097",
+    "https://github.com/kubernetes/kubernetes/issues/131007",
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2025-1097"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "kubernetes-2022-04-22",
+  "source": "kubernetes",
+  "aliases": [
+    "CVE-2021-25745",
+    "CVE-2021-25746"
+  ],
+  "title": "Kubernetes Security Advisories - 2022-04-22",
+  "description": "Merged 2 kubernetes security advisories published on 2022-04-22. Original advisory IDs: CVE-2021-25746, CVE-2021-25745\n\nTitles:\n- Ingress-nginx directive injection via annotations\n- Ingress-nginx `path` can be pointed to service account token file",
+  "severity": null,
+  "cvss_scores": [
+    {
+      "version": "3.1",
+      "score": null,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L)),",
+      "severity": ""
+    }
+  ],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2022-04-22",
+  "modified_date": "2022-04-22",
+  "affected": [
+    "kubernetes:<v1.2.0",
+    "kubernetes:#### Fixed Versions",
+    "kubernetes:v1.2.0-beta.0",
+    "kubernetes:v1.2.0",
+    "kubernetes:### Mitigation",
+    "kubernetes:If you are unable to roll out the fix, this vulnerability can be mitigated by implementing an admission policy that restricts the `metadata.annotations` values to known safe (see the newly added [rules](https://github.com/kubernetes/ingress-nginx/blame/main/internal/ingress/inspector/rules.go), or the suggested value for [annotation-value-word-blocklist](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/#annotation-value-word-blocklist)).",
+    "kubernetes:### Detection",
+    "kubernetes:If you find evidence that this vulnerability has been exploited, please contact [security@kubernetes.io](mailto:security@kubernetes.io)",
+    "kubernetes:### Additional Details",
+    "kubernetes:See ingress-nginx Issue [#8503](https://github.com/kubernetes/kubernetes/issues/126813) for more details.",
+    "kubernetes:### Acknowledgements",
+    "kubernetes:This vulnerability was reported by Anthony Weems, and separately by jeffrey&oliver.",
+    "kubernetes:Thank You,",
+    "kubernetes:CJ Cullen on behalf of the Kubernetes Security Response Committee",
+    "kubernetes:If you are unable to roll out the fix, this vulnerability can be mitigated by implementing an admission policy that restricts the `spec.rules[].http.paths[].path` field on the `networking.k8s.io/Ingress` resource to known safe characters (see the newly added [rules](https://github.com/kubernetes/ingress-nginx/blame/main/internal/ingress/inspector/rules.go), or the suggested value for [annotation-value-word-blocklist](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/#annotation-value-word-blocklist)).",
+    "kubernetes:Additional Details",
+    "kubernetes:See ingress-nginx Issue [#8502](https://github.com/kubernetes/kubernetes/issues/126812) for more details.",
+    "kubernetes:This vulnerability was reported by Gafnit Amiga."
+  ],
+  "affected_products": [
+    {
+      "vendor": "kubernetes",
+      "product": "<v1.2.0",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:_v1.2.0:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-25746"
+        },
+        {
+          "id": "CVE-2021-25745"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Kubernetes",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:kubernetes:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-25746"
+        },
+        {
+          "id": "CVE-2021-25745"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "V1.2.0-beta.0",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:v1.2.0-beta.0:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-25746"
+        },
+        {
+          "id": "CVE-2021-25745"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "V1.2.0",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:v1.2.0:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-25746"
+        },
+        {
+          "id": "CVE-2021-25745"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "This vulnerability was reported by Anthony Weems, and separately by jeffrey&oliver.",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:this_vulnerability_was_reported_by_anthony_weems__and_separately_by_jeffrey_oliver.:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-25746"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Additional Details",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:additional_details:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-25745"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "This vulnerability was reported by Gafnit Amiga.",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:this_vulnerability_was_reported_by_gafnit_amiga.:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-25745"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "v1.2.0-beta.0",
+    "v1.2.0",
+    "### Mitigation",
+    "If you are unable to roll out the fix, this vulnerability can be mitigated by implementing an admission policy that restricts the `metadata.annotations` values to known safe (see the newly added [rules](https://github.com/kubernetes/ingress-nginx/blame/main/internal/ingress/inspector/rules.go), or the suggested value for [annotation-value-word-blocklist](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/#annotation-value-word-blocklist)).",
+    "### Detection",
+    "If you find evidence that this vulnerability has been exploited, please contact [security@kubernetes.io](mailto:security@kubernetes.io)",
+    "### Additional Details",
+    "See ingress-nginx Issue [#8503](https://github.com/kubernetes/kubernetes/issues/126813) for more details.",
+    "### Acknowledgements",
+    "This vulnerability was reported by Anthony Weems, and separately by jeffrey&oliver.",
+    "Thank You,",
+    "CJ Cullen on behalf of the Kubernetes Security Response Committee",
+    "If you are unable to roll out the fix, this vulnerability can be mitigated by implementing an admission policy that restricts the `spec.rules[].http.paths[].path` field on the `networking.k8s.io/Ingress` resource to known safe characters (see the newly added [rules](https://github.com/kubernetes/ingress-nginx/blame/main/internal/ingress/inspector/rules.go), or the suggested value for [annotation-value-word-blocklist](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/#annotation-value-word-blocklist)).",
+    "Additional Details",
+    "See ingress-nginx Issue [#8502](https://github.com/kubernetes/kubernetes/issues/126812) for more details.",
+    "This vulnerability was reported by Gafnit Amiga."
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2021-25745",
+      "source": "kubernetes",
+      "title": "Ingress-nginx `path` can be pointed to service account token file",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L)),",
+      "published_date": "2022-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2021-25746",
+      "source": "kubernetes",
+      "title": "Ingress-nginx directive injection via annotations",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L)),",
+      "published_date": "2022-04-22",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.cve.org/cverecord?id=CVE-2021-25746",
+  "vendor": "kubernetes",
+  "references": [
+    "https://www.cve.org/cverecord?id=CVE-2021-25746",
+    "https://github.com/kubernetes/kubernetes/issues/126813",
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2021-25746",
+    "https://www.cve.org/cverecord?id=CVE-2021-25745",
+    "https://github.com/kubernetes/kubernetes/issues/126812",
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2021-25745"
+  ]
+}

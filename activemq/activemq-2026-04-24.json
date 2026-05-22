@@ -1,0 +1,253 @@
+{
+  "id": "activemq-2026-04-24",
+  "source": "activemq",
+  "aliases": [
+    "CVE-2026-34197",
+    "CVE-2026-40466",
+    "CVE-2026-41043",
+    "CVE-2026-41044"
+  ],
+  "title": "Apache Security Advisories - 2026-04-24",
+  "description": "Merged 3 apache security advisories published on 2026-04-24. Original advisory IDs: CVE-2026-40466, CVE-2026-41043, CVE-2026-41044\n\nTitles:\n- ActiveMQ CVE-2026-40466\n- ActiveMQ CVE-2026-41043\n- ActiveMQ CVE-2026-41044",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": 8.8,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "cwe_ids": [
+    "CWE-20",
+    "CWE-94",
+    "CWE-79",
+    "CWE-915"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-04-24",
+  "modified_date": "2026-04-24",
+  "affected": [
+    "apache:activemq"
+  ],
+  "affected_products": [
+    {
+      "vendor": "apache",
+      "product": "Apache ActiveMQ",
+      "version_range": "before 5.19.6",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40466"
+        },
+        {
+          "id": "CVE-2026-34197"
+        },
+        {
+          "id": "CVE-2026-41043"
+        },
+        {
+          "id": "CVE-2026-41044"
+        }
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache ActiveMQ",
+      "version_range": "6.0.0 before 6.2.5",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40466"
+        },
+        {
+          "id": "CVE-2026-34197"
+        },
+        {
+          "id": "CVE-2026-41043"
+        },
+        {
+          "id": "CVE-2026-41044"
+        }
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache ActiveMQ",
+      "version_range": "< 5.19.6",
+      "fixed_version": "5.19.6",
+      "cpe": "cpe:2.3:a:apache:activemq:5.19.6:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40466"
+        },
+        {
+          "id": "CVE-2026-34197"
+        },
+        {
+          "id": "CVE-2026-41043"
+        },
+        {
+          "id": "CVE-2026-41044"
+        }
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache ActiveMQ",
+      "version_range": "< 6.2.5",
+      "fixed_version": "6.2.5",
+      "cpe": "cpe:2.3:a:apache:activemq:6.2.5:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40466"
+        },
+        {
+          "id": "CVE-2026-34197"
+        },
+        {
+          "id": "CVE-2026-41043"
+        },
+        {
+          "id": "CVE-2026-41044"
+        }
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache ActiveMQ",
+      "version_range": "< 5.19.4",
+      "fixed_version": "5.19.4",
+      "cpe": "cpe:2.3:a:apache:activemq:5.19.4:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40466"
+        },
+        {
+          "id": "CVE-2026-34197"
+        }
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache ActiveMQ",
+      "version_range": "< 6.2.3",
+      "fixed_version": "6.2.3",
+      "cpe": "cpe:2.3:a:apache:activemq:6.2.3:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40466"
+        },
+        {
+          "id": "CVE-2026-34197"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "5.19.6",
+    "6.2.5"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-34197",
+      "source": "activemq",
+      "title": "CVE-2026-34197",
+      "description": "Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ.\n\nApache ActiveMQ Classic exposes the Jolokia JMX-HTTP bridge at /api/jolokia/ on the web console. The default Jolokia access policy permits exec operations on all ActiveMQ MBeans (org.apache.activemq:*), including\nBrokerService.addNetworkConnector(String) and BrokerService.addConnector(String).\n\nAn authenticated attacker can invoke these operations with a crafted discovery URI that triggers the VM transport's brokerConfig parameter to load a remote Spring XML application context using ResourceXmlApplicationContext.\nBecause Spring's ResourceXmlApplicationContext instantiates all singleton beans before the BrokerService validates the configuration, arbitrary code execution occurs on the broker's JVM through bean factory methods such as Runtime.exec().\n\n\n\nThis issue affects Apache ActiveMQ Broker: before 5.19.4, from 6.0.0 before 6.2.3; Apache ActiveMQ All: before 5.19.4, from 6.0.0 before 6.2.3; Apache ActiveMQ: before 5.19.4, from 6.0.0 before 6.2.3.\n\n\n\nUsers are recommended to upgrade to version 5.19.4 or 6.2.3, which fixes the issue",
+      "severity": "high",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-04-07",
+      "modified_date": "2026-04-17",
+      "affected": [],
+      "references": [
+        "https://activemq.apache.org/security-advisories.data/CVE-2026-34197-announcement.txt",
+        "http://www.openwall.com/lists/oss-security/2026/04/06/3",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-34197"
+      ]
+    },
+    {
+      "id": "CVE-2026-40466",
+      "source": "activemq",
+      "title": "ActiveMQ CVE-2026-40466",
+      "description": "Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ All, Apache ActiveMQ.\n\n\n\nAn authenticated attacker may bypass the fix in CVE-2026-34197 by adding a connector using an HTTP Discovery transport via BrokerView.addNetworkConnector or BrokerView.addConnector through Jolokia if the activemq-http module is on the classpath.\nA malicious HTTP endpoint can return a VM transport through the HTTP URI which will bypass the validation added in CVE-2026-34197. The attacker can then use the VM transport's brokerConfig parameter to load a remote Spring XML application context using ResourceXmlApplicationContext.\nBecause Spring's ResourceXmlApplicationContext instantiates all singleton beans before the BrokerService validates the configuration, arbitrary code execution occurs on the broker's JVM through bean factory methods such as Runtime.exec().\n\n\nThis issue affects Apache ActiveMQ Broker: before 5.19.6, from 6.0.0 before 6.2.5; Apache ActiveMQ All: before 5.19.6, from 6.0.0 before 6.2.5; Apache ActiveMQ: before 5.19.6, from 6.0.0 before 6.2.5.\n\nUsers are recommended to upgrade to version 5.19.6 or 6.2.5, which fixes the issue.",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-04-24",
+      "modified_date": "2026-04-28",
+      "affected": [],
+      "references": [
+        "https://activemq.apache.org/security-advisories.data/CVE-2026-34197-announcement.txt"
+      ]
+    },
+    {
+      "id": "CVE-2026-41043",
+      "source": "activemq",
+      "title": "ActiveMQ CVE-2026-41043",
+      "description": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Apache ActiveMQ, Apache ActiveMQ Web.\n\nAn authenticated attacker can show malicious content when browsing queues in the web console by overriding the content type to be HTML (instead of XML) and by injecting HTML into a JMS selector field.\n\nThis issue affects Apache ActiveMQ: before 5.19.6, from 6.0.0 before 6.2.5; Apache ActiveMQ Web: before 5.19.6, from 6.0.0 before 6.2.5.\n\nUsers are recommended to upgrade to version 6.2.5 or 5.19.6, which fixes the issue.",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "published_date": "2026-04-24",
+      "modified_date": "2026-04-24",
+      "affected": [],
+      "references": [
+        "https://activemq.apache.org/security-advisories.data/CVE-2026-41043-announcement.txt",
+        "http://www.openwall.com/lists/oss-security/2026/04/23/5"
+      ]
+    },
+    {
+      "id": "CVE-2026-41044",
+      "source": "activemq",
+      "title": "ActiveMQ CVE-2026-41044",
+      "description": "Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ, Apache ActiveMQ Broker, Apache ActiveMQ All.\n\nAn authenticated attacker can use the admin web console page to construct a malicious broker name that bypasses name validation to include an xbean binding that can be later used by a VM transport to load a remote Spring XML application.\nThe attacker can then use the DestinationView mbean to send a message to trigger a VM transport creation that will reference this malicious broker name which can lead to loading the malicious Spring XML context file.\n\n\nBecause Spring's ResourceXmlApplicationContext instantiates all singleton beans before the BrokerService validates the configuration, arbitrary code execution occurs on the broker's JVM through bean factory methods such as Runtime.exec().\n\nThis issue affects Apache ActiveMQ: before 5.19.6, from 6.0.0 before 6.2.5; Apache ActiveMQ Broker: before 5.19.6, from 6.0.0 before 6.2.5; Apache ActiveMQ All: before 5.19.6, from 6.0.0 before 6.2.5.\n\nUsers are recommended to upgrade to version 6.2.5 or 5.19.6, which fixes the issue.",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-04-24",
+      "modified_date": "2026-04-25",
+      "affected": [],
+      "references": [
+        "https://activemq.apache.org/security-advisories.data/CVE-2026-41044-announcement.txt",
+        "http://www.openwall.com/lists/oss-security/2026/04/23/6"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [
+    {
+      "name": "Fatih Ersinadim",
+      "role": "finder",
+      "url": ""
+    },
+    {
+      "name": "gggggggga",
+      "role": "finder",
+      "url": ""
+    },
+    {
+      "name": "Khaled Alshammri",
+      "role": "finder",
+      "url": ""
+    },
+    {
+      "name": "jsjcw",
+      "role": "finder",
+      "url": ""
+    }
+  ],
+  "url": "https://activemq.apache.org/security-advisories.data/CVE-2026-40466-announcement.txt",
+  "vendor": "apache",
+  "references": [
+    "https://activemq.apache.org/security-advisories.data/CVE-2026-40466-announcement.txt",
+    "https://activemq.apache.org/security-advisories.data/CVE-2026-41043-announcement.txt",
+    "https://activemq.apache.org/security-advisories.data/CVE-2026-41044-announcement.txt"
+  ]
+}

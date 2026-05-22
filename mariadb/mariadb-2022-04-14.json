@@ -1,0 +1,281 @@
+{
+  "id": "mariadb-2022-04-14",
+  "source": "mariadb",
+  "aliases": [
+    "CVE-2022-27444",
+    "CVE-2022-27445",
+    "CVE-2022-27446",
+    "CVE-2022-27447",
+    "CVE-2022-27448",
+    "CVE-2022-27449",
+    "CVE-2022-27451",
+    "CVE-2022-27452",
+    "CVE-2022-27455",
+    "CVE-2022-27456",
+    "CVE-2022-27457"
+  ],
+  "title": "Mariadb Security Advisories - 2022-04-14",
+  "description": "Merged 11 mariadb security advisories published on 2022-04-14. Original advisory IDs: CVE-2022-27446, CVE-2022-27451, CVE-2022-27447, CVE-2022-27456, CVE-2022-27457, CVE-2022-27455, CVE-2022-27452, CVE-2022-27444, CVE-2022-27448, CVE-2022-27449, CVE-2022-27445\n\nTitles:\n- CVE-2022-27446\n- CVE-2022-27451\n- CVE-2022-27447\n- CVE-2022-27456\n- CVE-2022-27457\n- CVE-2022-27455\n- CVE-2022-27452\n- CVE-2022-27444\n- CVE-2022-27448\n- CVE-2022-27449\n- CVE-2022-27445",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2022-04-14",
+  "modified_date": "2022-04-14",
+  "affected": [
+    "mariadb:mariadb-server"
+  ],
+  "affected_products": [
+    {
+      "vendor": "mariadb",
+      "product": "MariaDB Server",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2022-27446"
+        },
+        {
+          "id": "CVE-2022-27451"
+        },
+        {
+          "id": "CVE-2022-27447"
+        },
+        {
+          "id": "CVE-2022-27456"
+        },
+        {
+          "id": "CVE-2022-27457"
+        },
+        {
+          "id": "CVE-2022-27455"
+        },
+        {
+          "id": "CVE-2022-27452"
+        },
+        {
+          "id": "CVE-2022-27444"
+        },
+        {
+          "id": "CVE-2022-27448"
+        },
+        {
+          "id": "CVE-2022-27449"
+        },
+        {
+          "id": "CVE-2022-27445"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2022-27444",
+      "source": "mariadb",
+      "title": "CVE-2022-27444",
+      "description": "MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_subselect.cc.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28080",
+        "https://security.netapp.com/advisory/ntap-20220526-0006/"
+      ]
+    },
+    {
+      "id": "CVE-2022-27445",
+      "source": "mariadb",
+      "title": "CVE-2022-27445",
+      "description": "MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/sql_window.cc.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28081",
+        "https://security.netapp.com/advisory/ntap-20220526-0006/",
+        "https://lists.debian.org/debian-lts-announce/2022/09/msg00023.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-27446",
+      "source": "mariadb",
+      "title": "CVE-2022-27446",
+      "description": "MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_cmpfunc.h.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28082",
+        "https://security.netapp.com/advisory/ntap-20220526-0006/"
+      ]
+    },
+    {
+      "id": "CVE-2022-27447",
+      "source": "mariadb",
+      "title": "CVE-2022-27447",
+      "description": "MariaDB Server v10.9 and below was discovered to contain a use-after-free via the component Binary_string::free_buffer() at /sql/sql_string.h.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28099",
+        "https://security.netapp.com/advisory/ntap-20220526-0006/",
+        "https://lists.debian.org/debian-lts-announce/2022/09/msg00023.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-27448",
+      "source": "mariadb",
+      "title": "CVE-2022-27448",
+      "description": "There is an Assertion failure in MariaDB Server v10.9 and below via 'node->pcur->rel_pos == BTR_PCUR_ON' at /row/row0mysql.cc.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28095",
+        "https://security.netapp.com/advisory/ntap-20220526-0006/",
+        "https://lists.debian.org/debian-lts-announce/2022/09/msg00023.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-27449",
+      "source": "mariadb",
+      "title": "CVE-2022-27449",
+      "description": "MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_func.cc:148.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28089",
+        "https://security.netapp.com/advisory/ntap-20220526-0006/",
+        "https://lists.debian.org/debian-lts-announce/2022/09/msg00023.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-27451",
+      "source": "mariadb",
+      "title": "CVE-2022-27451",
+      "description": "MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/field_conv.cc.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28094",
+        "https://security.netapp.com/advisory/ntap-20220526-0006/"
+      ]
+    },
+    {
+      "id": "CVE-2022-27452",
+      "source": "mariadb",
+      "title": "CVE-2022-27452",
+      "description": "MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_cmpfunc.cc.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28090",
+        "https://security.netapp.com/advisory/ntap-20220526-0006/",
+        "https://lists.debian.org/debian-lts-announce/2022/09/msg00023.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-27455",
+      "source": "mariadb",
+      "title": "CVE-2022-27455",
+      "description": "MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component my_wildcmp_8bit_impl at /strings/ctype-simple.c.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28097",
+        "https://security.netapp.com/advisory/ntap-20220526-0007/"
+      ]
+    },
+    {
+      "id": "CVE-2022-27456",
+      "source": "mariadb",
+      "title": "CVE-2022-27456",
+      "description": "MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component VDec::VDec at /sql/sql_type.cc.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28093",
+        "https://security.netapp.com/advisory/ntap-20220526-0007/",
+        "https://lists.debian.org/debian-lts-announce/2022/09/msg00023.html"
+      ]
+    },
+    {
+      "id": "CVE-2022-27457",
+      "source": "mariadb",
+      "title": "CVE-2022-27457",
+      "description": "MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component my_mb_wc_latin1 at /strings/ctype-latin1.c.",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-04-14",
+      "modified_date": "2024-08-03",
+      "affected": [],
+      "references": [
+        "https://jira.mariadb.org/browse/MDEV-28098",
+        "https://security.netapp.com/advisory/ntap-20220526-0007/"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://mariadb.com/docs/server/security/cve/community-server",
+  "vendor": "mariadb",
+  "references": [
+    "https://mariadb.com/docs/server/security/cve/community-server",
+    "https://mariadb.com/kb/en/cve-2022-27446/",
+    "https://mariadb.com/kb/en/cve-2022-27451/",
+    "https://mariadb.com/kb/en/cve-2022-27447/",
+    "https://mariadb.com/kb/en/cve-2022-27456/",
+    "https://mariadb.com/kb/en/cve-2022-27457/",
+    "https://mariadb.com/kb/en/cve-2022-27455/",
+    "https://mariadb.com/kb/en/cve-2022-27452/",
+    "https://mariadb.com/kb/en/cve-2022-27444/",
+    "https://mariadb.com/kb/en/cve-2022-27448/",
+    "https://mariadb.com/kb/en/cve-2022-27449/",
+    "https://mariadb.com/kb/en/cve-2022-27445/"
+  ]
+}

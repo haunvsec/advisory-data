@@ -1,0 +1,4834 @@
+{
+  "id": "splunk-2026-03-11",
+  "source": "splunk",
+  "aliases": [
+    "CVE-2012-0871",
+    "CVE-2013-4327",
+    "CVE-2013-4391",
+    "CVE-2013-4392",
+    "CVE-2013-4393",
+    "CVE-2013-4394",
+    "CVE-2016-7795",
+    "CVE-2017-18078",
+    "CVE-2017-9217",
+    "CVE-2018-1049",
+    "CVE-2018-15686",
+    "CVE-2018-15688",
+    "CVE-2018-16864",
+    "CVE-2018-16865",
+    "CVE-2018-16888",
+    "CVE-2018-6954",
+    "CVE-2019-17571",
+    "CVE-2019-20386",
+    "CVE-2019-3842",
+    "CVE-2019-3843",
+    "CVE-2019-3844",
+    "CVE-2020-13776",
+    "CVE-2020-1712",
+    "CVE-2020-17521",
+    "CVE-2020-36518",
+    "CVE-2021-33910",
+    "CVE-2021-35937",
+    "CVE-2021-35938",
+    "CVE-2021-35939",
+    "CVE-2021-46877",
+    "CVE-2022-23302",
+    "CVE-2022-23305",
+    "CVE-2022-23307",
+    "CVE-2022-31159",
+    "CVE-2022-3821",
+    "CVE-2022-42003",
+    "CVE-2022-42004",
+    "CVE-2023-26118",
+    "CVE-2023-26464",
+    "CVE-2023-26604",
+    "CVE-2023-33201",
+    "CVE-2023-33202",
+    "CVE-2023-44487",
+    "CVE-2023-48795",
+    "CVE-2023-49501",
+    "CVE-2023-52428",
+    "CVE-2023-6601",
+    "CVE-2023-6602",
+    "CVE-2023-6604",
+    "CVE-2023-6605",
+    "CVE-2024-12243",
+    "CVE-2024-21490",
+    "CVE-2024-23672",
+    "CVE-2024-24549",
+    "CVE-2024-29371",
+    "CVE-2024-29857",
+    "CVE-2024-30171",
+    "CVE-2024-34750",
+    "CVE-2024-38286",
+    "CVE-2024-47081",
+    "CVE-2024-50379",
+    "CVE-2024-51744",
+    "CVE-2024-52316",
+    "CVE-2024-54677",
+    "CVE-2024-56337",
+    "CVE-2024-5642",
+    "CVE-2024-56433",
+    "CVE-2024-58251",
+    "CVE-2024-7246",
+    "CVE-2024-8372",
+    "CVE-2024-8373",
+    "CVE-2025-0518",
+    "CVE-2025-0716",
+    "CVE-2025-0913",
+    "CVE-2025-10148",
+    "CVE-2025-10256",
+    "CVE-2025-10966",
+    "CVE-2025-11187",
+    "CVE-2025-11205",
+    "CVE-2025-11206",
+    "CVE-2025-11207",
+    "CVE-2025-11208",
+    "CVE-2025-11209",
+    "CVE-2025-11210",
+    "CVE-2025-11211",
+    "CVE-2025-11212",
+    "CVE-2025-11213",
+    "CVE-2025-11215",
+    "CVE-2025-11216",
+    "CVE-2025-11219",
+    "CVE-2025-11226",
+    "CVE-2025-11458",
+    "CVE-2025-11460",
+    "CVE-2025-11756",
+    "CVE-2025-12036",
+    "CVE-2025-12084",
+    "CVE-2025-12428",
+    "CVE-2025-12429",
+    "CVE-2025-12430",
+    "CVE-2025-12431",
+    "CVE-2025-12432",
+    "CVE-2025-12433",
+    "CVE-2025-12434",
+    "CVE-2025-12435",
+    "CVE-2025-12436",
+    "CVE-2025-12437",
+    "CVE-2025-12438",
+    "CVE-2025-12439",
+    "CVE-2025-12440",
+    "CVE-2025-12441",
+    "CVE-2025-12443",
+    "CVE-2025-12444",
+    "CVE-2025-12445",
+    "CVE-2025-12446",
+    "CVE-2025-12447",
+    "CVE-2025-12495",
+    "CVE-2025-12725",
+    "CVE-2025-12726",
+    "CVE-2025-12727",
+    "CVE-2025-12728",
+    "CVE-2025-12729",
+    "CVE-2025-12839",
+    "CVE-2025-12840",
+    "CVE-2025-13033",
+    "CVE-2025-13042",
+    "CVE-2025-13223",
+    "CVE-2025-13224",
+    "CVE-2025-13226",
+    "CVE-2025-13227",
+    "CVE-2025-13228",
+    "CVE-2025-13229",
+    "CVE-2025-13230",
+    "CVE-2025-13601",
+    "CVE-2025-14087",
+    "CVE-2025-14104",
+    "CVE-2025-14512",
+    "CVE-2025-14874",
+    "CVE-2025-15284",
+    "CVE-2025-15467",
+    "CVE-2025-15468",
+    "CVE-2025-1594",
+    "CVE-2025-22868",
+    "CVE-2025-22870",
+    "CVE-2025-22871",
+    "CVE-2025-22872",
+    "CVE-2025-22874",
+    "CVE-2025-22919",
+    "CVE-2025-24813",
+    "CVE-2025-2759",
+    "CVE-2025-30153",
+    "CVE-2025-30204",
+    "CVE-2025-30749",
+    "CVE-2025-30754",
+    "CVE-2025-31651",
+    "CVE-2025-32988",
+    "CVE-2025-32989",
+    "CVE-2025-32990",
+    "CVE-2025-3360",
+    "CVE-2025-37727",
+    "CVE-2025-3887",
+    "CVE-2025-4056",
+    "CVE-2025-45582",
+    "CVE-2025-4565",
+    "CVE-2025-4574",
+    "CVE-2025-4598",
+    "CVE-2025-46394",
+    "CVE-2025-46701",
+    "CVE-2025-4673",
+    "CVE-2025-47183",
+    "CVE-2025-47806",
+    "CVE-2025-47807",
+    "CVE-2025-47808",
+    "CVE-2025-47906",
+    "CVE-2025-47907",
+    "CVE-2025-47910",
+    "CVE-2025-47912",
+    "CVE-2025-47913",
+    "CVE-2025-47914",
+    "CVE-2025-48071",
+    "CVE-2025-48072",
+    "CVE-2025-48073",
+    "CVE-2025-48074",
+    "CVE-2025-48964",
+    "CVE-2025-48988",
+    "CVE-2025-48989",
+    "CVE-2025-49125",
+    "CVE-2025-50059",
+    "CVE-2025-50106",
+    "CVE-2025-52520",
+    "CVE-2025-53040",
+    "CVE-2025-53042",
+    "CVE-2025-53044",
+    "CVE-2025-53045",
+    "CVE-2025-53053",
+    "CVE-2025-53054",
+    "CVE-2025-53057",
+    "CVE-2025-53062",
+    "CVE-2025-53066",
+    "CVE-2025-53069",
+    "CVE-2025-53506",
+    "CVE-2025-53864",
+    "CVE-2025-53905",
+    "CVE-2025-53906",
+    "CVE-2025-55163",
+    "CVE-2025-55668",
+    "CVE-2025-55752",
+    "CVE-2025-55754",
+    "CVE-2025-58056",
+    "CVE-2025-58057",
+    "CVE-2025-58181",
+    "CVE-2025-58183",
+    "CVE-2025-58185",
+    "CVE-2025-58186",
+    "CVE-2025-58187",
+    "CVE-2025-58188",
+    "CVE-2025-58189",
+    "CVE-2025-59250",
+    "CVE-2025-59375",
+    "CVE-2025-59419",
+    "CVE-2025-59729",
+    "CVE-2025-59730",
+    "CVE-2025-6069",
+    "CVE-2025-6075",
+    "CVE-2025-60753",
+    "CVE-2025-61723",
+    "CVE-2025-61724",
+    "CVE-2025-61725",
+    "CVE-2025-61795",
+    "CVE-2025-62408",
+    "CVE-2025-6395",
+    "CVE-2025-64181",
+    "CVE-2025-64182",
+    "CVE-2025-64183",
+    "CVE-2025-64718",
+    "CVE-2025-66199",
+    "CVE-2025-67735",
+    "CVE-2025-68160",
+    "CVE-2025-68161",
+    "CVE-2025-68973",
+    "CVE-2025-69223",
+    "CVE-2025-69224",
+    "CVE-2025-69225",
+    "CVE-2025-69226",
+    "CVE-2025-69227",
+    "CVE-2025-69228",
+    "CVE-2025-69229",
+    "CVE-2025-69230",
+    "CVE-2025-69418",
+    "CVE-2025-69419",
+    "CVE-2025-69420",
+    "CVE-2025-69421",
+    "CVE-2025-6965",
+    "CVE-2025-8114",
+    "CVE-2025-8291",
+    "CVE-2025-8556",
+    "CVE-2025-8885",
+    "CVE-2025-8916",
+    "CVE-2025-9086",
+    "CVE-2025-9230",
+    "CVE-2025-9231",
+    "CVE-2025-9232",
+    "CVE-2025-9714",
+    "CVE-2025-9820",
+    "CVE-2025-9951",
+    "CVE-2026-20162",
+    "CVE-2026-20163",
+    "CVE-2026-20164",
+    "CVE-2026-20165",
+    "CVE-2026-20166",
+    "CVE-2026-21226",
+    "CVE-2026-21925",
+    "CVE-2026-21932",
+    "CVE-2026-21933",
+    "CVE-2026-21945",
+    "CVE-2026-22795",
+    "CVE-2026-22796",
+    "CVE-2026-23745",
+    "CVE-2026-2391",
+    "CVE-2026-23950",
+    "CVE-2026-24842",
+    "CVE-2026-26981"
+  ],
+  "title": "Splunk Security Advisories - 2026-03-11",
+  "description": "Merged 13 splunk security advisories published on 2026-03-11. Original advisory IDs: SVD-2026-0301, SVD-2026-0307, SVD-2026-0311, SVD-2026-0310, SVD-2026-0306, SVD-2026-0313, SVD-2026-0305, SVD-2026-0309, SVD-2026-0308, SVD-2026-0304, SVD-2026-0312, SVD-2026-0303, SVD-2026-0302\n\nTitles:\n- Stored Cross-Site Scripting (XSS) through Path Traversal in Splunk Enterprise\n- Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026\n- Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026\n- Third-Party Package Updates in Splunk AppDynamics Java Agent - March 2026\n- Third-Party Package Updates in Splunk Enterprise - March 2026\n- Third-Party Package Updates in Splunk AppDynamics Analytics Agent - March 2026\n- Sensitive Information Disclosure in Discover Splunk Observability Cloud app for Splunk Enterprise\n- Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026\n- Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026\n- Sensitive Information Disclosure in MongoClient logging channel in Splunk Enterprise\n- Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026\n- Sensitive Information Disclosure through Improper Access Control in Splunk Enterprise\n- Remote Command Execution (RCE) through the '/splunkd/__upload/indexing/preview' REST endpoint in Splunk Enterprise",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": 3.1,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-03-11",
+  "modified_date": "2026-03-11",
+  "affected": [
+    "splunk:splunk-enterprise",
+    "splunk:splunk"
+  ],
+  "affected_products": [
+    {
+      "vendor": "splunk",
+      "product": "Splunk Enterprise",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:splunk:splunk_enterprise:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20162"
+        },
+        {
+          "id": "CVE-2020-17521"
+        },
+        {
+          "id": "CVE-2022-31159"
+        },
+        {
+          "id": "CVE-2023-26118"
+        },
+        {
+          "id": "CVE-2023-44487"
+        },
+        {
+          "id": "CVE-2023-48795"
+        },
+        {
+          "id": "CVE-2024-21490"
+        },
+        {
+          "id": "CVE-2024-23672"
+        },
+        {
+          "id": "CVE-2024-24549"
+        },
+        {
+          "id": "CVE-2024-29371"
+        },
+        {
+          "id": "CVE-2024-34750"
+        },
+        {
+          "id": "CVE-2024-38286"
+        },
+        {
+          "id": "CVE-2024-50379"
+        },
+        {
+          "id": "CVE-2024-52316"
+        },
+        {
+          "id": "CVE-2024-54677"
+        },
+        {
+          "id": "CVE-2024-56337"
+        },
+        {
+          "id": "CVE-2024-8372"
+        },
+        {
+          "id": "CVE-2024-8373"
+        },
+        {
+          "id": "CVE-2025-0716"
+        },
+        {
+          "id": "CVE-2025-10148"
+        },
+        {
+          "id": "CVE-2025-10966"
+        },
+        {
+          "id": "CVE-2025-13033"
+        },
+        {
+          "id": "CVE-2025-14874"
+        },
+        {
+          "id": "CVE-2025-24813"
+        },
+        {
+          "id": "CVE-2025-2759"
+        },
+        {
+          "id": "CVE-2025-31651"
+        },
+        {
+          "id": "CVE-2025-3360"
+        },
+        {
+          "id": "CVE-2025-3887"
+        },
+        {
+          "id": "CVE-2025-4056"
+        },
+        {
+          "id": "CVE-2025-46701"
+        },
+        {
+          "id": "CVE-2025-47183"
+        },
+        {
+          "id": "CVE-2025-47806"
+        },
+        {
+          "id": "CVE-2025-47807"
+        },
+        {
+          "id": "CVE-2025-47808"
+        },
+        {
+          "id": "CVE-2025-47910"
+        },
+        {
+          "id": "CVE-2025-47912"
+        },
+        {
+          "id": "CVE-2025-48988"
+        },
+        {
+          "id": "CVE-2025-48989"
+        },
+        {
+          "id": "CVE-2025-49125"
+        },
+        {
+          "id": "CVE-2025-52520"
+        },
+        {
+          "id": "CVE-2025-53040"
+        },
+        {
+          "id": "CVE-2025-53042"
+        },
+        {
+          "id": "CVE-2025-53044"
+        },
+        {
+          "id": "CVE-2025-53045"
+        },
+        {
+          "id": "CVE-2025-53053"
+        },
+        {
+          "id": "CVE-2025-53054"
+        },
+        {
+          "id": "CVE-2025-53062"
+        },
+        {
+          "id": "CVE-2025-53069"
+        },
+        {
+          "id": "CVE-2025-53506"
+        },
+        {
+          "id": "CVE-2025-53864"
+        },
+        {
+          "id": "CVE-2025-55668"
+        },
+        {
+          "id": "CVE-2025-55752"
+        },
+        {
+          "id": "CVE-2025-55754"
+        },
+        {
+          "id": "CVE-2025-58183"
+        },
+        {
+          "id": "CVE-2025-58185"
+        },
+        {
+          "id": "CVE-2025-58186"
+        },
+        {
+          "id": "CVE-2025-58187"
+        },
+        {
+          "id": "CVE-2025-58188"
+        },
+        {
+          "id": "CVE-2025-58189"
+        },
+        {
+          "id": "CVE-2025-59419"
+        },
+        {
+          "id": "CVE-2025-60753"
+        },
+        {
+          "id": "CVE-2025-61723"
+        },
+        {
+          "id": "CVE-2025-61724"
+        },
+        {
+          "id": "CVE-2025-61725"
+        },
+        {
+          "id": "CVE-2025-61795"
+        },
+        {
+          "id": "CVE-2025-64718"
+        },
+        {
+          "id": "CVE-2025-8885"
+        },
+        {
+          "id": "CVE-2025-9086"
+        },
+        {
+          "id": "CVE-2025-9230"
+        },
+        {
+          "id": "CVE-2025-9232"
+        },
+        {
+          "id": "CVE-2021-35937"
+        },
+        {
+          "id": "CVE-2021-35938"
+        },
+        {
+          "id": "CVE-2021-35939"
+        },
+        {
+          "id": "CVE-2024-5642"
+        },
+        {
+          "id": "CVE-2024-56433"
+        },
+        {
+          "id": "CVE-2024-58251"
+        },
+        {
+          "id": "CVE-2025-11187"
+        },
+        {
+          "id": "CVE-2025-12084"
+        },
+        {
+          "id": "CVE-2025-13601"
+        },
+        {
+          "id": "CVE-2025-14104"
+        },
+        {
+          "id": "CVE-2025-15284"
+        },
+        {
+          "id": "CVE-2025-15467"
+        },
+        {
+          "id": "CVE-2025-15468"
+        },
+        {
+          "id": "CVE-2025-45582"
+        },
+        {
+          "id": "CVE-2025-4598"
+        },
+        {
+          "id": "CVE-2025-46394"
+        },
+        {
+          "id": "CVE-2025-48964"
+        },
+        {
+          "id": "CVE-2025-53905"
+        },
+        {
+          "id": "CVE-2025-53906"
+        },
+        {
+          "id": "CVE-2025-59375"
+        },
+        {
+          "id": "CVE-2025-6069"
+        },
+        {
+          "id": "CVE-2025-6075"
+        },
+        {
+          "id": "CVE-2025-66199"
+        },
+        {
+          "id": "CVE-2025-68160"
+        },
+        {
+          "id": "CVE-2025-68973"
+        },
+        {
+          "id": "CVE-2025-69418"
+        },
+        {
+          "id": "CVE-2025-69419"
+        },
+        {
+          "id": "CVE-2025-69420"
+        },
+        {
+          "id": "CVE-2025-69421"
+        },
+        {
+          "id": "CVE-2025-6965"
+        },
+        {
+          "id": "CVE-2025-8291"
+        },
+        {
+          "id": "CVE-2025-9231"
+        },
+        {
+          "id": "CVE-2025-9714"
+        },
+        {
+          "id": "CVE-2026-22795"
+        },
+        {
+          "id": "CVE-2026-22796"
+        },
+        {
+          "id": "CVE-2026-23745"
+        },
+        {
+          "id": "CVE-2026-2391"
+        },
+        {
+          "id": "CVE-2026-23950"
+        },
+        {
+          "id": "CVE-2026-24842"
+        },
+        {
+          "id": "CVE-2025-68161"
+        },
+        {
+          "id": "CVE-2024-47081"
+        },
+        {
+          "id": "CVE-2024-51744"
+        },
+        {
+          "id": "CVE-2024-7246"
+        },
+        {
+          "id": "CVE-2025-0913"
+        },
+        {
+          "id": "CVE-2025-22868"
+        },
+        {
+          "id": "CVE-2025-22870"
+        },
+        {
+          "id": "CVE-2025-22871"
+        },
+        {
+          "id": "CVE-2025-22872"
+        },
+        {
+          "id": "CVE-2025-22874"
+        },
+        {
+          "id": "CVE-2025-30153"
+        },
+        {
+          "id": "CVE-2025-30204"
+        },
+        {
+          "id": "CVE-2025-4565"
+        },
+        {
+          "id": "CVE-2025-4673"
+        },
+        {
+          "id": "CVE-2025-47906"
+        },
+        {
+          "id": "CVE-2025-47907"
+        },
+        {
+          "id": "CVE-2025-47913"
+        },
+        {
+          "id": "CVE-2025-47914"
+        },
+        {
+          "id": "CVE-2025-58181"
+        },
+        {
+          "id": "CVE-2025-69223"
+        },
+        {
+          "id": "CVE-2025-69224"
+        },
+        {
+          "id": "CVE-2025-69225"
+        },
+        {
+          "id": "CVE-2025-69226"
+        },
+        {
+          "id": "CVE-2025-69227"
+        },
+        {
+          "id": "CVE-2025-69228"
+        },
+        {
+          "id": "CVE-2025-69229"
+        },
+        {
+          "id": "CVE-2025-69230"
+        },
+        {
+          "id": "CVE-2025-8556"
+        },
+        {
+          "id": "CVE-2026-21226"
+        },
+        {
+          "id": "CVE-2025-37727"
+        },
+        {
+          "id": "CVE-2025-55163"
+        },
+        {
+          "id": "CVE-2025-58056"
+        },
+        {
+          "id": "CVE-2025-58057"
+        },
+        {
+          "id": "CVE-2026-20166"
+        },
+        {
+          "id": "CVE-2012-0871"
+        },
+        {
+          "id": "CVE-2013-4327"
+        },
+        {
+          "id": "CVE-2013-4391"
+        },
+        {
+          "id": "CVE-2013-4392"
+        },
+        {
+          "id": "CVE-2013-4393"
+        },
+        {
+          "id": "CVE-2013-4394"
+        },
+        {
+          "id": "CVE-2016-7795"
+        },
+        {
+          "id": "CVE-2017-18078"
+        },
+        {
+          "id": "CVE-2017-9217"
+        },
+        {
+          "id": "CVE-2018-1049"
+        },
+        {
+          "id": "CVE-2018-15686"
+        },
+        {
+          "id": "CVE-2018-15688"
+        },
+        {
+          "id": "CVE-2018-16864"
+        },
+        {
+          "id": "CVE-2018-16865"
+        },
+        {
+          "id": "CVE-2018-16888"
+        },
+        {
+          "id": "CVE-2018-6954"
+        },
+        {
+          "id": "CVE-2019-20386"
+        },
+        {
+          "id": "CVE-2019-3842"
+        },
+        {
+          "id": "CVE-2019-3843"
+        },
+        {
+          "id": "CVE-2019-3844"
+        },
+        {
+          "id": "CVE-2020-13776"
+        },
+        {
+          "id": "CVE-2020-1712"
+        },
+        {
+          "id": "CVE-2021-33910"
+        },
+        {
+          "id": "CVE-2022-3821"
+        },
+        {
+          "id": "CVE-2023-26604"
+        },
+        {
+          "id": "CVE-2023-49501"
+        },
+        {
+          "id": "CVE-2023-6601"
+        },
+        {
+          "id": "CVE-2023-6602"
+        },
+        {
+          "id": "CVE-2023-6604"
+        },
+        {
+          "id": "CVE-2023-6605"
+        },
+        {
+          "id": "CVE-2024-12243"
+        },
+        {
+          "id": "CVE-2025-0518"
+        },
+        {
+          "id": "CVE-2025-10256"
+        },
+        {
+          "id": "CVE-2025-11205"
+        },
+        {
+          "id": "CVE-2025-11206"
+        },
+        {
+          "id": "CVE-2025-11207"
+        },
+        {
+          "id": "CVE-2025-11208"
+        },
+        {
+          "id": "CVE-2025-11209"
+        },
+        {
+          "id": "CVE-2025-11210"
+        },
+        {
+          "id": "CVE-2025-11211"
+        },
+        {
+          "id": "CVE-2025-11212"
+        },
+        {
+          "id": "CVE-2025-11213"
+        },
+        {
+          "id": "CVE-2025-11215"
+        },
+        {
+          "id": "CVE-2025-11216"
+        },
+        {
+          "id": "CVE-2025-11219"
+        },
+        {
+          "id": "CVE-2025-11458"
+        },
+        {
+          "id": "CVE-2025-11460"
+        },
+        {
+          "id": "CVE-2025-11756"
+        },
+        {
+          "id": "CVE-2025-12036"
+        },
+        {
+          "id": "CVE-2025-12428"
+        },
+        {
+          "id": "CVE-2025-12429"
+        },
+        {
+          "id": "CVE-2025-12430"
+        },
+        {
+          "id": "CVE-2025-12431"
+        },
+        {
+          "id": "CVE-2025-12432"
+        },
+        {
+          "id": "CVE-2025-12433"
+        },
+        {
+          "id": "CVE-2025-12434"
+        },
+        {
+          "id": "CVE-2025-12435"
+        },
+        {
+          "id": "CVE-2025-12436"
+        },
+        {
+          "id": "CVE-2025-12437"
+        },
+        {
+          "id": "CVE-2025-12438"
+        },
+        {
+          "id": "CVE-2025-12439"
+        },
+        {
+          "id": "CVE-2025-12440"
+        },
+        {
+          "id": "CVE-2025-12441"
+        },
+        {
+          "id": "CVE-2025-12443"
+        },
+        {
+          "id": "CVE-2025-12444"
+        },
+        {
+          "id": "CVE-2025-12445"
+        },
+        {
+          "id": "CVE-2025-12446"
+        },
+        {
+          "id": "CVE-2025-12447"
+        },
+        {
+          "id": "CVE-2025-12495"
+        },
+        {
+          "id": "CVE-2025-12725"
+        },
+        {
+          "id": "CVE-2025-12726"
+        },
+        {
+          "id": "CVE-2025-12727"
+        },
+        {
+          "id": "CVE-2025-12728"
+        },
+        {
+          "id": "CVE-2025-12729"
+        },
+        {
+          "id": "CVE-2025-12839"
+        },
+        {
+          "id": "CVE-2025-12840"
+        },
+        {
+          "id": "CVE-2025-13042"
+        },
+        {
+          "id": "CVE-2025-13223"
+        },
+        {
+          "id": "CVE-2025-13224"
+        },
+        {
+          "id": "CVE-2025-13226"
+        },
+        {
+          "id": "CVE-2025-13227"
+        },
+        {
+          "id": "CVE-2025-13228"
+        },
+        {
+          "id": "CVE-2025-13229"
+        },
+        {
+          "id": "CVE-2025-13230"
+        },
+        {
+          "id": "CVE-2025-14087"
+        },
+        {
+          "id": "CVE-2025-14512"
+        },
+        {
+          "id": "CVE-2025-1594"
+        },
+        {
+          "id": "CVE-2025-22919"
+        },
+        {
+          "id": "CVE-2025-32988"
+        },
+        {
+          "id": "CVE-2025-32989"
+        },
+        {
+          "id": "CVE-2025-32990"
+        },
+        {
+          "id": "CVE-2025-4574"
+        },
+        {
+          "id": "CVE-2025-48071"
+        },
+        {
+          "id": "CVE-2025-48072"
+        },
+        {
+          "id": "CVE-2025-48073"
+        },
+        {
+          "id": "CVE-2025-48074"
+        },
+        {
+          "id": "CVE-2025-59729"
+        },
+        {
+          "id": "CVE-2025-59730"
+        },
+        {
+          "id": "CVE-2025-62408"
+        },
+        {
+          "id": "CVE-2025-6395"
+        },
+        {
+          "id": "CVE-2025-64181"
+        },
+        {
+          "id": "CVE-2025-64182"
+        },
+        {
+          "id": "CVE-2025-64183"
+        },
+        {
+          "id": "CVE-2025-8114"
+        },
+        {
+          "id": "CVE-2025-9820"
+        },
+        {
+          "id": "CVE-2025-9951"
+        },
+        {
+          "id": "CVE-2026-26981"
+        },
+        {
+          "id": "CVE-2025-11226"
+        },
+        {
+          "id": "CVE-2025-67735"
+        },
+        {
+          "id": "CVE-2026-21925"
+        },
+        {
+          "id": "CVE-2026-21932"
+        },
+        {
+          "id": "CVE-2026-21933"
+        },
+        {
+          "id": "CVE-2026-21945"
+        },
+        {
+          "id": "CVE-2026-20165"
+        },
+        {
+          "id": "CVE-2019-17571"
+        },
+        {
+          "id": "CVE-2020-36518"
+        },
+        {
+          "id": "CVE-2021-46877"
+        },
+        {
+          "id": "CVE-2022-23302"
+        },
+        {
+          "id": "CVE-2022-23305"
+        },
+        {
+          "id": "CVE-2022-23307"
+        },
+        {
+          "id": "CVE-2022-42003"
+        },
+        {
+          "id": "CVE-2022-42004"
+        },
+        {
+          "id": "CVE-2023-26464"
+        },
+        {
+          "id": "CVE-2023-33201"
+        },
+        {
+          "id": "CVE-2023-33202"
+        },
+        {
+          "id": "CVE-2023-52428"
+        },
+        {
+          "id": "CVE-2024-29857"
+        },
+        {
+          "id": "CVE-2024-30171"
+        },
+        {
+          "id": "CVE-2025-30749"
+        },
+        {
+          "id": "CVE-2025-30754"
+        },
+        {
+          "id": "CVE-2025-50059"
+        },
+        {
+          "id": "CVE-2025-50106"
+        },
+        {
+          "id": "CVE-2025-53057"
+        },
+        {
+          "id": "CVE-2025-53066"
+        },
+        {
+          "id": "CVE-2025-59250"
+        },
+        {
+          "id": "CVE-2025-8916"
+        },
+        {
+          "id": "CVE-2026-20164"
+        },
+        {
+          "id": "CVE-2026-20163"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "Upgrade Splunk Enterprise to versions 10.2.0, 10.0.3, 9.4.9, 9.3.9, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nREST API\nNot affected\nN/A\nSplunk Enterprise\n10.0\nREST API\n10.0.0 to 10.0.2\n10.0.3\nSplunk Enterprise\n9.4\nREST API\n9.4.0 to 9.4.8\n9.4.9\nSplunk Enterprise\n9.3\nREST API\n9.3.0 to 9.3.8\n9.3.9\nSplunk Cloud Platform\n10.2.2510\nREST API\nBelow 10.2.2510.4\n10\n\nUpgrade Splunk AppDynamics On-Premises Enterprise Console to versions 26.1.1 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics On-Premises Enterprise Console\n26.1\nBelow 26.1.1\n26.1.1\n\nUpgrade Splunk AppDynamics NodeJS Agent to versions 25.12.1 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics NodeJS Agent\n25.12\nBelow 25.12.1\n25.12.1\n\nUpgrade Splunk AppDynamics Java Agent to versions 26.1.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Java Agent\n26.1\nBelow 26.1.0\n26.1.0\n\nUpgrade Splunk Enterprise to versions 10.2.1, 10.0.4, 9.4.9, 9.3.10, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nBelow 10.2.1\n10.2.1\nSplunk Enterprise\n10.0\n10.0.0 to 10.0.3\n10.0.4\nSplunk Enterprise\n9.4\n9.4.0 to 9.4.8\n9.4.9\nSplunk Enterprise\n9.3\n9.3.0 to 9.3.9\n9.3.10\n\nUpgrade Splunk AppDynamics Analytics Agent to versions 26.1.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Analytics Agent\n26.1\nBelow 26.1.0\n26.1.0\n\nUpgrade Splunk Enterprise to versions 10.2.1, 10.0.4, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nTo eliminate further risk and help ensure a high level of security in your environment, you must perform the following recommended actions after you upgrade Splunk Enterprise:\nRotate the Observability API token (\nCreate and manage organization access tokens using Splunk Observability Cloud\n).\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFi\n\nUpgrade Splunk AppDynamics Private Synthetic Agent to versions 26.1.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Private Synthetic Agent\n26.1\nBelow 26.1.0\n26.1.0\n\nUpgrade Splunk AppDynamics Machine Agent to versions 26.1.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Machine Agent\n26.1\nBelow 26.1.0\n26.1.0\n\nUpgrade Splunk Enterprise to versions 10.2.1, 10.0.4, 9.4.9, 9.3.10, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nSplunk Web\n10.2.0\n10.2.1\nSplunk Enterprise\n10.0\nSplunk Web\n10.0.0 to 10.0.3\n10.0.4\nSplunk Enterprise\n9.4\nSplunk Web\n9.4.0 to 9.4.8\n9.4.9\nSplunk Enterprise\n9.3\nSplunk Web\n9.3.0 to 9.3.9\n9.3.10\nSplunk Cloud Platform\n10.2.2510\nSplunk Web\nBelow 10.2.\n\nUpgrade Splunk AppDynamics Database Agent to versions 26.1.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Database Agent\n26.1\nBelow 26.1.0\n26.1.0\n\nUpgrade Splunk Enterprise to versions 10.2.0, 10.0.3, 9.4.9, 9.3.10 or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nREST API\nNot affected\nN/A\nSplunk Enterprise\n10.0\nREST API\n10.0.0 to 10.0.2\n10.0.3\nSplunk Enterprise\n9.4\nREST API\n9.4.0 to 9.4.8\n9.4.9\nSplunk Enterprise\n9.3\nREST API\n9.3.0 to 9.3.9\n9.3.10\nSplunk Cloud Platform\n10.2.2510\nREST API\nBelow 10.2.2510.5\n1\n\nUpgrade Splunk Enterprise to versions 10.2.0, 10.0.4, 9.4.9, 9.3.10, or higher.\nIn addition to upgrading, to remedy the issue, set the following configurations:\n- In\nprops.conf\n, set\nunarchive_cmd_start_mode = direct\n- In\nserver.conf\nunder the\n[general]\nstanza, set\nallowed_unarchive_commands\nto an explicit allowlist of approved commands for unarchiving.\nSee\nprops.conf\nand\nserver.conf\nfor more information.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2012-0871",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2013-4327",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2013-4391",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2013-4392",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2013-4393",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2013-4394",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2016-7795",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2017-18078",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2017-9217",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2018-1049",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2018-15686",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2018-15688",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2018-16864",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2018-16865",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2018-16888",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2018-6954",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2019-17571",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2019-20386",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2019-3842",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2019-3843",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2019-3844",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2020-13776",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2020-1712",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2020-17521",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2020-36518",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2021-33910",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2021-35937",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2021-35938",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2021-35939",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2021-46877",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-23302",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-23305",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-23307",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-31159",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-3821",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-42003",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-42004",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-26118",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-26464",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-26604",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-33201",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-33202",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-44487",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-48795",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-49501",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-52428",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-6601",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-6602",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-6604",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-6605",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-12243",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-21490",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-23672",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-24549",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-29371",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-29857",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-30171",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-34750",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-38286",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-47081",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-50379",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-51744",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-52316",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-54677",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-56337",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-5642",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-56433",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-58251",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-7246",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-8372",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-8373",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-0518",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-0716",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-0913",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-10148",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-10256",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-10966",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11187",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11205",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11206",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11207",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11208",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11209",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11210",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11211",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11212",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11213",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11215",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11216",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11219",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11226",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11458",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11460",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-11756",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12036",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12084",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12428",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12429",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12430",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12431",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12432",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12433",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12434",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12435",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12436",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12437",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12438",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12439",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12440",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12441",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12443",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12444",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12445",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12446",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12447",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12495",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12725",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12726",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12727",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12728",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12729",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12839",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12840",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13033",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13042",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13223",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13224",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13226",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13227",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13228",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13229",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13230",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13601",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-14087",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-14104",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-14512",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-14874",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-15284",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-15467",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-15468",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-1594",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-22868",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-22870",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-22871",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-22872",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-22874",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-22919",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-24813",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-2759",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-30153",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-30204",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-30749",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-30754",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-31651",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-32988",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-32989",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-32990",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-3360",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-37727",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Analytics Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-3887",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-4056",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-45582",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-4565",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-4574",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-4598",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-46394",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-46701",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-4673",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47183",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47806",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47807",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47808",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47906",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47907",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47910",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47912",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47913",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47914",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-48071",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-48072",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-48073",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-48074",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-48964",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-48988",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-48989",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-49125",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-50059",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-50106",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-52520",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53040",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53042",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53044",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53045",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53053",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53054",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53057",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53062",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53066",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53069",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53506",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53864",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53905",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-53906",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-55163",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Analytics Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-55668",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-55752",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-55754",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58056",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Analytics Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58057",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Analytics Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58181",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58183",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58185",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58186",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58187",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58188",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58189",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-59250",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-59375",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-59419",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-59729",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-59730",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-6069",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-6075",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-60753",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61723",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61724",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61725",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61795",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-62408",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-6395",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-64181",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-64182",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-64183",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-64718",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-66199",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-67735",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-68160",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-68161",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-68973",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69223",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69224",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69225",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69226",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69227",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69228",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69229",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69230",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69418",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69419",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69420",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69421",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-6965",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-8114",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-8291",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-8556",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-8885",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-8916",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-9086",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-9230",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-9231",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-9232",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics On-Premises Enterprise Console - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-9714",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-9820",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-9951",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20162",
+      "source": "splunk",
+      "title": "Stored Cross-Site Scripting (XSS) through Path Traversal in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20163",
+      "source": "splunk",
+      "title": "Remote Command Execution (RCE) through the '/splunkd/__upload/indexing/preview' REST endpoint in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20164",
+      "source": "splunk",
+      "title": "Sensitive Information Disclosure through Improper Access Control in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20165",
+      "source": "splunk",
+      "title": "Sensitive Information Disclosure in MongoClient logging channel in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20166",
+      "source": "splunk",
+      "title": "Sensitive Information Disclosure in Discover Splunk Observability Cloud app for Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21226",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21925",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21932",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21933",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21945",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-22795",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-22796",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-23745",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-2391",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-23950",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-24842",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics NodeJS Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-26981",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent - March 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://advisory.splunk.com/advisories/SVD-2026-0301",
+  "vendor": "splunk",
+  "references": [
+    "https://advisory.splunk.com/advisories/SVD-2026-0301",
+    "https://advisory.splunk.com/advisories/SVD-2026-0307",
+    "https://advisory.splunk.com/advisories/SVD-2026-0311",
+    "https://advisory.splunk.com/advisories/SVD-2026-0310",
+    "https://advisory.splunk.com/advisories/SVD-2026-0306",
+    "https://advisory.splunk.com/advisories/SVD-2026-0313",
+    "https://advisory.splunk.com/advisories/SVD-2026-0305",
+    "https://advisory.splunk.com/advisories/SVD-2026-0309",
+    "https://advisory.splunk.com/advisories/SVD-2026-0308",
+    "https://advisory.splunk.com/advisories/SVD-2026-0304",
+    "https://advisory.splunk.com/advisories/SVD-2026-0312",
+    "https://advisory.splunk.com/advisories/SVD-2026-0303",
+    "https://advisory.splunk.com/advisories/SVD-2026-0302"
+  ]
+}

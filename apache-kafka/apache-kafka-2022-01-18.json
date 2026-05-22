@@ -1,0 +1,103 @@
+{
+  "id": "apache-kafka-2022-01-18",
+  "source": "apache-kafka",
+  "aliases": [
+    "CVE-2022-23302",
+    "CVE-2022-23305",
+    "CVE-2022-23307"
+  ],
+  "title": "Apache Security Advisories - 2022-01-18",
+  "description": "Merged 3 apache security advisories published on 2022-01-18. Original advisory IDs: CVE-2022-23307, CVE-2022-23302, CVE-2022-23305\n\nTitles:\n- Apache Kafka: Deserialization of Untrusted Data Flaw in Apache Log4j logging library in versions 1.x\n- Apache Kafka: Deserialization of Untrusted Data Flaw in JMSSink of Apache Log4j logging library in versions 1.x\n- Apache Kafka: SQL injection Flaw in Apache Log4j logging library in versions 1.x",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2022-01-18",
+  "modified_date": "2022-01-18",
+  "affected": [
+    "apache:kafka"
+  ],
+  "affected_products": [
+    {
+      "vendor": "apache",
+      "product": "Apache Kafka",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:apache:kafka:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2022-23307"
+        },
+        {
+          "id": "CVE-2022-23302"
+        },
+        {
+          "id": "CVE-2022-23305"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "In the absence of a new log4j 1.x release",
+    "one can remove Chainsaw from the log4j-1.2.17.jar artifact.",
+    "one can remove JMSSink class from the log4j-1.2.17.jar artifact.",
+    "one can remove JDBCAppender class from the log4j-1.2.17.jar artifact."
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2022-23302",
+      "source": "apache-kafka",
+      "title": "Deserialization of Untrusted Data Flaw in JMSSink of Apache Log4j logging library in versions 1.x",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-01-18",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-23305",
+      "source": "apache-kafka",
+      "title": "SQL injection Flaw in Apache Log4j logging library in versions 1.x",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-01-18",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-23307",
+      "source": "apache-kafka",
+      "title": "Deserialization of Untrusted Data Flaw in Apache Log4j logging library in versions 1.x",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2022-01-18",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://kafka.apache.org/community/cve-list/",
+  "vendor": "apache",
+  "references": [
+    "https://kafka.apache.org/community/cve-list/",
+    "https://kafka.apache.org/community/cve-list/#CVE-2022-23307",
+    "https://kafka.apache.org/community/cve-list/#CVE-2022-23302",
+    "https://kafka.apache.org/community/cve-list/#CVE-2022-23305"
+  ]
+}

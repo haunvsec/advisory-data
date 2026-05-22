@@ -1,0 +1,686 @@
+{
+  "id": "splunk-2026-04-15",
+  "source": "splunk",
+  "aliases": [
+    "CVE-2025-0913",
+    "CVE-2025-12817",
+    "CVE-2025-12818",
+    "CVE-2025-13601",
+    "CVE-2025-22871",
+    "CVE-2025-22874",
+    "CVE-2025-24970",
+    "CVE-2025-32988",
+    "CVE-2025-32990",
+    "CVE-2025-4673",
+    "CVE-2025-4674",
+    "CVE-2025-47907",
+    "CVE-2025-47913",
+    "CVE-2025-47914",
+    "CVE-2025-5318",
+    "CVE-2025-5372",
+    "CVE-2025-58056",
+    "CVE-2025-58057",
+    "CVE-2025-58181",
+    "CVE-2025-58187",
+    "CVE-2025-58188",
+    "CVE-2025-61723",
+    "CVE-2025-61725",
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-61730",
+    "CVE-2025-6395",
+    "CVE-2025-68121",
+    "CVE-2026-0994",
+    "CVE-2026-20202",
+    "CVE-2026-20203",
+    "CVE-2026-20204",
+    "CVE-2026-20205",
+    "CVE-2026-21226",
+    "CVE-2026-22796"
+  ],
+  "title": "Splunk Security Advisories - 2026-04-15",
+  "description": "Merged 8 splunk security advisories published on 2026-04-15. Original advisory IDs: SVD-2026-0403, SVD-2026-0402, SVD-2026-0405, SVD-2026-0408, SVD-2026-0404, SVD-2026-0407, SVD-2026-0406, SVD-2026-0401\n\nTitles:\n- Improper Handling and Insufficient Isolation of Specific Temporary Files in Splunk Enterprise\n- Improper Access Control in Data Model Acceleration in Splunk Enterprise\n- Third-Party Package Updates in Splunk Enterprise - April 2026\n- Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026\n- Third-Party Package Updates in Splunk Universal Forwarder - April 2026\n- Sensitive Information Disclosure in `_internal` index in Splunk MCP Server app\n- Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026\n- Improper Input Validation during User Account Creation in Splunk Enterprise",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": 3.1,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-04-15",
+  "modified_date": "2026-04-15",
+  "affected": [
+    "splunk:splunk-enterprise",
+    "splunk:splunk-operator-for-kubernetes",
+    "splunk:splunk-universal-forwarder",
+    "splunk:splunk",
+    "splunk:splunk-it-service-intelligence"
+  ],
+  "affected_products": [
+    {
+      "vendor": "splunk",
+      "product": "Splunk Enterprise",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:splunk:splunk_enterprise:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20204"
+        },
+        {
+          "id": "CVE-2026-20203"
+        },
+        {
+          "id": "CVE-2025-12817"
+        },
+        {
+          "id": "CVE-2025-12818"
+        },
+        {
+          "id": "CVE-2026-0994"
+        },
+        {
+          "id": "CVE-2026-21226"
+        },
+        {
+          "id": "CVE-2026-22796"
+        },
+        {
+          "id": "CVE-2026-20205"
+        },
+        {
+          "id": "CVE-2026-20202"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Kubernetes",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:kubernetes:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-0913"
+        },
+        {
+          "id": "CVE-2025-13601"
+        },
+        {
+          "id": "CVE-2025-22874"
+        },
+        {
+          "id": "CVE-2025-32988"
+        },
+        {
+          "id": "CVE-2025-32990"
+        },
+        {
+          "id": "CVE-2025-4673"
+        },
+        {
+          "id": "CVE-2025-47913"
+        },
+        {
+          "id": "CVE-2025-47914"
+        },
+        {
+          "id": "CVE-2025-5318"
+        },
+        {
+          "id": "CVE-2025-5372"
+        },
+        {
+          "id": "CVE-2025-58181"
+        },
+        {
+          "id": "CVE-2025-61726"
+        },
+        {
+          "id": "CVE-2025-61728"
+        },
+        {
+          "id": "CVE-2025-61730"
+        },
+        {
+          "id": "CVE-2025-6395"
+        },
+        {
+          "id": "CVE-2025-68121"
+        }
+      ]
+    },
+    {
+      "vendor": "splunk",
+      "product": "Splunk Universal Forwarder",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:splunk:universal_forwarder:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-22796"
+        }
+      ]
+    },
+    {
+      "vendor": "splunk",
+      "product": "Splunk-it-service-intelligence",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:splunk:splunk-it-service-intelligence:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-22871"
+        },
+        {
+          "id": "CVE-2025-22874"
+        },
+        {
+          "id": "CVE-2025-24970"
+        },
+        {
+          "id": "CVE-2025-4674"
+        },
+        {
+          "id": "CVE-2025-47907"
+        },
+        {
+          "id": "CVE-2025-58056"
+        },
+        {
+          "id": "CVE-2025-58057"
+        },
+        {
+          "id": "CVE-2025-58187"
+        },
+        {
+          "id": "CVE-2025-58188"
+        },
+        {
+          "id": "CVE-2025-61723"
+        },
+        {
+          "id": "CVE-2025-61725"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "Upgrade Splunk Enterprise to versions 10.2.1, 10.0.5, 9.4.10, 9.3.11, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nSplunk Web\n10.2.0\n10.2.1\nSplunk Enterprise\n10.0\nSplunk Web\n10.0.0 to 10.0.4\n10.0.5\nSplunk Enterprise\n9.4\nSplunk Web\n9.4.0 to 9.4.9\n9.4.10\nSplunk Enterprise\n9.3\nSplunk Web\n9.3.0 to 9.3.10\n9.3.11\nSplunk Cloud Platform\n10.4.2603\nSplunk Web\nNot Affe\n\nUpgrade Splunk Enterprise to versions 10.2.2, 10.0.5, 9.4.10, 9.3.11, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nREST API\n10.2.0 to 10.2.1\n10.2.2\nSplunk Enterprise\n10.0\nREST API\n10.0.0 to 10.0.4\n10.0.5\nSplunk Enterprise\n9.4\nREST API\n9.4.0 to 9.4.9\n9.4.10\nSplunk Enterprise\n9.3\nREST API\n9.3.0 to 9.3.10\n9.3.11\nSplunk Cloud Platform\n10.4.2603\nREST API\nNot Affe\n\nUpgrade Splunk Enterprise to versions 10.2.2, 10.0.5, 9.4.10, 9.3.11, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\n10.2.0 to 10.2.1\n10.2.2\nSplunk Enterprise\n10.0\n10.0.0 to 10.0.4\n10.0.5\nSplunk Enterprise\n9.4\n9.4.0 to 9.4.9\n9.4.10\nSplunk Enterprise\n9.3\n9.3.0 to 9.3.10\n9.3.11\n\nUpgrade Splunk Operator for Kubernetes Add-on to versions 3.1.0 or higher.\nSee\nSplunk Operator for Kubernetes releases\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Operator for Kubernetes Add-on\n3.1\nBelow 3.1.0\n3.1.0\n\nUpgrade Splunk Universal Forwarder to versions 10.2.1, 10.0.4, 9.4.10, 9.3.11, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Universal Forwarder\n10.2\n10.2.0\n10.2.1\nSplunk Universal Forwarder\n10.0\n10.0.0 to 10.0.3\n10.0.4\nSplunk Universal Forwarder\n9.4\n9.4.0 to 9.4.9\n9.4.10\nSplunk Universal Forwarder\n9.3\n9.3.0 to 9.3.10\n9.3.11\n\nUpgrade Splunk MCP Server app to version 1.0.3, or higher.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk MCP Server\n1.0\n-\nBelow 1.0.3\n1.0.3\nMitigations and Workarounds\nNone\nDetections\nNone\n\nUpgrade IT Service Intelligence (ITSI) app to versions 4.21.2, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk IT Service Intelligence (ITSI)\n4.21\nBelow 4.21.2\n4.21.2",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-0913",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12817",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12818",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13601",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-22871",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-22874",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-24970",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-32988",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-32990",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-4673",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-4674",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47907",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47913",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47914",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-5318",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-5372",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58056",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58057",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58181",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58187",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58188",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61723",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61725",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk IT Service Intelligence (ITSI) - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61726",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61728",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61730",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-6395",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-68121",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Operator for Kubernetes Add-on - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0994",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20202",
+      "source": "splunk",
+      "title": "Improper Input Validation during User Account Creation in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20203",
+      "source": "splunk",
+      "title": "Improper Access Control in Data Model Acceleration in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20204",
+      "source": "splunk",
+      "title": "Improper Handling and Insufficient Isolation of Specific Temporary Files in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20205",
+      "source": "splunk",
+      "title": "Sensitive Information Disclosure in `_internal` index in Splunk MCP Server app",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21226",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-22796",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Universal Forwarder - April 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://advisory.splunk.com/advisories/SVD-2026-0403",
+  "vendor": "splunk",
+  "references": [
+    "https://advisory.splunk.com/advisories/SVD-2026-0403",
+    "https://advisory.splunk.com/advisories/SVD-2026-0402",
+    "https://advisory.splunk.com/advisories/SVD-2026-0405",
+    "https://advisory.splunk.com/advisories/SVD-2026-0408",
+    "https://advisory.splunk.com/advisories/SVD-2026-0404",
+    "https://advisory.splunk.com/advisories/SVD-2026-0407",
+    "https://advisory.splunk.com/advisories/SVD-2026-0406",
+    "https://advisory.splunk.com/advisories/SVD-2026-0401"
+  ]
+}
