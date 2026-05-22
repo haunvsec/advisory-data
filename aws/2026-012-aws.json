@@ -1,7 +1,6 @@
 {
   "id": "2026-012-aws",
   "source": "aws",
-  "aliases": [],
   "title": "CVE-2026-5429 - Kiro IDE Webview Cross-Site Scripting via Workspace Color Theme",
   "description": "CVE-2026-5429 - Kiro IDE Webview Cross-Site Scripting via Workspace Color Theme\nPosted on:\nApr 2, 2026\nBulletin ID:\n2026-012-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n04/2/2026 11:30 AM PST\nDescription:\nKiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents.\nWe identified\nCVE-2026-5429\n, where unsanitized input during web page generation in the Kiro Agent webview in Kiro IDE before version 0.8.140 allows a remote unauthenticated threat actor to execute arbitrary code via a maliciously crafted color theme name when a local user opens the workspace. This issue requires the user to trust the workspace when prompted.\nImpacted versions:\n< 0.8.140\nResolution:\nThis issue has been addressed in Kiro IDE version\n0.8.140\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nAcknowledgement:\nWe would like to thank Dhiraj Mishra for collaborating on these issues through the coordinated disclosure process.\nReference:\nhttps://www.cve.org/CVERecord?id=CVE-2026-5429\nhttps://kiro.dev/changelog/ide/0-8/#patch-0-8-140\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
   "severity": "high",
