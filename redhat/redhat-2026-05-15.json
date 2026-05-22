@@ -1,0 +1,96 @@
+{
+  "id": "redhat-2026-05-15",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-05-15",
+  "description": "Merged 9 redhat security advisories published on 2026-05-15. Original advisory IDs: RHSA-2026:17795, RHSA-2026:17792, RHSA-2026:17794, RHSA-2026:17793, RHSA-2026:17790, RHSA-2026:17791, RHSA-2026:17753, RHSA-2026:17752, RHSA-2026:17751\n\nTitles:\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: nginx security update\n- Red Hat Security Advisory: nginx:1.24 security update\n- Red Hat Security Advisory: nginx:1.26 security update",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-123",
+    "CWE-131"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-15",
+  "modified_date": "2026-05-20",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux for NVIDIA",
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.0)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-43284"
+        },
+        {
+          "id": "CVE-2026-42945"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-42945",
+      "source": "redhat",
+      "title": "nginx: NGINX: Arbitrary Code Execution Vulnerability",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-42945"
+      ]
+    },
+    {
+      "id": "CVE-2026-43284",
+      "source": "redhat",
+      "title": "kernel: \"Dirty Frag\" ESP XFRM variant is a new universal Local Privilege Escalation (LPE) vulnerability in the Linux kernel",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43284"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:17795",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:17795",
+    "https://access.redhat.com/errata/RHSA-2026:17792",
+    "https://access.redhat.com/errata/RHSA-2026:17794",
+    "https://access.redhat.com/errata/RHSA-2026:17793",
+    "https://access.redhat.com/errata/RHSA-2026:17790",
+    "https://access.redhat.com/errata/RHSA-2026:17791",
+    "https://access.redhat.com/errata/RHSA-2026:17753",
+    "https://access.redhat.com/errata/RHSA-2026:17752",
+    "https://access.redhat.com/errata/RHSA-2026:17751"
+  ]
+}

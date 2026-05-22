@@ -1,0 +1,331 @@
+{
+  "id": "redhat-2026-05-18",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-05-18",
+  "description": "Merged 23 redhat security advisories published on 2026-05-18. Original advisory IDs: RHSA-2026:18030, RHSA-2026:18029, RHSA-2026:18063, RHSA-2026:18065, RHSA-2026:18043, RHSA-2026:18064, RHSA-2026:18053, RHSA-2026:18031, RHSA-2026:18047, RHSA-2026:18039, RHSA-2026:18042, RHSA-2026:18040, RHSA-2026:18048, RHSA-2026:18044, RHSA-2026:18046, RHSA-2026:18041, RHSA-2026:18045, RHSA-2026:18036, RHSA-2026:18032, RHSA-2026:18028, RHSA-2026:18027, RHSA-2026:18025, RHSA-2026:18024\n\nTitles:\n- Red Hat Security Advisory: ruby:3.3 security update\n- Red Hat Security Advisory: nginx security update\n- Red Hat Security Advisory: ruby security update\n- Red Hat Security Advisory: jq security update\n- Red Hat Security Advisory: libpng security update\n- Red Hat Security Advisory: dovecot security update\n- Red Hat Security Advisory: PackageKit security update\n- Red Hat Security Advisory: nginx:1.24 security update\n- Red Hat Security Advisory: grafana security update\n- Red Hat Security Advisory: grafana-pcp security update\n- Red Hat Security Advisory: kpatch-patch-5_14_0-570_17_1, kpatch-patch-5_14_0-570_39_1, kpatch-patch-5_14_0-570_66_1, and kpatch-patch-5_14_0-570_94_1 security update",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-502",
+    "CWE-131",
+    "CWE-125",
+    "CWE-341",
+    "CWE-825",
+    "CWE-229",
+    "CWE-770",
+    "CWE-367",
+    "CWE-764",
+    "CWE-123"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-18",
+  "modified_date": "2026-05-21",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.0)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41316"
+        },
+        {
+          "id": "CVE-2026-42945"
+        },
+        {
+          "id": "CVE-2026-39979"
+        },
+        {
+          "id": "CVE-2026-40164"
+        },
+        {
+          "id": "CVE-2026-33416"
+        },
+        {
+          "id": "CVE-2025-59032"
+        },
+        {
+          "id": "CVE-2026-27857"
+        },
+        {
+          "id": "CVE-2026-27858"
+        },
+        {
+          "id": "CVE-2026-41651"
+        },
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32282"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
+          "id": "CVE-2026-43284"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-59032",
+      "source": "redhat",
+      "title": "dovecot: ManageSieve: Denial of Service via crafted SASL initial response in AUTHENTICATE command",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-59032"
+      ]
+    },
+    {
+      "id": "CVE-2026-27857",
+      "source": "redhat",
+      "title": "dovecot: denial of service via specially crafted NOOP command",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27857"
+      ]
+    },
+    {
+      "id": "CVE-2026-27858",
+      "source": "redhat",
+      "title": "dovecot: denial of service via crafted message before authentication",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27858"
+      ]
+    },
+    {
+      "id": "CVE-2026-32280",
+      "source": "redhat",
+      "title": "crypto/x509: crypto/tls: golang: Go: Denial of Service vulnerability in certificate chain building",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32280"
+      ]
+    },
+    {
+      "id": "CVE-2026-32282",
+      "source": "redhat",
+      "title": "golang: internal/syscall/unix: Root.Chmod can follow symlinks out of the root",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32282"
+      ]
+    },
+    {
+      "id": "CVE-2026-32283",
+      "source": "redhat",
+      "title": "crypto/tls: golang: Go crypto/tls: Denial of Service via multiple TLS 1.3 key update messages",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32283"
+      ]
+    },
+    {
+      "id": "CVE-2026-33416",
+      "source": "redhat",
+      "title": "libpng: libpng: Arbitrary code execution due to use-after-free vulnerability",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33416"
+      ]
+    },
+    {
+      "id": "CVE-2026-39979",
+      "source": "redhat",
+      "title": "jq: out-of-bounds read in jv_parse_sized() on error formatting for non-NUL-terminated buffers",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-39979"
+      ]
+    },
+    {
+      "id": "CVE-2026-40164",
+      "source": "redhat",
+      "title": "jq: jq: Denial of Service via crafted JSON object causing hash collisions",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-40164"
+      ]
+    },
+    {
+      "id": "CVE-2026-41316",
+      "source": "redhat",
+      "title": "erb: ERB: Arbitrary code execution via deserialization bypass",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-41316"
+      ]
+    },
+    {
+      "id": "CVE-2026-41651",
+      "source": "redhat",
+      "title": "PackageKit: race condition vulnerability leads to arbitrary package installation as root",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-41651"
+      ]
+    },
+    {
+      "id": "CVE-2026-42945",
+      "source": "redhat",
+      "title": "nginx: NGINX: Arbitrary Code Execution Vulnerability",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-42945"
+      ]
+    },
+    {
+      "id": "CVE-2026-43284",
+      "source": "redhat",
+      "title": "kernel: \"Dirty Frag\" ESP XFRM variant is a new universal Local Privilege Escalation (LPE) vulnerability in the Linux kernel",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43284"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:18030",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:18030",
+    "https://access.redhat.com/errata/RHSA-2026:18029",
+    "https://access.redhat.com/errata/RHSA-2026:18063",
+    "https://access.redhat.com/errata/RHSA-2026:18065",
+    "https://access.redhat.com/errata/RHSA-2026:18043",
+    "https://access.redhat.com/errata/RHSA-2026:18064",
+    "https://access.redhat.com/errata/RHSA-2026:18053",
+    "https://access.redhat.com/errata/RHSA-2026:18031",
+    "https://access.redhat.com/errata/RHSA-2026:18047",
+    "https://access.redhat.com/errata/RHSA-2026:18039",
+    "https://access.redhat.com/errata/RHSA-2026:18042",
+    "https://access.redhat.com/errata/RHSA-2026:18040",
+    "https://access.redhat.com/errata/RHSA-2026:18048",
+    "https://access.redhat.com/errata/RHSA-2026:18044",
+    "https://access.redhat.com/errata/RHSA-2026:18046",
+    "https://access.redhat.com/errata/RHSA-2026:18041",
+    "https://access.redhat.com/errata/RHSA-2026:18045",
+    "https://access.redhat.com/errata/RHSA-2026:18036",
+    "https://access.redhat.com/errata/RHSA-2026:18032",
+    "https://access.redhat.com/errata/RHSA-2026:18028",
+    "https://access.redhat.com/errata/RHSA-2026:18027",
+    "https://access.redhat.com/errata/RHSA-2026:18025",
+    "https://access.redhat.com/errata/RHSA-2026:18024"
+  ]
+}
