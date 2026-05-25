@@ -2,7 +2,7 @@
   "id": "apache-2026-04-07",
   "source": "apache",
   "title": "Apache Security Advisories - 2026-04-07",
-  "description": "Merged 2 apache security advisories published on 2026-04-07. Original advisory IDs: activemq-2026-04-07, CVE-2026-35554\n\nTitles:\n- Apache Security Advisories - 2026-04-07\n- Apache Kafka: Apache Kafka Clients: Kafka Producer Message Corruption and Misrouting via Buffer Pool Race Condition",
+  "description": "Merged 2 apache security advisories published on 2026-04-07. Original advisory IDs: CVE-2026-35554, apache-2026-04-07\n\nTitles:\n- Apache Kafka: Apache Kafka Clients: Kafka Producer Message Corruption and Misrouting via Buffer Pool Race Condition\n- Apache Security Advisories - 2026-04-07",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": 8.8,
@@ -17,10 +17,23 @@
   "published_date": "2026-04-07",
   "modified_date": "2026-04-07",
   "affected": [
-    "apache:activemq",
-    "apache:kafka"
+    "apache:kafka",
+    "apache:activemq"
   ],
   "affected_products": [
+    {
+      "vendor": "apache",
+      "product": "Apache Kafka",
+      "version_range": ") 2.8.0 through 3.9.1, 4.0.0 through 4.0.1, 4.1.0 through 4.1.1",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:apache:kafka:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-35554"
+        }
+      ]
+    },
     {
       "vendor": "apache",
       "product": "Apache ActiveMQ",
@@ -124,28 +137,15 @@
           "id": "CVE-2026-34197"
         }
       ]
-    },
-    {
-      "vendor": "apache",
-      "product": "Apache Kafka",
-      "version_range": ") 2.8.0 through 3.9.1, 4.0.0 through 4.0.1, 4.1.0 through 4.1.1",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:apache:kafka:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-35554"
-        }
-      ]
     }
   ],
   "fixed_versions": [
-    "5.19.4",
-    "6.2.3",
     "3.9.2",
     "4.0.2",
     "4.1.2",
-    "4.2.0"
+    "4.2.0",
+    "5.19.4",
+    "6.2.3"
   ],
   "solution": "",
   "remediations": [],
@@ -210,12 +210,12 @@
       "url": ""
     }
   ],
-  "url": "https://activemq.apache.org/security-advisories.data/CVE-2026-33227-announcement.txt",
+  "url": "https://kafka.apache.org/community/cve-list/",
   "vendor": "apache",
   "references": [
-    "https://activemq.apache.org/security-advisories.data/CVE-2026-33227-announcement.txt",
-    "https://activemq.apache.org/security-advisories.data/CVE-2026-34197-announcement.txt",
     "https://kafka.apache.org/community/cve-list/",
-    "https://kafka.apache.org/community/cve-list/#CVE-2026-35554"
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-35554",
+    "https://activemq.apache.org/security-advisories.data/CVE-2026-33227-announcement.txt",
+    "https://activemq.apache.org/security-advisories.data/CVE-2026-34197-announcement.txt"
   ]
 }

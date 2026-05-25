@@ -2,7 +2,7 @@
   "id": "aws-2026-04-29",
   "source": "aws",
   "title": "Aws Security Advisories - 2026-04-29",
-  "description": "Merged 3 aws security advisories published on 2026-04-29. Original advisory IDs: 2026-021-aws, 2026-022-aws, 2026-023-aws\n\nTitles:\n- Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow\n- CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP\n- Issue with FreeRTOS-Plus-TCP - IPv6 Router Advertisement Memory Safety Issues",
+  "description": "Merged 2 aws security advisories published on 2026-04-29. Original advisory IDs: 2026-021-aws, 2026-022-aws\n\nTitles:\n- Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow\n- CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -14,8 +14,7 @@
   "modified_date": "2026-04-29",
   "affected": [
     "aws:FreeRTOS-Plus-TCP is a scalable, open source, and thread-safe TCP/IP stack for FreeRTOS.",
-    "aws:FreeRTOS-Plus-TCP is an open-source, scalable TCP/IP stack for FreeRTOS. We identified",
-    "aws:FreeRTOS-Plus-TCP is an open source TCP/IP stack implementation designed for FreeRTOS, providing a standard Berkeley sockets interface and support for essential networking protocols including IPv6, ARP, DHCP, DNS, and Router Advertisement (RA). We identified"
+    "aws:FreeRTOS-Plus-TCP is an open-source, scalable TCP/IP stack for FreeRTOS. We identified"
   ],
   "affected_products": [
     {
@@ -27,19 +26,13 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-7422"
-        },
-        {
           "id": "CVE-2026-7423"
         },
         {
+          "id": "CVE-2026-7422"
+        },
+        {
           "id": "CVE-2026-7424"
-        },
-        {
-          "id": "CVE-2026-7426"
-        },
-        {
-          "id": "CVE-2026-7425"
         }
       ]
     }
@@ -86,32 +79,6 @@
       "modified_date": "",
       "affected": [],
       "references": []
-    },
-    {
-      "id": "CVE-2026-7425",
-      "source": "aws",
-      "title": "CVE-2026-7425",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-04-29",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-7426",
-      "source": "aws",
-      "title": "CVE-2026-7426",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-04-29",
-      "modified_date": "",
-      "affected": [],
-      "references": []
     }
   ],
   "exploits": [],
@@ -120,7 +87,6 @@
   "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/",
-    "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/",
-    "https://aws.amazon.com/security/security-bulletins/rss/2026-023-aws/"
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/"
   ]
 }

@@ -2,7 +2,7 @@
   "id": "hashicorp-2026-04-17",
   "source": "hashicorp",
   "title": "Hashicorp Security Advisories - 2026-04-17",
-  "description": "Merged 4 hashicorp security advisories published on 2026-04-17. Original advisory IDs: HCSEC-2026-07, HCSEC-2026-06, HCSEC-2026-05, HCSEC-2026-08\n\nTitles:\n- HCSEC-2026-07 - Vault May Expose Tokens to Auth Plugins Due to Incorrect Header Sanitization\n- HCSEC-2026-06 - Vault Vulnerable to Server-Side Request Forgery in ACME Challenge Validation via Attacker-Controlled DNS\n- HCSEC-2026-05 - Vault KVv2 Metadata and Secret Deletion Policy Bypass Denial-of-Service\n- HCSEC-2026-08 - Vault Vulnerable to Denial-of-Service via Unauthenticated Root Token Generation/Rekey Operations",
+  "description": "Merged 4 hashicorp security advisories published on 2026-04-17. Original advisory IDs: HCSEC-2026-08, HCSEC-2026-07, HCSEC-2026-06, HCSEC-2026-05\n\nTitles:\n- HCSEC-2026-08 - Vault Vulnerable to Denial-of-Service via Unauthenticated Root Token Generation/Rekey Operations\n- HCSEC-2026-07 - Vault May Expose Tokens to Auth Plugins Due to Incorrect Header Sanitization\n- HCSEC-2026-06 - Vault Vulnerable to Server-Side Request Forgery in ACME Challenge Validation via Attacker-Controlled DNS\n- HCSEC-2026-05 - Vault KVv2 Metadata and Secret Deletion Policy Bypass Denial-of-Service",
   "severity": null,
   "cvss_scores": [],
   "cvss_score": null,
@@ -25,6 +25,9 @@
       "purl": "",
       "cves": [
         {
+          "id": "CVE-2026-5807"
+        },
+        {
           "id": "CVE-2026-4525"
         },
         {
@@ -32,9 +35,6 @@
         },
         {
           "id": "CVE-2026-3605"
-        },
-        {
-          "id": "CVE-2026-5807"
         }
       ]
     }
@@ -106,12 +106,12 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://discuss.hashicorp.com/t/hcsec-2026-07-vault-may-expose-tokens-to-auth-plugins-due-to-incorrect-header-sanitization/77344",
+  "url": "https://discuss.hashicorp.com/t/hcsec-2026-08-vault-vulnerable-to-denial-of-service-via-unauthenticated-root-token-generation-rekey-operations/77345",
   "vendor": "hashicorp",
   "references": [
+    "https://discuss.hashicorp.com/t/hcsec-2026-08-vault-vulnerable-to-denial-of-service-via-unauthenticated-root-token-generation-rekey-operations/77345",
     "https://discuss.hashicorp.com/t/hcsec-2026-07-vault-may-expose-tokens-to-auth-plugins-due-to-incorrect-header-sanitization/77344",
     "https://discuss.hashicorp.com/t/hcsec-2026-06-vault-vulnerable-to-server-side-request-forgery-in-acme-challenge-validation-via-attacker-controlled-dns/77343",
-    "https://discuss.hashicorp.com/t/hcsec-2026-05-vault-kvv2-metadata-and-secret-deletion-policy-bypass-denial-of-service/77342",
-    "https://discuss.hashicorp.com/t/hcsec-2026-08-vault-vulnerable-to-denial-of-service-via-unauthenticated-root-token-generation-rekey-operations/77345"
+    "https://discuss.hashicorp.com/t/hcsec-2026-05-vault-kvv2-metadata-and-secret-deletion-policy-bypass-denial-of-service/77342"
   ]
 }

@@ -2,7 +2,7 @@
   "id": "apache-kafka-2018-07-26",
   "source": "apache-kafka",
   "title": "Apache Security Advisories - 2018-07-26",
-  "description": "Merged 2 apache security advisories published on 2018-07-26. Original advisory IDs: CVE-2017-12610, CVE-2018-1288\n\nTitles:\n- Apache Kafka: Authenticated Kafka clients may impersonate other users\n- Apache Kafka: Authenticated Kafka clients may interfere with data replication",
+  "description": "Merged 2 apache security advisories published on 2018-07-26. Original advisory IDs: CVE-2018-1288, CVE-2017-12610\n\nTitles:\n- Apache Kafka: Authenticated Kafka clients may interfere with data replication\n- Apache Kafka: Authenticated Kafka clients may impersonate other users",
   "severity": null,
   "cvss_scores": [],
   "cvss_score": null,
@@ -25,21 +25,21 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2017-12610"
+          "id": "CVE-2018-1288"
         },
         {
-          "id": "CVE-2018-1288"
+          "id": "CVE-2017-12610"
         }
       ]
     }
   ],
   "fixed_versions": [
     "0.10.2.2",
-    "0.11.0.2",
-    "1.0.0",
     "0.11.0.3",
     "1.0.1",
-    "1.1.0"
+    "1.1.0",
+    "0.11.0.2",
+    "1.0.0"
   ],
   "solution": "",
   "remediations": [],
@@ -77,7 +77,7 @@
   "vendor": "apache",
   "references": [
     "https://kafka.apache.org/community/cve-list/",
-    "https://kafka.apache.org/community/cve-list/#CVE-2017-12610",
-    "https://kafka.apache.org/community/cve-list/#CVE-2018-1288"
+    "https://kafka.apache.org/community/cve-list/#CVE-2018-1288",
+    "https://kafka.apache.org/community/cve-list/#CVE-2017-12610"
   ]
 }

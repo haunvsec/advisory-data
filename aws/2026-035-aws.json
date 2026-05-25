@@ -1,0 +1,58 @@
+{
+  "id": "2026-035-aws",
+  "source": "aws",
+  "title": "CVE-2026-9255 - Tool Execution Without Authorization via Piped Stdin in Kiro CLI",
+  "description": "CVE-2026-9255 - Tool Execution Without Authorization via Piped Stdin in Kiro CLI\nBulletin ID:\n2026-035-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n05/22/2026 9:45 AM PDT\nDescription:\nKiro CLI is a command-line AI coding assistant that enables developers to interact with AI models to execute code, manage files, and run shell commands. We identified\nCVE-2026-9255\n, an issue where missing input source validation in the tool authorization prompt could allow a local actor to execute arbitrary tools, including shell commands, without user approval by crafting content that is piped to kiro-cli via stdin.\nImpacted versions:\nkiro-cli prior to 1.28.0\nResolution:\nThis issue has been addressed in\nkiro-cli version 1.28.0\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nRun kiro-cli with the --no-interactive flag when piping content from untrusted sources. This explicitly disables tool approval prompts and prevents piped input from being consumed as confirmation responses.\nReferences:\nCVE-2026-9255\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-22",
+  "modified_date": "",
+  "affected": [
+    "aws:Kiro CLI is a command-line AI coding assistant that enables developers to interact with AI models to execute code, manage files, and run shell commands. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-9255"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-9255",
+      "source": "aws",
+      "title": "CVE-2026-9255",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-22",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-035-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-035-aws/"
+  ]
+}

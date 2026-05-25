@@ -2,7 +2,7 @@
   "id": "spring-2026-05-08",
   "source": "spring",
   "title": "Spring Security Advisories - 2026-05-08",
-  "description": "Merged 5 spring security advisories published on 2026-05-08. Original advisory IDs: CVE-2026-41712, CVE-2026-40990, CVE-2026-41705, CVE-2026-41713, CVE-2026-40989\n\nTitles:\n- ChatMemory DEFAULT_CONVERSATION_ID causes unintended cross-user data leakage\n- Unbounded cache for function definitions\n- Expression injection in MilvusVectorStore doDelete allows data destruction\n- Prompt Injection via Memory Poisoning in PromptChatMemoryAdvisor\n- Self Routing guard bypassed via function composition",
+  "description": "Merged 5 spring security advisories published on 2026-05-08. Original advisory IDs: CVE-2026-40990, CVE-2026-40989, CVE-2026-41705, CVE-2026-41712, CVE-2026-41713\n\nTitles:\n- Unbounded cache for function definitions\n- Self Routing guard bypassed via function composition\n- Expression injection in MilvusVectorStore doDelete allows data destruction\n- ChatMemory DEFAULT_CONVERSATION_ID causes unintended cross-user data leakage\n- Prompt Injection via Memory Poisoning in PromptChatMemoryAdvisor",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -13,48 +13,10 @@
   "published_date": "2026-05-08",
   "modified_date": "2026-05-08",
   "affected": [
-    "spring:spring-ai",
-    "spring:spring"
+    "spring:spring",
+    "spring:spring-ai"
   ],
   "affected_products": [
-    {
-      "vendor": "spring",
-      "product": "Spring AI",
-      "version_range": "1.0.0 - 1.0.x",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:vmware:spring_ai:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41712"
-        },
-        {
-          "id": "CVE-2026-41705"
-        },
-        {
-          "id": "CVE-2026-41713"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring AI",
-      "version_range": "1.1.0 - 1.1.x",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:vmware:spring_ai:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41712"
-        },
-        {
-          "id": "CVE-2026-41705"
-        },
-        {
-          "id": "CVE-2026-41713"
-        }
-      ]
-    },
     {
       "vendor": "spring",
       "product": "Spring Framework",
@@ -70,16 +32,54 @@
           "id": "CVE-2026-40989"
         }
       ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring AI",
+      "version_range": "1.0.0 - 1.0.x",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:vmware:spring_ai:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41705"
+        },
+        {
+          "id": "CVE-2026-41712"
+        },
+        {
+          "id": "CVE-2026-41713"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring AI",
+      "version_range": "1.1.0 - 1.1.x",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:vmware:spring_ai:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41705"
+        },
+        {
+          "id": "CVE-2026-41712"
+        },
+        {
+          "id": "CVE-2026-41713"
+        }
+      ]
     }
   ],
   "fixed_versions": [
-    "1.0.7",
-    "1.1.6",
     "3.2.16",
     "4.1.10",
     "4.2.6",
     "4.3.3",
-    "5.0.2"
+    "5.0.2",
+    "1.0.7",
+    "1.1.6"
   ],
   "solution": "",
   "remediations": [],
@@ -152,13 +152,13 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://spring.io/security/cve-2026-41712",
+  "url": "https://spring.io/security/cve-2026-40990",
   "vendor": "spring",
   "references": [
-    "https://spring.io/security/cve-2026-41712",
     "https://spring.io/security/cve-2026-40990",
+    "https://spring.io/security/cve-2026-40989",
     "https://spring.io/security/cve-2026-41705",
-    "https://spring.io/security/cve-2026-41713",
-    "https://spring.io/security/cve-2026-40989"
+    "https://spring.io/security/cve-2026-41712",
+    "https://spring.io/security/cve-2026-41713"
   ]
 }

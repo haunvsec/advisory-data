@@ -2,7 +2,7 @@
   "id": "apache-kafka-2021-12-09",
   "source": "apache-kafka",
   "title": "Apache Security Advisories - 2021-12-09",
-  "description": "Merged 2 apache security advisories published on 2021-12-09. Original advisory IDs: CVE-2021-4104, CVE-2021-44228\n\nTitles:\n- Apache Kafka: Flaw in Apache Log4j logging library in versions 1.x\n- Apache Kafka: Flaw in Apache Log4j logging library in versions from 2.0.0 and before 2.15.0",
+  "description": "Merged 2 apache security advisories published on 2021-12-09. Original advisory IDs: CVE-2021-44228, CVE-2021-4104\n\nTitles:\n- Apache Kafka: Flaw in Apache Log4j logging library in versions from 2.0.0 and before 2.15.0\n- Apache Kafka: Flaw in Apache Log4j logging library in versions 1.x",
   "severity": "critical",
   "cvss_scores": [],
   "cvss_score": null,
@@ -25,18 +25,18 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2021-4104"
+          "id": "CVE-2021-44228"
         },
         {
-          "id": "CVE-2021-44228"
+          "id": "CVE-2021-4104"
         }
       ]
     }
   ],
   "fixed_versions": [
+    "NA",
     "In the absence of a new log4j 1.x release",
-    "one can remove JMSAppender from the log4j-1.2.17.jar artifact. Commands are listed in the pagehttp://slf4j.org/log4shell.html.We also recommend that configuration files be protected against write access as stated inhttp://slf4j.org/log4shell.html.",
-    "NA"
+    "one can remove JMSAppender from the log4j-1.2.17.jar artifact. Commands are listed in the pagehttp://slf4j.org/log4shell.html.We also recommend that configuration files be protected against write access as stated inhttp://slf4j.org/log4shell.html."
   ],
   "solution": "",
   "remediations": [],
@@ -74,7 +74,7 @@
   "vendor": "apache",
   "references": [
     "https://kafka.apache.org/community/cve-list/",
-    "https://kafka.apache.org/community/cve-list/#CVE-2021-4104",
-    "https://kafka.apache.org/community/cve-list/#CVE-2021-44228"
+    "https://kafka.apache.org/community/cve-list/#CVE-2021-44228",
+    "https://kafka.apache.org/community/cve-list/#CVE-2021-4104"
   ]
 }

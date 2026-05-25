@@ -2,7 +2,7 @@
   "id": "aws-alas-2026-05-15",
   "source": "aws-alas",
   "title": "Aws Security Advisories - 2026-05-15",
-  "description": "Merged 17 aws security advisories published on 2026-05-15. Original advisory IDs: ALAS2023-2026-1689, ALAS2023-2026-1703, ALAS2023NVIDIA-2026-278, ALAS2023-2026-1705, ALAS2023-2026-1699, ALAS2023-2026-1709, ALAS2023-2026-1708, ALAS2023NVIDIA-2026-279, ALAS2023-2026-1704, ALAS2023-2026-1707, ALAS2023-2026-1697, ALAS2023-2026-1662, ALAS2023-2026-1710, ALAS2023-2026-1706, ALAS2023-2026-1701, ALAS2023-2026-1690, ALAS2023-2026-1700\n\nTitles:\n- ALAS2023-2026-1689 (important): python-pip\n- ALAS2023-2026-1703 (medium): nss\n- ALAS2023NVIDIA-2026-278 (medium): cuda-toolkit-12\n- ALAS2023-2026-1705 (medium): libgcrypt\n- ALAS2023-2026-1699 (medium): curl\n- ALAS2023-2026-1709 (important): kernel6.18\n- ALAS2023-2026-1708 (important): kernel6.12\n- ALAS2023NVIDIA-2026-279 (medium): cuda-toolkit\n- ALAS2023-2026-1704 (medium): ImageMagick\n- ALAS2023-2026-1707 (low): glslang\n- ALAS2023-2026-1697 (medium): perl-Text-CSV_XS\n- ALAS2023-2026-1662 (low): aws-cfn-bootstrap\n- ALAS2023-2026-1710 (important): kernel\n- ALAS2023-2026-1706 (low): firefox\n- ALAS2023-2026-1701 (low): socat\n- ALAS2023-2026-1690 (important): ruby3.4\n- ALAS2023-2026-1700 (medium): soci-snapshotter",
+  "description": "Merged 17 aws security advisories published on 2026-05-15. Original advisory IDs: ALAS2023NVIDIA-2026-278, ALAS2023NVIDIA-2026-279, ALAS2023-2026-1662, ALAS2023-2026-1689, ALAS2023-2026-1690, ALAS2023-2026-1697, ALAS2023-2026-1699, ALAS2023-2026-1700, ALAS2023-2026-1701, ALAS2023-2026-1703, ALAS2023-2026-1704, ALAS2023-2026-1705, ALAS2023-2026-1706, ALAS2023-2026-1707, ALAS2023-2026-1708, ALAS2023-2026-1709, ALAS2023-2026-1710\n\nTitles:\n- ALAS2023NVIDIA-2026-278 (medium): cuda-toolkit-12\n- ALAS2023NVIDIA-2026-279 (medium): cuda-toolkit\n- ALAS2023-2026-1662 (low): aws-cfn-bootstrap\n- ALAS2023-2026-1689 (important): python-pip\n- ALAS2023-2026-1690 (important): ruby3.4\n- ALAS2023-2026-1697 (medium): perl-Text-CSV_XS\n- ALAS2023-2026-1699 (medium): curl\n- ALAS2023-2026-1700 (medium): soci-snapshotter\n- ALAS2023-2026-1701 (low): socat\n- ALAS2023-2026-1703 (medium): nss\n- ALAS2023-2026-1704 (medium): ImageMagick\n- ALAS2023-2026-1705 (medium): libgcrypt\n- ALAS2023-2026-1706 (low): firefox\n- ALAS2023-2026-1707 (low): glslang\n- ALAS2023-2026-1708 (important): kernel6.12\n- ALAS2023-2026-1709 (important): kernel6.18\n- ALAS2023-2026-1710 (important): kernel",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -13,57 +13,25 @@
   "published_date": "2026-05-15",
   "modified_date": "2026-05-25",
   "affected": [
-    "al2023:python-pip",
-    "al2023:nss",
     "al2023:cuda-toolkit-12",
-    "al2023:libgcrypt",
-    "al2023:curl",
-    "al2023:kernel6.18",
-    "al2023:kernel6.12",
     "al2023:cuda-toolkit",
-    "al2023:ImageMagick",
-    "al2023:glslang",
-    "al2023:perl-Text-CSV_XS",
     "al2023:aws-cfn-bootstrap",
-    "al2023:kernel",
-    "al2023:firefox",
-    "al2023:socat",
+    "al2023:python-pip",
     "al2023:ruby3.4",
-    "al2023:soci-snapshotter"
+    "al2023:perl-Text-CSV_XS",
+    "al2023:curl",
+    "al2023:soci-snapshotter",
+    "al2023:socat",
+    "al2023:nss",
+    "al2023:ImageMagick",
+    "al2023:libgcrypt",
+    "al2023:firefox",
+    "al2023:glslang",
+    "al2023:kernel6.12",
+    "al2023:kernel6.18",
+    "al2023:kernel"
   ],
   "affected_products": [
-    {
-      "vendor": "al2023",
-      "product": "Python-pip",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:python-pip:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-6357"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Nss",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:nss:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-6766"
-        },
-        {
-          "id": "CVE-2026-6767"
-        },
-        {
-          "id": "CVE-2026-6772"
-        }
-      ]
-    },
     {
       "vendor": "al2023",
       "product": "Cuda-toolkit-12",
@@ -79,58 +47,6 @@
     },
     {
       "vendor": "al2023",
-      "product": "Libgcrypt",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:libgcrypt:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41989"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Curl",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:curl:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-3805"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Kernel6.18",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:kernel6.18:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-46300"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Kernel6.12",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:kernel6.12:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-46300"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
       "product": "Cuda-toolkit",
       "version_range": "",
       "fixed_version": "",
@@ -139,45 +55,6 @@
       "cves": [
         {
           "id": "CVE-2024-0110"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "ImageMagick",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:imagemagick:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-42050"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Glslang",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:glslang:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2025-3010"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Perl-Text-CSV_XS",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:perl-text-csv_xs:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-7111"
         }
       ]
     },
@@ -205,40 +82,14 @@
     },
     {
       "vendor": "al2023",
-      "product": "Kernel",
+      "product": "Python-pip",
       "version_range": "",
       "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:kernel:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:python-pip:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-46300"
-        }
-      ]
-    },
-    {
-      "vendor": "mozilla",
-      "product": "Mozilla Firefox",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41080"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Socat",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:socat:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2024-54661"
+          "id": "CVE-2026-6357"
         }
       ]
     },
@@ -252,6 +103,32 @@
       "cves": [
         {
           "id": "CVE-2026-41316"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Perl-Text-CSV_XS",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:perl-text-csv_xs:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-7111"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Curl",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:curl:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-3805"
         }
       ]
     },
@@ -288,10 +165,133 @@
           "id": "CVE-2026-32289"
         }
       ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Socat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:socat:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-54661"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Nss",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:nss:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6766"
+        },
+        {
+          "id": "CVE-2026-6767"
+        },
+        {
+          "id": "CVE-2026-6772"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "ImageMagick",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:imagemagick:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-42050"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Libgcrypt",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:libgcrypt:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41989"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41080"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Glslang",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:glslang:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-3010"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel6.12",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:kernel6.12:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-46300"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel6.18",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:kernel6.18:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-46300"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:kernel:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-46300"
+        }
+      ]
     }
   ],
   "fixed_versions": [],
-  "solution": "dnf update python-pip --releasever 2023.11.20260514\n\ndnf update nss --releasever 2023.11.20260514\n\ndnf update cuda-toolkit-12 --releasever latest\n\ndnf update libgcrypt --releasever 2023.11.20260514\n\ndnf update curl --releasever 2023.11.20260514\n\ndnf update kernel6.18 --releasever 2023.11.20260514\n\ndnf update kernel6.12 --releasever 2023.11.20260514\n\ndnf update cuda-toolkit --releasever latest\n\ndnf update ImageMagick --releasever 2023.11.20260514\n\ndnf update glslang --releasever 2023.11.20260514\n\ndnf update perl-Text-CSV_XS --releasever 2023.11.20260514\n\ndnf update aws-cfn-bootstrap --releasever 2023.11.20260514\n\ndnf update kernel --releasever 2023.11.20260514\n\ndnf update firefox --releasever 2023.11.20260514\n\ndnf update socat --releasever 2023.11.20260514\n\ndnf update ruby3.4 --releasever 2023.11.20260514\n\ndnf update soci-snapshotter --releasever 2023.11.20260514",
+  "solution": "dnf update cuda-toolkit-12 --releasever latest\n\ndnf update cuda-toolkit --releasever latest\n\ndnf update aws-cfn-bootstrap --releasever 2023.11.20260514\n\ndnf update python-pip --releasever 2023.11.20260514\n\ndnf update ruby3.4 --releasever 2023.11.20260514\n\ndnf update perl-Text-CSV_XS --releasever 2023.11.20260514\n\ndnf update curl --releasever 2023.11.20260514\n\ndnf update soci-snapshotter --releasever 2023.11.20260514\n\ndnf update socat --releasever 2023.11.20260514\n\ndnf update nss --releasever 2023.11.20260514\n\ndnf update ImageMagick --releasever 2023.11.20260514\n\ndnf update libgcrypt --releasever 2023.11.20260514\n\ndnf update firefox --releasever 2023.11.20260514\n\ndnf update glslang --releasever 2023.11.20260514\n\ndnf update kernel6.12 --releasever 2023.11.20260514\n\ndnf update kernel6.18 --releasever 2023.11.20260514\n\ndnf update kernel --releasever 2023.11.20260514",
   "remediations": [],
   "cves": [
     {
@@ -635,25 +635,25 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1689.html",
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-278.html",
   "vendor": "aws",
   "references": [
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1689.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1703.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-278.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1705.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1699.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1709.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1708.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-279.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1704.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1707.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1697.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1662.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1710.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1706.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1701.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1689.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1690.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1700.html"
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1697.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1699.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1700.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1701.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1703.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1704.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1705.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1706.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1707.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1708.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1709.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1710.html"
   ]
 }

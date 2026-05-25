@@ -2,19 +2,19 @@
   "id": "kubernetes-2024-10-11",
   "source": "kubernetes",
   "title": "Kubernetes Security Advisories - 2024-10-11",
-  "description": "Merged 2 kubernetes security advisories published on 2024-10-11. Original advisory IDs: CVE-2024-9486, CVE-2024-9594\n\nTitles:\n- VM images built with Image Builder and Proxmox provider use default credentials\n- VM images built with Image Builder with some providers use default credentials during builds",
+  "description": "Merged 2 kubernetes security advisories published on 2024-10-11. Original advisory IDs: CVE-2024-9594, CVE-2024-9486\n\nTitles:\n- VM images built with Image Builder with some providers use default credentials during builds\n- VM images built with Image Builder and Proxmox provider use default credentials",
   "severity": null,
   "cvss_scores": [
     {
       "version": "3.1",
       "score": null,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)",
+      "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H)",
       "severity": ""
     },
     {
       "version": "3.1",
       "score": null,
-      "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H)",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)",
       "severity": ""
     }
   ],
@@ -29,18 +29,14 @@
     "kubernetes:Kubernetes Image Builder versions <= v0.1.37",
     "kubernetes:### How do I mitigate this vulnerability?",
     "kubernetes:Rebuild any affected images using a fixed version of Image Builder. Re-deploy the fixed images to any affected VMs.",
-    "kubernetes:Prior to upgrading, this vulnerability can be mitigated by disabling the builder account on affected VMs:",
-    "kubernetes:usermod -L builder",
     "kubernetes:#### Fixed Versions",
-    "kubernetes:Kubernetes Image Builder master - fixed by https://github.com/kubernetes-sigs/image-builder/pull/1595",
+    "kubernetes:Kubernetes Image Builder master - fixed by https://github.com/kubernetes-sigs/image-builder/pull/1596",
     "kubernetes:Fixed in Kubernetes Image Builder release v0.1.38",
     "kubernetes:### Detection",
     "kubernetes:The linux command `last builder` can be used to view logins to the affected `builder` account.",
     "kubernetes:If you find evidence that this vulnerability has been exploited, please contact security@kubernetes.io",
     "kubernetes:## Additional Details",
-    "kubernetes:The fixed version makes two changes to remedy this bug:",
-    "kubernetes:It sets a randomly-generated password for the duration of the image build",
-    "kubernetes:It disables the builder account at the conclusion of the image build",
+    "kubernetes:The fixed version sets a randomly-generated password for the duration of the image build",
     "kubernetes:#### Acknowledgements",
     "kubernetes:This vulnerability was reported by Nicolai Rybnikar @rybnico from Rybnikar Enterprises GmbH.",
     "kubernetes:The issue was fixed and coordinated by Marcus Noble of the Image Builder project.",
@@ -49,8 +45,12 @@
     "kubernetes:/committee security-response",
     "kubernetes:/label official-cve-feed",
     "kubernetes:/sig cluster-lifecycle",
-    "kubernetes:Kubernetes Image Builder master - fixed by https://github.com/kubernetes-sigs/image-builder/pull/1596",
-    "kubernetes:The fixed version sets a randomly-generated password for the duration of the image build"
+    "kubernetes:Prior to upgrading, this vulnerability can be mitigated by disabling the builder account on affected VMs:",
+    "kubernetes:usermod -L builder",
+    "kubernetes:Kubernetes Image Builder master - fixed by https://github.com/kubernetes-sigs/image-builder/pull/1595",
+    "kubernetes:The fixed version makes two changes to remedy this bug:",
+    "kubernetes:It sets a randomly-generated password for the duration of the image build",
+    "kubernetes:It disables the builder account at the conclusion of the image build"
   ],
   "affected_products": [
     {
@@ -62,21 +62,8 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2024-9486"
-        },
-        {
           "id": "CVE-2024-9594"
-        }
-      ]
-    },
-    {
-      "vendor": "kubernetes",
-      "product": "Usermod -L builder",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:kubernetes:usermod_-l_builder:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
+        },
         {
           "id": "CVE-2024-9486"
         }
@@ -91,10 +78,52 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2024-9486"
+          "id": "CVE-2024-9594"
         },
         {
+          "id": "CVE-2024-9486"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "The fixed version sets a randomly-generated password for the duration of the image build",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:the_fixed_version_sets_a_randomly-generated_password_for_the_duration_of_the_image_build:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
           "id": "CVE-2024-9594"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "This vulnerability was reported by Nicolai Rybnikar @rybnico from Rybnikar Enterprises GmbH.",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:this_vulnerability_was_reported_by_nicolai_rybnikar__rybnico_from_rybnikar_enterprises_gmbh.:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-9594"
+        },
+        {
+          "id": "CVE-2024-9486"
+        }
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Usermod -L builder",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:usermod_-l_builder:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-9486"
         }
       ]
     },
@@ -136,47 +165,16 @@
           "id": "CVE-2024-9486"
         }
       ]
-    },
-    {
-      "vendor": "kubernetes",
-      "product": "This vulnerability was reported by Nicolai Rybnikar @rybnico from Rybnikar Enterprises GmbH.",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:kubernetes:this_vulnerability_was_reported_by_nicolai_rybnikar__rybnico_from_rybnikar_enterprises_gmbh.:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2024-9486"
-        },
-        {
-          "id": "CVE-2024-9594"
-        }
-      ]
-    },
-    {
-      "vendor": "kubernetes",
-      "product": "The fixed version sets a randomly-generated password for the duration of the image build",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:kubernetes:the_fixed_version_sets_a_randomly-generated_password_for_the_duration_of_the_image_build:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2024-9594"
-        }
-      ]
     }
   ],
   "fixed_versions": [
-    "Kubernetes Image Builder master - fixed by https://github.com/kubernetes-sigs/image-builder/pull/1595",
+    "Kubernetes Image Builder master - fixed by https://github.com/kubernetes-sigs/image-builder/pull/1596",
     "Fixed in Kubernetes Image Builder release v0.1.38",
     "### Detection",
     "The linux command `last builder` can be used to view logins to the affected `builder` account.",
     "If you find evidence that this vulnerability has been exploited, please contact security@kubernetes.io",
     "## Additional Details",
-    "The fixed version makes two changes to remedy this bug:",
-    "It sets a randomly-generated password for the duration of the image build",
-    "It disables the builder account at the conclusion of the image build",
+    "The fixed version sets a randomly-generated password for the duration of the image build",
     "#### Acknowledgements",
     "This vulnerability was reported by Nicolai Rybnikar @rybnico from Rybnikar Enterprises GmbH.",
     "The issue was fixed and coordinated by Marcus Noble of the Image Builder project.",
@@ -185,8 +183,10 @@
     "/committee security-response",
     "/label official-cve-feed",
     "/sig cluster-lifecycle",
-    "Kubernetes Image Builder master - fixed by https://github.com/kubernetes-sigs/image-builder/pull/1596",
-    "The fixed version sets a randomly-generated password for the duration of the image build"
+    "Kubernetes Image Builder master - fixed by https://github.com/kubernetes-sigs/image-builder/pull/1595",
+    "The fixed version makes two changes to remedy this bug:",
+    "It sets a randomly-generated password for the duration of the image build",
+    "It disables the builder account at the conclusion of the image build"
   ],
   "solution": "",
   "remediations": [],
@@ -231,14 +231,14 @@
       "url": ""
     }
   ],
-  "url": "https://www.cve.org/cverecord?id=CVE-2024-9486",
+  "url": "https://www.cve.org/cverecord?id=CVE-2024-9594",
   "vendor": "kubernetes",
   "references": [
-    "https://www.cve.org/cverecord?id=CVE-2024-9486",
-    "https://github.com/kubernetes/kubernetes/issues/128006",
-    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2024-9486",
     "https://www.cve.org/cverecord?id=CVE-2024-9594",
     "https://github.com/kubernetes/kubernetes/issues/128007",
-    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2024-9594"
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2024-9594",
+    "https://www.cve.org/cverecord?id=CVE-2024-9486",
+    "https://github.com/kubernetes/kubernetes/issues/128006",
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2024-9486"
   ]
 }

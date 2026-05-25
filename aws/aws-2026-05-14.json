@@ -15,38 +15,38 @@
   "affected": [
     "aws:Amazon SageMaker Python SDK is an open-source library for training and deploying machine learning models on Amazon SageMaker. The ModelBuilder component simplifies model deployment by automating model artifact preparation and SageMaker model creation.",
     "aws:coreMQTT",
-    "al2023:python3.12-pip",
-    "al2023:libpng",
-    "al2023:nodejs24",
-    "al2023:runfinch-finch",
-    "al2023:vim",
-    "al2023:libXpm",
+    "al2023:firewalld",
     "al2023:ecs-init",
+    "al2023:python3.13",
+    "al2023:PackageKit",
+    "al2023:perl-CryptX",
+    "al2023:editorconfig",
+    "al2023:freerdp",
+    "al2023:openvpn",
+    "al2023:amazon-ecr-credential-helper",
+    "al2023:nodejs24",
+    "al2023:nodejs22",
+    "al2023:firefox",
+    "al2023:python3.14-pip",
+    "al2023:python3.13-pip",
+    "al2023:mount-s3",
+    "al2023:libXpm",
+    "al2023:lcms2",
+    "al2023:rclone",
+    "al2023:docker",
     "al2023:oci-add-hooks",
     "al2023:runc",
-    "al2023:firewalld",
-    "al2023:perl-CryptX",
-    "al2023:lcms2",
-    "al2023:editorconfig",
-    "al2023:python3.13-pip",
-    "al2023:PackageKit",
-    "al2023:rclone",
-    "al2023:python3.14",
     "al2023:policycoreutils",
-    "al2023:docker",
-    "al2023:python3.13",
-    "al2023:mount-s3",
-    "al2023:freerdp",
-    "al2023:nodejs22",
-    "al2023:tomcat9",
-    "al2023:openvpn",
-    "al2023:firefox",
+    "al2023:python3.11-pip",
+    "al2023:python3.12-pip",
+    "al2023:vim",
     "al2023:cups",
     "al2023:xdg-desktop-portal",
-    "al2023:python3.14-pip",
-    "al2023:amazon-ecr-credential-helper",
-    "al2023:python3.11-pip",
-    "al2023:tomcat10"
+    "al2023:libpng",
+    "al2023:runfinch-finch",
+    "al2023:tomcat9",
+    "al2023:tomcat10",
+    "al2023:python3.14"
   ],
   "affected_products": [
     {
@@ -58,10 +58,10 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-8597"
+          "id": "CVE-2026-8596"
         },
         {
-          "id": "CVE-2026-8596"
+          "id": "CVE-2026-8597"
         }
       ]
     },
@@ -80,109 +80,14 @@
     },
     {
       "vendor": "al2023",
-      "product": "Python3.12-pip",
+      "product": "Firewalld",
       "version_range": "",
       "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:python3.12-pip:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:firewalld:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-3219"
-        },
-        {
-          "id": "CVE-2026-6357"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Libpng",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:libpng:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-34757"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Nodejs24",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:nodejs24:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-27135"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Runfinch-finch",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:runfinch-finch:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2025-47913"
-        },
-        {
-          "id": "CVE-2026-27143"
-        },
-        {
-          "id": "CVE-2026-27144"
-        },
-        {
-          "id": "CVE-2026-32280"
-        },
-        {
-          "id": "CVE-2026-32281"
-        },
-        {
-          "id": "CVE-2026-32282"
-        },
-        {
-          "id": "CVE-2026-32283"
-        },
-        {
-          "id": "CVE-2026-32288"
-        },
-        {
-          "id": "CVE-2026-32289"
-        },
-        {
-          "id": "CVE-2026-33748"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Vim",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:vim:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41411"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "LibXpm",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:libxpm:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-4367"
+          "id": "CVE-2026-4948"
         }
       ]
     },
@@ -222,82 +127,33 @@
     },
     {
       "vendor": "al2023",
-      "product": "Oci-add-hooks",
+      "product": "Python3.13",
       "version_range": "",
       "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:oci-add-hooks:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:python3.13:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-27143"
+          "id": "CVE-2026-4519"
         },
         {
-          "id": "CVE-2026-27144"
+          "id": "CVE-2026-4786"
         },
         {
-          "id": "CVE-2026-32280"
-        },
-        {
-          "id": "CVE-2026-32281"
-        },
-        {
-          "id": "CVE-2026-32282"
-        },
-        {
-          "id": "CVE-2026-32283"
-        },
-        {
-          "id": "CVE-2026-32288"
-        },
-        {
-          "id": "CVE-2026-32289"
+          "id": "CVE-2026-6100"
         }
       ]
     },
     {
       "vendor": "al2023",
-      "product": "Runc",
+      "product": "PackageKit",
       "version_range": "",
       "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:runc:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:packagekit:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-27143"
-        },
-        {
-          "id": "CVE-2026-27144"
-        },
-        {
-          "id": "CVE-2026-32280"
-        },
-        {
-          "id": "CVE-2026-32281"
-        },
-        {
-          "id": "CVE-2026-32282"
-        },
-        {
-          "id": "CVE-2026-32283"
-        },
-        {
-          "id": "CVE-2026-32288"
-        },
-        {
-          "id": "CVE-2026-32289"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Firewalld",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:firewalld:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-4948"
+          "id": "CVE-2026-41651"
         }
       ]
     },
@@ -311,19 +167,6 @@
       "cves": [
         {
           "id": "CVE-2026-41564"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Lcms2",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:lcms2:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41254"
         }
       ]
     },
@@ -345,122 +188,6 @@
     },
     {
       "vendor": "al2023",
-      "product": "Python3.13-pip",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:python3.13-pip:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-6357"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "PackageKit",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:packagekit:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41651"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Rclone",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:rclone:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41176"
-        },
-        {
-          "id": "CVE-2026-41179"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Python3.14",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:python3.14:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-2297"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Policycoreutils",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:policycoreutils:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2025-56005"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Docker",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:docker:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-33997"
-        },
-        {
-          "id": "CVE-2026-39882"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Python3.13",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:python3.13:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-4519"
-        },
-        {
-          "id": "CVE-2026-4786"
-        },
-        {
-          "id": "CVE-2026-6100"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Mount-s3",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:mount-s3:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-4428"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
       "product": "Freerdp",
       "version_range": "",
       "fixed_version": "",
@@ -469,62 +196,6 @@
       "cves": [
         {
           "id": "CVE-2026-40254"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Nodejs22",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:nodejs22:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-25547"
-        },
-        {
-          "id": "CVE-2026-27135"
-        }
-      ]
-    },
-    {
-      "vendor": "apache",
-      "product": "Apache Tomcat",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2025-66614"
-        },
-        {
-          "id": "CVE-2026-24880"
-        },
-        {
-          "id": "CVE-2026-25854"
-        },
-        {
-          "id": "CVE-2026-29129"
-        },
-        {
-          "id": "CVE-2026-29145"
-        },
-        {
-          "id": "CVE-2026-29146"
-        },
-        {
-          "id": "CVE-2026-32990"
-        },
-        {
-          "id": "CVE-2026-34483"
-        },
-        {
-          "id": "CVE-2026-34487"
-        },
-        {
-          "id": "CVE-2026-34500"
         }
       ]
     },
@@ -541,6 +212,69 @@
         },
         {
           "id": "CVE-2026-40215"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Amazon-ecr-credential-helper",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:amazon-ecr-credential-helper:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-27143"
+        },
+        {
+          "id": "CVE-2026-27144"
+        },
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32281"
+        },
+        {
+          "id": "CVE-2026-32282"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
+          "id": "CVE-2026-32288"
+        },
+        {
+          "id": "CVE-2026-32289"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Nodejs24",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:nodejs24:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-27135"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Nodejs22",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:nodejs22:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-25547"
+        },
+        {
+          "id": "CVE-2026-27135"
         }
       ]
     },
@@ -643,35 +377,6 @@
     },
     {
       "vendor": "al2023",
-      "product": "Cups",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:cups:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-27447"
-        },
-        {
-          "id": "CVE-2026-41079"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Xdg-desktop-portal",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:xdg-desktop-portal:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-40354"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
       "product": "Python3.14-pip",
       "version_range": "",
       "fixed_version": "",
@@ -685,10 +390,94 @@
     },
     {
       "vendor": "al2023",
-      "product": "Amazon-ecr-credential-helper",
+      "product": "Python3.13-pip",
       "version_range": "",
       "fixed_version": "",
-      "cpe": "cpe:2.3:a:al2023:amazon-ecr-credential-helper:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:python3.13-pip:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6357"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Mount-s3",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:mount-s3:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4428"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "LibXpm",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:libxpm:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4367"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Lcms2",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:lcms2:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41254"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Rclone",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:rclone:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41176"
+        },
+        {
+          "id": "CVE-2026-41179"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Docker",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:docker:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-33997"
+        },
+        {
+          "id": "CVE-2026-39882"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Oci-add-hooks",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:oci-add-hooks:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
@@ -719,6 +508,53 @@
     },
     {
       "vendor": "al2023",
+      "product": "Runc",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:runc:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-27143"
+        },
+        {
+          "id": "CVE-2026-27144"
+        },
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32281"
+        },
+        {
+          "id": "CVE-2026-32282"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
+          "id": "CVE-2026-32288"
+        },
+        {
+          "id": "CVE-2026-32289"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Policycoreutils",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:policycoreutils:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-56005"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
       "product": "Python3.11-pip",
       "version_range": "",
       "fixed_version": "",
@@ -732,10 +568,174 @@
           "id": "CVE-2026-6357"
         }
       ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Python3.12-pip",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:python3.12-pip:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-3219"
+        },
+        {
+          "id": "CVE-2026-6357"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Vim",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:vim:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41411"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Cups",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:cups:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-27447"
+        },
+        {
+          "id": "CVE-2026-41079"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Xdg-desktop-portal",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:xdg-desktop-portal:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40354"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Libpng",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:libpng:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-34757"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Runfinch-finch",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:runfinch-finch:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-47913"
+        },
+        {
+          "id": "CVE-2026-27143"
+        },
+        {
+          "id": "CVE-2026-27144"
+        },
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32281"
+        },
+        {
+          "id": "CVE-2026-32282"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
+          "id": "CVE-2026-32288"
+        },
+        {
+          "id": "CVE-2026-32289"
+        },
+        {
+          "id": "CVE-2026-33748"
+        }
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-66614"
+        },
+        {
+          "id": "CVE-2026-24880"
+        },
+        {
+          "id": "CVE-2026-25854"
+        },
+        {
+          "id": "CVE-2026-29129"
+        },
+        {
+          "id": "CVE-2026-29145"
+        },
+        {
+          "id": "CVE-2026-29146"
+        },
+        {
+          "id": "CVE-2026-32990"
+        },
+        {
+          "id": "CVE-2026-34483"
+        },
+        {
+          "id": "CVE-2026-34487"
+        },
+        {
+          "id": "CVE-2026-34500"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Python3.14",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:al2023:python3.14:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2297"
+        }
+      ]
     }
   ],
   "fixed_versions": [],
-  "solution": "dnf update python3.12-pip --releasever 2023.11.20260511\n\ndnf update libpng --releasever 2023.11.20260511\n\ndnf update nodejs24 --releasever 2023.11.20260511\n\ndnf update runfinch-finch --releasever 2023.11.20260511\n\ndnf update vim --releasever 2023.11.20260511\n\ndnf update libXpm --releasever 2023.11.20260511\n\ndnf update ecs-init --releasever 2023.11.20260511\n\ndnf update oci-add-hooks --releasever 2023.11.20260511\n\ndnf update runc --releasever 2023.11.20260511\n\ndnf update firewalld --releasever 2023.11.20260511\n\ndnf update perl-CryptX --releasever 2023.11.20260511\n\ndnf update lcms2 --releasever 2023.11.20260511\n\ndnf update editorconfig --releasever 2023.11.20260511\n\ndnf update python3.13-pip --releasever 2023.11.20260511\n\ndnf update PackageKit --releasever 2023.11.20260511\n\ndnf update rclone --releasever 2023.11.20260511\n\ndnf update python3.14 --releasever 2023.11.20260511\n\ndnf update policycoreutils --releasever 2023.11.20260511\n\ndnf update docker --releasever 2023.11.20260511\n\ndnf update python3.13 --releasever 2023.11.20260511\n\ndnf update mount-s3 --releasever 2023.11.20260511\n\ndnf update freerdp --releasever 2023.11.20260511\n\ndnf update nodejs22 --releasever 2023.11.20260511\n\ndnf update tomcat9 --releasever 2023.11.20260511\n\ndnf update openvpn --releasever 2023.11.20260511\n\ndnf update firefox --releasever 2023.11.20260511\n\ndnf update cups --releasever 2023.11.20260511\n\ndnf update xdg-desktop-portal --releasever 2023.11.20260511\n\ndnf update python3.14-pip --releasever 2023.11.20260511\n\ndnf update amazon-ecr-credential-helper --releasever 2023.11.20260511\n\ndnf update python3.11-pip --releasever 2023.11.20260511\n\ndnf update tomcat10 --releasever 2023.11.20260511",
+  "solution": "dnf update firewalld --releasever 2023.11.20260511\n\ndnf update ecs-init --releasever 2023.11.20260511\n\ndnf update python3.13 --releasever 2023.11.20260511\n\ndnf update PackageKit --releasever 2023.11.20260511\n\ndnf update perl-CryptX --releasever 2023.11.20260511\n\ndnf update editorconfig --releasever 2023.11.20260511\n\ndnf update freerdp --releasever 2023.11.20260511\n\ndnf update openvpn --releasever 2023.11.20260511\n\ndnf update amazon-ecr-credential-helper --releasever 2023.11.20260511\n\ndnf update nodejs24 --releasever 2023.11.20260511\n\ndnf update nodejs22 --releasever 2023.11.20260511\n\ndnf update firefox --releasever 2023.11.20260511\n\ndnf update python3.14-pip --releasever 2023.11.20260511\n\ndnf update python3.13-pip --releasever 2023.11.20260511\n\ndnf update mount-s3 --releasever 2023.11.20260511\n\ndnf update libXpm --releasever 2023.11.20260511\n\ndnf update lcms2 --releasever 2023.11.20260511\n\ndnf update rclone --releasever 2023.11.20260511\n\ndnf update docker --releasever 2023.11.20260511\n\ndnf update oci-add-hooks --releasever 2023.11.20260511\n\ndnf update runc --releasever 2023.11.20260511\n\ndnf update policycoreutils --releasever 2023.11.20260511\n\ndnf update python3.11-pip --releasever 2023.11.20260511\n\ndnf update python3.12-pip --releasever 2023.11.20260511\n\ndnf update vim --releasever 2023.11.20260511\n\ndnf update cups --releasever 2023.11.20260511\n\ndnf update xdg-desktop-portal --releasever 2023.11.20260511\n\ndnf update libpng --releasever 2023.11.20260511\n\ndnf update runfinch-finch --releasever 2023.11.20260511\n\ndnf update tomcat9 --releasever 2023.11.20260511\n\ndnf update tomcat10 --releasever 2023.11.20260511\n\ndnf update python3.14 --releasever 2023.11.20260511",
   "remediations": [],
   "cves": [
     {
@@ -1799,37 +1799,37 @@
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-031-aws/",
     "https://aws.amazon.com/security/security-bulletins/rss/2026-032-aws/",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1666.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1670.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1647.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1671.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1667.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1656.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1636.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1637.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1638.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1639.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1641.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1642.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1643.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1644.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1645.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1647.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1648.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1652.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1653.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1654.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1655.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1656.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1657.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1658.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1659.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1660.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1661.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1636.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1641.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1657.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1642.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1654.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1639.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1658.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1674.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1663.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1659.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1638.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1655.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1643.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1648.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1672.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1644.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1652.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1665.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1666.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1667.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1668.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1669.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1653.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1645.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1665.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1673.html"
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1670.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1671.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1672.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1673.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1674.html"
   ]
 }

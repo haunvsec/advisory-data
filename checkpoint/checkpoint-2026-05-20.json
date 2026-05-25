@@ -2,7 +2,7 @@
   "id": "checkpoint-2026-05-20",
   "source": "checkpoint",
   "title": "Checkpoint Security Advisories - 2026-05-20",
-  "description": "Merged 7 checkpoint security advisories published on 2026-05-20. Original advisory IDs: CPAI-2026-5101, CPAI-2026-5140, CPAI-2026-5100, CPAI-2025-16177, CPAI-2025-16179, CPAI-2024-6818, CPAI-2026-5159\n\nTitles:\n- CVE-2026-7864\n- CVE-2026-26956\n- CVE-2026-2743CVE-2026-44128\n- CVE-2025-65958\n- CVE-2025-11201\n- CVE-2024-32965\n- CVE-2026-45829",
+  "description": "Merged 7 checkpoint security advisories published on 2026-05-20. Original advisory IDs: CPAI-2026-5159, CPAI-2026-5140, CPAI-2025-16177, CPAI-2024-6818, CPAI-2025-16179, CPAI-2026-5101, CPAI-2026-5100\n\nTitles:\n- CVE-2026-45829\n- CVE-2026-26956\n- CVE-2025-65958\n- CVE-2024-32965\n- CVE-2025-11201\n- CVE-2026-7864\n- CVE-2026-2743CVE-2026-44128",
   "severity": "critical",
   "cvss_scores": [],
   "cvss_score": null,
@@ -13,25 +13,25 @@
   "published_date": "2026-05-20",
   "modified_date": "2026-05-20",
   "affected": [
-    "checkpoint:cve-2026-7864",
+    "checkpoint:cve-2026-45829",
     "checkpoint:cve-2026-26956",
-    "checkpoint:cve-2026-2743cve-2026-44128",
     "checkpoint:cve-2025-65958",
-    "checkpoint:cve-2025-11201",
     "checkpoint:cve-2024-32965",
-    "checkpoint:cve-2026-45829"
+    "checkpoint:cve-2025-11201",
+    "checkpoint:cve-2026-7864",
+    "checkpoint:cve-2026-2743cve-2026-44128"
   ],
   "affected_products": [
     {
-      "vendor": "seppmail",
-      "product": "SEPPmail Secure Email Gateway",
+      "vendor": "chroma",
+      "product": "ChromaDB",
       "version_range": "",
       "fixed_version": "",
-      "cpe": "cpe:2.3:a:seppmail:seppmail_secure_email_gateway:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:chroma:chromadb:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-7864"
+          "id": "CVE-2026-45829"
         }
       ]
     },
@@ -49,22 +49,6 @@
       ]
     },
     {
-      "vendor": "checkpoint",
-      "product": "Cve-2026-2743cve-2026-44128",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:checkpoint:cve-2026-2743cve-2026-44128:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-2743"
-        },
-        {
-          "id": "CVE-2026-44128"
-        }
-      ]
-    },
-    {
       "vendor": "open-webui",
       "product": "Open WebUI",
       "version_range": "",
@@ -74,19 +58,6 @@
       "cves": [
         {
           "id": "CVE-2025-65958"
-        }
-      ]
-    },
-    {
-      "vendor": "mlflow",
-      "product": "MLflow",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:mlflow:mlflow:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2025-11201"
         }
       ]
     },
@@ -104,15 +75,44 @@
       ]
     },
     {
-      "vendor": "chroma",
-      "product": "ChromaDB",
+      "vendor": "mlflow",
+      "product": "MLflow",
       "version_range": "",
       "fixed_version": "",
-      "cpe": "cpe:2.3:a:chroma:chromadb:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:mlflow:mlflow:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-45829"
+          "id": "CVE-2025-11201"
+        }
+      ]
+    },
+    {
+      "vendor": "seppmail",
+      "product": "SEPPmail Secure Email Gateway",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:seppmail:seppmail_secure_email_gateway:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-7864"
+        }
+      ]
+    },
+    {
+      "vendor": "checkpoint",
+      "product": "Cve-2026-2743cve-2026-44128",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:checkpoint:cve-2026-2743cve-2026-44128:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-2743"
+        },
+        {
+          "id": "CVE-2026-44128"
         }
       ]
     }
@@ -228,15 +228,15 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2026-5101.html",
+  "url": "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2026-5159.html",
   "vendor": "checkpoint",
   "references": [
-    "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2026-5101.html",
+    "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2026-5159.html",
     "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2026-5140.html",
-    "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2026-5100.html",
     "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2025-16177.html",
-    "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2025-16179.html",
     "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2024-6818.html",
-    "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2026-5159.html"
+    "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2025-16179.html",
+    "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2026-5101.html",
+    "https://advisories.checkpoint.com/defense/advisories/public/2026/cpai-2026-5100.html"
   ]
 }

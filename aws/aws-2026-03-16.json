@@ -2,7 +2,7 @@
   "id": "aws-2026-03-16",
   "source": "aws",
   "title": "Aws Security Advisories - 2026-03-16",
-  "description": "Merged 2 aws security advisories published on 2026-03-16. Original advisory IDs: 2026-008-aws, 2026-007-aws\n\nTitles:\n- CVE-2026-4269 - Improper S3 ownership verification in Bedrock AgentCore Starter Toolkit\n- CVE-2026-4270 - AWS API MCP File Access Restriction Bypass",
+  "description": "Merged 2 aws security advisories published on 2026-03-16. Original advisory IDs: 2026-007-aws, 2026-008-aws\n\nTitles:\n- CVE-2026-4270 - AWS API MCP File Access Restriction Bypass\n- CVE-2026-4269 - Improper S3 ownership verification in Bedrock AgentCore Starter Toolkit",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -13,8 +13,8 @@
   "published_date": "2026-03-16",
   "modified_date": "2026-03-16",
   "affected": [
-    "aws:A missing S3 ownership verification in the Bedrock AgentCore Starter Toolkit before version v0.1.13 may allow a remote actor to inject code during the build process, leading to code execution in the AgentCore Runtime.",
-    "aws:The AWS API MCP Server is an open source Model Context Protocol (MCP) server that enables AI assistants to interact with AWS services and resources through AWS CLI commands. It provides programmatic access to manage your AWS infrastructure while maintaining proper security controls."
+    "aws:The AWS API MCP Server is an open source Model Context Protocol (MCP) server that enables AI assistants to interact with AWS services and resources through AWS CLI commands. It provides programmatic access to manage your AWS infrastructure while maintaining proper security controls.",
+    "aws:A missing S3 ownership verification in the Bedrock AgentCore Starter Toolkit before version v0.1.13 may allow a remote actor to inject code during the build process, leading to code execution in the AgentCore Runtime."
   ],
   "affected_products": [
     {
@@ -26,10 +26,10 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-4269"
+          "id": "CVE-2026-4270"
         },
         {
-          "id": "CVE-2026-4270"
+          "id": "CVE-2026-4269"
         }
       ]
     }
@@ -69,10 +69,10 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-008-aws/",
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-007-aws/",
   "vendor": "aws",
   "references": [
-    "https://aws.amazon.com/security/security-bulletins/rss/2026-008-aws/",
-    "https://aws.amazon.com/security/security-bulletins/rss/2026-007-aws/"
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-007-aws/",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-008-aws/"
   ]
 }

@@ -2,7 +2,7 @@
   "id": "apache-kafka-2022-01-18",
   "source": "apache-kafka",
   "title": "Apache Security Advisories - 2022-01-18",
-  "description": "Merged 3 apache security advisories published on 2022-01-18. Original advisory IDs: CVE-2022-23307, CVE-2022-23302, CVE-2022-23305\n\nTitles:\n- Apache Kafka: Deserialization of Untrusted Data Flaw in Apache Log4j logging library in versions 1.x\n- Apache Kafka: Deserialization of Untrusted Data Flaw in JMSSink of Apache Log4j logging library in versions 1.x\n- Apache Kafka: SQL injection Flaw in Apache Log4j logging library in versions 1.x",
+  "description": "Merged 3 apache security advisories published on 2022-01-18. Original advisory IDs: CVE-2022-23302, CVE-2022-23305, CVE-2022-23307\n\nTitles:\n- Apache Kafka: Deserialization of Untrusted Data Flaw in JMSSink of Apache Log4j logging library in versions 1.x\n- Apache Kafka: SQL injection Flaw in Apache Log4j logging library in versions 1.x\n- Apache Kafka: Deserialization of Untrusted Data Flaw in Apache Log4j logging library in versions 1.x",
   "severity": "critical",
   "cvss_scores": [],
   "cvss_score": null,
@@ -25,22 +25,22 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2022-23307"
-        },
-        {
           "id": "CVE-2022-23302"
         },
         {
           "id": "CVE-2022-23305"
+        },
+        {
+          "id": "CVE-2022-23307"
         }
       ]
     }
   ],
   "fixed_versions": [
     "In the absence of a new log4j 1.x release",
-    "one can remove Chainsaw from the log4j-1.2.17.jar artifact.",
     "one can remove JMSSink class from the log4j-1.2.17.jar artifact.",
-    "one can remove JDBCAppender class from the log4j-1.2.17.jar artifact."
+    "one can remove JDBCAppender class from the log4j-1.2.17.jar artifact.",
+    "one can remove Chainsaw from the log4j-1.2.17.jar artifact."
   ],
   "solution": "",
   "remediations": [],
@@ -91,8 +91,8 @@
   "vendor": "apache",
   "references": [
     "https://kafka.apache.org/community/cve-list/",
-    "https://kafka.apache.org/community/cve-list/#CVE-2022-23307",
     "https://kafka.apache.org/community/cve-list/#CVE-2022-23302",
-    "https://kafka.apache.org/community/cve-list/#CVE-2022-23305"
+    "https://kafka.apache.org/community/cve-list/#CVE-2022-23305",
+    "https://kafka.apache.org/community/cve-list/#CVE-2022-23307"
   ]
 }
