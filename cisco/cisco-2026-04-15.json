@@ -2,7 +2,7 @@
   "id": "cisco-2026-04-15",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-04-15",
-  "description": "Merged 9 cisco security advisories published on 2026-04-15. Original advisory IDs: cisco-sa-ise-rce-traversal-8bYndVrZ, cisco-sa-webex-cui-cert-8jSZYhWL, cisco-sa-wsa-auth-bypass-6YZkTQhd, cisco-sa-ise-rce-4fverepv, cisco-sa-ise-cmd-inj-5WSJcYJB, cisco-sa-te-agentfilewrite-tqUw3SMU, cisco-sa-unity-file-download-RmKEVWPx, cisco-sa-unity-vulns-n2EJSbbw, cisco-sa-webexcc-xss-WEX5nUnA\n\nTitles:\n- Cisco Identity Services Engine Remote Code Execution and Path Traversal Vulnerabilities\n- Cisco Webex Services Certificate Validation Vulnerability\n- Cisco Secure Web Appliance Authentication Bypass Vulnerability\n- Cisco Identity Services Engine Remote Code Execution Vulnerabilities\n- Cisco Identity Services Engine Authenticated Privilege Escalation Vulnerability\n- Cisco ThousandEyes Enterprise Agent Arbitrary File Overwrite Vulnerability\n- Cisco Unity Connection Arbitrary File Download Vulnerabilities\n- Cisco Unity Connection Cross-Site Scripting, Open Redirect, and SQL Injection Vulnerabilities\n- Cisco Webex Contact Center Cross-Site Scripting Vulnerability",
+  "description": "Merged 10 cisco security advisories published on 2026-04-15. Original advisory IDs: cisco-sa-ise-rce-traversal-8bYndVrZ, cisco-sa-webex-cui-cert-8jSZYhWL, cisco-sa-wsa-auth-bypass-6YZkTQhd, cisco-sa-ise-rce-4fverepv, cisco-sa-ise-cmd-inj-5WSJcYJB, cisco-sa-isexss-BS8ctE7U, cisco-sa-te-agentfilewrite-tqUw3SMU, cisco-sa-unity-file-download-RmKEVWPx, cisco-sa-unity-vulns-n2EJSbbw, cisco-sa-webexcc-xss-WEX5nUnA\n\nTitles:\n- Cisco Identity Services Engine Remote Code Execution and Path Traversal Vulnerabilities\n- Cisco Webex Services Certificate Validation Vulnerability\n- Cisco Secure Web Appliance Authentication Bypass Vulnerability\n- Cisco Identity Services Engine Remote Code Execution Vulnerabilities\n- Cisco Identity Services Engine Authenticated Privilege Escalation Vulnerability\n- Cisco Identity Services Engine Multiple Cross-Site Scripting Vulnerabilities\n- Cisco ThousandEyes Enterprise Agent Arbitrary File Overwrite Vulnerability\n- Cisco Unity Connection Arbitrary File Download Vulnerabilities\n- Cisco Unity Connection Cross-Site Scripting, Open Redirect, and SQL Injection Vulnerabilities\n- Cisco Webex Contact Center Cross-Site Scripting Vulnerability",
   "severity": "critical",
   "cvss_scores": [
     {
@@ -33,6 +33,12 @@
       "version": "3.1",
       "score": 6.0,
       "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "severity": ""
+    },
+    {
+      "version": "3.1",
+      "score": 4.8,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
       "severity": ""
     },
     {
@@ -79,6 +85,7 @@
     "cisco:cisco-sa-wsa-auth-bypass-6YZkTQhd",
     "cisco:cisco-sa-ise-rce-4fverepv",
     "cisco:cisco-sa-ise-cmd-inj-5WSJcYJB",
+    "cisco:cisco-sa-isexss-BS8ctE7U",
     "cisco:cisco-sa-te-agentfilewrite-tqUw3SMU",
     "cisco:cisco-sa-unity-file-download-RmKEVWPx",
     "cisco:cisco-sa-unity-vulns-n2EJSbbw",
@@ -107,6 +114,9 @@
         },
         {
           "id": "CVE-2026-20136"
+        },
+        {
+          "id": "CVE-2026-20132"
         }
       ]
     },
@@ -268,6 +278,21 @@
       ]
     },
     {
+      "id": "CVE-2026-20132",
+      "source": "cisco",
+      "title": "Cisco Identity Services Engine Multiple Cross-Site Scripting Vulnerabilities",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-04-15",
+      "modified_date": "2026-04-15",
+      "affected": [],
+      "references": [
+        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-isexss-BS8ctE7U"
+      ]
+    },
+    {
       "id": "CVE-2026-20136",
       "source": "cisco",
       "title": "Cisco Identity Services Engine Authenticated Privilege Escalation Vulnerability",
@@ -413,6 +438,7 @@
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wsa-auth-bypass-6YZkTQhd",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-rce-4fverepv",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-cmd-inj-5WSJcYJB",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-isexss-BS8ctE7U",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-te-agentfilewrite-tqUw3SMU",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-unity-file-download-RmKEVWPx",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-unity-vulns-n2EJSbbw",

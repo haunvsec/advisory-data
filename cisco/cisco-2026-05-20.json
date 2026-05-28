@@ -2,7 +2,7 @@
   "id": "cisco-2026-05-20",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-05-20",
-  "description": "Merged 4 cisco security advisories published on 2026-05-20. Original advisory IDs: cisco-sa-bgp-iefab-3hb2pwtx, cisco-sa-csw-pnbsa-g8WEnuy, cisco-sa-tevacert-rce-RMJVEym5, cisco-sa-tebbot-cmdinj-wN3yQ5gn\n\nTitles:\n- Cisco Nexus 3000 and 9000 Series Switches Border Gateway Protocol Denial of Service Vulnerability\n- Cisco Secure Workload Unauthorized API Access Vulnerability\n- Cisco ThousandEyes Virtual Appliance Authenticated Remote Code Execution Vulnerability\n- Cisco ThousandEyes Enterprise Agent BrowserBot Command Injection Vulnerability",
+  "description": "Merged 3 cisco security advisories published on 2026-05-20. Original advisory IDs: cisco-sa-bgp-iefab-3hb2pwtx, cisco-sa-csw-pnbsa-g8WEnuy, cisco-sa-tevacert-rce-RMJVEym5\n\nTitles:\n- Cisco Nexus 3000 and 9000 Series Switches Border Gateway Protocol Denial of Service Vulnerability\n- Cisco Secure Workload Unauthorized API Access Vulnerability\n- Cisco ThousandEyes Virtual Appliance Authenticated Remote Code Execution Vulnerability",
   "severity": "critical",
   "cvss_scores": [
     {
@@ -22,12 +22,6 @@
       "score": 4.7,
       "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
       "severity": ""
-    },
-    {
-      "version": "3.1",
-      "score": 6.3,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-      "severity": ""
     }
   ],
   "cvss_score": 10.0,
@@ -40,8 +34,7 @@
   "affected": [
     "cisco:cisco-sa-bgp-iefab-3hb2pwtx",
     "cisco:cisco-sa-csw-pnbsa-g8WEnuy",
-    "cisco:cisco-sa-tevacert-rce-RMJVEym5",
-    "cisco:cisco-sa-tebbot-cmdinj-wN3yQ5gn"
+    "cisco:cisco-sa-tevacert-rce-RMJVEym5"
   ],
   "affected_products": [
     {
@@ -80,9 +73,6 @@
       "cves": [
         {
           "id": "CVE-2026-20199"
-        },
-        {
-          "id": "CVE-2026-20206"
         }
       ]
     }
@@ -122,21 +112,6 @@
       ]
     },
     {
-      "id": "CVE-2026-20206",
-      "source": "cisco",
-      "title": "Cisco ThousandEyes BrowserBot Command Injection Vulnerability",
-      "description": "",
-      "severity": null,
-      "cvss_score": 6.3,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-      "published_date": "2026-05-20",
-      "modified_date": "2026-05-20",
-      "affected": [],
-      "references": [
-        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tebbot-cmdinj-wN3yQ5gn"
-      ]
-    },
-    {
       "id": "CVE-2026-20223",
       "source": "cisco",
       "title": "Cisco Secure Workload Unauthorized API Access Vulnerability",
@@ -159,7 +134,6 @@
   "references": [
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bgp-iefab-3hb2pwtx",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csw-pnbsa-g8WEnuy",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tevacert-rce-RMJVEym5",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tebbot-cmdinj-wN3yQ5gn"
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tevacert-rce-RMJVEym5"
   ]
 }
