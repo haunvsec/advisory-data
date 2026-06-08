@@ -16,13 +16,14 @@
     "CWE-229",
     "CWE-770",
     "CWE-367",
+    "CWE-1050",
     "CWE-764",
     "CWE-123"
   ],
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-05-18",
-  "modified_date": "2026-05-27",
+  "modified_date": "2026-06-08",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
@@ -86,6 +87,9 @@
         },
         {
           "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32281"
         },
         {
           "id": "CVE-2026-32282"
@@ -161,6 +165,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-32280"
+      ]
+    },
+    {
+      "id": "CVE-2026-32281",
+      "source": "redhat",
+      "title": "crypto/x509: golang: Go crypto/x509: Denial of Service via inefficient certificate chain validation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-05-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32281"
       ]
     },
     {

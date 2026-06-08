@@ -1,0 +1,6908 @@
+{
+  "id": "CHROME-149.0.7827.53",
+  "source": "chrome",
+  "title": "Stable Channel Update for Desktop",
+  "description": "Stable Channel Update for Desktop\nTuesday, June 2, 2026\nThe Chrome team is delighted to announce the promotion of Chrome 149 to the stable channel for Windows, Mac and Linux. This will roll out over the coming days/weeks.\nChrome\n149.0.7827.53 (Linux)\n149.0.7827.53\n/54\nWindows/Mac\ncontains a number of fixes and improvements -- a list of changes is available in the\nlog\n. Watch out for upcoming\nChrome\nand\nChromium\nblog posts about new features and big efforts delivered in 149.\nSecurity Fixes and Rewards\nNote: Access to bug details and links may be kept restricted until a majority of users are updated with a fix. We will also retain restrictions if the bug exists in a third party library that other projects similarly depend on, but haven’t yet fixed.\nThis update includes\n429\nsecurity fixes. Below, we highlight fixes that were contributed by external researchers. Please see the\nChrome Security Page\nfor more information.\n[$97000][\n498904293\n]\nCritical\nCVE-2026-10881: Out of bounds read and write in ANGLE.\nReported by Anonymous on 2026-04-02\n[$43000][\n503420443\n]\nCritical\nCVE-2026-10882: Use after free in Network.\nReported by c6eed09fc8b174b0f3eebedcceb1e792 on 2026-04-17\n[$5000][\n503768143\n]\nCritical\nCVE-2026-10883: Out of bounds write in ANGLE.\nReported by Maher Azzouzi on 2026-04-17\n[N/A][\n503617302\n]\nCritical\nCVE-2026-10884: Use after free in Chromecast.\nReported by Google on 2026-04-17\n[N/A][\n504072665\n]\nCritical\nCVE-2026-10885: Use after free in Chrome for iOS.\nReported by Google on 2026-04-18\n[TBD][\n505096898\n]\nCritical\nCVE-2026-10886: Use after free in FileSystem.\nReported by Andrew Boni on 2026-04-21\n[N/A][\n505204771\n]\nCritical\nCVE-2026-10887: Use after free in Chromoting.\nReported by Google on 2026-04-22\n[N/A][\n505815080\n]\nCritical\nCVE-2026-10888: Use after free in Cast Streaming.\nReported by Google on 2026-04-23\n[N/A][\n513003797\n]\nCritical\nCVE-2026-10889: Out of bounds read in ANGLE.\nReported by Google on 2026-05-14\n[N/A][\n513136593\n]\nCritical\nCVE-2026-10890: Us",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-02",
+  "modified_date": "",
+  "affected": [
+    "google:chrome-desktop"
+  ],
+  "affected_products": [
+    {
+      "vendor": "google",
+      "product": "Google Chrome",
+      "version_range": "",
+      "fixed_version": "149.0.7827.53",
+      "cpe": "cpe:2.3:a:google:chrome:149.0.7827.53:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11052"
+        },
+        {
+          "id": "CVE-2026-10896"
+        },
+        {
+          "id": "CVE-2026-11080"
+        },
+        {
+          "id": "CVE-2026-11169"
+        },
+        {
+          "id": "CVE-2026-10897"
+        },
+        {
+          "id": "CVE-2026-11120"
+        },
+        {
+          "id": "CVE-2026-11007"
+        },
+        {
+          "id": "CVE-2026-11206"
+        },
+        {
+          "id": "CVE-2026-11091"
+        },
+        {
+          "id": "CVE-2026-11183"
+        },
+        {
+          "id": "CVE-2026-11286"
+        },
+        {
+          "id": "CVE-2026-10978"
+        },
+        {
+          "id": "CVE-2026-11004"
+        },
+        {
+          "id": "CVE-2026-11241"
+        },
+        {
+          "id": "CVE-2026-11089"
+        },
+        {
+          "id": "CVE-2026-10952"
+        },
+        {
+          "id": "CVE-2026-11232"
+        },
+        {
+          "id": "CVE-2026-11277"
+        },
+        {
+          "id": "CVE-2026-11227"
+        },
+        {
+          "id": "CVE-2026-11038"
+        },
+        {
+          "id": "CVE-2026-10954"
+        },
+        {
+          "id": "CVE-2026-11061"
+        },
+        {
+          "id": "CVE-2026-10940"
+        },
+        {
+          "id": "CVE-2026-11096"
+        },
+        {
+          "id": "CVE-2026-11093"
+        },
+        {
+          "id": "CVE-2026-11126"
+        },
+        {
+          "id": "CVE-2026-11131"
+        },
+        {
+          "id": "CVE-2026-11174"
+        },
+        {
+          "id": "CVE-2026-10885"
+        },
+        {
+          "id": "CVE-2026-10932"
+        },
+        {
+          "id": "CVE-2026-10922"
+        },
+        {
+          "id": "CVE-2026-10890"
+        },
+        {
+          "id": "CVE-2026-11282"
+        },
+        {
+          "id": "CVE-2026-11062"
+        },
+        {
+          "id": "CVE-2026-11285"
+        },
+        {
+          "id": "CVE-2026-11264"
+        },
+        {
+          "id": "CVE-2026-11172"
+        },
+        {
+          "id": "CVE-2026-11170"
+        },
+        {
+          "id": "CVE-2026-11176"
+        },
+        {
+          "id": "CVE-2026-10889"
+        },
+        {
+          "id": "CVE-2026-11275"
+        },
+        {
+          "id": "CVE-2026-11274"
+        },
+        {
+          "id": "CVE-2026-11063"
+        },
+        {
+          "id": "CVE-2026-10893"
+        },
+        {
+          "id": "CVE-2026-11228"
+        },
+        {
+          "id": "CVE-2026-11044"
+        },
+        {
+          "id": "CVE-2026-11201"
+        },
+        {
+          "id": "CVE-2026-11030"
+        },
+        {
+          "id": "CVE-2026-10997"
+        },
+        {
+          "id": "CVE-2026-10949"
+        },
+        {
+          "id": "CVE-2026-11053"
+        },
+        {
+          "id": "CVE-2026-10995"
+        },
+        {
+          "id": "CVE-2026-11212"
+        },
+        {
+          "id": "CVE-2026-11037"
+        },
+        {
+          "id": "CVE-2026-11204"
+        },
+        {
+          "id": "CVE-2026-11246"
+        },
+        {
+          "id": "CVE-2026-11130"
+        },
+        {
+          "id": "CVE-2026-11218"
+        },
+        {
+          "id": "CVE-2026-11269"
+        },
+        {
+          "id": "CVE-2026-11224"
+        },
+        {
+          "id": "CVE-2026-11056"
+        },
+        {
+          "id": "CVE-2026-11121"
+        },
+        {
+          "id": "CVE-2026-11040"
+        },
+        {
+          "id": "CVE-2026-10934"
+        },
+        {
+          "id": "CVE-2026-11028"
+        },
+        {
+          "id": "CVE-2026-11051"
+        },
+        {
+          "id": "CVE-2026-11222"
+        },
+        {
+          "id": "CVE-2026-11088"
+        },
+        {
+          "id": "CVE-2026-10923"
+        },
+        {
+          "id": "CVE-2026-11013"
+        },
+        {
+          "id": "CVE-2026-11305"
+        },
+        {
+          "id": "CVE-2026-11216"
+        },
+        {
+          "id": "CVE-2026-11180"
+        },
+        {
+          "id": "CVE-2026-11129"
+        },
+        {
+          "id": "CVE-2026-11209"
+        },
+        {
+          "id": "CVE-2026-11186"
+        },
+        {
+          "id": "CVE-2026-11144"
+        },
+        {
+          "id": "CVE-2026-10963"
+        },
+        {
+          "id": "CVE-2026-11094"
+        },
+        {
+          "id": "CVE-2026-10933"
+        },
+        {
+          "id": "CVE-2026-10990"
+        },
+        {
+          "id": "CVE-2026-11023"
+        },
+        {
+          "id": "CVE-2026-11259"
+        },
+        {
+          "id": "CVE-2026-11047"
+        },
+        {
+          "id": "CVE-2026-11057"
+        },
+        {
+          "id": "CVE-2026-11136"
+        },
+        {
+          "id": "CVE-2026-11267"
+        },
+        {
+          "id": "CVE-2026-11029"
+        },
+        {
+          "id": "CVE-2026-11034"
+        },
+        {
+          "id": "CVE-2026-11067"
+        },
+        {
+          "id": "CVE-2026-10929"
+        },
+        {
+          "id": "CVE-2026-10904"
+        },
+        {
+          "id": "CVE-2026-10961"
+        },
+        {
+          "id": "CVE-2026-10926"
+        },
+        {
+          "id": "CVE-2026-10901"
+        },
+        {
+          "id": "CVE-2026-10960"
+        },
+        {
+          "id": "CVE-2026-11245"
+        },
+        {
+          "id": "CVE-2026-11119"
+        },
+        {
+          "id": "CVE-2026-11210"
+        },
+        {
+          "id": "CVE-2026-11073"
+        },
+        {
+          "id": "CVE-2026-11031"
+        },
+        {
+          "id": "CVE-2026-10989"
+        },
+        {
+          "id": "CVE-2026-11083"
+        },
+        {
+          "id": "CVE-2026-11233"
+        },
+        {
+          "id": "CVE-2026-11157"
+        },
+        {
+          "id": "CVE-2026-11146"
+        },
+        {
+          "id": "CVE-2026-11291"
+        },
+        {
+          "id": "CVE-2026-11076"
+        },
+        {
+          "id": "CVE-2026-10930"
+        },
+        {
+          "id": "CVE-2026-11142"
+        },
+        {
+          "id": "CVE-2026-11050"
+        },
+        {
+          "id": "CVE-2026-10971"
+        },
+        {
+          "id": "CVE-2026-11003"
+        },
+        {
+          "id": "CVE-2026-11158"
+        },
+        {
+          "id": "CVE-2026-11095"
+        },
+        {
+          "id": "CVE-2026-10903"
+        },
+        {
+          "id": "CVE-2026-11230"
+        },
+        {
+          "id": "CVE-2026-10972"
+        },
+        {
+          "id": "CVE-2026-11306"
+        },
+        {
+          "id": "CVE-2026-11237"
+        },
+        {
+          "id": "CVE-2026-10942"
+        },
+        {
+          "id": "CVE-2026-11294"
+        },
+        {
+          "id": "CVE-2026-11115"
+        },
+        {
+          "id": "CVE-2026-11211"
+        },
+        {
+          "id": "CVE-2026-10912"
+        },
+        {
+          "id": "CVE-2026-10937"
+        },
+        {
+          "id": "CVE-2026-11134"
+        },
+        {
+          "id": "CVE-2026-11258"
+        },
+        {
+          "id": "CVE-2026-11308"
+        },
+        {
+          "id": "CVE-2026-11024"
+        },
+        {
+          "id": "CVE-2026-11036"
+        },
+        {
+          "id": "CVE-2026-11112"
+        },
+        {
+          "id": "CVE-2026-11179"
+        },
+        {
+          "id": "CVE-2026-11058"
+        },
+        {
+          "id": "CVE-2026-11287"
+        },
+        {
+          "id": "CVE-2026-11178"
+        },
+        {
+          "id": "CVE-2026-11071"
+        },
+        {
+          "id": "CVE-2026-11152"
+        },
+        {
+          "id": "CVE-2026-11069"
+        },
+        {
+          "id": "CVE-2026-11243"
+        },
+        {
+          "id": "CVE-2026-10919"
+        },
+        {
+          "id": "CVE-2026-11141"
+        },
+        {
+          "id": "CVE-2026-10944"
+        },
+        {
+          "id": "CVE-2026-11263"
+        },
+        {
+          "id": "CVE-2026-11200"
+        },
+        {
+          "id": "CVE-2026-10943"
+        },
+        {
+          "id": "CVE-2026-10956"
+        },
+        {
+          "id": "CVE-2026-11242"
+        },
+        {
+          "id": "CVE-2026-11184"
+        },
+        {
+          "id": "CVE-2026-11114"
+        },
+        {
+          "id": "CVE-2026-10902"
+        },
+        {
+          "id": "CVE-2026-10886"
+        },
+        {
+          "id": "CVE-2026-11154"
+        },
+        {
+          "id": "CVE-2026-11190"
+        },
+        {
+          "id": "CVE-2026-11192"
+        },
+        {
+          "id": "CVE-2026-11043"
+        },
+        {
+          "id": "CVE-2026-11159"
+        },
+        {
+          "id": "CVE-2026-11163"
+        },
+        {
+          "id": "CVE-2026-11128"
+        },
+        {
+          "id": "CVE-2026-11290"
+        },
+        {
+          "id": "CVE-2026-10966"
+        },
+        {
+          "id": "CVE-2026-11304"
+        },
+        {
+          "id": "CVE-2026-10892"
+        },
+        {
+          "id": "CVE-2026-11181"
+        },
+        {
+          "id": "CVE-2026-11075"
+        },
+        {
+          "id": "CVE-2026-11238"
+        },
+        {
+          "id": "CVE-2026-11193"
+        },
+        {
+          "id": "CVE-2026-11105"
+        },
+        {
+          "id": "CVE-2026-11268"
+        },
+        {
+          "id": "CVE-2026-11079"
+        },
+        {
+          "id": "CVE-2026-10899"
+        },
+        {
+          "id": "CVE-2026-10959"
+        },
+        {
+          "id": "CVE-2026-10983"
+        },
+        {
+          "id": "CVE-2026-11017"
+        },
+        {
+          "id": "CVE-2026-11118"
+        },
+        {
+          "id": "CVE-2026-11225"
+        },
+        {
+          "id": "CVE-2026-10967"
+        },
+        {
+          "id": "CVE-2026-11239"
+        },
+        {
+          "id": "CVE-2026-11016"
+        },
+        {
+          "id": "CVE-2026-10898"
+        },
+        {
+          "id": "CVE-2026-11299"
+        },
+        {
+          "id": "CVE-2026-10984"
+        },
+        {
+          "id": "CVE-2026-10980"
+        },
+        {
+          "id": "CVE-2026-11272"
+        },
+        {
+          "id": "CVE-2026-10993"
+        },
+        {
+          "id": "CVE-2026-11012"
+        },
+        {
+          "id": "CVE-2026-11214"
+        },
+        {
+          "id": "CVE-2026-11213"
+        },
+        {
+          "id": "CVE-2026-11295"
+        },
+        {
+          "id": "CVE-2026-10935"
+        },
+        {
+          "id": "CVE-2026-11301"
+        },
+        {
+          "id": "CVE-2026-11271"
+        },
+        {
+          "id": "CVE-2026-10994"
+        },
+        {
+          "id": "CVE-2026-11173"
+        },
+        {
+          "id": "CVE-2026-10964"
+        },
+        {
+          "id": "CVE-2026-11307"
+        },
+        {
+          "id": "CVE-2026-11111"
+        },
+        {
+          "id": "CVE-2026-10953"
+        },
+        {
+          "id": "CVE-2026-11009"
+        },
+        {
+          "id": "CVE-2026-11273"
+        },
+        {
+          "id": "CVE-2026-11202"
+        },
+        {
+          "id": "CVE-2026-11027"
+        },
+        {
+          "id": "CVE-2026-11221"
+        },
+        {
+          "id": "CVE-2026-11265"
+        },
+        {
+          "id": "CVE-2026-10999"
+        },
+        {
+          "id": "CVE-2026-11039"
+        },
+        {
+          "id": "CVE-2026-11160"
+        },
+        {
+          "id": "CVE-2026-11046"
+        },
+        {
+          "id": "CVE-2026-10921"
+        },
+        {
+          "id": "CVE-2026-11231"
+        },
+        {
+          "id": "CVE-2026-10970"
+        },
+        {
+          "id": "CVE-2026-11297"
+        },
+        {
+          "id": "CVE-2026-10916"
+        },
+        {
+          "id": "CVE-2026-11166"
+        },
+        {
+          "id": "CVE-2026-10962"
+        },
+        {
+          "id": "CVE-2026-11123"
+        },
+        {
+          "id": "CVE-2026-11019"
+        },
+        {
+          "id": "CVE-2026-10948"
+        },
+        {
+          "id": "CVE-2026-10936"
+        },
+        {
+          "id": "CVE-2026-11215"
+        },
+        {
+          "id": "CVE-2026-11208"
+        },
+        {
+          "id": "CVE-2026-11049"
+        },
+        {
+          "id": "CVE-2026-11086"
+        },
+        {
+          "id": "CVE-2026-11098"
+        },
+        {
+          "id": "CVE-2026-11167"
+        },
+        {
+          "id": "CVE-2026-10998"
+        },
+        {
+          "id": "CVE-2026-10891"
+        },
+        {
+          "id": "CVE-2026-11244"
+        },
+        {
+          "id": "CVE-2026-11048"
+        },
+        {
+          "id": "CVE-2026-11150"
+        },
+        {
+          "id": "CVE-2026-11139"
+        },
+        {
+          "id": "CVE-2026-11006"
+        },
+        {
+          "id": "CVE-2026-10931"
+        },
+        {
+          "id": "CVE-2026-11081"
+        },
+        {
+          "id": "CVE-2026-11064"
+        },
+        {
+          "id": "CVE-2026-10946"
+        },
+        {
+          "id": "CVE-2026-11102"
+        },
+        {
+          "id": "CVE-2026-10910"
+        },
+        {
+          "id": "CVE-2026-11189"
+        },
+        {
+          "id": "CVE-2026-11235"
+        },
+        {
+          "id": "CVE-2026-11302"
+        },
+        {
+          "id": "CVE-2026-11250"
+        },
+        {
+          "id": "CVE-2026-11261"
+        },
+        {
+          "id": "CVE-2026-11078"
+        },
+        {
+          "id": "CVE-2026-10992"
+        },
+        {
+          "id": "CVE-2026-11217"
+        },
+        {
+          "id": "CVE-2026-11266"
+        },
+        {
+          "id": "CVE-2026-10908"
+        },
+        {
+          "id": "CVE-2026-11099"
+        },
+        {
+          "id": "CVE-2026-10913"
+        },
+        {
+          "id": "CVE-2026-11155"
+        },
+        {
+          "id": "CVE-2026-11143"
+        },
+        {
+          "id": "CVE-2026-10951"
+        },
+        {
+          "id": "CVE-2026-11279"
+        },
+        {
+          "id": "CVE-2026-10957"
+        },
+        {
+          "id": "CVE-2026-11220"
+        },
+        {
+          "id": "CVE-2026-11117"
+        },
+        {
+          "id": "CVE-2026-11278"
+        },
+        {
+          "id": "CVE-2026-10907"
+        },
+        {
+          "id": "CVE-2026-10887"
+        },
+        {
+          "id": "CVE-2026-10918"
+        },
+        {
+          "id": "CVE-2026-10982"
+        },
+        {
+          "id": "CVE-2026-11298"
+        },
+        {
+          "id": "CVE-2026-11195"
+        },
+        {
+          "id": "CVE-2026-10975"
+        },
+        {
+          "id": "CVE-2026-11110"
+        },
+        {
+          "id": "CVE-2026-11066"
+        },
+        {
+          "id": "CVE-2026-11041"
+        },
+        {
+          "id": "CVE-2026-11247"
+        },
+        {
+          "id": "CVE-2026-11055"
+        },
+        {
+          "id": "CVE-2026-11255"
+        },
+        {
+          "id": "CVE-2026-10888"
+        },
+        {
+          "id": "CVE-2026-11300"
+        },
+        {
+          "id": "CVE-2026-11021"
+        },
+        {
+          "id": "CVE-2026-11147"
+        },
+        {
+          "id": "CVE-2026-10928"
+        },
+        {
+          "id": "CVE-2026-11288"
+        },
+        {
+          "id": "CVE-2026-11103"
+        },
+        {
+          "id": "CVE-2026-11188"
+        },
+        {
+          "id": "CVE-2026-11197"
+        },
+        {
+          "id": "CVE-2026-11199"
+        },
+        {
+          "id": "CVE-2026-10938"
+        },
+        {
+          "id": "CVE-2026-11309"
+        },
+        {
+          "id": "CVE-2026-11249"
+        },
+        {
+          "id": "CVE-2026-11022"
+        },
+        {
+          "id": "CVE-2026-11276"
+        },
+        {
+          "id": "CVE-2026-10882"
+        },
+        {
+          "id": "CVE-2026-10914"
+        },
+        {
+          "id": "CVE-2026-10920"
+        },
+        {
+          "id": "CVE-2026-11153"
+        },
+        {
+          "id": "CVE-2026-11270"
+        },
+        {
+          "id": "CVE-2026-11229"
+        },
+        {
+          "id": "CVE-2026-10979"
+        },
+        {
+          "id": "CVE-2026-11026"
+        },
+        {
+          "id": "CVE-2026-10895"
+        },
+        {
+          "id": "CVE-2026-10947"
+        },
+        {
+          "id": "CVE-2026-11014"
+        },
+        {
+          "id": "CVE-2026-11203"
+        },
+        {
+          "id": "CVE-2026-11082"
+        },
+        {
+          "id": "CVE-2026-10950"
+        },
+        {
+          "id": "CVE-2026-11084"
+        },
+        {
+          "id": "CVE-2026-11151"
+        },
+        {
+          "id": "CVE-2026-11108"
+        },
+        {
+          "id": "CVE-2026-10977"
+        },
+        {
+          "id": "CVE-2026-10968"
+        },
+        {
+          "id": "CVE-2026-11060"
+        },
+        {
+          "id": "CVE-2026-11262"
+        },
+        {
+          "id": "CVE-2026-11156"
+        },
+        {
+          "id": "CVE-2026-10973"
+        },
+        {
+          "id": "CVE-2026-11113"
+        },
+        {
+          "id": "CVE-2026-11164"
+        },
+        {
+          "id": "CVE-2026-11137"
+        },
+        {
+          "id": "CVE-2026-10906"
+        },
+        {
+          "id": "CVE-2026-10991"
+        },
+        {
+          "id": "CVE-2026-11054"
+        },
+        {
+          "id": "CVE-2026-10909"
+        },
+        {
+          "id": "CVE-2026-11074"
+        },
+        {
+          "id": "CVE-2026-10894"
+        },
+        {
+          "id": "CVE-2026-11251"
+        },
+        {
+          "id": "CVE-2026-11008"
+        },
+        {
+          "id": "CVE-2026-11168"
+        },
+        {
+          "id": "CVE-2026-11045"
+        },
+        {
+          "id": "CVE-2026-10911"
+        },
+        {
+          "id": "CVE-2026-11059"
+        },
+        {
+          "id": "CVE-2026-11070"
+        },
+        {
+          "id": "CVE-2026-11002"
+        },
+        {
+          "id": "CVE-2026-11175"
+        },
+        {
+          "id": "CVE-2026-10924"
+        },
+        {
+          "id": "CVE-2026-11032"
+        },
+        {
+          "id": "CVE-2026-11283"
+        },
+        {
+          "id": "CVE-2026-10974"
+        },
+        {
+          "id": "CVE-2026-11035"
+        },
+        {
+          "id": "CVE-2026-11068"
+        },
+        {
+          "id": "CVE-2026-11194"
+        },
+        {
+          "id": "CVE-2026-11293"
+        },
+        {
+          "id": "CVE-2026-11165"
+        },
+        {
+          "id": "CVE-2026-11107"
+        },
+        {
+          "id": "CVE-2026-10981"
+        },
+        {
+          "id": "CVE-2026-11042"
+        },
+        {
+          "id": "CVE-2026-11087"
+        },
+        {
+          "id": "CVE-2026-11124"
+        },
+        {
+          "id": "CVE-2026-11260"
+        },
+        {
+          "id": "CVE-2026-11292"
+        },
+        {
+          "id": "CVE-2026-10925"
+        },
+        {
+          "id": "CVE-2026-11092"
+        },
+        {
+          "id": "CVE-2026-11065"
+        },
+        {
+          "id": "CVE-2026-11252"
+        },
+        {
+          "id": "CVE-2026-11025"
+        },
+        {
+          "id": "CVE-2026-11140"
+        },
+        {
+          "id": "CVE-2026-11133"
+        },
+        {
+          "id": "CVE-2026-10883"
+        },
+        {
+          "id": "CVE-2026-11161"
+        },
+        {
+          "id": "CVE-2026-11104"
+        },
+        {
+          "id": "CVE-2026-11109"
+        },
+        {
+          "id": "CVE-2026-11106"
+        },
+        {
+          "id": "CVE-2026-11072"
+        },
+        {
+          "id": "CVE-2026-10945"
+        },
+        {
+          "id": "CVE-2026-11191"
+        },
+        {
+          "id": "CVE-2026-11198"
+        },
+        {
+          "id": "CVE-2026-10985"
+        },
+        {
+          "id": "CVE-2026-10987"
+        },
+        {
+          "id": "CVE-2026-11205"
+        },
+        {
+          "id": "CVE-2026-11257"
+        },
+        {
+          "id": "CVE-2026-11135"
+        },
+        {
+          "id": "CVE-2026-11236"
+        },
+        {
+          "id": "CVE-2026-11149"
+        },
+        {
+          "id": "CVE-2026-11116"
+        },
+        {
+          "id": "CVE-2026-11033"
+        },
+        {
+          "id": "CVE-2026-10965"
+        },
+        {
+          "id": "CVE-2026-10955"
+        },
+        {
+          "id": "CVE-2026-11001"
+        },
+        {
+          "id": "CVE-2026-11177"
+        },
+        {
+          "id": "CVE-2026-10884"
+        },
+        {
+          "id": "CVE-2026-11011"
+        },
+        {
+          "id": "CVE-2026-11284"
+        },
+        {
+          "id": "CVE-2026-11000"
+        },
+        {
+          "id": "CVE-2026-10976"
+        },
+        {
+          "id": "CVE-2026-11226"
+        },
+        {
+          "id": "CVE-2026-11097"
+        },
+        {
+          "id": "CVE-2026-10986"
+        },
+        {
+          "id": "CVE-2026-11145"
+        },
+        {
+          "id": "CVE-2026-11162"
+        },
+        {
+          "id": "CVE-2026-10969"
+        },
+        {
+          "id": "CVE-2026-10917"
+        },
+        {
+          "id": "CVE-2026-11289"
+        },
+        {
+          "id": "CVE-2026-11303"
+        },
+        {
+          "id": "CVE-2026-11090"
+        },
+        {
+          "id": "CVE-2026-11196"
+        },
+        {
+          "id": "CVE-2026-11207"
+        },
+        {
+          "id": "CVE-2026-11010"
+        },
+        {
+          "id": "CVE-2026-10900"
+        },
+        {
+          "id": "CVE-2026-10927"
+        },
+        {
+          "id": "CVE-2026-10988"
+        },
+        {
+          "id": "CVE-2026-10941"
+        },
+        {
+          "id": "CVE-2026-11185"
+        },
+        {
+          "id": "CVE-2026-11018"
+        },
+        {
+          "id": "CVE-2026-11085"
+        },
+        {
+          "id": "CVE-2026-11253"
+        },
+        {
+          "id": "CVE-2026-11219"
+        },
+        {
+          "id": "CVE-2026-11122"
+        },
+        {
+          "id": "CVE-2026-11005"
+        },
+        {
+          "id": "CVE-2026-11015"
+        },
+        {
+          "id": "CVE-2026-11132"
+        },
+        {
+          "id": "CVE-2026-11240"
+        },
+        {
+          "id": "CVE-2026-10958"
+        },
+        {
+          "id": "CVE-2026-11254"
+        },
+        {
+          "id": "CVE-2026-11077"
+        },
+        {
+          "id": "CVE-2026-11296"
+        },
+        {
+          "id": "CVE-2026-11187"
+        },
+        {
+          "id": "CVE-2026-11171"
+        },
+        {
+          "id": "CVE-2026-11125"
+        },
+        {
+          "id": "CVE-2026-10915"
+        },
+        {
+          "id": "CVE-2026-11148"
+        },
+        {
+          "id": "CVE-2026-11248"
+        },
+        {
+          "id": "CVE-2026-10881"
+        },
+        {
+          "id": "CVE-2026-10905"
+        },
+        {
+          "id": "CVE-2026-11020"
+        },
+        {
+          "id": "CVE-2026-11234"
+        },
+        {
+          "id": "CVE-2026-10939"
+        },
+        {
+          "id": "CVE-2026-11182"
+        },
+        {
+          "id": "CVE-2026-11281"
+        },
+        {
+          "id": "CVE-2026-11100"
+        },
+        {
+          "id": "CVE-2026-10996"
+        },
+        {
+          "id": "CVE-2026-11223"
+        },
+        {
+          "id": "CVE-2026-11280"
+        },
+        {
+          "id": "CVE-2026-11256"
+        },
+        {
+          "id": "CVE-2026-11138"
+        },
+        {
+          "id": "CVE-2026-11127"
+        },
+        {
+          "id": "CVE-2026-11101"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "149.0.7827.53"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-11052",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10896",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11080",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11169",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10897",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11120",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11007",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11206",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11091",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11183",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11286",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10978",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11004",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11241",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11089",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10952",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11232",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11277",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11227",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11038",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10954",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11061",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10940",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11096",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11093",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11126",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11131",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11174",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10885",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10932",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10922",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10890",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11282",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11062",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11285",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11264",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11172",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11170",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11176",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10889",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11275",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11274",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11063",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10893",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11228",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11044",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11201",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11030",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10997",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10949",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11053",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10995",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11212",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11037",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11204",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11246",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11130",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11218",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11269",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11224",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11056",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11121",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11040",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10934",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11028",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11051",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11222",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11088",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10923",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11013",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11305",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11216",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11180",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11129",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11209",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11186",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11144",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10963",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11094",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10933",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10990",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11023",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11259",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11047",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11057",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11136",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11267",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11029",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11034",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11067",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10929",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10904",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10961",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10926",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10901",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10960",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11245",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11119",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11210",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11073",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11031",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10989",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11083",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11233",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11157",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11146",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11291",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11076",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10930",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11142",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11050",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10971",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11003",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11158",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11095",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10903",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11230",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10972",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11306",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11237",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10942",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11294",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11115",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11211",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10912",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10937",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11134",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11258",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11308",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11024",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11036",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11112",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11179",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11058",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11287",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11178",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11071",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11152",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11069",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11243",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10919",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11141",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10944",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11263",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11200",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10943",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10956",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11242",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11184",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11114",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10902",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10886",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11154",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11190",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11192",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11043",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11159",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11163",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11128",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11290",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10966",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11304",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10892",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11181",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11075",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11238",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11193",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11105",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11268",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11079",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10899",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10959",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10983",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11017",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11118",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11225",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10967",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11239",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11016",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10898",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11299",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10984",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10980",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11272",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10993",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11012",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11214",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11213",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11295",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10935",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11301",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11271",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10994",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11173",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10964",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11307",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11111",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10953",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11009",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11273",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11202",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11027",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11221",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11265",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10999",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11039",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11160",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11046",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10921",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11231",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10970",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11297",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10916",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11166",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10962",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11123",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11019",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10948",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10936",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11215",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11208",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11049",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11086",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11098",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11167",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10998",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10891",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11244",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11048",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11150",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11139",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11006",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10931",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11081",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11064",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10946",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11102",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10910",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11189",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11235",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11302",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11250",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11261",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11078",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10992",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11217",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11266",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10908",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11099",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10913",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11155",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11143",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10951",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11279",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10957",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11220",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11117",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11278",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10907",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10887",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10918",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10982",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11298",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11195",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10975",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11110",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11066",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11041",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11247",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11055",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11255",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10888",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11300",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11021",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11147",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10928",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11288",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11103",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11188",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11197",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11199",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10938",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11309",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11249",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11022",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11276",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10882",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10914",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10920",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11153",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11270",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11229",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10979",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11026",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10895",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10947",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11014",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11203",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11082",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10950",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11084",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11151",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11108",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10977",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10968",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11060",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11262",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11156",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10973",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11113",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11164",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11137",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10906",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10991",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11054",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10909",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11074",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10894",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11251",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11008",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11168",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11045",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10911",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11059",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11070",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11002",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11175",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10924",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11032",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11283",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10974",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11035",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11068",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11194",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11293",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11165",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11107",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10981",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11042",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11087",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11124",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11260",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11292",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10925",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11092",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11065",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11252",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11025",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11140",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11133",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10883",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11161",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11104",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11109",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11106",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11072",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10945",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11191",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11198",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10985",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10987",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11205",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11257",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11135",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11236",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11149",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11116",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11033",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10965",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10955",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11001",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11177",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10884",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11011",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11284",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11000",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10976",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11226",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11097",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10986",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11145",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11162",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10969",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10917",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11289",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11303",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11090",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11196",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11207",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11010",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10900",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10927",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10988",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10941",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11185",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11018",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11085",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11253",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11219",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11122",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11005",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11015",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11132",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11240",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10958",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11254",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11077",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11296",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11187",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11171",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11125",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10915",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11148",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11248",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10881",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10905",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11020",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11234",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10939",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11182",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11281",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11100",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10996",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11223",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11280",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11256",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11138",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11127",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11101",
+      "source": "chrome",
+      "title": "Stable Channel Update for Desktop",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
+  "vendor": "chrome",
+  "references": [
+    "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2026-038-aws",
+  "source": "aws",
+  "title": "CVE-2026-10584 - HTTPS Fallback to HTTP in Graph Explorer",
+  "description": "CVE-2026-10584 - HTTPS Fallback to HTTP in Graph Explorer\nBulletin ID:\n2026-038-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n06/02/2026 12:15 PM PDT\nDescription:\nGraph Explorer is an open source application that provides visualization and exploration of data in graph databases such as Amazon Neptune. We identified\nCVE-2026-10584\nwhere, under certain circumstances, the server silently falls back to HTTP when HTTPS is enabled but certificates are unavailable, resulting in cleartext transmission of sensitive information.\nImpacted versions:\n>= 1.1.0 AND < 3.0.1\nResolution:\nThis issue has been addressed in Graph Explorer version\n3.0.1\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nIf you cannot upgrade immediately, please take the following actions:\nVerify your deployment is actually serving over HTTPS by checking the protocol in the browser or via curl\nEnsure HOST is set in your docker run command so certificates are generated correctly\nAvoid using non-default configuration directory paths when relying on automatic self-signed certificate generation\nReferences:\nCVE-2026-10584\nGHSA-r6vr-4rxc-x6q4\nAcknowledgement:\nWe would like to thank Eduardo Caro for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-02",
+  "modified_date": "",
+  "affected": [
+    "aws:Graph Explorer is an open source application that provides visualization and exploration of data in graph databases such as Amazon Neptune. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-10584"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "3.0.1"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-10584",
+      "source": "aws",
+      "title": "CVE-2026-10584",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-02",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-038-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-038-aws/"
+  ]
+}
