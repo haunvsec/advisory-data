@@ -1,0 +1,1496 @@
+{
+  "id": "redhat-2026-06-17",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-06-17",
+  "description": "Merged 40 redhat security advisories published on 2026-06-17. Original advisory IDs: RHSA-2026:26709, RHSA-2026:26655, RHSA-2026:26610, RHSA-2026:26630, RHSA-2026:26629, RHSA-2026:26590, RHSA-2026:26606, RHSA-2026:26570, RHSA-2026:26567, RHSA-2026:26562, RHSA-2026:26564, RHSA-2026:26563, RHSA-2026:26561, RHSA-2026:26551, RHSA-2026:26533, RHSA-2026:26540, RHSA-2026:26539, RHSA-2026:26536, RHSA-2026:26532, RHSA-2026:26534, RHSA-2026:26535, RHSA-2026:26525, RHSA-2026:26521, RHSA-2026:26524, RHSA-2026:26515, RHSA-2026:26492, RHSA-2026:26493, RHSA-2026:26491, RHSA-2026:26465, RHSA-2026:26456, RHSA-2026:26459, RHSA-2026:26455, RHSA-2026:26464, RHSA-2026:26463, RHSA-2026:26460, RHSA-2026:26457, RHSA-2026:26462, RHSA-2026:26453, RHSA-2026:26454, RHSA-2026:26452\n\nTitles:\n- Red Hat Security Advisory: xorg-x11-server security, bug fix, and enhancement update\n- Red Hat Security Advisory: ruby:3.3 security update\n- Red Hat Security Advisory: firefox security update\n- Red Hat Security Advisory: xorg-x11-server-Xwayland security, bug fix, and enhancement update\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: libexif security update\n- Red Hat Security Advisory: dovecot security update\n- Red Hat Security Advisory: postgresql:15 security update\n- Red Hat Security Advisory: dracut security update\n- Red Hat Security Advisory: valkey security update\n- Red Hat Security Advisory: thunderbird security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: postgresql:16 security update\n- Red Hat Security Advisory: 389-ds-base security update\n- Red Hat Security Advisory: 389-ds-base security, bug fix, and enhancement update\n- Red Hat Security Advisory: 389-ds:1.4 security update\n- Red Hat Security Advisory: kernel-rt security update",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-121",
+    "CWE-416",
+    "CWE-125",
+    "CWE-787",
+    "CWE-502",
+    "CWE-475",
+    "CWE-653",
+    "CWE-825",
+    "CWE-190",
+    "CWE-266",
+    "CWE-403",
+    "CWE-472",
+    "CWE-358",
+    "CWE-131",
+    "CWE-617",
+    "CWE-191",
+    "CWE-229",
+    "CWE-208",
+    "CWE-770",
+    "CWE-911",
+    "CWE-820",
+    "CWE-1287",
+    "CWE-1285",
+    "CWE-367",
+    "CWE-59",
+    "CWE-120",
+    "CWE-385",
+    "CWE-78",
+    "CWE-122",
+    "CWE-833",
+    "CWE-413",
+    "CWE-843",
+    "CWE-909"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-17",
+  "modified_date": "2026-06-25",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
+    "redhat:Red Hat Enterprise Linux CRB (v. 8)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.2)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-50256"
+        },
+        {
+          "id": "CVE-2026-50257"
+        },
+        {
+          "id": "CVE-2026-50258"
+        },
+        {
+          "id": "CVE-2026-50259"
+        },
+        {
+          "id": "CVE-2026-50260"
+        },
+        {
+          "id": "CVE-2026-50261"
+        },
+        {
+          "id": "CVE-2026-50262"
+        },
+        {
+          "id": "CVE-2026-50263"
+        },
+        {
+          "id": "CVE-2026-50264"
+        },
+        {
+          "id": "CVE-2026-41316"
+        },
+        {
+          "id": "CVE-2026-8388"
+        },
+        {
+          "id": "CVE-2026-8391"
+        },
+        {
+          "id": "CVE-2026-8401"
+        },
+        {
+          "id": "CVE-2026-8946"
+        },
+        {
+          "id": "CVE-2026-8947"
+        },
+        {
+          "id": "CVE-2026-8950"
+        },
+        {
+          "id": "CVE-2026-8953"
+        },
+        {
+          "id": "CVE-2026-8954"
+        },
+        {
+          "id": "CVE-2026-8955"
+        },
+        {
+          "id": "CVE-2026-8956"
+        },
+        {
+          "id": "CVE-2026-8957"
+        },
+        {
+          "id": "CVE-2026-8958"
+        },
+        {
+          "id": "CVE-2026-8961"
+        },
+        {
+          "id": "CVE-2026-8962"
+        },
+        {
+          "id": "CVE-2026-8968"
+        },
+        {
+          "id": "CVE-2026-8970"
+        },
+        {
+          "id": "CVE-2026-8974"
+        },
+        {
+          "id": "CVE-2026-8975"
+        },
+        {
+          "id": "CVE-2025-21858"
+        },
+        {
+          "id": "CVE-2025-68800"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23392"
+        },
+        {
+          "id": "CVE-2026-43116"
+        },
+        {
+          "id": "CVE-2026-43158"
+        },
+        {
+          "id": "CVE-2026-46243"
+        },
+        {
+          "id": "CVE-2026-40385"
+        },
+        {
+          "id": "CVE-2026-40386"
+        },
+        {
+          "id": "CVE-2025-59032"
+        },
+        {
+          "id": "CVE-2026-27856"
+        },
+        {
+          "id": "CVE-2026-27857"
+        },
+        {
+          "id": "CVE-2026-27858"
+        },
+        {
+          "id": "CVE-2025-68366"
+        },
+        {
+          "id": "CVE-2025-68724"
+        },
+        {
+          "id": "CVE-2025-71089"
+        },
+        {
+          "id": "CVE-2025-71116"
+        },
+        {
+          "id": "CVE-2026-22984"
+        },
+        {
+          "id": "CVE-2026-22990"
+        },
+        {
+          "id": "CVE-2026-31685"
+        },
+        {
+          "id": "CVE-2026-43110"
+        },
+        {
+          "id": "CVE-2026-43163"
+        },
+        {
+          "id": "CVE-2026-43190"
+        },
+        {
+          "id": "CVE-2026-46125"
+        },
+        {
+          "id": "CVE-2026-46227"
+        },
+        {
+          "id": "CVE-2026-6473"
+        },
+        {
+          "id": "CVE-2026-6475"
+        },
+        {
+          "id": "CVE-2026-6477"
+        },
+        {
+          "id": "CVE-2026-6478"
+        },
+        {
+          "id": "CVE-2026-6893"
+        },
+        {
+          "id": "CVE-2026-23479"
+        },
+        {
+          "id": "CVE-2026-23631"
+        },
+        {
+          "id": "CVE-2026-25243"
+        },
+        {
+          "id": "CVE-2026-8959"
+        },
+        {
+          "id": "CVE-2023-53372"
+        },
+        {
+          "id": "CVE-2025-40135"
+        },
+        {
+          "id": "CVE-2025-40158"
+        },
+        {
+          "id": "CVE-2025-40170"
+        },
+        {
+          "id": "CVE-2026-23001"
+        },
+        {
+          "id": "CVE-2026-23097"
+        },
+        {
+          "id": "CVE-2026-23191"
+        },
+        {
+          "id": "CVE-2026-23216"
+        },
+        {
+          "id": "CVE-2026-43037"
+        },
+        {
+          "id": "CVE-2026-43038"
+        },
+        {
+          "id": "CVE-2026-23455"
+        },
+        {
+          "id": "CVE-2026-43303"
+        },
+        {
+          "id": "CVE-2026-9064"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2023-53372",
+      "source": "redhat",
+      "title": "kernel: sctp: fix a potential overflow in sctp_ifwdtsn_skip",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2023-53372"
+      ]
+    },
+    {
+      "id": "CVE-2025-21858",
+      "source": "redhat",
+      "title": "kernel: geneve: Fix use-after-free in geneve_find_dev().",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-21858"
+      ]
+    },
+    {
+      "id": "CVE-2025-40135",
+      "source": "redhat",
+      "title": "kernel: ipv6: use RCU in ip6_xmit()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-40135"
+      ]
+    },
+    {
+      "id": "CVE-2025-40158",
+      "source": "redhat",
+      "title": "kernel: ipv6: use RCU in ip6_output()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-40158"
+      ]
+    },
+    {
+      "id": "CVE-2025-40170",
+      "source": "redhat",
+      "title": "kernel: net: use dst_dev_rcu() in sk_setup_caps()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-40170"
+      ]
+    },
+    {
+      "id": "CVE-2025-59032",
+      "source": "redhat",
+      "title": "dovecot: ManageSieve: Denial of Service via crafted SASL initial response in AUTHENTICATE command",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-59032"
+      ]
+    },
+    {
+      "id": "CVE-2025-68366",
+      "source": "redhat",
+      "title": "kernel: nbd: defer config unlock in nbd_genl_connect",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68366"
+      ]
+    },
+    {
+      "id": "CVE-2025-68724",
+      "source": "redhat",
+      "title": "kernel: crypto: asymmetric_keys - prevent overflow in asymmetric_key_generate_id",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68724"
+      ]
+    },
+    {
+      "id": "CVE-2025-68800",
+      "source": "redhat",
+      "title": "kernel: mlxsw: spectrum_mr: Fix use-after-free when updating multicast route stats",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68800"
+      ]
+    },
+    {
+      "id": "CVE-2025-71089",
+      "source": "redhat",
+      "title": "kernel: iommu: disable SVA when CONFIG_X86 is set",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-71089"
+      ]
+    },
+    {
+      "id": "CVE-2025-71116",
+      "source": "redhat",
+      "title": "kernel: libceph: make decode_pool() more resilient against corrupted osdmaps",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-71116"
+      ]
+    },
+    {
+      "id": "CVE-2026-22984",
+      "source": "redhat",
+      "title": "kernel: libceph: prevent potential out-of-bounds reads in handle_auth_done()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-22984"
+      ]
+    },
+    {
+      "id": "CVE-2026-22990",
+      "source": "redhat",
+      "title": "kernel: libceph: replace overzealous BUG_ON in osdmap_apply_incremental()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-22990"
+      ]
+    },
+    {
+      "id": "CVE-2026-23001",
+      "source": "redhat",
+      "title": "kernel: macvlan: fix possible UAF in macvlan_forward_source()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23001"
+      ]
+    },
+    {
+      "id": "CVE-2026-23097",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: Denial of Service due to a deadlock in hugetlb folio migration",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23097"
+      ]
+    },
+    {
+      "id": "CVE-2026-23191",
+      "source": "redhat",
+      "title": "kernel: ALSA: aloop: Fix racy access at PCM trigger",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23191"
+      ]
+    },
+    {
+      "id": "CVE-2026-23216",
+      "source": "redhat",
+      "title": "kernel: scsi: target: iscsi: Fix use-after-free in iscsit_dec_conn_usage_count()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23216"
+      ]
+    },
+    {
+      "id": "CVE-2026-23243",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: Denial of service and memory corruption in RDMA umad",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23243"
+      ]
+    },
+    {
+      "id": "CVE-2026-23392",
+      "source": "redhat",
+      "title": "kernel: netfilter: nf_tables: release flowtable after rcu grace period on error",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23392"
+      ]
+    },
+    {
+      "id": "CVE-2026-23455",
+      "source": "redhat",
+      "title": "kernel: netfilter: nf_conntrack_h323: check for zero length in DecodeQ931()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23455"
+      ]
+    },
+    {
+      "id": "CVE-2026-23479",
+      "source": "redhat",
+      "title": "redis: use-after-free in unblock client flow may allow remote code execution",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23479"
+      ]
+    },
+    {
+      "id": "CVE-2026-23631",
+      "source": "redhat",
+      "title": "redis: Remote code execution via use-after-free in Lua scripting",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23631"
+      ]
+    },
+    {
+      "id": "CVE-2026-25243",
+      "source": "redhat",
+      "title": "redis: RESTORE invalid memory access may allow remote code execution",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-25243"
+      ]
+    },
+    {
+      "id": "CVE-2026-27856",
+      "source": "redhat",
+      "title": "dovecot: Doveadm: Full access via timing oracle attack in credential verification",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27856"
+      ]
+    },
+    {
+      "id": "CVE-2026-27857",
+      "source": "redhat",
+      "title": "dovecot: denial of service via specially crafted NOOP command",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27857"
+      ]
+    },
+    {
+      "id": "CVE-2026-27858",
+      "source": "redhat",
+      "title": "dovecot: denial of service via crafted message before authentication",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27858"
+      ]
+    },
+    {
+      "id": "CVE-2026-31685",
+      "source": "redhat",
+      "title": "kernel: netfilter: ip6t_eui64: reject invalid MAC header for all packets",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31685"
+      ]
+    },
+    {
+      "id": "CVE-2026-40385",
+      "source": "redhat",
+      "title": "libexif: libexif: Information disclosure and crashes via integer overflow in Nikon MakerNote handling",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-40385"
+      ]
+    },
+    {
+      "id": "CVE-2026-40386",
+      "source": "redhat",
+      "title": "libexif: libexif: Denial of Service and information disclosure via integer underflow in MakerNote decoding",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-40386"
+      ]
+    },
+    {
+      "id": "CVE-2026-41316",
+      "source": "redhat",
+      "title": "erb: ERB: Arbitrary code execution via deserialization bypass",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-41316"
+      ]
+    },
+    {
+      "id": "CVE-2026-43037",
+      "source": "redhat",
+      "title": "kernel: ip6_tunnel: clear skb2->cb[] in ip4ip6_err()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43037"
+      ]
+    },
+    {
+      "id": "CVE-2026-43038",
+      "source": "redhat",
+      "title": "kernel: ipv6: icmp: clear skb2->cb[] in ip6_err_gen_icmpv6_unreach()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43038"
+      ]
+    },
+    {
+      "id": "CVE-2026-43110",
+      "source": "redhat",
+      "title": "kernel: wifi: brcmfmac: validate bsscfg indices in IF events",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43110"
+      ]
+    },
+    {
+      "id": "CVE-2026-43116",
+      "source": "redhat",
+      "title": "kernel: netfilter: ctnetlink: ensure safe access to master conntrack",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43116"
+      ]
+    },
+    {
+      "id": "CVE-2026-43158",
+      "source": "redhat",
+      "title": "kernel: xfs: fix freemap adjustments when adding xattrs to leaf blocks",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43158"
+      ]
+    },
+    {
+      "id": "CVE-2026-43163",
+      "source": "redhat",
+      "title": "kernel: md/bitmap: fix GPF in write_page caused by resize race",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 4.7,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43163"
+      ]
+    },
+    {
+      "id": "CVE-2026-43190",
+      "source": "redhat",
+      "title": "kernel: netfilter: xt_tcpmss: check remaining length before reading optlen",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43190"
+      ]
+    },
+    {
+      "id": "CVE-2026-43303",
+      "source": "redhat",
+      "title": "kernel: mm/page_alloc: clear page->private in free_pages_prepare()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43303"
+      ]
+    },
+    {
+      "id": "CVE-2026-46125",
+      "source": "redhat",
+      "title": "kernel: wifi: mac80211: remove station if connection prep fails",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.8,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46125"
+      ]
+    },
+    {
+      "id": "CVE-2026-46227",
+      "source": "redhat",
+      "title": "kernel: sctp: revalidate list cursor after sctp_sendmsg_to_asoc() in SCTP_SENDALL",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46227"
+      ]
+    },
+    {
+      "id": "CVE-2026-46243",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: smb: client: reject userspace cifs.spnego descriptions",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46243"
+      ]
+    },
+    {
+      "id": "CVE-2026-50256",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: stack buffer overflow in font alias resolution due to libXfont2 name length mismatch",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50256"
+      ]
+    },
+    {
+      "id": "CVE-2026-50257",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free in miSyncDestroyFence()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50257"
+      ]
+    },
+    {
+      "id": "CVE-2026-50258",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: stack buffer overflow in XKB key types due to unchecked shift levels",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50258"
+      ]
+    },
+    {
+      "id": "CVE-2026-50259",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: stack buffer overflow in XKB SetMap request via mapWidths indexing",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50259"
+      ]
+    },
+    {
+      "id": "CVE-2026-50260",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free in FreeCounter()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50260"
+      ]
+    },
+    {
+      "id": "CVE-2026-50261",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free in SyncChangeCounter()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50261"
+      ]
+    },
+    {
+      "id": "CVE-2026-50262",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: out-of-bounds read/write in GLX ChangeDrawableAttributes",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50262"
+      ]
+    },
+    {
+      "id": "CVE-2026-50263",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free information disclosure in CreateSaverWindow()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50263"
+      ]
+    },
+    {
+      "id": "CVE-2026-50264",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: out-of-bounds heap write in DRI2 DRIGetBuffers/DRIGetBuffersWithFormat",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50264"
+      ]
+    },
+    {
+      "id": "CVE-2026-6473",
+      "source": "redhat",
+      "title": "postgresql: integer overflow can cause an undersized allocation and an out-of-bounds write",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6473"
+      ]
+    },
+    {
+      "id": "CVE-2026-6475",
+      "source": "redhat",
+      "title": "postgresql: PostgreSQL: Operating system account hijack via symlink following in pg_basebackup and pg_rewind",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.7,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6475"
+      ]
+    },
+    {
+      "id": "CVE-2026-6477",
+      "source": "redhat",
+      "title": "postgresql: PostgreSQL libpq: Buffer overflow allows server superuser to overwrite client stack memory",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6477"
+      ]
+    },
+    {
+      "id": "CVE-2026-6478",
+      "source": "redhat",
+      "title": "postgresql: PostgreSQL: Credential recovery via covert timing channel in MD5 password comparison",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6478"
+      ]
+    },
+    {
+      "id": "CVE-2026-6893",
+      "source": "redhat",
+      "title": "dracut: dracut: Root code execution via DHCP options command injection",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6893"
+      ]
+    },
+    {
+      "id": "CVE-2026-8388",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the JavaScript Engine: JIT component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8388"
+      ]
+    },
+    {
+      "id": "CVE-2026-8391",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Other issue in the JavaScript Engine component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8391"
+      ]
+    },
+    {
+      "id": "CVE-2026-8401",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Sandbox escape in the Profile Backup component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8401"
+      ]
+    },
+    {
+      "id": "CVE-2026-8946",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the Audio/Video: Web Codecs component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8946"
+      ]
+    },
+    {
+      "id": "CVE-2026-8947",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Use-after-free in the DOM: Bindings (WebIDL) component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8947"
+      ]
+    },
+    {
+      "id": "CVE-2026-8950",
+      "source": "redhat",
+      "title": "firefox: Same-origin policy bypass in the Networking: HTTP component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8950"
+      ]
+    },
+    {
+      "id": "CVE-2026-8953",
+      "source": "redhat",
+      "title": "firefox: Sandbox escape due to use-after-free in the Disability Access APIs component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8953"
+      ]
+    },
+    {
+      "id": "CVE-2026-8954",
+      "source": "redhat",
+      "title": "firefox: Incorrect boundary conditions, integer overflow in the Audio/Video component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8954"
+      ]
+    },
+    {
+      "id": "CVE-2026-8955",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Privilege escalation in the DOM: Workers component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8955"
+      ]
+    },
+    {
+      "id": "CVE-2026-8956",
+      "source": "redhat",
+      "title": "firefox: Integer overflow in the Networking: JAR component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8956"
+      ]
+    },
+    {
+      "id": "CVE-2026-8957",
+      "source": "redhat",
+      "title": "firefox: Privilege escalation in the Enterprise Policies component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8957"
+      ]
+    },
+    {
+      "id": "CVE-2026-8958",
+      "source": "redhat",
+      "title": "firefox: Information disclosure, sandbox escape in the Security: Process Sandboxing component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8958"
+      ]
+    },
+    {
+      "id": "CVE-2026-8959",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Sandbox escape due to incorrect boundary conditions in the Widget: Win32 component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8959"
+      ]
+    },
+    {
+      "id": "CVE-2026-8961",
+      "source": "redhat",
+      "title": "firefox: Spoofing issue in the Form Autofill component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8961"
+      ]
+    },
+    {
+      "id": "CVE-2026-8962",
+      "source": "redhat",
+      "title": "firefox: Mitigation bypass in the DOM: Security component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8962"
+      ]
+    },
+    {
+      "id": "CVE-2026-8968",
+      "source": "redhat",
+      "title": "firefox: Denial-of-service due to invalid pointer in the Audio/Video: Web Codecs component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8968"
+      ]
+    },
+    {
+      "id": "CVE-2026-8970",
+      "source": "redhat",
+      "title": "firefox: Privilege escalation in the Security component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8970"
+      ]
+    },
+    {
+      "id": "CVE-2026-8974",
+      "source": "redhat",
+      "title": "firefox: Memory safety bugs fixed in Firefox ESR 140.11 and Firefox 151",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8974"
+      ]
+    },
+    {
+      "id": "CVE-2026-8975",
+      "source": "redhat",
+      "title": "firefox: Memory safety bugs fixed in Firefox ESR 115.36, Firefox ESR 140.11 and Firefox 151",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8975"
+      ]
+    },
+    {
+      "id": "CVE-2026-9064",
+      "source": "redhat",
+      "title": "389-ds-base: 389-ds-base: unbounded LDAP controls count in get_ldapmessage_controls_ext() causes CPU and heap amplification (remote DoS)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-9064"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:26709",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:26709",
+    "https://access.redhat.com/errata/RHSA-2026:26655",
+    "https://access.redhat.com/errata/RHSA-2026:26610",
+    "https://access.redhat.com/errata/RHSA-2026:26630",
+    "https://access.redhat.com/errata/RHSA-2026:26629",
+    "https://access.redhat.com/errata/RHSA-2026:26590",
+    "https://access.redhat.com/errata/RHSA-2026:26606",
+    "https://access.redhat.com/errata/RHSA-2026:26570",
+    "https://access.redhat.com/errata/RHSA-2026:26567",
+    "https://access.redhat.com/errata/RHSA-2026:26562",
+    "https://access.redhat.com/errata/RHSA-2026:26564",
+    "https://access.redhat.com/errata/RHSA-2026:26563",
+    "https://access.redhat.com/errata/RHSA-2026:26561",
+    "https://access.redhat.com/errata/RHSA-2026:26551",
+    "https://access.redhat.com/errata/RHSA-2026:26533",
+    "https://access.redhat.com/errata/RHSA-2026:26540",
+    "https://access.redhat.com/errata/RHSA-2026:26539",
+    "https://access.redhat.com/errata/RHSA-2026:26536",
+    "https://access.redhat.com/errata/RHSA-2026:26532",
+    "https://access.redhat.com/errata/RHSA-2026:26534",
+    "https://access.redhat.com/errata/RHSA-2026:26535",
+    "https://access.redhat.com/errata/RHSA-2026:26525",
+    "https://access.redhat.com/errata/RHSA-2026:26521",
+    "https://access.redhat.com/errata/RHSA-2026:26524",
+    "https://access.redhat.com/errata/RHSA-2026:26515",
+    "https://access.redhat.com/errata/RHSA-2026:26492",
+    "https://access.redhat.com/errata/RHSA-2026:26493",
+    "https://access.redhat.com/errata/RHSA-2026:26491",
+    "https://access.redhat.com/errata/RHSA-2026:26465",
+    "https://access.redhat.com/errata/RHSA-2026:26456",
+    "https://access.redhat.com/errata/RHSA-2026:26459",
+    "https://access.redhat.com/errata/RHSA-2026:26455",
+    "https://access.redhat.com/errata/RHSA-2026:26464",
+    "https://access.redhat.com/errata/RHSA-2026:26463",
+    "https://access.redhat.com/errata/RHSA-2026:26460",
+    "https://access.redhat.com/errata/RHSA-2026:26457",
+    "https://access.redhat.com/errata/RHSA-2026:26462",
+    "https://access.redhat.com/errata/RHSA-2026:26453",
+    "https://access.redhat.com/errata/RHSA-2026:26454",
+    "https://access.redhat.com/errata/RHSA-2026:26452"
+  ]
+}

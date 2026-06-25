@@ -1,0 +1,753 @@
+{
+  "id": "spring-2026-06-10",
+  "source": "spring",
+  "title": "Spring Security Advisories - 2026-06-10",
+  "description": "Merged 15 spring security advisories published on 2026-06-10. Original advisory IDs: CVE-2026-41001, CVE-2026-40992, CVE-2026-40987, CVE-2026-41700, CVE-2026-41699, CVE-2026-41856, CVE-2026-40985, CVE-2026-40986, CVE-2026-40994, CVE-2026-40996, CVE-2026-40995, CVE-2026-40997, CVE-2026-40998, CVE-2026-41000, CVE-2026-40999\n\nTitles:\n- Predictable Temp Directory in Artemis Auto-configuration\n- Mail Auto-Configuration Does Not Enable SSL Hostname Verification\n- Remote-file synchronizer in Spring Integration writes server-supplied filename under localDirectory without canonicalization\n- Cross-Site WebSocket Hijacking in Spring for GraphQL\n- Unsafe Deserialization in Spring GraphQL\n- Spring GraphQL Annotation Detection Vulnerability\n- Data Binding Vulnerability in Spring Web Flow with Unified EL Parser\n- Spring Web Flow JS RemotingHandler renders non-HTML Response as HTML\n- Wss4jSecurityInterceptor disables WS-I BSP validation by default\n- Inbound WS-Security allows RSA PKCS#1 v1.5 key transport by default\n- X.509 authentication bypasses Spring Security account checks\n- SOAP security faults leak Spring Security account state\n- Jaxp13 XPath XXE via StreamSource and SAXSource\n- WSS4J validation does not use configured replay cache\n- Spring WS SSRF via unvalidated WS-Addressing reply destinations",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-10",
+  "modified_date": "2026-06-10",
+  "affected": [
+    "spring:spring-boot",
+    "spring:spring-integration",
+    "spring:spring-for-graphql",
+    "spring:spring-web-flow",
+    "spring:spring-web-services"
+  ],
+  "affected_products": [
+    {
+      "vendor": "spring",
+      "product": "Spring Boot",
+      "version_range": "4.0.0 - 4.0.6",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_boot:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41001"
+        },
+        {
+          "id": "CVE-2026-40992"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Boot",
+      "version_range": "3.5.0 - 3.5.14",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_boot:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41001"
+        },
+        {
+          "id": "CVE-2026-40992"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Boot",
+      "version_range": "3.4.0 - 3.4.16",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_boot:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41001"
+        },
+        {
+          "id": "CVE-2026-40992"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Boot",
+      "version_range": "3.3.0 - 3.3.19",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_boot:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41001"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Boot",
+      "version_range": "2.7.0 - 2.7.33",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_boot:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41001"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Boot",
+      "version_range": "Versions that are no longer supported are also affected.",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_boot:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41001"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Integration",
+      "version_range": "7.0.0 - 7.0.4",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_integration:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40987"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Integration",
+      "version_range": "6.5.0 - 6.5.8",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_integration:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40987"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Integration",
+      "version_range": "6.4.0 - 6.4.11",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_integration:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40987"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Integration",
+      "version_range": "6.3.0 - 6.3.14",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_integration:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40987"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Integration",
+      "version_range": "5.5.0 - 5.5.20",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_integration:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40987"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Integration",
+      "version_range": "Older, unsupported versions are also affected",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_integration:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40987"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring for GraphQL",
+      "version_range": "2.0.0 - 2.0.3",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_for_graphql:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41700"
+        },
+        {
+          "id": "CVE-2026-41699"
+        },
+        {
+          "id": "CVE-2026-41856"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring for GraphQL",
+      "version_range": "1.4.0 - 1.4.5",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_for_graphql:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41700"
+        },
+        {
+          "id": "CVE-2026-41699"
+        },
+        {
+          "id": "CVE-2026-41856"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring for GraphQL",
+      "version_range": "1.3.0 - 1.3.8",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_for_graphql:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41700"
+        },
+        {
+          "id": "CVE-2026-41699"
+        },
+        {
+          "id": "CVE-2026-41856"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring for GraphQL",
+      "version_range": "1.0.0 - 1.0.6",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_for_graphql:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41700"
+        },
+        {
+          "id": "CVE-2026-41856"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring for GraphQL",
+      "version_range": "Versions that are no longer supported are also affected.",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_for_graphql:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41700"
+        },
+        {
+          "id": "CVE-2026-41699"
+        },
+        {
+          "id": "CVE-2026-41856"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Web Flow",
+      "version_range": "4.0.0 - 4.0.0",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_web_flow:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40985"
+        },
+        {
+          "id": "CVE-2026-40986"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Web Flow",
+      "version_range": "3.0.0 - 3.0.1",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_web_flow:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40985"
+        },
+        {
+          "id": "CVE-2026-40986"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Web Flow",
+      "version_range": "2.5.0 - 2.5.1",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_web_flow:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40985"
+        },
+        {
+          "id": "CVE-2026-40986"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Web Flow",
+      "version_range": "Older, unsupported versions are also affected.",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_web_flow:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40985"
+        },
+        {
+          "id": "CVE-2026-40986"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Web Services",
+      "version_range": "5.0.0 - 5.0.1",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40994"
+        },
+        {
+          "id": "CVE-2026-40996"
+        },
+        {
+          "id": "CVE-2026-40995"
+        },
+        {
+          "id": "CVE-2026-40997"
+        },
+        {
+          "id": "CVE-2026-40998"
+        },
+        {
+          "id": "CVE-2026-41000"
+        },
+        {
+          "id": "CVE-2026-40999"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Web Services",
+      "version_range": "4.1.0 - 4.1.3",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40994"
+        },
+        {
+          "id": "CVE-2026-40996"
+        },
+        {
+          "id": "CVE-2026-40995"
+        },
+        {
+          "id": "CVE-2026-40997"
+        },
+        {
+          "id": "CVE-2026-40998"
+        },
+        {
+          "id": "CVE-2026-41000"
+        },
+        {
+          "id": "CVE-2026-40999"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Web Services",
+      "version_range": "4.0.0 - 4.0.18",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40994"
+        },
+        {
+          "id": "CVE-2026-40996"
+        },
+        {
+          "id": "CVE-2026-40995"
+        },
+        {
+          "id": "CVE-2026-40997"
+        },
+        {
+          "id": "CVE-2026-40998"
+        },
+        {
+          "id": "CVE-2026-41000"
+        },
+        {
+          "id": "CVE-2026-40999"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Web Services",
+      "version_range": "3.1.0 - 3.1.8",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40994"
+        },
+        {
+          "id": "CVE-2026-40996"
+        },
+        {
+          "id": "CVE-2026-40995"
+        },
+        {
+          "id": "CVE-2026-40997"
+        },
+        {
+          "id": "CVE-2026-40998"
+        },
+        {
+          "id": "CVE-2026-41000"
+        },
+        {
+          "id": "CVE-2026-40999"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Web Services",
+      "version_range": "Versions that are no longer supported are also affected.",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-40994"
+        },
+        {
+          "id": "CVE-2026-40996"
+        },
+        {
+          "id": "CVE-2026-40995"
+        },
+        {
+          "id": "CVE-2026-40997"
+        },
+        {
+          "id": "CVE-2026-40998"
+        },
+        {
+          "id": "CVE-2026-41000"
+        },
+        {
+          "id": "CVE-2026-40999"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "4.0.7",
+    "4.0.6.1",
+    "3.5.15",
+    "3.5.14.1",
+    "3.4.17",
+    "3.3.20",
+    "2.7.34",
+    "5.5.21",
+    "6.3.15",
+    "6.4.12",
+    "6.5.8.1",
+    "6.5.9",
+    "7.0.4.1",
+    "7.0.5",
+    "2.0.4",
+    "2.0.3.1",
+    "1.4.6",
+    "1.4.5.1",
+    "1.3.9",
+    "1.0.7",
+    "4.0.1",
+    "4.0.0.1",
+    "3.0.2",
+    "3.0.1.1",
+    "2.5.2",
+    "5.0.2",
+    "5.0.1.1",
+    "4.1.4",
+    "4.1.3.1",
+    "4.0.19",
+    "3.1.9"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-40985",
+      "source": "spring",
+      "title": "Data Binding Vulnerability in Spring Web Flow with Unified EL Parser",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40986",
+      "source": "spring",
+      "title": "Spring Web Flow JS RemotingHandler renders non-HTML Response as HTML",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40987",
+      "source": "spring",
+      "title": "Remote-file synchronizer in Spring Integration writes server-supplied filename under localDirectory without canonicalization",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:H/A:L",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40992",
+      "source": "spring",
+      "title": "Mail Auto-Configuration Does Not Enable SSL Hostname Verification",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40994",
+      "source": "spring",
+      "title": "Wss4jSecurityInterceptor disables WS-I BSP validation by default",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40995",
+      "source": "spring",
+      "title": "X.509 authentication bypasses Spring Security account checks",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40996",
+      "source": "spring",
+      "title": "Inbound WS-Security allows RSA PKCS#1 v1.5 key transport by default",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40997",
+      "source": "spring",
+      "title": "SOAP security faults leak Spring Security account state",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40998",
+      "source": "spring",
+      "title": "Jaxp13 XPath XXE via StreamSource and SAXSource",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40999",
+      "source": "spring",
+      "title": "Spring WS SSRF via unvalidated WS-Addressing reply destinations",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-41000",
+      "source": "spring",
+      "title": "WSS4J validation does not use configured replay cache",
+      "description": "",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-41001",
+      "source": "spring",
+      "title": "Predictable Temp Directory in Artemis Auto-configuration",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-41699",
+      "source": "spring",
+      "title": "Unsafe Deserialization in Spring GraphQL",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-41700",
+      "source": "spring",
+      "title": "Cross-Site WebSocket Hijacking in Spring for GraphQL",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-41856",
+      "source": "spring",
+      "title": "Spring GraphQL Annotation Detection Vulnerability",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://spring.io/security/cve-2026-41001",
+  "vendor": "spring",
+  "references": [
+    "https://spring.io/security/cve-2026-41001",
+    "https://spring.io/security/cve-2026-40992",
+    "https://spring.io/security/cve-2026-40987",
+    "https://spring.io/security/cve-2026-41700",
+    "https://spring.io/security/cve-2026-41699",
+    "https://spring.io/security/cve-2026-41856",
+    "https://spring.io/security/cve-2026-40985",
+    "https://spring.io/security/cve-2026-40986",
+    "https://spring.io/security/cve-2026-40994",
+    "https://spring.io/security/cve-2026-40996",
+    "https://spring.io/security/cve-2026-40995",
+    "https://spring.io/security/cve-2026-40997",
+    "https://spring.io/security/cve-2026-40998",
+    "https://spring.io/security/cve-2026-41000",
+    "https://spring.io/security/cve-2026-40999"
+  ]
+}

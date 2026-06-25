@@ -1,0 +1,60 @@
+{
+  "id": "2026-043-aws",
+  "source": "aws",
+  "title": "CVE-2026-12043 - Heap double-free in AWS Common Runtime aws-c-http",
+  "description": "CVE-2026-12043 - Heap double-free in AWS Common Runtime aws-c-http\nBulletin ID:\n2026-043-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n06/12/2026 11:45 AM PDT\nDescription:\nAWS Common Runtime aws-c-http is a HTTP client library used by AWS SDKs for handling http requests to AWS services. We identified\nCVE-2026-12043\n, an issue where improper handling of HPACK dynamic table size updates in the AWS Common Runtime aws-c-http library might allow a remote actor operating a server to cause memory corruption on a connecting client application, potentially leading to arbitrary code execution, via a crafted sequence of HTTP/2 HEADERS frames.\nImpacted versions:\naws-c-http >= 0.4.22 AND <= 0.10.15\nExposed in following sdk versions:\naws-sdk-cpp >= 1.11.41, <= 1.11.814\naws-sdk-java-v2 >= 2.44.27, <= 2.44.14\nResolution:\nThis issue has been addressed in aws-c-http version\n0.11.0\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nForce HTTP/1.1 connections if available.\nReferences:\nCVE-2026-12043\nGHSA-rmjr-3qpm-vh98\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-12",
+  "modified_date": "",
+  "affected": [
+    "aws:AWS Common Runtime aws-c-http is a HTTP client library used by AWS SDKs for handling http requests to AWS services. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-12043"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "0.11.0"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-12043",
+      "source": "aws",
+      "title": "CVE-2026-12043",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-043-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-043-aws/"
+  ]
+}

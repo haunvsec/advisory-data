@@ -1,0 +1,74 @@
+{
+  "id": "2026-047-aws",
+  "source": "aws",
+  "title": "CVE-2026-12957 and CVE-2026-12958 - Issues in Language Servers for AWS and Amazon Q Developer Plugins",
+  "description": "CVE-2026-12957 and CVE-2026-12958 - Issues in Language Servers for AWS and Amazon Q Developer Plugins\nBulletin ID:\n2026-047-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n06/23/2026 09:00 AM PDT\nDescription:\nLanguage Servers for AWS\nprovide the underlying language-server runtime that powers Amazon Q Developer's AI coding assistance across its IDE plugins (Visual Studio Code, JetBrains, Eclipse, and Visual Studio).\nWe identified\nCVE-2026-12957\n, an improper trust boundary enforcement issue in Language Servers for AWS before version 1.65.0. If a local user opens a maliciously crafted workspace, any commands within the project configuration files may be automatically executed. This issue requires the user to trust the workspace when prompted.\nWe identified\nCVE-2026-12958\n, a missing symlink-validation issue in Language Servers for AWS before version 1.69.0. This may occur when a local user opens a workspace with a maliciously crafted symlink that resolves to a file path outside the workspace trust boundary.\nThese issues affect the Amazon Q Developer IDE plugins, which bundle Language Servers for AWS. Both issues are remediated in Language Servers for AWS version 1.69.0.\nAffected products & versions:\nLanguage Servers for AWS: < 1.69.0\nAmazon Q Developer for Visual Studio Code: < 2.20\nAmazon Q Developer for JetBains: < 4.3\nAmazon Q Developer for Eclipse: < 2.7.4\nAWS Toolkit with Amazon Q for Visual Studio: < 1.94.0.0\nResolution:\nThese issues have been addressed in Language Servers for AWS version 1.69.0 and the corresponding Amazon Q Developer plugin releases that bundle it. We recommend upgrading to the latest version of your Amazon Q Developer IDE plugin, and ensuring any forked or derivative code is patched to incorporate the new fixes.\nAmazon Q Developer for VS Code\nAmazon Q Developer for JetBrains\nAmazon Q Developer for Eclipse\nAmazon Q Developer for Visual Studio\nWorkarounds:\nNo workarounds are available.\nReferences:\nCVE-2026-12957\nCVE-2026-12958\nGHSA-6v3r-4p5c-mrp5\nGHSA-xhcr-j4j9-3gh7\nAcknowledgement:\nWe would like to thank Wiz for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-23",
+  "modified_date": "",
+  "affected": [
+    "aws:Language Servers for AWS"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Language Servers for AWS",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:aws:language_servers_for_aws:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-12958"
+        },
+        {
+          "id": "CVE-2026-12957"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-12958",
+      "source": "aws",
+      "title": "CVE-2026-12958",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12957",
+      "source": "aws",
+      "title": "CVE-2026-12957",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-047-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-047-aws/"
+  ]
+}

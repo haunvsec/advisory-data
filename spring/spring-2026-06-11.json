@@ -2,7 +2,7 @@
   "id": "spring-2026-06-11",
   "source": "spring",
   "title": "Spring Security Advisories - 2026-06-11",
-  "description": "Merged 2 spring security advisories published on 2026-06-11. Original advisory IDs: CVE-2026-41708, CVE-2026-47825\n\nTitles:\n- Spring Cloud Sleuth instrumentation of Spring TX DoS vulnerability\n- Spring Cloud Gateway Server Forwards Headers from Untrusted Proxies in certain situations",
+  "description": "Merged 3 spring security advisories published on 2026-06-11. Original advisory IDs: CVE-2026-41708, CVE-2026-47825, CVE-2026-41862\n\nTitles:\n- Spring Cloud Sleuth instrumentation of Spring TX DoS vulnerability\n- Spring Cloud Gateway Server Forwards Headers from Untrusted Proxies in certain situations\n- Kryo deserialization of persisted context without class allowlist",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -14,7 +14,8 @@
   "modified_date": "2026-06-11",
   "affected": [
     "spring:spring",
-    "spring:spring-cloud-gateway"
+    "spring:spring-cloud-gateway",
+    "spring:spring-statemachine"
   ],
   "affected_products": [
     {
@@ -107,6 +108,32 @@
           "id": "CVE-2026-47825"
         }
       ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Statemachine",
+      "version_range": "4.0.0 - 4.0.1",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_statemachine:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41862"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Statemachine",
+      "version_range": "3.2.0 - 3.2.4",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:spring:spring_statemachine:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41862"
+        }
+      ]
     }
   ],
   "fixed_versions": [
@@ -117,7 +144,10 @@
     "4.3.5",
     "4.3.4.1",
     "5.0.2",
-    "5.0.1.1"
+    "5.0.1.1",
+    "4.0.2",
+    "4.0.1.1",
+    "3.2.5"
   ],
   "solution": "",
   "remediations": [],
@@ -130,6 +160,19 @@
       "severity": "high",
       "cvss_score": null,
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-41862",
+      "source": "spring",
+      "title": "Kryo deserialization of persisted context without class allowlist",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "published_date": "2026-06-11",
       "modified_date": "",
       "affected": [],
@@ -155,6 +198,7 @@
   "vendor": "spring",
   "references": [
     "https://spring.io/security/cve-2026-41708",
-    "https://spring.io/security/cve-2026-47825"
+    "https://spring.io/security/cve-2026-47825",
+    "https://spring.io/security/cve-2026-41862"
   ]
 }

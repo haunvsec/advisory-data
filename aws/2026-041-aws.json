@@ -1,0 +1,74 @@
+{
+  "id": "2026-041-aws",
+  "source": "aws",
+  "title": "CVE-2026-10740 - Excessive memory allocation in s2n-quic",
+  "description": "CVE-2026-11417 - OS Command Injection in aws-cdk-lib NodejsFunction bundling\nBulletin ID:\n2026-041-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n06/10/2026 10:45 AM PDT\nDescription:\nAWS CDK (aws-cdk-lib) is an open-source framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. We identified\nCVE-2026-11417\n, an OS command injection issue in the NodejsFunction local bundling pipeline in aws-cdk-lib before 2.245.0 (2.246.0 on Windows) that may allow an actor who controls the value of one or more bundling properties (externalModules, define, loader, inject, or esbuildArgs) to execute arbitrary commands on the host running the CDK toolchain via injected shell metacharacters. This issue requires the actor to control the value of one or more of the affected bundling properties in the CDK application.\nImpacted versions:\n< 2.245.0 (on Windows, < 2.246.0)\nResolution:\nThis issue has been addressed in aws-cdk-lib version 2.245.0 (2.246.0 on Windows). We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nEnsure values passed to NodejsFunction bundling properties come only from trusted sources and audit third-party constructs and pull requests that set them. Upgrading to a fixed version is the recommended remediation.\nReferences:\nCVE-2026-11417\nGHSA-999r-qq7v-r334\nAcknowledgement:\nWe would like to thank the external reporter Hesham Ashraf who collaborated on this issue through the AWS Vulnerability Disclosure Program (coordinated vulnerability disclosure process).\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-10",
+  "modified_date": "",
+  "affected": [
+    "aws:AWS CDK (aws-cdk-lib) is an open-source framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11417"
+        },
+        {
+          "id": "CVE-2026-10740"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-11417",
+      "source": "aws",
+      "title": "CVE-2026-11417",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10740",
+      "source": "aws",
+      "title": "CVE-2026-10740",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-041-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-041-aws/"
+  ]
+}

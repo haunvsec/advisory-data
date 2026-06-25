@@ -2,7 +2,7 @@
   "id": "paloalto-2026-06-10",
   "source": "paloalto",
   "title": "Paloalto Security Advisories - 2026-06-10",
-  "description": "Merged 2 paloalto security advisories published on 2026-06-10. Original advisory IDs: CVE-2026-0274, CVE-2026-0273\n\nTitles:\n- Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration\n- PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI",
+  "description": "Merged 8 paloalto security advisories published on 2026-06-10. Original advisory IDs: CVE-2026-0274, CVE-2026-0273, CVE-2026-0271, CVE-2026-0270, CVE-2026-0269, CVE-2026-0268, CVE-2026-0267, CVE-2026-0266\n\nTitles:\n- Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration\n- PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI\n- Prisma Access Agent: Local Privilege Escalation by Authorized Users\n- Cortex XSOAR: Path Traversal Vulnerability\n- PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing\n- Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux\n- GlobalProtect App: Information Exposure Vulnerability on macOS\n- PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface",
   "severity": "high",
   "cvss_scores": [
     {
@@ -16,6 +16,36 @@
       "score": 6.1,
       "vector": "",
       "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 5.9,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 4.8,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 4.6,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 4.4,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 1.1,
+      "vector": "",
+      "severity": "low"
     }
   ],
   "cvss_score": 8.1,
@@ -27,7 +57,9 @@
   "modified_date": "2026-06-10",
   "affected": [
     "paloalto:cortex",
-    "paloalto:panos"
+    "paloalto:panos",
+    "paloalto:prisma",
+    "paloalto:globalprotect"
   ],
   "affected_products": [
     {
@@ -40,6 +72,9 @@
       "cves": [
         {
           "id": "CVE-2026-0274"
+        },
+        {
+          "id": "CVE-2026-0270"
         }
       ]
     },
@@ -56,6 +91,41 @@
         },
         {
           "id": "CVE-2026-0272"
+        },
+        {
+          "id": "CVE-2026-0269"
+        },
+        {
+          "id": "CVE-2026-0266"
+        }
+      ]
+    },
+    {
+      "vendor": "paloalto",
+      "product": "Palo Alto Prisma",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:paloalto:prisma:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0271"
+        },
+        {
+          "id": "CVE-2026-0268"
+        }
+      ]
+    },
+    {
+      "vendor": "paloalto",
+      "product": "Palo Alto GlobalProtect",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:paloalto:globalprotect:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0267"
         }
       ]
     }
@@ -64,6 +134,84 @@
   "solution": "",
   "remediations": [],
   "cves": [
+    {
+      "id": "CVE-2026-0266",
+      "source": "paloalto",
+      "title": "PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 1.1,
+      "cvss_vector": null,
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0267",
+      "source": "paloalto",
+      "title": "GlobalProtect App: Information Exposure Vulnerability on macOS",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 4.4,
+      "cvss_vector": null,
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0268",
+      "source": "paloalto",
+      "title": "Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 4.4,
+      "cvss_vector": null,
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0269",
+      "source": "paloalto",
+      "title": "PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 4.6,
+      "cvss_vector": null,
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0270",
+      "source": "paloalto",
+      "title": "Cortex XSOAR: Path Traversal Vulnerability",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 4.8,
+      "cvss_vector": null,
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0271",
+      "source": "paloalto",
+      "title": "Prisma Access Agent: Local Privilege Escalation by Authorized Users",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 5.9,
+      "cvss_vector": null,
+      "published_date": "2026-06-10",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
     {
       "id": "CVE-2026-0272",
       "source": "paloalto",
@@ -110,6 +258,12 @@
   "vendor": "paloalto",
   "references": [
     "https://security.paloaltonetworks.com/CVE-2026-0274",
-    "https://security.paloaltonetworks.com/CVE-2026-0273"
+    "https://security.paloaltonetworks.com/CVE-2026-0273",
+    "https://security.paloaltonetworks.com/CVE-2026-0271",
+    "https://security.paloaltonetworks.com/CVE-2026-0270",
+    "https://security.paloaltonetworks.com/CVE-2026-0269",
+    "https://security.paloaltonetworks.com/CVE-2026-0268",
+    "https://security.paloaltonetworks.com/CVE-2026-0267",
+    "https://security.paloaltonetworks.com/CVE-2026-0266"
   ]
 }

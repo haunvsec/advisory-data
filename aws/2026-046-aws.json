@@ -1,0 +1,122 @@
+{
+  "id": "2026-046-aws",
+  "source": "aws",
+  "title": "Issue with containerd CRI Plugin - CVE-2026-50195, CVE-2026-53488, CVE-2026-53492, CVE-2026-53489, CVE-2026-47262",
+  "description": "Issue with containerd CRI Plugin - CVE-2026-50195, CVE-2026-53488, CVE-2026-53492, CVE-2026-53489, CVE-2026-47262\nBulletin ID:\n2026-046-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n06/18/2026 17:30 PM PDT\nLast Updated Date:\n6/22/2026 15:00 PM PDT\nDescription:\ncontainerd is an open-source container runtime used by Kubernetes via the Container Runtime Interface (CRI) plugin. It underpins AWS managed container services including Amazon Elastic Kubernetes Service (Amazon EKS), Amazon Elastic Container Service (Amazon ECS), AWS Fargate, Bottlerocket, and Amazon Linux. AWS identified five issues in the containerd CRI plugin affecting versions 1.7 through 2.3\nCVE-2026-50195\n(CVSS 8.8): Unvalidated checkpoint image references in the CRI plugin allow image cache poisoning on shared Kubernetes nodes, enabling cross-pod code execution.\nCVE-2026-53488\n(CVSS 8.3): Image configuration LABEL instructions are propagated to containers without sanitization, enabling arbitrary host command execution via a crafted container image. This issue does not require checkpoint/restore to be enabled.\nCVE-2026-53492\n(CVSS 6.8): CDI (Container Device Interface) annotations from untrusted checkpoint image metadata are trusted without validation, allowing device and host mount injection that bypasses Kubernetes device enforcement. This issue requires CDI to be enabled on the node.\nCVE-2026-53489\n(CVSS 6.5): Symlinked container log paths are not validated during checkpoint restore, enabling arbitrary host file read. This issue requires checkpoint/restore to be enabled.\nCVE-2026-47262\n(CVSS 6.5): A crafted container image can cause uncontrolled memory consumption, resulting in an out-of-memory termination of the containerd process and a denial of service for all containers on the affected node.\nImpacted versions:\ncontainerd 1.7, 2.0, 2.1, 2.2, 2.3\nResolution:\nThese issues have been addressed in the upstream containerd project. Patched releases are available at the\ncontainerd GitHub security advisories page\n. We recommend upgrading to the latest patched version and ensuring any forked or derivative code is updated to incorporate the new fixes.\nFor customers using AWS managed container services (Amazon EKS, Amazon ECS, AWS Fargate), AWS is deploying patched runtimes across affected fleets. Customers using self-managed containerd deployments on Amazon EC2 or on-premises infrastructure should upgrade to a patched container version as soon as possible.\nWorkarounds:\nCVE-2026-47262: Users can mitigate this issue by only allowing trusted images to be pulled and only allowing trusted users to import images and schedule pods.\nCVE-2026-50195 and CVE-2026-53488: Users can mitigate this issue by only allowing trusted images to be pulled.\nCVE-2026-53489: Users can mitigate this issue by only allowing trusted images to be pulled and only restoring from trusted checkpoints.\nCVE-2026-53492: Users can mitigate this issue by only allowing the restoration of container",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-18",
+  "modified_date": "",
+  "affected": [
+    "aws:containerd is an open-source container runtime used by Kubernetes via the Container Runtime Interface (CRI) plugin. It underpins AWS managed container services including Amazon Elastic Kubernetes Service (Amazon EKS), Amazon Elastic Container Service (Amazon ECS), AWS Fargate, Bottlerocket, and Amazon Linux. AWS identified five issues in the containerd CRI plugin affecting versions 1.7 through 2.3"
+  ],
+  "affected_products": [
+    {
+      "vendor": "kubernetes",
+      "product": "Kubernetes",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:kubernetes:kubernetes:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-53489"
+        },
+        {
+          "id": "CVE-2026-53488"
+        },
+        {
+          "id": "CVE-2026-53492"
+        },
+        {
+          "id": "CVE-2026-47262"
+        },
+        {
+          "id": "CVE-2026-50195"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-53489",
+      "source": "aws",
+      "title": "CVE-2026-53489",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-18",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53488",
+      "source": "aws",
+      "title": "CVE-2026-53488",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-18",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53492",
+      "source": "aws",
+      "title": "CVE-2026-53492",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-18",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-47262",
+      "source": "aws",
+      "title": "CVE-2026-47262",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-18",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-50195",
+      "source": "aws",
+      "title": "CVE-2026-50195",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-18",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-046-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-046-aws/"
+  ]
+}

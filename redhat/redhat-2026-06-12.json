@@ -1,0 +1,346 @@
+{
+  "id": "redhat-2026-06-12",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-06-12",
+  "description": "Merged 2 redhat security advisories published on 2026-06-12. Original advisory IDs: RHSA-2026:25533, RHSA-2026:25534\n\nTitles:\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-125",
+    "CWE-825",
+    "CWE-416",
+    "CWE-911",
+    "CWE-190",
+    "CWE-820",
+    "CWE-413",
+    "CWE-366",
+    "CWE-1287",
+    "CWE-843",
+    "CWE-1285"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-12",
+  "modified_date": "2026-06-25",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux for NVIDIA"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-53372"
+        },
+        {
+          "id": "CVE-2024-41073"
+        },
+        {
+          "id": "CVE-2025-40135"
+        },
+        {
+          "id": "CVE-2025-40158"
+        },
+        {
+          "id": "CVE-2025-40170"
+        },
+        {
+          "id": "CVE-2025-68366"
+        },
+        {
+          "id": "CVE-2025-68724"
+        },
+        {
+          "id": "CVE-2025-71089"
+        },
+        {
+          "id": "CVE-2026-23001"
+        },
+        {
+          "id": "CVE-2026-23216"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-31685"
+        },
+        {
+          "id": "CVE-2026-43037"
+        },
+        {
+          "id": "CVE-2026-43038"
+        },
+        {
+          "id": "CVE-2026-43110"
+        },
+        {
+          "id": "CVE-2026-43190"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2023-53372",
+      "source": "redhat",
+      "title": "kernel: sctp: fix a potential overflow in sctp_ifwdtsn_skip",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2023-53372"
+      ]
+    },
+    {
+      "id": "CVE-2024-41073",
+      "source": "redhat",
+      "title": "kernel: nvme: avoid double free special payload",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2024-41073"
+      ]
+    },
+    {
+      "id": "CVE-2025-40135",
+      "source": "redhat",
+      "title": "kernel: ipv6: use RCU in ip6_xmit()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-40135"
+      ]
+    },
+    {
+      "id": "CVE-2025-40158",
+      "source": "redhat",
+      "title": "kernel: ipv6: use RCU in ip6_output()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-40158"
+      ]
+    },
+    {
+      "id": "CVE-2025-40170",
+      "source": "redhat",
+      "title": "kernel: net: use dst_dev_rcu() in sk_setup_caps()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-40170"
+      ]
+    },
+    {
+      "id": "CVE-2025-68366",
+      "source": "redhat",
+      "title": "kernel: nbd: defer config unlock in nbd_genl_connect",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68366"
+      ]
+    },
+    {
+      "id": "CVE-2025-68724",
+      "source": "redhat",
+      "title": "kernel: crypto: asymmetric_keys - prevent overflow in asymmetric_key_generate_id",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68724"
+      ]
+    },
+    {
+      "id": "CVE-2025-71089",
+      "source": "redhat",
+      "title": "kernel: iommu: disable SVA when CONFIG_X86 is set",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-71089"
+      ]
+    },
+    {
+      "id": "CVE-2026-23001",
+      "source": "redhat",
+      "title": "kernel: macvlan: fix possible UAF in macvlan_forward_source()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23001"
+      ]
+    },
+    {
+      "id": "CVE-2026-23216",
+      "source": "redhat",
+      "title": "kernel: scsi: target: iscsi: Fix use-after-free in iscsit_dec_conn_usage_count()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23216"
+      ]
+    },
+    {
+      "id": "CVE-2026-31532",
+      "source": "redhat",
+      "title": "kernel: can: raw: fix ro->uniq use-after-free in raw_rcv()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31532"
+      ]
+    },
+    {
+      "id": "CVE-2026-31685",
+      "source": "redhat",
+      "title": "kernel: netfilter: ip6t_eui64: reject invalid MAC header for all packets",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31685"
+      ]
+    },
+    {
+      "id": "CVE-2026-43037",
+      "source": "redhat",
+      "title": "kernel: ip6_tunnel: clear skb2->cb[] in ip4ip6_err()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43037"
+      ]
+    },
+    {
+      "id": "CVE-2026-43038",
+      "source": "redhat",
+      "title": "kernel: ipv6: icmp: clear skb2->cb[] in ip6_err_gen_icmpv6_unreach()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43038"
+      ]
+    },
+    {
+      "id": "CVE-2026-43110",
+      "source": "redhat",
+      "title": "kernel: wifi: brcmfmac: validate bsscfg indices in IF events",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43110"
+      ]
+    },
+    {
+      "id": "CVE-2026-43190",
+      "source": "redhat",
+      "title": "kernel: netfilter: xt_tcpmss: check remaining length before reading optlen",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-12",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43190"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:25533",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:25533",
+    "https://access.redhat.com/errata/RHSA-2026:25534"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2026-045-aws",
+  "source": "aws",
+  "title": "CVE-2026-11931 - Insecure Permissions on Authentication Token Cache File in Kiro IDE",
+  "description": "CVE-2026-11931 - Insecure Permissions on Authentication Token Cache File in Kiro IDE\nBulletin ID:\n2026-045-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n06/15/2026 11:45 AM PDT\nDescription:\nKiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents.\nWe identified\nCVE-2026-11931\n, where incorrect default permissions in Kiro IDE on macOS and Linux before version 0.11.133 could expose the authentication token cache file to other local users or processes via world-readable permissions (0644) instead of owner-restricted permissions (0600).\nImpacted versions:\n< 0.11.133\nResolution:\nThis issue has been addressed in Kiro IDE version\n0.11.133\n. We recommend upgrading to the\nlatest version\nand ensuring any forked or derivative code is patched to incorporate the new fixes.\nReferences:\nCVE-2026-11931\nKiro IDE version 0.11.133\nAcknowledgement:\nWe would like to thank Sergio Garcia of BeyondTrust Phantom Labs for collaborating on this issue through the coordinated disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-15",
+  "modified_date": "",
+  "affected": [
+    "aws:Kiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11931"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "0.11.133"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-11931",
+      "source": "aws",
+      "title": "CVE-2026-11931",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-045-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-045-aws/"
+  ]
+}

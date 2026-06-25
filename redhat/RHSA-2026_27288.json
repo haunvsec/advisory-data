@@ -1,0 +1,328 @@
+{
+  "id": "RHSA-2026:27288",
+  "source": "redhat",
+  "title": "Red Hat Security Advisory: kernel security, bug fix, and enhancement update",
+  "description": "Red Hat Security Advisory: kernel security, bug fix, and enhancement update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-364",
+    "CWE-190",
+    "CWE-763",
+    "CWE-787",
+    "CWE-170",
+    "CWE-825",
+    "CWE-772",
+    "CWE-125",
+    "CWE-413",
+    "CWE-1058",
+    "CWE-1341"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-20",
+  "modified_date": "2026-06-24",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux Real Time (v. 10)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-31474"
+        },
+        {
+          "id": "CVE-2026-31641"
+        },
+        {
+          "id": "CVE-2026-31669"
+        },
+        {
+          "id": "CVE-2026-31772"
+        },
+        {
+          "id": "CVE-2026-31786"
+        },
+        {
+          "id": "CVE-2026-31787"
+        },
+        {
+          "id": "CVE-2026-43056"
+        },
+        {
+          "id": "CVE-2026-43260"
+        },
+        {
+          "id": "CVE-2026-43330"
+        },
+        {
+          "id": "CVE-2026-46056"
+        },
+        {
+          "id": "CVE-2026-46125"
+        },
+        {
+          "id": "CVE-2026-46152"
+        },
+        {
+          "id": "CVE-2026-46166"
+        },
+        {
+          "id": "CVE-2026-46173"
+        },
+        {
+          "id": "CVE-2026-46331"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-31474",
+      "source": "redhat",
+      "title": "kernel: can: isotp: fix tx.buf use-after-free in isotp_sendmsg()",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31474"
+      ]
+    },
+    {
+      "id": "CVE-2026-31641",
+      "source": "redhat",
+      "title": "kernel: rxrpc: Fix RxGK token loading to check bounds",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31641"
+      ]
+    },
+    {
+      "id": "CVE-2026-31669",
+      "source": "redhat",
+      "title": "kernel: mptcp: fix slab-use-after-free in __inet_lookup_established",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31669"
+      ]
+    },
+    {
+      "id": "CVE-2026-31772",
+      "source": "redhat",
+      "title": "kernel: Bluetooth: hci_sync: fix stack buffer overflow in hci_le_big_create_sync",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31772"
+      ]
+    },
+    {
+      "id": "CVE-2026-31786",
+      "source": "redhat",
+      "title": "kernel: Buffer overflow in drivers/xen/sys-hypervisor.c",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31786"
+      ]
+    },
+    {
+      "id": "CVE-2026-31787",
+      "source": "redhat",
+      "title": "kernel: xen/privcmd: fix double free via VMA splitting",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31787"
+      ]
+    },
+    {
+      "id": "CVE-2026-43056",
+      "source": "redhat",
+      "title": "kernel: net: mana: fix use-after-free in add_adev() error path",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43056"
+      ]
+    },
+    {
+      "id": "CVE-2026-43260",
+      "source": "redhat",
+      "title": "kernel: bnxt_en: Fix RSS context delete logic",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43260"
+      ]
+    },
+    {
+      "id": "CVE-2026-43330",
+      "source": "redhat",
+      "title": "kernel: crypto: caam - fix overflow on long hmac keys",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43330"
+      ]
+    },
+    {
+      "id": "CVE-2026-46056",
+      "source": "redhat",
+      "title": "kernel: Bluetooth: hci_event: fix potential UAF in SSP passkey handlers",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46056"
+      ]
+    },
+    {
+      "id": "CVE-2026-46125",
+      "source": "redhat",
+      "title": "kernel: wifi: mac80211: remove station if connection prep fails",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 6.8,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46125"
+      ]
+    },
+    {
+      "id": "CVE-2026-46152",
+      "source": "redhat",
+      "title": "kernel: wifi: mac80211: drop stray 'static' from fast-RX rx_result",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46152"
+      ]
+    },
+    {
+      "id": "CVE-2026-46166",
+      "source": "redhat",
+      "title": "kernel: wifi: mac80211: use safe list iteration in radar detect work",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46166"
+      ]
+    },
+    {
+      "id": "CVE-2026-46173",
+      "source": "redhat",
+      "title": "kernel: exit: prevent preemption of oopsing TASK_DEAD task",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46173"
+      ]
+    },
+    {
+      "id": "CVE-2026-46331",
+      "source": "redhat",
+      "title": "kernel: net/sched: act_pedit: extend the writable skb range per key",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-20",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46331"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:27288",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:27288"
+  ]
+}

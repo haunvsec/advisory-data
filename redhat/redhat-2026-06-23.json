@@ -1,0 +1,983 @@
+{
+  "id": "redhat-2026-06-23",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-06-23",
+  "description": "Merged 38 redhat security advisories published on 2026-06-23. Original advisory IDs: RHSA-2026:28253, RHSA-2026:28254, RHSA-2026:28247, RHSA-2026:28212, RHSA-2026:28553, RHSA-2026:28255, RHSA-2026:28457, RHSA-2026:28244, RHSA-2026:28243, RHSA-2026:28458, RHSA-2026:28236, RHSA-2026:28256, RHSA-2026:28234, RHSA-2026:28227, RHSA-2026:28231, RHSA-2026:28235, RHSA-2026:28233, RHSA-2026:28209, RHSA-2026:28210, RHSA-2026:28208, RHSA-2026:28157, RHSA-2026:28159, RHSA-2026:28158, RHSA-2026:28143, RHSA-2026:28146, RHSA-2026:28148, RHSA-2026:28142, RHSA-2026:28139, RHSA-2026:28133, RHSA-2026:28132, RHSA-2026:28114, RHSA-2026:28074, RHSA-2026:28053, RHSA-2026:28054, RHSA-2026:28055, RHSA-2026:28056, RHSA-2026:28057, RHSA-2026:28058\n\nTitles:\n- Red Hat Security Advisory: libtasn1 security update\n- Red Hat Security Advisory: libxml2 security update\n- Red Hat Security Advisory: python3.14 security, bug fix, and enhancement update\n- Red Hat Security Advisory: nginx:1.24 security update\n- Red Hat Security Advisory: vim security update\n- Red Hat Security Advisory: libpng security update\n- Red Hat Security Advisory: libpng15 security update\n- Red Hat Security Advisory: libxslt security update\n- Red Hat Security Advisory: libsolv security update\n- Red Hat Security Advisory: opencryptoki security update\n- Red Hat Security Advisory: .NET 8.0 security update\n- Red Hat Security Advisory: postgresql:13 security update\n- Red Hat Security Advisory: python3.14-urllib3 security update\n- Red Hat Security Advisory: python3.12-urllib3 security update\n- Red Hat Security Advisory: python-urllib3 security update\n- Red Hat Security Advisory: postgresql:16 security update\n- Red Hat Security Advisory: webkit2gtk3 security update\n- Red Hat Security Advisory: redis:7 security update\n- Red Hat Security Advisory: redis security update\n- Red Hat Security Advisory: samba security update\n- Red Hat Security Advisory: skopeo security update",
+  "severity": "low",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-120",
+    "CWE-126",
+    "CWE-88",
+    "CWE-79",
+    "CWE-122",
+    "CWE-78",
+    "CWE-825",
+    "CWE-124",
+    "CWE-121",
+    "CWE-787",
+    "CWE-125",
+    "CWE-59",
+    "CWE-770",
+    "CWE-385",
+    "CWE-201",
+    "CWE-409",
+    "CWE-190",
+    "CWE-416",
+    "CWE-20",
+    "CWE-200",
+    "CWE-693",
+    "CWE-22",
+    "CWE-1050",
+    "CWE-764",
+    "CWE-284",
+    "CWE-280",
+    "CWE-345"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-23",
+  "modified_date": "2026-06-25",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server ResilientStorage (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Resilient Storage E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Resilient Storage E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-13151"
+        },
+        {
+          "id": "CVE-2024-34459"
+        },
+        {
+          "id": "CVE-2026-4786"
+        },
+        {
+          "id": "CVE-2026-6019"
+        },
+        {
+          "id": "CVE-2026-9256"
+        },
+        {
+          "id": "CVE-2026-41411"
+        },
+        {
+          "id": "CVE-2026-33416"
+        },
+        {
+          "id": "CVE-2026-33636"
+        },
+        {
+          "id": "CVE-2025-10911"
+        },
+        {
+          "id": "CVE-2026-9149"
+        },
+        {
+          "id": "CVE-2026-9150"
+        },
+        {
+          "id": "CVE-2026-48864"
+        },
+        {
+          "id": "CVE-2026-40253"
+        },
+        {
+          "id": "CVE-2026-45491"
+        },
+        {
+          "id": "CVE-2026-45591"
+        },
+        {
+          "id": "CVE-2026-6478"
+        },
+        {
+          "id": "CVE-2026-44431"
+        },
+        {
+          "id": "CVE-2026-44432"
+        },
+        {
+          "id": "CVE-2026-6473"
+        },
+        {
+          "id": "CVE-2026-28847"
+        },
+        {
+          "id": "CVE-2026-28883"
+        },
+        {
+          "id": "CVE-2026-28901"
+        },
+        {
+          "id": "CVE-2026-28902"
+        },
+        {
+          "id": "CVE-2026-28903"
+        },
+        {
+          "id": "CVE-2026-28904"
+        },
+        {
+          "id": "CVE-2026-28905"
+        },
+        {
+          "id": "CVE-2026-28907"
+        },
+        {
+          "id": "CVE-2026-28942"
+        },
+        {
+          "id": "CVE-2026-28946"
+        },
+        {
+          "id": "CVE-2026-28947"
+        },
+        {
+          "id": "CVE-2026-28953"
+        },
+        {
+          "id": "CVE-2026-28955"
+        },
+        {
+          "id": "CVE-2026-28958"
+        },
+        {
+          "id": "CVE-2026-43658"
+        },
+        {
+          "id": "CVE-2026-43660"
+        },
+        {
+          "id": "CVE-2026-25243"
+        },
+        {
+          "id": "CVE-2026-34982"
+        },
+        {
+          "id": "CVE-2026-35177"
+        },
+        {
+          "id": "CVE-2026-46483"
+        },
+        {
+          "id": "CVE-2026-4408"
+        },
+        {
+          "id": "CVE-2026-4480"
+        },
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32281"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
+          "id": "CVE-2026-1933"
+        },
+        {
+          "id": "CVE-2026-2340"
+        },
+        {
+          "id": "CVE-2026-3012"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2024-34459",
+      "source": "redhat",
+      "title": "libxml2: buffer over-read in xmlHTMLPrintFileContext in xmllint.c",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2024-34459"
+      ]
+    },
+    {
+      "id": "CVE-2025-10911",
+      "source": "redhat",
+      "title": "libxslt: use-after-free with key data stored cross-RVT",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-10911"
+      ]
+    },
+    {
+      "id": "CVE-2025-13151",
+      "source": "redhat",
+      "title": "libtasn1: libtasn1: Denial of Service via stack-based buffer overflow in asn1_expend_octet_string",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-13151"
+      ]
+    },
+    {
+      "id": "CVE-2026-1933",
+      "source": "redhat",
+      "title": "samba: Missing access check on reparse point operations",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-1933"
+      ]
+    },
+    {
+      "id": "CVE-2026-2340",
+      "source": "redhat",
+      "title": "samba: vfs_worm does not block directory modification",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-2340"
+      ]
+    },
+    {
+      "id": "CVE-2026-25243",
+      "source": "redhat",
+      "title": "redis: RESTORE invalid memory access may allow remote code execution",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-25243"
+      ]
+    },
+    {
+      "id": "CVE-2026-28847",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28847"
+      ]
+    },
+    {
+      "id": "CVE-2026-28883",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28883"
+      ]
+    },
+    {
+      "id": "CVE-2026-28901",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28901"
+      ]
+    },
+    {
+      "id": "CVE-2026-28902",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28902"
+      ]
+    },
+    {
+      "id": "CVE-2026-28903",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28903"
+      ]
+    },
+    {
+      "id": "CVE-2026-28904",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28904"
+      ]
+    },
+    {
+      "id": "CVE-2026-28905",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28905"
+      ]
+    },
+    {
+      "id": "CVE-2026-28907",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28907"
+      ]
+    },
+    {
+      "id": "CVE-2026-28942",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28942"
+      ]
+    },
+    {
+      "id": "CVE-2026-28946",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28946"
+      ]
+    },
+    {
+      "id": "CVE-2026-28947",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28947"
+      ]
+    },
+    {
+      "id": "CVE-2026-28953",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28953"
+      ]
+    },
+    {
+      "id": "CVE-2026-28955",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28955"
+      ]
+    },
+    {
+      "id": "CVE-2026-28958",
+      "source": "redhat",
+      "title": "webkitgtk: An app may be able to access sensitive user data",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-28958"
+      ]
+    },
+    {
+      "id": "CVE-2026-3012",
+      "source": "redhat",
+      "title": "samba: group policy certificate enrollment uses http:// without validation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.0,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-3012"
+      ]
+    },
+    {
+      "id": "CVE-2026-32280",
+      "source": "redhat",
+      "title": "crypto/x509: crypto/tls: golang: Go: Denial of Service vulnerability in certificate chain building",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32280"
+      ]
+    },
+    {
+      "id": "CVE-2026-32281",
+      "source": "redhat",
+      "title": "crypto/x509: golang: Go crypto/x509: Denial of Service via inefficient certificate chain validation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32281"
+      ]
+    },
+    {
+      "id": "CVE-2026-32283",
+      "source": "redhat",
+      "title": "crypto/tls: golang: Go crypto/tls: Denial of Service via multiple TLS 1.3 key update messages",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32283"
+      ]
+    },
+    {
+      "id": "CVE-2026-33416",
+      "source": "redhat",
+      "title": "libpng: libpng: Arbitrary code execution due to use-after-free vulnerability",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33416"
+      ]
+    },
+    {
+      "id": "CVE-2026-33636",
+      "source": "redhat",
+      "title": "libpng: libpng: Information disclosure and denial of service via out-of-bounds read/write in Neon palette expansion",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33636"
+      ]
+    },
+    {
+      "id": "CVE-2026-34982",
+      "source": "redhat",
+      "title": "vim: arbitrary command execution via modeline sandbox bypass",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34982"
+      ]
+    },
+    {
+      "id": "CVE-2026-35177",
+      "source": "redhat",
+      "title": "vim: zip.vim: Vim zip.vim plugin: Arbitrary file overwrite via path traversal bypass",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:L",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-35177"
+      ]
+    },
+    {
+      "id": "CVE-2026-40253",
+      "source": "redhat",
+      "title": "openCryptoki: openCryptoki: Information disclosure and Denial of Service via malformed BER-encoded cryptographic objects",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-40253"
+      ]
+    },
+    {
+      "id": "CVE-2026-41411",
+      "source": "redhat",
+      "title": "vim: Vim: Command injection allows arbitrary code execution via malicious tag files",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-41411"
+      ]
+    },
+    {
+      "id": "CVE-2026-43658",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43658"
+      ]
+    },
+    {
+      "id": "CVE-2026-43660",
+      "source": "redhat",
+      "title": "webkitgtk: Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43660"
+      ]
+    },
+    {
+      "id": "CVE-2026-4408",
+      "source": "redhat",
+      "title": "samba: Remote Code Execution in SAMR",
+      "description": "",
+      "severity": null,
+      "cvss_score": 9.0,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-4408"
+      ]
+    },
+    {
+      "id": "CVE-2026-44431",
+      "source": "redhat",
+      "title": "urllib3: urllib3: Information disclosure via cross-origin redirects forwarding sensitive headers",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-44431"
+      ]
+    },
+    {
+      "id": "CVE-2026-44432",
+      "source": "redhat",
+      "title": "urllib3: urllib3: Denial of Service due to excessive HTTP response decompression",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-44432"
+      ]
+    },
+    {
+      "id": "CVE-2026-4480",
+      "source": "redhat",
+      "title": "samba: Samba: Remote Code Execution in printing subsystem via unescaped job description",
+      "description": "",
+      "severity": null,
+      "cvss_score": 9.0,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-4480"
+      ]
+    },
+    {
+      "id": "CVE-2026-45491",
+      "source": "redhat",
+      "title": "dotnet: .NET: Local file tampering via link following vulnerability",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.2,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-45491"
+      ]
+    },
+    {
+      "id": "CVE-2026-45591",
+      "source": "redhat",
+      "title": "dotnet: ASP.NET Core: Denial of Service via uncontrolled resource consumption",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-45591"
+      ]
+    },
+    {
+      "id": "CVE-2026-46483",
+      "source": "redhat",
+      "title": "vim: command injection when decompressing .tgz archives",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46483"
+      ]
+    },
+    {
+      "id": "CVE-2026-4786",
+      "source": "redhat",
+      "title": "python: cpython: Python: Arbitrary code execution via command injection in webbrowser.open() API",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:L",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-4786"
+      ]
+    },
+    {
+      "id": "CVE-2026-48864",
+      "source": "redhat",
+      "title": "libsolv: Heap buffer overflow in libsolv repopagestore via unchecked decompression of malicious .solv page data",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48864"
+      ]
+    },
+    {
+      "id": "CVE-2026-6019",
+      "source": "redhat",
+      "title": "python: Python: Cross-Site Scripting (XSS) vulnerability in http.cookies module",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6019"
+      ]
+    },
+    {
+      "id": "CVE-2026-6473",
+      "source": "redhat",
+      "title": "postgresql: integer overflow can cause an undersized allocation and an out-of-bounds write",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6473"
+      ]
+    },
+    {
+      "id": "CVE-2026-6478",
+      "source": "redhat",
+      "title": "postgresql: PostgreSQL: Credential recovery via covert timing channel in MD5 password comparison",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6478"
+      ]
+    },
+    {
+      "id": "CVE-2026-9149",
+      "source": "redhat",
+      "title": "libsolv: Heap buffer overflow in libsolv repo_add_solv via negative maxsize from crafted .solv file",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-9149"
+      ]
+    },
+    {
+      "id": "CVE-2026-9150",
+      "source": "redhat",
+      "title": "libsolv: Stack-based buffer overflow in libsolv's Debian metadata parser when handling SHA384/SHA512 checksums",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-9150"
+      ]
+    },
+    {
+      "id": "CVE-2026-9256",
+      "source": "redhat",
+      "title": "nginx: ngx_http_rewrite_module: code execution and denial of service",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-06-23",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-9256"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:28253",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:28253",
+    "https://access.redhat.com/errata/RHSA-2026:28254",
+    "https://access.redhat.com/errata/RHSA-2026:28247",
+    "https://access.redhat.com/errata/RHSA-2026:28212",
+    "https://access.redhat.com/errata/RHSA-2026:28553",
+    "https://access.redhat.com/errata/RHSA-2026:28255",
+    "https://access.redhat.com/errata/RHSA-2026:28457",
+    "https://access.redhat.com/errata/RHSA-2026:28244",
+    "https://access.redhat.com/errata/RHSA-2026:28243",
+    "https://access.redhat.com/errata/RHSA-2026:28458",
+    "https://access.redhat.com/errata/RHSA-2026:28236",
+    "https://access.redhat.com/errata/RHSA-2026:28256",
+    "https://access.redhat.com/errata/RHSA-2026:28234",
+    "https://access.redhat.com/errata/RHSA-2026:28227",
+    "https://access.redhat.com/errata/RHSA-2026:28231",
+    "https://access.redhat.com/errata/RHSA-2026:28235",
+    "https://access.redhat.com/errata/RHSA-2026:28233",
+    "https://access.redhat.com/errata/RHSA-2026:28209",
+    "https://access.redhat.com/errata/RHSA-2026:28210",
+    "https://access.redhat.com/errata/RHSA-2026:28208",
+    "https://access.redhat.com/errata/RHSA-2026:28157",
+    "https://access.redhat.com/errata/RHSA-2026:28159",
+    "https://access.redhat.com/errata/RHSA-2026:28158",
+    "https://access.redhat.com/errata/RHSA-2026:28143",
+    "https://access.redhat.com/errata/RHSA-2026:28146",
+    "https://access.redhat.com/errata/RHSA-2026:28148",
+    "https://access.redhat.com/errata/RHSA-2026:28142",
+    "https://access.redhat.com/errata/RHSA-2026:28139",
+    "https://access.redhat.com/errata/RHSA-2026:28133",
+    "https://access.redhat.com/errata/RHSA-2026:28132",
+    "https://access.redhat.com/errata/RHSA-2026:28114",
+    "https://access.redhat.com/errata/RHSA-2026:28074",
+    "https://access.redhat.com/errata/RHSA-2026:28053",
+    "https://access.redhat.com/errata/RHSA-2026:28054",
+    "https://access.redhat.com/errata/RHSA-2026:28055",
+    "https://access.redhat.com/errata/RHSA-2026:28056",
+    "https://access.redhat.com/errata/RHSA-2026:28057",
+    "https://access.redhat.com/errata/RHSA-2026:28058"
+  ]
+}

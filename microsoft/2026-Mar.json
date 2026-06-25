@@ -1,6 +1,6 @@
 {
   "id": "2026-Mar",
-  "source": "msrc",
+  "source": "microsoft",
   "title": "March 2026 Security Updates",
   "description": "March 2026 Security Updates",
   "severity": "important",
@@ -472682,7 +472682,7 @@
   "cves": [
     {
       "id": "CVE-2026-23234",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "f2fs: fix to avoid UAF in f2fs_write_end_io()",
       "description": "",
       "severity": "important",
@@ -472697,7 +472697,7 @@
     },
     {
       "id": "CVE-2026-23235",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "f2fs: fix out-of-bounds access in sysfs attribute read/write",
       "description": "",
       "severity": "important",
@@ -472712,7 +472712,7 @@
     },
     {
       "id": "CVE-2026-23237",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "platform/x86: classmate-laptop: Add missing NULL pointer checks",
       "description": "",
       "severity": "moderate",
@@ -472727,7 +472727,7 @@
     },
     {
       "id": "CVE-2026-23238",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "romfs: check sb_set_blocksize() return value",
       "description": "",
       "severity": "moderate",
@@ -472742,7 +472742,7 @@
     },
     {
       "id": "CVE-2026-3336",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "PKCS7_verify Certificate Chain Validation Bypass in AWS-LC",
       "description": "",
       "severity": "important",
@@ -472757,7 +472757,7 @@
     },
     {
       "id": "CVE-2026-0038",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "In multiple functions of mem_protect.c, there is a possible way to execute arbitrary code due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
       "description": "",
       "severity": "important",
@@ -472772,7 +472772,7 @@
     },
     {
       "id": "CVE-2026-27601",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Underscore.js has unlimited recursion in _.flatten and _.isEqual, potential for DoS attack",
       "description": "",
       "severity": "important",
@@ -472787,7 +472787,7 @@
     },
     {
       "id": "CVE-2026-2297",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "SourcelessFileLoader does not use io.open_code()",
       "description": "",
       "severity": "moderate",
@@ -472802,7 +472802,7 @@
     },
     {
       "id": "CVE-2026-26017",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "CoreDNS ACL Bypass",
       "description": "",
       "severity": "important",
@@ -472817,7 +472817,7 @@
     },
     {
       "id": "CVE-2026-26018",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "CoreDNS Loop Detection Denial of Service Vulnerability",
       "description": "",
       "severity": "important",
@@ -472832,7 +472832,7 @@
     },
     {
       "id": "CVE-2026-3731",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "libssh SFTP Extension Name sftp.c sftp_extensions_get_data out-of-bounds",
       "description": "",
       "severity": "moderate",
@@ -472847,7 +472847,7 @@
     },
     {
       "id": "CVE-2025-69646",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Binutils objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF debug_rnglists data. A logic error in the handling of the debug_rnglists header can cause objdump to repeatedly print the same warning message and fail to terminate, resulting in an unbounded logging loop until the process is interrupted. The issue was observed in binutils 2.44. A local attacker can exploit this vulnerability by supplying a malicious input file, leading to excessive CPU and I/O usage and preventing completion of the objdump analysis.",
       "description": "",
       "severity": "moderate",
@@ -472862,7 +472862,7 @@
     },
     {
       "id": "CVE-2025-69652",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "GNU Binutils thru 2.46 readelf contains a vulnerability that leads to an abort (SIGABRT) when processing a crafted ELF binary with malformed DWARF abbrev or debug information. Due to incomplete state cleanup in process_debug_info(), an invalid debug_info_p state may propagate into DWARF attribute parsing routines. When certain malformed attributes result in an unexpected data length of zero, byte_get_little_endian() triggers a fatal abort. No evidence of memory corruption or code execution was observed; the impact is limited to denial of service.",
       "description": "",
       "severity": "moderate",
@@ -472877,7 +472877,7 @@
     },
     {
       "id": "CVE-2025-69645",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Binutils objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF debug information. A logic error in the handling of DWARF compilation units can result in an invalid offset_size value being used inside byte_get_little_endian, leading to an abort (SIGABRT). The issue was observed in binutils 2.44. A local attacker can trigger the crash by supplying a malicious input file.",
       "description": "",
       "severity": "moderate",
@@ -472892,7 +472892,7 @@
     },
     {
       "id": "CVE-2025-69649",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "GNU Binutils thru 2.46 readelf contains a null pointer dereference vulnerability when processing a crafted ELF binary with malformed header fields. During relocation processing, an invalid or null section pointer may be passed into display_relocations(), resulting in a segmentation fault (SIGSEGV) and abrupt termination. No evidence of memory corruption beyond the null pointer dereference, nor any possibility of code execution, was observed.",
       "description": "",
       "severity": "moderate",
@@ -472907,7 +472907,7 @@
     },
     {
       "id": "CVE-2026-27142",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "URLs in meta content attribute actions are not escaped in html/template",
       "description": "",
       "severity": "important",
@@ -472922,7 +472922,7 @@
     },
     {
       "id": "CVE-2026-25679",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Incorrect parsing of IPv6 host literals in net/url",
       "description": "",
       "severity": "important",
@@ -472937,7 +472937,7 @@
     },
     {
       "id": "CVE-2026-23868",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Giflib contains a double-free vulnerability that is the result of a shallow copy in GifMakeSavedImage and incorrect error handling. The conditions needed to trigger this vulnerability are difficult but may be possible.",
       "description": "",
       "severity": "important",
@@ -472952,7 +472952,7 @@
     },
     {
       "id": "CVE-2026-3783",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "token leak with redirect and netrc",
       "description": "",
       "severity": "moderate",
@@ -472967,7 +472967,7 @@
     },
     {
       "id": "CVE-2026-31802",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "node-tar Symlink Path Traversal via Drive-Relative Linkpath",
       "description": "",
       "severity": "important",
@@ -472982,7 +472982,7 @@
     },
     {
       "id": "CVE-2025-66413",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Git for Windows leaks NTLM hash when cloning from an attacker-controlled server",
       "description": "",
       "severity": "important",
@@ -472997,7 +472997,7 @@
     },
     {
       "id": "CVE-2026-32775",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "libexif through 0.6.25 has a flaw in decoding MakerNotes. If the exif_mnote_data_get_value function gets passed in a 0 size, the passed in-buffer would be overwritten due to an integer underflow.",
       "description": "",
       "severity": "important",
@@ -473012,7 +473012,7 @@
     },
     {
       "id": "CVE-2026-23941",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Request smuggling via first-wins Content-Length parsing in inets httpd",
       "description": "",
       "severity": "important",
@@ -473027,7 +473027,7 @@
     },
     {
       "id": "CVE-2026-23943",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Pre-auth SSH DoS via unbounded zlib inflate",
       "description": "",
       "severity": "moderate",
@@ -473042,7 +473042,7 @@
     },
     {
       "id": "CVE-2026-23241",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "audit: add missing syscalls to read class",
       "description": "",
       "severity": "moderate",
@@ -473057,7 +473057,7 @@
     },
     {
       "id": "CVE-2025-71239",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "audit: add fchmodat2() to change attributes class",
       "description": "",
       "severity": "moderate",
@@ -473072,7 +473072,7 @@
     },
     {
       "id": "CVE-2026-23233",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "f2fs: fix to avoid mapping wrong physical block for swapfile",
       "description": "",
       "severity": "important",
@@ -473087,7 +473087,7 @@
     },
     {
       "id": "CVE-2026-23242",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "RDMA/siw: Fix potential NULL pointer dereference in header processing",
       "description": "",
       "severity": "moderate",
@@ -473102,7 +473102,7 @@
     },
     {
       "id": "CVE-2026-23245",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net/sched: act_gate: snapshot parameters with RCU on replace",
       "description": "",
       "severity": "moderate",
@@ -473117,7 +473117,7 @@
     },
     {
       "id": "CVE-2025-71266",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "fs: ntfs3: check return value of indx_find to avoid infinite loop",
       "description": "",
       "severity": "moderate",
@@ -473132,7 +473132,7 @@
     },
     {
       "id": "CVE-2025-71267",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "fs: ntfs3: fix infinite loop triggered by zero-sized ATTR_LIST",
       "description": "",
       "severity": "moderate",
@@ -473147,7 +473147,7 @@
     },
     {
       "id": "CVE-2026-23244",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "nvme: fix memory allocation in nvme_pr_read_keys()",
       "description": "",
       "severity": "moderate",
@@ -473162,7 +473162,7 @@
     },
     {
       "id": "CVE-2026-23243",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "RDMA/umad: Reject negative data_len in ib_umad_write",
       "description": "",
       "severity": "important",
@@ -473177,7 +473177,7 @@
     },
     {
       "id": "CVE-2026-4224",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Stack overflow parsing XML with deeply nested DTD content models",
       "description": "",
       "severity": "moderate",
@@ -473192,7 +473192,7 @@
     },
     {
       "id": "CVE-2026-3644",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Incomplete control character validation in http.cookies",
       "description": "",
       "severity": "moderate",
@@ -473207,7 +473207,7 @@
     },
     {
       "id": "CVE-2026-23269",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "apparmor: validate DFA start states are in bounds in unpack_pdb",
       "description": "",
       "severity": "moderate",
@@ -473222,7 +473222,7 @@
     },
     {
       "id": "CVE-2026-23259",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "io_uring/rw: free potentially allocated iovec on cache put failure",
       "description": "",
       "severity": "moderate",
@@ -473237,7 +473237,7 @@
     },
     {
       "id": "CVE-2026-23268",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "apparmor: fix unprivileged local user can do privileged policy management",
       "description": "",
       "severity": "important",
@@ -473252,7 +473252,7 @@
     },
     {
       "id": "CVE-2026-23266",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "fbdev: rivafb: fix divide error in nv3_arb()",
       "description": "",
       "severity": "moderate",
@@ -473267,7 +473267,7 @@
     },
     {
       "id": "CVE-2026-23265",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "f2fs: fix to do sanity check on node footer in {read,write}_end_io",
       "description": "",
       "severity": "important",
@@ -473282,7 +473282,7 @@
     },
     {
       "id": "CVE-2006-10002",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "XML::Parser versions through 2.47 for Perl could overflow the pre-allocated buffer size cause a heap corruption (double free or corruption) and crashes",
       "description": "",
       "severity": "moderate",
@@ -473297,7 +473297,7 @@
     },
     {
       "id": "CVE-2026-23274",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "netfilter: xt_IDLETIMER: reject rev0 reuse of ALARM timer labels",
       "description": "",
       "severity": "moderate",
@@ -473312,7 +473312,7 @@
     },
     {
       "id": "CVE-2026-23278",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "netfilter: nf_tables: always walk all pending catchall elements",
       "description": "",
       "severity": "moderate",
@@ -473327,7 +473327,7 @@
     },
     {
       "id": "CVE-2026-23272",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "netfilter: nf_tables: unconditionally bump set->nelems before insertion",
       "description": "",
       "severity": "moderate",
@@ -473342,7 +473342,7 @@
     },
     {
       "id": "CVE-2026-23276",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: add xmit recursion limit to tunnel xmit functions",
       "description": "",
       "severity": "moderate",
@@ -473357,7 +473357,7 @@
     },
     {
       "id": "CVE-2026-3634",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libsoup: libsoup: http header injection and response splitting via crlf injection in content-type header",
       "description": "",
       "severity": "low",
@@ -473372,7 +473372,7 @@
     },
     {
       "id": "CVE-2026-3632",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libsoup: libsoup: http smuggling and server-side request forgery via malformed hostnames",
       "description": "",
       "severity": "low",
@@ -473387,7 +473387,7 @@
     },
     {
       "id": "CVE-2026-3479",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "pkgutil.get_data() does not enforce documented restrictions",
       "description": "",
       "severity": "low",
@@ -473402,7 +473402,7 @@
     },
     {
       "id": "CVE-2026-4437",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "gethostbyaddr and gethostbyaddr_r may incorrectly handle DNS response",
       "description": "",
       "severity": "moderate",
@@ -473417,7 +473417,7 @@
     },
     {
       "id": "CVE-2026-4438",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "gethostbyaddr and gethostbyaddr_r return invalid DNS hostnames",
       "description": "",
       "severity": "moderate",
@@ -473432,7 +473432,7 @@
     },
     {
       "id": "CVE-2026-4426",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libarchive: libarchive: denial of service via malformed iso file processing",
       "description": "",
       "severity": "moderate",
@@ -473447,7 +473447,7 @@
     },
     {
       "id": "CVE-2026-4395",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Heap-based buffer overflow in wc_ecc_import_x963_ex KCAPI path",
       "description": "",
       "severity": "low",
@@ -473462,7 +473462,7 @@
     },
     {
       "id": "CVE-2026-1005",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Integer underflow leads to out-of-bounds access in sniffer AES-GCM/CCM/ARIA-GCM decrypt path",
       "description": "",
       "severity": "low",
@@ -473477,7 +473477,7 @@
     },
     {
       "id": "CVE-2026-3549",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "ECH parsing heap buffer overflow",
       "description": "",
       "severity": "important",
@@ -473492,7 +473492,7 @@
     },
     {
       "id": "CVE-2026-29111",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "systemd: Local unprivileged user can trigger an assert",
       "description": "",
       "severity": "moderate",
@@ -473507,7 +473507,7 @@
     },
     {
       "id": "CVE-2026-23382",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "HID: Add HID_CLAIMED_INPUT guards in raw_event callbacks missing them",
       "description": "",
       "severity": "moderate",
@@ -473522,7 +473522,7 @@
     },
     {
       "id": "CVE-2026-23391",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "netfilter: xt_CT: drop pending enqueued packets on template removal",
       "description": "",
       "severity": "important",
@@ -473537,7 +473537,7 @@
     },
     {
       "id": "CVE-2026-23377",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "ice: change XDP RxQ frag_size from DMA write length to xdp.frame_sz",
       "description": "",
       "severity": "important",
@@ -473552,7 +473552,7 @@
     },
     {
       "id": "CVE-2026-23359",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "bpf: Fix stack-out-of-bounds write in devmap",
       "description": "",
       "severity": "important",
@@ -473567,7 +473567,7 @@
     },
     {
       "id": "CVE-2026-23325",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wifi: mt76: mt7996: Fix possible oob access in mt7996_mac_write_txwi_80211()",
       "description": "",
       "severity": "important",
@@ -473582,7 +473582,7 @@
     },
     {
       "id": "CVE-2026-23313",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "i40e: Fix preempt count leak in napi poll tracepoint",
       "description": "",
       "severity": "important",
@@ -473597,7 +473597,7 @@
     },
     {
       "id": "CVE-2026-23306",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "scsi: pm8001: Fix use-after-free in pm8001_queue_command()",
       "description": "",
       "severity": "important",
@@ -473612,7 +473612,7 @@
     },
     {
       "id": "CVE-2026-23383",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "bpf, arm64: Force 8-byte alignment for JIT buffer to prevent atomic tearing",
       "description": "",
       "severity": "moderate",
@@ -473627,7 +473627,7 @@
     },
     {
       "id": "CVE-2026-23307",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "can: ems_usb: ems_usb_read_bulk_callback(): check the proper length of a message",
       "description": "",
       "severity": "moderate",
@@ -473642,7 +473642,7 @@
     },
     {
       "id": "CVE-2026-23348",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "cxl: Fix race of nvdimm_bus object when creating nvdimm objects",
       "description": "",
       "severity": "moderate",
@@ -473657,7 +473657,7 @@
     },
     {
       "id": "CVE-2026-23378",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net/sched: act_ife: Fix metalist update behavior",
       "description": "",
       "severity": "important",
@@ -473672,7 +473672,7 @@
     },
     {
       "id": "CVE-2026-23352",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "x86/efi: defer freeing of boot services memory",
       "description": "",
       "severity": "important",
@@ -473687,7 +473687,7 @@
     },
     {
       "id": "CVE-2026-23298",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "can: ucan: Fix infinite loop from zero-length messages",
       "description": "",
       "severity": "moderate",
@@ -473702,7 +473702,7 @@
     },
     {
       "id": "CVE-2026-23371",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "sched/deadline: Fix missing ENQUEUE_REPLENISH during PI de-boosting",
       "description": "",
       "severity": "moderate",
@@ -473717,7 +473717,7 @@
     },
     {
       "id": "CVE-2026-23340",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: sched: avoid qdisc_reset_all_tx_gt() vs dequeue race for lockless qdiscs",
       "description": "",
       "severity": "important",
@@ -473732,7 +473732,7 @@
     },
     {
       "id": "CVE-2026-23351",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "netfilter: nft_set_pipapo: split gc into unlink and reclaim phase",
       "description": "",
       "severity": "moderate",
@@ -473747,7 +473747,7 @@
     },
     {
       "id": "CVE-2026-23319",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "bpf: Fix a UAF issue in bpf_trampoline_link_cgroup_shim",
       "description": "",
       "severity": "moderate",
@@ -473762,7 +473762,7 @@
     },
     {
       "id": "CVE-2026-23300",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: ipv6: fix panic when IPv4 route references loopback IPv6 nexthop",
       "description": "",
       "severity": "important",
@@ -473777,7 +473777,7 @@
     },
     {
       "id": "CVE-2026-23293",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: vxlan: fix nd_tbl NULL dereference when IPv6 is disabled",
       "description": "",
       "severity": "important",
@@ -473792,7 +473792,7 @@
     },
     {
       "id": "CVE-2026-23343",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "xdp: produce a warning when calculated tailroom is negative",
       "description": "",
       "severity": "important",
@@ -473807,7 +473807,7 @@
     },
     {
       "id": "CVE-2026-23389",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "ice: Fix memory leak in ice_set_ringparam()",
       "description": "",
       "severity": "moderate",
@@ -473822,7 +473822,7 @@
     },
     {
       "id": "CVE-2026-23324",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "can: usb: etas_es58x: correctly anchor the urb in the read bulk callback",
       "description": "",
       "severity": "moderate",
@@ -473837,7 +473837,7 @@
     },
     {
       "id": "CVE-2026-23365",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: usb: kalmia: validate USB endpoints",
       "description": "",
       "severity": "moderate",
@@ -473852,7 +473852,7 @@
     },
     {
       "id": "CVE-2026-23284",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: ethernet: mtk_eth_soc: Reset prog ptr to old_prog in case of error in mtk_xdp_setup()",
       "description": "",
       "severity": "moderate",
@@ -473867,7 +473867,7 @@
     },
     {
       "id": "CVE-2026-28753",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "NGINX ngx_mail_proxy_module vulnerability",
       "description": "",
       "severity": "moderate",
@@ -473882,7 +473882,7 @@
     },
     {
       "id": "CVE-2026-32647",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "NGINX ngx_http_mp4_module vulnerability",
       "description": "",
       "severity": "important",
@@ -473897,7 +473897,7 @@
     },
     {
       "id": "CVE-2026-23398",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "icmp: fix NULL pointer dereference in icmp_tag_validation()",
       "description": "",
       "severity": "moderate",
@@ -473912,7 +473912,7 @@
     },
     {
       "id": "CVE-2026-23396",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wifi: mac80211: fix NULL deref in mesh_matches_local()",
       "description": "",
       "severity": "moderate",
@@ -473927,7 +473927,7 @@
     },
     {
       "id": "CVE-2026-4645",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Github.com/antchfx/xpath: xpath: denial of service via crafted boolean xpath expressions",
       "description": "",
       "severity": "important",
@@ -473942,7 +473942,7 @@
     },
     {
       "id": "CVE-2026-33343",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "etcd: Nested etcd transactions bypass RBAC authorization checks",
       "description": "",
       "severity": "moderate",
@@ -473957,7 +473957,7 @@
     },
     {
       "id": "CVE-2026-33413",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "etcd: Authorization bypasses in multiple APIs",
       "description": "",
       "severity": "important",
@@ -473972,7 +473972,7 @@
     },
     {
       "id": "CVE-2026-3104",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Memory leak in code preparing DNSSEC proofs of non-existence",
       "description": "",
       "severity": "important",
@@ -473987,7 +473987,7 @@
     },
     {
       "id": "CVE-2026-3591",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "A stack use-after-return flaw in SIG(0) handling code may enable ACL bypass",
       "description": "",
       "severity": "moderate",
@@ -474002,7 +474002,7 @@
     },
     {
       "id": "CVE-2026-33636",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "LIBPNG has ARM NEON Palette Expansion Out-of-Bounds Read on AArch64",
       "description": "",
       "severity": "important",
@@ -474017,7 +474017,7 @@
     },
     {
       "id": "CVE-2026-23399",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "nf_tables: nft_dynset: fix possible stateful expression memleak in error path",
       "description": "",
       "severity": "moderate",
@@ -474032,7 +474032,7 @@
     },
     {
       "id": "CVE-2025-67030",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Directory Traversal vulnerability in the extractFile method of org.codehaus.plexus.util.Expand in plexus-utils before 6d780b3378829318ba5c2d29547e0012d5b29642. This allows an attacker to execute arbitrary code",
       "description": "",
       "severity": "important",
@@ -474047,7 +474047,7 @@
     },
     {
       "id": "CVE-2025-70888",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "An issue in mtrojnar Osslsigncode affected at v2.10 and before allows a remote attacker to escalate privileges via the osslsigncode.c component",
       "description": "",
       "severity": "low",
@@ -474062,7 +474062,7 @@
     },
     {
       "id": "CVE-2026-0965",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libssh: libssh: denial of service via improper configuration file handling",
       "description": "",
       "severity": "low",
@@ -474077,7 +474077,7 @@
     },
     {
       "id": "CVE-2026-21712",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "A flaw in Node.js URL processing causes an assertion failure in native code when `url.format()` is called with a malformed internationalized domain name (IDN) containing invalid characters, crashing the Node.js process.",
       "description": "",
       "severity": "moderate",
@@ -474092,7 +474092,7 @@
     },
     {
       "id": "CVE-2026-34353",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "In OCaml through 4.14.3, Bigarray.reshape allows an integer overflow, and resultant reading of arbitrary memory, when untrusted data is processed.",
       "description": "",
       "severity": "moderate",
@@ -474107,7 +474107,7 @@
     },
     {
       "id": "CVE-2026-33750",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
       "description": "",
       "severity": "moderate",
@@ -474122,7 +474122,7 @@
     },
     {
       "id": "CVE-2026-33938",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Handlebars.js has JavaScript Injection via AST Type Confusion by tampering @partial-block",
       "description": "",
       "severity": "important",
@@ -474137,7 +474137,7 @@
     },
     {
       "id": "CVE-2026-33939",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Handlebars.js has Denial of Service via Malformed Decorator Syntax in Template Compilation",
       "description": "",
       "severity": "important",
@@ -474152,7 +474152,7 @@
     },
     {
       "id": "CVE-2026-33937",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Handlebars.js has JavaScript Injection via AST Type Confusion",
       "description": "",
       "severity": "critical",
@@ -474167,7 +474167,7 @@
     },
     {
       "id": "CVE-2026-5107",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "FRRouting FRR EVPN Type-2 Route bgp_evpn.c process_type2_route access control",
       "description": "",
       "severity": "low",
@@ -474182,7 +474182,7 @@
     },
     {
       "id": "CVE-2025-66037",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "OpenSC: Out of Bounds vulnerability",
       "description": "",
       "severity": "low",
@@ -474197,7 +474197,7 @@
     },
     {
       "id": "CVE-2026-34714",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Vim before 9.2.0272 allows code execution that happens immediately upon opening a crafted file in the default configuration, because %{expr} injection occurs with tabpanel lacking P_MLE.",
       "description": "",
       "severity": "important",
@@ -474212,7 +474212,7 @@
     },
     {
       "id": "CVE-2026-21717",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "A flaw in V8's string hashing mechanism causes integer-like strings to be hashed to their numeric value, making hash collisions trivially predictable. By crafting a request that causes many such collisions in V8's internal string table, an attacker can significantly degrade performance of the Node.js process.\n\nThe most common trigger is any endpoint that calls `JSON.parse()` on attacker-controlled input, as JSON parsing automatically internalizes short strings into the affected hash table.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x**.",
       "description": "",
       "severity": "moderate",
@@ -474227,7 +474227,7 @@
     },
     {
       "id": "CVE-2026-21715",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "A flaw in Node.js Permission Model filesystem enforcement leaves `fs.realpathSync.native()` without the required read permission checks, while all comparable filesystem functions correctly enforce them.\n\nAs a result, code running under `--permission` with restricted `--allow-fs-read` can still use `fs.realpathSync.native()` to check file existence, resolve symlink targets, and enumerate filesystem paths outside of permitted directories.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x** processes using the Permission Model where `--allow-fs-read` is intentionally restricted.",
       "description": "",
       "severity": "low",
@@ -474242,7 +474242,7 @@
     },
     {
       "id": "CVE-2026-21714",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "A memory leak occurs in Node.js HTTP/2 servers when a client sends WINDOW_UPDATE frames on stream 0 (connection-level) that cause the flow control window to exceed the maximum value of 2³¹-1. The server correctly sends a GOAWAY frame, but the Http2Session object is never cleaned up.\n\nThis vulnerability affects HTTP2 users on Node.js 20, 22, 24 and 25.",
       "description": "",
       "severity": "moderate",
@@ -474257,7 +474257,7 @@
     },
     {
       "id": "CVE-2026-4046",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "iconv crash due to assertion failure with untrusted input",
       "description": "",
       "severity": "important",
@@ -474272,7 +474272,7 @@
     },
     {
       "id": "CVE-2026-5119",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libsoup: libsoup: information disclosure via cleartext transmission of cookies during https tunnel establishment",
       "description": "",
       "severity": "moderate",
@@ -474287,7 +474287,7 @@
     },
     {
       "id": "CVE-2026-4897",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Polkit: polkit: denial of service via unbounded input processing through standard input",
       "description": "",
       "severity": "moderate",
@@ -474302,7 +474302,7 @@
     },
     {
       "id": "CVE-2026-29785",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "NATS Server panic via malicious compression on leafnode port",
       "description": "",
       "severity": "important",
@@ -474317,7 +474317,7 @@
     },
     {
       "id": "CVE-2025-70873",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "An information disclosure issue in the zipfileInflate function in the zipfile extension in SQLite v3.51.1 and earlier allows attackers to obtain heap memory via supplying a crafted ZIP file.",
       "description": "",
       "severity": "important",
@@ -474332,7 +474332,7 @@
     },
     {
       "id": "CVE-2026-23394",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "af_unix: Give up GC if MSG_PEEK intervened.",
       "description": "",
       "severity": "moderate",
@@ -474347,7 +474347,7 @@
     },
     {
       "id": "CVE-2026-23362",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "can: bcm: fix locking for bcm_op runtime updates",
       "description": "",
       "severity": "moderate",
@@ -474362,7 +474362,7 @@
     },
     {
       "id": "CVE-2026-4948",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Firewalld: firewalld: local unprivileged user can modify firewall state due to d-bus setter mis-authorization",
       "description": "",
       "severity": "moderate",
@@ -474377,7 +474377,7 @@
     },
     {
       "id": "CVE-2026-23865",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "An integer overflow in the tt_var_load_item_variation_store function of the Freetype library in versions 2.13.2 and 2.13.3 may allow for an out of bounds read operation when parsing HVAR/VVAR/MVAR tables in OpenType variable fonts. This issue is fixed in version 2.14.2.",
       "description": "",
       "severity": "moderate",
@@ -474392,7 +474392,7 @@
     },
     {
       "id": "CVE-2026-23236",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "fbdev: smscufx: properly copy ioctl memory to kernelspace",
       "description": "",
       "severity": "moderate",
@@ -474407,7 +474407,7 @@
     },
     {
       "id": "CVE-2025-71238",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "scsi: qla2xxx: Fix bsg_done() causing double free",
       "description": "",
       "severity": "moderate",
@@ -474422,7 +474422,7 @@
     },
     {
       "id": "CVE-2026-23231",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "netfilter: nf_tables: fix use-after-free in nf_tables_addchain()",
       "description": "",
       "severity": "important",
@@ -474437,7 +474437,7 @@
     },
     {
       "id": "CVE-2026-3338",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "PKCS7_verify Signature Validation Bypass in AWS-LC",
       "description": "",
       "severity": "important",
@@ -474452,7 +474452,7 @@
     },
     {
       "id": "CVE-2026-3381",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib",
       "description": "",
       "severity": "critical",
@@ -474467,7 +474467,7 @@
     },
     {
       "id": "CVE-2026-0032",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "In multiple functions of mem_protect.c, there is a possible out-of-bounds write due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
       "description": "",
       "severity": "important",
@@ -474482,7 +474482,7 @@
     },
     {
       "id": "CVE-2026-0031",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "In multiple functions of mem_protect.c, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
       "description": "",
       "severity": "important",
@@ -474497,7 +474497,7 @@
     },
     {
       "id": "CVE-2026-3494",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "MariaDB Server Audit Plugin Comment Handling Bypass",
       "description": "",
       "severity": "moderate",
@@ -474512,7 +474512,7 @@
     },
     {
       "id": "CVE-2026-3713",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "pnggroup libpng pnm2png pnm2png.c do_pnm2png heap-based overflow",
       "description": "",
       "severity": "moderate",
@@ -474527,7 +474527,7 @@
     },
     {
       "id": "CVE-2026-27139",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "FileInfo can escape from a Root in os",
       "description": "",
       "severity": "low",
@@ -474542,7 +474542,7 @@
     },
     {
       "id": "CVE-2024-14027",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "xattr: switch to CLASS(fd)",
       "description": "",
       "severity": "moderate",
@@ -474557,7 +474557,7 @@
     },
     {
       "id": "CVE-2026-29786",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "node-tar: Hardlink Path Traversal via Drive-Relative Linkpath",
       "description": "",
       "severity": "important",
@@ -474572,7 +474572,7 @@
     },
     {
       "id": "CVE-2025-69650",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "GNU Binutils thru 2.46 readelf contains a double free vulnerability when processing a crafted ELF binary with malformed relocation data. During GOT relocation handling, dump_relocations may return early without initializing the all_relocations array. As a result, process_got_section_contents() may pass an uninitialized r_symbol pointer to free(), leading to a double free and terminating the program with SIGABRT. No evidence of exploitable memory corruption or code execution was observed; the impact is limited to denial of service.",
       "description": "",
       "severity": "important",
@@ -474587,7 +474587,7 @@
     },
     {
       "id": "CVE-2025-69651",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "GNU Binutils thru 2.46 readelf contains a vulnerability that leads to an invalid pointer free when processing a crafted ELF binary with malformed relocation or symbol data. If dump_relocations returns early due to parsing errors, the internal all_relocations array may remain partially uninitialized. Later, process_got_section_contents() may attempt to free an invalid r_symbol pointer, triggering memory corruption checks in glibc and causing the program to terminate with SIGABRT. No evidence of further memory corruption or code execution was observed; the impact is limited to denial of service.",
       "description": "",
       "severity": "important",
@@ -474602,7 +474602,7 @@
     },
     {
       "id": "CVE-2025-69644",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "An issue was discovered in Binutils before 2.46. The objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed debug information. A logic flaw in the handling of DWARF location list headers can cause objdump to enter an unbounded loop and produce endless output until manually interrupted. This issue affects versions prior to the upstream fix and allows a local attacker to cause excessive resource consumption by supplying a malicious input file.",
       "description": "",
       "severity": "moderate",
@@ -474617,7 +474617,7 @@
     },
     {
       "id": "CVE-2026-27137",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Incorrect enforcement of email constraints in crypto/x509",
       "description": "",
       "severity": "moderate",
@@ -474632,7 +474632,7 @@
     },
     {
       "id": "CVE-2026-27138",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Panic in name constraint checking for malformed certificates in crypto/x509",
       "description": "",
       "severity": "moderate",
@@ -474647,7 +474647,7 @@
     },
     {
       "id": "CVE-2026-23239",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "espintcp: Fix race condition in espintcp_close()",
       "description": "",
       "severity": "important",
@@ -474662,7 +474662,7 @@
     },
     {
       "id": "CVE-2026-23240",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "tls: Fix race condition in tls_sw_cancel_work_tx()",
       "description": "",
       "severity": "important",
@@ -474677,7 +474677,7 @@
     },
     {
       "id": "CVE-2026-1965",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "bad reuse of HTTP Negotiate connection",
       "description": "",
       "severity": "moderate",
@@ -474692,7 +474692,7 @@
     },
     {
       "id": "CVE-2026-3784",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wrong proxy connection reuse with credentials",
       "description": "",
       "severity": "moderate",
@@ -474707,7 +474707,7 @@
     },
     {
       "id": "CVE-2026-3904",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Calling NSS-backed functions that support caching via nscd may call the \nnscd client side code and in the GNU C Library version 2.36 under high \nload on x86_64 systems, the client may call memcmp on inputs that are \nconcurrently modified by other processes or threads and crash.\n\n\n\n\nThe nscd client in the GNU C Library uses the memcmp function with \ninputs that may be concurrently modified by another thread, potentially \nresulting in spurious cache misses, which in itself is not a security \nissue.  However in the GNU C Library version 2.36 an optimized \nimplementation of memcmp was introduced for x86_64 which could crash \nwhen invoked with such undefined behaviour, turning this into a \npotential crash of the nscd client and the application that uses it. \nThis implementation was backported to the 2.35 branch, making the nscd \nclient in that branch vulnerable as well.  Subsequently, the fix for \nthis issue was backported to all vulnerable branches in the GNU C \nLibrary repository.\n\n\nIt is",
       "description": "",
       "severity": "moderate",
@@ -474722,7 +474722,7 @@
     },
     {
       "id": "CVE-2026-3805",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "use after free in SMB connection reuse",
       "description": "",
       "severity": "important",
@@ -474737,7 +474737,7 @@
     },
     {
       "id": "CVE-2025-69647",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "GNU Binutils thru 2.45.1 readelf contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF loclists data. A logic flaw in the DWARF parsing code can cause readelf to repeatedly print the same table output without making forward progress, resulting in an unbounded output loop that never terminates unless externally interrupted. A local attacker can trigger this behavior by supplying a malicious input file, causing excessive CPU and I/O usage and preventing readelf from completing its analysis.",
       "description": "",
       "severity": "moderate",
@@ -474752,7 +474752,7 @@
     },
     {
       "id": "CVE-2025-69648",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "GNU Binutils thru 2.45.1 readelf contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF .debug_rnglists data. A logic flaw in the DWARF parsing path causes readelf to repeatedly print the same warning message without making forward progress, resulting in a non-terminating output loop that requires manual interruption. No evidence of memory corruption or code execution was observed.",
       "description": "",
       "severity": "important",
@@ -474767,7 +474767,7 @@
     },
     {
       "id": "CVE-2026-32249",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "NFA regex engine NULL pointer dereference affects Vim < 9.2.0137",
       "description": "",
       "severity": "moderate",
@@ -474782,7 +474782,7 @@
     },
     {
       "id": "CVE-2026-32776",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "libexpat before 2.7.5 allows a NULL pointer dereference with empty external parameter entity content.",
       "description": "",
       "severity": "moderate",
@@ -474797,7 +474797,7 @@
     },
     {
       "id": "CVE-2026-32778",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "libexpat before 2.7.5 allows a NULL pointer dereference in the function setContext on retry after an earlier ouf-of-memory condition.",
       "description": "",
       "severity": "low",
@@ -474812,7 +474812,7 @@
     },
     {
       "id": "CVE-2026-32777",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "libexpat before 2.7.5 allows an infinite loop while parsing DTD content.",
       "description": "",
       "severity": "low",
@@ -474827,7 +474827,7 @@
     },
     {
       "id": "CVE-2026-23942",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "SFTP root escape via component-agnostic prefix check in ssh_sftpd",
       "description": "",
       "severity": "moderate",
@@ -474842,7 +474842,7 @@
     },
     {
       "id": "CVE-2026-4111",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive",
       "description": "",
       "severity": "important",
@@ -474857,7 +474857,7 @@
     },
     {
       "id": "CVE-2026-2673",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "OpenSSL TLS 1.3 server may choose unexpected key agreement group",
       "description": "",
       "severity": "moderate",
@@ -474872,7 +474872,7 @@
     },
     {
       "id": "CVE-2026-4105",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Systemd: systemd: privilege escalation via improper access control in registermachine d-bus method",
       "description": "",
       "severity": "moderate",
@@ -474887,7 +474887,7 @@
     },
     {
       "id": "CVE-2026-23248",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "perf/core: Fix refcount bug and potential UAF in perf_mmap",
       "description": "",
       "severity": "moderate",
@@ -474902,7 +474902,7 @@
     },
     {
       "id": "CVE-2026-23246",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wifi: mac80211: bounds-check link_id in ieee80211_ml_reconfiguration",
       "description": "",
       "severity": "moderate",
@@ -474917,7 +474917,7 @@
     },
     {
       "id": "CVE-2026-23247",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "tcp: secure_seq: add back ports to TS offset",
       "description": "",
       "severity": "moderate",
@@ -474932,7 +474932,7 @@
     },
     {
       "id": "CVE-2025-71265",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "fs: ntfs3: fix infinite loop in attr_load_runs_range on inconsistent metadata",
       "description": "",
       "severity": "moderate",
@@ -474947,7 +474947,7 @@
     },
     {
       "id": "CVE-2026-27448",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "pyOpenSSL allows TLS connection bypass via unhandled callback exception in set_tlsext_servername_callback",
       "description": "",
       "severity": "low",
@@ -474962,7 +474962,7 @@
     },
     {
       "id": "CVE-2026-27459",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "pyOpenSSL DTLS cookie callback buffer overflow",
       "description": "",
       "severity": "important",
@@ -474977,7 +474977,7 @@
     },
     {
       "id": "CVE-2026-23255",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: add proper RCU protection to /proc/net/ptype",
       "description": "",
       "severity": "moderate",
@@ -474992,7 +474992,7 @@
     },
     {
       "id": "CVE-2026-23253",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "media: dvb-core: fix wrong reinitialization of ringbuffer on reopen",
       "description": "",
       "severity": "moderate",
@@ -475007,7 +475007,7 @@
     },
     {
       "id": "CVE-2025-71269",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "btrfs: do not free data reservation in fallback from inline due to -ENOSPC",
       "description": "",
       "severity": "moderate",
@@ -475022,7 +475022,7 @@
     },
     {
       "id": "CVE-2026-23267",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes",
       "description": "",
       "severity": "important",
@@ -475037,7 +475037,7 @@
     },
     {
       "id": "CVE-2026-27135",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "nghttp2 Denial of service: Assertion failure due to the missing state validation",
       "description": "",
       "severity": "important",
@@ -475052,7 +475052,7 @@
     },
     {
       "id": "CVE-2006-10003",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "XML::Parser versions through 2.47 for Perl has an off-by-one heap buffer overflow in st_serial_stack",
       "description": "",
       "severity": "important",
@@ -475067,7 +475067,7 @@
     },
     {
       "id": "CVE-2026-23277",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net/sched: teql: fix NULL pointer dereference in iptunnel_xmit on TEQL slave xmit",
       "description": "",
       "severity": "moderate",
@@ -475082,7 +475082,7 @@
     },
     {
       "id": "CVE-2026-23271",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "perf: Fix __perf_event_overflow() vs perf_remove_from_context() race",
       "description": "",
       "severity": "moderate",
@@ -475097,7 +475097,7 @@
     },
     {
       "id": "CVE-2026-32766",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "astral-tokio-tar insufficiently validates PAX extensions during extraction",
       "description": "",
       "severity": "low",
@@ -475112,7 +475112,7 @@
     },
     {
       "id": "CVE-2026-3633",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libsoup: libsoup: header and http request injection via crlf injection",
       "description": "",
       "severity": "low",
@@ -475127,7 +475127,7 @@
     },
     {
       "id": "CVE-2026-30922",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "pyasn1 Vulnerable to Denial of Service via Unbounded Recursion",
       "description": "",
       "severity": "important",
@@ -475142,7 +475142,7 @@
     },
     {
       "id": "CVE-2026-25075",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "strongSwan 4.5.0 < 6.0.5 EAP-TTLS AVP Parsing Integer Underflow",
       "description": "",
       "severity": "important",
@@ -475157,7 +475157,7 @@
     },
     {
       "id": "CVE-2026-33056",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "tar-rs: unpack_in can chmod arbitrary directories by following symlinks",
       "description": "",
       "severity": "moderate",
@@ -475172,7 +475172,7 @@
     },
     {
       "id": "CVE-2026-33055",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "tar-rs incorrectly ignores PAX size headers if header size is nonzero",
       "description": "",
       "severity": "moderate",
@@ -475187,7 +475187,7 @@
     },
     {
       "id": "CVE-2026-4424",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libarchive: libarchive: information disclosure via heap out-of-bounds read in rar archive processing",
       "description": "",
       "severity": "important",
@@ -475202,7 +475202,7 @@
     },
     {
       "id": "CVE-2026-3099",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libsoup: libsoup: authentication bypass via digest authentication replay attack",
       "description": "",
       "severity": "moderate",
@@ -475217,7 +475217,7 @@
     },
     {
       "id": "CVE-2026-2369",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libsoup: libsoup: buffer overread due to integer underflow when handling zero-length resources",
       "description": "",
       "severity": "moderate",
@@ -475232,7 +475232,7 @@
     },
     {
       "id": "CVE-2026-0819",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Stack buffer overflow in PKCS7 SignedData encoding with custom signed attributes",
       "description": "",
       "severity": "low",
@@ -475247,7 +475247,7 @@
     },
     {
       "id": "CVE-2026-4159",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wc_PKCS7_DecodeEnvelopedData 1 byte out-of-bounds read",
       "description": "",
       "severity": "low",
@@ -475262,7 +475262,7 @@
     },
     {
       "id": "CVE-2026-3580",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Compiler-induced timing leak in sp_256_get_entry_256_9 on RISC-V",
       "description": "",
       "severity": "low",
@@ -475277,7 +475277,7 @@
     },
     {
       "id": "CVE-2026-3849",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Buffer Overflow in HPKE via Oversized ECH Config",
       "description": "",
       "severity": "moderate",
@@ -475292,7 +475292,7 @@
     },
     {
       "id": "CVE-2026-3579",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Non-constant time multiplication subroutine __muldi3 on RISC-V RV32I",
       "description": "",
       "severity": "low",
@@ -475307,7 +475307,7 @@
     },
     {
       "id": "CVE-2026-3229",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Integer Overflow in Certificate Chain Allocation",
       "description": "",
       "severity": "low",
@@ -475322,7 +475322,7 @@
     },
     {
       "id": "CVE-2026-3230",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Improper key_share validation in TLS 1.3 HelloRetryRequest",
       "description": "",
       "severity": "low",
@@ -475337,7 +475337,7 @@
     },
     {
       "id": "CVE-2026-3503",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Fault injection attack with ML-DSA and ML-KEM on ARM",
       "description": "",
       "severity": "moderate",
@@ -475352,7 +475352,7 @@
     },
     {
       "id": "CVE-2026-3548",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Buffer overflow in CRL number parsing in wolfSSL",
       "description": "",
       "severity": "important",
@@ -475367,7 +475367,7 @@
     },
     {
       "id": "CVE-2026-2645",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Acceptance of CertificateVerify Message before ClientKeyExchange in TLS 1.2",
       "description": "",
       "severity": "moderate",
@@ -475382,7 +475382,7 @@
     },
     {
       "id": "CVE-2026-3547",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wolfSSL: out-of-bounds read (DoS) in ALPN parsing due to incomplete validation",
       "description": "",
       "severity": "important",
@@ -475397,7 +475397,7 @@
     },
     {
       "id": "CVE-2026-2646",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Heap buffer overflow in session parsing with wolfSSL_d2i_SSL_SESSION() function",
       "description": "",
       "severity": "moderate",
@@ -475412,7 +475412,7 @@
     },
     {
       "id": "CVE-2025-69720",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "The infocmp command-line tool in ncurses before 6.5-20251213 has a stack-based buffer overflow in analyze_string in progs/infocmp.c.",
       "description": "",
       "severity": "critical",
@@ -475427,7 +475427,7 @@
     },
     {
       "id": "CVE-2026-32141",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "flatted: Unbounded recursion DoS in parse() revive phase",
       "description": "",
       "severity": "important",
@@ -475442,7 +475442,7 @@
     },
     {
       "id": "CVE-2026-33228",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "flatted: Prototype Pollution via parse()",
       "description": "",
       "severity": "important",
@@ -475457,7 +475457,7 @@
     },
     {
       "id": "CVE-2025-13462",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "tarfile: Skip DIRTYPE normalization during GNU LONGNAME/LONGLINK handling",
       "description": "",
       "severity": "low",
@@ -475472,7 +475472,7 @@
     },
     {
       "id": "CVE-2026-4519",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "webbrowser.open() allows leading dashes in URLs",
       "description": "",
       "severity": "important",
@@ -475487,7 +475487,7 @@
     },
     {
       "id": "CVE-2026-33186",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "gRPC-Go has an authorization bypass via missing leading slash in :path",
       "description": "",
       "severity": "important",
@@ -475502,7 +475502,7 @@
     },
     {
       "id": "CVE-2026-33412",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Vim affected by Command injection via newline in glob()",
       "description": "",
       "severity": "moderate",
@@ -475517,7 +475517,7 @@
     },
     {
       "id": "CVE-2026-23370",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "platform/x86: dell-wmi-sysman: Don't hex dump plaintext password data",
       "description": "",
       "severity": "moderate",
@@ -475532,7 +475532,7 @@
     },
     {
       "id": "CVE-2026-23333",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "netfilter: nft_set_rbtree: validate open interval overlap",
       "description": "",
       "severity": "moderate",
@@ -475547,7 +475547,7 @@
     },
     {
       "id": "CVE-2026-23372",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "nfc: rawsock: cancel tx_work before socket teardown",
       "description": "",
       "severity": "important",
@@ -475562,7 +475562,7 @@
     },
     {
       "id": "CVE-2026-23315",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wifi: mt76: Fix possible oob access in mt76_connac2_mac_write_txwi_80211()",
       "description": "",
       "severity": "important",
@@ -475577,7 +475577,7 @@
     },
     {
       "id": "CVE-2026-23312",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: usb: kaweth: validate USB endpoints",
       "description": "",
       "severity": "moderate",
@@ -475592,7 +475592,7 @@
     },
     {
       "id": "CVE-2026-23330",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "nfc: nci: complete pending data exchange on device close",
       "description": "",
       "severity": "important",
@@ -475607,7 +475607,7 @@
     },
     {
       "id": "CVE-2026-23361",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "PCI: dwc: ep: Flush MSI-X write before unmapping its ATU entry",
       "description": "",
       "severity": "important",
@@ -475622,7 +475622,7 @@
     },
     {
       "id": "CVE-2026-23285",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "drbd: fix null-pointer dereference on local read error",
       "description": "",
       "severity": "moderate",
@@ -475637,7 +475637,7 @@
     },
     {
       "id": "CVE-2026-23296",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "scsi: core: Fix refcount leak for tagset_refcnt",
       "description": "",
       "severity": "important",
@@ -475652,7 +475652,7 @@
     },
     {
       "id": "CVE-2026-23392",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "netfilter: nf_tables: release flowtable after rcu grace period on error",
       "description": "",
       "severity": "important",
@@ -475667,7 +475667,7 @@
     },
     {
       "id": "CVE-2026-23318",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "ALSA: usb-audio: Use correct version for UAC3 header validation",
       "description": "",
       "severity": "important",
@@ -475682,7 +475682,7 @@
     },
     {
       "id": "CVE-2026-23388",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Squashfs: check metadata block offset is within range",
       "description": "",
       "severity": "important",
@@ -475697,7 +475697,7 @@
     },
     {
       "id": "CVE-2026-23286",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "atm: lec: fix null-ptr-deref in lec_arp_clear_vccs",
       "description": "",
       "severity": "moderate",
@@ -475712,7 +475712,7 @@
     },
     {
       "id": "CVE-2026-23368",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: phy: register phy led_triggers during probe to avoid AB-BA deadlock",
       "description": "",
       "severity": "moderate",
@@ -475727,7 +475727,7 @@
     },
     {
       "id": "CVE-2026-23390",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "tracing/dma: Cap dma_map_sg tracepoint arrays to prevent buffer overflow",
       "description": "",
       "severity": "moderate",
@@ -475742,7 +475742,7 @@
     },
     {
       "id": "CVE-2026-23292",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "scsi: target: Fix recursive locking in __configfs_open_file()",
       "description": "",
       "severity": "moderate",
@@ -475757,7 +475757,7 @@
     },
     {
       "id": "CVE-2026-23364",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "ksmbd: Compare MACs in constant time",
       "description": "",
       "severity": "moderate",
@@ -475772,7 +475772,7 @@
     },
     {
       "id": "CVE-2026-23346",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "arm64: io: Extract user memory type in ioremap_prot()",
       "description": "",
       "severity": "moderate",
@@ -475787,7 +475787,7 @@
     },
     {
       "id": "CVE-2026-23334",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "can: usb: f81604: handle short interrupt urb messages properly",
       "description": "",
       "severity": "moderate",
@@ -475802,7 +475802,7 @@
     },
     {
       "id": "CVE-2026-23303",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "smb: client: Don't log plaintext credentials in cifs_set_cifscreds",
       "description": "",
       "severity": "moderate",
@@ -475817,7 +475817,7 @@
     },
     {
       "id": "CVE-2026-23304",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "ipv6: fix NULL pointer deref in ip6_rt_get_dev_rcu()",
       "description": "",
       "severity": "moderate",
@@ -475832,7 +475832,7 @@
     },
     {
       "id": "CVE-2026-23320",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "usb: gadget: f_ncm: align net_device lifecycle with bind/unbind",
       "description": "",
       "severity": "moderate",
@@ -475847,7 +475847,7 @@
     },
     {
       "id": "CVE-2026-23290",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: usb: pegasus: validate USB endpoints",
       "description": "",
       "severity": "moderate",
@@ -475862,7 +475862,7 @@
     },
     {
       "id": "CVE-2026-23339",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "nfc: nci: free skb on nci_transceive early error paths",
       "description": "",
       "severity": "important",
@@ -475877,7 +475877,7 @@
     },
     {
       "id": "CVE-2026-23335",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "RDMA/irdma: Fix kernel stack leak in irdma_create_user_ah()",
       "description": "",
       "severity": "important",
@@ -475892,7 +475892,7 @@
     },
     {
       "id": "CVE-2026-23302",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: annotate data-races around sk->sk_{data_ready,write_space}",
       "description": "",
       "severity": "moderate",
@@ -475907,7 +475907,7 @@
     },
     {
       "id": "CVE-2026-23386",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "gve: fix incorrect buffer cleanup in gve_tx_clean_pending_packets for QPL",
       "description": "",
       "severity": "important",
@@ -475922,7 +475922,7 @@
     },
     {
       "id": "CVE-2026-23308",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "pinctrl: equilibrium: fix warning trace on load",
       "description": "",
       "severity": "important",
@@ -475937,7 +475937,7 @@
     },
     {
       "id": "CVE-2026-23291",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "nfc: pn533: properly drop the usb interface reference on disconnect",
       "description": "",
       "severity": "moderate",
@@ -475952,7 +475952,7 @@
     },
     {
       "id": "CVE-2026-23357",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "can: mcp251x: fix deadlock in error path of mcp251x_open",
       "description": "",
       "severity": "moderate",
@@ -475967,7 +475967,7 @@
     },
     {
       "id": "CVE-2026-23287",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "irqchip/sifive-plic: Fix frozen interrupt due to affinity setting",
       "description": "",
       "severity": "important",
@@ -475982,7 +475982,7 @@
     },
     {
       "id": "CVE-2026-23336",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wifi: cfg80211: cancel rfkill_block work in wiphy_unregister()",
       "description": "",
       "severity": "important",
@@ -475997,7 +475997,7 @@
     },
     {
       "id": "CVE-2026-23281",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wifi: libertas: fix use-after-free in lbs_free_adapter()",
       "description": "",
       "severity": "important",
@@ -476012,7 +476012,7 @@
     },
     {
       "id": "CVE-2026-23381",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net: bridge: fix nd_tbl NULL dereference when IPv6 is disabled",
       "description": "",
       "severity": "moderate",
@@ -476027,7 +476027,7 @@
     },
     {
       "id": "CVE-2026-23395",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Bluetooth: L2CAP: Fix accepting multiple L2CAP_ECRED_CONN_REQ",
       "description": "",
       "severity": "critical",
@@ -476042,7 +476042,7 @@
     },
     {
       "id": "CVE-2026-23374",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "blktrace: fix __this_cpu_read/write in preemptible context",
       "description": "",
       "severity": "important",
@@ -476057,7 +476057,7 @@
     },
     {
       "id": "CVE-2026-23289",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "IB/mthca: Add missed mthca_unmap_user_db() for mthca_create_srq()",
       "description": "",
       "severity": "important",
@@ -476072,7 +476072,7 @@
     },
     {
       "id": "CVE-2026-23317",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "drm/vmwgfx: Return the correct value in vmw_translate_ptr functions",
       "description": "",
       "severity": "moderate",
@@ -476087,7 +476087,7 @@
     },
     {
       "id": "CVE-2026-23347",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "can: usb: f81604: correctly anchor the urb in the read bulk callback",
       "description": "",
       "severity": "moderate",
@@ -476102,7 +476102,7 @@
     },
     {
       "id": "CVE-2026-23310",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "bpf/bonding: reject vlan+srcmac xmit_hash_policy change when XDP is loaded",
       "description": "",
       "severity": "important",
@@ -476117,7 +476117,7 @@
     },
     {
       "id": "CVE-2026-23356",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "drbd: fix \"LOGIC BUG\" in drbd_al_begin_io_nonblock()",
       "description": "",
       "severity": "moderate",
@@ -476132,7 +476132,7 @@
     },
     {
       "id": "CVE-2026-23327",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "cxl/mbox: validate payload size before accessing contents in cxl_payload_from_user_allowed()",
       "description": "",
       "severity": "important",
@@ -476147,7 +476147,7 @@
     },
     {
       "id": "CVE-2026-23367",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wifi: radiotap: reject radiotap with unknown bits",
       "description": "",
       "severity": "important",
@@ -476162,7 +476162,7 @@
     },
     {
       "id": "CVE-2026-23279",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "wifi: mac80211: fix NULL pointer dereference in mesh_rx_csa_frame()",
       "description": "",
       "severity": "moderate",
@@ -476177,7 +476177,7 @@
     },
     {
       "id": "CVE-2026-23379",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "net/sched: ets: fix divide by zero in the offload path",
       "description": "",
       "severity": "moderate",
@@ -476192,7 +476192,7 @@
     },
     {
       "id": "CVE-2026-23393",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "bridge: cfm: Fix race condition in peer_mep deletion",
       "description": "",
       "severity": "important",
@@ -476207,7 +476207,7 @@
     },
     {
       "id": "CVE-2026-34085",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "fontconfig before 2.17.1 has an off-by-one error in allocation during sfnt capability handling, leading to a one-byte out-of-bounds write, and potentially a crash or code execution. This is in FcFontCapabilities in fcfreetype.c.",
       "description": "",
       "severity": "moderate",
@@ -476222,7 +476222,7 @@
     },
     {
       "id": "CVE-2026-33526",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Squid vulnerable to Denial of Service in ICP Request handling",
       "description": "",
       "severity": "important",
@@ -476237,7 +476237,7 @@
     },
     {
       "id": "CVE-2026-33515",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Squid has issues in ICP message handling",
       "description": "",
       "severity": "moderate",
@@ -476252,7 +476252,7 @@
     },
     {
       "id": "CVE-2026-32748",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Squid has Denial of Service in ICP Response handling",
       "description": "",
       "severity": "important",
@@ -476267,7 +476267,7 @@
     },
     {
       "id": "CVE-2026-27651",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "NGINX ngx_mail_auth_http_module vulnerability",
       "description": "",
       "severity": "important",
@@ -476282,7 +476282,7 @@
     },
     {
       "id": "CVE-2026-27654",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "NGINX ngx_http_dav_module vulnerability",
       "description": "",
       "severity": "important",
@@ -476297,7 +476297,7 @@
     },
     {
       "id": "CVE-2026-27784",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "NGINX ngx_http_mp4_module vulnerability",
       "description": "",
       "severity": "important",
@@ -476312,7 +476312,7 @@
     },
     {
       "id": "CVE-2026-28755",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "NGINX ngx_stream_ssl_module vulnerability",
       "description": "",
       "severity": "moderate",
@@ -476327,7 +476327,7 @@
     },
     {
       "id": "CVE-2026-23397",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "nfnetlink_osf: validate individual option lengths in fingerprints",
       "description": "",
       "severity": "moderate",
@@ -476342,7 +476342,7 @@
     },
     {
       "id": "CVE-2026-4647",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Binutils: out-of-bounds read in xcoff relocation processing in gnu binutils bfd library",
       "description": "",
       "severity": "moderate",
@@ -476357,7 +476357,7 @@
     },
     {
       "id": "CVE-2026-4746",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Heap Buffer Over-Write Vulenrabilty in timeplus-io/proton",
       "description": "",
       "severity": "critical",
@@ -476372,7 +476372,7 @@
     },
     {
       "id": "CVE-2026-4775",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libtiff: libtiff: arbitrary code execution or denial of service via signed integer overflow in tiff file processing",
       "description": "",
       "severity": "important",
@@ -476387,7 +476387,7 @@
     },
     {
       "id": "CVE-2026-1519",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Excessive NSEC3 iterations cause high CPU load during insecure delegation validation",
       "description": "",
       "severity": "important",
@@ -476402,7 +476402,7 @@
     },
     {
       "id": "CVE-2026-32241",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Flannel vulnerable to cross-node remote code execution via extension backend BackendData injection",
       "description": "",
       "severity": "important",
@@ -476417,7 +476417,7 @@
     },
     {
       "id": "CVE-2026-33936",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "python-ecdsa: Denial of Service via improper DER length validation in crafted private keys",
       "description": "",
       "severity": "moderate",
@@ -476432,7 +476432,7 @@
     },
     {
       "id": "CVE-2026-3119",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Authenticated query containing a TKEY record may cause named to terminate unexpectedly",
       "description": "",
       "severity": "moderate",
@@ -476447,7 +476447,7 @@
     },
     {
       "id": "CVE-2026-33416",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "LIBPNG has use-after-free via pointer aliasing in `png_set_tRNS` and `png_set_PLTE`",
       "description": "",
       "severity": "important",
@@ -476462,7 +476462,7 @@
     },
     {
       "id": "CVE-2026-25645",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function",
       "description": "",
       "severity": "moderate",
@@ -476477,7 +476477,7 @@
     },
     {
       "id": "CVE-2026-33671",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
       "description": "",
       "severity": "important",
@@ -476492,7 +476492,7 @@
     },
     {
       "id": "CVE-2026-33672",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
       "description": "",
       "severity": "moderate",
@@ -476507,7 +476507,7 @@
     },
     {
       "id": "CVE-2026-4833",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Orc discount Markdown markdown.c compile recursion",
       "description": "",
       "severity": "moderate",
@@ -476522,7 +476522,7 @@
     },
     {
       "id": "CVE-2026-0967",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libssh: libssh: denial of service via inefficient regular expression processing",
       "description": "",
       "severity": "low",
@@ -476537,7 +476537,7 @@
     },
     {
       "id": "CVE-2026-0966",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libssh: buffer underflow in ssh_get_hexa() on invalid input",
       "description": "",
       "severity": "moderate",
@@ -476552,7 +476552,7 @@
     },
     {
       "id": "CVE-2026-0964",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libssh: improper sanitation of paths received from scp servers",
       "description": "",
       "severity": "moderate",
@@ -476567,7 +476567,7 @@
     },
     {
       "id": "CVE-2026-33895",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Forge has signature forgery in Ed25519 due to missing S > L check",
       "description": "",
       "severity": "important",
@@ -476582,7 +476582,7 @@
     },
     {
       "id": "CVE-2026-33896",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Forge has a basicConstraints bypass in its certificate chain verification (RFC 5280 violation)",
       "description": "",
       "severity": "important",
@@ -476597,7 +476597,7 @@
     },
     {
       "id": "CVE-2026-33891",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Forge has Denial of Service via Infinite Loop in BigInteger.modInverse() with Zero Input",
       "description": "",
       "severity": "important",
@@ -476612,7 +476612,7 @@
     },
     {
       "id": "CVE-2026-33542",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Incus does not verify combined fingerprint when downloading images from simplestreams servers",
       "description": "",
       "severity": "moderate",
@@ -476627,7 +476627,7 @@
     },
     {
       "id": "CVE-2026-33941",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Handlebars.js has JavaScript Injection in CLI Precompiler via Unescaped Names and Options",
       "description": "",
       "severity": "important",
@@ -476642,7 +476642,7 @@
     },
     {
       "id": "CVE-2026-33916",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Handlebars.js has Prototype Pollution Leading to XSS through Partial Template Injection",
       "description": "",
       "severity": "moderate",
@@ -476657,7 +476657,7 @@
     },
     {
       "id": "CVE-2026-33940",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Handlebars.js has JavaScript Injection via AST Type Confusion when passing an object as dynamic partial",
       "description": "",
       "severity": "important",
@@ -476672,7 +476672,7 @@
     },
     {
       "id": "CVE-2025-49010",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "OpenSC: Stack-buffer-overflow WRITE in GET RESPONSE",
       "description": "",
       "severity": "low",
@@ -476687,7 +476687,7 @@
     },
     {
       "id": "CVE-2025-66215",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "OpenSC: Stack-buffer-overflow WRITE in card-oberthur",
       "description": "",
       "severity": "low",
@@ -476702,7 +476702,7 @@
     },
     {
       "id": "CVE-2025-66038",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "OpenSC: `sc_compacttlv_find_tag` can return out-of-bounds pointers",
       "description": "",
       "severity": "low",
@@ -476717,7 +476717,7 @@
     },
     {
       "id": "CVE-2026-4176",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Perl versions from 5.9.4 before 5.40.4-RC1, from 5.41.0 before 5.42.2-RC1, from 5.43.0 before 5.43.9 contain a vulnerable version of Compress::Raw::Zlib",
       "description": "",
       "severity": "critical",
@@ -476732,7 +476732,7 @@
     },
     {
       "id": "CVE-2026-21710",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "A flaw in Node.js HTTP request handling causes an uncaught `TypeError` when a request is received with a header named `__proto__` and the application accesses `req.headersDistinct`.\n\nWhen this occurs, `dest[\"__proto__\"]` resolves to `Object.prototype` rather than `undefined`, causing `.push()` to be called on a non-array. This exception is thrown synchronously inside a property getter and cannot be intercepted by `error` event listeners, meaning it cannot be handled without wrapping every `req.headersDistinct` access in a `try/catch`.\n\n* This vulnerability affects all Node.js HTTP servers on **20.x, 22.x, 24.x, and v25.x**",
       "description": "",
       "severity": "important",
@@ -476747,7 +476747,7 @@
     },
     {
       "id": "CVE-2026-34043",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Serialize JavaScript has CPU Exhaustion Denial of Service via crafted array-like objects",
       "description": "",
       "severity": "moderate",
@@ -476762,7 +476762,7 @@
     },
     {
       "id": "CVE-2026-21716",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "An incomplete fix for CVE-2024-36137 leaves `FileHandle.chmod()` and `FileHandle.chown()` in the promises API without the required permission checks, while their callback-based equivalents (`fs.fchmod()`, `fs.fchown()`) were correctly patched.\n\nAs a result, code running under `--permission` with restricted `--allow-fs-write` can still use promise-based `FileHandle` methods to modify file permissions and ownership on already-open file descriptors, bypassing the intended write restrictions.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x** processes using the Permission Model where `--allow-fs-write` is intentionally restricted.",
       "description": "",
       "severity": "low",
@@ -476777,7 +476777,7 @@
     },
     {
       "id": "CVE-2026-21713",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "A flaw in Node.js HMAC verification uses a non-constant-time comparison when validating user-provided signatures, potentially leaking timing information proportional to the number of matching bytes. Under certain threat models where high-resolution timing measurements are possible, this behavior could be exploited as a timing oracle to infer HMAC values.\n\nNode.js already provides timing-safe comparison primitives used elsewhere in the codebase, indicating this is an oversight rather than an intentional design decision.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x**.",
       "description": "",
       "severity": "moderate",
@@ -476792,7 +476792,7 @@
     },
     {
       "id": "CVE-2026-21711",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "A flaw in Node.js Permission Model network enforcement leaves Unix Domain Socket (UDS) server operations without the required permission checks, while all comparable network paths correctly enforce them.\n\nAs a result, code running under `--permission` without `--allow-net` can create and expose local IPC endpoints, allowing communication with other processes on the same host outside of the intended network restriction boundary.\n\nThis vulnerability affects Node.js **25.x** processes using the Permission Model where `--allow-net` is intentionally omitted to restrict network access. Note that `--allow-net` is currently an experimental feature.",
       "description": "",
       "severity": "moderate",
@@ -476807,7 +476807,7 @@
     },
     {
       "id": "CVE-2026-4739",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Integer overflow vulnerabilities in InsightSoftwareConsortium/ITK",
       "description": "",
       "severity": "critical",
@@ -476822,7 +476822,7 @@
     },
     {
       "id": "CVE-2026-33554",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "ipmi-oem in FreeIPMI before 1.16.17 has exploitable buffer overflows on response messages. The Intelligent Platform Management Interface (IPMI) specification defines a set of interfaces for platform management. It is implemented by a large number of hardware manufacturers to support system management. It is most commonly used for sensor reading (e.g., CPU temperatures through the ipmi-sensors command within FreeIPMI) and remote power control (the ipmipower command). The ipmi-oem client command implements a set of a IPMI OEM commands for specific hardware vendors. If a user has supported hardware, they may wish to use the ipmi-oem command to send a request to a server to retrieve specific information. Three subcommands were found to have exploitable buffer overflows on response messages. They are: \"ipmi-oem dell get-last-post-code - get the last POST code and string describing the error on some Dell servers,\" \"ipmi-oem supermicro extra-firmware-info - get extra firmware info on Supermic",
       "description": "",
       "severity": "important",
@@ -476837,7 +476837,7 @@
     },
     {
       "id": "CVE-2026-5201",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Gdk-pixbuf: gdk-pixbuf: denial of service via heap-based buffer overflow when processing a specially crafted jpeg image",
       "description": "",
       "severity": "important",
@@ -476852,7 +476852,7 @@
     },
     {
       "id": "CVE-2026-5121",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libarchive: libarchive: arbitrary code execution via integer overflow in iso9660 image processing",
       "description": "",
       "severity": "important",
@@ -476867,7 +476867,7 @@
     },
     {
       "id": "CVE-2026-2100",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "P11-kit: p11-kit: null dereference via c_derivekey with specific null parameters",
       "description": "",
       "severity": "moderate",
@@ -476882,7 +476882,7 @@
     },
     {
       "id": "CVE-2026-4732",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Out-of-bounds Read Overflow in tildearrow/furnace",
       "description": "",
       "severity": "important",
@@ -476897,7 +476897,7 @@
     },
     {
       "id": "CVE-2026-2436",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libsoup: libsoup: denial of service via use-after-free in soupserver during tls handshake",
       "description": "",
       "severity": "moderate",
@@ -476912,7 +476912,7 @@
     },
     {
       "id": "CVE-2026-33216",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "NATS has MQTT plaintext password disclosure",
       "description": "",
       "severity": "important",
@@ -476927,7 +476927,7 @@
     },
     {
       "id": "CVE-2026-32287",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Infinite loop in github.com/antchfx/xpath",
       "description": "",
       "severity": "important",
@@ -476942,7 +476942,7 @@
     },
     {
       "id": "CVE-2026-34073",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "cryptography has incomplete DNS name constraint enforcement on peer names",
       "description": "",
       "severity": "low",
@@ -476957,7 +476957,7 @@
     },
     {
       "id": "CVE-2026-0968",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Libssh: libssh: denial of service due to malformed sftp message",
       "description": "",
       "severity": "low",
@@ -476972,7 +476972,7 @@
     },
     {
       "id": "CVE-2026-31788",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "xen/privcmd: restrict usage in unprivileged domU",
       "description": "",
       "severity": "important",
@@ -476987,7 +476987,7 @@
     },
     {
       "id": "CVE-2026-23360",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "nvme: fix admin queue leak on controller reset",
       "description": "",
       "severity": "moderate",
@@ -477002,7 +477002,7 @@
     },
     {
       "id": "CVE-2026-3942",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3942 Incorrect security UI in PictureInPicture",
       "description": "",
       "severity": null,
@@ -477017,7 +477017,7 @@
     },
     {
       "id": "CVE-2026-3931",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3931 Heap buffer overflow in Skia",
       "description": "",
       "severity": null,
@@ -477032,7 +477032,7 @@
     },
     {
       "id": "CVE-2026-4673",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4673 Heap buffer overflow in WebAudio",
       "description": "",
       "severity": null,
@@ -477047,7 +477047,7 @@
     },
     {
       "id": "CVE-2026-4680",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4680 Use after free in FedCM",
       "description": "",
       "severity": null,
@@ -477062,7 +477062,7 @@
     },
     {
       "id": "CVE-2026-21262",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "SQL Server Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477077,7 +477077,7 @@
     },
     {
       "id": "CVE-2026-23660",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477092,7 +477092,7 @@
     },
     {
       "id": "CVE-2026-23664",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Azure IoT Explorer Information Disclosure Vulnerability",
       "description": "",
       "severity": "important",
@@ -477107,7 +477107,7 @@
     },
     {
       "id": "CVE-2026-23667",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Broadcast DVR Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477122,7 +477122,7 @@
     },
     {
       "id": "CVE-2026-23668",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Graphics Component Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477137,7 +477137,7 @@
     },
     {
       "id": "CVE-2026-23669",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "RPC Runtime Library Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -477152,7 +477152,7 @@
     },
     {
       "id": "CVE-2026-23671",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Bluetooth RFCOM Protocol Driver Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477167,7 +477167,7 @@
     },
     {
       "id": "CVE-2026-23672",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Universal Disk Format File System Driver (UDFS) Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477182,7 +477182,7 @@
     },
     {
       "id": "CVE-2026-23673",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Resilient File System (ReFS) Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477197,7 +477197,7 @@
     },
     {
       "id": "CVE-2026-24282",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Push message Routing Service Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477212,7 +477212,7 @@
     },
     {
       "id": "CVE-2026-24283",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Multiple UNC Provider Kernel Driver Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477227,7 +477227,7 @@
     },
     {
       "id": "CVE-2026-24285",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Win32k Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477242,7 +477242,7 @@
     },
     {
       "id": "CVE-2026-24287",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Kernel Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477257,7 +477257,7 @@
     },
     {
       "id": "CVE-2026-24288",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Mobile Broadband Driver Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -477272,7 +477272,7 @@
     },
     {
       "id": "CVE-2026-24289",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Kernel Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477287,7 +477287,7 @@
     },
     {
       "id": "CVE-2026-24290",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Projected File System Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477302,7 +477302,7 @@
     },
     {
       "id": "CVE-2026-24291",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Accessibility Infrastructure (ATBroker.exe) Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477317,7 +477317,7 @@
     },
     {
       "id": "CVE-2026-24292",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Connected Devices Platform Service Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477332,7 +477332,7 @@
     },
     {
       "id": "CVE-2026-24293",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477347,7 +477347,7 @@
     },
     {
       "id": "CVE-2026-24294",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows SMB Server Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477362,7 +477362,7 @@
     },
     {
       "id": "CVE-2026-24295",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Device Association Service Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477377,7 +477377,7 @@
     },
     {
       "id": "CVE-2026-24296",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Device Association Service Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477392,7 +477392,7 @@
     },
     {
       "id": "CVE-2026-24297",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Kerberos Security Feature Bypass Vulnerability",
       "description": "",
       "severity": "important",
@@ -477407,7 +477407,7 @@
     },
     {
       "id": "CVE-2026-25165",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Performance Counters for Windows Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477422,7 +477422,7 @@
     },
     {
       "id": "CVE-2026-25166",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows System Image Manager Assessment and Deployment Kit (ADK) Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -477437,7 +477437,7 @@
     },
     {
       "id": "CVE-2026-25167",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Brokering File System Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477452,7 +477452,7 @@
     },
     {
       "id": "CVE-2026-25168",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Graphics Component Denial of Service Vulnerability",
       "description": "",
       "severity": "important",
@@ -477467,7 +477467,7 @@
     },
     {
       "id": "CVE-2026-25169",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Graphics Component Denial of Service Vulnerability",
       "description": "",
       "severity": "important",
@@ -477482,7 +477482,7 @@
     },
     {
       "id": "CVE-2026-25170",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Hyper-V Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477497,7 +477497,7 @@
     },
     {
       "id": "CVE-2026-25171",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Authentication Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477512,7 +477512,7 @@
     },
     {
       "id": "CVE-2026-25172",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -477527,7 +477527,7 @@
     },
     {
       "id": "CVE-2026-25173",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -477542,7 +477542,7 @@
     },
     {
       "id": "CVE-2026-25174",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Extensible File Allocation Table Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477557,7 +477557,7 @@
     },
     {
       "id": "CVE-2026-25175",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows NTFS Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477572,7 +477572,7 @@
     },
     {
       "id": "CVE-2026-25176",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477587,7 +477587,7 @@
     },
     {
       "id": "CVE-2026-25177",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Active Directory Domain Services Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477602,7 +477602,7 @@
     },
     {
       "id": "CVE-2026-25178",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477617,7 +477617,7 @@
     },
     {
       "id": "CVE-2026-25179",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477632,7 +477632,7 @@
     },
     {
       "id": "CVE-2026-25180",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Graphics Component Information Disclosure Vulnerability",
       "description": "",
       "severity": "important",
@@ -477647,7 +477647,7 @@
     },
     {
       "id": "CVE-2026-25181",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "GDI+ Information Disclosure Vulnerability",
       "description": "",
       "severity": "important",
@@ -477662,7 +477662,7 @@
     },
     {
       "id": "CVE-2026-25185",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Shell Link Processing Spoofing Vulnerability",
       "description": "",
       "severity": "important",
@@ -477677,7 +477677,7 @@
     },
     {
       "id": "CVE-2026-25186",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Accessibility Infrastructure (ATBroker.exe) Information Disclosure Vulnerability",
       "description": "",
       "severity": "important",
@@ -477692,7 +477692,7 @@
     },
     {
       "id": "CVE-2026-25187",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Winlogon Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477707,7 +477707,7 @@
     },
     {
       "id": "CVE-2026-25188",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Telephony Service Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477722,7 +477722,7 @@
     },
     {
       "id": "CVE-2026-25189",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows DWM Core Library Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477737,7 +477737,7 @@
     },
     {
       "id": "CVE-2026-25190",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows GDI Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -477752,7 +477752,7 @@
     },
     {
       "id": "CVE-2026-26105",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft SharePoint Server Spoofing Vulnerability",
       "description": "",
       "severity": "important",
@@ -477767,7 +477767,7 @@
     },
     {
       "id": "CVE-2026-26111",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -477782,7 +477782,7 @@
     },
     {
       "id": "CVE-2026-26112",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -477797,7 +477797,7 @@
     },
     {
       "id": "CVE-2026-26113",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Office Remote Code Execution Vulnerability",
       "description": "",
       "severity": "critical",
@@ -477812,7 +477812,7 @@
     },
     {
       "id": "CVE-2026-26114",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft SharePoint Server Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -477827,7 +477827,7 @@
     },
     {
       "id": "CVE-2026-23656",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows App Installer Spoofing Vulnerability",
       "description": "",
       "severity": "important",
@@ -477842,7 +477842,7 @@
     },
     {
       "id": "CVE-2026-20967",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "System Center Operations Manager (SCOM) Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477857,7 +477857,7 @@
     },
     {
       "id": "CVE-2026-26121",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Azure IOT Explorer Spoofing Vulnerability",
       "description": "",
       "severity": "important",
@@ -477872,7 +477872,7 @@
     },
     {
       "id": "CVE-2026-26115",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "SQL Server Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477887,7 +477887,7 @@
     },
     {
       "id": "CVE-2026-26116",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "SQL Server Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477902,7 +477902,7 @@
     },
     {
       "id": "CVE-2026-26128",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows SMB Server Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477917,7 +477917,7 @@
     },
     {
       "id": "CVE-2026-26131",
-      "source": "msrc",
+      "source": "microsoft",
       "title": ".NET Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477932,7 +477932,7 @@
     },
     {
       "id": "CVE-2026-26132",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Windows Kernel Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477947,7 +477947,7 @@
     },
     {
       "id": "CVE-2026-26134",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Office Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -477962,7 +477962,7 @@
     },
     {
       "id": "CVE-2026-26127",
-      "source": "msrc",
+      "source": "microsoft",
       "title": ".NET Denial of Service Vulnerability",
       "description": "",
       "severity": "important",
@@ -477977,7 +477977,7 @@
     },
     {
       "id": "CVE-2026-23674",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "MapUrlToZone Security Feature Bypass Vulnerability",
       "description": "",
       "severity": "important",
@@ -477992,7 +477992,7 @@
     },
     {
       "id": "CVE-2026-23651",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft ACI Confidential Containers Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478007,7 +478007,7 @@
     },
     {
       "id": "CVE-2026-21536",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Devices Pricing Program Remote Code Execution Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478022,7 +478022,7 @@
     },
     {
       "id": "CVE-2026-26124",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft ACI Confidential Containers Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478037,7 +478037,7 @@
     },
     {
       "id": "CVE-2026-26125",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Payment Orchestrator Service Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478052,7 +478052,7 @@
     },
     {
       "id": "CVE-2026-26122",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft ACI Confidential Containers Information Disclosure Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478067,7 +478067,7 @@
     },
     {
       "id": "CVE-2026-3545",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3545 Insufficient data validation in Navigation",
       "description": "",
       "severity": null,
@@ -478082,7 +478082,7 @@
     },
     {
       "id": "CVE-2026-26148",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Azure AD SSH Login extension for Linux Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -478097,7 +478097,7 @@
     },
     {
       "id": "CVE-2026-3544",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3544 Heap buffer overflow in WebCodecs",
       "description": "",
       "severity": null,
@@ -478112,7 +478112,7 @@
     },
     {
       "id": "CVE-2026-3542",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3542 Inappropriate implementation in WebAssembly",
       "description": "",
       "severity": null,
@@ -478127,7 +478127,7 @@
     },
     {
       "id": "CVE-2026-3540",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3540 Inappropriate implementation in WebAudio",
       "description": "",
       "severity": null,
@@ -478142,7 +478142,7 @@
     },
     {
       "id": "CVE-2026-3536",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3536 Integer overflow in ANGLE",
       "description": "",
       "severity": null,
@@ -478157,7 +478157,7 @@
     },
     {
       "id": "CVE-2026-3538",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3538 Integer overflow in Skia",
       "description": "",
       "severity": null,
@@ -478172,7 +478172,7 @@
     },
     {
       "id": "CVE-2026-3537",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3537 Object lifecycle issue in PowerVR",
       "description": "",
       "severity": null,
@@ -478187,7 +478187,7 @@
     },
     {
       "id": "CVE-2026-3941",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3941 Insufficient policy enforcement in DevTools",
       "description": "",
       "severity": null,
@@ -478202,7 +478202,7 @@
     },
     {
       "id": "CVE-2026-3940",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3940 Insufficient policy enforcement in DevTools",
       "description": "",
       "severity": null,
@@ -478217,7 +478217,7 @@
     },
     {
       "id": "CVE-2026-3939",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3939 Use after free in WebView",
       "description": "",
       "severity": null,
@@ -478232,7 +478232,7 @@
     },
     {
       "id": "CVE-2026-3938",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3938 Insufficient policy enforcement in Clipboard",
       "description": "",
       "severity": null,
@@ -478247,7 +478247,7 @@
     },
     {
       "id": "CVE-2026-3937",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3937 Incorrect security UI in Downloads",
       "description": "",
       "severity": null,
@@ -478262,7 +478262,7 @@
     },
     {
       "id": "CVE-2026-3935",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3935 Incorrect security UI in WebAppInstalls",
       "description": "",
       "severity": null,
@@ -478277,7 +478277,7 @@
     },
     {
       "id": "CVE-2026-3934",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3934 Insufficient policy enforcement in ChromeDriver",
       "description": "",
       "severity": null,
@@ -478292,7 +478292,7 @@
     },
     {
       "id": "CVE-2026-3932",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3932 Insufficient policy enforcement in PDF",
       "description": "",
       "severity": null,
@@ -478307,7 +478307,7 @@
     },
     {
       "id": "CVE-2026-3925",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3925 Incorrect security UI in LookalikeChecks",
       "description": "",
       "severity": null,
@@ -478322,7 +478322,7 @@
     },
     {
       "id": "CVE-2026-3915",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3915 Heap buffer overflow in WebML",
       "description": "",
       "severity": null,
@@ -478337,7 +478337,7 @@
     },
     {
       "id": "CVE-2026-32169",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Azure Cloud Shell Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478352,7 +478352,7 @@
     },
     {
       "id": "CVE-2026-26139",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Purview Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478367,7 +478367,7 @@
     },
     {
       "id": "CVE-2026-26138",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Purview Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478382,7 +478382,7 @@
     },
     {
       "id": "CVE-2026-32191",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Bing Images Remote Code Execution Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478397,7 +478397,7 @@
     },
     {
       "id": "CVE-2026-23658",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Azure DevOps: msazure Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478412,7 +478412,7 @@
     },
     {
       "id": "CVE-2026-26120",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Bing Tampering Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478427,7 +478427,7 @@
     },
     {
       "id": "CVE-2026-23659",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Azure Data Factory Information Disclosure Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478442,7 +478442,7 @@
     },
     {
       "id": "CVE-2026-24299",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "M365 Copilot Information Disclosure Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478457,7 +478457,7 @@
     },
     {
       "id": "CVE-2026-26136",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Copilot Information Disclosure Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478472,7 +478472,7 @@
     },
     {
       "id": "CVE-2026-32194",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Bing Images Remote Code Execution Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478487,7 +478487,7 @@
     },
     {
       "id": "CVE-2026-4464",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4464 Integer overflow in ANGLE",
       "description": "",
       "severity": null,
@@ -478502,7 +478502,7 @@
     },
     {
       "id": "CVE-2026-4463",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4463 Heap buffer overflow in WebRTC",
       "description": "",
       "severity": null,
@@ -478517,7 +478517,7 @@
     },
     {
       "id": "CVE-2026-4462",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4462 Out of bounds read in Blink",
       "description": "",
       "severity": null,
@@ -478532,7 +478532,7 @@
     },
     {
       "id": "CVE-2026-4461",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4461 Inappropriate implementation in V8",
       "description": "",
       "severity": null,
@@ -478547,7 +478547,7 @@
     },
     {
       "id": "CVE-2026-4456",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4456 Use after free in Digital Credentials API",
       "description": "",
       "severity": null,
@@ -478562,7 +478562,7 @@
     },
     {
       "id": "CVE-2026-4460",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4460 Out of bounds read in Skia",
       "description": "",
       "severity": null,
@@ -478577,7 +478577,7 @@
     },
     {
       "id": "CVE-2026-4457",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4457 Type Confusion in V8",
       "description": "",
       "severity": null,
@@ -478592,7 +478592,7 @@
     },
     {
       "id": "CVE-2026-4446",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4446 Use after free in WebRTC",
       "description": "",
       "severity": null,
@@ -478607,7 +478607,7 @@
     },
     {
       "id": "CVE-2026-4449",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4449 Use after free in Blink",
       "description": "",
       "severity": null,
@@ -478622,7 +478622,7 @@
     },
     {
       "id": "CVE-2026-4445",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4445 Use after free in WebRTC",
       "description": "",
       "severity": null,
@@ -478637,7 +478637,7 @@
     },
     {
       "id": "CVE-2026-4451",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4451 Insufficient validation of untrusted input in Navigation",
       "description": "",
       "severity": null,
@@ -478652,7 +478652,7 @@
     },
     {
       "id": "CVE-2026-4447",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4447 Inappropriate implementation in V8",
       "description": "",
       "severity": null,
@@ -478667,7 +478667,7 @@
     },
     {
       "id": "CVE-2026-4444",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4444 Stack buffer overflow in WebRTC",
       "description": "",
       "severity": null,
@@ -478682,7 +478682,7 @@
     },
     {
       "id": "CVE-2026-4455",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4455 Heap buffer overflow in PDFium",
       "description": "",
       "severity": null,
@@ -478697,7 +478697,7 @@
     },
     {
       "id": "CVE-2026-4452",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4452 Integer overflow in ANGLE",
       "description": "",
       "severity": null,
@@ -478712,7 +478712,7 @@
     },
     {
       "id": "CVE-2026-4443",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4443 Heap buffer overflow in WebAudio",
       "description": "",
       "severity": null,
@@ -478727,7 +478727,7 @@
     },
     {
       "id": "CVE-2026-4448",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4448 Heap buffer overflow in ANGLE",
       "description": "",
       "severity": null,
@@ -478742,7 +478742,7 @@
     },
     {
       "id": "CVE-2026-4441",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4441 Use after free in Base",
       "description": "",
       "severity": null,
@@ -478757,7 +478757,7 @@
     },
     {
       "id": "CVE-2026-4454",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4454 Use after free in Network",
       "description": "",
       "severity": null,
@@ -478772,7 +478772,7 @@
     },
     {
       "id": "CVE-2026-4450",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4450 Out of bounds write in V8",
       "description": "",
       "severity": null,
@@ -478787,7 +478787,7 @@
     },
     {
       "id": "CVE-2026-4440",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4440 Out of bounds read and write in WebGL",
       "description": "",
       "severity": null,
@@ -478802,7 +478802,7 @@
     },
     {
       "id": "CVE-2026-4458",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4458 Use after free in Extensions",
       "description": "",
       "severity": null,
@@ -478817,7 +478817,7 @@
     },
     {
       "id": "CVE-2026-4677",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4677 Out of bounds read in WebAudio",
       "description": "",
       "severity": null,
@@ -478832,7 +478832,7 @@
     },
     {
       "id": "CVE-2026-4675",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4675 Heap buffer overflow in WebGL",
       "description": "",
       "severity": null,
@@ -478847,7 +478847,7 @@
     },
     {
       "id": "CVE-2026-4679",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4679 Integer overflow in Fonts",
       "description": "",
       "severity": null,
@@ -478862,7 +478862,7 @@
     },
     {
       "id": "CVE-2026-23654",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "GitHub: Zero Shot SCFoundation Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -478877,7 +478877,7 @@
     },
     {
       "id": "CVE-2026-23661",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Azure IoT Explorer Information Disclosure Vulnerability",
       "description": "",
       "severity": "important",
@@ -478892,7 +478892,7 @@
     },
     {
       "id": "CVE-2026-23662",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Azure IoT Explorer Information Disclosure Vulnerability",
       "description": "",
       "severity": "important",
@@ -478907,7 +478907,7 @@
     },
     {
       "id": "CVE-2026-23665",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Linux Azure Diagnostic extension (LAD) Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -478922,7 +478922,7 @@
     },
     {
       "id": "CVE-2026-26106",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft SharePoint Server Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -478937,7 +478937,7 @@
     },
     {
       "id": "CVE-2026-26107",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -478952,7 +478952,7 @@
     },
     {
       "id": "CVE-2026-26108",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -478967,7 +478967,7 @@
     },
     {
       "id": "CVE-2026-26109",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "description": "",
       "severity": "important",
@@ -478982,7 +478982,7 @@
     },
     {
       "id": "CVE-2026-26110",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Office Remote Code Execution Vulnerability",
       "description": "",
       "severity": "critical",
@@ -478997,7 +478997,7 @@
     },
     {
       "id": "CVE-2026-26117",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Arc Enabled Servers - Azure Connected Machine Agent Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -479012,7 +479012,7 @@
     },
     {
       "id": "CVE-2026-26118",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Azure MCP Server Tools Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -479027,7 +479027,7 @@
     },
     {
       "id": "CVE-2026-26123",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Authenticator Information Disclosure Vulnerability",
       "description": "",
       "severity": "important",
@@ -479042,7 +479042,7 @@
     },
     {
       "id": "CVE-2026-26130",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "ASP.NET Core Denial of Service Vulnerability",
       "description": "",
       "severity": "important",
@@ -479057,7 +479057,7 @@
     },
     {
       "id": "CVE-2026-26141",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Hybrid Worker Extension (Arc‑enabled Windows VMs) Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "important",
@@ -479072,7 +479072,7 @@
     },
     {
       "id": "CVE-2026-26144",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Excel Information Disclosure Vulnerability",
       "description": "",
       "severity": "critical",
@@ -479087,7 +479087,7 @@
     },
     {
       "id": "CVE-2026-26030",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable",
       "description": "",
       "severity": "important",
@@ -479102,7 +479102,7 @@
     },
     {
       "id": "CVE-2026-3543",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3543 Inappropriate implementation in V8",
       "description": "",
       "severity": null,
@@ -479117,7 +479117,7 @@
     },
     {
       "id": "CVE-2026-3541",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3541 Inappropriate implementation in CSS",
       "description": "",
       "severity": null,
@@ -479132,7 +479132,7 @@
     },
     {
       "id": "CVE-2026-3539",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3539 Object lifecycle issue in DevTools",
       "description": "",
       "severity": null,
@@ -479147,7 +479147,7 @@
     },
     {
       "id": "CVE-2026-26133",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "M365 Copilot Information Disclosure Vulnerability",
       "description": "",
       "severity": "important",
@@ -479162,7 +479162,7 @@
     },
     {
       "id": "CVE-2026-3936",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3936 Use after free in WebView",
       "description": "",
       "severity": null,
@@ -479177,7 +479177,7 @@
     },
     {
       "id": "CVE-2026-3929",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3929 Side-channel information leakage in ResourceTiming",
       "description": "",
       "severity": null,
@@ -479192,7 +479192,7 @@
     },
     {
       "id": "CVE-2026-3928",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3928 Insufficient policy enforcement in Extensions",
       "description": "",
       "severity": null,
@@ -479207,7 +479207,7 @@
     },
     {
       "id": "CVE-2026-3927",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3927 Incorrect security UI in PictureInPicture",
       "description": "",
       "severity": null,
@@ -479222,7 +479222,7 @@
     },
     {
       "id": "CVE-2026-3926",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3926 Out of bounds read in V8",
       "description": "",
       "severity": null,
@@ -479237,7 +479237,7 @@
     },
     {
       "id": "CVE-2026-3924",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3924 Use after free in WindowDialog",
       "description": "",
       "severity": null,
@@ -479252,7 +479252,7 @@
     },
     {
       "id": "CVE-2026-3923",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3923 Use after free in WebMIDI",
       "description": "",
       "severity": null,
@@ -479267,7 +479267,7 @@
     },
     {
       "id": "CVE-2026-3922",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3922 Use after free in MediaStream",
       "description": "",
       "severity": null,
@@ -479282,7 +479282,7 @@
     },
     {
       "id": "CVE-2026-3921",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3921 Use after free in TextEncoding",
       "description": "",
       "severity": null,
@@ -479297,7 +479297,7 @@
     },
     {
       "id": "CVE-2026-3920",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3920 Out of bounds memory access in WebML",
       "description": "",
       "severity": null,
@@ -479312,7 +479312,7 @@
     },
     {
       "id": "CVE-2026-3919",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3919 Use after free in Extensions",
       "description": "",
       "severity": null,
@@ -479327,7 +479327,7 @@
     },
     {
       "id": "CVE-2026-3918",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3918 Use after free in WebMCP",
       "description": "",
       "severity": null,
@@ -479342,7 +479342,7 @@
     },
     {
       "id": "CVE-2026-3917",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3917 Use after free in Agents",
       "description": "",
       "severity": null,
@@ -479357,7 +479357,7 @@
     },
     {
       "id": "CVE-2026-3916",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3916 Out of bounds read in Web Speech",
       "description": "",
       "severity": null,
@@ -479372,7 +479372,7 @@
     },
     {
       "id": "CVE-2026-3914",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3914 Integer overflow in WebML",
       "description": "",
       "severity": null,
@@ -479387,7 +479387,7 @@
     },
     {
       "id": "CVE-2026-3913",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3913 Heap buffer overflow in WebML",
       "description": "",
       "severity": null,
@@ -479402,7 +479402,7 @@
     },
     {
       "id": "CVE-2026-0385",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability",
       "description": "",
       "severity": "low",
@@ -479417,7 +479417,7 @@
     },
     {
       "id": "CVE-2026-3910",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3910 Inappropriate implementation in V8",
       "description": "",
       "severity": null,
@@ -479432,7 +479432,7 @@
     },
     {
       "id": "CVE-2026-3909",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3909 Out of bounds write in Skia",
       "description": "",
       "severity": null,
@@ -479447,7 +479447,7 @@
     },
     {
       "id": "CVE-2026-4674",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4674 Out of bounds read in CSS",
       "description": "",
       "severity": null,
@@ -479462,7 +479462,7 @@
     },
     {
       "id": "CVE-2026-4676",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4676 Use after free in Dawn",
       "description": "",
       "severity": null,
@@ -479477,7 +479477,7 @@
     },
     {
       "id": "CVE-2026-4678",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4678 Use after free in WebGPU",
       "description": "",
       "severity": null,
@@ -479492,7 +479492,7 @@
     },
     {
       "id": "CVE-2026-3930",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-3930 Unsafe navigation in Navigation",
       "description": "",
       "severity": null,
@@ -479507,7 +479507,7 @@
     },
     {
       "id": "CVE-2026-4459",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4459 Out of bounds read and write in WebAudio",
       "description": "",
       "severity": null,
@@ -479522,7 +479522,7 @@
     },
     {
       "id": "CVE-2026-4453",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4453 Integer overflow in Dawn",
       "description": "",
       "severity": null,
@@ -479537,7 +479537,7 @@
     },
     {
       "id": "CVE-2026-4442",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Chromium: CVE-2026-4442 Heap buffer overflow in CSS",
       "description": "",
       "severity": null,
@@ -479552,7 +479552,7 @@
     },
     {
       "id": "CVE-2026-32187",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Edge (Chromium-based) Defense in Depth Vulnerability - Rejected",
       "description": "",
       "severity": "low",
@@ -479567,7 +479567,7 @@
     },
     {
       "id": "CVE-2026-26137",
-      "source": "msrc",
+      "source": "microsoft",
       "title": "Microsoft Exchange Elevation of Privilege Vulnerability",
       "description": "",
       "severity": "critical",

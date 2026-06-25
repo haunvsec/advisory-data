@@ -2,10 +2,10 @@
   "id": "splunk-2026-05-20",
   "source": "splunk",
   "title": "Splunk Security Advisories - 2026-05-20",
-  "description": "Merged 3 splunk security advisories published on 2026-05-20. Original advisory IDs: SVD-2026-0516, SVD-2026-0515, SVD-2026-0514\n\nTitles:\n- Third-Party Package Updates in Splunk Add-on for Tomcat App - May 2026\n- Third-Party Package Updates in Splunk User Behavior Analytics - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+  "description": "Merged 15 splunk security advisories published on 2026-05-20. Original advisory IDs: SVD-2026-0516, SVD-2026-0515, SVD-2026-0514, SVD-2026-0513, SVD-2026-0512, SVD-2026-0511, SVD-2026-0510, SVD-2026-0509, SVD-2026-0508, SVD-2026-0507, SVD-2026-0506, SVD-2026-0505, SVD-2026-0504, SVD-2026-0503, SVD-2026-0502\n\nTitles:\n- Third-Party Package Updates in Splunk Add-on for Tomcat App - May 2026\n- Third-Party Package Updates in Splunk User Behavior Analytics - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Java Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Analytics Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Apache Web Server Agent - May 2026\n- Third-Party Package Updates in Splunk Universal Forwarder - May 2026\n- Third-Party Package Updates in Splunk Enterprise - May 2026\n- Denial of Service through coldToFrozen.sh Script in Splunk Enterprise\n- Sensitive Information Disclosure through Log Files in Splunk Enterprise\n- Improper Access Control through Role Inheritance in Splunk AI Toolkit app",
   "severity": null,
   "cvss_scores": [],
-  "cvss_score": null,
+  "cvss_score": 3.1,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
@@ -13,7 +13,9 @@
   "published_date": "2026-05-20",
   "modified_date": "2026-05-20",
   "affected": [
-    "splunk:splunk"
+    "splunk:splunk",
+    "splunk:splunk-universal-forwarder",
+    "splunk:splunk-enterprise"
   ],
   "affected_products": [
     {
@@ -710,12 +712,523 @@
         },
         {
           "id": "CVE-2026-6042"
+        },
+        {
+          "id": "CVE-2026-4111"
+        },
+        {
+          "id": "CVE-2026-4424"
+        },
+        {
+          "id": "CVE-2026-5121"
+        },
+        {
+          "id": "CVE-2024-27308"
+        },
+        {
+          "id": "CVE-2024-32650"
+        },
+        {
+          "id": "CVE-2025-11468"
+        },
+        {
+          "id": "CVE-2025-12084"
+        },
+        {
+          "id": "CVE-2025-13151"
+        },
+        {
+          "id": "CVE-2025-13836"
+        },
+        {
+          "id": "CVE-2025-14174"
+        },
+        {
+          "id": "CVE-2025-15282"
+        },
+        {
+          "id": "CVE-2025-1948"
+        },
+        {
+          "id": "CVE-2025-28162"
+        },
+        {
+          "id": "CVE-2025-28164"
+        },
+        {
+          "id": "CVE-2025-4432"
+        },
+        {
+          "id": "CVE-2025-55132"
+        },
+        {
+          "id": "CVE-2025-55159"
+        },
+        {
+          "id": "CVE-2025-58060"
+        },
+        {
+          "id": "CVE-2025-58436"
+        },
+        {
+          "id": "CVE-2025-59465"
+        },
+        {
+          "id": "CVE-2025-6075"
+        },
+        {
+          "id": "CVE-2025-62718"
+        },
+        {
+          "id": "CVE-2025-64505"
+        },
+        {
+          "id": "CVE-2025-64506"
+        },
+        {
+          "id": "CVE-2025-64720"
+        },
+        {
+          "id": "CVE-2025-65018"
+        },
+        {
+          "id": "CVE-2025-66293"
+        },
+        {
+          "id": "CVE-2025-69277"
+        },
+        {
+          "id": "CVE-2025-8291"
+        },
+        {
+          "id": "CVE-2026-0865"
+        },
+        {
+          "id": "CVE-2026-0965"
+        },
+        {
+          "id": "CVE-2026-0967"
+        },
+        {
+          "id": "CVE-2026-0968"
+        },
+        {
+          "id": "CVE-2026-1584"
+        },
+        {
+          "id": "CVE-2026-1861"
+        },
+        {
+          "id": "CVE-2026-21637"
+        },
+        {
+          "id": "CVE-2026-21710"
+        },
+        {
+          "id": "CVE-2026-21712"
+        },
+        {
+          "id": "CVE-2026-21713"
+        },
+        {
+          "id": "CVE-2026-21714"
+        },
+        {
+          "id": "CVE-2026-21715"
+        },
+        {
+          "id": "CVE-2026-21716"
+        },
+        {
+          "id": "CVE-2026-21717"
+        },
+        {
+          "id": "CVE-2026-22690"
+        },
+        {
+          "id": "CVE-2026-22691"
+        },
+        {
+          "id": "CVE-2026-22695"
+        },
+        {
+          "id": "CVE-2026-22732"
+        },
+        {
+          "id": "CVE-2026-22735"
+        },
+        {
+          "id": "CVE-2026-22737"
+        },
+        {
+          "id": "CVE-2026-22801"
+        },
+        {
+          "id": "CVE-2026-2441"
+        },
+        {
+          "id": "CVE-2026-24515"
+        },
+        {
+          "id": "CVE-2026-24688"
+        },
+        {
+          "id": "CVE-2026-25210"
+        },
+        {
+          "id": "CVE-2026-25541"
+        },
+        {
+          "id": "CVE-2026-25833"
+        },
+        {
+          "id": "CVE-2026-25834"
+        },
+        {
+          "id": "CVE-2026-25835"
+        },
+        {
+          "id": "CVE-2026-25990"
+        },
+        {
+          "id": "CVE-2026-26007"
+        },
+        {
+          "id": "CVE-2026-2648"
+        },
+        {
+          "id": "CVE-2026-2649"
+        },
+        {
+          "id": "CVE-2026-2650"
+        },
+        {
+          "id": "CVE-2026-2673"
+        },
+        {
+          "id": "CVE-2026-27024"
+        },
+        {
+          "id": "CVE-2026-27025"
+        },
+        {
+          "id": "CVE-2026-27026"
+        },
+        {
+          "id": "CVE-2026-27456"
+        },
+        {
+          "id": "CVE-2026-27628"
+        },
+        {
+          "id": "CVE-2026-27699"
+        },
+        {
+          "id": "CVE-2026-27888"
+        },
+        {
+          "id": "CVE-2026-28351"
+        },
+        {
+          "id": "CVE-2026-28804"
+        },
+        {
+          "id": "CVE-2026-3061"
+        },
+        {
+          "id": "CVE-2026-3062"
+        },
+        {
+          "id": "CVE-2026-3063"
+        },
+        {
+          "id": "CVE-2026-32141"
+        },
+        {
+          "id": "CVE-2026-32776"
+        },
+        {
+          "id": "CVE-2026-32777"
+        },
+        {
+          "id": "CVE-2026-32778"
+        },
+        {
+          "id": "CVE-2026-33055"
+        },
+        {
+          "id": "CVE-2026-33056"
+        },
+        {
+          "id": "CVE-2026-33228"
+        },
+        {
+          "id": "CVE-2026-34073"
+        },
+        {
+          "id": "CVE-2026-34871"
+        },
+        {
+          "id": "CVE-2026-34872"
+        },
+        {
+          "id": "CVE-2026-34873"
+        },
+        {
+          "id": "CVE-2026-34874"
+        },
+        {
+          "id": "CVE-2026-34875"
+        },
+        {
+          "id": "CVE-2026-34876"
+        },
+        {
+          "id": "CVE-2026-34877"
+        },
+        {
+          "id": "CVE-2026-3536"
+        },
+        {
+          "id": "CVE-2026-3537"
+        },
+        {
+          "id": "CVE-2026-3538"
+        },
+        {
+          "id": "CVE-2026-3539"
+        },
+        {
+          "id": "CVE-2026-3540"
+        },
+        {
+          "id": "CVE-2026-3541"
+        },
+        {
+          "id": "CVE-2026-3542"
+        },
+        {
+          "id": "CVE-2026-3543"
+        },
+        {
+          "id": "CVE-2026-3544"
+        },
+        {
+          "id": "CVE-2026-3545"
+        },
+        {
+          "id": "CVE-2026-3731"
+        },
+        {
+          "id": "CVE-2026-39892"
+        },
+        {
+          "id": "CVE-2026-40175"
+        },
+        {
+          "id": "CVE-2026-40192"
+        },
+        {
+          "id": "CVE-2026-41324"
+        },
+        {
+          "id": "CVE-2026-42308"
+        },
+        {
+          "id": "CVE-2026-42309"
+        },
+        {
+          "id": "CVE-2026-42310"
+        },
+        {
+          "id": "CVE-2026-42311"
+        },
+        {
+          "id": "CVE-2024-58251"
+        },
+        {
+          "id": "CVE-2025-30749"
+        },
+        {
+          "id": "CVE-2025-30754"
+        },
+        {
+          "id": "CVE-2025-30761"
+        },
+        {
+          "id": "CVE-2025-46394"
+        },
+        {
+          "id": "CVE-2025-50059"
+        },
+        {
+          "id": "CVE-2025-50106"
+        },
+        {
+          "id": "CVE-2026-27171"
+        },
+        {
+          "id": "CVE-2026-28387"
+        },
+        {
+          "id": "CVE-2026-28388"
+        },
+        {
+          "id": "CVE-2026-28389"
+        },
+        {
+          "id": "CVE-2026-28390"
+        },
+        {
+          "id": "CVE-2026-31789"
+        },
+        {
+          "id": "CVE-2026-31790"
+        },
+        {
+          "id": "CVE-2025-14831"
+        },
+        {
+          "id": "CVE-2025-61726"
+        },
+        {
+          "id": "CVE-2025-61728"
+        },
+        {
+          "id": "CVE-2025-61730"
+        },
+        {
+          "id": "CVE-2025-61731"
+        },
+        {
+          "id": "CVE-2025-61732"
+        },
+        {
+          "id": "CVE-2025-68119"
+        },
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2025-68973"
+        },
+        {
+          "id": "CVE-2025-9086"
+        },
+        {
+          "id": "CVE-2025-9820"
+        },
+        {
+          "id": "CVE-2026-25679"
+        },
+        {
+          "id": "CVE-2026-27139"
+        },
+        {
+          "id": "CVE-2026-27140"
+        },
+        {
+          "id": "CVE-2026-27142"
+        },
+        {
+          "id": "CVE-2026-27143"
+        },
+        {
+          "id": "CVE-2026-27144"
+        },
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32281"
+        },
+        {
+          "id": "CVE-2026-32282"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
+          "id": "CVE-2026-32288"
+        },
+        {
+          "id": "CVE-2026-32289"
+        },
+        {
+          "id": "CVE-2026-33186"
+        },
+        {
+          "id": "CVE-2026-33810"
+        },
+        {
+          "id": "CVE-2026-35469"
+        },
+        {
+          "id": "CVE-2024-12798"
+        },
+        {
+          "id": "CVE-2024-12801"
+        },
+        {
+          "id": "CVE-2025-37731"
+        },
+        {
+          "id": "CVE-2025-68384"
+        },
+        {
+          "id": "CVE-2025-68390"
+        },
+        {
+          "id": "CVE-2025-22872"
+        },
+        {
+          "id": "CVE-2025-47911"
+        },
+        {
+          "id": "CVE-2025-58190"
+        },
+        {
+          "id": "CVE-2025-68156"
+        },
+        {
+          "id": "CVE-2026-27141"
+        },
+        {
+          "id": "CVE-2026-20240"
+        },
+        {
+          "id": "CVE-2026-20239"
+        },
+        {
+          "id": "CVE-2026-20238"
+        }
+      ]
+    },
+    {
+      "vendor": "splunk",
+      "product": "Splunk Universal Forwarder",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:2.3:a:splunk:universal_forwarder:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-12084"
+        },
+        {
+          "id": "CVE-2024-12086"
+        },
+        {
+          "id": "CVE-2024-12087"
+        },
+        {
+          "id": "CVE-2024-12088"
         }
       ]
     }
   ],
   "fixed_versions": [],
-  "solution": "Upgrade Splunk Add-on for Tomcat to versions 3.3.1, or higher.\nSee\nspecial instructions\nfor this release.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Add-on for Tomcat\n3.3\nBelow 3.3.1\n3.3.1\n\nUpgrade Splunk User Behavior Analytics to version 5.4.5, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk User Behavior Analytics\n5.4\nBelow 5.4.5\n5.4.5\n\nUpgrade Splunk AppDynamics Machine Agent to version 26.4.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Machine Agent\n26.4\nBelow 26.4.0\n26.4.0",
+  "solution": "Upgrade Splunk Add-on for Tomcat to versions 3.3.1, or higher.\nSee\nspecial instructions\nfor this release.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Add-on for Tomcat\n3.3\nBelow 3.3.1\n3.3.1\n\nUpgrade Splunk User Behavior Analytics to version 5.4.5, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk User Behavior Analytics\n5.4\nBelow 5.4.5\n5.4.5\n\nUpgrade Splunk AppDynamics Machine Agent to version 26.4.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Machine Agent\n26.4\nBelow 26.4.0\n26.4.0\n\nUpgrade Splunk AppDynamics Java Agent to version 26.4.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Java Agent\n26.4\nBelow 26.4.0\n26.4.0\n\nUpgrade Splunk AppDynamics Private Synthetic Agent to version 26.4.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Private Synthetic Agent\n26.4\nBelow 26.4.0\n26.4.0\n\nUpgrade Splunk AppDynamics Python Agent to version 26.4.1 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Python Agent\n26.4\nBelow 26.4.1\n26.4.1\n\nUpgrade Splunk AppDynamics Cluster Agent to version 26.4.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Cluster Agent\n26.4\nBelow 26.4.0\n26.4.0\n\nUpgrade Splunk AppDynamics Database Agent to version 26.4.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Database Agent\n26.4\nBelow 26.4.0\n26.4.0\n\nUpgrade Splunk AppDynamics Analytics Agent to version 26.4.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Analytics Agent\n26.4\nBelow 26.4.0\n26.4.0\n\nUpgrade Splunk AppDynamics Apache Web Server Agent to versions 25.11.1 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Apache Web Server Agent\n25.11\nBelow 25.11.1\n25.11.1\n\nUpgrade Splunk Universal Forwarder to versions 10.2.3, 10.0.6, 9.4.11, 9.3.12, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Universal Forwarder\n9.4\n9.4.0 to 9.4.10\n9.4.11\n\nUpgrade Splunk Enterprise to versions 10.2.3, 10.0.6, 9.4.11, 9.3.12, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nBelow 10.2.3\n10.2.3\nSplunk Enterprise\n10.0\n10.0.0 to 10.0.5\n10.0.6\nSplunk Enterprise\n9.4\n9.4.0 to 9.4.10\n9.4.11\nSplunk Enterprise\n9.3\n9.3.0 to 9.3.11\n9.3.12\n\nUpgrade Splunk Enterprise to versions 10.2.2, 10.0.5, 9.4.11, 9.3.12, or higher.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.4\nSplunk Archiver\nNot affected\nN/A\nSplunk Enterprise\n10.2\nSplunk Archiver\n10.2.0 to 10.2.1\n10.2.2\nSplunk Enterprise\n10.0\nSplunk Archiver\n10.0.0 to 10.0.4\n10.0.5\nSplunk Enterprise\n9.4\nSplunk Archiver\n9.4.0 to 9.4.10\n9.4.11\nSplunk Enterprise\n9.3\nSplunk Archiver\n9.3.0 to 9.3.11\n9.3.12\nMitigations and Workarounds\nTurn off the\n\nUpgrade Splunk Enterprise to versions 10.2.2, 10.0.5, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nsplunkd\n10.2.0 to 10.2.1\n10.2.2\nSplunk Enterprise\n10.0\nsplunkd\n10.0.0 to 10.0.4\n10.0.5\nSplunk Enterprise\n9.4\nsplunkd\nNot affected\nN/A\nSplunk Enterprise\n9.3\nsplunkd\nNot affected\nN/A\nSplunk Cloud Platform\n10.3.2512\nsplunkd\nBelow 10.3.2512.8\n10.3.2512.8\nSplunk Clo\n\nUpgrade Splunk AI Toolkit to version 5.7.3 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AI Toolkit\n5.7\nBelow 5.7.3\n5.7.3\nMitigations and Workarounds\nTurn Splunk AI Toolkit 5.7.2 and lower off until a patched version is available. See\nManage app and add-on objects\nin the Splunk documentation.\nIf you must leave the app on, then perform one of the following options and restart the Splunk platform instance:\n1. Edit the\n$SPLUNK_HOME/etc/aps/Splunk_ML_Toolkit/defa",
   "remediations": [],
   "cves": [
     {
@@ -2253,6 +2766,58 @@
       "references": []
     },
     {
+      "id": "CVE-2024-12084",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Universal Forwarder - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-12086",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Universal Forwarder - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-12087",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Universal Forwarder - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-12088",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Universal Forwarder - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2024-12718",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
@@ -2269,6 +2834,32 @@
       "id": "CVE-2024-12797",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-12798",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Analytics Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-12801",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Analytics Agent - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -2370,6 +2961,19 @@
       "references": []
     },
     {
+      "id": "CVE-2024-27308",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2024-29131",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
@@ -2399,6 +3003,19 @@
       "id": "CVE-2024-29857",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-32650",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -2604,6 +3221,19 @@
       "references": []
     },
     {
+      "id": "CVE-2024-58251",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2024-6345",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
@@ -2671,7 +3301,7 @@
     {
       "id": "CVE-2025-11143",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -2684,7 +3314,7 @@
     {
       "id": "CVE-2025-11187",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -2708,9 +3338,74 @@
       "references": []
     },
     {
+      "id": "CVE-2025-11468",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-12084",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2025-12183",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Analytics Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13151",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13836",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-14174",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -2734,9 +3429,35 @@
       "references": []
     },
     {
+      "id": "CVE-2025-14831",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-15282",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2025-15467",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -2749,7 +3470,7 @@
     {
       "id": "CVE-2025-15468",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -2763,6 +3484,19 @@
       "id": "CVE-2025-1795",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-1948",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -2812,6 +3546,19 @@
       "references": []
     },
     {
+      "id": "CVE-2025-22872",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2025-24855",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
@@ -2841,6 +3588,32 @@
       "id": "CVE-2025-27553",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-28162",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-28164",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -2916,9 +3689,61 @@
       "references": []
     },
     {
+      "id": "CVE-2025-30749",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-30754",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-30761",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2025-31133",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-37731",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Analytics Agent - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -2945,6 +3770,19 @@
       "id": "CVE-2025-4330",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-4432",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3007,6 +3845,19 @@
       "references": []
     },
     {
+      "id": "CVE-2025-46394",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2025-4674",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
@@ -3049,6 +3900,19 @@
       "id": "CVE-2025-47907",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47911",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3111,6 +3975,32 @@
       "references": []
     },
     {
+      "id": "CVE-2025-50059",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-50106",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2025-52565",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
@@ -3139,7 +4029,7 @@
     {
       "id": "CVE-2025-53057",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Apache Web Server Agent - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3152,7 +4042,7 @@
     {
       "id": "CVE-2025-53066",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Apache Web Server Agent - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3165,7 +4055,7 @@
     {
       "id": "CVE-2025-55130",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3178,7 +4068,33 @@
     {
       "id": "CVE-2025-55131",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-55132",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-55159",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3192,6 +4108,19 @@
       "id": "CVE-2025-58057",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58060",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3228,9 +4157,48 @@
       "references": []
     },
     {
+      "id": "CVE-2025-58190",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-58436",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2025-59464",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-59465",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3243,7 +4211,7 @@
     {
       "id": "CVE-2025-59466",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3257,6 +4225,19 @@
       "id": "CVE-2025-6069",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-6075",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3293,6 +4274,32 @@
       "references": []
     },
     {
+      "id": "CVE-2025-61726",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61728",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2025-61729",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
@@ -3306,9 +4313,126 @@
       "references": []
     },
     {
+      "id": "CVE-2025-61730",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61731",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61732",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-62718",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-64505",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-64506",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-64720",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-65018",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2025-66199",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-66293",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3360,7 +4484,46 @@
     {
       "id": "CVE-2025-67735",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-68119",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-68121",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-68156",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3373,7 +4536,7 @@
     {
       "id": "CVE-2025-68160",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3386,7 +4549,59 @@
     {
       "id": "CVE-2025-68161",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk Add-on for Tomcat App - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Apache Web Server Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-68384",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Analytics Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-68390",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Analytics Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-68973",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-69277",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3399,7 +4614,7 @@
     {
       "id": "CVE-2025-69418",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3412,7 +4627,7 @@
     {
       "id": "CVE-2025-69419",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3425,7 +4640,7 @@
     {
       "id": "CVE-2025-69420",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3438,7 +4653,7 @@
     {
       "id": "CVE-2025-69421",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3475,6 +4690,32 @@
       "references": []
     },
     {
+      "id": "CVE-2025-8291",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-9086",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2025-9232",
       "source": "splunk",
       "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
@@ -3488,9 +4729,87 @@
       "references": []
     },
     {
+      "id": "CVE-2025-9820",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0865",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0965",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0967",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0968",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2026-1225",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-1584",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3503,7 +4822,163 @@
     {
       "id": "CVE-2026-1605",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-1861",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20238",
+      "source": "splunk",
+      "title": "Improper Access Control through Role Inheritance in Splunk AI Toolkit app",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20239",
+      "source": "splunk",
+      "title": "Sensitive Information Disclosure through Log Files in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20240",
+      "source": "splunk",
+      "title": "Denial of Service through coldToFrozen.sh Script in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21637",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21710",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21712",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21713",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21714",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21715",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21716",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21717",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3516,7 +4991,7 @@
     {
       "id": "CVE-2026-21925",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3529,7 +5004,7 @@
     {
       "id": "CVE-2026-21932",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3542,7 +5017,7 @@
     {
       "id": "CVE-2026-21933",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3555,7 +5030,85 @@
     {
       "id": "CVE-2026-21945",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-22690",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-22691",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-22695",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-22732",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-22735",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-22737",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3568,7 +5121,7 @@
     {
       "id": "CVE-2026-22795",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3581,7 +5134,85 @@
     {
       "id": "CVE-2026-22796",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-22801",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-2441",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-24515",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-24688",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-25210",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-25541",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3594,7 +5225,657 @@
     {
       "id": "CVE-2026-25639",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk User Behavior Analytics - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-25679",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-25833",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-25834",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-25835",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-25990",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-26007",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-2648",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-2649",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-2650",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-2673",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27024",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27025",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27026",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27139",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27140",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27141",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27142",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27143",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27144",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27171",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27456",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27628",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27699",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27888",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-28351",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-28387",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-28388",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-28389",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-28390",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-28804",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3061",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3062",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3063",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-31789",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-31790",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32141",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32280",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32281",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32282",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32283",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32288",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32289",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32776",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32777",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32778",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-33055",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-33056",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-33186",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-33228",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-33810",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3607,7 +5888,7 @@
     {
       "id": "CVE-2026-33870",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3620,7 +5901,20 @@
     {
       "id": "CVE-2026-33871",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34073",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3633,7 +5927,7 @@
     {
       "id": "CVE-2026-34477",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3646,7 +5940,7 @@
     {
       "id": "CVE-2026-34478",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3659,7 +5953,293 @@
     {
       "id": "CVE-2026-34480",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34871",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34872",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34873",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34874",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34875",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34876",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34877",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3536",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3537",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3538",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3539",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3540",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3541",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3542",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3543",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3544",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3545",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-35469",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3731",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-39892",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40175",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-40192",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3672,7 +6252,111 @@
     {
       "id": "CVE-2026-40200",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-4111",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-41324",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-42308",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-42309",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-42310",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-42311",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-4424",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Java Agent - May 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5121",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Java Agent - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3685,7 +6369,7 @@
     {
       "id": "CVE-2026-6042",
       "source": "splunk",
-      "title": "Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026",
+      "title": "Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -3703,6 +6387,18 @@
   "references": [
     "https://advisory.splunk.com/advisories/SVD-2026-0516",
     "https://advisory.splunk.com/advisories/SVD-2026-0515",
-    "https://advisory.splunk.com/advisories/SVD-2026-0514"
+    "https://advisory.splunk.com/advisories/SVD-2026-0514",
+    "https://advisory.splunk.com/advisories/SVD-2026-0513",
+    "https://advisory.splunk.com/advisories/SVD-2026-0512",
+    "https://advisory.splunk.com/advisories/SVD-2026-0511",
+    "https://advisory.splunk.com/advisories/SVD-2026-0510",
+    "https://advisory.splunk.com/advisories/SVD-2026-0509",
+    "https://advisory.splunk.com/advisories/SVD-2026-0508",
+    "https://advisory.splunk.com/advisories/SVD-2026-0507",
+    "https://advisory.splunk.com/advisories/SVD-2026-0506",
+    "https://advisory.splunk.com/advisories/SVD-2026-0505",
+    "https://advisory.splunk.com/advisories/SVD-2026-0504",
+    "https://advisory.splunk.com/advisories/SVD-2026-0503",
+    "https://advisory.splunk.com/advisories/SVD-2026-0502"
   ]
 }
