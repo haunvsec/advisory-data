@@ -2,7 +2,7 @@
   "id": "spring-2026-06-08",
   "source": "spring",
   "title": "Spring Security Advisories - 2026-06-08",
-  "description": "Merged 5 spring security advisories published on 2026-06-08. Original advisory IDs: CVE-2026-41720, CVE-2026-41710, CVE-2026-41839, CVE-2026-41840, CVE-2026-41842\n\nTitles:\n- Authentication Bypass with Empty Password in Spring LDAP\n- Cache Exhaustion in Stateful Retries leads to Denial of Service\n- Spring Framework Escalation via Session Fixation in WebFlux\n- Spring Framework Denial of Service via Multipart Requests in WebFlux\n- Spring Framework Denial of Service via Versioned Resources in Spring MVC and WebFlux",
+  "description": "Merged 5 spring security advisories published on 2026-06-08. Original advisory IDs: CVE-2026-41720, CVE-2026-41710, CVE-2026-41838, CVE-2026-41839, CVE-2026-41840\n\nTitles:\n- Authentication Bypass with Empty Password in Spring LDAP\n- Cache Exhaustion in Stateful Retries leads to Denial of Service\n- Spring Framework Predictable Session ID in WebSocket Module\n- Spring Framework Escalation via Session Fixation in WebFlux\n- Spring Framework Denial of Service via Multipart Requests in WebFlux",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -23,6 +23,10 @@
       "product": "Spring LDAP",
       "version_range": "2.4.0 - 2.4.4",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:spring:spring_ldap:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
@@ -39,6 +43,10 @@
       "product": "Spring LDAP",
       "version_range": "3.2.0 - 3.2.17",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:spring:spring_ldap:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
@@ -55,6 +63,10 @@
       "product": "Spring LDAP",
       "version_range": "3.3.0 - 3.3.7",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:spring:spring_ldap:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
@@ -71,6 +83,10 @@
       "product": "Spring LDAP",
       "version_range": "4.0.0 - 4.0.3",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:spring:spring_ldap:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
@@ -87,6 +103,10 @@
       "product": "Spring LDAP",
       "version_range": "Unsupported versions are also affected.",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:spring:spring_ldap:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
@@ -103,6 +123,10 @@
       "product": "Spring Retry",
       "version_range": "2.0.0 - 2.0.12",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:spring:spring_retry:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
@@ -116,6 +140,10 @@
       "product": "Spring Retry",
       "version_range": "1.3.0 - 1.3.4",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:spring:spring_retry:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
@@ -129,6 +157,10 @@
       "product": "Spring Retry",
       "version_range": "Versions that are no longer supported are also affected.",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:spring:spring_retry:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
@@ -142,17 +174,21 @@
       "product": "Spring Framework",
       "version_range": "7.0.0 - 7.0.7",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:vmware:spring_framework:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
+        {
+          "id": "CVE-2026-41838"
+        },
         {
           "id": "CVE-2026-41839"
         },
         {
           "id": "CVE-2026-41840"
-        },
-        {
-          "id": "CVE-2026-41842"
         }
       ]
     },
@@ -161,17 +197,21 @@
       "product": "Spring Framework",
       "version_range": "6.2.0 - 6.2.18",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:vmware:spring_framework:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
+        {
+          "id": "CVE-2026-41838"
+        },
         {
           "id": "CVE-2026-41839"
         },
         {
           "id": "CVE-2026-41840"
-        },
-        {
-          "id": "CVE-2026-41842"
         }
       ]
     },
@@ -180,17 +220,21 @@
       "product": "Spring Framework",
       "version_range": "6.1.0 - 6.1.27",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:vmware:spring_framework:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
+        {
+          "id": "CVE-2026-41838"
+        },
         {
           "id": "CVE-2026-41839"
         },
         {
           "id": "CVE-2026-41840"
-        },
-        {
-          "id": "CVE-2026-41842"
         }
       ]
     },
@@ -199,17 +243,21 @@
       "product": "Spring Framework",
       "version_range": "5.3.0 - 5.3.48",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:vmware:spring_framework:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
+        {
+          "id": "CVE-2026-41838"
+        },
         {
           "id": "CVE-2026-41839"
         },
         {
           "id": "CVE-2026-41840"
-        },
-        {
-          "id": "CVE-2026-41842"
         }
       ]
     },
@@ -218,17 +266,21 @@
       "product": "Spring Framework",
       "version_range": "Versions that are no longer supported are also affected.",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:vmware:spring_framework:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
+        {
+          "id": "CVE-2026-41838"
+        },
         {
           "id": "CVE-2026-41839"
         },
         {
           "id": "CVE-2026-41840"
-        },
-        {
-          "id": "CVE-2026-41842"
         }
       ]
     }
@@ -293,6 +345,19 @@
       "references": []
     },
     {
+      "id": "CVE-2026-41838",
+      "source": "spring",
+      "title": "Spring Framework Predictable Session ID in WebSocket Module",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-08",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2026-41839",
       "source": "spring",
       "title": "Spring Framework Escalation via Session Fixation in WebFlux",
@@ -317,19 +382,6 @@
       "modified_date": "",
       "affected": [],
       "references": []
-    },
-    {
-      "id": "CVE-2026-41842",
-      "source": "spring",
-      "title": "Spring Framework Denial of Service via Versioned Resources in Spring MVC and WebFlux",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-06-08",
-      "modified_date": "",
-      "affected": [],
-      "references": []
     }
   ],
   "exploits": [],
@@ -339,8 +391,8 @@
   "references": [
     "https://spring.io/security/cve-2026-41720",
     "https://spring.io/security/cve-2026-41710",
+    "https://spring.io/security/cve-2026-41838",
     "https://spring.io/security/cve-2026-41839",
-    "https://spring.io/security/cve-2026-41840",
-    "https://spring.io/security/cve-2026-41842"
+    "https://spring.io/security/cve-2026-41840"
   ]
 }

@@ -1,0 +1,110 @@
+{
+  "id": "aws-2026-06-29",
+  "source": "aws",
+  "title": "Aws Security Advisories - 2026-06-29",
+  "description": "Merged 2 aws security advisories published on 2026-06-29. Original advisory IDs: 2026-048-aws, ALAS2023-2026-1907\n\nTitles:\n- CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF\n- ALAS2023-2026-1907 (critical): rclone",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-06-29",
+  "modified_date": "2026-06-29",
+  "affected": [
+    "aws:AWS WAF is a web application firewall that monitors the HTTP(S) requests that are forwarded to your protected web application resources. We identified",
+    "al2023:rclone"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-13763"
+        },
+        {
+          "id": "CVE-2026-13762"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Rclone",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:rclone:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-49980"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update rclone --releasever 2023.12.20260629",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-13762",
+      "source": "aws",
+      "title": "CVE-2026-13762",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-29",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-13763",
+      "source": "aws",
+      "title": "CVE-2026-13763",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-29",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-49980",
+      "source": "aws-alas",
+      "title": "CVE-2026-49980",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-06-29",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-048-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-048-aws/",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1907.html"
+  ]
+}

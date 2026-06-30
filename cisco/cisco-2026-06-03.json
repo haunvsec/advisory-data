@@ -2,7 +2,7 @@
   "id": "cisco-2026-06-03",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-06-03",
-  "description": "Merged 3 cisco security advisories published on 2026-06-03. Original advisory IDs: cisco-sa-finesse-rfi-gwpkdc89, cisco-sa-cucm-ssrf-cXPnHcW, cisco-sa-webex-xss-jw3NeQzS\n\nTitles:\n- Cisco Finesse Remote File Inclusion Vulnerability\n- Cisco Unified Communications Manager Server-Side Request Forgery Vulnerability\n- Cisco Webex Meetings Cross-Site Scripting Vulnerability",
+  "description": "Merged 3 cisco security advisories published on 2026-06-03. Original advisory IDs: cisco-sa-finesse-rfi-gwpkdc89, cisco-sa-webex-xss-jw3NeQzS, cisco-sa-cucm-ssrf-cXPnHcW\n\nTitles:\n- Cisco Finesse Remote File Inclusion Vulnerability\n- Cisco Webex Meetings Cross-Site Scripting Vulnerability\n- Cisco Unified Communications Manager Server-Side Request Forgery Vulnerability",
   "severity": "high",
   "cvss_scores": [
     {
@@ -24,11 +24,11 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-06-03",
-  "modified_date": "2026-06-03",
+  "modified_date": "2026-06-25",
   "affected": [
     "cisco:cisco-sa-finesse-rfi-gwpkdc89",
-    "cisco:cisco-sa-cucm-ssrf-cXPnHcW",
-    "cisco:cisco-sa-webex-xss-jw3NeQzS"
+    "cisco:cisco-sa-webex-xss-jw3NeQzS",
+    "cisco:cisco-sa-cucm-ssrf-cXPnHcW"
   ],
   "affected_products": [
     {
@@ -36,6 +36,10 @@
       "product": "Cisco Finesse",
       "version_range": "",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:cisco:cisco_finesse:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
@@ -46,27 +50,35 @@
     },
     {
       "vendor": "cisco",
-      "product": "Cisco Unified CM",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "cpe:2.3:a:cisco:unified_communications_manager:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-20230"
-        }
-      ]
-    },
-    {
-      "vendor": "cisco",
       "product": "Cisco Webex Meetings",
       "version_range": "",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:cisco:webex_meetings:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
           "id": "CVE-2026-20233"
+        }
+      ]
+    },
+    {
+      "vendor": "cisco",
+      "product": "Cisco Unified CM",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:cisco:unified_communications_manager:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20230"
         }
       ]
     }
@@ -84,7 +96,7 @@
       "cvss_score": 6.1,
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "published_date": "2026-06-03",
-      "modified_date": "2026-06-03",
+      "modified_date": "2026-06-25",
       "affected": [],
       "references": [
         "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89"
@@ -127,7 +139,7 @@
   "vendor": "cisco",
   "references": [
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-xss-jw3NeQzS"
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-xss-jw3NeQzS",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW"
   ]
 }
