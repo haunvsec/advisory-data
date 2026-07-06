@@ -2,7 +2,7 @@
   "id": "cisco-2026-06-17",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-06-17",
-  "description": "Merged 4 cisco security advisories published on 2026-06-17. Original advisory IDs: cisco-sa-ise-multi-G5WP8vv, cisco-sa-webex-app-redirect-KOyxhffH, cisco-sa-cnc-inj-QNMeEmxk, cisco-sa-umbrella-priv-esc-F4wJB7AU\n\nTitles:\n- Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities\n- Cisco Webex App Open Redirect Vulnerability\n- Cisco Crosswork Network Controller Server-Side Template Injection Vulnerability\n- Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability",
+  "description": "Merged 3 cisco security advisories published on 2026-06-17. Original advisory IDs: cisco-sa-ise-multi-G5WP8vv, cisco-sa-webex-app-redirect-KOyxhffH, cisco-sa-umbrella-priv-esc-F4wJB7AU\n\nTitles:\n- Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities\n- Cisco Webex App Open Redirect Vulnerability\n- Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability",
   "severity": "critical",
   "cvss_scores": [
     {
@@ -25,12 +25,6 @@
     },
     {
       "version": "3.1",
-      "score": 6.3,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-      "severity": ""
-    },
-    {
-      "version": "3.1",
       "score": 6.0,
       "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
       "severity": ""
@@ -46,7 +40,6 @@
   "affected": [
     "cisco:cisco-sa-ise-multi-G5WP8vv",
     "cisco:cisco-sa-webex-app-redirect-KOyxhffH",
-    "cisco:cisco-sa-cnc-inj-QNMeEmxk",
     "cisco:cisco-sa-umbrella-priv-esc-F4wJB7AU"
   ],
   "affected_products": [
@@ -84,23 +77,6 @@
       "cves": [
         {
           "id": "CVE-2026-20178"
-        }
-      ]
-    },
-    {
-      "vendor": "cisco",
-      "product": "Cisco Crosswork Network Change Automation",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:cisco_crosswork_network_change_automation:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-20220"
         }
       ]
     },
@@ -172,21 +148,6 @@
       ]
     },
     {
-      "id": "CVE-2026-20220",
-      "source": "cisco",
-      "title": "Cisco Crosswork Network Controller Remote Code Execution Vulnerability",
-      "description": "",
-      "severity": null,
-      "cvss_score": 6.3,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-      "published_date": "2026-06-17",
-      "modified_date": "2026-06-17",
-      "affected": [],
-      "references": [
-        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cnc-inj-QNMeEmxk"
-      ]
-    },
-    {
       "id": "CVE-2026-20246",
       "source": "cisco",
       "title": "Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability",
@@ -209,7 +170,6 @@
   "references": [
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-app-redirect-KOyxhffH",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cnc-inj-QNMeEmxk",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-umbrella-priv-esc-F4wJB7AU"
   ]
 }

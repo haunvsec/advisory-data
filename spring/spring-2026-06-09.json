@@ -2,7 +2,7 @@
   "id": "spring-2026-06-09",
   "source": "spring",
   "title": "Spring Security Advisories - 2026-06-09",
-  "description": "Merged 26 spring security advisories published on 2026-06-09. Original advisory IDs: CVE-2026-40988, CVE-2026-40993, CVE-2026-41003, CVE-2026-41008, CVE-2026-41706, CVE-2026-41694, CVE-2026-47838, CVE-2026-41726, CVE-2026-41727, CVE-2026-41731, CVE-2026-41732, CVE-2026-41701, CVE-2026-41714, CVE-2026-41695, CVE-2026-41697, CVE-2026-41696, CVE-2026-41716, CVE-2026-41721, CVE-2026-41717, CVE-2026-41719, CVE-2026-41711, CVE-2026-41728, CVE-2026-41729, CVE-2026-41837, CVE-2026-41730, CVE-2026-40991\n\nTitles:\n- Unbounded DEFLATE Inflation in SAML 2.0 Service Provider\n- Unfiltered Java Native Deserialization of SAML 2.0 Asserting Party Credentials BLOB Database Entry\n- Unencoded HTML Outputs in Spring Security May Allow Cross-Site Scripting\n- Spring Security Authorization Server Open Redirect via request_uri\n- Open Redirect When Using CookieRequestCache\n- SAML Payloads Decrypted Without Valid Signature\n- Unauthorized User Impersonation when Using X.509 Client Certificates\n- In Spring for Apache Kafka, unbounded delegate cache keyed on user-controlled, potentially malicious selector header\n- In Spring for Apache Kafka, forged retry topic headers subvert retry routing and backoff behavior\n- In Spring for Apache Kafka, overly broad trusted-package matching in header mappers exposes JDK classes to deserialization\n- In Spring for Apache Pulsar, overly broad trusted-package matching in header mapper exposes JDK classes to deserialization\n- In Spring AMQP sequential correlation IDs enable reply poisoning on fixed reply queues\n- In Spring AMQP the `RabbitConnectionFactoryBean.setUri(\"amqps://...\")` bypasses secure SSL setup, uses `TrustEverythingTrustManager`\n- Denial of Service in Spring Data Commons Property Path Resolution\n- Spring Data Relational Parameter not Escaped for Query By Example LIKE Pattern\n- Spring Data MongoDB Bind Parameter Literal Quoting Breakout\n- Spring Data web support unbounded negative-result cache keyed on attacker-supplied property names\n- Spring Data Commons Denial of Service via Data Binding\n- Spring Data MongoDB - SpEL Expression Injection via Annotated Query Parameter Binding\n- Spring Data KeyValue - SpEL Injection vulnerability in SpelPropertyComparator\n- Potential Denial of Service through crafted Sort Parameters\n- Spring Data REST JSON Patch bypasses Jackson read-only property protection on nested objects and collections\n- Spring Data REST SpEL Injection via Map Key in JSON Patch\n- Spring Data REST Querydsl integration exposes Jackson-hidden persistent fields as filter keys\n- Spring Data REST exposes persistence-layer internals in error responses\n- XML External Entity (XXE) injection when documenting untrusted XML content",
+  "description": "Merged 26 spring security advisories published on 2026-06-09. Original advisory IDs: CVE-2026-40988, CVE-2026-40993, CVE-2026-41003, CVE-2026-41694, CVE-2026-41008, CVE-2026-41706, CVE-2026-47838, CVE-2026-41726, CVE-2026-41727, CVE-2026-41731, CVE-2026-41732, CVE-2026-41701, CVE-2026-41714, CVE-2026-41696, CVE-2026-41695, CVE-2026-41697, CVE-2026-41711, CVE-2026-41716, CVE-2026-41717, CVE-2026-41719, CVE-2026-41728, CVE-2026-41837, CVE-2026-41729, CVE-2026-41730, CVE-2026-41721, CVE-2026-40991\n\nTitles:\n- Unbounded DEFLATE Inflation in SAML 2.0 Service Provider\n- Unfiltered Java Native Deserialization of SAML 2.0 Asserting Party Credentials BLOB Database Entry\n- Unencoded HTML Outputs in Spring Security May Allow Cross-Site Scripting\n- SAML Payloads Decrypted Without Valid Signature\n- Spring Security Authorization Server Open Redirect via request_uri\n- Open Redirect When Using CookieRequestCache\n- Unauthorized User Impersonation when Using X.509 Client Certificates\n- In Spring for Apache Kafka, unbounded delegate cache keyed on user-controlled, potentially malicious selector header\n- In Spring for Apache Kafka, forged retry topic headers subvert retry routing and backoff behavior\n- In Spring for Apache Kafka, overly broad trusted-package matching in header mappers exposes JDK classes to deserialization\n- In Spring for Apache Pulsar, overly broad trusted-package matching in header mapper exposes JDK classes to deserialization\n- In Spring AMQP sequential correlation IDs enable reply poisoning on fixed reply queues\n- In Spring AMQP the `RabbitConnectionFactoryBean.setUri(\"amqps://...\")` bypasses secure SSL setup, uses `TrustEverythingTrustManager`\n- Spring Data MongoDB Bind Parameter Literal Quoting Breakout\n- Denial of Service in Spring Data Commons Property Path Resolution\n- Spring Data Relational Parameter not Escaped for Query By Example LIKE Pattern\n- Potential Denial of Service through crafted Sort Parameters\n- Spring Data web support unbounded negative-result cache keyed on attacker-supplied property names\n- Spring Data MongoDB - SpEL Expression Injection via Annotated Query Parameter Binding\n- Spring Data KeyValue - SpEL Injection vulnerability in SpelPropertyComparator\n- Spring Data REST JSON Patch bypasses Jackson read-only property protection on nested objects and collections\n- Spring Data REST Querydsl integration exposes Jackson-hidden persistent fields as filter keys\n- Spring Data REST SpEL Injection via Map Key in JSON Patch\n- Spring Data REST exposes persistence-layer internals in error responses\n- Spring Data Commons Denial of Service via Data Binding\n- XML External Entity (XXE) injection when documenting untrusted XML content",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -18,9 +18,9 @@
     "spring:spring-for-apache-kafka",
     "spring:spring-for-apache-pulsar",
     "spring:spring-amqp",
+    "spring:spring-data-mongodb",
     "spring:spring-data-commons",
     "spring:spring-data-relational",
-    "spring:spring-data-mongodb",
     "spring:spring-data-commons-(transitively-affects-all-spring-data-store-modules)",
     "spring:spring-data-keyvalue",
     "spring:spring-data-rest",
@@ -46,10 +46,10 @@
           "id": "CVE-2026-41003"
         },
         {
-          "id": "CVE-2026-41706"
+          "id": "CVE-2026-41694"
         },
         {
-          "id": "CVE-2026-41694"
+          "id": "CVE-2026-41706"
         }
       ]
     },
@@ -72,10 +72,10 @@
           "id": "CVE-2026-41003"
         },
         {
-          "id": "CVE-2026-41706"
+          "id": "CVE-2026-41694"
         },
         {
-          "id": "CVE-2026-41694"
+          "id": "CVE-2026-41706"
         }
       ]
     },
@@ -98,10 +98,10 @@
           "id": "CVE-2026-41003"
         },
         {
-          "id": "CVE-2026-41706"
+          "id": "CVE-2026-41694"
         },
         {
-          "id": "CVE-2026-41694"
+          "id": "CVE-2026-41706"
         }
       ]
     },
@@ -124,10 +124,10 @@
           "id": "CVE-2026-41003"
         },
         {
-          "id": "CVE-2026-41706"
+          "id": "CVE-2026-41694"
         },
         {
-          "id": "CVE-2026-41694"
+          "id": "CVE-2026-41706"
         }
       ]
     },
@@ -150,10 +150,10 @@
           "id": "CVE-2026-41003"
         },
         {
-          "id": "CVE-2026-41706"
+          "id": "CVE-2026-41694"
         },
         {
-          "id": "CVE-2026-41694"
+          "id": "CVE-2026-41706"
         },
         {
           "id": "CVE-2026-47838"
@@ -185,13 +185,13 @@
           "id": "CVE-2026-41003"
         },
         {
+          "id": "CVE-2026-41694"
+        },
+        {
           "id": "CVE-2026-41008"
         },
         {
           "id": "CVE-2026-41706"
-        },
-        {
-          "id": "CVE-2026-41694"
         }
       ]
     },
@@ -214,10 +214,10 @@
           "id": "CVE-2026-41003"
         },
         {
-          "id": "CVE-2026-41706"
+          "id": "CVE-2026-41694"
         },
         {
-          "id": "CVE-2026-41694"
+          "id": "CVE-2026-41706"
         },
         {
           "id": "CVE-2026-47838"
@@ -632,6 +632,186 @@
     },
     {
       "vendor": "spring",
+      "product": "Spring Data MongoDB",
+      "version_range": "5.0.0 to 5.0.5",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41696"
+        },
+        {
+          "id": "CVE-2026-41717"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Data MongoDB",
+      "version_range": "4.5.0 to 4.5.11",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41696"
+        },
+        {
+          "id": "CVE-2026-41717"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Data MongoDB",
+      "version_range": "4.4.0 to 4.4.14",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41696"
+        },
+        {
+          "id": "CVE-2026-41717"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Data MongoDB",
+      "version_range": "4.3.0 to 4.3.16",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41696"
+        },
+        {
+          "id": "CVE-2026-41717"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Data MongoDB",
+      "version_range": "4.2.0 to 4.2.15",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41696"
+        },
+        {
+          "id": "CVE-2026-41717"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Data MongoDB",
+      "version_range": "4.1.0 to 4.1.14",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41696"
+        },
+        {
+          "id": "CVE-2026-41717"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Data MongoDB",
+      "version_range": "4.0.0 to 4.0.15",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41696"
+        },
+        {
+          "id": "CVE-2026-41717"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Data MongoDB",
+      "version_range": "3.4.0 to 3.4.19",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41696"
+        },
+        {
+          "id": "CVE-2026-41717"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Data MongoDB",
+      "version_range": "older unsupported versions",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-41696"
+        },
+        {
+          "id": "CVE-2026-41717"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
       "product": "Spring Data Commons",
       "version_range": "4.0.0 - 4.0.5",
       "fixed_version": "",
@@ -896,181 +1076,181 @@
     },
     {
       "vendor": "spring",
-      "product": "Spring Data MongoDB",
-      "version_range": "5.0.0 to 5.0.5",
+      "product": "Spring Data Commons",
+      "version_range": "4.0.0 to 4.0.5",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41696"
+          "id": "CVE-2026-41711"
         },
         {
-          "id": "CVE-2026-41717"
+          "id": "CVE-2026-41721"
         }
       ]
     },
     {
       "vendor": "spring",
-      "product": "Spring Data MongoDB",
-      "version_range": "4.5.0 to 4.5.11",
+      "product": "Spring Data Commons",
+      "version_range": "3.5.0 to 3.5.11",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41696"
+          "id": "CVE-2026-41711"
         },
         {
-          "id": "CVE-2026-41717"
+          "id": "CVE-2026-41721"
         }
       ]
     },
     {
       "vendor": "spring",
-      "product": "Spring Data MongoDB",
-      "version_range": "4.4.0 to 4.4.14",
+      "product": "Spring Data Commons",
+      "version_range": "3.4.0 to 3.4.14",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41696"
+          "id": "CVE-2026-41711"
         },
         {
-          "id": "CVE-2026-41717"
+          "id": "CVE-2026-41721"
         }
       ]
     },
     {
       "vendor": "spring",
-      "product": "Spring Data MongoDB",
-      "version_range": "4.3.0 to 4.3.16",
+      "product": "Spring Data Commons",
+      "version_range": "3.3.0 to 3.3.16",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41696"
+          "id": "CVE-2026-41711"
         },
         {
-          "id": "CVE-2026-41717"
+          "id": "CVE-2026-41721"
         }
       ]
     },
     {
       "vendor": "spring",
-      "product": "Spring Data MongoDB",
-      "version_range": "4.2.0 to 4.2.15",
+      "product": "Spring Data Commons",
+      "version_range": "3.2.0 to 3.2.15",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41696"
+          "id": "CVE-2026-41711"
         },
         {
-          "id": "CVE-2026-41717"
+          "id": "CVE-2026-41721"
         }
       ]
     },
     {
       "vendor": "spring",
-      "product": "Spring Data MongoDB",
-      "version_range": "4.1.0 to 4.1.14",
+      "product": "Spring Data Commons",
+      "version_range": "3.1.0 to 3.1.14",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41696"
+          "id": "CVE-2026-41711"
         },
         {
-          "id": "CVE-2026-41717"
+          "id": "CVE-2026-41721"
         }
       ]
     },
     {
       "vendor": "spring",
-      "product": "Spring Data MongoDB",
-      "version_range": "4.0.0 to 4.0.15",
+      "product": "Spring Data Commons",
+      "version_range": "3.0.0 to 3.0.15",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41696"
+          "id": "CVE-2026-41711"
         },
         {
-          "id": "CVE-2026-41717"
+          "id": "CVE-2026-41721"
         }
       ]
     },
     {
       "vendor": "spring",
-      "product": "Spring Data MongoDB",
-      "version_range": "3.4.0 to 3.4.19",
+      "product": "Spring Data Commons",
+      "version_range": "2.7.0 to 2.7.19",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41696"
+          "id": "CVE-2026-41711"
         },
         {
-          "id": "CVE-2026-41717"
+          "id": "CVE-2026-41721"
         }
       ]
     },
     {
       "vendor": "spring",
-      "product": "Spring Data MongoDB",
+      "product": "Spring Data Commons",
       "version_range": "older unsupported versions",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_mongodb:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41696"
+          "id": "CVE-2026-41711"
         },
         {
-          "id": "CVE-2026-41717"
+          "id": "CVE-2026-41721"
         }
       ]
     },
@@ -1122,186 +1302,6 @@
       "cves": [
         {
           "id": "CVE-2026-41716"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Data Commons",
-      "version_range": "4.0.0 to 4.0.5",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41721"
-        },
-        {
-          "id": "CVE-2026-41711"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Data Commons",
-      "version_range": "3.5.0 to 3.5.11",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41721"
-        },
-        {
-          "id": "CVE-2026-41711"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Data Commons",
-      "version_range": "3.4.0 to 3.4.14",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41721"
-        },
-        {
-          "id": "CVE-2026-41711"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Data Commons",
-      "version_range": "3.3.0 to 3.3.16",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41721"
-        },
-        {
-          "id": "CVE-2026-41711"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Data Commons",
-      "version_range": "3.2.0 to 3.2.15",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41721"
-        },
-        {
-          "id": "CVE-2026-41711"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Data Commons",
-      "version_range": "3.1.0 to 3.1.14",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41721"
-        },
-        {
-          "id": "CVE-2026-41711"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Data Commons",
-      "version_range": "3.0.0 to 3.0.15",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41721"
-        },
-        {
-          "id": "CVE-2026-41711"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Data Commons",
-      "version_range": "2.7.0 to 2.7.19",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41721"
-        },
-        {
-          "id": "CVE-2026-41711"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Data Commons",
-      "version_range": "older unsupported versions",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:spring_data_commons:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-41721"
-        },
-        {
-          "id": "CVE-2026-41711"
         }
       ]
     },
@@ -1627,10 +1627,10 @@
           "id": "CVE-2026-41728"
         },
         {
-          "id": "CVE-2026-41729"
+          "id": "CVE-2026-41837"
         },
         {
-          "id": "CVE-2026-41837"
+          "id": "CVE-2026-41729"
         },
         {
           "id": "CVE-2026-41730"
@@ -1653,10 +1653,10 @@
           "id": "CVE-2026-41728"
         },
         {
-          "id": "CVE-2026-41729"
+          "id": "CVE-2026-41837"
         },
         {
-          "id": "CVE-2026-41837"
+          "id": "CVE-2026-41729"
         },
         {
           "id": "CVE-2026-41730"
@@ -1679,10 +1679,10 @@
           "id": "CVE-2026-41728"
         },
         {
-          "id": "CVE-2026-41729"
+          "id": "CVE-2026-41837"
         },
         {
-          "id": "CVE-2026-41837"
+          "id": "CVE-2026-41729"
         },
         {
           "id": "CVE-2026-41730"
@@ -1705,10 +1705,10 @@
           "id": "CVE-2026-41728"
         },
         {
-          "id": "CVE-2026-41729"
+          "id": "CVE-2026-41837"
         },
         {
-          "id": "CVE-2026-41837"
+          "id": "CVE-2026-41729"
         },
         {
           "id": "CVE-2026-41730"
@@ -1731,10 +1731,10 @@
           "id": "CVE-2026-41728"
         },
         {
-          "id": "CVE-2026-41729"
+          "id": "CVE-2026-41837"
         },
         {
-          "id": "CVE-2026-41837"
+          "id": "CVE-2026-41729"
         },
         {
           "id": "CVE-2026-41730"
@@ -1757,10 +1757,10 @@
           "id": "CVE-2026-41728"
         },
         {
-          "id": "CVE-2026-41729"
+          "id": "CVE-2026-41837"
         },
         {
-          "id": "CVE-2026-41837"
+          "id": "CVE-2026-41729"
         },
         {
           "id": "CVE-2026-41730"
@@ -1869,11 +1869,6 @@
     "3.2.10.1",
     "3.1.16",
     "2.4.18",
-    "3.5.12",
-    "3.5.11.1",
-    "3.4.15",
-    "3.3.17",
-    "2.4.20",
     "5.0.6",
     "5.0.5.1",
     "4.5.12",
@@ -1881,6 +1876,11 @@
     "4.4.15",
     "4.3.17",
     "3.4.20",
+    "3.5.12",
+    "3.5.11.1",
+    "3.4.15",
+    "3.3.17",
+    "2.4.20",
     "2.7.20",
     "3.7.20",
     "4.0.1",
@@ -2252,9 +2252,9 @@
     "https://spring.io/security/cve-2026-40988",
     "https://spring.io/security/cve-2026-40993",
     "https://spring.io/security/cve-2026-41003",
+    "https://spring.io/security/cve-2026-41694",
     "https://spring.io/security/cve-2026-41008",
     "https://spring.io/security/cve-2026-41706",
-    "https://spring.io/security/cve-2026-41694",
     "https://spring.io/security/cve-2026-47838",
     "https://spring.io/security/cve-2026-41726",
     "https://spring.io/security/cve-2026-41727",
@@ -2262,18 +2262,18 @@
     "https://spring.io/security/cve-2026-41732",
     "https://spring.io/security/cve-2026-41701",
     "https://spring.io/security/cve-2026-41714",
+    "https://spring.io/security/cve-2026-41696",
     "https://spring.io/security/cve-2026-41695",
     "https://spring.io/security/cve-2026-41697",
-    "https://spring.io/security/cve-2026-41696",
+    "https://spring.io/security/cve-2026-41711",
     "https://spring.io/security/cve-2026-41716",
-    "https://spring.io/security/cve-2026-41721",
     "https://spring.io/security/cve-2026-41717",
     "https://spring.io/security/cve-2026-41719",
-    "https://spring.io/security/cve-2026-41711",
     "https://spring.io/security/cve-2026-41728",
-    "https://spring.io/security/cve-2026-41729",
     "https://spring.io/security/cve-2026-41837",
+    "https://spring.io/security/cve-2026-41729",
     "https://spring.io/security/cve-2026-41730",
+    "https://spring.io/security/cve-2026-41721",
     "https://spring.io/security/cve-2026-40991"
   ]
 }

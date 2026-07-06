@@ -2,7 +2,7 @@
   "id": "spring-2026-06-08",
   "source": "spring",
   "title": "Spring Security Advisories - 2026-06-08",
-  "description": "Merged 5 spring security advisories published on 2026-06-08. Original advisory IDs: CVE-2026-41720, CVE-2026-41710, CVE-2026-41838, CVE-2026-41840, CVE-2026-41843\n\nTitles:\n- Authentication Bypass with Empty Password in Spring LDAP\n- Cache Exhaustion in Stateful Retries leads to Denial of Service\n- Spring Framework Predictable Session ID in WebSocket Module\n- Spring Framework Denial of Service via Multipart Requests in WebFlux\n- Spring Framework Path Traversal via Versioned Static Resources in Spring MVC and WebFlux",
+  "description": "Merged 5 spring security advisories published on 2026-06-08. Original advisory IDs: CVE-2026-41720, CVE-2026-41710, CVE-2026-41838, CVE-2026-41839, CVE-2026-41840\n\nTitles:\n- Authentication Bypass with Empty Password in Spring LDAP\n- Cache Exhaustion in Stateful Retries leads to Denial of Service\n- Spring Framework Predictable Session ID in WebSocket Module\n- Spring Framework Escalation via Session Fixation in WebFlux\n- Spring Framework Denial of Service via Multipart Requests in WebFlux",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -185,10 +185,10 @@
           "id": "CVE-2026-41838"
         },
         {
-          "id": "CVE-2026-41840"
+          "id": "CVE-2026-41839"
         },
         {
-          "id": "CVE-2026-41843"
+          "id": "CVE-2026-41840"
         }
       ]
     },
@@ -208,10 +208,10 @@
           "id": "CVE-2026-41838"
         },
         {
-          "id": "CVE-2026-41840"
+          "id": "CVE-2026-41839"
         },
         {
-          "id": "CVE-2026-41843"
+          "id": "CVE-2026-41840"
         }
       ]
     },
@@ -231,10 +231,10 @@
           "id": "CVE-2026-41838"
         },
         {
-          "id": "CVE-2026-41840"
+          "id": "CVE-2026-41839"
         },
         {
-          "id": "CVE-2026-41843"
+          "id": "CVE-2026-41840"
         }
       ]
     },
@@ -254,10 +254,10 @@
           "id": "CVE-2026-41838"
         },
         {
-          "id": "CVE-2026-41840"
+          "id": "CVE-2026-41839"
         },
         {
-          "id": "CVE-2026-41843"
+          "id": "CVE-2026-41840"
         }
       ]
     },
@@ -277,10 +277,10 @@
           "id": "CVE-2026-41838"
         },
         {
-          "id": "CVE-2026-41840"
+          "id": "CVE-2026-41839"
         },
         {
-          "id": "CVE-2026-41843"
+          "id": "CVE-2026-41840"
         }
       ]
     }
@@ -358,6 +358,19 @@
       "references": []
     },
     {
+      "id": "CVE-2026-41839",
+      "source": "spring",
+      "title": "Spring Framework Escalation via Session Fixation in WebFlux",
+      "description": "",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "published_date": "2026-06-08",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2026-41840",
       "source": "spring",
       "title": "Spring Framework Denial of Service via Multipart Requests in WebFlux",
@@ -365,19 +378,6 @@
       "severity": "medium",
       "cvss_score": null,
       "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-06-08",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-41843",
-      "source": "spring",
-      "title": "Spring Framework Path Traversal via Versioned Static Resources in Spring MVC and WebFlux",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "published_date": "2026-06-08",
       "modified_date": "",
       "affected": [],
@@ -392,7 +392,7 @@
     "https://spring.io/security/cve-2026-41720",
     "https://spring.io/security/cve-2026-41710",
     "https://spring.io/security/cve-2026-41838",
-    "https://spring.io/security/cve-2026-41840",
-    "https://spring.io/security/cve-2026-41843"
+    "https://spring.io/security/cve-2026-41839",
+    "https://spring.io/security/cve-2026-41840"
   ]
 }
