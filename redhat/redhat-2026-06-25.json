@@ -2,18 +2,12 @@
   "id": "redhat-2026-06-25",
   "source": "redhat",
   "title": "Redhat Security Advisories - 2026-06-25",
-  "description": "Merged 2 redhat security advisories published on 2026-06-25. Original advisory IDs: RHSA-2026:29455, redhat-2026-06-25\n\nTitles:\n- Red Hat Security Advisory: buildah security update\n- Redhat Security Advisories - 2026-06-25",
+  "description": "Merged 34 redhat security advisories published on 2026-06-25. Original advisory IDs: RHSA-2026:30129, RHSA-2026:30115, RHSA-2026:30086, RHSA-2026:30004, RHSA-2026:29807, RHSA-2026:28147, RHSA-2026:28456, RHSA-2026:29981, RHSA-2026:30044, RHSA-2026:29940, RHSA-2026:29980, RHSA-2026:29976, RHSA-2026:29975, RHSA-2026:29953, RHSA-2026:29952, RHSA-2026:29844, RHSA-2026:29904, RHSA-2026:29941, RHSA-2026:29898, RHSA-2026:29874, RHSA-2026:29817, RHSA-2026:29815, RHSA-2026:29901, RHSA-2026:29900, RHSA-2026:29902, RHSA-2026:29703, RHSA-2026:29814, RHSA-2026:29811, RHSA-2026:29867, RHSA-2026:29809, RHSA-2026:29151, RHSA-2026:29702, RHSA-2026:29212, RHSA-2026:29455\n\nTitles:\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: perl-IO-Compress security update\n- Red Hat Security Advisory: gnutls security update\n- Red Hat Security Advisory: libxslt security update\n- Red Hat Security Advisory: webkit2gtk3 security update\n- Red Hat Security Advisory: libpng15 security update\n- Red Hat Security Advisory: golang security, bug fix, and enhancement update\n- Red Hat Security Advisory: poppler security update\n- Red Hat Security Advisory: thunderbird security update\n- Red Hat Security Advisory: postgresql security update\n- Red Hat Security Advisory: compat-poppler022 security update\n- Red Hat Security Advisory: tigervnc security update\n- Red Hat Security Advisory: libpng security update\n- Red Hat Security Advisory: nginx security update\n- Red Hat Security Advisory: redis:6 security update\n- Red Hat Security Advisory: postgresql:12 security update\n- Red Hat Security Advisory: containernetworking-plugins security update\n- Red Hat Security Advisory: nginx:1.26 security update\n- Red Hat Security Advisory: runc security update\n- Red Hat Security Advisory: buildah security update",
   "severity": "important",
   "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [
-    "CWE-1286",
-    "CWE-770",
-    "CWE-1050",
-    "CWE-764",
-    "CWE-1284",
-    "CWE-772",
     "CWE-805",
     "CWE-843",
     "CWE-821",
@@ -47,30 +41,35 @@
     "CWE-243",
     "CWE-807",
     "CWE-131",
+    "CWE-1286",
     "CWE-59",
     "CWE-385",
     "CWE-121",
     "CWE-125",
-    "CWE-122"
+    "CWE-122",
+    "CWE-770",
+    "CWE-1050",
+    "CWE-764",
+    "CWE-1284",
+    "CWE-772"
   ],
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-06-25",
-  "modified_date": "2026-06-29",
+  "modified_date": "2026-07-05",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
-    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
     "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
     "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
     "redhat:Red Hat Enterprise Linux Real Time (v. 10)",
-    "redhat:rhel",
     "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.6)",
     "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)",
     "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
     "redhat:Red Hat Enterprise Linux BaseOS TUS (v.8.8)",
     "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
     "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
     "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
     "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
     "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
@@ -100,24 +99,6 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-25679"
-        },
-        {
-          "id": "CVE-2026-32280"
-        },
-        {
-          "id": "CVE-2026-32281"
-        },
-        {
-          "id": "CVE-2026-32283"
-        },
-        {
-          "id": "CVE-2026-39829"
-        },
-        {
-          "id": "CVE-2026-39830"
-        },
-        {
           "id": "CVE-2026-31636"
         },
         {
@@ -140,15 +121,6 @@
         },
         {
           "id": "CVE-2026-46145"
-        },
-        {
-          "id": "CVE-2026-48615"
-        },
-        {
-          "id": "CVE-2026-48618"
-        },
-        {
-          "id": "CVE-2026-48933"
         },
         {
           "id": "CVE-2026-48962"
@@ -382,7 +354,25 @@
           "id": "CVE-2026-25243"
         },
         {
+          "id": "CVE-2026-25679"
+        },
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32281"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
           "id": "CVE-2023-40403"
+        },
+        {
+          "id": "CVE-2026-39829"
+        },
+        {
+          "id": "CVE-2026-39830"
         }
       ]
     }
@@ -1517,45 +1507,6 @@
       ]
     },
     {
-      "id": "CVE-2026-48615",
-      "source": "redhat",
-      "title": "CVE-2026-48615",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-25",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-48618",
-      "source": "redhat",
-      "title": "CVE-2026-48618",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-25",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-48933",
-      "source": "redhat",
-      "title": "CVE-2026-48933",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-25",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
       "id": "CVE-2026-48962",
       "source": "redhat",
       "title": "perl-IO-Compress: perl-IO-Compress: Arbitrary code execution via attacker-controlled output glob",
@@ -1813,12 +1764,10 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://access.redhat.com/errata/RHSA-2026:29455",
+  "url": "https://access.redhat.com/errata/RHSA-2026:30129",
   "vendor": "redhat",
   "references": [
-    "https://access.redhat.com/errata/RHSA-2026:29455",
     "https://access.redhat.com/errata/RHSA-2026:30129",
-    "https://access.redhat.com/errata/RHSA-2026:30172",
     "https://access.redhat.com/errata/RHSA-2026:30115",
     "https://access.redhat.com/errata/RHSA-2026:30086",
     "https://access.redhat.com/errata/RHSA-2026:30004",
@@ -1850,6 +1799,7 @@
     "https://access.redhat.com/errata/RHSA-2026:29809",
     "https://access.redhat.com/errata/RHSA-2026:29151",
     "https://access.redhat.com/errata/RHSA-2026:29702",
-    "https://access.redhat.com/errata/RHSA-2026:29212"
+    "https://access.redhat.com/errata/RHSA-2026:29212",
+    "https://access.redhat.com/errata/RHSA-2026:29455"
   ]
 }
