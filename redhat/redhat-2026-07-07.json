@@ -1,0 +1,274 @@
+{
+  "id": "redhat-2026-07-07",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-07-07",
+  "description": "Merged 2 redhat security advisories published on 2026-07-07. Original advisory IDs: RHSA-2026:36086, RHSA-2026:36049\n\nTitles:\n- Red Hat Security Advisory: xorg-x11-server security update\n- Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-121",
+    "CWE-416",
+    "CWE-125",
+    "CWE-787",
+    "CWE-413",
+    "CWE-826",
+    "CWE-1341"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-07",
+  "modified_date": "2026-07-07",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux NFV (v. 8)",
+    "redhat:Red Hat Enterprise Linux RT (v. 8)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-50256"
+        },
+        {
+          "id": "CVE-2026-50257"
+        },
+        {
+          "id": "CVE-2026-50258"
+        },
+        {
+          "id": "CVE-2026-50259"
+        },
+        {
+          "id": "CVE-2026-50260"
+        },
+        {
+          "id": "CVE-2026-50261"
+        },
+        {
+          "id": "CVE-2026-50262"
+        },
+        {
+          "id": "CVE-2026-50263"
+        },
+        {
+          "id": "CVE-2026-50264"
+        },
+        {
+          "id": "CVE-2026-23216"
+        },
+        {
+          "id": "CVE-2026-45984"
+        },
+        {
+          "id": "CVE-2026-46189"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-23216",
+      "source": "redhat",
+      "title": "kernel: scsi: target: iscsi: Fix use-after-free in iscsit_dec_conn_usage_count()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23216"
+      ]
+    },
+    {
+      "id": "CVE-2026-45984",
+      "source": "redhat",
+      "title": "kernel: gfs2: Fix use-after-free in iomap inline data write path",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-45984"
+      ]
+    },
+    {
+      "id": "CVE-2026-46189",
+      "source": "redhat",
+      "title": "kernel: RDMA/vmw_pvrdma: Fix double free on pvrdma_alloc_ucontext() error path",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46189"
+      ]
+    },
+    {
+      "id": "CVE-2026-50256",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: stack buffer overflow in font alias resolution due to libXfont2 name length mismatch",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50256"
+      ]
+    },
+    {
+      "id": "CVE-2026-50257",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free in miSyncDestroyFence()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50257"
+      ]
+    },
+    {
+      "id": "CVE-2026-50258",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: stack buffer overflow in XKB key types due to unchecked shift levels",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50258"
+      ]
+    },
+    {
+      "id": "CVE-2026-50259",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: stack buffer overflow in XKB SetMap request via mapWidths indexing",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50259"
+      ]
+    },
+    {
+      "id": "CVE-2026-50260",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free in FreeCounter()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50260"
+      ]
+    },
+    {
+      "id": "CVE-2026-50261",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free in SyncChangeCounter()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50261"
+      ]
+    },
+    {
+      "id": "CVE-2026-50262",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: out-of-bounds read/write in GLX ChangeDrawableAttributes",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50262"
+      ]
+    },
+    {
+      "id": "CVE-2026-50263",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free information disclosure in CreateSaverWindow()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50263"
+      ]
+    },
+    {
+      "id": "CVE-2026-50264",
+      "source": "redhat",
+      "title": "xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: out-of-bounds heap write in DRI2 DRIGetBuffers/DRIGetBuffersWithFormat",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50264"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:36086",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:36086",
+    "https://access.redhat.com/errata/RHSA-2026:36049"
+  ]
+}
