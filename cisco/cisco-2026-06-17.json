@@ -2,9 +2,21 @@
   "id": "cisco-2026-06-17",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-06-17",
-  "description": "Merged 3 cisco security advisories published on 2026-06-17. Original advisory IDs: cisco-sa-webex-app-redirect-KOyxhffH, cisco-sa-cnc-inj-QNMeEmxk, cisco-sa-umbrella-priv-esc-F4wJB7AU\n\nTitles:\n- Cisco Webex App Open Redirect Vulnerability\n- Cisco Crosswork Network Controller Server-Side Template Injection Vulnerability\n- Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability",
-  "severity": "medium",
+  "description": "Merged 4 cisco security advisories published on 2026-06-17. Original advisory IDs: cisco-sa-ise-multi-G5WP8vv, cisco-sa-webex-app-redirect-KOyxhffH, cisco-sa-cnc-inj-QNMeEmxk, cisco-sa-umbrella-priv-esc-F4wJB7AU\n\nTitles:\n- Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities\n- Cisco Webex App Open Redirect Vulnerability\n- Cisco Crosswork Network Controller Server-Side Template Injection Vulnerability\n- Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability",
+  "severity": "critical",
   "cvss_scores": [
+    {
+      "version": "3.1",
+      "score": 9.1,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "severity": ""
+    },
+    {
+      "version": "3.1",
+      "score": 7.5,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "severity": ""
+    },
     {
       "version": "3.1",
       "score": 4.3,
@@ -24,19 +36,40 @@
       "severity": ""
     }
   ],
-  "cvss_score": 6.3,
-  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+  "cvss_score": 9.1,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
   "cwe_ids": [],
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-06-17",
-  "modified_date": "2026-06-17",
+  "modified_date": "2026-07-06",
   "affected": [
+    "cisco:cisco-sa-ise-multi-G5WP8vv",
     "cisco:cisco-sa-webex-app-redirect-KOyxhffH",
     "cisco:cisco-sa-cnc-inj-QNMeEmxk",
     "cisco:cisco-sa-umbrella-priv-esc-F4wJB7AU"
   ],
   "affected_products": [
+    {
+      "vendor": "cisco",
+      "product": "Cisco Identity Services Engine",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:cisco:identity_services_engine:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20181"
+        },
+        {
+          "id": "CVE-2026-20190"
+        }
+      ]
+    },
     {
       "vendor": "cisco",
       "product": "Cisco Webex App",
@@ -109,6 +142,36 @@
       ]
     },
     {
+      "id": "CVE-2026-20181",
+      "source": "cisco",
+      "title": "Cisco Identity Services Engine Remote Code Execution Vulnerability",
+      "description": "",
+      "severity": null,
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-06-17",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv"
+      ]
+    },
+    {
+      "id": "CVE-2026-20190",
+      "source": "cisco",
+      "title": "Cisco Identity Services Engine Information Disclosure Vulnerability",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-06-17",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv"
+      ]
+    },
+    {
       "id": "CVE-2026-20220",
       "source": "cisco",
       "title": "Cisco Crosswork Network Controller Remote Code Execution Vulnerability",
@@ -141,9 +204,10 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-app-redirect-KOyxhffH",
+  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv",
   "vendor": "cisco",
   "references": [
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-app-redirect-KOyxhffH",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cnc-inj-QNMeEmxk",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-umbrella-priv-esc-F4wJB7AU"

@@ -1,0 +1,170 @@
+{
+  "id": "hashicorp-2026-07-08",
+  "source": "hashicorp",
+  "title": "Hashicorp Security Advisories - 2026-07-08",
+  "description": "Merged 5 hashicorp security advisories published on 2026-07-08. Original advisory IDs: HCSEC-2026-22, HCSEC-2026-21, HCSEC-2026-20, HCSEC-2026-19, HCSEC-2026-18\n\nTitles:\n- HCSEC-2026-22 - Nomad vulnerable to cross-namespace host volume claim deletion\n- HCSEC-2026-21 - Nomad vulnerable to sandbox escape in Docker task driver\n- HCSEC-2026-20 - Consul-template vulnerable to path redirections in writeToFile\n- HCSEC-2026-19 - Nomad Docker driver vulnerable to host namespace bypass on Linux\n- HCSEC-2026-18 - Memberlist vulnerable to denial of service via gossip message",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-08",
+  "modified_date": "2026-07-08",
+  "affected": [
+    "hashicorp:nomad",
+    "hashicorp:consul",
+    "hashicorp:hashicorp"
+  ],
+  "affected_products": [
+    {
+      "vendor": "hashicorp",
+      "product": "HashiCorp Nomad",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:hashicorp:nomad:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-14896"
+        },
+        {
+          "id": "CVE-2026-14891"
+        },
+        {
+          "id": "CVE-2026-14373"
+        }
+      ]
+    },
+    {
+      "vendor": "hashicorp",
+      "product": "HashiCorp Consul",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:hashicorp:consul:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-14361"
+        }
+      ]
+    },
+    {
+      "vendor": "hashicorp",
+      "product": "HashiCorp Products",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:hashicorp:products:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-14362"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-14361",
+      "source": "hashicorp",
+      "title": "CVE-2026-14361",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://discuss.hashicorp.com/t/77559"
+      ]
+    },
+    {
+      "id": "CVE-2026-14362",
+      "source": "hashicorp",
+      "title": "CVE-2026-14362",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://discuss.hashicorp.com/t/77556"
+      ]
+    },
+    {
+      "id": "CVE-2026-14373",
+      "source": "hashicorp",
+      "title": "CVE-2026-14373",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://discuss.hashicorp.com/t/77557"
+      ]
+    },
+    {
+      "id": "CVE-2026-14891",
+      "source": "hashicorp",
+      "title": "CVE-2026-14891",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://discuss.hashicorp.com/t/77561"
+      ]
+    },
+    {
+      "id": "CVE-2026-14896",
+      "source": "hashicorp",
+      "title": "CVE-2026-14896",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://discuss.hashicorp.com/t/77562"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://discuss.hashicorp.com/t/hcsec-2026-22-nomad-vulnerable-to-cross-namespace-host-volume-claim-deletion/77562",
+  "vendor": "hashicorp",
+  "references": [
+    "https://discuss.hashicorp.com/t/hcsec-2026-22-nomad-vulnerable-to-cross-namespace-host-volume-claim-deletion/77562",
+    "https://discuss.hashicorp.com/t/hcsec-2026-21-nomad-vulnerable-to-sandbox-escape-in-docker-task-driver/77561",
+    "https://discuss.hashicorp.com/t/hcsec-2026-20-consul-template-vulnerable-to-path-redirections-in-writetofile/77559",
+    "https://discuss.hashicorp.com/t/hcsec-2026-19-nomad-docker-driver-vulnerable-to-host-namespace-bypass-on-linux/77557",
+    "https://discuss.hashicorp.com/t/hcsec-2026-18-memberlist-vulnerable-to-denial-of-service-via-gossip-message/77556"
+  ]
+}

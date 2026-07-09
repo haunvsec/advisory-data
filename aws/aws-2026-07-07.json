@@ -1,0 +1,4210 @@
+{
+  "id": "aws-2026-07-07",
+  "source": "aws",
+  "title": "Aws Security Advisories - 2026-07-07",
+  "description": "Merged 2 aws security advisories published on 2026-07-07. Original advisory IDs: 2026-053-aws, aws-alas-2026-07-07\n\nTitles:\n- CVE-2026-14904 - Improper Link Resolution in Auth.GetUserPrivateKey in AWS Research and Engineering Studio\n- Aws Security Advisories - 2026-07-07",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-07",
+  "modified_date": "2026-07-07",
+  "affected": [
+    "aws:AWS Research and Engineering Studio (RES) is an open-source solution that enables researchers and engineers to create and manage secure virtual desktops and computing resources on AWS.",
+    "al2023:opensc",
+    "al2023:samba",
+    "al2023:expat",
+    "al2023:docker",
+    "al2023:ecs-init",
+    "al2023:sqlite",
+    "al2023:wireshark",
+    "al2023:aws-nitro-tpm-tools",
+    "al2023:nerdctl",
+    "al2023:containerd",
+    "al2023:python3.13",
+    "al2023:libxml2",
+    "al2023:gnupg2",
+    "al2023:ImageMagick",
+    "al2023:haproxy",
+    "al2023:util-linux",
+    "al2023:gstreamer1-plugins-bad-free",
+    "al2023:libde265",
+    "al2023:libheif",
+    "al2023:nodejs24",
+    "al2023:nodejs22",
+    "al2023:nginx",
+    "al2023:rclone",
+    "al2023:kernel",
+    "al2023:kernel6.18",
+    "al2023:gstreamer1-plugins-good",
+    "al2023:cifs-utils",
+    "al2023:firefox",
+    "al2023:python3.14",
+    "al2023:python3.11",
+    "al2023:python3.12",
+    "al2023:ansible",
+    "al2023:python3.9",
+    "al2023:kernel6.12"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-14904"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Opensc",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:opensc:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-10275"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Samba",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:samba:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-3012"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Expat",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:expat:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-56132"
+        },
+        {
+          "id": "CVE-2026-56403"
+        },
+        {
+          "id": "CVE-2026-56406"
+        },
+        {
+          "id": "CVE-2026-56407"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Docker",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:docker:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-27145"
+        },
+        {
+          "id": "CVE-2026-41567"
+        },
+        {
+          "id": "CVE-2026-42504"
+        },
+        {
+          "id": "CVE-2026-42507"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Ecs-init",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:ecs-init:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-25680"
+        },
+        {
+          "id": "CVE-2026-25681"
+        },
+        {
+          "id": "CVE-2026-27136"
+        },
+        {
+          "id": "CVE-2026-27145"
+        },
+        {
+          "id": "CVE-2026-39821"
+        },
+        {
+          "id": "CVE-2026-42502"
+        },
+        {
+          "id": "CVE-2026-42504"
+        },
+        {
+          "id": "CVE-2026-42506"
+        },
+        {
+          "id": "CVE-2026-42507"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Sqlite",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:sqlite:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11822"
+        },
+        {
+          "id": "CVE-2026-11824"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Wireshark",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:wireshark:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-5299"
+        },
+        {
+          "id": "CVE-2026-5401"
+        },
+        {
+          "id": "CVE-2026-5404"
+        },
+        {
+          "id": "CVE-2026-5406"
+        },
+        {
+          "id": "CVE-2026-5407"
+        },
+        {
+          "id": "CVE-2026-5408"
+        },
+        {
+          "id": "CVE-2026-5409"
+        },
+        {
+          "id": "CVE-2026-5653"
+        },
+        {
+          "id": "CVE-2026-5654"
+        },
+        {
+          "id": "CVE-2026-5657"
+        },
+        {
+          "id": "CVE-2026-6519"
+        },
+        {
+          "id": "CVE-2026-6520"
+        },
+        {
+          "id": "CVE-2026-6521"
+        },
+        {
+          "id": "CVE-2026-6522"
+        },
+        {
+          "id": "CVE-2026-6523"
+        },
+        {
+          "id": "CVE-2026-6524"
+        },
+        {
+          "id": "CVE-2026-6527"
+        },
+        {
+          "id": "CVE-2026-6529"
+        },
+        {
+          "id": "CVE-2026-6530"
+        },
+        {
+          "id": "CVE-2026-6531"
+        },
+        {
+          "id": "CVE-2026-6532"
+        },
+        {
+          "id": "CVE-2026-6533"
+        },
+        {
+          "id": "CVE-2026-6534"
+        },
+        {
+          "id": "CVE-2026-6535"
+        },
+        {
+          "id": "CVE-2026-6537"
+        },
+        {
+          "id": "CVE-2026-6538"
+        },
+        {
+          "id": "CVE-2026-6867"
+        },
+        {
+          "id": "CVE-2026-6868"
+        },
+        {
+          "id": "CVE-2026-6869"
+        },
+        {
+          "id": "CVE-2026-6870"
+        },
+        {
+          "id": "CVE-2026-7375"
+        },
+        {
+          "id": "CVE-2026-7376"
+        },
+        {
+          "id": "CVE-2026-7378"
+        },
+        {
+          "id": "CVE-2026-7379"
+        },
+        {
+          "id": "CVE-2026-9759"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Aws-nitro-tpm-tools",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:aws-nitro-tpm-tools:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-4428"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Nerdctl",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:nerdctl:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-27145"
+        },
+        {
+          "id": "CVE-2026-42504"
+        },
+        {
+          "id": "CVE-2026-42507"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Containerd",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:containerd:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-27145"
+        },
+        {
+          "id": "CVE-2026-42504"
+        },
+        {
+          "id": "CVE-2026-42507"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Python3.13",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:python3.13:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-4189"
+        },
+        {
+          "id": "CVE-2025-4330"
+        },
+        {
+          "id": "CVE-2026-11940"
+        },
+        {
+          "id": "CVE-2026-1502"
+        },
+        {
+          "id": "CVE-2026-3276"
+        },
+        {
+          "id": "CVE-2026-7210"
+        },
+        {
+          "id": "CVE-2026-7774"
+        },
+        {
+          "id": "CVE-2026-8328"
+        },
+        {
+          "id": "CVE-2026-9669"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Libxml2",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:libxml2:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6653"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Gnupg2",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:gnupg2:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-34182"
+        },
+        {
+          "id": "CVE-2026-57062"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "ImageMagick",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:imagemagick:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-56379"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Haproxy",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:haproxy:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-55204"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Util-linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:util-linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-53615"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Gstreamer1-plugins-bad-free",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:gstreamer1-plugins-bad-free:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-52718"
+        },
+        {
+          "id": "CVE-2026-52719"
+        },
+        {
+          "id": "CVE-2026-52720"
+        },
+        {
+          "id": "CVE-2026-52721"
+        },
+        {
+          "id": "CVE-2026-52722"
+        },
+        {
+          "id": "CVE-2026-53702"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Libde265",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:libde265:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-49295"
+        },
+        {
+          "id": "CVE-2026-49337"
+        },
+        {
+          "id": "CVE-2026-49346"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Libheif",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:libheif:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-47178"
+        },
+        {
+          "id": "CVE-2026-49271"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Nodejs24",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:nodejs24:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11525"
+        },
+        {
+          "id": "CVE-2026-11822"
+        },
+        {
+          "id": "CVE-2026-11824"
+        },
+        {
+          "id": "CVE-2026-12151"
+        },
+        {
+          "id": "CVE-2026-48615"
+        },
+        {
+          "id": "CVE-2026-48617"
+        },
+        {
+          "id": "CVE-2026-48618"
+        },
+        {
+          "id": "CVE-2026-48619"
+        },
+        {
+          "id": "CVE-2026-48928"
+        },
+        {
+          "id": "CVE-2026-48930"
+        },
+        {
+          "id": "CVE-2026-48931"
+        },
+        {
+          "id": "CVE-2026-48933"
+        },
+        {
+          "id": "CVE-2026-48934"
+        },
+        {
+          "id": "CVE-2026-48935"
+        },
+        {
+          "id": "CVE-2026-48937"
+        },
+        {
+          "id": "CVE-2026-6733"
+        },
+        {
+          "id": "CVE-2026-6734"
+        },
+        {
+          "id": "CVE-2026-9678"
+        },
+        {
+          "id": "CVE-2026-9679"
+        },
+        {
+          "id": "CVE-2026-9697"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Nodejs22",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:nodejs22:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11525"
+        },
+        {
+          "id": "CVE-2026-11822"
+        },
+        {
+          "id": "CVE-2026-11824"
+        },
+        {
+          "id": "CVE-2026-12151"
+        },
+        {
+          "id": "CVE-2026-48615"
+        },
+        {
+          "id": "CVE-2026-48617"
+        },
+        {
+          "id": "CVE-2026-48618"
+        },
+        {
+          "id": "CVE-2026-48619"
+        },
+        {
+          "id": "CVE-2026-48928"
+        },
+        {
+          "id": "CVE-2026-48930"
+        },
+        {
+          "id": "CVE-2026-48931"
+        },
+        {
+          "id": "CVE-2026-48933"
+        },
+        {
+          "id": "CVE-2026-48934"
+        },
+        {
+          "id": "CVE-2026-48935"
+        },
+        {
+          "id": "CVE-2026-48937"
+        },
+        {
+          "id": "CVE-2026-6733"
+        },
+        {
+          "id": "CVE-2026-9679"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Nginx",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:nginx:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-42055"
+        },
+        {
+          "id": "CVE-2026-48142"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Rclone",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:rclone:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-46601"
+        },
+        {
+          "id": "CVE-2026-46602"
+        },
+        {
+          "id": "CVE-2026-46604"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:kernel:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-10263"
+        },
+        {
+          "id": "CVE-2026-43303"
+        },
+        {
+          "id": "CVE-2026-43492"
+        },
+        {
+          "id": "CVE-2026-45850"
+        },
+        {
+          "id": "CVE-2026-45991"
+        },
+        {
+          "id": "CVE-2026-45999"
+        },
+        {
+          "id": "CVE-2026-46005"
+        },
+        {
+          "id": "CVE-2026-46021"
+        },
+        {
+          "id": "CVE-2026-46052"
+        },
+        {
+          "id": "CVE-2026-46065"
+        },
+        {
+          "id": "CVE-2026-46086"
+        },
+        {
+          "id": "CVE-2026-46116"
+        },
+        {
+          "id": "CVE-2026-46137"
+        },
+        {
+          "id": "CVE-2026-46159"
+        },
+        {
+          "id": "CVE-2026-46160"
+        },
+        {
+          "id": "CVE-2026-46193"
+        },
+        {
+          "id": "CVE-2026-46195"
+        },
+        {
+          "id": "CVE-2026-46196"
+        },
+        {
+          "id": "CVE-2026-46292"
+        },
+        {
+          "id": "CVE-2026-46320"
+        },
+        {
+          "id": "CVE-2026-46321"
+        },
+        {
+          "id": "CVE-2026-46322"
+        },
+        {
+          "id": "CVE-2026-52910"
+        },
+        {
+          "id": "CVE-2026-52923"
+        },
+        {
+          "id": "CVE-2026-52924"
+        },
+        {
+          "id": "CVE-2026-52927"
+        },
+        {
+          "id": "CVE-2026-52929"
+        },
+        {
+          "id": "CVE-2026-52930"
+        },
+        {
+          "id": "CVE-2026-52942"
+        },
+        {
+          "id": "CVE-2026-52943"
+        },
+        {
+          "id": "CVE-2026-52946"
+        },
+        {
+          "id": "CVE-2026-53131"
+        },
+        {
+          "id": "CVE-2026-53133"
+        },
+        {
+          "id": "CVE-2026-53134"
+        },
+        {
+          "id": "CVE-2026-53168"
+        },
+        {
+          "id": "CVE-2026-53183"
+        },
+        {
+          "id": "CVE-2026-53184"
+        },
+        {
+          "id": "CVE-2026-53189"
+        },
+        {
+          "id": "CVE-2026-53199"
+        },
+        {
+          "id": "CVE-2026-53207"
+        },
+        {
+          "id": "CVE-2026-53212"
+        },
+        {
+          "id": "CVE-2026-53218"
+        },
+        {
+          "id": "CVE-2026-53219"
+        },
+        {
+          "id": "CVE-2026-53221"
+        },
+        {
+          "id": "CVE-2026-53223"
+        },
+        {
+          "id": "CVE-2026-53225"
+        },
+        {
+          "id": "CVE-2026-53227"
+        },
+        {
+          "id": "CVE-2026-53228"
+        },
+        {
+          "id": "CVE-2026-53236"
+        },
+        {
+          "id": "CVE-2026-53238"
+        },
+        {
+          "id": "CVE-2026-53239"
+        },
+        {
+          "id": "CVE-2026-53245"
+        },
+        {
+          "id": "CVE-2026-53249"
+        },
+        {
+          "id": "CVE-2026-53264"
+        },
+        {
+          "id": "CVE-2026-53266"
+        },
+        {
+          "id": "CVE-2026-53268"
+        },
+        {
+          "id": "CVE-2026-53269"
+        },
+        {
+          "id": "CVE-2026-53270"
+        },
+        {
+          "id": "CVE-2026-53275"
+        },
+        {
+          "id": "CVE-2026-53337"
+        },
+        {
+          "id": "CVE-2026-53349"
+        },
+        {
+          "id": "CVE-2026-53352"
+        },
+        {
+          "id": "CVE-2026-53354"
+        },
+        {
+          "id": "CVE-2026-53356"
+        },
+        {
+          "id": "CVE-2026-53080"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel6.18",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:kernel6.18:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-46054"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Gstreamer1-plugins-good",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:gstreamer1-plugins-good:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-39043"
+        },
+        {
+          "id": "CVE-2026-39044"
+        },
+        {
+          "id": "CVE-2026-53705"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Cifs-utils",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:cifs-utils:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-12505"
+        }
+      ]
+    },
+    {
+      "vendor": "mozilla",
+      "product": "Mozilla Firefox",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-12289"
+        },
+        {
+          "id": "CVE-2026-12290"
+        },
+        {
+          "id": "CVE-2026-12291"
+        },
+        {
+          "id": "CVE-2026-12292"
+        },
+        {
+          "id": "CVE-2026-12294"
+        },
+        {
+          "id": "CVE-2026-12295"
+        },
+        {
+          "id": "CVE-2026-12296"
+        },
+        {
+          "id": "CVE-2026-12297"
+        },
+        {
+          "id": "CVE-2026-12298"
+        },
+        {
+          "id": "CVE-2026-12299"
+        },
+        {
+          "id": "CVE-2026-12302"
+        },
+        {
+          "id": "CVE-2026-12304"
+        },
+        {
+          "id": "CVE-2026-12305"
+        },
+        {
+          "id": "CVE-2026-12306"
+        },
+        {
+          "id": "CVE-2026-12307"
+        },
+        {
+          "id": "CVE-2026-12308"
+        },
+        {
+          "id": "CVE-2026-12309"
+        },
+        {
+          "id": "CVE-2026-12310"
+        },
+        {
+          "id": "CVE-2026-12311"
+        },
+        {
+          "id": "CVE-2026-12312"
+        },
+        {
+          "id": "CVE-2026-12313"
+        },
+        {
+          "id": "CVE-2026-12314"
+        },
+        {
+          "id": "CVE-2026-12315"
+        },
+        {
+          "id": "CVE-2026-12324"
+        },
+        {
+          "id": "CVE-2026-12325"
+        },
+        {
+          "id": "CVE-2026-12327"
+        },
+        {
+          "id": "CVE-2026-12328"
+        },
+        {
+          "id": "CVE-2026-12329"
+        },
+        {
+          "id": "CVE-2026-12330"
+        },
+        {
+          "id": "CVE-2026-50219"
+        },
+        {
+          "id": "CVE-2026-56131"
+        },
+        {
+          "id": "CVE-2026-56132"
+        },
+        {
+          "id": "CVE-2026-56208"
+        },
+        {
+          "id": "CVE-2026-56210"
+        },
+        {
+          "id": "CVE-2026-56211"
+        },
+        {
+          "id": "CVE-2026-56403"
+        },
+        {
+          "id": "CVE-2026-56404"
+        },
+        {
+          "id": "CVE-2026-56405"
+        },
+        {
+          "id": "CVE-2026-56406"
+        },
+        {
+          "id": "CVE-2026-56407"
+        },
+        {
+          "id": "CVE-2026-56408"
+        },
+        {
+          "id": "CVE-2026-56412"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Python3.14",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:python3.14:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-4189"
+        },
+        {
+          "id": "CVE-2025-4330"
+        },
+        {
+          "id": "CVE-2026-11940"
+        },
+        {
+          "id": "CVE-2026-3276"
+        },
+        {
+          "id": "CVE-2026-7774"
+        },
+        {
+          "id": "CVE-2026-8328"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Python3.11",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:python3.11:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-4189"
+        },
+        {
+          "id": "CVE-2025-13462"
+        },
+        {
+          "id": "CVE-2025-4330"
+        },
+        {
+          "id": "CVE-2026-11940"
+        },
+        {
+          "id": "CVE-2026-7210"
+        },
+        {
+          "id": "CVE-2026-8328"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Python3.12",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:python3.12:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-4189"
+        },
+        {
+          "id": "CVE-2025-13462"
+        },
+        {
+          "id": "CVE-2025-4330"
+        },
+        {
+          "id": "CVE-2026-11940"
+        },
+        {
+          "id": "CVE-2026-7210"
+        },
+        {
+          "id": "CVE-2026-8328"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Ansible",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:ansible:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11837"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Python3.9",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:python3.9:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-4189"
+        },
+        {
+          "id": "CVE-2025-13462"
+        },
+        {
+          "id": "CVE-2026-3446"
+        },
+        {
+          "id": "CVE-2026-3479"
+        },
+        {
+          "id": "CVE-2026-7210"
+        },
+        {
+          "id": "CVE-2026-8328"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel6.12",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:kernel6.12:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-53080"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update opensc --releasever 2023.12.20260706\n\ndnf update samba --releasever 2023.12.20260706\n\ndnf update expat --releasever 2023.12.20260706\n\ndnf update docker --releasever 2023.12.20260706\n\ndnf update ecs-init --releasever 2023.12.20260706\n\ndnf update sqlite --releasever 2023.12.20260706\n\ndnf update wireshark --releasever 2023.12.20260706\n\ndnf update aws-nitro-tpm-tools --releasever 2023.12.20260706\n\ndnf update nerdctl --releasever 2023.12.20260706\n\ndnf update containerd --releasever 2023.12.20260706\n\ndnf update python3.13 --releasever 2023.12.20260706\n\ndnf update libxml2 --releasever 2023.12.20260706\n\ndnf update gnupg2 --releasever 2023.12.20260706\n\ndnf update ImageMagick --releasever 2023.12.20260706\n\ndnf update haproxy --releasever 2023.12.20260706\n\ndnf update util-linux --releasever 2023.12.20260706\n\ndnf update gstreamer1-plugins-bad-free --releasever 2023.12.20260706\n\ndnf update libde265 --releasever 2023.12.20260706\n\ndnf update libheif --releasever 2023.12.20260706\n\ndnf update nodejs24 --releasever 2023.12.20260706\n\ndnf update nodejs22 --releasever 2023.12.20260706\n\ndnf update nginx --releasever 2023.12.20260706\n\ndnf update rclone --releasever 2023.12.20260706\n\ndnf update kernel --releasever 2023.12.20260706\n\ndnf update kernel6.18 --releasever 2023.12.20260706\n\ndnf update gstreamer1-plugins-good --releasever 2023.12.20260706\n\ndnf update cifs-utils --releasever 2023.12.20260706\n\ndnf update firefox --releasever 2023.12.20260706\n\ndnf update python3.14 --releasever 2023.12.20260706\n\ndnf update python3.11 --releasever 2023.12.20260706\n\ndnf update python3.12 --releasever 2023.12.20260706\n\ndnf update ansible --releasever 2023.12.20260706\n\ndnf update python3.9 --releasever 2023.12.20260706\n\ndnf update kernel6.12 --releasever 2023.12.20260706",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2021-4189",
+      "source": "aws-alas",
+      "title": "CVE-2021-4189",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-10263",
+      "source": "aws-alas",
+      "title": "CVE-2025-10263",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13462",
+      "source": "aws-alas",
+      "title": "CVE-2025-13462",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-4330",
+      "source": "aws-alas",
+      "title": "CVE-2025-4330",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-10275",
+      "source": "aws-alas",
+      "title": "CVE-2026-10275",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11525",
+      "source": "aws-alas",
+      "title": "CVE-2026-11525",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11822",
+      "source": "aws-alas",
+      "title": "CVE-2026-11822",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11824",
+      "source": "aws-alas",
+      "title": "CVE-2026-11824",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11837",
+      "source": "aws-alas",
+      "title": "CVE-2026-11837",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-11940",
+      "source": "aws-alas",
+      "title": "CVE-2026-11940",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12151",
+      "source": "aws-alas",
+      "title": "CVE-2026-12151",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12289",
+      "source": "aws-alas",
+      "title": "CVE-2026-12289",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12290",
+      "source": "aws-alas",
+      "title": "CVE-2026-12290",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12291",
+      "source": "aws-alas",
+      "title": "CVE-2026-12291",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12292",
+      "source": "aws-alas",
+      "title": "CVE-2026-12292",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12294",
+      "source": "aws-alas",
+      "title": "CVE-2026-12294",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12295",
+      "source": "aws-alas",
+      "title": "CVE-2026-12295",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12296",
+      "source": "aws-alas",
+      "title": "CVE-2026-12296",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12297",
+      "source": "aws-alas",
+      "title": "CVE-2026-12297",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12298",
+      "source": "aws-alas",
+      "title": "CVE-2026-12298",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12299",
+      "source": "aws-alas",
+      "title": "CVE-2026-12299",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12302",
+      "source": "aws-alas",
+      "title": "CVE-2026-12302",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12304",
+      "source": "aws-alas",
+      "title": "CVE-2026-12304",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12305",
+      "source": "aws-alas",
+      "title": "CVE-2026-12305",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12306",
+      "source": "aws-alas",
+      "title": "CVE-2026-12306",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12307",
+      "source": "aws-alas",
+      "title": "CVE-2026-12307",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12308",
+      "source": "aws-alas",
+      "title": "CVE-2026-12308",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12309",
+      "source": "aws-alas",
+      "title": "CVE-2026-12309",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12310",
+      "source": "aws-alas",
+      "title": "CVE-2026-12310",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12311",
+      "source": "aws-alas",
+      "title": "CVE-2026-12311",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12312",
+      "source": "aws-alas",
+      "title": "CVE-2026-12312",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12313",
+      "source": "aws-alas",
+      "title": "CVE-2026-12313",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12314",
+      "source": "aws-alas",
+      "title": "CVE-2026-12314",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12315",
+      "source": "aws-alas",
+      "title": "CVE-2026-12315",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12324",
+      "source": "aws-alas",
+      "title": "CVE-2026-12324",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12325",
+      "source": "aws-alas",
+      "title": "CVE-2026-12325",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12327",
+      "source": "aws-alas",
+      "title": "CVE-2026-12327",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12328",
+      "source": "aws-alas",
+      "title": "CVE-2026-12328",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12329",
+      "source": "aws-alas",
+      "title": "CVE-2026-12329",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12330",
+      "source": "aws-alas",
+      "title": "CVE-2026-12330",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-12505",
+      "source": "aws-alas",
+      "title": "CVE-2026-12505",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-14904",
+      "source": "aws",
+      "title": "CVE-2026-14904",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-1502",
+      "source": "aws-alas",
+      "title": "CVE-2026-1502",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-25680",
+      "source": "aws-alas",
+      "title": "CVE-2026-25680",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-25681",
+      "source": "aws-alas",
+      "title": "CVE-2026-25681",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27136",
+      "source": "aws-alas",
+      "title": "CVE-2026-27136",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27145",
+      "source": "aws-alas",
+      "title": "CVE-2026-27145",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3012",
+      "source": "aws-alas",
+      "title": "CVE-2026-3012",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3276",
+      "source": "aws-alas",
+      "title": "CVE-2026-3276",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34182",
+      "source": "aws-alas",
+      "title": "CVE-2026-34182",
+      "description": "",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3446",
+      "source": "aws-alas",
+      "title": "CVE-2026-3446",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3479",
+      "source": "aws-alas",
+      "title": "CVE-2026-3479",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-39043",
+      "source": "aws-alas",
+      "title": "CVE-2026-39043",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-39044",
+      "source": "aws-alas",
+      "title": "CVE-2026-39044",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-39821",
+      "source": "aws-alas",
+      "title": "CVE-2026-39821",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-41567",
+      "source": "aws-alas",
+      "title": "CVE-2026-41567",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-42055",
+      "source": "aws-alas",
+      "title": "CVE-2026-42055",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-42502",
+      "source": "aws-alas",
+      "title": "CVE-2026-42502",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-42504",
+      "source": "aws-alas",
+      "title": "CVE-2026-42504",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-42506",
+      "source": "aws-alas",
+      "title": "CVE-2026-42506",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-42507",
+      "source": "aws-alas",
+      "title": "CVE-2026-42507",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-43303",
+      "source": "aws-alas",
+      "title": "CVE-2026-43303",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-43492",
+      "source": "aws-alas",
+      "title": "CVE-2026-43492",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-4428",
+      "source": "aws-alas",
+      "title": "CVE-2026-4428",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-45850",
+      "source": "aws-alas",
+      "title": "CVE-2026-45850",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-45991",
+      "source": "aws-alas",
+      "title": "CVE-2026-45991",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-45999",
+      "source": "aws-alas",
+      "title": "CVE-2026-45999",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46005",
+      "source": "aws-alas",
+      "title": "CVE-2026-46005",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46021",
+      "source": "aws-alas",
+      "title": "CVE-2026-46021",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46052",
+      "source": "aws-alas",
+      "title": "CVE-2026-46052",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46054",
+      "source": "aws-alas",
+      "title": "CVE-2026-46054",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46065",
+      "source": "aws-alas",
+      "title": "CVE-2026-46065",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46086",
+      "source": "aws-alas",
+      "title": "CVE-2026-46086",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46116",
+      "source": "aws-alas",
+      "title": "CVE-2026-46116",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46137",
+      "source": "aws-alas",
+      "title": "CVE-2026-46137",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46159",
+      "source": "aws-alas",
+      "title": "CVE-2026-46159",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46160",
+      "source": "aws-alas",
+      "title": "CVE-2026-46160",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46193",
+      "source": "aws-alas",
+      "title": "CVE-2026-46193",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46195",
+      "source": "aws-alas",
+      "title": "CVE-2026-46195",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46196",
+      "source": "aws-alas",
+      "title": "CVE-2026-46196",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46292",
+      "source": "aws-alas",
+      "title": "CVE-2026-46292",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46320",
+      "source": "aws-alas",
+      "title": "CVE-2026-46320",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46321",
+      "source": "aws-alas",
+      "title": "CVE-2026-46321",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46322",
+      "source": "aws-alas",
+      "title": "CVE-2026-46322",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46601",
+      "source": "aws-alas",
+      "title": "CVE-2026-46601",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46602",
+      "source": "aws-alas",
+      "title": "CVE-2026-46602",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-46604",
+      "source": "aws-alas",
+      "title": "CVE-2026-46604",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-47178",
+      "source": "aws-alas",
+      "title": "CVE-2026-47178",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48142",
+      "source": "aws-alas",
+      "title": "CVE-2026-48142",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48615",
+      "source": "aws-alas",
+      "title": "CVE-2026-48615",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48617",
+      "source": "aws-alas",
+      "title": "CVE-2026-48617",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48618",
+      "source": "aws-alas",
+      "title": "CVE-2026-48618",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48619",
+      "source": "aws-alas",
+      "title": "CVE-2026-48619",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48928",
+      "source": "aws-alas",
+      "title": "CVE-2026-48928",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48930",
+      "source": "aws-alas",
+      "title": "CVE-2026-48930",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48931",
+      "source": "aws-alas",
+      "title": "CVE-2026-48931",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48933",
+      "source": "aws-alas",
+      "title": "CVE-2026-48933",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48934",
+      "source": "aws-alas",
+      "title": "CVE-2026-48934",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48935",
+      "source": "aws-alas",
+      "title": "CVE-2026-48935",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48937",
+      "source": "aws-alas",
+      "title": "CVE-2026-48937",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-49271",
+      "source": "aws-alas",
+      "title": "CVE-2026-49271",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-49295",
+      "source": "aws-alas",
+      "title": "CVE-2026-49295",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-49337",
+      "source": "aws-alas",
+      "title": "CVE-2026-49337",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-49346",
+      "source": "aws-alas",
+      "title": "CVE-2026-49346",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-50219",
+      "source": "aws-alas",
+      "title": "CVE-2026-50219",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52718",
+      "source": "aws-alas",
+      "title": "CVE-2026-52718",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52719",
+      "source": "aws-alas",
+      "title": "CVE-2026-52719",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52720",
+      "source": "aws-alas",
+      "title": "CVE-2026-52720",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52721",
+      "source": "aws-alas",
+      "title": "CVE-2026-52721",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52722",
+      "source": "aws-alas",
+      "title": "CVE-2026-52722",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52910",
+      "source": "aws-alas",
+      "title": "CVE-2026-52910",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52923",
+      "source": "aws-alas",
+      "title": "CVE-2026-52923",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52924",
+      "source": "aws-alas",
+      "title": "CVE-2026-52924",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52927",
+      "source": "aws-alas",
+      "title": "CVE-2026-52927",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52929",
+      "source": "aws-alas",
+      "title": "CVE-2026-52929",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52930",
+      "source": "aws-alas",
+      "title": "CVE-2026-52930",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52942",
+      "source": "aws-alas",
+      "title": "CVE-2026-52942",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52943",
+      "source": "aws-alas",
+      "title": "CVE-2026-52943",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-52946",
+      "source": "aws-alas",
+      "title": "CVE-2026-52946",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5299",
+      "source": "aws-alas",
+      "title": "CVE-2026-5299",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53080",
+      "source": "aws-alas",
+      "title": "CVE-2026-53080",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53131",
+      "source": "aws-alas",
+      "title": "CVE-2026-53131",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53133",
+      "source": "aws-alas",
+      "title": "CVE-2026-53133",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53134",
+      "source": "aws-alas",
+      "title": "CVE-2026-53134",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53168",
+      "source": "aws-alas",
+      "title": "CVE-2026-53168",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53183",
+      "source": "aws-alas",
+      "title": "CVE-2026-53183",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53184",
+      "source": "aws-alas",
+      "title": "CVE-2026-53184",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53189",
+      "source": "aws-alas",
+      "title": "CVE-2026-53189",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53199",
+      "source": "aws-alas",
+      "title": "CVE-2026-53199",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53207",
+      "source": "aws-alas",
+      "title": "CVE-2026-53207",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53212",
+      "source": "aws-alas",
+      "title": "CVE-2026-53212",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53218",
+      "source": "aws-alas",
+      "title": "CVE-2026-53218",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53219",
+      "source": "aws-alas",
+      "title": "CVE-2026-53219",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53221",
+      "source": "aws-alas",
+      "title": "CVE-2026-53221",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53223",
+      "source": "aws-alas",
+      "title": "CVE-2026-53223",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53225",
+      "source": "aws-alas",
+      "title": "CVE-2026-53225",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53227",
+      "source": "aws-alas",
+      "title": "CVE-2026-53227",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53228",
+      "source": "aws-alas",
+      "title": "CVE-2026-53228",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53236",
+      "source": "aws-alas",
+      "title": "CVE-2026-53236",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53238",
+      "source": "aws-alas",
+      "title": "CVE-2026-53238",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53239",
+      "source": "aws-alas",
+      "title": "CVE-2026-53239",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53245",
+      "source": "aws-alas",
+      "title": "CVE-2026-53245",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53249",
+      "source": "aws-alas",
+      "title": "CVE-2026-53249",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53264",
+      "source": "aws-alas",
+      "title": "CVE-2026-53264",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53266",
+      "source": "aws-alas",
+      "title": "CVE-2026-53266",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53268",
+      "source": "aws-alas",
+      "title": "CVE-2026-53268",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53269",
+      "source": "aws-alas",
+      "title": "CVE-2026-53269",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53270",
+      "source": "aws-alas",
+      "title": "CVE-2026-53270",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53275",
+      "source": "aws-alas",
+      "title": "CVE-2026-53275",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53337",
+      "source": "aws-alas",
+      "title": "CVE-2026-53337",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53349",
+      "source": "aws-alas",
+      "title": "CVE-2026-53349",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53352",
+      "source": "aws-alas",
+      "title": "CVE-2026-53352",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53354",
+      "source": "aws-alas",
+      "title": "CVE-2026-53354",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53356",
+      "source": "aws-alas",
+      "title": "CVE-2026-53356",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53615",
+      "source": "aws-alas",
+      "title": "CVE-2026-53615",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53702",
+      "source": "aws-alas",
+      "title": "CVE-2026-53702",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53705",
+      "source": "aws-alas",
+      "title": "CVE-2026-53705",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5401",
+      "source": "aws-alas",
+      "title": "CVE-2026-5401",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5404",
+      "source": "aws-alas",
+      "title": "CVE-2026-5404",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5406",
+      "source": "aws-alas",
+      "title": "CVE-2026-5406",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5407",
+      "source": "aws-alas",
+      "title": "CVE-2026-5407",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5408",
+      "source": "aws-alas",
+      "title": "CVE-2026-5408",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5409",
+      "source": "aws-alas",
+      "title": "CVE-2026-5409",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-55204",
+      "source": "aws-alas",
+      "title": "CVE-2026-55204",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56131",
+      "source": "aws-alas",
+      "title": "CVE-2026-56131",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56132",
+      "source": "aws-alas",
+      "title": "CVE-2026-56132",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56208",
+      "source": "aws-alas",
+      "title": "CVE-2026-56208",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56210",
+      "source": "aws-alas",
+      "title": "CVE-2026-56210",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56211",
+      "source": "aws-alas",
+      "title": "CVE-2026-56211",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56379",
+      "source": "aws-alas",
+      "title": "CVE-2026-56379",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56403",
+      "source": "aws-alas",
+      "title": "CVE-2026-56403",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56404",
+      "source": "aws-alas",
+      "title": "CVE-2026-56404",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56405",
+      "source": "aws-alas",
+      "title": "CVE-2026-56405",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56406",
+      "source": "aws-alas",
+      "title": "CVE-2026-56406",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56407",
+      "source": "aws-alas",
+      "title": "CVE-2026-56407",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56408",
+      "source": "aws-alas",
+      "title": "CVE-2026-56408",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-56412",
+      "source": "aws-alas",
+      "title": "CVE-2026-56412",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5653",
+      "source": "aws-alas",
+      "title": "CVE-2026-5653",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5654",
+      "source": "aws-alas",
+      "title": "CVE-2026-5654",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-5657",
+      "source": "aws-alas",
+      "title": "CVE-2026-5657",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-57062",
+      "source": "aws-alas",
+      "title": "CVE-2026-57062",
+      "description": "",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6519",
+      "source": "aws-alas",
+      "title": "CVE-2026-6519",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6520",
+      "source": "aws-alas",
+      "title": "CVE-2026-6520",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6521",
+      "source": "aws-alas",
+      "title": "CVE-2026-6521",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6522",
+      "source": "aws-alas",
+      "title": "CVE-2026-6522",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6523",
+      "source": "aws-alas",
+      "title": "CVE-2026-6523",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6524",
+      "source": "aws-alas",
+      "title": "CVE-2026-6524",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6527",
+      "source": "aws-alas",
+      "title": "CVE-2026-6527",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6529",
+      "source": "aws-alas",
+      "title": "CVE-2026-6529",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6530",
+      "source": "aws-alas",
+      "title": "CVE-2026-6530",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6531",
+      "source": "aws-alas",
+      "title": "CVE-2026-6531",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6532",
+      "source": "aws-alas",
+      "title": "CVE-2026-6532",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6533",
+      "source": "aws-alas",
+      "title": "CVE-2026-6533",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6534",
+      "source": "aws-alas",
+      "title": "CVE-2026-6534",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6535",
+      "source": "aws-alas",
+      "title": "CVE-2026-6535",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6537",
+      "source": "aws-alas",
+      "title": "CVE-2026-6537",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6538",
+      "source": "aws-alas",
+      "title": "CVE-2026-6538",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6653",
+      "source": "aws-alas",
+      "title": "CVE-2026-6653",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6733",
+      "source": "aws-alas",
+      "title": "CVE-2026-6733",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6734",
+      "source": "aws-alas",
+      "title": "CVE-2026-6734",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6867",
+      "source": "aws-alas",
+      "title": "CVE-2026-6867",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6868",
+      "source": "aws-alas",
+      "title": "CVE-2026-6868",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6869",
+      "source": "aws-alas",
+      "title": "CVE-2026-6869",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6870",
+      "source": "aws-alas",
+      "title": "CVE-2026-6870",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-7210",
+      "source": "aws-alas",
+      "title": "CVE-2026-7210",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-7375",
+      "source": "aws-alas",
+      "title": "CVE-2026-7375",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-7376",
+      "source": "aws-alas",
+      "title": "CVE-2026-7376",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-7378",
+      "source": "aws-alas",
+      "title": "CVE-2026-7378",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-7379",
+      "source": "aws-alas",
+      "title": "CVE-2026-7379",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-7774",
+      "source": "aws-alas",
+      "title": "CVE-2026-7774",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-8328",
+      "source": "aws-alas",
+      "title": "CVE-2026-8328",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-9669",
+      "source": "aws-alas",
+      "title": "CVE-2026-9669",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-9678",
+      "source": "aws-alas",
+      "title": "CVE-2026-9678",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-9679",
+      "source": "aws-alas",
+      "title": "CVE-2026-9679",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-9697",
+      "source": "aws-alas",
+      "title": "CVE-2026-9697",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-9759",
+      "source": "aws-alas",
+      "title": "CVE-2026-9759",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-07",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-053-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-053-aws/",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1898.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1899.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1900.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1901.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1902.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1903.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1904.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1905.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1908.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1909.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1910.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1911.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1912.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1913.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1914.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1915.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1916.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1917.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1918.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1919.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1920.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1921.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1922.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1923.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1924.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1925.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1926.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1927.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1928.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1929.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1930.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1931.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1932.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1933.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1934.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1935.html"
+  ]
+}
