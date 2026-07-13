@@ -2,8 +2,8 @@
   "id": "ibm-2026-07-06",
   "source": "ibm",
   "title": "Ibm Security Advisories - 2026-07-06",
-  "description": "Merged 3 ibm security advisories published on 2026-07-06. Original advisory IDs: IBM-7279018, IBM-7279202, IBM-7279145\n\nTitles:\n- Multiple Vulnerabilities in IBM Bob\n- IBM WebSphere Application Server and WebSphere Application Server Liberty, which are bundled with IBM Cloud Pak for Applications, are affected by multiple vulnerabilities (CVE-2026-8646, CVE-2026-9320, CVE-2026-9071)\n- IBM Engineering Requirements Management DOORS and DOORS Web Access is affected by multiple vulnerabilities",
-  "severity": "high",
+  "description": "Merged 6 ibm security advisories published on 2026-07-06. Original advisory IDs: IBM-7279018, IBM-7279202, IBM-7279145, IBM-7279132, IBM-7278871, IBM-7279147\n\nTitles:\n- Multiple Vulnerabilities in IBM Bob\n- IBM WebSphere Application Server and WebSphere Application Server Liberty, which are bundled with IBM Cloud Pak for Applications, are affected by multiple vulnerabilities (CVE-2026-8646, CVE-2026-9320, CVE-2026-9071)\n- IBM Engineering Requirements Management DOORS and DOORS Web Access is affected by multiple vulnerabilities\n- IBM Quantum Safe Explorer is affected by multiple vulnerabilites\n- IBM Quantum Safe Remediator is affected by mutiple vulnerabilities\n- IBM WinCollect Agent is vulnerable to using components with known vulnerabilities",
+  "severity": "critical",
   "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
@@ -15,7 +15,11 @@
   "affected": [
     "ibm:IBM Bob",
     "ibm:IBM Cloud Pak for Applications",
-    "ibm:IBM Engineering Requirements Management DOORS"
+    "ibm:IBM Engineering Requirements Management DOORS",
+    "ibm:IBM Engineering Requirements Management DOORS Web Access",
+    "ibm:IBM Quantum Safe Explorer",
+    "ibm:IBM Quantum Safe Remediator",
+    "ibm:IBM Security QRadar SIEM"
   ],
   "affected_products": [
     {
@@ -518,6 +522,854 @@
           "id": "CVE-2026-49270"
         }
       ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Engineering Requirements Management DOORS Web Access",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_engineering_requirements_management_doors_web_access:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2010-3700"
+        },
+        {
+          "id": "CVE-2011-2731"
+        },
+        {
+          "id": "CVE-2011-2732"
+        },
+        {
+          "id": "CVE-2011-2894"
+        },
+        {
+          "id": "CVE-2012-5055"
+        },
+        {
+          "id": "CVE-2012-5783"
+        },
+        {
+          "id": "CVE-2012-6153"
+        },
+        {
+          "id": "CVE-2013-4152"
+        },
+        {
+          "id": "CVE-2013-6429"
+        },
+        {
+          "id": "CVE-2013-7315"
+        },
+        {
+          "id": "CVE-2014-3577"
+        },
+        {
+          "id": "CVE-2016-9879"
+        },
+        {
+          "id": "CVE-2018-25032"
+        },
+        {
+          "id": "CVE-2019-11272"
+        },
+        {
+          "id": "CVE-2019-17571"
+        },
+        {
+          "id": "CVE-2020-11971"
+        },
+        {
+          "id": "CVE-2020-13956"
+        },
+        {
+          "id": "CVE-2020-4984"
+        },
+        {
+          "id": "CVE-2020-8908"
+        },
+        {
+          "id": "CVE-2020-9493"
+        },
+        {
+          "id": "CVE-2021-33813"
+        },
+        {
+          "id": "CVE-2021-39239"
+        },
+        {
+          "id": "CVE-2021-4104"
+        },
+        {
+          "id": "CVE-2022-22965"
+        },
+        {
+          "id": "CVE-2022-22968"
+        },
+        {
+          "id": "CVE-2022-22970"
+        },
+        {
+          "id": "CVE-2022-22978"
+        },
+        {
+          "id": "CVE-2022-23302"
+        },
+        {
+          "id": "CVE-2022-23305"
+        },
+        {
+          "id": "CVE-2022-23307"
+        },
+        {
+          "id": "CVE-2022-28890"
+        },
+        {
+          "id": "CVE-2022-40151"
+        },
+        {
+          "id": "CVE-2022-40152"
+        },
+        {
+          "id": "CVE-2022-40153"
+        },
+        {
+          "id": "CVE-2022-40154"
+        },
+        {
+          "id": "CVE-2022-40155"
+        },
+        {
+          "id": "CVE-2022-40156"
+        },
+        {
+          "id": "CVE-2022-41966"
+        },
+        {
+          "id": "CVE-2023-1436"
+        },
+        {
+          "id": "CVE-2023-22665"
+        },
+        {
+          "id": "CVE-2023-26048"
+        },
+        {
+          "id": "CVE-2023-26049"
+        },
+        {
+          "id": "CVE-2023-26464"
+        },
+        {
+          "id": "CVE-2023-2976"
+        },
+        {
+          "id": "CVE-2023-34478"
+        },
+        {
+          "id": "CVE-2023-36478"
+        },
+        {
+          "id": "CVE-2023-40167"
+        },
+        {
+          "id": "CVE-2023-44981"
+        },
+        {
+          "id": "CVE-2023-46589"
+        },
+        {
+          "id": "CVE-2023-46604"
+        },
+        {
+          "id": "CVE-2023-46749"
+        },
+        {
+          "id": "CVE-2024-13009"
+        },
+        {
+          "id": "CVE-2024-22257"
+        },
+        {
+          "id": "CVE-2024-24815"
+        },
+        {
+          "id": "CVE-2024-25039"
+        },
+        {
+          "id": "CVE-2024-36124"
+        },
+        {
+          "id": "CVE-2024-38808"
+        },
+        {
+          "id": "CVE-2024-38816"
+        },
+        {
+          "id": "CVE-2024-38820"
+        },
+        {
+          "id": "CVE-2024-38827"
+        },
+        {
+          "id": "CVE-2024-47072"
+        },
+        {
+          "id": "CVE-2024-47554"
+        },
+        {
+          "id": "CVE-2024-6763"
+        },
+        {
+          "id": "CVE-2024-8184"
+        },
+        {
+          "id": "CVE-2025-0152"
+        },
+        {
+          "id": "CVE-2025-11143"
+        },
+        {
+          "id": "CVE-2025-24813"
+        },
+        {
+          "id": "CVE-2025-27533"
+        },
+        {
+          "id": "CVE-2025-27636"
+        },
+        {
+          "id": "CVE-2025-30749"
+        },
+        {
+          "id": "CVE-2025-30754"
+        },
+        {
+          "id": "CVE-2025-30761"
+        },
+        {
+          "id": "CVE-2025-31650"
+        },
+        {
+          "id": "CVE-2025-48924"
+        },
+        {
+          "id": "CVE-2025-50106"
+        },
+        {
+          "id": "CVE-2025-52520"
+        },
+        {
+          "id": "CVE-2025-52999"
+        },
+        {
+          "id": "CVE-2025-53864"
+        },
+        {
+          "id": "CVE-2025-55752"
+        },
+        {
+          "id": "CVE-2025-59375"
+        },
+        {
+          "id": "CVE-2025-66168"
+        },
+        {
+          "id": "CVE-2025-66614"
+        },
+        {
+          "id": "CVE-2025-68161"
+        },
+        {
+          "id": "CVE-2026-21925"
+        },
+        {
+          "id": "CVE-2026-21932"
+        },
+        {
+          "id": "CVE-2026-21933"
+        },
+        {
+          "id": "CVE-2026-21945"
+        },
+        {
+          "id": "CVE-2026-22007"
+        },
+        {
+          "id": "CVE-2026-22013"
+        },
+        {
+          "id": "CVE-2026-22016"
+        },
+        {
+          "id": "CVE-2026-22018"
+        },
+        {
+          "id": "CVE-2026-22021"
+        },
+        {
+          "id": "CVE-2026-2332"
+        },
+        {
+          "id": "CVE-2026-23901"
+        },
+        {
+          "id": "CVE-2026-23903"
+        },
+        {
+          "id": "CVE-2026-24281"
+        },
+        {
+          "id": "CVE-2026-24308"
+        },
+        {
+          "id": "CVE-2026-24515"
+        },
+        {
+          "id": "CVE-2026-24733"
+        },
+        {
+          "id": "CVE-2026-24734"
+        },
+        {
+          "id": "CVE-2026-24880"
+        },
+        {
+          "id": "CVE-2026-25210"
+        },
+        {
+          "id": "CVE-2026-25854"
+        },
+        {
+          "id": "CVE-2026-27171"
+        },
+        {
+          "id": "CVE-2026-29145"
+        },
+        {
+          "id": "CVE-2026-29146"
+        },
+        {
+          "id": "CVE-2026-33227"
+        },
+        {
+          "id": "CVE-2026-3381"
+        },
+        {
+          "id": "CVE-2026-34197"
+        },
+        {
+          "id": "CVE-2026-34268"
+        },
+        {
+          "id": "CVE-2026-34477"
+        },
+        {
+          "id": "CVE-2026-34478"
+        },
+        {
+          "id": "CVE-2026-34479"
+        },
+        {
+          "id": "CVE-2026-34480"
+        },
+        {
+          "id": "CVE-2026-34483"
+        },
+        {
+          "id": "CVE-2026-34487"
+        },
+        {
+          "id": "CVE-2026-34500"
+        },
+        {
+          "id": "CVE-2026-39304"
+        },
+        {
+          "id": "CVE-2026-40046"
+        },
+        {
+          "id": "CVE-2026-40453"
+        },
+        {
+          "id": "CVE-2026-40466"
+        },
+        {
+          "id": "CVE-2026-40860"
+        },
+        {
+          "id": "CVE-2026-41043"
+        },
+        {
+          "id": "CVE-2026-41044"
+        },
+        {
+          "id": "CVE-2026-41284"
+        },
+        {
+          "id": "CVE-2026-41293"
+        },
+        {
+          "id": "CVE-2026-41839"
+        },
+        {
+          "id": "CVE-2026-41840"
+        },
+        {
+          "id": "CVE-2026-41845"
+        },
+        {
+          "id": "CVE-2026-41853"
+        },
+        {
+          "id": "CVE-2026-41854"
+        },
+        {
+          "id": "CVE-2026-42253"
+        },
+        {
+          "id": "CVE-2026-42498"
+        },
+        {
+          "id": "CVE-2026-42588"
+        },
+        {
+          "id": "CVE-2026-43512"
+        },
+        {
+          "id": "CVE-2026-43513"
+        },
+        {
+          "id": "CVE-2026-43514"
+        },
+        {
+          "id": "CVE-2026-43515"
+        },
+        {
+          "id": "CVE-2026-45505"
+        },
+        {
+          "id": "CVE-2026-46605"
+        },
+        {
+          "id": "CVE-2026-49157"
+        },
+        {
+          "id": "CVE-2026-49270"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Quantum Safe Explorer",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_quantum_safe_explorer:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2020-15250"
+        },
+        {
+          "id": "CVE-2025-66614"
+        },
+        {
+          "id": "CVE-2026-12143"
+        },
+        {
+          "id": "CVE-2026-22732"
+        },
+        {
+          "id": "CVE-2026-22735"
+        },
+        {
+          "id": "CVE-2026-22737"
+        },
+        {
+          "id": "CVE-2026-22740"
+        },
+        {
+          "id": "CVE-2026-22741"
+        },
+        {
+          "id": "CVE-2026-22745"
+        },
+        {
+          "id": "CVE-2026-22746"
+        },
+        {
+          "id": "CVE-2026-22747"
+        },
+        {
+          "id": "CVE-2026-22751"
+        },
+        {
+          "id": "CVE-2026-22753"
+        },
+        {
+          "id": "CVE-2026-22754"
+        },
+        {
+          "id": "CVE-2026-24400"
+        },
+        {
+          "id": "CVE-2026-24734"
+        },
+        {
+          "id": "CVE-2026-24880"
+        },
+        {
+          "id": "CVE-2026-25854"
+        },
+        {
+          "id": "CVE-2026-29062"
+        },
+        {
+          "id": "CVE-2026-29145"
+        },
+        {
+          "id": "CVE-2026-29146"
+        },
+        {
+          "id": "CVE-2026-32990"
+        },
+        {
+          "id": "CVE-2026-34483"
+        },
+        {
+          "id": "CVE-2026-34487"
+        },
+        {
+          "id": "CVE-2026-40971"
+        },
+        {
+          "id": "CVE-2026-40973"
+        },
+        {
+          "id": "CVE-2026-40974"
+        },
+        {
+          "id": "CVE-2026-40975"
+        },
+        {
+          "id": "CVE-2026-40976"
+        },
+        {
+          "id": "CVE-2026-40977"
+        },
+        {
+          "id": "CVE-2026-40988"
+        },
+        {
+          "id": "CVE-2026-40992"
+        },
+        {
+          "id": "CVE-2026-41001"
+        },
+        {
+          "id": "CVE-2026-41008"
+        },
+        {
+          "id": "CVE-2026-41284"
+        },
+        {
+          "id": "CVE-2026-41293"
+        },
+        {
+          "id": "CVE-2026-41694"
+        },
+        {
+          "id": "CVE-2026-41695"
+        },
+        {
+          "id": "CVE-2026-41706"
+        },
+        {
+          "id": "CVE-2026-41711"
+        },
+        {
+          "id": "CVE-2026-41716"
+        },
+        {
+          "id": "CVE-2026-41721"
+        },
+        {
+          "id": "CVE-2026-41839"
+        },
+        {
+          "id": "CVE-2026-41840"
+        },
+        {
+          "id": "CVE-2026-41841"
+        },
+        {
+          "id": "CVE-2026-41842"
+        },
+        {
+          "id": "CVE-2026-41843"
+        },
+        {
+          "id": "CVE-2026-41844"
+        },
+        {
+          "id": "CVE-2026-41845"
+        },
+        {
+          "id": "CVE-2026-41846"
+        },
+        {
+          "id": "CVE-2026-41848"
+        },
+        {
+          "id": "CVE-2026-41850"
+        },
+        {
+          "id": "CVE-2026-41851"
+        },
+        {
+          "id": "CVE-2026-41852"
+        },
+        {
+          "id": "CVE-2026-41853"
+        },
+        {
+          "id": "CVE-2026-41854"
+        },
+        {
+          "id": "CVE-2026-41907"
+        },
+        {
+          "id": "CVE-2026-42498"
+        },
+        {
+          "id": "CVE-2026-43512"
+        },
+        {
+          "id": "CVE-2026-43513"
+        },
+        {
+          "id": "CVE-2026-43514"
+        },
+        {
+          "id": "CVE-2026-43515"
+        },
+        {
+          "id": "CVE-2026-9358"
+        },
+        {
+          "id": "CVE-2026-9595"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Quantum Safe Remediator",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_quantum_safe_remediator:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-55305"
+        },
+        {
+          "id": "CVE-2025-69873"
+        },
+        {
+          "id": "CVE-2026-11525"
+        },
+        {
+          "id": "CVE-2026-12143"
+        },
+        {
+          "id": "CVE-2026-12151"
+        },
+        {
+          "id": "CVE-2026-23745"
+        },
+        {
+          "id": "CVE-2026-23950"
+        },
+        {
+          "id": "CVE-2026-24842"
+        },
+        {
+          "id": "CVE-2026-26960"
+        },
+        {
+          "id": "CVE-2026-26996"
+        },
+        {
+          "id": "CVE-2026-27903"
+        },
+        {
+          "id": "CVE-2026-27904"
+        },
+        {
+          "id": "CVE-2026-29786"
+        },
+        {
+          "id": "CVE-2026-31802"
+        },
+        {
+          "id": "CVE-2026-33817"
+        },
+        {
+          "id": "CVE-2026-3449"
+        },
+        {
+          "id": "CVE-2026-34764"
+        },
+        {
+          "id": "CVE-2026-34765"
+        },
+        {
+          "id": "CVE-2026-34766"
+        },
+        {
+          "id": "CVE-2026-34767"
+        },
+        {
+          "id": "CVE-2026-34768"
+        },
+        {
+          "id": "CVE-2026-34769"
+        },
+        {
+          "id": "CVE-2026-34770"
+        },
+        {
+          "id": "CVE-2026-34771"
+        },
+        {
+          "id": "CVE-2026-34772"
+        },
+        {
+          "id": "CVE-2026-34773"
+        },
+        {
+          "id": "CVE-2026-34774"
+        },
+        {
+          "id": "CVE-2026-34775"
+        },
+        {
+          "id": "CVE-2026-34776"
+        },
+        {
+          "id": "CVE-2026-34777"
+        },
+        {
+          "id": "CVE-2026-34778"
+        },
+        {
+          "id": "CVE-2026-34779"
+        },
+        {
+          "id": "CVE-2026-34781"
+        },
+        {
+          "id": "CVE-2026-39824"
+        },
+        {
+          "id": "CVE-2026-41907"
+        },
+        {
+          "id": "CVE-2026-41988"
+        },
+        {
+          "id": "CVE-2026-42338"
+        },
+        {
+          "id": "CVE-2026-6733"
+        },
+        {
+          "id": "CVE-2026-8723"
+        },
+        {
+          "id": "CVE-2026-9358"
+        },
+        {
+          "id": "CVE-2026-9679"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Security QRadar SIEM",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_security_qradar_siem:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-23337"
+        },
+        {
+          "id": "CVE-2025-13465"
+        },
+        {
+          "id": "CVE-2025-14017"
+        },
+        {
+          "id": "CVE-2025-4947"
+        },
+        {
+          "id": "CVE-2025-5025"
+        },
+        {
+          "id": "CVE-2026-27171"
+        },
+        {
+          "id": "CVE-2026-33671"
+        },
+        {
+          "id": "CVE-2026-33672"
+        },
+        {
+          "id": "CVE-2026-3381"
+        },
+        {
+          "id": "CVE-2026-4800"
+        },
+        {
+          "id": "CVE-2026-4873"
+        },
+        {
+          "id": "CVE-2026-5545"
+        },
+        {
+          "id": "CVE-2026-6253"
+        },
+        {
+          "id": "CVE-2026-6276"
+        },
+        {
+          "id": "CVE-2026-6429"
+        },
+        {
+          "id": "CVE-2026-7009"
+        },
+        {
+          "id": "CVE-2026-7168"
+        }
+      ]
     }
   ],
   "fixed_versions": [],
@@ -797,6 +1649,22 @@
       ]
     },
     {
+      "id": "CVE-2020-15250",
+      "source": "ibm",
+      "title": "CVE-2020-15250",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
       "id": "CVE-2020-4984",
       "source": "ibm",
       "title": "CVE-2020-4984",
@@ -842,6 +1710,22 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
         "https://www.ibm.com/support/pages/node/7279145"
+      ]
+    },
+    {
+      "id": "CVE-2021-23337",
+      "source": "ibm",
+      "title": "CVE-2021-23337",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
       ]
     },
     {
@@ -1581,6 +2465,38 @@
       ]
     },
     {
+      "id": "CVE-2025-13465",
+      "source": "ibm",
+      "title": "CVE-2025-13465",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
+      "id": "CVE-2025-14017",
+      "source": "ibm",
+      "title": "CVE-2025-14017",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
       "id": "CVE-2025-24813",
       "source": "ibm",
       "title": "CVE-2025-24813",
@@ -1709,6 +2625,22 @@
       ]
     },
     {
+      "id": "CVE-2025-4947",
+      "source": "ibm",
+      "title": "CVE-2025-4947",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
       "id": "CVE-2025-50106",
       "source": "ibm",
       "title": "CVE-2025-50106",
@@ -1722,6 +2654,22 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
         "https://www.ibm.com/support/pages/node/7279145"
+      ]
+    },
+    {
+      "id": "CVE-2025-5025",
+      "source": "ibm",
+      "title": "CVE-2025-5025",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
       ]
     },
     {
@@ -1770,6 +2718,22 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
         "https://www.ibm.com/support/pages/node/7279145"
+      ]
+    },
+    {
+      "id": "CVE-2025-55305",
+      "source": "ibm",
+      "title": "CVE-2025-55305",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
       ]
     },
     {
@@ -1833,7 +2797,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -1850,6 +2816,72 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
         "https://www.ibm.com/support/pages/node/7279145"
+      ]
+    },
+    {
+      "id": "CVE-2025-69873",
+      "source": "ibm",
+      "title": "CVE-2025-69873",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-11525",
+      "source": "ibm",
+      "title": "CVE-2026-11525",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-12143",
+      "source": "ibm",
+      "title": "CVE-2026-12143",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132",
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-12151",
+      "source": "ibm",
+      "title": "CVE-2026-12151",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
       ]
     },
     {
@@ -1997,6 +3029,182 @@
       ]
     },
     {
+      "id": "CVE-2026-22732",
+      "source": "ibm",
+      "title": "CVE-2026-22732",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-22735",
+      "source": "ibm",
+      "title": "CVE-2026-22735",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-22737",
+      "source": "ibm",
+      "title": "CVE-2026-22737",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-22740",
+      "source": "ibm",
+      "title": "CVE-2026-22740",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-22741",
+      "source": "ibm",
+      "title": "CVE-2026-22741",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-22745",
+      "source": "ibm",
+      "title": "CVE-2026-22745",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-22746",
+      "source": "ibm",
+      "title": "CVE-2026-22746",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-22747",
+      "source": "ibm",
+      "title": "CVE-2026-22747",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-22751",
+      "source": "ibm",
+      "title": "CVE-2026-22751",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-22753",
+      "source": "ibm",
+      "title": "CVE-2026-22753",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-22754",
+      "source": "ibm",
+      "title": "CVE-2026-22754",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
       "id": "CVE-2026-2332",
       "source": "ibm",
       "title": "CVE-2026-2332",
@@ -2010,6 +3218,22 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
         "https://www.ibm.com/support/pages/node/7279145"
+      ]
+    },
+    {
+      "id": "CVE-2026-23745",
+      "source": "ibm",
+      "title": "CVE-2026-23745",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
       ]
     },
     {
@@ -2045,6 +3269,22 @@
       ]
     },
     {
+      "id": "CVE-2026-23950",
+      "source": "ibm",
+      "title": "CVE-2026-23950",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
       "id": "CVE-2026-24281",
       "source": "ibm",
       "title": "CVE-2026-24281",
@@ -2074,6 +3314,22 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
         "https://www.ibm.com/support/pages/node/7279145"
+      ]
+    },
+    {
+      "id": "CVE-2026-24400",
+      "source": "ibm",
+      "title": "CVE-2026-24400",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2121,7 +3377,25 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-24842",
+      "source": "ibm",
+      "title": "CVE-2026-24842",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
       ]
     },
     {
@@ -2137,7 +3411,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2169,7 +3445,41 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-26960",
+      "source": "ibm",
+      "title": "CVE-2026-26960",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-26996",
+      "source": "ibm",
+      "title": "CVE-2026-26996",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
       ]
     },
     {
@@ -2185,7 +3495,57 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
+      "id": "CVE-2026-27903",
+      "source": "ibm",
+      "title": "CVE-2026-27903",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-27904",
+      "source": "ibm",
+      "title": "CVE-2026-27904",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-29062",
+      "source": "ibm",
+      "title": "CVE-2026-29062",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2201,7 +3561,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2217,7 +3579,57 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-29786",
+      "source": "ibm",
+      "title": "CVE-2026-29786",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-31802",
+      "source": "ibm",
+      "title": "CVE-2026-31802",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-32990",
+      "source": "ibm",
+      "title": "CVE-2026-32990",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2237,6 +3649,38 @@
       ]
     },
     {
+      "id": "CVE-2026-33671",
+      "source": "ibm",
+      "title": "CVE-2026-33671",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
+      "id": "CVE-2026-33672",
+      "source": "ibm",
+      "title": "CVE-2026-33672",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
       "id": "CVE-2026-3381",
       "source": "ibm",
       "title": "CVE-2026-3381",
@@ -2249,7 +3693,25 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
+      "id": "CVE-2026-33817",
+      "source": "ibm",
+      "title": "CVE-2026-33817",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
       ]
     },
     {
@@ -2361,7 +3823,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2377,7 +3841,25 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-3449",
+      "source": "ibm",
+      "title": "CVE-2026-3449",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
       ]
     },
     {
@@ -2397,6 +3879,278 @@
       ]
     },
     {
+      "id": "CVE-2026-34764",
+      "source": "ibm",
+      "title": "CVE-2026-34764",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34765",
+      "source": "ibm",
+      "title": "CVE-2026-34765",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34766",
+      "source": "ibm",
+      "title": "CVE-2026-34766",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34767",
+      "source": "ibm",
+      "title": "CVE-2026-34767",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34768",
+      "source": "ibm",
+      "title": "CVE-2026-34768",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34769",
+      "source": "ibm",
+      "title": "CVE-2026-34769",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34770",
+      "source": "ibm",
+      "title": "CVE-2026-34770",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34771",
+      "source": "ibm",
+      "title": "CVE-2026-34771",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34772",
+      "source": "ibm",
+      "title": "CVE-2026-34772",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34773",
+      "source": "ibm",
+      "title": "CVE-2026-34773",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34774",
+      "source": "ibm",
+      "title": "CVE-2026-34774",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34775",
+      "source": "ibm",
+      "title": "CVE-2026-34775",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34776",
+      "source": "ibm",
+      "title": "CVE-2026-34776",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34777",
+      "source": "ibm",
+      "title": "CVE-2026-34777",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34778",
+      "source": "ibm",
+      "title": "CVE-2026-34778",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34779",
+      "source": "ibm",
+      "title": "CVE-2026-34779",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-34781",
+      "source": "ibm",
+      "title": "CVE-2026-34781",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
       "id": "CVE-2026-39304",
       "source": "ibm",
       "title": "CVE-2026-39304",
@@ -2410,6 +4164,22 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
         "https://www.ibm.com/support/pages/node/7279145"
+      ]
+    },
+    {
+      "id": "CVE-2026-39824",
+      "source": "ibm",
+      "title": "CVE-2026-39824",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
       ]
     },
     {
@@ -2477,6 +4247,166 @@
       ]
     },
     {
+      "id": "CVE-2026-40971",
+      "source": "ibm",
+      "title": "CVE-2026-40971",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-40973",
+      "source": "ibm",
+      "title": "CVE-2026-40973",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-40974",
+      "source": "ibm",
+      "title": "CVE-2026-40974",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-40975",
+      "source": "ibm",
+      "title": "CVE-2026-40975",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-40976",
+      "source": "ibm",
+      "title": "CVE-2026-40976",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-40977",
+      "source": "ibm",
+      "title": "CVE-2026-40977",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-40988",
+      "source": "ibm",
+      "title": "CVE-2026-40988",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-40992",
+      "source": "ibm",
+      "title": "CVE-2026-40992",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41001",
+      "source": "ibm",
+      "title": "CVE-2026-41001",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41008",
+      "source": "ibm",
+      "title": "CVE-2026-41008",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
       "id": "CVE-2026-41043",
       "source": "ibm",
       "title": "CVE-2026-41043",
@@ -2521,7 +4451,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2537,7 +4469,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2605,6 +4539,102 @@
       ]
     },
     {
+      "id": "CVE-2026-41694",
+      "source": "ibm",
+      "title": "CVE-2026-41694",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41695",
+      "source": "ibm",
+      "title": "CVE-2026-41695",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41706",
+      "source": "ibm",
+      "title": "CVE-2026-41706",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41711",
+      "source": "ibm",
+      "title": "CVE-2026-41711",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41716",
+      "source": "ibm",
+      "title": "CVE-2026-41716",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41721",
+      "source": "ibm",
+      "title": "CVE-2026-41721",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
       "id": "CVE-2026-41839",
       "source": "ibm",
       "title": "CVE-2026-41839",
@@ -2617,7 +4647,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2633,7 +4665,73 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41841",
+      "source": "ibm",
+      "title": "CVE-2026-41841",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41842",
+      "source": "ibm",
+      "title": "CVE-2026-41842",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41843",
+      "source": "ibm",
+      "title": "CVE-2026-41843",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41844",
+      "source": "ibm",
+      "title": "CVE-2026-41844",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2649,7 +4747,89 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41846",
+      "source": "ibm",
+      "title": "CVE-2026-41846",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41848",
+      "source": "ibm",
+      "title": "CVE-2026-41848",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41850",
+      "source": "ibm",
+      "title": "CVE-2026-41850",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41851",
+      "source": "ibm",
+      "title": "CVE-2026-41851",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-41852",
+      "source": "ibm",
+      "title": "CVE-2026-41852",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2665,7 +4845,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2681,7 +4863,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2698,6 +4882,40 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-45033",
         "https://www.ibm.com/support/pages/node/7279018"
+      ]
+    },
+    {
+      "id": "CVE-2026-41907",
+      "source": "ibm",
+      "title": "CVE-2026-41907",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132",
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-41988",
+      "source": "ibm",
+      "title": "CVE-2026-41988",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
       ]
     },
     {
@@ -2733,6 +4951,22 @@
       ]
     },
     {
+      "id": "CVE-2026-42338",
+      "source": "ibm",
+      "title": "CVE-2026-42338",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
       "id": "CVE-2026-42498",
       "source": "ibm",
       "title": "CVE-2026-42498",
@@ -2745,7 +4979,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2777,7 +5013,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2793,7 +5031,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2809,7 +5049,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2825,7 +5067,9 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-42253",
-        "https://www.ibm.com/support/pages/node/7279145"
+        "https://www.ibm.com/support/pages/node/7279145",
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
       ]
     },
     {
@@ -2893,6 +5137,38 @@
       ]
     },
     {
+      "id": "CVE-2026-4800",
+      "source": "ibm",
+      "title": "CVE-2026-4800",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
+      "id": "CVE-2026-4873",
+      "source": "ibm",
+      "title": "CVE-2026-4873",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
       "id": "CVE-2026-49157",
       "source": "ibm",
       "title": "CVE-2026-49157",
@@ -2925,6 +5201,118 @@
       ]
     },
     {
+      "id": "CVE-2026-5545",
+      "source": "ibm",
+      "title": "CVE-2026-5545",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
+      "id": "CVE-2026-6253",
+      "source": "ibm",
+      "title": "CVE-2026-6253",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
+      "id": "CVE-2026-6276",
+      "source": "ibm",
+      "title": "CVE-2026-6276",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
+      "id": "CVE-2026-6429",
+      "source": "ibm",
+      "title": "CVE-2026-6429",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
+      "id": "CVE-2026-6733",
+      "source": "ibm",
+      "title": "CVE-2026-6733",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-7009",
+      "source": "ibm",
+      "title": "CVE-2026-7009",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
+      "id": "CVE-2026-7168",
+      "source": "ibm",
+      "title": "CVE-2026-7168",
+      "description": "Successfully using libcurl to do a transfer over a specific HTTP proxy (`proxyA`) with **Digest** authentication and then changing the proxy host to a second one (`proxyB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Proxy-Authorization:` header field meant for `proxyA`, to `proxyB`",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7168",
+        "https://www.ibm.com/support/pages/node/7279147"
+      ]
+    },
+    {
       "id": "CVE-2026-8646",
       "source": "ibm",
       "title": "CVE-2026-8646",
@@ -2938,6 +5326,22 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-8646",
         "https://www.ibm.com/support/pages/node/7279202"
+      ]
+    },
+    {
+      "id": "CVE-2026-8723",
+      "source": "ibm",
+      "title": "CVE-2026-8723",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
       ]
     },
     {
@@ -2971,6 +5375,56 @@
         "https://www.cve.org/CVERecord?id=CVE-2026-8646",
         "https://www.ibm.com/support/pages/node/7279202"
       ]
+    },
+    {
+      "id": "CVE-2026-9358",
+      "source": "ibm",
+      "title": "CVE-2026-9358",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132",
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
+    },
+    {
+      "id": "CVE-2026-9595",
+      "source": "ibm",
+      "title": "CVE-2026-9595",
+      "description": "Spring Security's CookieRequestCache and CookieServerRequestCache store the pre-authentication request URL in a browser cookie so that users can be redirected back to their intended destination after a successful login. In affected versions, the full absolute URL is stored in the cookie and is used without validation as the post-login redirect target. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41706",
+        "https://www.ibm.com/support/pages/node/7279132"
+      ]
+    },
+    {
+      "id": "CVE-2026-9679",
+      "source": "ibm",
+      "title": "CVE-2026-9679",
+      "description": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8, an undocumented commandLineSwitches webPreference allowed arbitrary switches to be appended to the renderer process command line. Apps that construct webPreferences by spreading untrusted configuration objects may inadvertently allow an attacker to inject switches that disable renderer sandboxing or web security controls. Apps are only affected if they construct webPreferences from external or untrusted input without an allowlist. Apps that use a fixed, hardcoded webPreferences object are not affected. This issue has been patched in versions 38.8.6, 39.8.0, 40.7.0, and 41.0.0-beta.8",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "2026-07-06",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-34769",
+        "https://www.ibm.com/support/pages/node/7278871"
+      ]
     }
   ],
   "exploits": [],
@@ -2981,6 +5435,9 @@
     "https://www.ibm.com/support/pages/node/7279018",
     "https://www.ibm.com/support/pages/bulletin/",
     "https://www.ibm.com/support/pages/node/7279202",
-    "https://www.ibm.com/support/pages/node/7279145"
+    "https://www.ibm.com/support/pages/node/7279145",
+    "https://www.ibm.com/support/pages/node/7279132",
+    "https://www.ibm.com/support/pages/node/7278871",
+    "https://www.ibm.com/support/pages/node/7279147"
   ]
 }

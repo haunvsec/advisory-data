@@ -2,7 +2,7 @@
   "id": "spring-2026-06-09",
   "source": "spring",
   "title": "Spring Security Advisories - 2026-06-09",
-  "description": "Merged 26 spring security advisories published on 2026-06-09. Original advisory IDs: CVE-2026-40988, CVE-2026-40993, CVE-2026-41003, CVE-2026-41008, CVE-2026-41694, CVE-2026-41706, CVE-2026-47838, CVE-2026-41726, CVE-2026-41727, CVE-2026-41731, CVE-2026-41732, CVE-2026-41701, CVE-2026-41714, CVE-2026-41695, CVE-2026-41696, CVE-2026-41697, CVE-2026-41711, CVE-2026-41716, CVE-2026-41717, CVE-2026-41719, CVE-2026-41721, CVE-2026-41730, CVE-2026-41729, CVE-2026-41728, CVE-2026-41837, CVE-2026-40991\n\nTitles:\n- Unbounded DEFLATE Inflation in SAML 2.0 Service Provider\n- Unfiltered Java Native Deserialization of SAML 2.0 Asserting Party Credentials BLOB Database Entry\n- Unencoded HTML Outputs in Spring Security May Allow Cross-Site Scripting\n- Spring Security Authorization Server Open Redirect via request_uri\n- SAML Payloads Decrypted Without Valid Signature\n- Open Redirect When Using CookieRequestCache\n- Unauthorized User Impersonation when Using X.509 Client Certificates\n- In Spring for Apache Kafka, unbounded delegate cache keyed on user-controlled, potentially malicious selector header\n- In Spring for Apache Kafka, forged retry topic headers subvert retry routing and backoff behavior\n- In Spring for Apache Kafka, overly broad trusted-package matching in header mappers exposes JDK classes to deserialization\n- In Spring for Apache Pulsar, overly broad trusted-package matching in header mapper exposes JDK classes to deserialization\n- In Spring AMQP sequential correlation IDs enable reply poisoning on fixed reply queues\n- In Spring AMQP the `RabbitConnectionFactoryBean.setUri(\"amqps://...\")` bypasses secure SSL setup, uses `TrustEverythingTrustManager`\n- Denial of Service in Spring Data Commons Property Path Resolution\n- Spring Data MongoDB Bind Parameter Literal Quoting Breakout\n- Spring Data Relational Parameter not Escaped for Query By Example LIKE Pattern\n- Potential Denial of Service through crafted Sort Parameters\n- Spring Data web support unbounded negative-result cache keyed on attacker-supplied property names\n- Spring Data MongoDB - SpEL Expression Injection via Annotated Query Parameter Binding\n- Spring Data KeyValue - SpEL Injection vulnerability in SpelPropertyComparator\n- Spring Data Commons Denial of Service via Data Binding\n- Spring Data REST exposes persistence-layer internals in error responses\n- Spring Data REST SpEL Injection via Map Key in JSON Patch\n- Spring Data REST JSON Patch bypasses Jackson read-only property protection on nested objects and collections\n- Spring Data REST Querydsl integration exposes Jackson-hidden persistent fields as filter keys\n- XML External Entity (XXE) injection when documenting untrusted XML content",
+  "description": "Merged 26 spring security advisories published on 2026-06-09. Original advisory IDs: CVE-2026-40988, CVE-2026-40993, CVE-2026-41003, CVE-2026-41008, CVE-2026-41694, CVE-2026-41706, CVE-2026-47838, CVE-2026-41726, CVE-2026-41727, CVE-2026-41731, CVE-2026-41732, CVE-2026-41701, CVE-2026-41714, CVE-2026-41695, CVE-2026-41696, CVE-2026-41697, CVE-2026-41711, CVE-2026-41716, CVE-2026-41717, CVE-2026-41719, CVE-2026-41721, CVE-2026-41728, CVE-2026-41729, CVE-2026-41730, CVE-2026-41837, CVE-2026-40991\n\nTitles:\n- Unbounded DEFLATE Inflation in SAML 2.0 Service Provider\n- Unfiltered Java Native Deserialization of SAML 2.0 Asserting Party Credentials BLOB Database Entry\n- Unencoded HTML Outputs in Spring Security May Allow Cross-Site Scripting\n- Spring Security Authorization Server Open Redirect via request_uri\n- SAML Payloads Decrypted Without Valid Signature\n- Open Redirect When Using CookieRequestCache\n- Unauthorized User Impersonation when Using X.509 Client Certificates\n- In Spring for Apache Kafka, unbounded delegate cache keyed on user-controlled, potentially malicious selector header\n- In Spring for Apache Kafka, forged retry topic headers subvert retry routing and backoff behavior\n- In Spring for Apache Kafka, overly broad trusted-package matching in header mappers exposes JDK classes to deserialization\n- In Spring for Apache Pulsar, overly broad trusted-package matching in header mapper exposes JDK classes to deserialization\n- In Spring AMQP sequential correlation IDs enable reply poisoning on fixed reply queues\n- In Spring AMQP the `RabbitConnectionFactoryBean.setUri(\"amqps://...\")` bypasses secure SSL setup, uses `TrustEverythingTrustManager`\n- Denial of Service in Spring Data Commons Property Path Resolution\n- Spring Data MongoDB Bind Parameter Literal Quoting Breakout\n- Spring Data Relational Parameter not Escaped for Query By Example LIKE Pattern\n- Potential Denial of Service through crafted Sort Parameters\n- Spring Data web support unbounded negative-result cache keyed on attacker-supplied property names\n- Spring Data MongoDB - SpEL Expression Injection via Annotated Query Parameter Binding\n- Spring Data KeyValue - SpEL Injection vulnerability in SpelPropertyComparator\n- Spring Data Commons Denial of Service via Data Binding\n- Spring Data REST JSON Patch bypasses Jackson read-only property protection on nested objects and collections\n- Spring Data REST SpEL Injection via Map Key in JSON Patch\n- Spring Data REST exposes persistence-layer internals in error responses\n- Spring Data REST Querydsl integration exposes Jackson-hidden persistent fields as filter keys\n- XML External Entity (XXE) injection when documenting untrusted XML content",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -1624,13 +1624,13 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41730"
+          "id": "CVE-2026-41728"
         },
         {
           "id": "CVE-2026-41729"
         },
         {
-          "id": "CVE-2026-41728"
+          "id": "CVE-2026-41730"
         },
         {
           "id": "CVE-2026-41837"
@@ -1650,13 +1650,13 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41730"
+          "id": "CVE-2026-41728"
         },
         {
           "id": "CVE-2026-41729"
         },
         {
-          "id": "CVE-2026-41728"
+          "id": "CVE-2026-41730"
         },
         {
           "id": "CVE-2026-41837"
@@ -1676,13 +1676,13 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41730"
+          "id": "CVE-2026-41728"
         },
         {
           "id": "CVE-2026-41729"
         },
         {
-          "id": "CVE-2026-41728"
+          "id": "CVE-2026-41730"
         },
         {
           "id": "CVE-2026-41837"
@@ -1702,13 +1702,13 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41730"
+          "id": "CVE-2026-41728"
         },
         {
           "id": "CVE-2026-41729"
         },
         {
-          "id": "CVE-2026-41728"
+          "id": "CVE-2026-41730"
         },
         {
           "id": "CVE-2026-41837"
@@ -1728,13 +1728,13 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41730"
+          "id": "CVE-2026-41728"
         },
         {
           "id": "CVE-2026-41729"
         },
         {
-          "id": "CVE-2026-41728"
+          "id": "CVE-2026-41730"
         },
         {
           "id": "CVE-2026-41837"
@@ -1754,13 +1754,13 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-41730"
+          "id": "CVE-2026-41728"
         },
         {
           "id": "CVE-2026-41729"
         },
         {
-          "id": "CVE-2026-41728"
+          "id": "CVE-2026-41730"
         },
         {
           "id": "CVE-2026-41837"
@@ -2270,9 +2270,9 @@
     "https://spring.io/security/cve-2026-41717",
     "https://spring.io/security/cve-2026-41719",
     "https://spring.io/security/cve-2026-41721",
-    "https://spring.io/security/cve-2026-41730",
-    "https://spring.io/security/cve-2026-41729",
     "https://spring.io/security/cve-2026-41728",
+    "https://spring.io/security/cve-2026-41729",
+    "https://spring.io/security/cve-2026-41730",
     "https://spring.io/security/cve-2026-41837",
     "https://spring.io/security/cve-2026-40991"
   ]
