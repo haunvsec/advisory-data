@@ -2,7 +2,7 @@
   "id": "aws-alas-2026-06-22",
   "source": "aws-alas",
   "title": "Aws Security Advisories - 2026-06-22",
-  "description": "Merged 9 aws security advisories published on 2026-06-22. Original advisory IDs: ALAS2023-2026-1822, ALAS2023-2026-1823, ALAS2023-2026-1824, ALAS2023-2026-1825, ALAS2023-2026-1826, ALAS2023-2026-1828, ALAS2023-2026-1829, ALAS2023-2026-1830, ALAS2023-2026-1831\n\nTitles:\n- ALAS2023-2026-1822 (important): freerdp\n- ALAS2023-2026-1823 (important): rrdtool\n- ALAS2023-2026-1824 (low): libssh\n- ALAS2023-2026-1825 (important): perl-IO-Compress\n- ALAS2023-2026-1826 (medium): ImageMagick\n- ALAS2023-2026-1828 (important): jpegxl\n- ALAS2023-2026-1829 (medium): perl-Cpanel-JSON-XS\n- ALAS2023-2026-1830 (important): perl-Sereal-Decoder\n- ALAS2023-2026-1831 (medium): perl-Unicode-LineBreak",
+  "description": "Merged 9 aws security advisories published on 2026-06-22. Original advisory IDs: ALAS2023LIVEPATCH-2026-197, ALAS2023LIVEPATCH-2026-198, ALAS2023LIVEPATCH-2026-199, ALAS2023LIVEPATCH-2026-200, ALAS2023LIVEPATCH-2026-201, ALAS2023LIVEPATCH-2026-202, ALAS2023LIVEPATCH-2026-203, ALAS2023LIVEPATCH-2026-204, ALAS2023LIVEPATCH-2026-205\n\nTitles:\n- ALAS2023LIVEPATCH-2026-197 (important): kernel-livepatch-6.18.25-52.107\n- ALAS2023LIVEPATCH-2026-198 (important): kernel-livepatch-6.18.33-63.124\n- ALAS2023LIVEPATCH-2026-199 (important): kernel-livepatch-6.18.30-61.116\n- ALAS2023LIVEPATCH-2026-200 (important): kernel-livepatch-6.18.30-61.119\n- ALAS2023LIVEPATCH-2026-201 (important): kernel-livepatch-6.18.25-57.109\n- ALAS2023LIVEPATCH-2026-202 (important): kernel-livepatch-6.18.20-41.237\n- ALAS2023LIVEPATCH-2026-203 (important): kernel-livepatch-6.18.25-55.108\n- ALAS2023LIVEPATCH-2026-204 (important): kernel-livepatch-6.18.16-18.222\n- ALAS2023LIVEPATCH-2026-205 (important): kernel-livepatch-6.18.20-20.229",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -13,236 +13,206 @@
   "published_date": "2026-06-22",
   "modified_date": "2026-06-22",
   "affected": [
-    "al2023:freerdp",
-    "al2023:rrdtool",
-    "al2023:libssh",
-    "al2023:perl-IO-Compress",
-    "al2023:ImageMagick",
-    "al2023:jpegxl",
-    "al2023:perl-Cpanel-JSON-XS",
-    "al2023:perl-Sereal-Decoder",
-    "al2023:perl-Unicode-LineBreak"
+    "al2023:kernel-livepatch-6.18.25-52.107",
+    "al2023:kernel-livepatch-6.18.33-63.124",
+    "al2023:kernel-livepatch-6.18.30-61.116",
+    "al2023:kernel-livepatch-6.18.30-61.119",
+    "al2023:kernel-livepatch-6.18.25-57.109",
+    "al2023:kernel-livepatch-6.18.20-41.237",
+    "al2023:kernel-livepatch-6.18.25-55.108",
+    "al2023:kernel-livepatch-6.18.16-18.222",
+    "al2023:kernel-livepatch-6.18.20-20.229"
   ],
   "affected_products": [
     {
       "vendor": "al2023",
-      "product": "Freerdp",
+      "product": "Kernel-livepatch-6.18.25-52.107",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:freerdp:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:kernel-livepatch-6.18.25-52.107:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-40033"
+          "id": "CVE-2026-46316"
         },
         {
-          "id": "CVE-2026-44420"
-        },
-        {
-          "id": "CVE-2026-44421"
-        },
-        {
-          "id": "CVE-2026-45700"
+          "id": "CVE-2026-46317"
         }
       ]
     },
     {
       "vendor": "al2023",
-      "product": "Rrdtool",
+      "product": "Kernel-livepatch-6.18.33-63.124",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:rrdtool:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:kernel-livepatch-6.18.33-63.124:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-43958"
+          "id": "CVE-2026-46316"
+        },
+        {
+          "id": "CVE-2026-46317"
         }
       ]
     },
     {
       "vendor": "al2023",
-      "product": "Libssh",
+      "product": "Kernel-livepatch-6.18.30-61.116",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:libssh:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:kernel-livepatch-6.18.30-61.116:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-0965"
+          "id": "CVE-2026-46316"
+        },
+        {
+          "id": "CVE-2026-46317"
         }
       ]
     },
     {
       "vendor": "al2023",
-      "product": "Perl-IO-Compress",
+      "product": "Kernel-livepatch-6.18.30-61.119",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:perl-io-compress:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:kernel-livepatch-6.18.30-61.119:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-48959"
+          "id": "CVE-2026-46316"
         },
         {
-          "id": "CVE-2026-48961"
-        },
-        {
-          "id": "CVE-2026-48962"
+          "id": "CVE-2026-46317"
         }
       ]
     },
     {
       "vendor": "al2023",
-      "product": "ImageMagick",
+      "product": "Kernel-livepatch-6.18.25-57.109",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:imagemagick:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:kernel-livepatch-6.18.25-57.109:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-42326"
+          "id": "CVE-2026-46316"
         },
         {
-          "id": "CVE-2026-45031"
-        },
-        {
-          "id": "CVE-2026-45358"
-        },
-        {
-          "id": "CVE-2026-45359"
-        },
-        {
-          "id": "CVE-2026-45624"
-        },
-        {
-          "id": "CVE-2026-45664"
-        },
-        {
-          "id": "CVE-2026-46520"
-        },
-        {
-          "id": "CVE-2026-46521"
-        },
-        {
-          "id": "CVE-2026-46522"
-        },
-        {
-          "id": "CVE-2026-46523"
-        },
-        {
-          "id": "CVE-2026-46559"
-        },
-        {
-          "id": "CVE-2026-46692"
-        },
-        {
-          "id": "CVE-2026-46693"
-        },
-        {
-          "id": "CVE-2026-47165"
-        },
-        {
-          "id": "CVE-2026-47166"
+          "id": "CVE-2026-46317"
         }
       ]
     },
     {
       "vendor": "al2023",
-      "product": "Jpegxl",
+      "product": "Kernel-livepatch-6.18.20-41.237",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:jpegxl:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:kernel-livepatch-6.18.20-41.237:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2025-70103"
+          "id": "CVE-2026-46316"
+        },
+        {
+          "id": "CVE-2026-46317"
         }
       ]
     },
     {
       "vendor": "al2023",
-      "product": "Perl-Cpanel-JSON-XS",
+      "product": "Kernel-livepatch-6.18.25-55.108",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:perl-cpanel-json-xs:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:kernel-livepatch-6.18.25-55.108:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-9516"
+          "id": "CVE-2026-46316"
+        },
+        {
+          "id": "CVE-2026-46317"
         }
       ]
     },
     {
       "vendor": "al2023",
-      "product": "Perl-Sereal-Decoder",
+      "product": "Kernel-livepatch-6.18.16-18.222",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:perl-sereal-decoder:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:kernel-livepatch-6.18.16-18.222:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-8796"
+          "id": "CVE-2026-46316"
+        },
+        {
+          "id": "CVE-2026-46317"
         }
       ]
     },
     {
       "vendor": "al2023",
-      "product": "Perl-Unicode-LineBreak",
+      "product": "Kernel-livepatch-6.18.20-20.229",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:perl-unicode-linebreak:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:al2023:kernel-livepatch-6.18.20-20.229:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-8594"
+          "id": "CVE-2026-46316"
+        },
+        {
+          "id": "CVE-2026-46317"
         }
       ]
     }
   ],
   "fixed_versions": [],
-  "solution": "dnf update freerdp --releasever 2023.12.20260622\n\ndnf update rrdtool --releasever 2023.12.20260622\n\ndnf update libssh --releasever 2023.12.20260622\n\ndnf update perl-IO-Compress --releasever 2023.12.20260622\n\ndnf update ImageMagick --releasever 2023.12.20260622\n\ndnf update jpegxl --releasever 2023.12.20260622\n\ndnf update perl-Cpanel-JSON-XS --releasever 2023.12.20260622\n\ndnf update perl-Sereal-Decoder --releasever 2023.12.20260622\n\ndnf update perl-Unicode-LineBreak --releasever 2023.12.20260622",
+  "solution": "dnf update kernel-livepatch-6.18.25-52.107 --releasever latest\n\ndnf update kernel-livepatch-6.18.33-63.124 --releasever latest\n\ndnf update kernel-livepatch-6.18.30-61.116 --releasever latest\n\ndnf update kernel-livepatch-6.18.30-61.119 --releasever latest\n\ndnf update kernel-livepatch-6.18.25-57.109 --releasever latest\n\ndnf update kernel-livepatch-6.18.20-41.237 --releasever latest\n\ndnf update kernel-livepatch-6.18.25-55.108 --releasever latest\n\ndnf update kernel-livepatch-6.18.16-18.222 --releasever latest\n\ndnf update kernel-livepatch-6.18.20-20.229 --releasever latest",
   "remediations": [],
   "cves": [
     {
-      "id": "CVE-2025-70103",
+      "id": "CVE-2026-46316",
       "source": "aws-alas",
-      "title": "CVE-2025-70103",
+      "title": "CVE-2026-46316",
       "description": "",
       "severity": "high",
       "cvss_score": null,
@@ -253,349 +223,11 @@
       "references": []
     },
     {
-      "id": "CVE-2026-0965",
+      "id": "CVE-2026-46317",
       "source": "aws-alas",
-      "title": "CVE-2026-0965",
-      "description": "",
-      "severity": "low",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-40033",
-      "source": "aws-alas",
-      "title": "CVE-2026-40033",
+      "title": "CVE-2026-46317",
       "description": "",
       "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-42326",
-      "source": "aws-alas",
-      "title": "CVE-2026-42326",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-43958",
-      "source": "aws-alas",
-      "title": "CVE-2026-43958",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-44420",
-      "source": "aws-alas",
-      "title": "CVE-2026-44420",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-44421",
-      "source": "aws-alas",
-      "title": "CVE-2026-44421",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-45031",
-      "source": "aws-alas",
-      "title": "CVE-2026-45031",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-45358",
-      "source": "aws-alas",
-      "title": "CVE-2026-45358",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-45359",
-      "source": "aws-alas",
-      "title": "CVE-2026-45359",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-45624",
-      "source": "aws-alas",
-      "title": "CVE-2026-45624",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-45664",
-      "source": "aws-alas",
-      "title": "CVE-2026-45664",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-45700",
-      "source": "aws-alas",
-      "title": "CVE-2026-45700",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46520",
-      "source": "aws-alas",
-      "title": "CVE-2026-46520",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46521",
-      "source": "aws-alas",
-      "title": "CVE-2026-46521",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46522",
-      "source": "aws-alas",
-      "title": "CVE-2026-46522",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46523",
-      "source": "aws-alas",
-      "title": "CVE-2026-46523",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46559",
-      "source": "aws-alas",
-      "title": "CVE-2026-46559",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46692",
-      "source": "aws-alas",
-      "title": "CVE-2026-46692",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46693",
-      "source": "aws-alas",
-      "title": "CVE-2026-46693",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-47165",
-      "source": "aws-alas",
-      "title": "CVE-2026-47165",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-47166",
-      "source": "aws-alas",
-      "title": "CVE-2026-47166",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-48959",
-      "source": "aws-alas",
-      "title": "CVE-2026-48959",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-48961",
-      "source": "aws-alas",
-      "title": "CVE-2026-48961",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-48962",
-      "source": "aws-alas",
-      "title": "CVE-2026-48962",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-8594",
-      "source": "aws-alas",
-      "title": "CVE-2026-8594",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-8796",
-      "source": "aws-alas",
-      "title": "CVE-2026-8796",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-06-22",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-9516",
-      "source": "aws-alas",
-      "title": "CVE-2026-9516",
-      "description": "",
-      "severity": "medium",
       "cvss_score": null,
       "cvss_vector": null,
       "published_date": "2026-06-22",
@@ -606,17 +238,17 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1822.html",
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-197.html",
   "vendor": "aws",
   "references": [
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1822.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1823.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1824.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1825.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1826.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1828.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1829.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1830.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-1831.html"
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-197.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-198.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-199.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-200.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-201.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-202.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-203.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-204.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-205.html"
   ]
 }
