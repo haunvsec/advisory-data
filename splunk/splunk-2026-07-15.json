@@ -1,0 +1,561 @@
+{
+  "id": "splunk-2026-07-15",
+  "source": "splunk",
+  "title": "Splunk Security Advisories - 2026-07-15",
+  "description": "Merged 5 splunk security advisories published on 2026-07-15. Original advisory IDs: SVD-2026-0706, SVD-2026-0705, SVD-2026-0704, SVD-2026-0703, SVD-2026-0702\n\nTitles:\n- Third-Party Package Updates in Splunk Universal Forwarder - July 2026\n- Third-Party Package Updates in Splunk Enterprise - July 2026\n- Sensitive Information Disclosure through the storage/passwords REST Endpoint in Splunk Enterprise\n- Path Traversal through 'explicit_appname' in the App Install REST Endpoint in Splunk Enterprise\n- SPL Command Safeguards Bypass through Cross-Site Request Forgery (CSRF) in Deployment Server in Splunk Enterprise",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": 3.1,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-15",
+  "modified_date": "2026-07-15",
+  "affected": [
+    "splunk:splunk-universal-forwarder",
+    "splunk:splunk-enterprise"
+  ],
+  "affected_products": [
+    {
+      "vendor": "splunk",
+      "product": "Splunk Universal Forwarder",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:splunk:universal_forwarder:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-28388"
+        },
+        {
+          "id": "CVE-2026-28389"
+        },
+        {
+          "id": "CVE-2026-28390"
+        }
+      ]
+    },
+    {
+      "vendor": "splunk",
+      "product": "Splunk Enterprise",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:splunk:splunk_enterprise:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-30204"
+        },
+        {
+          "id": "CVE-2025-47913"
+        },
+        {
+          "id": "CVE-2025-61726"
+        },
+        {
+          "id": "CVE-2026-24051"
+        },
+        {
+          "id": "CVE-2026-27140"
+        },
+        {
+          "id": "CVE-2026-27143"
+        },
+        {
+          "id": "CVE-2026-27144"
+        },
+        {
+          "id": "CVE-2026-29181"
+        },
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32281"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
+          "id": "CVE-2026-32285"
+        },
+        {
+          "id": "CVE-2026-32287"
+        },
+        {
+          "id": "CVE-2026-34986"
+        },
+        {
+          "id": "CVE-2026-39836"
+        },
+        {
+          "id": "CVE-2026-39882"
+        },
+        {
+          "id": "CVE-2026-39883"
+        },
+        {
+          "id": "CVE-2026-42501"
+        },
+        {
+          "id": "CVE-2026-6914"
+        },
+        {
+          "id": "CVE-2026-6915"
+        },
+        {
+          "id": "CVE-2026-8053"
+        },
+        {
+          "id": "CVE-2026-8199"
+        },
+        {
+          "id": "CVE-2026-8200"
+        },
+        {
+          "id": "CVE-2026-8201"
+        },
+        {
+          "id": "CVE-2026-8202"
+        },
+        {
+          "id": "CVE-2026-20298"
+        },
+        {
+          "id": "CVE-2026-20297"
+        },
+        {
+          "id": "CVE-2026-20296"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "Upgrade Splunk Universal Forwarder to versions 10.4.1, 10.2.5, 10.0.8, 9.4.13, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Universal Forwarder\n10.4\nBelow 10.4.1\n10.4.1\nSplunk Universal Forwarder\n10.2\n10.2.0 to 10.2.4\n10.2.5\nSplunk Universal Forwarder\n10.0\n10.0.0 to 10.0.7\n10.0.8\nSplunk Universal Forwarder\n9.4\n9.4.0 to 9.4.12\n9.4.13\n\nUpgrade Splunk Enterprise to versions 10.4.1, 10.2.5, 10.0.8, 9.4.13, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Enterprise\n10.4\nBelow 10.4.1\n10.4.1\nSplunk Enterprise\n10.2\n10.2.0 to 10.2.4\n10.2.5\nSplunk Enterprise\n10.0\n10.0.0 to 10.0.7\n10.0.8\nSplunk Enterprise\n9.4\n9.4.0 to 9.4.12\n9.4.13\n\nTo fix the problem, perform the following procedure on Splunk Enterprise:\n1. Upgrade Splunk Enterprise to versions 10.4.1, 10.2.5, 10.0.8, 9.4.13, or higher.\n2. In the\nlimits.conf\nconfiguration file, under the\n[storage_passwords_masking]\nstanza, set\nmask_encr_password = true\n.\n3. Restart the Splunk Enterprise instance.\nFor more information, see\nHow to edit a configuration file\nand the\nlimits.conf\nconfiguration specification file.\nSplunk is actively monitoring and patching Splunk Cloud Platform i\n\nUpgrade Splunk Enterprise to versions 10.4.1, 10.2.5, 10.0.8, 9.4.13, and 9.3.14, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.4\nREST API\n10.4.0 to 10.4.0\n10.4.1\nSplunk Enterprise\n10.2\nREST API\n10.2.0 to 10.2.4\n10.2.5\nSplunk Enterprise\n10.0\nREST API\n10.0.0 to 10.0.7\n10.0.8\nSplunk Enterprise\n9.4\nREST API\n9.4.0 to 9.4.12\n9.4.13\nSplunk Enterprise\n9.3\nREST API\n9.3\n\nUpgrade Splunk Enterprise to versions 10.4.1, 10.2.5, 10.0.8, and 9.4.13, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.4\nSplunk Web\n10.4.0 to 10.4.0\n10.4.1\nSplunk Enterprise\n10.2\nSplunk Web\n10.2.0 to 10.2.4\n10.2.5\nSplunk Enterprise\n10.0\nSplunk Web\n10.0.0 to 10.0.7\n10.0.8\nSplunk Enterprise\n9.4\nSplunk Web\n9.4.0 to 9.4.12\n9.4.13\nSplunk Cloud Platform\n10.5.2605\nSp",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-30204",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-47913",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-61726",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20296",
+      "source": "splunk",
+      "title": "SPL Command Safeguards Bypass through Cross-Site Request Forgery (CSRF) in Deployment Server in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20297",
+      "source": "splunk",
+      "title": "Path Traversal through 'explicit_appname' in the App Install REST Endpoint in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-20298",
+      "source": "splunk",
+      "title": "Sensitive Information Disclosure through the storage/passwords REST Endpoint in Splunk Enterprise",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-24051",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27140",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27143",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-27144",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-28388",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Universal Forwarder - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-28389",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Universal Forwarder - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-28390",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Universal Forwarder - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-29181",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32280",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32281",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32283",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32285",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32287",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34986",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-39836",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-39882",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-39883",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-42501",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6914",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-6915",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-8053",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-8199",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-8200",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-8201",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-8202",
+      "source": "splunk",
+      "title": "Third-Party Package Updates in Splunk Enterprise - July 2026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://advisory.splunk.com/advisories/SVD-2026-0706",
+  "vendor": "splunk",
+  "references": [
+    "https://advisory.splunk.com/advisories/SVD-2026-0706",
+    "https://advisory.splunk.com/advisories/SVD-2026-0705",
+    "https://advisory.splunk.com/advisories/SVD-2026-0704",
+    "https://advisory.splunk.com/advisories/SVD-2026-0703",
+    "https://advisory.splunk.com/advisories/SVD-2026-0702"
+  ]
+}

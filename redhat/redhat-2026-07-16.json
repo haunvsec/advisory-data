@@ -1,0 +1,410 @@
+{
+  "id": "redhat-2026-07-16",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-07-16",
+  "description": "Merged 16 redhat security advisories published on 2026-07-16. Original advisory IDs: RHSA-2026:41063, RHSA-2026:41062, RHSA-2026:41042, RHSA-2026:41041, RHSA-2026:41043, RHSA-2026:41044, RHBA-2026:41013, RHSA-2026:40895, RHSA-2026:40894, RHSA-2026:40841, RHSA-2026:40856, RHSA-2026:40831, RHSA-2026:40833, RHSA-2026:40751, RHSA-2026:40760, RHSA-2026:40425\n\nTitles:\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: pacemaker security update\n- Red Hat Bug Fix Advisory: kernel security update\n- Red Hat Security Advisory: jackson-annotations, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base security update\n- Red Hat Security Advisory: hplip security update\n- Red Hat Security Advisory: maven:3.8 security update\n- Red Hat Security Advisory: python3.14 security update\n- Red Hat Security Advisory: gimp security update\n- Red Hat Security Advisory: kernel update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-825",
+    "CWE-476",
+    "CWE-362",
+    "CWE-190",
+    "CWE-502",
+    "CWE-184",
+    "CWE-22",
+    "CWE-835",
+    "CWE-193",
+    "CWE-354",
+    "CWE-911",
+    "CWE-125",
+    "CWE-459",
+    "CWE-1341"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-16",
+  "modified_date": "2026-07-23",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
+    "redhat:Red Hat Enterprise Linux Real Time EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux High Availability EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux Resilient Storage EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux High Availability EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux High Availability E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Resilient Storage E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux High Availability E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Resilient Storage E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux High Availability (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux Real Time EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV EUS (v.9.6)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-43499"
+        },
+        {
+          "id": "CVE-2026-53166"
+        },
+        {
+          "id": "CVE-2026-64600"
+        },
+        {
+          "id": "CVE-2026-10649"
+        },
+        {
+          "id": "CVE-2026-54512"
+        },
+        {
+          "id": "CVE-2026-54513"
+        },
+        {
+          "id": "CVE-2026-14544"
+        },
+        {
+          "id": "CVE-2025-67030"
+        },
+        {
+          "id": "CVE-2026-15308"
+        },
+        {
+          "id": "CVE-2026-58380"
+        },
+        {
+          "id": "CVE-2026-58384"
+        },
+        {
+          "id": "CVE-2025-68183"
+        },
+        {
+          "id": "CVE-2026-31408"
+        },
+        {
+          "id": "CVE-2026-31613"
+        },
+        {
+          "id": "CVE-2026-43027"
+        },
+        {
+          "id": "CVE-2026-46189"
+        },
+        {
+          "id": "CVE-2026-46209"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-67030",
+      "source": "redhat",
+      "title": "org.codehaus.plexus:plexus-utils: Plexus-utils: Directory Traversal in extractFile method",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-67030"
+      ]
+    },
+    {
+      "id": "CVE-2025-68183",
+      "source": "redhat",
+      "title": "kernel: ima: don't clear IMA_DIGSIG flag when setting or removing non-IMA xattr",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68183"
+      ]
+    },
+    {
+      "id": "CVE-2026-10649",
+      "source": "redhat",
+      "title": "pacemaker: Pacemaker: Denial of Service via integer overflow in remote message decompression",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-10649"
+      ]
+    },
+    {
+      "id": "CVE-2026-14544",
+      "source": "redhat",
+      "title": "HPLIP: Incomplete Fix for CVE-2026-8631",
+      "description": "",
+      "severity": null,
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-14544"
+      ]
+    },
+    {
+      "id": "CVE-2026-15308",
+      "source": "redhat",
+      "title": "python: Python: CPU Denial of Service in HTML parser via repeated unterminated markup declarations",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-15308"
+      ]
+    },
+    {
+      "id": "CVE-2026-31408",
+      "source": "redhat",
+      "title": "kernel: Bluetooth: SCO: Fix use-after-free in sco_recv_frame() due to missing sock_hold",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31408"
+      ]
+    },
+    {
+      "id": "CVE-2026-31613",
+      "source": "redhat",
+      "title": "kernel: smb: client: fix OOB reads parsing symlink error response",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31613"
+      ]
+    },
+    {
+      "id": "CVE-2026-43027",
+      "source": "redhat",
+      "title": "kernel: netfilter: nf_conntrack_helper: pass helper to expect cleanup",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43027"
+      ]
+    },
+    {
+      "id": "CVE-2026-43499",
+      "source": "redhat",
+      "title": "kernel: rtmutex: Use waiter::task instead of current in remove_waiter()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43499"
+      ]
+    },
+    {
+      "id": "CVE-2026-46189",
+      "source": "redhat",
+      "title": "kernel: RDMA/vmw_pvrdma: Fix double free on pvrdma_alloc_ucontext() error path",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46189"
+      ]
+    },
+    {
+      "id": "CVE-2026-46209",
+      "source": "redhat",
+      "title": "kernel: drm/gem: Fix inconsistent plane dimension calculation in drm_gem_fb_init_with_funcs()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46209"
+      ]
+    },
+    {
+      "id": "CVE-2026-53166",
+      "source": "redhat",
+      "title": "kernel: futex/requeue: Prevent NULL pointer dereference in remove_waiter() on self-deadlock",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53166"
+      ]
+    },
+    {
+      "id": "CVE-2026-54512",
+      "source": "redhat",
+      "title": "jackson-databind: jackson-databind: Arbitrary code execution via PolymorphicTypeValidator bypass",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-54512"
+      ]
+    },
+    {
+      "id": "CVE-2026-54513",
+      "source": "redhat",
+      "title": "jackson-databind: Jackson-databind: Security bypass allows arbitrary code execution",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-54513"
+      ]
+    },
+    {
+      "id": "CVE-2026-58380",
+      "source": "redhat",
+      "title": "gimp: gimp: Stack buffer overflow in pnmscanner_gettoken()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-58380"
+      ]
+    },
+    {
+      "id": "CVE-2026-58384",
+      "source": "redhat",
+      "title": "gimp: gimp: Integer overflow in read_RLE_channel()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-58384"
+      ]
+    },
+    {
+      "id": "CVE-2026-64600",
+      "source": "redhat",
+      "title": "kernel: XFS data corruption using reflink",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64600"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:41063",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:41063",
+    "https://access.redhat.com/errata/RHSA-2026:41062",
+    "https://access.redhat.com/errata/RHSA-2026:41042",
+    "https://access.redhat.com/errata/RHSA-2026:41041",
+    "https://access.redhat.com/errata/RHSA-2026:41043",
+    "https://access.redhat.com/errata/RHSA-2026:41044",
+    "https://access.redhat.com/errata/RHBA-2026:41013",
+    "https://access.redhat.com/errata/RHSA-2026:40895",
+    "https://access.redhat.com/errata/RHSA-2026:40894",
+    "https://access.redhat.com/errata/RHSA-2026:40841",
+    "https://access.redhat.com/errata/RHSA-2026:40856",
+    "https://access.redhat.com/errata/RHSA-2026:40831",
+    "https://access.redhat.com/errata/RHSA-2026:40833",
+    "https://access.redhat.com/errata/RHSA-2026:40751",
+    "https://access.redhat.com/errata/RHSA-2026:40760",
+    "https://access.redhat.com/errata/RHSA-2026:40425"
+  ]
+}

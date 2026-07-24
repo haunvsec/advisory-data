@@ -1,0 +1,62 @@
+{
+  "id": "2026-058-aws",
+  "source": "aws",
+  "title": "CVE-2026-15737 - Sensitive content disclosure via OpenTelemetry spans in AgentCore Python SDK",
+  "description": "CVE-2026-15737 - Sensitive content disclosure via OpenTelemetry spans in AgentCore Python SDK\nBulletin ID:\n2026-058-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n07/16/2026 10:00 AM PDT\nDescription:\nBedrock AgentCore Python SDK (bedrock-agentcore) is an open-source Python library that provides client tools for building AI agents on the Amazon Bedrock AgentCore platform. We identified\nCVE-2026-15737\nin the OpenTelemetry instrumentation of the SDK. Affected versions wrote raw user prompts and complete agent responses into OpenTelemetry span attributes on every invocation without filtering or masking. These spans flow into the customer's aws/spans CloudWatch log group, where a local authenticated user with CloudWatch Logs read access could access the potentially sensitive content.\nImpacted versions:\n1.4.8, 1.5.0\nResolution:\nThis issue has been addressed in\nBedrock AgentCore Python SDK version 1.5.1\nor later. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes. Users who ran affected versions should also review and purge sensitive content from their aws/spans CloudWatch log groups.\nWorkarounds:\nNo workarounds are available. Upgrade Bedrock AgentCore Python SDK to version 1.5.1 or later.\nReferences:\nCVE-2026-15737\nGHSA-hqf8-7w95-9r33\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-16",
+  "modified_date": "",
+  "affected": [
+    "aws:Bedrock AgentCore Python SDK (bedrock-agentcore) is an open-source Python library that provides client tools for building AI agents on the Amazon Bedrock AgentCore platform. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-15737"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-15737",
+      "source": "aws",
+      "title": "CVE-2026-15737",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-16",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-058-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-058-aws/"
+  ]
+}

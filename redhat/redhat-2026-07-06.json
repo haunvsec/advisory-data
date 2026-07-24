@@ -57,7 +57,7 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-07-06",
-  "modified_date": "2026-07-14",
+  "modified_date": "2026-07-23",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
@@ -302,6 +302,9 @@
           "id": "CVE-2026-53362"
         },
         {
+          "id": "CVE-2026-53366"
+        },
+        {
           "id": "CVE-2026-41316"
         },
         {
@@ -321,6 +324,9 @@
         },
         {
           "id": "CVE-2026-33811"
+        },
+        {
+          "id": "CVE-2026-25681"
         }
       ]
     }
@@ -495,6 +501,21 @@
       ]
     },
     {
+      "id": "CVE-2026-25681",
+      "source": "redhat",
+      "title": "golang.org/x/net/html: golang.org/x/net/html: Arbitrary code execution via Cross-Site Scripting",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "published_date": "2026-07-06",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-25681"
+      ]
+    },
+    {
       "id": "CVE-2026-27145",
       "source": "redhat",
       "title": "crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries",
@@ -632,7 +653,7 @@
     {
       "id": "CVE-2026-39821",
       "source": "redhat",
-      "title": "golang.org/x/net/idna: golang: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing",
+      "title": "golang.org/x/net/idna: golang: net/http: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing",
       "description": "",
       "severity": null,
       "cvss_score": 8.2,
@@ -1257,6 +1278,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-53362"
+      ]
+    },
+    {
+      "id": "CVE-2026-53366",
+      "source": "redhat",
+      "title": "kernel: ipv4: account for fraggap on the paged allocation path",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-06",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53366"
       ]
     },
     {

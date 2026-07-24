@@ -1,0 +1,488 @@
+{
+  "id": "redhat-2026-07-17",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-07-17",
+  "description": "Merged 5 redhat security advisories published on 2026-07-17. Original advisory IDs: RHBA-2026:41254, RHSA-2026:41235, RHSA-2026:41236, RHSA-2026:41234, RHSA-2026:41229\n\nTitles:\n- Red Hat Bug Fix Advisory: kernel  update\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update\n- Red Hat Security Advisory: kernel-rt security update",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-362",
+    "CWE-1285",
+    "CWE-825",
+    "CWE-763",
+    "CWE-476",
+    "CWE-131",
+    "CWE-125",
+    "CWE-366",
+    "CWE-805",
+    "CWE-1287",
+    "CWE-843",
+    "CWE-130",
+    "CWE-617",
+    "CWE-821",
+    "CWE-364",
+    "CWE-416"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-17",
+  "modified_date": "2026-07-23",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux for Real Time (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS TUS (v.8.8)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-64600"
+        },
+        {
+          "id": "CVE-2026-31684"
+        },
+        {
+          "id": "CVE-2026-43499"
+        },
+        {
+          "id": "CVE-2026-46116"
+        },
+        {
+          "id": "CVE-2026-53166"
+        },
+        {
+          "id": "CVE-2026-23243"
+        },
+        {
+          "id": "CVE-2026-23455"
+        },
+        {
+          "id": "CVE-2026-31532"
+        },
+        {
+          "id": "CVE-2026-31607"
+        },
+        {
+          "id": "CVE-2026-31685"
+        },
+        {
+          "id": "CVE-2026-43037"
+        },
+        {
+          "id": "CVE-2026-43110"
+        },
+        {
+          "id": "CVE-2026-43125"
+        },
+        {
+          "id": "CVE-2026-43158"
+        },
+        {
+          "id": "CVE-2026-43163"
+        },
+        {
+          "id": "CVE-2026-43190"
+        },
+        {
+          "id": "CVE-2026-43198"
+        },
+        {
+          "id": "CVE-2026-45852"
+        },
+        {
+          "id": "CVE-2026-46090"
+        },
+        {
+          "id": "CVE-2026-46181"
+        },
+        {
+          "id": "CVE-2026-46243"
+        },
+        {
+          "id": "CVE-2026-46113"
+        },
+        {
+          "id": "CVE-2026-53359"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-23243",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: Denial of service and memory corruption in RDMA umad",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23243"
+      ]
+    },
+    {
+      "id": "CVE-2026-23455",
+      "source": "redhat",
+      "title": "kernel: netfilter: nf_conntrack_h323: check for zero length in DecodeQ931()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23455"
+      ]
+    },
+    {
+      "id": "CVE-2026-31532",
+      "source": "redhat",
+      "title": "kernel: can: raw: fix ro->uniq use-after-free in raw_rcv()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31532"
+      ]
+    },
+    {
+      "id": "CVE-2026-31607",
+      "source": "redhat",
+      "title": "kernel: usbip: validate number_of_packets in usbip_pack_ret_submit()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31607"
+      ]
+    },
+    {
+      "id": "CVE-2026-31684",
+      "source": "redhat",
+      "title": "kernel: net: sched: act_csum: validate nested VLAN headers",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31684"
+      ]
+    },
+    {
+      "id": "CVE-2026-31685",
+      "source": "redhat",
+      "title": "kernel: netfilter: ip6t_eui64: reject invalid MAC header for all packets",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31685"
+      ]
+    },
+    {
+      "id": "CVE-2026-43037",
+      "source": "redhat",
+      "title": "kernel: ip6_tunnel: clear skb2->cb[] in ip4ip6_err()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43037"
+      ]
+    },
+    {
+      "id": "CVE-2026-43110",
+      "source": "redhat",
+      "title": "kernel: wifi: brcmfmac: validate bsscfg indices in IF events",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43110"
+      ]
+    },
+    {
+      "id": "CVE-2026-43125",
+      "source": "redhat",
+      "title": "kernel: dlm: validate length in dlm_search_rsb_tree",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43125"
+      ]
+    },
+    {
+      "id": "CVE-2026-43158",
+      "source": "redhat",
+      "title": "kernel: xfs: fix freemap adjustments when adding xattrs to leaf blocks",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43158"
+      ]
+    },
+    {
+      "id": "CVE-2026-43163",
+      "source": "redhat",
+      "title": "kernel: md/bitmap: fix GPF in write_page caused by resize race",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 4.7,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43163"
+      ]
+    },
+    {
+      "id": "CVE-2026-43190",
+      "source": "redhat",
+      "title": "kernel: netfilter: xt_tcpmss: check remaining length before reading optlen",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43190"
+      ]
+    },
+    {
+      "id": "CVE-2026-43198",
+      "source": "redhat",
+      "title": "kernel: tcp: fix potential race in tcp_v6_syn_recv_sock()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43198"
+      ]
+    },
+    {
+      "id": "CVE-2026-43499",
+      "source": "redhat",
+      "title": "kernel: rtmutex: Use waiter::task instead of current in remove_waiter()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43499"
+      ]
+    },
+    {
+      "id": "CVE-2026-45852",
+      "source": "redhat",
+      "title": "kernel: RDMA/rxe: Fix double free in rxe_srq_from_init",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-45852"
+      ]
+    },
+    {
+      "id": "CVE-2026-46090",
+      "source": "redhat",
+      "title": "kernel: ALSA: aloop: Fix peer runtime UAF during format-change stop",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46090"
+      ]
+    },
+    {
+      "id": "CVE-2026-46113",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Fix shadow paging use-after-free due to unexpected GFN",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46113"
+      ]
+    },
+    {
+      "id": "CVE-2026-46116",
+      "source": "redhat",
+      "title": "kernel: xfrm: defensively unhash xfrm_state lists in __xfrm_state_delete",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46116"
+      ]
+    },
+    {
+      "id": "CVE-2026-46181",
+      "source": "redhat",
+      "title": "kernel: RDMA/mlx4: Fix mis-use of RCU in mlx4_srq_event()",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46181"
+      ]
+    },
+    {
+      "id": "CVE-2026-46243",
+      "source": "redhat",
+      "title": "kernel: Linux kernel: smb: client: reject userspace cifs.spnego descriptions",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46243"
+      ]
+    },
+    {
+      "id": "CVE-2026-53166",
+      "source": "redhat",
+      "title": "kernel: futex/requeue: Prevent NULL pointer dereference in remove_waiter() on self-deadlock",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53166"
+      ]
+    },
+    {
+      "id": "CVE-2026-53359",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Fix shadow paging use-after-free due to unexpected role",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53359"
+      ]
+    },
+    {
+      "id": "CVE-2026-64600",
+      "source": "redhat",
+      "title": "kernel: XFS data corruption using reflink",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-17",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64600"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHBA-2026:41254",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHBA-2026:41254",
+    "https://access.redhat.com/errata/RHSA-2026:41235",
+    "https://access.redhat.com/errata/RHSA-2026:41236",
+    "https://access.redhat.com/errata/RHSA-2026:41234",
+    "https://access.redhat.com/errata/RHSA-2026:41229"
+  ]
+}

@@ -47,7 +47,7 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-07-13",
-  "modified_date": "2026-07-14",
+  "modified_date": "2026-07-23",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
@@ -259,6 +259,9 @@
           "id": "CVE-2026-9698"
         },
         {
+          "id": "CVE-2026-10879"
+        },
+        {
           "id": "CVE-2026-42055"
         },
         {
@@ -362,6 +365,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2025-68183"
+      ]
+    },
+    {
+      "id": "CVE-2026-10879",
+      "source": "redhat",
+      "title": "perl-DBI: perl-DBI: Heap overflow in SQL preparsing can lead to denial of service or arbitrary code execution.",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.7,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+      "published_date": "2026-07-13",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-10879"
       ]
     },
     {
@@ -937,7 +955,7 @@
     {
       "id": "CVE-2026-39821",
       "source": "redhat",
-      "title": "golang.org/x/net/idna: golang: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing",
+      "title": "golang.org/x/net/idna: golang: net/http: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing",
       "description": "",
       "severity": null,
       "cvss_score": 8.2,

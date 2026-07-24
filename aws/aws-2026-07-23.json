@@ -1,0 +1,98 @@
+{
+  "id": "aws-2026-07-23",
+  "source": "aws",
+  "title": "Aws Security Advisories - 2026-07-23",
+  "description": "Merged 3 aws security advisories published on 2026-07-23. Original advisory IDs: 2026-064-aws, 2026-065-aws, 2026-063-aws\n\nTitles:\n- CVE-2026-16756 - Allocation of resources without limits in the default aws-smithy-http-server serve() path allows unauthenticated Slowloris denial of service\n- CVE-2026-16796 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()\n- CVE-2026-16584 - AWS API MCP Server Security Policy Bypass via Startup Failure",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-23",
+  "modified_date": "2026-07-23",
+  "affected": [
+    "aws:Smithy-RS is a Rust code generation and runtime framework that generates HTTP clients and servers from Smithy interface definitions, powering the AWS SDK for Rust and custom service implementations. We identified",
+    "aws:The AWS Bedrock AgentCore Python SDK (bedrock-agentcore) provides tools for building AI agents, including a Code Interpreter client that installs Python packages into a managed sandbox. We identified",
+    "aws:The AWS API MCP Server (awslabs.aws-api-mcp-server) is an open-source MCP server that lets AI assistants execute AWS CLI commands against a user's AWS account. It includes an optional, user-configured security policy that can deny or gate specific AWS operations. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-16756"
+        },
+        {
+          "id": "CVE-2026-16584"
+        },
+        {
+          "id": "CVE-2026-16796"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-16584",
+      "source": "aws",
+      "title": "CVE-2026-16584",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-16756",
+      "source": "aws",
+      "title": "CVE-2026-16756",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-16796",
+      "source": "aws",
+      "title": "CVE-2026-16796",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-064-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-064-aws/",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-065-aws/",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-063-aws/"
+  ]
+}

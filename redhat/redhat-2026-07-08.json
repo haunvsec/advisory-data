@@ -21,6 +21,16 @@
     "CWE-170",
     "CWE-126",
     "CWE-409",
+    "CWE-1289",
+    "CWE-20",
+    "CWE-295",
+    "CWE-444",
+    "CWE-601",
+    "CWE-15",
+    "CWE-303",
+    "CWE-184",
+    "CWE-838",
+    "CWE-538",
     "CWE-1341",
     "CWE-121",
     "CWE-416",
@@ -40,7 +50,7 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-07-08",
-  "modified_date": "2026-07-14",
+  "modified_date": "2026-07-23",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
@@ -129,6 +139,39 @@
         },
         {
           "id": "CVE-2026-49975"
+        },
+        {
+          "id": "CVE-2025-66614"
+        },
+        {
+          "id": "CVE-2026-24733"
+        },
+        {
+          "id": "CVE-2026-24734"
+        },
+        {
+          "id": "CVE-2026-24880"
+        },
+        {
+          "id": "CVE-2026-25854"
+        },
+        {
+          "id": "CVE-2026-29129"
+        },
+        {
+          "id": "CVE-2026-29145"
+        },
+        {
+          "id": "CVE-2026-32990"
+        },
+        {
+          "id": "CVE-2026-34483"
+        },
+        {
+          "id": "CVE-2026-34487"
+        },
+        {
+          "id": "CVE-2026-34500"
         },
         {
           "id": "CVE-2026-33811"
@@ -348,6 +391,21 @@
       ]
     },
     {
+      "id": "CVE-2025-66614",
+      "source": "redhat",
+      "title": "tomcat: Client certificate verification bypass due to virtual host mapping",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-66614"
+      ]
+    },
+    {
       "id": "CVE-2025-68183",
       "source": "redhat",
       "title": "kernel: ima: don't clear IMA_DIGSIG flag when setting or removing non-IMA xattr",
@@ -423,6 +481,66 @@
       ]
     },
     {
+      "id": "CVE-2026-24733",
+      "source": "redhat",
+      "title": "tomcat: security constraint bypass with HTTP/0.9",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-24733"
+      ]
+    },
+    {
+      "id": "CVE-2026-24734",
+      "source": "redhat",
+      "title": "tomcat: Apache Tomcat: Certificate revocation bypass due to improper OCSP response validation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-24734"
+      ]
+    },
+    {
+      "id": "CVE-2026-24880",
+      "source": "redhat",
+      "title": "Apache Tomcat: Apache Tomcat: HTTP Request/Response Smuggling via invalid chunk extension",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-24880"
+      ]
+    },
+    {
+      "id": "CVE-2026-25854",
+      "source": "redhat",
+      "title": "Apache Tomcat: Apache Tomcat: Open Redirect vulnerability via LoadBalancerDrainingValve",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-25854"
+      ]
+    },
+    {
       "id": "CVE-2026-28780",
       "source": "redhat",
       "title": "Apache HTTP Server: mod_proxy_ajp: Apache HTTP Server mod_proxy_ajp: Arbitrary code execution via heap-based buffer overflow",
@@ -435,6 +553,36 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-28780"
+      ]
+    },
+    {
+      "id": "CVE-2026-29129",
+      "source": "redhat",
+      "title": "Apache Tomcat: Apache Tomcat: Configured cipher preference order not preserved",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-29129"
+      ]
+    },
+    {
+      "id": "CVE-2026-29145",
+      "source": "redhat",
+      "title": "Apache Tomcat: Apache Tomcat: Authentication bypass due to CLIENT_CERT soft fail misconfiguration",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-29145"
       ]
     },
     {
@@ -495,6 +643,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-31419"
+      ]
+    },
+    {
+      "id": "CVE-2026-32990",
+      "source": "redhat",
+      "title": "Apache Tomcat: Apache Tomcat: Improper Input Validation vulnerability due to incomplete fix",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32990"
       ]
     },
     {
@@ -573,6 +736,21 @@
       ]
     },
     {
+      "id": "CVE-2026-34483",
+      "source": "redhat",
+      "title": "Apache Tomcat: Apache Tomcat: Information disclosure due to improper encoding in JsonAccessLogValve",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34483"
+      ]
+    },
+    {
       "id": "CVE-2026-34486",
       "source": "redhat",
       "title": "Apache Tomcat: Apache Tomcat: Missing Encryption of Sensitive Data due to EncryptInterceptor bypass",
@@ -585,6 +763,36 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-34486"
+      ]
+    },
+    {
+      "id": "CVE-2026-34487",
+      "source": "redhat",
+      "title": "Apache Tomcat: Apache Tomcat: Information disclosure via sensitive data in log files",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34487"
+      ]
+    },
+    {
+      "id": "CVE-2026-34500",
+      "source": "redhat",
+      "title": "Apache Tomcat: Apache Tomcat: Authentication bypass via client certificate misconfiguration",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-07-08",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34500"
       ]
     },
     {

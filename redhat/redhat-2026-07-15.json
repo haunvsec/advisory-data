@@ -1,0 +1,1246 @@
+{
+  "id": "redhat-2026-07-15",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-07-15",
+  "description": "Merged 16 redhat security advisories published on 2026-07-15. Original advisory IDs: RHSA-2026:40082, RHSA-2026:40068, RHSA-2026:39976, RHSA-2026:39983, RHSA-2026:39984, RHSA-2026:39893, RHSA-2026:39879, RHSA-2026:39878, RHSA-2026:39868, RHSA-2026:39798, RHSA-2026:39771, RHSA-2026:39706, RHSA-2026:39576, RHSA-2026:39575, RHSA-2026:39573, RHSA-2026:39553\n\nTitles:\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: hplip security update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: python3.12 security update\n- Red Hat Security Advisory: rhc security update\n- Red Hat Security Advisory: perl-XML-LibXML security update\n- Red Hat Security Advisory: nodejs:24 security, bug fix, and enhancement update\n- Red Hat Security Advisory: python3.9 security, bug fix, and enhancement update\n- Red Hat Security Advisory: thunderbird security update\n- Red Hat Security Advisory: cifs-utils security, bug fix, and enhancement update\n- Red Hat Security Advisory: yggdrasil security update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-459",
+    "CWE-825",
+    "CWE-416",
+    "CWE-476",
+    "CWE-354",
+    "CWE-125",
+    "CWE-1285",
+    "CWE-1341",
+    "CWE-190",
+    "CWE-362",
+    "CWE-835",
+    "CWE-606",
+    "CWE-1289",
+    "CWE-940",
+    "CWE-1286",
+    "CWE-295",
+    "CWE-770",
+    "CWE-79",
+    "CWE-209",
+    "CWE-289",
+    "CWE-170",
+    "CWE-279",
+    "CWE-266",
+    "CWE-823",
+    "CWE-787",
+    "CWE-653",
+    "CWE-403",
+    "CWE-843",
+    "CWE-733",
+    "CWE-346",
+    "CWE-243",
+    "CWE-807",
+    "CWE-131",
+    "CWE-250"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-15",
+  "modified_date": "2026-07-23",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
+    "redhat:Red Hat Enterprise Linux CRB (v. 8)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-43027"
+        },
+        {
+          "id": "CVE-2026-43499"
+        },
+        {
+          "id": "CVE-2026-46113"
+        },
+        {
+          "id": "CVE-2026-53166"
+        },
+        {
+          "id": "CVE-2026-53359"
+        },
+        {
+          "id": "CVE-2025-68183"
+        },
+        {
+          "id": "CVE-2026-31613"
+        },
+        {
+          "id": "CVE-2026-31684"
+        },
+        {
+          "id": "CVE-2026-46135"
+        },
+        {
+          "id": "CVE-2026-46189"
+        },
+        {
+          "id": "CVE-2026-46209"
+        },
+        {
+          "id": "CVE-2026-14544"
+        },
+        {
+          "id": "CVE-2026-64600"
+        },
+        {
+          "id": "CVE-2026-15308"
+        },
+        {
+          "id": "CVE-2026-27145"
+        },
+        {
+          "id": "CVE-2026-39821"
+        },
+        {
+          "id": "CVE-2026-8177"
+        },
+        {
+          "id": "CVE-2026-6733"
+        },
+        {
+          "id": "CVE-2026-6734"
+        },
+        {
+          "id": "CVE-2026-9678"
+        },
+        {
+          "id": "CVE-2026-9697"
+        },
+        {
+          "id": "CVE-2026-11525"
+        },
+        {
+          "id": "CVE-2026-12151"
+        },
+        {
+          "id": "CVE-2026-42338"
+        },
+        {
+          "id": "CVE-2026-48615"
+        },
+        {
+          "id": "CVE-2026-48618"
+        },
+        {
+          "id": "CVE-2026-48619"
+        },
+        {
+          "id": "CVE-2026-48928"
+        },
+        {
+          "id": "CVE-2026-48930"
+        },
+        {
+          "id": "CVE-2026-48933"
+        },
+        {
+          "id": "CVE-2026-48934"
+        },
+        {
+          "id": "CVE-2026-48935"
+        },
+        {
+          "id": "CVE-2026-12289"
+        },
+        {
+          "id": "CVE-2026-12290"
+        },
+        {
+          "id": "CVE-2026-12291"
+        },
+        {
+          "id": "CVE-2026-12292"
+        },
+        {
+          "id": "CVE-2026-12294"
+        },
+        {
+          "id": "CVE-2026-12295"
+        },
+        {
+          "id": "CVE-2026-12296"
+        },
+        {
+          "id": "CVE-2026-12297"
+        },
+        {
+          "id": "CVE-2026-12298"
+        },
+        {
+          "id": "CVE-2026-12299"
+        },
+        {
+          "id": "CVE-2026-12302"
+        },
+        {
+          "id": "CVE-2026-12304"
+        },
+        {
+          "id": "CVE-2026-12305"
+        },
+        {
+          "id": "CVE-2026-12306"
+        },
+        {
+          "id": "CVE-2026-12307"
+        },
+        {
+          "id": "CVE-2026-12308"
+        },
+        {
+          "id": "CVE-2026-12309"
+        },
+        {
+          "id": "CVE-2026-12310"
+        },
+        {
+          "id": "CVE-2026-12311"
+        },
+        {
+          "id": "CVE-2026-12312"
+        },
+        {
+          "id": "CVE-2026-12313"
+        },
+        {
+          "id": "CVE-2026-12314"
+        },
+        {
+          "id": "CVE-2026-12315"
+        },
+        {
+          "id": "CVE-2026-12324"
+        },
+        {
+          "id": "CVE-2026-12325"
+        },
+        {
+          "id": "CVE-2026-12327"
+        },
+        {
+          "id": "CVE-2026-12328"
+        },
+        {
+          "id": "CVE-2026-12329"
+        },
+        {
+          "id": "CVE-2026-12330"
+        },
+        {
+          "id": "CVE-2026-12505"
+        },
+        {
+          "id": "CVE-2026-33811"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-68183",
+      "source": "redhat",
+      "title": "kernel: ima: don't clear IMA_DIGSIG flag when setting or removing non-IMA xattr",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68183"
+      ]
+    },
+    {
+      "id": "CVE-2026-11525",
+      "source": "redhat",
+      "title": "undici: undici: Weakening of cookie SameSite policy due to incorrect parsing of Set-Cookie header",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.7,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-11525"
+      ]
+    },
+    {
+      "id": "CVE-2026-12151",
+      "source": "redhat",
+      "title": "undici: undici: Denial of Service due to unbounded memory growth via WebSocket frames",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12151"
+      ]
+    },
+    {
+      "id": "CVE-2026-12289",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Privilege escalation in the Graphics: WebRender component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12289"
+      ]
+    },
+    {
+      "id": "CVE-2026-12290",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12290"
+      ]
+    },
+    {
+      "id": "CVE-2026-12291",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Use-after-free in the Networking: HTTP component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12291"
+      ]
+    },
+    {
+      "id": "CVE-2026-12292",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the Web Audio component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12292"
+      ]
+    },
+    {
+      "id": "CVE-2026-12294",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Sandbox escape in the DOM: Workers component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12294"
+      ]
+    },
+    {
+      "id": "CVE-2026-12295",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Sandbox escape in the DOM: Navigation component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12295"
+      ]
+    },
+    {
+      "id": "CVE-2026-12296",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Sandbox escape in the Security: Process Sandboxing component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12296"
+      ]
+    },
+    {
+      "id": "CVE-2026-12297",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Sandbox escape due to incorrect boundary conditions in the Networking component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12297"
+      ]
+    },
+    {
+      "id": "CVE-2026-12298",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Firefox ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12298"
+      ]
+    },
+    {
+      "id": "CVE-2026-12299",
+      "source": "redhat",
+      "title": "firefox: thunderbird: JIT miscompilation in the DOM: Core & HTML component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12299"
+      ]
+    },
+    {
+      "id": "CVE-2026-12302",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Mitigation bypass in the DOM: Security component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12302"
+      ]
+    },
+    {
+      "id": "CVE-2026-12304",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Same-origin policy bypass in the Networking: Cookies component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12304"
+      ]
+    },
+    {
+      "id": "CVE-2026-12305",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12305"
+      ]
+    },
+    {
+      "id": "CVE-2026-12306",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12306"
+      ]
+    },
+    {
+      "id": "CVE-2026-12307",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12307"
+      ]
+    },
+    {
+      "id": "CVE-2026-12308",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12308"
+      ]
+    },
+    {
+      "id": "CVE-2026-12309",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12309"
+      ]
+    },
+    {
+      "id": "CVE-2026-12310",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12310"
+      ]
+    },
+    {
+      "id": "CVE-2026-12311",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Information disclosure, sandbox escape in the Security: Process Sandboxing component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12311"
+      ]
+    },
+    {
+      "id": "CVE-2026-12312",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12312"
+      ]
+    },
+    {
+      "id": "CVE-2026-12313",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Information disclosure, sandbox escape in the Security: Process Sandboxing component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12313"
+      ]
+    },
+    {
+      "id": "CVE-2026-12314",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12314"
+      ]
+    },
+    {
+      "id": "CVE-2026-12315",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Mitigation bypass in the DOM: Security component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12315"
+      ]
+    },
+    {
+      "id": "CVE-2026-12324",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the Graphics: CanvasWebGL component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12324"
+      ]
+    },
+    {
+      "id": "CVE-2026-12325",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Denial-of-service in the Graphics: ImageLib component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12325"
+      ]
+    },
+    {
+      "id": "CVE-2026-12327",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bugs fixed in Firefox ESR 140.12, Thunderbird ESR 140.12, Firefox 152 and Thunderbird 152",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12327"
+      ]
+    },
+    {
+      "id": "CVE-2026-12328",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bugs fixed in Firefox ESR 115.37, Firefox ESR 140.12, Thunderbird ESR 140.12, Firefox 152 and Thunderbird 152",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12328"
+      ]
+    },
+    {
+      "id": "CVE-2026-12329",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12329"
+      ]
+    },
+    {
+      "id": "CVE-2026-12330",
+      "source": "redhat",
+      "title": "firefox: thunderbird: Incorrect boundary conditions in the Internationalization component",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12330"
+      ]
+    },
+    {
+      "id": "CVE-2026-12505",
+      "source": "redhat",
+      "title": "cifs-utils: local privilege escalation via forged cifs.spnego key description in cifs.upcall",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12505"
+      ]
+    },
+    {
+      "id": "CVE-2026-14544",
+      "source": "redhat",
+      "title": "HPLIP: Incomplete Fix for CVE-2026-8631",
+      "description": "",
+      "severity": null,
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-14544"
+      ]
+    },
+    {
+      "id": "CVE-2026-15308",
+      "source": "redhat",
+      "title": "python: Python: CPU Denial of Service in HTML parser via repeated unterminated markup declarations",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-15308"
+      ]
+    },
+    {
+      "id": "CVE-2026-27145",
+      "source": "redhat",
+      "title": "crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27145"
+      ]
+    },
+    {
+      "id": "CVE-2026-31613",
+      "source": "redhat",
+      "title": "kernel: smb: client: fix OOB reads parsing symlink error response",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31613"
+      ]
+    },
+    {
+      "id": "CVE-2026-31684",
+      "source": "redhat",
+      "title": "kernel: net: sched: act_csum: validate nested VLAN headers",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31684"
+      ]
+    },
+    {
+      "id": "CVE-2026-33811",
+      "source": "redhat",
+      "title": "net: golang: Go net package: Denial of Service via long CNAME response in LookupCNAME",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33811"
+      ]
+    },
+    {
+      "id": "CVE-2026-39821",
+      "source": "redhat",
+      "title": "golang.org/x/net/idna: golang: net/http: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-39821"
+      ]
+    },
+    {
+      "id": "CVE-2026-42338",
+      "source": "redhat",
+      "title": "ip-address: ip-address: Cross-site scripting via improper HTML escaping of untrusted input",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-42338"
+      ]
+    },
+    {
+      "id": "CVE-2026-43027",
+      "source": "redhat",
+      "title": "kernel: netfilter: nf_conntrack_helper: pass helper to expect cleanup",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43027"
+      ]
+    },
+    {
+      "id": "CVE-2026-43499",
+      "source": "redhat",
+      "title": "kernel: rtmutex: Use waiter::task instead of current in remove_waiter()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43499"
+      ]
+    },
+    {
+      "id": "CVE-2026-46113",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Fix shadow paging use-after-free due to unexpected GFN",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46113"
+      ]
+    },
+    {
+      "id": "CVE-2026-46135",
+      "source": "redhat",
+      "title": "kernel: nvmet-tcp: fix race between ICReq handling and queue teardown",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46135"
+      ]
+    },
+    {
+      "id": "CVE-2026-46189",
+      "source": "redhat",
+      "title": "kernel: RDMA/vmw_pvrdma: Fix double free on pvrdma_alloc_ucontext() error path",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46189"
+      ]
+    },
+    {
+      "id": "CVE-2026-46209",
+      "source": "redhat",
+      "title": "kernel: drm/gem: Fix inconsistent plane dimension calculation in drm_gem_fb_init_with_funcs()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46209"
+      ]
+    },
+    {
+      "id": "CVE-2026-48615",
+      "source": "redhat",
+      "title": "nodejs: Node.js: Information disclosure of proxy credentials via proxy tunnel error handling",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48615"
+      ]
+    },
+    {
+      "id": "CVE-2026-48618",
+      "source": "redhat",
+      "title": "nodejs: Node.js: Authentication bypass due to TLS hostname handling and unicode dot separator mismatch",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.7,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48618"
+      ]
+    },
+    {
+      "id": "CVE-2026-48619",
+      "source": "redhat",
+      "title": "nodejs: Node.js: Denial of Service via unlimited HTTP/2 ORIGIN frames",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48619"
+      ]
+    },
+    {
+      "id": "CVE-2026-48928",
+      "source": "redhat",
+      "title": "Node.js: Node.js: Trust-policy bypass due to hostname matching inconsistency",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48928"
+      ]
+    },
+    {
+      "id": "CVE-2026-48930",
+      "source": "redhat",
+      "title": "nodejs: Node.js: Silent authority rebinding due to embedded-nul hostnames in TLS handling",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48930"
+      ]
+    },
+    {
+      "id": "CVE-2026-48933",
+      "source": "redhat",
+      "title": "nodejs: Node.js WebCrypto: Denial of Service via large input to subtle.encrypt()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48933"
+      ]
+    },
+    {
+      "id": "CVE-2026-48934",
+      "source": "redhat",
+      "title": "nodejs: Node.js: Certification validation bypass in TLS host verification",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48934"
+      ]
+    },
+    {
+      "id": "CVE-2026-48935",
+      "source": "redhat",
+      "title": "nodejs: Node.js: Unauthorized file metadata modification",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48935"
+      ]
+    },
+    {
+      "id": "CVE-2026-53166",
+      "source": "redhat",
+      "title": "kernel: futex/requeue: Prevent NULL pointer dereference in remove_waiter() on self-deadlock",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53166"
+      ]
+    },
+    {
+      "id": "CVE-2026-53359",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Fix shadow paging use-after-free due to unexpected role",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53359"
+      ]
+    },
+    {
+      "id": "CVE-2026-64600",
+      "source": "redhat",
+      "title": "kernel: XFS data corruption using reflink",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64600"
+      ]
+    },
+    {
+      "id": "CVE-2026-6733",
+      "source": "redhat",
+      "title": "undici: Undici: Response queue poisoning on reused keep-alive sockets can lead to incorrect response delivery.",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.7,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6733"
+      ]
+    },
+    {
+      "id": "CVE-2026-6734",
+      "source": "redhat",
+      "title": "undici: undici: Information disclosure and data integrity issues due to incorrect Socks5ProxyAgent connection routing",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6734"
+      ]
+    },
+    {
+      "id": "CVE-2026-8177",
+      "source": "redhat",
+      "title": "perl-XML-LibXML: XML::LibXML: Denial of Service via truncated UTF-8 in XML node names",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8177"
+      ]
+    },
+    {
+      "id": "CVE-2026-9678",
+      "source": "redhat",
+      "title": "undici: Undici: Information disclosure due to improper cache-control header parsing",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-9678"
+      ]
+    },
+    {
+      "id": "CVE-2026-9697",
+      "source": "redhat",
+      "title": "undici: undici: Man-in-the-Middle attack via ignored TLS options with SOCKS5 proxy",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-07-15",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-9697"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:40082",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:40082",
+    "https://access.redhat.com/errata/RHSA-2026:40068",
+    "https://access.redhat.com/errata/RHSA-2026:39976",
+    "https://access.redhat.com/errata/RHSA-2026:39983",
+    "https://access.redhat.com/errata/RHSA-2026:39984",
+    "https://access.redhat.com/errata/RHSA-2026:39893",
+    "https://access.redhat.com/errata/RHSA-2026:39879",
+    "https://access.redhat.com/errata/RHSA-2026:39878",
+    "https://access.redhat.com/errata/RHSA-2026:39868",
+    "https://access.redhat.com/errata/RHSA-2026:39798",
+    "https://access.redhat.com/errata/RHSA-2026:39771",
+    "https://access.redhat.com/errata/RHSA-2026:39706",
+    "https://access.redhat.com/errata/RHSA-2026:39576",
+    "https://access.redhat.com/errata/RHSA-2026:39575",
+    "https://access.redhat.com/errata/RHSA-2026:39573",
+    "https://access.redhat.com/errata/RHSA-2026:39553"
+  ]
+}

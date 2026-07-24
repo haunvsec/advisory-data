@@ -2,7 +2,7 @@
   "id": "cisco-2026-04-01",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-04-01",
-  "description": "Merged 7 cisco security advisories published on 2026-04-01. Original advisory IDs: cisco-sa-cimc-xss-A2tkgVAB, cisco-sa-cimc-cmd-inj-3hKN3bVt, cisco-sa-ssm-cli-execution-cHUcWuNr, cisco-sa-nd-ssrf-NAen4O7r, cisco-sa-cimc-auth-bypass-AgG2BxTn, cisco-sa-cssm-priv-esc-xRAnOuO8, cisco-sa-epnm-improp-auth-mUwFWUU3\n\nTitles:\n- Cisco Integrated Management Controller Cross-Site Scripting Vulnerabilities\n- Cisco Integrated Management Controller Command Injection and Remote Code Execution Vulnerabilities\n- Cisco Smart Software Manager On-Prem Arbitrary Command Execution Vulnerability\n- Cisco Nexus Dashboard and Nexus Dashboard Insights Server-Side Request Forgery Vulnerability\n- Cisco Integrated Management Controller Authentication Bypass Vulnerability\n- Cisco Smart Software Manager On-Prem Privilege Escalation Vulnerability\n- Cisco Evolved Programmable Network Manager Improper Authorization Vulnerability",
+  "description": "Merged 5 cisco security advisories published on 2026-04-01. Original advisory IDs: cisco-sa-cimc-xss-A2tkgVAB, cisco-sa-cimc-cmd-inj-3hKN3bVt, cisco-sa-ssm-cli-execution-cHUcWuNr, cisco-sa-cssm-priv-esc-xRAnOuO8, cisco-sa-epnm-improp-auth-mUwFWUU3\n\nTitles:\n- Cisco Integrated Management Controller Cross-Site Scripting Vulnerabilities\n- Cisco Integrated Management Controller Command Injection and Remote Code Execution Vulnerabilities\n- Cisco Smart Software Manager On-Prem Arbitrary Command Execution Vulnerability\n- Cisco Smart Software Manager On-Prem Privilege Escalation Vulnerability\n- Cisco Evolved Programmable Network Manager Improper Authorization Vulnerability",
   "severity": "critical",
   "cvss_scores": [
     {
@@ -59,8 +59,6 @@
     "cisco:cisco-sa-cimc-xss-A2tkgVAB",
     "cisco:cisco-sa-cimc-cmd-inj-3hKN3bVt",
     "cisco:cisco-sa-ssm-cli-execution-cHUcWuNr",
-    "cisco:cisco-sa-nd-ssrf-NAen4O7r",
-    "cisco:cisco-sa-cimc-auth-bypass-AgG2BxTn",
     "cisco:cisco-sa-cssm-priv-esc-xRAnOuO8",
     "cisco:cisco-sa-epnm-improp-auth-mUwFWUU3"
   ],
@@ -97,9 +95,6 @@
         },
         {
           "id": "CVE-2026-20096"
-        },
-        {
-          "id": "CVE-2026-20093"
         }
       ]
     },
@@ -138,9 +133,6 @@
         },
         {
           "id": "CVE-2026-20096"
-        },
-        {
-          "id": "CVE-2026-20093"
         }
       ]
     },
@@ -182,9 +174,6 @@
         },
         {
           "id": "CVE-2026-20097"
-        },
-        {
-          "id": "CVE-2026-20093"
         }
       ]
     },
@@ -210,23 +199,6 @@
     },
     {
       "vendor": "cisco",
-      "product": "Cisco Nexus Dashboard",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:nexus_dashboard:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-20041"
-        }
-      ]
-    },
-    {
-      "vendor": "cisco",
       "product": "Cisco Evolved Programmable Network Manager",
       "version_range": "",
       "fixed_version": "",
@@ -247,21 +219,6 @@
   "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-20041",
-      "source": "cisco",
-      "title": "Cisco Nexus Dashboard Server Side Request Forgery Vulnerability",
-      "description": "",
-      "severity": null,
-      "cvss_score": 6.1,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-      "published_date": "2026-04-01",
-      "modified_date": "2026-04-01",
-      "affected": [],
-      "references": [
-        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nd-ssrf-NAen4O7r"
-      ]
-    },
     {
       "id": "CVE-2026-20085",
       "source": "cisco",
@@ -335,21 +292,6 @@
       "affected": [],
       "references": [
         "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-A2tkgVAB"
-      ]
-    },
-    {
-      "id": "CVE-2026-20093",
-      "source": "cisco",
-      "title": "Cisco Integrated Management Controller Authentication Bypass Vulnerability",
-      "description": "",
-      "severity": null,
-      "cvss_score": 9.8,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "published_date": "2026-04-01",
-      "modified_date": "2026-04-01",
-      "affected": [],
-      "references": [
-        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-auth-bypass-AgG2BxTn"
       ]
     },
     {
@@ -466,8 +408,6 @@
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-A2tkgVAB",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-cmd-inj-3hKN3bVt",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ssm-cli-execution-cHUcWuNr",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nd-ssrf-NAen4O7r",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-auth-bypass-AgG2BxTn",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cssm-priv-esc-xRAnOuO8",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-epnm-improp-auth-mUwFWUU3"
   ]
