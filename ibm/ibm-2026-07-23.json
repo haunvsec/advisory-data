@@ -1,0 +1,2739 @@
+{
+  "id": "ibm-2026-07-23",
+  "source": "ibm",
+  "title": "Ibm Security Advisories - 2026-07-23",
+  "description": "Merged 9 ibm security advisories published on 2026-07-23. Original advisory IDs: IBM-7280918, IBM-7280896, IBM-7280916, IBM-7280967, IBM-7280949, IBM-7280950, IBM-7281062, IBM-7280907, IBM-7280519\n\nTitles:\n- Multiple vulnerabilities found in CICS Transaction Gateway Desktop Edition.\n- IBM App Connect Enterprise is vulnerable to multiple vulnerabilities due to multiple Node.js modules\n- Investigation Assistant App for IBM QRadar SIEM is vulnerable to using components with known vulnerabilities\n- A vulnerability has been identified in IBM WebSphere Application Server used by IBM Rational ClearQuest (CVE-2026-9311, CVE-2026-9330)\n- The Network Threat Analytics App for IBM QRadar SIEM is vulnerable to using components with known vulnerabilities\n- IBM QRadar SIEM is vulnerable to using components with known vulnerabilities\n- IBM SPSS Analytic Server is affected by multiple vulnerabilities in IBM WebSphere Application Server Liberty\n- Security Vulnerability in Spring-Security affects IBM Sterling B2B Integrator and IBM Sterling File Gateway (CVE-2026-22732)\n- Due to the use of WebSphere Application Server Liberty, IBM Tivoli Application Dependency Discovery Manager is affected by multiple vulnerabilities",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-23",
+  "modified_date": "2026-07-24",
+  "affected": [
+    "ibm:CICS Transaction Gateway Desktop Edition",
+    "ibm:IBM App Connect Enterprise",
+    "ibm:IBM QRadar Investigation Assistant App",
+    "ibm:IBM Rational ClearQuest",
+    "ibm:IBM Security QRadar Network Threat Analytics",
+    "ibm:IBM Security QRadar SIEM",
+    "ibm:IBM SPSS Analytic Server",
+    "ibm:IBM Sterling B2B Integrator",
+    "ibm:Tivoli Application Dependency Discovery Manager"
+  ],
+  "affected_products": [
+    {
+      "vendor": "ibm",
+      "product": "CICS Transaction Gateway Desktop Edition",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:cics_transaction_gateway_desktop_edition:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-14917"
+        },
+        {
+          "id": "CVE-2026-11541"
+        },
+        {
+          "id": "CVE-2026-54512"
+        },
+        {
+          "id": "CVE-2026-54513"
+        },
+        {
+          "id": "CVE-2026-54514"
+        },
+        {
+          "id": "CVE-2026-54515"
+        },
+        {
+          "id": "CVE-2026-54516"
+        },
+        {
+          "id": "CVE-2026-54517"
+        },
+        {
+          "id": "CVE-2026-54518"
+        },
+        {
+          "id": "CVE-2026-59888"
+        },
+        {
+          "id": "CVE-2026-59889"
+        },
+        {
+          "id": "CVE-2026-8646"
+        },
+        {
+          "id": "CVE-2026-9071"
+        },
+        {
+          "id": "CVE-2026-9320"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM App Connect Enterprise",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_app_connect_enterprise:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-12143"
+        },
+        {
+          "id": "CVE-2026-5038"
+        },
+        {
+          "id": "CVE-2026-5079"
+        },
+        {
+          "id": "CVE-2026-53655"
+        },
+        {
+          "id": "CVE-2026-54269"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM QRadar Investigation Assistant App",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_qradar_investigation_assistant_app:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-23336"
+        },
+        {
+          "id": "CVE-2024-3651"
+        },
+        {
+          "id": "CVE-2026-12143"
+        },
+        {
+          "id": "CVE-2026-33244"
+        },
+        {
+          "id": "CVE-2026-33245"
+        },
+        {
+          "id": "CVE-2026-34077"
+        },
+        {
+          "id": "CVE-2026-34993"
+        },
+        {
+          "id": "CVE-2026-40181"
+        },
+        {
+          "id": "CVE-2026-42211"
+        },
+        {
+          "id": "CVE-2026-42342"
+        },
+        {
+          "id": "CVE-2026-45409"
+        },
+        {
+          "id": "CVE-2026-47265"
+        },
+        {
+          "id": "CVE-2026-48155"
+        },
+        {
+          "id": "CVE-2026-48156"
+        },
+        {
+          "id": "CVE-2026-48522"
+        },
+        {
+          "id": "CVE-2026-48523"
+        },
+        {
+          "id": "CVE-2026-48524"
+        },
+        {
+          "id": "CVE-2026-48525"
+        },
+        {
+          "id": "CVE-2026-48710"
+        },
+        {
+          "id": "CVE-2026-48735"
+        },
+        {
+          "id": "CVE-2026-48988"
+        },
+        {
+          "id": "CVE-2026-48990"
+        },
+        {
+          "id": "CVE-2026-53537"
+        },
+        {
+          "id": "CVE-2026-53538"
+        },
+        {
+          "id": "CVE-2026-53539"
+        },
+        {
+          "id": "CVE-2026-53540"
+        },
+        {
+          "id": "CVE-2026-54273"
+        },
+        {
+          "id": "CVE-2026-54274"
+        },
+        {
+          "id": "CVE-2026-54275"
+        },
+        {
+          "id": "CVE-2026-54276"
+        },
+        {
+          "id": "CVE-2026-54277"
+        },
+        {
+          "id": "CVE-2026-54278"
+        },
+        {
+          "id": "CVE-2026-54279"
+        },
+        {
+          "id": "CVE-2026-54280"
+        },
+        {
+          "id": "CVE-2026-54282"
+        },
+        {
+          "id": "CVE-2026-54283"
+        },
+        {
+          "id": "CVE-2026-54530"
+        },
+        {
+          "id": "CVE-2026-54531"
+        },
+        {
+          "id": "CVE-2026-54651"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Rational ClearQuest",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_rational_clearquest:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-9311"
+        },
+        {
+          "id": "CVE-2026-9330"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Security QRadar Network Threat Analytics",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_security_qradar_network_threat_analytics:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-23337"
+        },
+        {
+          "id": "CVE-2022-24999"
+        },
+        {
+          "id": "CVE-2022-34749"
+        },
+        {
+          "id": "CVE-2022-3517"
+        },
+        {
+          "id": "CVE-2022-46175"
+        },
+        {
+          "id": "CVE-2023-28155"
+        },
+        {
+          "id": "CVE-2024-22195"
+        },
+        {
+          "id": "CVE-2024-29041"
+        },
+        {
+          "id": "CVE-2024-34064"
+        },
+        {
+          "id": "CVE-2024-43796"
+        },
+        {
+          "id": "CVE-2024-43799"
+        },
+        {
+          "id": "CVE-2024-43800"
+        },
+        {
+          "id": "CVE-2024-45296"
+        },
+        {
+          "id": "CVE-2024-47764"
+        },
+        {
+          "id": "CVE-2024-52798"
+        },
+        {
+          "id": "CVE-2024-5569"
+        },
+        {
+          "id": "CVE-2024-56201"
+        },
+        {
+          "id": "CVE-2024-56326"
+        },
+        {
+          "id": "CVE-2024-6345"
+        },
+        {
+          "id": "CVE-2025-13465"
+        },
+        {
+          "id": "CVE-2025-15284"
+        },
+        {
+          "id": "CVE-2025-27516"
+        },
+        {
+          "id": "CVE-2025-47273"
+        },
+        {
+          "id": "CVE-2025-69873"
+        },
+        {
+          "id": "CVE-2025-71176"
+        },
+        {
+          "id": "CVE-2026-0540"
+        },
+        {
+          "id": "CVE-2026-2391"
+        },
+        {
+          "id": "CVE-2026-25645"
+        },
+        {
+          "id": "CVE-2026-26996"
+        },
+        {
+          "id": "CVE-2026-27903"
+        },
+        {
+          "id": "CVE-2026-27904"
+        },
+        {
+          "id": "CVE-2026-27980"
+        },
+        {
+          "id": "CVE-2026-29057"
+        },
+        {
+          "id": "CVE-2026-2950"
+        },
+        {
+          "id": "CVE-2026-41305"
+        },
+        {
+          "id": "CVE-2026-44708"
+        },
+        {
+          "id": "CVE-2026-44896"
+        },
+        {
+          "id": "CVE-2026-44897"
+        },
+        {
+          "id": "CVE-2026-4800"
+        },
+        {
+          "id": "CVE-2026-4867"
+        },
+        {
+          "id": "CVE-2026-49851"
+        },
+        {
+          "id": "CVE-2026-7246"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Security QRadar SIEM",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_security_qradar_siem:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-47154"
+        },
+        {
+          "id": "CVE-2025-12183"
+        },
+        {
+          "id": "CVE-2025-14813"
+        },
+        {
+          "id": "CVE-2025-66168"
+        },
+        {
+          "id": "CVE-2025-66566"
+        },
+        {
+          "id": "CVE-2025-68161"
+        },
+        {
+          "id": "CVE-2026-0636"
+        },
+        {
+          "id": "CVE-2026-2004"
+        },
+        {
+          "id": "CVE-2026-2005"
+        },
+        {
+          "id": "CVE-2026-2006"
+        },
+        {
+          "id": "CVE-2026-24880"
+        },
+        {
+          "id": "CVE-2026-25854"
+        },
+        {
+          "id": "CVE-2026-27727"
+        },
+        {
+          "id": "CVE-2026-27830"
+        },
+        {
+          "id": "CVE-2026-29145"
+        },
+        {
+          "id": "CVE-2026-29146"
+        },
+        {
+          "id": "CVE-2026-33227"
+        },
+        {
+          "id": "CVE-2026-34197"
+        },
+        {
+          "id": "CVE-2026-34483"
+        },
+        {
+          "id": "CVE-2026-34487"
+        },
+        {
+          "id": "CVE-2026-34500"
+        },
+        {
+          "id": "CVE-2026-35554"
+        },
+        {
+          "id": "CVE-2026-39304"
+        },
+        {
+          "id": "CVE-2026-40046"
+        },
+        {
+          "id": "CVE-2026-40198"
+        },
+        {
+          "id": "CVE-2026-40199"
+        },
+        {
+          "id": "CVE-2026-5598"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM SPSS Analytic Server",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_spss_analytic_server:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11541"
+        },
+        {
+          "id": "CVE-2026-11806"
+        },
+        {
+          "id": "CVE-2026-8646"
+        },
+        {
+          "id": "CVE-2026-9071"
+        },
+        {
+          "id": "CVE-2026-9320"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Sterling B2B Integrator",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_sterling_b2b_integrator:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-22732"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "Tivoli Application Dependency Discovery Manager",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:tivoli_application_dependency_discovery_manager:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-10852"
+        },
+        {
+          "id": "CVE-2026-11541"
+        },
+        {
+          "id": "CVE-2026-8646"
+        },
+        {
+          "id": "CVE-2026-8858"
+        },
+        {
+          "id": "CVE-2026-9071"
+        },
+        {
+          "id": "CVE-2026-9072"
+        },
+        {
+          "id": "CVE-2026-9320"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2021-23336",
+      "source": "ibm",
+      "title": "CVE-2021-23336",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2021-23337",
+      "source": "ibm",
+      "title": "CVE-2021-23337",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2021-47154",
+      "source": "ibm",
+      "title": "CVE-2021-47154",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2022-24999",
+      "source": "ibm",
+      "title": "CVE-2022-24999",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2022-34749",
+      "source": "ibm",
+      "title": "CVE-2022-34749",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2022-3517",
+      "source": "ibm",
+      "title": "CVE-2022-3517",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2022-46175",
+      "source": "ibm",
+      "title": "CVE-2022-46175",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2023-28155",
+      "source": "ibm",
+      "title": "CVE-2023-28155",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-22195",
+      "source": "ibm",
+      "title": "CVE-2024-22195",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-29041",
+      "source": "ibm",
+      "title": "CVE-2024-29041",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-34064",
+      "source": "ibm",
+      "title": "CVE-2024-34064",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-3651",
+      "source": "ibm",
+      "title": "CVE-2024-3651",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2024-43796",
+      "source": "ibm",
+      "title": "CVE-2024-43796",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-43799",
+      "source": "ibm",
+      "title": "CVE-2024-43799",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-43800",
+      "source": "ibm",
+      "title": "CVE-2024-43800",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-45296",
+      "source": "ibm",
+      "title": "CVE-2024-45296",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-47764",
+      "source": "ibm",
+      "title": "CVE-2024-47764",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-52798",
+      "source": "ibm",
+      "title": "CVE-2024-52798",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-5569",
+      "source": "ibm",
+      "title": "CVE-2024-5569",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-56201",
+      "source": "ibm",
+      "title": "CVE-2024-56201",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-56326",
+      "source": "ibm",
+      "title": "CVE-2024-56326",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2024-6345",
+      "source": "ibm",
+      "title": "CVE-2024-6345",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2025-12183",
+      "source": "ibm",
+      "title": "CVE-2025-12183",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2025-13465",
+      "source": "ibm",
+      "title": "CVE-2025-13465",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2025-14813",
+      "source": "ibm",
+      "title": "CVE-2025-14813",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2025-14917",
+      "source": "ibm",
+      "title": "CVE-2025-14917",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918"
+      ]
+    },
+    {
+      "id": "CVE-2025-15284",
+      "source": "ibm",
+      "title": "CVE-2025-15284",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2025-27516",
+      "source": "ibm",
+      "title": "CVE-2025-27516",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2025-47273",
+      "source": "ibm",
+      "title": "CVE-2025-47273",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2025-66168",
+      "source": "ibm",
+      "title": "CVE-2025-66168",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2025-66566",
+      "source": "ibm",
+      "title": "CVE-2025-66566",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2025-68161",
+      "source": "ibm",
+      "title": "CVE-2025-68161",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2025-69873",
+      "source": "ibm",
+      "title": "CVE-2025-69873",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2025-71176",
+      "source": "ibm",
+      "title": "CVE-2025-71176",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-0540",
+      "source": "ibm",
+      "title": "CVE-2026-0540",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-0636",
+      "source": "ibm",
+      "title": "CVE-2026-0636",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-10852",
+      "source": "ibm",
+      "title": "CVE-2026-10852",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280519"
+      ]
+    },
+    {
+      "id": "CVE-2026-11541",
+      "source": "ibm",
+      "title": "CVE-2026-11541",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918",
+        "https://www.ibm.com/support/pages/node/7281062",
+        "https://www.ibm.com/support/pages/node/7280519"
+      ]
+    },
+    {
+      "id": "CVE-2026-11806",
+      "source": "ibm",
+      "title": "CVE-2026-11806",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-24",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281062"
+      ]
+    },
+    {
+      "id": "CVE-2026-12143",
+      "source": "ibm",
+      "title": "CVE-2026-12143",
+      "description": "node-tar is a full-featured Tar for Node.js. Prior to 7.5.16, tar (node-tar) applies a PAX extended header's size= record (and other PAX overrides) to the next header entry of any type, including intermediary metadata headers such as a GNU long-name (L) or long-link (K) entry. Per POSIX pax, a PAX extended header (x) describes the next file entry, not the intermediary extension headers that may sit between the x header and the file it annotates. Because node-tar lets the PAX size override the byte length of an intervening L or K or x header, an attacker can desynchronize node-tar's stream cursor relative to every other mainstream tar implementation (GNU tar, libarchive or bsdtar, Python tarfile, and the now-fixed tar-rs or astral-tokio-tar). The result is a tar parser interpretation differential (CWE-436): a single crafted archive yields a different set of members under node-tar than under the reference tar tools. An attacker can use this to hide a member from one parser while it is visible to another, which defeats security tooling whose scanner and extractor disagree on archive contents (e.g. a malware or secret scanner that lists entries with one library while a downstream step extracts with another) This vulnerability is fixed in 7.5.16",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53655",
+        "https://www.ibm.com/support/pages/node/7280896",
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-2004",
+      "source": "ibm",
+      "title": "CVE-2026-2004",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-2005",
+      "source": "ibm",
+      "title": "CVE-2026-2005",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-2006",
+      "source": "ibm",
+      "title": "CVE-2026-2006",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-22732",
+      "source": "ibm",
+      "title": "CVE-2026-22732",
+      "description": "When applications specify HTTP response headers for servlet applications using Spring Security, there is the possibility that the HTTP Headers will not be written. This issue affects Spring Security Servlet applications using lazy (default) writing of HTTP Headers: : from 5.7.0 through 5.7.21, from 5.8.0 through 5.8.23, from 6.3.0 through 6.3.14, from 6.4.0 through 6.4.14, from 6.5.0 through 6.5.8, from 7.0.0 through 7.0.3",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-22732",
+        "https://www.ibm.com/support/pages/node/7280907"
+      ]
+    },
+    {
+      "id": "CVE-2026-2391",
+      "source": "ibm",
+      "title": "CVE-2026-2391",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-24880",
+      "source": "ibm",
+      "title": "CVE-2026-24880",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-25645",
+      "source": "ibm",
+      "title": "CVE-2026-25645",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-25854",
+      "source": "ibm",
+      "title": "CVE-2026-25854",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-26996",
+      "source": "ibm",
+      "title": "CVE-2026-26996",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-27727",
+      "source": "ibm",
+      "title": "CVE-2026-27727",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-27830",
+      "source": "ibm",
+      "title": "CVE-2026-27830",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-27903",
+      "source": "ibm",
+      "title": "CVE-2026-27903",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-27904",
+      "source": "ibm",
+      "title": "CVE-2026-27904",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-27980",
+      "source": "ibm",
+      "title": "CVE-2026-27980",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-29057",
+      "source": "ibm",
+      "title": "CVE-2026-29057",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-29145",
+      "source": "ibm",
+      "title": "CVE-2026-29145",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-29146",
+      "source": "ibm",
+      "title": "CVE-2026-29146",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-2950",
+      "source": "ibm",
+      "title": "CVE-2026-2950",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-33227",
+      "source": "ibm",
+      "title": "CVE-2026-33227",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-33244",
+      "source": "ibm",
+      "title": "CVE-2026-33244",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-33245",
+      "source": "ibm",
+      "title": "CVE-2026-33245",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-34077",
+      "source": "ibm",
+      "title": "CVE-2026-34077",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-34197",
+      "source": "ibm",
+      "title": "CVE-2026-34197",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-34483",
+      "source": "ibm",
+      "title": "CVE-2026-34483",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-34487",
+      "source": "ibm",
+      "title": "CVE-2026-34487",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-34500",
+      "source": "ibm",
+      "title": "CVE-2026-34500",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-34993",
+      "source": "ibm",
+      "title": "CVE-2026-34993",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-35554",
+      "source": "ibm",
+      "title": "CVE-2026-35554",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-39304",
+      "source": "ibm",
+      "title": "CVE-2026-39304",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-40046",
+      "source": "ibm",
+      "title": "CVE-2026-40046",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-40181",
+      "source": "ibm",
+      "title": "CVE-2026-40181",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-40198",
+      "source": "ibm",
+      "title": "CVE-2026-40198",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-40199",
+      "source": "ibm",
+      "title": "CVE-2026-40199",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-41305",
+      "source": "ibm",
+      "title": "CVE-2026-41305",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-42211",
+      "source": "ibm",
+      "title": "CVE-2026-42211",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-42342",
+      "source": "ibm",
+      "title": "CVE-2026-42342",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-44708",
+      "source": "ibm",
+      "title": "CVE-2026-44708",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-44896",
+      "source": "ibm",
+      "title": "CVE-2026-44896",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-44897",
+      "source": "ibm",
+      "title": "CVE-2026-44897",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-45409",
+      "source": "ibm",
+      "title": "CVE-2026-45409",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-47265",
+      "source": "ibm",
+      "title": "CVE-2026-47265",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-4800",
+      "source": "ibm",
+      "title": "CVE-2026-4800",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-48155",
+      "source": "ibm",
+      "title": "CVE-2026-48155",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-48156",
+      "source": "ibm",
+      "title": "CVE-2026-48156",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-48522",
+      "source": "ibm",
+      "title": "CVE-2026-48522",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-48523",
+      "source": "ibm",
+      "title": "CVE-2026-48523",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-48524",
+      "source": "ibm",
+      "title": "CVE-2026-48524",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-48525",
+      "source": "ibm",
+      "title": "CVE-2026-48525",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-4867",
+      "source": "ibm",
+      "title": "CVE-2026-4867",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-48710",
+      "source": "ibm",
+      "title": "CVE-2026-48710",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-48735",
+      "source": "ibm",
+      "title": "CVE-2026-48735",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-48988",
+      "source": "ibm",
+      "title": "CVE-2026-48988",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-48990",
+      "source": "ibm",
+      "title": "CVE-2026-48990",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-49851",
+      "source": "ibm",
+      "title": "CVE-2026-49851",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-5038",
+      "source": "ibm",
+      "title": "CVE-2026-5038",
+      "description": "node-tar is a full-featured Tar for Node.js. Prior to 7.5.16, tar (node-tar) applies a PAX extended header's size= record (and other PAX overrides) to the next header entry of any type, including intermediary metadata headers such as a GNU long-name (L) or long-link (K) entry. Per POSIX pax, a PAX extended header (x) describes the next file entry, not the intermediary extension headers that may sit between the x header and the file it annotates. Because node-tar lets the PAX size override the byte length of an intervening L or K or x header, an attacker can desynchronize node-tar's stream cursor relative to every other mainstream tar implementation (GNU tar, libarchive or bsdtar, Python tarfile, and the now-fixed tar-rs or astral-tokio-tar). The result is a tar parser interpretation differential (CWE-436): a single crafted archive yields a different set of members under node-tar than under the reference tar tools. An attacker can use this to hide a member from one parser while it is visible to another, which defeats security tooling whose scanner and extractor disagree on archive contents (e.g. a malware or secret scanner that lists entries with one library while a downstream step extracts with another) This vulnerability is fixed in 7.5.16",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53655",
+        "https://www.ibm.com/support/pages/node/7280896"
+      ]
+    },
+    {
+      "id": "CVE-2026-5079",
+      "source": "ibm",
+      "title": "CVE-2026-5079",
+      "description": "node-tar is a full-featured Tar for Node.js. Prior to 7.5.16, tar (node-tar) applies a PAX extended header's size= record (and other PAX overrides) to the next header entry of any type, including intermediary metadata headers such as a GNU long-name (L) or long-link (K) entry. Per POSIX pax, a PAX extended header (x) describes the next file entry, not the intermediary extension headers that may sit between the x header and the file it annotates. Because node-tar lets the PAX size override the byte length of an intervening L or K or x header, an attacker can desynchronize node-tar's stream cursor relative to every other mainstream tar implementation (GNU tar, libarchive or bsdtar, Python tarfile, and the now-fixed tar-rs or astral-tokio-tar). The result is a tar parser interpretation differential (CWE-436): a single crafted archive yields a different set of members under node-tar than under the reference tar tools. An attacker can use this to hide a member from one parser while it is visible to another, which defeats security tooling whose scanner and extractor disagree on archive contents (e.g. a malware or secret scanner that lists entries with one library while a downstream step extracts with another) This vulnerability is fixed in 7.5.16",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53655",
+        "https://www.ibm.com/support/pages/node/7280896"
+      ]
+    },
+    {
+      "id": "CVE-2026-53537",
+      "source": "ibm",
+      "title": "CVE-2026-53537",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-53538",
+      "source": "ibm",
+      "title": "CVE-2026-53538",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-53539",
+      "source": "ibm",
+      "title": "CVE-2026-53539",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-53540",
+      "source": "ibm",
+      "title": "CVE-2026-53540",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-53655",
+      "source": "ibm",
+      "title": "CVE-2026-53655",
+      "description": "node-tar is a full-featured Tar for Node.js. Prior to 7.5.16, tar (node-tar) applies a PAX extended header's size= record (and other PAX overrides) to the next header entry of any type, including intermediary metadata headers such as a GNU long-name (L) or long-link (K) entry. Per POSIX pax, a PAX extended header (x) describes the next file entry, not the intermediary extension headers that may sit between the x header and the file it annotates. Because node-tar lets the PAX size override the byte length of an intervening L or K or x header, an attacker can desynchronize node-tar's stream cursor relative to every other mainstream tar implementation (GNU tar, libarchive or bsdtar, Python tarfile, and the now-fixed tar-rs or astral-tokio-tar). The result is a tar parser interpretation differential (CWE-436): a single crafted archive yields a different set of members under node-tar than under the reference tar tools. An attacker can use this to hide a member from one parser while it is visible to another, which defeats security tooling whose scanner and extractor disagree on archive contents (e.g. a malware or secret scanner that lists entries with one library while a downstream step extracts with another) This vulnerability is fixed in 7.5.16",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53655",
+        "https://www.ibm.com/support/pages/node/7280896"
+      ]
+    },
+    {
+      "id": "CVE-2026-54269",
+      "source": "ibm",
+      "title": "CVE-2026-54269",
+      "description": "node-tar is a full-featured Tar for Node.js. Prior to 7.5.16, tar (node-tar) applies a PAX extended header's size= record (and other PAX overrides) to the next header entry of any type, including intermediary metadata headers such as a GNU long-name (L) or long-link (K) entry. Per POSIX pax, a PAX extended header (x) describes the next file entry, not the intermediary extension headers that may sit between the x header and the file it annotates. Because node-tar lets the PAX size override the byte length of an intervening L or K or x header, an attacker can desynchronize node-tar's stream cursor relative to every other mainstream tar implementation (GNU tar, libarchive or bsdtar, Python tarfile, and the now-fixed tar-rs or astral-tokio-tar). The result is a tar parser interpretation differential (CWE-436): a single crafted archive yields a different set of members under node-tar than under the reference tar tools. An attacker can use this to hide a member from one parser while it is visible to another, which defeats security tooling whose scanner and extractor disagree on archive contents (e.g. a malware or secret scanner that lists entries with one library while a downstream step extracts with another) This vulnerability is fixed in 7.5.16",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53655",
+        "https://www.ibm.com/support/pages/node/7280896"
+      ]
+    },
+    {
+      "id": "CVE-2026-54273",
+      "source": "ibm",
+      "title": "CVE-2026-54273",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54274",
+      "source": "ibm",
+      "title": "CVE-2026-54274",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54275",
+      "source": "ibm",
+      "title": "CVE-2026-54275",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54276",
+      "source": "ibm",
+      "title": "CVE-2026-54276",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54277",
+      "source": "ibm",
+      "title": "CVE-2026-54277",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54278",
+      "source": "ibm",
+      "title": "CVE-2026-54278",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54279",
+      "source": "ibm",
+      "title": "CVE-2026-54279",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54280",
+      "source": "ibm",
+      "title": "CVE-2026-54280",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54282",
+      "source": "ibm",
+      "title": "CVE-2026-54282",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54283",
+      "source": "ibm",
+      "title": "CVE-2026-54283",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54512",
+      "source": "ibm",
+      "title": "CVE-2026-54512",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918"
+      ]
+    },
+    {
+      "id": "CVE-2026-54513",
+      "source": "ibm",
+      "title": "CVE-2026-54513",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918"
+      ]
+    },
+    {
+      "id": "CVE-2026-54514",
+      "source": "ibm",
+      "title": "CVE-2026-54514",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918"
+      ]
+    },
+    {
+      "id": "CVE-2026-54515",
+      "source": "ibm",
+      "title": "CVE-2026-54515",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918"
+      ]
+    },
+    {
+      "id": "CVE-2026-54516",
+      "source": "ibm",
+      "title": "CVE-2026-54516",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918"
+      ]
+    },
+    {
+      "id": "CVE-2026-54517",
+      "source": "ibm",
+      "title": "CVE-2026-54517",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918"
+      ]
+    },
+    {
+      "id": "CVE-2026-54518",
+      "source": "ibm",
+      "title": "CVE-2026-54518",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918"
+      ]
+    },
+    {
+      "id": "CVE-2026-54530",
+      "source": "ibm",
+      "title": "CVE-2026-54530",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54531",
+      "source": "ibm",
+      "title": "CVE-2026-54531",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-54651",
+      "source": "ibm",
+      "title": "CVE-2026-54651",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7280916"
+      ]
+    },
+    {
+      "id": "CVE-2026-5598",
+      "source": "ibm",
+      "title": "CVE-2026-5598",
+      "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.80.2, from 1.81 before 1.81.1, from 1.82 before 1.84",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+        "https://www.ibm.com/support/pages/node/7280950"
+      ]
+    },
+    {
+      "id": "CVE-2026-59888",
+      "source": "ibm",
+      "title": "CVE-2026-59888",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918"
+      ]
+    },
+    {
+      "id": "CVE-2026-59889",
+      "source": "ibm",
+      "title": "CVE-2026-59889",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918"
+      ]
+    },
+    {
+      "id": "CVE-2026-7246",
+      "source": "ibm",
+      "title": "CVE-2026-7246",
+      "description": "Pallets Click, versions 8.3.2 and below, contain a command injection vulnerability in the click.edit() function, allowing attackers to pass arbitrary OS commands from an unprivileged account",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-7246",
+        "https://www.ibm.com/support/pages/node/7280949"
+      ]
+    },
+    {
+      "id": "CVE-2026-8646",
+      "source": "ibm",
+      "title": "CVE-2026-8646",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918",
+        "https://www.ibm.com/support/pages/node/7281062",
+        "https://www.ibm.com/support/pages/node/7280519"
+      ]
+    },
+    {
+      "id": "CVE-2026-8858",
+      "source": "ibm",
+      "title": "CVE-2026-8858",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280519"
+      ]
+    },
+    {
+      "id": "CVE-2026-9071",
+      "source": "ibm",
+      "title": "CVE-2026-9071",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918",
+        "https://www.ibm.com/support/pages/node/7281062",
+        "https://www.ibm.com/support/pages/node/7280519"
+      ]
+    },
+    {
+      "id": "CVE-2026-9072",
+      "source": "ibm",
+      "title": "CVE-2026-9072",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280519"
+      ]
+    },
+    {
+      "id": "CVE-2026-9311",
+      "source": "ibm",
+      "title": "CVE-2026-9311",
+      "description": "IBM WebSphere Application Server 9.0, and 8.5 is vulnerable to remote code execution caused by the bypass of security controls",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-9311",
+        "https://www.ibm.com/support/pages/node/7280967"
+      ]
+    },
+    {
+      "id": "CVE-2026-9320",
+      "source": "ibm",
+      "title": "CVE-2026-9320",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280918",
+        "https://www.ibm.com/support/pages/node/7281062",
+        "https://www.ibm.com/support/pages/node/7280519"
+      ]
+    },
+    {
+      "id": "CVE-2026-9330",
+      "source": "ibm",
+      "title": "CVE-2026-9330",
+      "description": "IBM WebSphere Application Server 9.0, and 8.5 is vulnerable to remote code execution caused by the bypass of security controls",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-23",
+      "modified_date": "2026-07-23",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-9311",
+        "https://www.ibm.com/support/pages/node/7280967"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.ibm.com/support/pages/node/7280918",
+  "vendor": "ibm",
+  "references": [
+    "https://www.ibm.com/support/pages/node/7280918",
+    "https://www.ibm.com/support/pages/bulletin/",
+    "https://www.ibm.com/support/pages/node/7280896",
+    "https://www.ibm.com/support/pages/node/7280916",
+    "https://www.ibm.com/support/pages/node/7280967",
+    "https://www.ibm.com/support/pages/node/7280949",
+    "https://www.ibm.com/support/pages/node/7280950",
+    "https://www.ibm.com/support/pages/node/7281062",
+    "https://www.ibm.com/support/pages/node/7280907",
+    "https://www.ibm.com/support/pages/node/7280519"
+  ]
+}

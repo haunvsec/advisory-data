@@ -1,0 +1,327 @@
+{
+  "id": "ibm-2026-07-15",
+  "source": "ibm",
+  "title": "Ibm Security Advisories - 2026-07-15",
+  "description": "Merged 4 ibm security advisories published on 2026-07-15. Original advisory IDs: IBM-7266709, IBM-7280089, IBM-7280117, IBM-7280113\n\nTitles:\n- IBM QRadar SIEM is vulnerable to information diclosures and cross-site scripting\n- IBM Sterling Secure Proxy is vulnerable to multiple issues\n- WebSphere Application Server traditional shipped with IBM Tivoli System Automation Application Manager is vulnerable to a server-side request forgery (SSRF) vulnerability (CVE-2026-9006)\n- IBM WebSphere Application Server shipped with IBM Tivoli System Automation Application Manager is vulnerable to a denial of service",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-15",
+  "modified_date": "2026-07-15",
+  "affected": [
+    "ibm:IBM Security QRadar SIEM",
+    "ibm:IBM Sterling Secure Proxy",
+    "ibm:Tivoli System Automation Application Manager"
+  ],
+  "affected_products": [
+    {
+      "vendor": "ibm",
+      "product": "IBM Security QRadar SIEM",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_security_qradar_siem:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-13995"
+        },
+        {
+          "id": "CVE-2025-15051"
+        },
+        {
+          "id": "CVE-2025-36051"
+        },
+        {
+          "id": "CVE-2026-1276"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Sterling Secure Proxy",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_sterling_secure_proxy:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-11143"
+        },
+        {
+          "id": "CVE-2026-2332"
+        },
+        {
+          "id": "CVE-2026-33227"
+        },
+        {
+          "id": "CVE-2026-39304"
+        },
+        {
+          "id": "CVE-2026-5795"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "Tivoli System Automation Application Manager",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:tivoli_system_automation_application_manager:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-9006"
+        },
+        {
+          "id": "CVE-2026-8646"
+        },
+        {
+          "id": "CVE-2026-9071"
+        },
+        {
+          "id": "CVE-2026-9320"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-11143",
+      "source": "ibm",
+      "title": "CVE-2025-11143",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7280089"
+      ]
+    },
+    {
+      "id": "CVE-2025-13995",
+      "source": "ibm",
+      "title": "CVE-2025-13995",
+      "description": "IBM QRadar SIEM 7.5.0 through 7.5.0 Update Package 14 is vulnerable to cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-1276",
+        "https://www.ibm.com/support/pages/node/7266709"
+      ]
+    },
+    {
+      "id": "CVE-2025-15051",
+      "source": "ibm",
+      "title": "CVE-2025-15051",
+      "description": "IBM QRadar SIEM 7.5.0 through 7.5.0 Update Package 14 is vulnerable to cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-1276",
+        "https://www.ibm.com/support/pages/node/7266709"
+      ]
+    },
+    {
+      "id": "CVE-2025-36051",
+      "source": "ibm",
+      "title": "CVE-2025-36051",
+      "description": "IBM QRadar SIEM 7.5.0 through 7.5.0 Update Package 14 is vulnerable to cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-1276",
+        "https://www.ibm.com/support/pages/node/7266709"
+      ]
+    },
+    {
+      "id": "CVE-2026-1276",
+      "source": "ibm",
+      "title": "CVE-2026-1276",
+      "description": "IBM QRadar SIEM 7.5.0 through 7.5.0 Update Package 14 is vulnerable to cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-1276",
+        "https://www.ibm.com/support/pages/node/7266709"
+      ]
+    },
+    {
+      "id": "CVE-2026-2332",
+      "source": "ibm",
+      "title": "CVE-2026-2332",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7280089"
+      ]
+    },
+    {
+      "id": "CVE-2026-33227",
+      "source": "ibm",
+      "title": "CVE-2026-33227",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7280089"
+      ]
+    },
+    {
+      "id": "CVE-2026-39304",
+      "source": "ibm",
+      "title": "CVE-2026-39304",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7280089"
+      ]
+    },
+    {
+      "id": "CVE-2026-5795",
+      "source": "ibm",
+      "title": "CVE-2026-5795",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7280089"
+      ]
+    },
+    {
+      "id": "CVE-2026-8646",
+      "source": "ibm",
+      "title": "CVE-2026-8646",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280113"
+      ]
+    },
+    {
+      "id": "CVE-2026-9006",
+      "source": "ibm",
+      "title": "CVE-2026-9006",
+      "description": "IBM WebSphere Application Server 9.0, and 8.5 is vulnerable to server-side request forgery (SSRF) with the Ajax Proxy configured. This may allow an attacker to send unauthorized requests from the system, resulting in a security bypass or information disclosure",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-9006",
+        "https://www.ibm.com/support/pages/node/7280117"
+      ]
+    },
+    {
+      "id": "CVE-2026-9071",
+      "source": "ibm",
+      "title": "CVE-2026-9071",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280113"
+      ]
+    },
+    {
+      "id": "CVE-2026-9320",
+      "source": "ibm",
+      "title": "CVE-2026-9320",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-15",
+      "modified_date": "2026-07-15",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7280113"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.ibm.com/support/pages/node/7266709",
+  "vendor": "ibm",
+  "references": [
+    "https://www.ibm.com/support/pages/node/7266709",
+    "https://www.ibm.com/support/pages/bulletin/",
+    "https://www.ibm.com/support/pages/node/7280089",
+    "https://www.ibm.com/support/pages/node/7280117",
+    "https://www.ibm.com/support/pages/node/7280113"
+  ]
+}

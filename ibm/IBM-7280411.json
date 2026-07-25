@@ -1,0 +1,1244 @@
+{
+  "id": "IBM-7280411",
+  "source": "ibm",
+  "title": "Multiple security vulnerabilities in IBM Process Automation Manager Open Edition Starter Kit for Banking",
+  "description": "In addition to many updates of operating system level packages, Multiple vulnerabilities were addressed in IBM Process Automation Manager Open Edition Starter Kit for Banking -9.4.2",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-17",
+  "modified_date": "2026-07-17",
+  "affected": [
+    "ibm:IBM Process Automation Manager Open Edition Starter Kit for Banking"
+  ],
+  "affected_products": [
+    {
+      "vendor": "ibm",
+      "product": "IBM Process Automation Manager Open Edition Starter Kit for Banking",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_process_automation_manager_open_edition_starter_kit_for_banking:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-44487"
+        },
+        {
+          "id": "CVE-2025-11965"
+        },
+        {
+          "id": "CVE-2025-11966"
+        },
+        {
+          "id": "CVE-2025-27817"
+        },
+        {
+          "id": "CVE-2025-27818"
+        },
+        {
+          "id": "CVE-2025-58056"
+        },
+        {
+          "id": "CVE-2025-58057"
+        },
+        {
+          "id": "CVE-2025-62718"
+        },
+        {
+          "id": "CVE-2025-67030"
+        },
+        {
+          "id": "CVE-2025-67735"
+        },
+        {
+          "id": "CVE-2026-1002"
+        },
+        {
+          "id": "CVE-2026-12143"
+        },
+        {
+          "id": "CVE-2026-13676"
+        },
+        {
+          "id": "CVE-2026-25639"
+        },
+        {
+          "id": "CVE-2026-33870"
+        },
+        {
+          "id": "CVE-2026-33871"
+        },
+        {
+          "id": "CVE-2026-39852"
+        },
+        {
+          "id": "CVE-2026-40175"
+        },
+        {
+          "id": "CVE-2026-40682"
+        },
+        {
+          "id": "CVE-2026-41115"
+        },
+        {
+          "id": "CVE-2026-41417"
+        },
+        {
+          "id": "CVE-2026-42027"
+        },
+        {
+          "id": "CVE-2026-42033"
+        },
+        {
+          "id": "CVE-2026-42034"
+        },
+        {
+          "id": "CVE-2026-42035"
+        },
+        {
+          "id": "CVE-2026-42036"
+        },
+        {
+          "id": "CVE-2026-42037"
+        },
+        {
+          "id": "CVE-2026-42038"
+        },
+        {
+          "id": "CVE-2026-42039"
+        },
+        {
+          "id": "CVE-2026-42040"
+        },
+        {
+          "id": "CVE-2026-42041"
+        },
+        {
+          "id": "CVE-2026-42042"
+        },
+        {
+          "id": "CVE-2026-42043"
+        },
+        {
+          "id": "CVE-2026-42044"
+        },
+        {
+          "id": "CVE-2026-42198"
+        },
+        {
+          "id": "CVE-2026-42264"
+        },
+        {
+          "id": "CVE-2026-42440"
+        },
+        {
+          "id": "CVE-2026-42578"
+        },
+        {
+          "id": "CVE-2026-42580"
+        },
+        {
+          "id": "CVE-2026-42581"
+        },
+        {
+          "id": "CVE-2026-42583"
+        },
+        {
+          "id": "CVE-2026-42584"
+        },
+        {
+          "id": "CVE-2026-42585"
+        },
+        {
+          "id": "CVE-2026-42587"
+        },
+        {
+          "id": "CVE-2026-44249"
+        },
+        {
+          "id": "CVE-2026-44893"
+        },
+        {
+          "id": "CVE-2026-45292"
+        },
+        {
+          "id": "CVE-2026-45416"
+        },
+        {
+          "id": "CVE-2026-45673"
+        },
+        {
+          "id": "CVE-2026-45674"
+        },
+        {
+          "id": "CVE-2026-47244"
+        },
+        {
+          "id": "CVE-2026-47691"
+        },
+        {
+          "id": "CVE-2026-48043"
+        },
+        {
+          "id": "CVE-2026-48059"
+        },
+        {
+          "id": "CVE-2026-50010"
+        },
+        {
+          "id": "CVE-2026-50020"
+        },
+        {
+          "id": "CVE-2026-50560"
+        },
+        {
+          "id": "CVE-2026-54286"
+        },
+        {
+          "id": "CVE-2026-54287"
+        },
+        {
+          "id": "CVE-2026-54288"
+        },
+        {
+          "id": "CVE-2026-54289"
+        },
+        {
+          "id": "CVE-2026-54290"
+        },
+        {
+          "id": "CVE-2026-6860"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2023-44487",
+      "source": "ibm",
+      "title": "CVE-2023-44487",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2025-11965",
+      "source": "ibm",
+      "title": "CVE-2025-11965",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2025-11966",
+      "source": "ibm",
+      "title": "CVE-2025-11966",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2025-27817",
+      "source": "ibm",
+      "title": "CVE-2025-27817",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2025-27818",
+      "source": "ibm",
+      "title": "CVE-2025-27818",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2025-58056",
+      "source": "ibm",
+      "title": "CVE-2025-58056",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2025-58057",
+      "source": "ibm",
+      "title": "CVE-2025-58057",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2025-62718",
+      "source": "ibm",
+      "title": "CVE-2025-62718",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2025-67030",
+      "source": "ibm",
+      "title": "CVE-2025-67030",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2025-67735",
+      "source": "ibm",
+      "title": "CVE-2025-67735",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-1002",
+      "source": "ibm",
+      "title": "CVE-2026-1002",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-12143",
+      "source": "ibm",
+      "title": "CVE-2026-12143",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-13676",
+      "source": "ibm",
+      "title": "CVE-2026-13676",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-25639",
+      "source": "ibm",
+      "title": "CVE-2026-25639",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-33870",
+      "source": "ibm",
+      "title": "CVE-2026-33870",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-33871",
+      "source": "ibm",
+      "title": "CVE-2026-33871",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-39852",
+      "source": "ibm",
+      "title": "CVE-2026-39852",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-40175",
+      "source": "ibm",
+      "title": "CVE-2026-40175",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-40682",
+      "source": "ibm",
+      "title": "CVE-2026-40682",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-41115",
+      "source": "ibm",
+      "title": "CVE-2026-41115",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-41417",
+      "source": "ibm",
+      "title": "CVE-2026-41417",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42027",
+      "source": "ibm",
+      "title": "CVE-2026-42027",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42033",
+      "source": "ibm",
+      "title": "CVE-2026-42033",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42034",
+      "source": "ibm",
+      "title": "CVE-2026-42034",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42035",
+      "source": "ibm",
+      "title": "CVE-2026-42035",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42036",
+      "source": "ibm",
+      "title": "CVE-2026-42036",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42037",
+      "source": "ibm",
+      "title": "CVE-2026-42037",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42038",
+      "source": "ibm",
+      "title": "CVE-2026-42038",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42039",
+      "source": "ibm",
+      "title": "CVE-2026-42039",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42040",
+      "source": "ibm",
+      "title": "CVE-2026-42040",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42041",
+      "source": "ibm",
+      "title": "CVE-2026-42041",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42042",
+      "source": "ibm",
+      "title": "CVE-2026-42042",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42043",
+      "source": "ibm",
+      "title": "CVE-2026-42043",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42044",
+      "source": "ibm",
+      "title": "CVE-2026-42044",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42198",
+      "source": "ibm",
+      "title": "CVE-2026-42198",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42264",
+      "source": "ibm",
+      "title": "CVE-2026-42264",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42440",
+      "source": "ibm",
+      "title": "CVE-2026-42440",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42578",
+      "source": "ibm",
+      "title": "CVE-2026-42578",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42580",
+      "source": "ibm",
+      "title": "CVE-2026-42580",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42581",
+      "source": "ibm",
+      "title": "CVE-2026-42581",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42583",
+      "source": "ibm",
+      "title": "CVE-2026-42583",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42584",
+      "source": "ibm",
+      "title": "CVE-2026-42584",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42585",
+      "source": "ibm",
+      "title": "CVE-2026-42585",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-42587",
+      "source": "ibm",
+      "title": "CVE-2026-42587",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-44249",
+      "source": "ibm",
+      "title": "CVE-2026-44249",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-44893",
+      "source": "ibm",
+      "title": "CVE-2026-44893",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-45292",
+      "source": "ibm",
+      "title": "CVE-2026-45292",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-45416",
+      "source": "ibm",
+      "title": "CVE-2026-45416",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-45673",
+      "source": "ibm",
+      "title": "CVE-2026-45673",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-45674",
+      "source": "ibm",
+      "title": "CVE-2026-45674",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-47244",
+      "source": "ibm",
+      "title": "CVE-2026-47244",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-47691",
+      "source": "ibm",
+      "title": "CVE-2026-47691",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-48043",
+      "source": "ibm",
+      "title": "CVE-2026-48043",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-48059",
+      "source": "ibm",
+      "title": "CVE-2026-48059",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-50010",
+      "source": "ibm",
+      "title": "CVE-2026-50010",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-50020",
+      "source": "ibm",
+      "title": "CVE-2026-50020",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-50560",
+      "source": "ibm",
+      "title": "CVE-2026-50560",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-54286",
+      "source": "ibm",
+      "title": "CVE-2026-54286",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-54287",
+      "source": "ibm",
+      "title": "CVE-2026-54287",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-54288",
+      "source": "ibm",
+      "title": "CVE-2026-54288",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-54289",
+      "source": "ibm",
+      "title": "CVE-2026-54289",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-54290",
+      "source": "ibm",
+      "title": "CVE-2026-54290",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    },
+    {
+      "id": "CVE-2026-6860",
+      "source": "ibm",
+      "title": "CVE-2026-6860",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-17",
+      "modified_date": "2026-07-17",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7280411"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.ibm.com/support/pages/node/7280411",
+  "vendor": "ibm",
+  "references": [
+    "https://www.ibm.com/support/pages/node/7280411",
+    "https://www.ibm.com/support/pages/bulletin/"
+  ]
+}

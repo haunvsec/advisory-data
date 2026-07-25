@@ -2,15 +2,9 @@
   "id": "cisco-2026-05-20",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-05-20",
-  "description": "Merged 4 cisco security advisories published on 2026-05-20. Original advisory IDs: cisco-sa-bgp-iefab-3hb2pwtx, cisco-sa-csw-pnbsa-g8WEnuy, cisco-sa-tevacert-rce-RMJVEym5, cisco-sa-tebbot-cmdinj-wN3yQ5gn\n\nTitles:\n- Cisco Nexus 3000 and 9000 Series Switches Border Gateway Protocol Denial of Service Vulnerability\n- Cisco Secure Workload Unauthorized API Access Vulnerability\n- Cisco ThousandEyes Virtual Appliance Authenticated Remote Code Execution Vulnerability\n- Cisco ThousandEyes Enterprise Agent BrowserBot Command Injection Vulnerability",
+  "description": "Merged 4 cisco security advisories published on 2026-05-20. Original advisory IDs: cisco-sa-csw-pnbsa-g8WEnuy, cisco-sa-bgp-iefab-3hb2pwtx, cisco-sa-tebbot-cmdinj-wN3yQ5gn, cisco-sa-tevacert-rce-RMJVEym5\n\nTitles:\n- Cisco Secure Workload Unauthorized API Access Vulnerability\n- Cisco Nexus 3000 and 9000 Series Switches Border Gateway Protocol Denial of Service Vulnerability\n- Cisco ThousandEyes Enterprise Agent BrowserBot Command Injection Vulnerability\n- Cisco ThousandEyes Virtual Appliance Authenticated Remote Code Execution Vulnerability",
   "severity": "critical",
   "cvss_scores": [
-    {
-      "version": "3.1",
-      "score": 6.8,
-      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
-      "severity": ""
-    },
     {
       "version": "3.1",
       "score": 10.0,
@@ -19,14 +13,20 @@
     },
     {
       "version": "3.1",
-      "score": 4.7,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+      "score": 6.8,
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
       "severity": ""
     },
     {
       "version": "3.1",
       "score": 6.3,
       "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "severity": ""
+    },
+    {
+      "version": "3.1",
+      "score": 4.7,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
       "severity": ""
     }
   ],
@@ -38,29 +38,12 @@
   "published_date": "2026-05-20",
   "modified_date": "2026-05-20",
   "affected": [
-    "cisco:cisco-sa-bgp-iefab-3hb2pwtx",
     "cisco:cisco-sa-csw-pnbsa-g8WEnuy",
-    "cisco:cisco-sa-tevacert-rce-RMJVEym5",
-    "cisco:cisco-sa-tebbot-cmdinj-wN3yQ5gn"
+    "cisco:cisco-sa-bgp-iefab-3hb2pwtx",
+    "cisco:cisco-sa-tebbot-cmdinj-wN3yQ5gn",
+    "cisco:cisco-sa-tevacert-rce-RMJVEym5"
   ],
   "affected_products": [
-    {
-      "vendor": "cisco",
-      "product": "Cisco NX-OS",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:nx-os:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-20171"
-        }
-      ]
-    },
     {
       "vendor": "cisco",
       "product": "Cisco Secure Workload",
@@ -80,6 +63,23 @@
     },
     {
       "vendor": "cisco",
+      "product": "Cisco NX-OS",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:cisco:nx-os:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20171"
+        }
+      ]
+    },
+    {
+      "vendor": "cisco",
       "product": "Cisco ThousandEyes Enterprise Agent",
       "version_range": "",
       "fixed_version": "",
@@ -91,10 +91,10 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-20199"
+          "id": "CVE-2026-20206"
         },
         {
-          "id": "CVE-2026-20206"
+          "id": "CVE-2026-20199"
         }
       ]
     }
@@ -166,12 +166,12 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bgp-iefab-3hb2pwtx",
+  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csw-pnbsa-g8WEnuy",
   "vendor": "cisco",
   "references": [
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bgp-iefab-3hb2pwtx",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csw-pnbsa-g8WEnuy",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tevacert-rce-RMJVEym5",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tebbot-cmdinj-wN3yQ5gn"
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bgp-iefab-3hb2pwtx",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tebbot-cmdinj-wN3yQ5gn",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tevacert-rce-RMJVEym5"
   ]
 }

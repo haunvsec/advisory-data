@@ -2,7 +2,7 @@
   "id": "cisco-2026-06-17",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-06-17",
-  "description": "Merged 4 cisco security advisories published on 2026-06-17. Original advisory IDs: cisco-sa-ise-multi-G5WP8vv, cisco-sa-umbrella-priv-esc-F4wJB7AU, cisco-sa-cnc-inj-QNMeEmxk, cisco-sa-webex-app-redirect-KOyxhffH\n\nTitles:\n- Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities\n- Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability\n- Cisco Crosswork Network Controller Server-Side Template Injection Vulnerability\n- Cisco Webex App Open Redirect Vulnerability",
+  "description": "Merged 4 cisco security advisories published on 2026-06-17. Original advisory IDs: cisco-sa-ise-multi-G5WP8vv, cisco-sa-webex-app-redirect-KOyxhffH, cisco-sa-cnc-inj-QNMeEmxk, cisco-sa-umbrella-priv-esc-F4wJB7AU\n\nTitles:\n- Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities\n- Cisco Webex App Open Redirect Vulnerability\n- Cisco Crosswork Network Controller Server-Side Template Injection Vulnerability\n- Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability",
   "severity": "critical",
   "cvss_scores": [
     {
@@ -19,8 +19,8 @@
     },
     {
       "version": "3.1",
-      "score": 6.0,
-      "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "score": 4.3,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
       "severity": ""
     },
     {
@@ -31,8 +31,8 @@
     },
     {
       "version": "3.1",
-      "score": 4.3,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "score": 6.0,
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
       "severity": ""
     }
   ],
@@ -45,9 +45,9 @@
   "modified_date": "2026-07-06",
   "affected": [
     "cisco:cisco-sa-ise-multi-G5WP8vv",
-    "cisco:cisco-sa-umbrella-priv-esc-F4wJB7AU",
+    "cisco:cisco-sa-webex-app-redirect-KOyxhffH",
     "cisco:cisco-sa-cnc-inj-QNMeEmxk",
-    "cisco:cisco-sa-webex-app-redirect-KOyxhffH"
+    "cisco:cisco-sa-umbrella-priv-esc-F4wJB7AU"
   ],
   "affected_products": [
     {
@@ -72,18 +72,18 @@
     },
     {
       "vendor": "cisco",
-      "product": "Cisco Umbrella Insights Virtual Appliance",
+      "product": "Cisco Webex App",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:cisco_umbrella_insights_virtual_appliance:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:cisco:cisco_webex_app:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-20246"
+          "id": "CVE-2026-20178"
         }
       ]
     },
@@ -106,18 +106,18 @@
     },
     {
       "vendor": "cisco",
-      "product": "Cisco Webex App",
+      "product": "Cisco Umbrella Insights Virtual Appliance",
       "version_range": "",
       "fixed_version": "",
       "fixed_kb": "",
       "remediation_url": "",
       "supercedence": "",
       "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:cisco_webex_app:*:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:cisco:cisco_umbrella_insights_virtual_appliance:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-20178"
+          "id": "CVE-2026-20246"
         }
       ]
     }
@@ -208,8 +208,8 @@
   "vendor": "cisco",
   "references": [
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-umbrella-priv-esc-F4wJB7AU",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-app-redirect-KOyxhffH",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cnc-inj-QNMeEmxk",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-app-redirect-KOyxhffH"
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-umbrella-priv-esc-F4wJB7AU"
   ]
 }
