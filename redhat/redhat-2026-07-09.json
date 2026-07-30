@@ -2,7 +2,7 @@
   "id": "redhat-2026-07-09",
   "source": "redhat",
   "title": "Redhat Security Advisories - 2026-07-09",
-  "description": "Merged 23 redhat security advisories published on 2026-07-09. Original advisory IDs: RHSA-2026:37435, RHSA-2026:37436, RHSA-2026:37410, RHSA-2026:37397, RHSA-2026:37396, RHSA-2026:37395, RHSA-2026:37391, RHSA-2026:37385, RHSA-2026:37250, RHSA-2026:37251, RHSA-2026:37238, RHSA-2026:37249, RHSA-2026:37207, RHSA-2026:37210, RHSA-2026:37129, RHSA-2026:37137, RHSA-2026:37136, RHSA-2026:37130, RHSA-2026:37123, RHSA-2026:37072, RHSA-2026:37070, RHSA-2026:36957, RHSA-2026:36956\n\nTitles:\n- Red Hat Security Advisory: golang security, bug fix, and enhancement update\n- Red Hat Security Advisory: buildah security update\n- Red Hat Security Advisory: ruby security update\n- Red Hat Security Advisory: compat-glibc security update\n- Red Hat Security Advisory: glibc security update\n- Red Hat Security Advisory: firefox security update\n- Red Hat Security Advisory: rh-podman-desktop security advisory update\n- Red Hat Security Advisory: libreoffice security update\n- Red Hat Security Advisory: ruby:3.3 security update\n- Red Hat Security Advisory: freerdp security update\n- Red Hat Security Advisory: gstreamer1-plugins-good security update\n- Red Hat Security Advisory: tomcat security, bug fix, and enhancement update\n- Red Hat Security Advisory: tomcat security update\n- Red Hat Security Advisory: gstreamer1-plugins-bad-free security update\n- Red Hat Security Advisory: podman security, bug fix, and enhancement update\n- Red Hat Security Advisory: perl:5.32 security update\n- Red Hat Security Advisory: kernel security update",
+  "description": "Merged 24 redhat security advisories published on 2026-07-09. Original advisory IDs: RHSA-2026:37435, RHSA-2026:37436, RHSA-2026:37410, RHSA-2026:37397, RHSA-2026:37396, RHSA-2026:37395, RHSA-2026:37391, RHSA-2026:37385, RHSA-2026:37282, RHSA-2026:37250, RHSA-2026:37251, RHSA-2026:37238, RHSA-2026:37249, RHSA-2026:37207, RHSA-2026:37210, RHSA-2026:37129, RHSA-2026:37137, RHSA-2026:37136, RHSA-2026:37130, RHSA-2026:37123, RHSA-2026:37072, RHSA-2026:37070, RHSA-2026:36957, RHSA-2026:36956\n\nTitles:\n- Red Hat Security Advisory: golang security, bug fix, and enhancement update\n- Red Hat Security Advisory: buildah security update\n- Red Hat Security Advisory: ruby security update\n- Red Hat Security Advisory: compat-glibc security update\n- Red Hat Security Advisory: glibc security update\n- Red Hat Security Advisory: firefox security update\n- Red Hat Security Advisory: rh-podman-desktop security advisory update\n- Red Hat Security Advisory: unbound security update\n- Red Hat Security Advisory: libreoffice security update\n- Red Hat Security Advisory: ruby:3.3 security update\n- Red Hat Security Advisory: freerdp security update\n- Red Hat Security Advisory: gstreamer1-plugins-good security update\n- Red Hat Security Advisory: tomcat security, bug fix, and enhancement update\n- Red Hat Security Advisory: tomcat security update\n- Red Hat Security Advisory: gstreamer1-plugins-bad-free security update\n- Red Hat Security Advisory: podman security, bug fix, and enhancement update\n- Red Hat Security Advisory: perl:5.32 security update\n- Red Hat Security Advisory: kernel security update",
   "severity": "important",
   "cvss_scores": [],
   "cvss_score": null,
@@ -30,6 +30,9 @@
     "CWE-22",
     "CWE-140",
     "CWE-94",
+    "CWE-354",
+    "CWE-1050",
+    "CWE-911",
     "CWE-502",
     "CWE-606",
     "CWE-190",
@@ -47,7 +50,7 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-07-09",
-  "modified_date": "2026-07-25",
+  "modified_date": "2026-07-30",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
@@ -58,6 +61,7 @@
     "redhat:Red Hat Enterprise Linux Server Optional -EXTENSION (v. 6 EL",
     "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
     "redhat:Red Hat Enterprise Linux Extensions Channel (v. 10)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
     "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
     "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
     "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
@@ -65,7 +69,6 @@
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
     "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
     "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)",
-    "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
     "redhat:Red Hat Enterprise Linux CRB (v. 8)",
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
     "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
@@ -202,6 +205,18 @@
         },
         {
           "id": "CVE-2026-44293"
+        },
+        {
+          "id": "CVE-2026-40622"
+        },
+        {
+          "id": "CVE-2026-41292"
+        },
+        {
+          "id": "CVE-2026-42534"
+        },
+        {
+          "id": "CVE-2026-44390"
         },
         {
           "id": "CVE-2026-4430"
@@ -886,6 +901,36 @@
       ]
     },
     {
+      "id": "CVE-2026-40622",
+      "source": "redhat",
+      "title": "unbound: Unbound: Cache manipulation via 'ghost domain names' attack",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "published_date": "2026-07-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-40622"
+      ]
+    },
+    {
+      "id": "CVE-2026-41292",
+      "source": "redhat",
+      "title": "unbound: Unbound: Denial of Service via excessive EDNS options",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-41292"
+      ]
+    },
+    {
       "id": "CVE-2026-41316",
       "source": "redhat",
       "title": "erb: ERB: Arbitrary code execution via deserialization bypass",
@@ -961,6 +1006,21 @@
       ]
     },
     {
+      "id": "CVE-2026-42534",
+      "source": "redhat",
+      "title": "unbound: Unbound: Denial of Service due to degraded resolution performance in jostle logic",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-42534"
+      ]
+    },
+    {
       "id": "CVE-2026-44293",
       "source": "redhat",
       "title": "protobufjs: protobufjs: Arbitrary code execution due to unsafe expression generation from crafted protobuf descriptors",
@@ -988,6 +1048,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-4430"
+      ]
+    },
+    {
+      "id": "CVE-2026-44390",
+      "source": "redhat",
+      "title": "unbound: Unbound: Denial of Service due to excessive resource consumption with large DNS Resource Record Sets",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-44390"
       ]
     },
     {
@@ -1169,6 +1244,7 @@
     "https://access.redhat.com/errata/RHSA-2026:37395",
     "https://access.redhat.com/errata/RHSA-2026:37391",
     "https://access.redhat.com/errata/RHSA-2026:37385",
+    "https://access.redhat.com/errata/RHSA-2026:37282",
     "https://access.redhat.com/errata/RHSA-2026:37250",
     "https://access.redhat.com/errata/RHSA-2026:37251",
     "https://access.redhat.com/errata/RHSA-2026:37238",

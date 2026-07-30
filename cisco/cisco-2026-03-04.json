@@ -1,8 +1,8 @@
 {
-  "id": "cisco-sa-fmc-rce-NKhnULJh",
+  "id": "cisco-2026-03-04",
   "source": "cisco",
-  "title": "Cisco Secure Firewall Management Center Software Remote Code Execution Vulnerability",
-  "description": "Cisco Secure Firewall Management Center Software Remote Code Execution Vulnerability",
+  "title": "Cisco Security Advisories - 2026-03-04",
+  "description": "Merged 2 cisco security advisories published on 2026-03-04. Original advisory IDs: cisco-sa-fmc-rce-NKhnULJh, cisco-sa-onprem-fmc-authbypass-5JPp45V2\n\nTitles:\n- Cisco Secure Firewall Management Center Software Remote Code Execution Vulnerability\n- Cisco Secure Firewall Management Center Software Authentication Bypass  Vulnerability",
   "severity": "critical",
   "cvss_scores": [
     {
@@ -20,9 +20,10 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-03-04",
-  "modified_date": "2026-03-25",
+  "modified_date": "2026-07-29",
   "affected": [
-    "cisco:cisco-sa-fmc-rce-NKhnULJh"
+    "cisco:cisco-sa-fmc-rce-NKhnULJh",
+    "cisco:cisco-sa-onprem-fmc-authbypass-5JPp45V2"
   ],
   "affected_products": [
     {
@@ -30,11 +31,32 @@
       "product": "Cisco Secure Firewall Management Center",
       "version_range": "",
       "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
       "cpe": "cpe:2.3:a:cisco:cisco_secure_firewall_management_center:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
         {
           "id": "CVE-2026-20131"
+        }
+      ]
+    },
+    {
+      "vendor": "cisco",
+      "product": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:cisco:cisco_secure_firewall_management_center_software_authentication_bypass_vulnerability:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20079"
         }
       ]
     }
@@ -43,6 +65,21 @@
   "solution": "",
   "remediations": [],
   "cves": [
+    {
+      "id": "CVE-2026-20079",
+      "source": "cisco",
+      "title": "Cisco Secure Firewall Management Center Authentication Bypass Remote Code Execution Vulnerability",
+      "description": "",
+      "severity": null,
+      "cvss_score": 10.0,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-03-04",
+      "modified_date": "2026-07-29",
+      "affected": [],
+      "references": [
+        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2"
+      ]
+    },
     {
       "id": "CVE-2026-20131",
       "source": "cisco",
@@ -71,6 +108,7 @@
   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-rce-NKhnULJh",
   "vendor": "cisco",
   "references": [
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-rce-NKhnULJh"
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-rce-NKhnULJh",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2"
   ]
 }

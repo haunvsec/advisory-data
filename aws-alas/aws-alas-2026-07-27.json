@@ -1,0 +1,100 @@
+{
+  "id": "aws-alas-2026-07-27",
+  "source": "aws-alas",
+  "title": "Aws Security Advisories - 2026-07-27",
+  "description": "Merged 3 aws security advisories published on 2026-07-27. Original advisory IDs: ALAS2023-2026-2003, ALAS2023-2026-2004, ALAS2023-2026-2005\n\nTitles:\n- ALAS2023-2026-2003 (important): kernel6.18\n- ALAS2023-2026-2004 (important): kernel6.12\n- ALAS2023-2026-2005 (important): kernel",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-27",
+  "modified_date": "2026-07-27",
+  "affected": [
+    "al2023:kernel6.18",
+    "al2023:kernel6.12",
+    "al2023:kernel"
+  ],
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Kernel6.18",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:kernel6.18:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-64600"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel6.12",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:kernel6.12:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-64600"
+        }
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:al2023:kernel:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-64600"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "dnf update kernel6.18 --releasever 2023.12.20260727\n\ndnf update kernel6.12 --releasever 2023.12.20260727\n\ndnf update kernel --releasever 2023.12.20260727",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-64600",
+      "source": "aws-alas",
+      "title": "CVE-2026-64600",
+      "description": "",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-2003.html",
+  "vendor": "aws",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-2003.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-2004.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-2005.html"
+  ]
+}

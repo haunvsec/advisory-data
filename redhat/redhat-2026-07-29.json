@@ -1,0 +1,430 @@
+{
+  "id": "redhat-2026-07-29",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-07-29",
+  "description": "Merged 13 redhat security advisories published on 2026-07-29. Original advisory IDs: RHSA-2026:48036, RHSA-2026:47722, RHSA-2026:47772, RHSA-2026:47905, RHSA-2026:48033, RHSA-2026:47998, RHSA-2026:47983, RHSA-2026:47997, RHSA-2026:48016, RHSA-2026:47984, RHBA-2026:47115, RHSA-2026:47869, RHSA-2026:47620\n\nTitles:\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: grafana security, bug fix, and enhancement update\n- Red Hat Security Advisory: mariadb-connector-c security update\n- Red Hat Security Advisory: container-selinux and crun security, bug fix, and enhancement update\n- Red Hat Security Advisory: nodejs22 security update\n- Red Hat Security Advisory: kpatch-patch security update\n- Red Hat Bug Fix Advisory: coreutils bug fix and enhancement update\n- Red Hat Security Advisory: kernel security update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-1286",
+    "CWE-770",
+    "CWE-1050",
+    "CWE-367",
+    "CWE-764",
+    "CWE-89",
+    "CWE-115",
+    "CWE-1333",
+    "CWE-606",
+    "CWE-362",
+    "CWE-787",
+    "CWE-754",
+    "CWE-1288",
+    "CWE-1285",
+    "CWE-763",
+    "CWE-1341",
+    "CWE-825"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-29",
+  "modified_date": "2026-07-30",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux Real Time EUS (v. 10.0)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-68121"
+        },
+        {
+          "id": "CVE-2026-25679"
+        },
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32281"
+        },
+        {
+          "id": "CVE-2026-32282"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
+          "id": "CVE-2026-44172"
+        },
+        {
+          "id": "CVE-2026-30892"
+        },
+        {
+          "id": "CVE-2026-13149"
+        },
+        {
+          "id": "CVE-2026-59873"
+        },
+        {
+          "id": "CVE-2026-59874"
+        },
+        {
+          "id": "CVE-2026-64600"
+        },
+        {
+          "id": "CVE-2026-56392"
+        },
+        {
+          "id": "CVE-2025-40026"
+        },
+        {
+          "id": "CVE-2026-31488"
+        },
+        {
+          "id": "CVE-2026-31684"
+        },
+        {
+          "id": "CVE-2026-46116"
+        },
+        {
+          "id": "CVE-2026-46135"
+        },
+        {
+          "id": "CVE-2026-64530"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-40026",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-40026"
+      ]
+    },
+    {
+      "id": "CVE-2025-68121",
+      "source": "redhat",
+      "title": "crypto/tls: crypto/tls: Incorrect certificate validation during TLS session resumption",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68121"
+      ]
+    },
+    {
+      "id": "CVE-2026-13149",
+      "source": "redhat",
+      "title": "brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-13149"
+      ]
+    },
+    {
+      "id": "CVE-2026-25679",
+      "source": "redhat",
+      "title": "net/url: Incorrect parsing of IPv6 host literals in net/url",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-25679"
+      ]
+    },
+    {
+      "id": "CVE-2026-30892",
+      "source": "redhat",
+      "title": "crun: crun: Privilege escalation due to incorrect parsing of the `--user` option",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-30892"
+      ]
+    },
+    {
+      "id": "CVE-2026-31488",
+      "source": "redhat",
+      "title": "kernel: drm/amd/display: Do not skip unrelated mode changes in DSC validation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31488"
+      ]
+    },
+    {
+      "id": "CVE-2026-31684",
+      "source": "redhat",
+      "title": "kernel: net: sched: act_csum: validate nested VLAN headers",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31684"
+      ]
+    },
+    {
+      "id": "CVE-2026-32280",
+      "source": "redhat",
+      "title": "crypto/x509: crypto/tls: golang: Go: Denial of Service vulnerability in certificate chain building",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32280"
+      ]
+    },
+    {
+      "id": "CVE-2026-32281",
+      "source": "redhat",
+      "title": "crypto/x509: golang: Go crypto/x509: Denial of Service via inefficient certificate chain validation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32281"
+      ]
+    },
+    {
+      "id": "CVE-2026-32282",
+      "source": "redhat",
+      "title": "golang: internal/syscall/unix: Root.Chmod can follow symlinks out of the root",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32282"
+      ]
+    },
+    {
+      "id": "CVE-2026-32283",
+      "source": "redhat",
+      "title": "crypto/tls: golang: Go crypto/tls: Denial of Service via multiple TLS 1.3 key update messages",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32283"
+      ]
+    },
+    {
+      "id": "CVE-2026-44172",
+      "source": "redhat",
+      "title": "mariadb: MariaDB server: SQL injection vulnerability via improper handling of big5 character set with mysql_real_escape_string()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-44172"
+      ]
+    },
+    {
+      "id": "CVE-2026-46116",
+      "source": "redhat",
+      "title": "kernel: xfrm: defensively unhash xfrm_state lists in __xfrm_state_delete",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46116"
+      ]
+    },
+    {
+      "id": "CVE-2026-46135",
+      "source": "redhat",
+      "title": "kernel: nvmet-tcp: fix race between ICReq handling and queue teardown",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46135"
+      ]
+    },
+    {
+      "id": "CVE-2026-56392",
+      "source": "redhat",
+      "title": "coreutils: GNU coreutils unexpand: Denial of Service via crafted tab stop values",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-56392"
+      ]
+    },
+    {
+      "id": "CVE-2026-59873",
+      "source": "redhat",
+      "title": "tar: node-tar: Denial of Service via crafted gzip bomb",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59873"
+      ]
+    },
+    {
+      "id": "CVE-2026-59874",
+      "source": "redhat",
+      "title": "tar: Node-tar: Denial of Service via malformed tar archive header",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59874"
+      ]
+    },
+    {
+      "id": "CVE-2026-64530",
+      "source": "redhat",
+      "title": "kernel: net/sched: cls_api: Handle TC_ACT_CONSUMED in tcf_qevent_handle",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64530"
+      ]
+    },
+    {
+      "id": "CVE-2026-64600",
+      "source": "redhat",
+      "title": "kernel: XFS data corruption using reflink",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64600"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:48036",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:48036",
+    "https://access.redhat.com/errata/RHSA-2026:47722",
+    "https://access.redhat.com/errata/RHSA-2026:47772",
+    "https://access.redhat.com/errata/RHSA-2026:47905",
+    "https://access.redhat.com/errata/RHSA-2026:48033",
+    "https://access.redhat.com/errata/RHSA-2026:47998",
+    "https://access.redhat.com/errata/RHSA-2026:47983",
+    "https://access.redhat.com/errata/RHSA-2026:47997",
+    "https://access.redhat.com/errata/RHSA-2026:48016",
+    "https://access.redhat.com/errata/RHSA-2026:47984",
+    "https://access.redhat.com/errata/RHBA-2026:47115",
+    "https://access.redhat.com/errata/RHSA-2026:47869",
+    "https://access.redhat.com/errata/RHSA-2026:47620"
+  ]
+}

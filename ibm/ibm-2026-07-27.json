@@ -1,0 +1,3950 @@
+{
+  "id": "ibm-2026-07-27",
+  "source": "ibm",
+  "title": "Ibm Security Advisories - 2026-07-27",
+  "description": "Merged 18 ibm security advisories published on 2026-07-27. Original advisory IDs: IBM-7281446, IBM-7281375, IBM-7281369, IBM-7281388, IBM-7281349, IBM-7281550, IBM-7281383, IBM-7281384, IBM-7281382, IBM-7281438, IBM-7281441, IBM-7277692, IBM-7281412, IBM-7281518, IBM-7276996, IBM-7276995, IBM-7281466, IBM-7281442\n\nTitles:\n- Multiple security vulnerabilities may affect IBM WebSphere Liberty that is shipped with IBM CICS TX Advanced.\n- IBM Sterling Control Center is affected by multiple vulnerabilities in activemq-all jar\n- IBM Sterling Control Center is affected by multiple vulnerabilities in spring-security-core jar (CVE-2026-40988, CVE-2026-41694)\n- Multiple vulnerabilities affect IBM Db2® on Cloud Pak for Data, and Db2 Warehouse on Cloud Pak for Data.\n- IBM Instana Observability is affected by multiple vulnerabilities within Instana Agent container image\n- A vulnerability has been identified in IBM WebSphere Application Server used by IBM Rational ClearQuest (CVE-2026-9006)\n- IBM Security SOAR is using a component with a known vulnerability  (CVE-2026-49356)\n- IBM Security SOAR is using a component with a known vulnerability  (CVE-2026-13149)\n- IBM Security SOAR is using a component with a known vulnerability  (CVE-2026-11332)\n- Security Vulnerability in Spring-Security affects IBM Sterling B2B Integrator and IBM Sterling File Gateway (CVE-2026-22752)\n- Security Vulnerability in Apache MINA affects IBM Sterling B2B Integrator and IBM Sterling File Gateway (CVE-2026-41409 CVE-2026-41635)\n- IBM Sterling External Authentication Server is vulnerable to multiple issues\n- Security Vulnerabilities affect IBM Voice Gateway\n- IBM Watson Speech Services Cartridge is vulnerable to HTTP Request/Response Smuggling in Starlette  [CVE-2026-48710]\n- IBM Watson Speech Services Cartridge is vulnerable to an  authorization bypass in Moby [CVE-2026-34040]\n- IBM Watson Speech Services Cartridge is vulnerable to a  privilege validation bypass in Moby [CVE-2026-33997]\n- IBM Watson Speech Services Cartridge is vulnerable to multiple issues in HdrHistogram [CVE-2026-14683, CVE-2026-14684, CVE-2026-14685, CVE-2026-14686]\n- Multiple security vulnerabilities may affect IBM WebSphere Liberty that is shipped with TXSeries for Multiplatforms.",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-27",
+  "modified_date": "2026-07-27",
+  "affected": [
+    "ibm:CICS TX",
+    "ibm:IBM Control Center",
+    "ibm:IBM Db2 Warehouse Cartridge for IBM Cloud Pak for Data",
+    "ibm:IBM Instana Observability",
+    "ibm:IBM Rational ClearQuest",
+    "ibm:IBM Security SOAR",
+    "ibm:IBM Sterling B2B Integrator",
+    "ibm:IBM Sterling External Authentication Server",
+    "ibm:IBM Voice Gateway",
+    "ibm:IBM Watson Speech Services Cartridge",
+    "ibm:TXSeries for Multiplatforms"
+  ],
+  "affected_products": [
+    {
+      "vendor": "ibm",
+      "product": "CICS TX",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:cics_tx:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11541"
+        },
+        {
+          "id": "CVE-2026-11806"
+        },
+        {
+          "id": "CVE-2026-4410"
+        },
+        {
+          "id": "CVE-2026-5516"
+        },
+        {
+          "id": "CVE-2026-8646"
+        },
+        {
+          "id": "CVE-2026-9071"
+        },
+        {
+          "id": "CVE-2026-9320"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Control Center",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_control_center:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-34197"
+        },
+        {
+          "id": "CVE-2026-42253"
+        },
+        {
+          "id": "CVE-2026-42588"
+        },
+        {
+          "id": "CVE-2026-45505"
+        },
+        {
+          "id": "CVE-2026-46605"
+        },
+        {
+          "id": "CVE-2026-49157"
+        },
+        {
+          "id": "CVE-2026-49270"
+        },
+        {
+          "id": "CVE-2026-40988"
+        },
+        {
+          "id": "CVE-2026-41694"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Db2 Warehouse Cartridge for IBM Cloud Pak for Data",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_db2_warehouse_cartridge_for_ibm_cloud_pak_for_data:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2018-10237"
+        },
+        {
+          "id": "CVE-2018-16487"
+        },
+        {
+          "id": "CVE-2020-13955"
+        },
+        {
+          "id": "CVE-2020-13956"
+        },
+        {
+          "id": "CVE-2020-8908"
+        },
+        {
+          "id": "CVE-2021-22569"
+        },
+        {
+          "id": "CVE-2021-22570"
+        },
+        {
+          "id": "CVE-2022-22968"
+        },
+        {
+          "id": "CVE-2022-39135"
+        },
+        {
+          "id": "CVE-2023-22899"
+        },
+        {
+          "id": "CVE-2023-5752"
+        },
+        {
+          "id": "CVE-2024-23953"
+        },
+        {
+          "id": "CVE-2024-29869"
+        },
+        {
+          "id": "CVE-2024-38820"
+        },
+        {
+          "id": "CVE-2024-38827"
+        },
+        {
+          "id": "CVE-2024-45337"
+        },
+        {
+          "id": "CVE-2024-6763"
+        },
+        {
+          "id": "CVE-2025-11187"
+        },
+        {
+          "id": "CVE-2025-15468"
+        },
+        {
+          "id": "CVE-2025-15469"
+        },
+        {
+          "id": "CVE-2025-21502"
+        },
+        {
+          "id": "CVE-2025-59375"
+        },
+        {
+          "id": "CVE-2025-64756"
+        },
+        {
+          "id": "CVE-2025-66199"
+        },
+        {
+          "id": "CVE-2025-68160"
+        },
+        {
+          "id": "CVE-2025-68161"
+        },
+        {
+          "id": "CVE-2025-69418"
+        },
+        {
+          "id": "CVE-2026-0636"
+        },
+        {
+          "id": "CVE-2026-0994"
+        },
+        {
+          "id": "CVE-2026-12143"
+        },
+        {
+          "id": "CVE-2026-13311"
+        },
+        {
+          "id": "CVE-2026-22007"
+        },
+        {
+          "id": "CVE-2026-22013"
+        },
+        {
+          "id": "CVE-2026-22018"
+        },
+        {
+          "id": "CVE-2026-22021"
+        },
+        {
+          "id": "CVE-2026-22795"
+        },
+        {
+          "id": "CVE-2026-22796"
+        },
+        {
+          "id": "CVE-2026-2303"
+        },
+        {
+          "id": "CVE-2026-2332"
+        },
+        {
+          "id": "CVE-2026-23745"
+        },
+        {
+          "id": "CVE-2026-23950"
+        },
+        {
+          "id": "CVE-2026-24842"
+        },
+        {
+          "id": "CVE-2026-25639"
+        },
+        {
+          "id": "CVE-2026-25680"
+        },
+        {
+          "id": "CVE-2026-25681"
+        },
+        {
+          "id": "CVE-2026-26960"
+        },
+        {
+          "id": "CVE-2026-27136"
+        },
+        {
+          "id": "CVE-2026-29786"
+        },
+        {
+          "id": "CVE-2026-30827"
+        },
+        {
+          "id": "CVE-2026-33845"
+        },
+        {
+          "id": "CVE-2026-33846"
+        },
+        {
+          "id": "CVE-2026-34040"
+        },
+        {
+          "id": "CVE-2026-34043"
+        },
+        {
+          "id": "CVE-2026-34268"
+        },
+        {
+          "id": "CVE-2026-34477"
+        },
+        {
+          "id": "CVE-2026-34479"
+        },
+        {
+          "id": "CVE-2026-34481"
+        },
+        {
+          "id": "CVE-2026-39821"
+        },
+        {
+          "id": "CVE-2026-39827"
+        },
+        {
+          "id": "CVE-2026-39828"
+        },
+        {
+          "id": "CVE-2026-39829"
+        },
+        {
+          "id": "CVE-2026-39830"
+        },
+        {
+          "id": "CVE-2026-39831"
+        },
+        {
+          "id": "CVE-2026-39832"
+        },
+        {
+          "id": "CVE-2026-39833"
+        },
+        {
+          "id": "CVE-2026-39834"
+        },
+        {
+          "id": "CVE-2026-39835"
+        },
+        {
+          "id": "CVE-2026-40356"
+        },
+        {
+          "id": "CVE-2026-41035"
+        },
+        {
+          "id": "CVE-2026-4111"
+        },
+        {
+          "id": "CVE-2026-42009"
+        },
+        {
+          "id": "CVE-2026-42010"
+        },
+        {
+          "id": "CVE-2026-42245"
+        },
+        {
+          "id": "CVE-2026-42246"
+        },
+        {
+          "id": "CVE-2026-42256"
+        },
+        {
+          "id": "CVE-2026-42257"
+        },
+        {
+          "id": "CVE-2026-42258"
+        },
+        {
+          "id": "CVE-2026-42502"
+        },
+        {
+          "id": "CVE-2026-42506"
+        },
+        {
+          "id": "CVE-2026-42508"
+        },
+        {
+          "id": "CVE-2026-42578"
+        },
+        {
+          "id": "CVE-2026-44024"
+        },
+        {
+          "id": "CVE-2026-44025"
+        },
+        {
+          "id": "CVE-2026-44160"
+        },
+        {
+          "id": "CVE-2026-44161"
+        },
+        {
+          "id": "CVE-2026-4424"
+        },
+        {
+          "id": "CVE-2026-44431"
+        },
+        {
+          "id": "CVE-2026-44486"
+        },
+        {
+          "id": "CVE-2026-44487"
+        },
+        {
+          "id": "CVE-2026-44488"
+        },
+        {
+          "id": "CVE-2026-44490"
+        },
+        {
+          "id": "CVE-2026-44492"
+        },
+        {
+          "id": "CVE-2026-44494"
+        },
+        {
+          "id": "CVE-2026-44495"
+        },
+        {
+          "id": "CVE-2026-44496"
+        },
+        {
+          "id": "CVE-2026-44930"
+        },
+        {
+          "id": "CVE-2026-4519"
+        },
+        {
+          "id": "CVE-2026-45292"
+        },
+        {
+          "id": "CVE-2026-46595"
+        },
+        {
+          "id": "CVE-2026-46597"
+        },
+        {
+          "id": "CVE-2026-46598"
+        },
+        {
+          "id": "CVE-2026-4786"
+        },
+        {
+          "id": "CVE-2026-4867"
+        },
+        {
+          "id": "CVE-2026-49844"
+        },
+        {
+          "id": "CVE-2026-53550"
+        },
+        {
+          "id": "CVE-2026-54500"
+        },
+        {
+          "id": "CVE-2026-54502"
+        },
+        {
+          "id": "CVE-2026-54592"
+        },
+        {
+          "id": "CVE-2026-54896"
+        },
+        {
+          "id": "CVE-2026-54897"
+        },
+        {
+          "id": "CVE-2026-54898"
+        },
+        {
+          "id": "CVE-2026-54899"
+        },
+        {
+          "id": "CVE-2026-54900"
+        },
+        {
+          "id": "CVE-2026-54901"
+        },
+        {
+          "id": "CVE-2026-54902"
+        },
+        {
+          "id": "CVE-2026-54903"
+        },
+        {
+          "id": "CVE-2026-54904"
+        },
+        {
+          "id": "CVE-2026-54905"
+        },
+        {
+          "id": "CVE-2026-54906"
+        },
+        {
+          "id": "CVE-2026-5588"
+        },
+        {
+          "id": "CVE-2026-5795"
+        },
+        {
+          "id": "CVE-2026-6100"
+        },
+        {
+          "id": "CVE-2026-6357"
+        },
+        {
+          "id": "CVE-2026-8723"
+        },
+        {
+          "id": "CVE-2026-9277"
+        },
+        {
+          "id": "CVE-2026-9358"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Instana Observability",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_instana_observability:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-14683"
+        },
+        {
+          "id": "CVE-2026-14684"
+        },
+        {
+          "id": "CVE-2026-14685"
+        },
+        {
+          "id": "CVE-2026-14686"
+        },
+        {
+          "id": "CVE-2026-14893"
+        },
+        {
+          "id": "CVE-2026-15076"
+        },
+        {
+          "id": "CVE-2026-25680"
+        },
+        {
+          "id": "CVE-2026-25681"
+        },
+        {
+          "id": "CVE-2026-27136"
+        },
+        {
+          "id": "CVE-2026-31790"
+        },
+        {
+          "id": "CVE-2026-39821"
+        },
+        {
+          "id": "CVE-2026-40983"
+        },
+        {
+          "id": "CVE-2026-40984"
+        },
+        {
+          "id": "CVE-2026-42502"
+        },
+        {
+          "id": "CVE-2026-42506"
+        },
+        {
+          "id": "CVE-2026-4519"
+        },
+        {
+          "id": "CVE-2026-4786"
+        },
+        {
+          "id": "CVE-2026-6100"
+        },
+        {
+          "id": "CVE-2026-8643"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Rational ClearQuest",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_rational_clearquest:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-9006"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Security SOAR",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_security_soar:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-49356"
+        },
+        {
+          "id": "CVE-2026-13149"
+        },
+        {
+          "id": "CVE-2026-11332"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Sterling B2B Integrator",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_sterling_b2b_integrator:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-22752"
+        },
+        {
+          "id": "CVE-2024-52046"
+        },
+        {
+          "id": "CVE-2026-41409"
+        },
+        {
+          "id": "CVE-2026-41635"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Sterling External Authentication Server",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_sterling_external_authentication_server:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-11143"
+        },
+        {
+          "id": "CVE-2025-14813"
+        },
+        {
+          "id": "CVE-2025-62718"
+        },
+        {
+          "id": "CVE-2025-68161"
+        },
+        {
+          "id": "CVE-2026-0636"
+        },
+        {
+          "id": "CVE-2026-1605"
+        },
+        {
+          "id": "CVE-2026-2332"
+        },
+        {
+          "id": "CVE-2026-34477"
+        },
+        {
+          "id": "CVE-2026-34478"
+        },
+        {
+          "id": "CVE-2026-34479"
+        },
+        {
+          "id": "CVE-2026-34480"
+        },
+        {
+          "id": "CVE-2026-40175"
+        },
+        {
+          "id": "CVE-2026-40895"
+        },
+        {
+          "id": "CVE-2026-42033"
+        },
+        {
+          "id": "CVE-2026-42034"
+        },
+        {
+          "id": "CVE-2026-42035"
+        },
+        {
+          "id": "CVE-2026-42036"
+        },
+        {
+          "id": "CVE-2026-42037"
+        },
+        {
+          "id": "CVE-2026-42038"
+        },
+        {
+          "id": "CVE-2026-42039"
+        },
+        {
+          "id": "CVE-2026-42040"
+        },
+        {
+          "id": "CVE-2026-42041"
+        },
+        {
+          "id": "CVE-2026-42042"
+        },
+        {
+          "id": "CVE-2026-42043"
+        },
+        {
+          "id": "CVE-2026-42044"
+        },
+        {
+          "id": "CVE-2026-42264"
+        },
+        {
+          "id": "CVE-2026-5588"
+        },
+        {
+          "id": "CVE-2026-5598"
+        },
+        {
+          "id": "CVE-2026-5795"
+        },
+        {
+          "id": "CVE-2026-8149"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Voice Gateway",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_voice_gateway:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11541"
+        },
+        {
+          "id": "CVE-2026-11714"
+        },
+        {
+          "id": "CVE-2026-50645"
+        },
+        {
+          "id": "CVE-2026-8646"
+        },
+        {
+          "id": "CVE-2026-9071"
+        },
+        {
+          "id": "CVE-2026-9171"
+        },
+        {
+          "id": "CVE-2026-9320"
+        },
+        {
+          "id": "CVE-2026-9322"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Watson Speech Services Cartridge",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_watson_speech_services_cartridge:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-48710"
+        },
+        {
+          "id": "CVE-2026-34040"
+        },
+        {
+          "id": "CVE-2026-33997"
+        },
+        {
+          "id": "CVE-2026-14683"
+        },
+        {
+          "id": "CVE-2026-14684"
+        },
+        {
+          "id": "CVE-2026-14685"
+        },
+        {
+          "id": "CVE-2026-14686"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "TXSeries for Multiplatforms",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:txseries_for_multiplatforms:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11541"
+        },
+        {
+          "id": "CVE-2026-11806"
+        },
+        {
+          "id": "CVE-2026-4410"
+        },
+        {
+          "id": "CVE-2026-5516"
+        },
+        {
+          "id": "CVE-2026-8646"
+        },
+        {
+          "id": "CVE-2026-9071"
+        },
+        {
+          "id": "CVE-2026-9320"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2018-10237",
+      "source": "ibm",
+      "title": "CVE-2018-10237",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2018-16487",
+      "source": "ibm",
+      "title": "CVE-2018-16487",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2020-13955",
+      "source": "ibm",
+      "title": "CVE-2020-13955",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2020-13956",
+      "source": "ibm",
+      "title": "CVE-2020-13956",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2020-8908",
+      "source": "ibm",
+      "title": "CVE-2020-8908",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2021-22569",
+      "source": "ibm",
+      "title": "CVE-2021-22569",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2021-22570",
+      "source": "ibm",
+      "title": "CVE-2021-22570",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2022-22968",
+      "source": "ibm",
+      "title": "CVE-2022-22968",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2022-39135",
+      "source": "ibm",
+      "title": "CVE-2022-39135",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2023-22899",
+      "source": "ibm",
+      "title": "CVE-2023-22899",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2023-5752",
+      "source": "ibm",
+      "title": "CVE-2023-5752",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2024-23953",
+      "source": "ibm",
+      "title": "CVE-2024-23953",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2024-29869",
+      "source": "ibm",
+      "title": "CVE-2024-29869",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2024-38820",
+      "source": "ibm",
+      "title": "CVE-2024-38820",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2024-38827",
+      "source": "ibm",
+      "title": "CVE-2024-38827",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2024-45337",
+      "source": "ibm",
+      "title": "CVE-2024-45337",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2024-52046",
+      "source": "ibm",
+      "title": "CVE-2024-52046",
+      "description": "The ObjectSerializationDecoder in Apache MINA uses Java’s native deserialization protocol to process incoming serialized data but lacks the necessary security checks and defenses. This vulnerability allows attackers to exploit the deserialization process by sending specially crafted malicious serialized data, potentially leading to remote code execution (RCE) attacks. This issue affects MINA core versions 2.0.X, 2.1.X and 2.2.X, and will be fixed by the releases 2.0.27, 2.1.10 and 2.2.4. It's also important to note that an application using MINA core library will only be affected if the IoBuffer#getObject() method is called, and this specific method is potentially called when adding a ProtocolCodecFilter instance using the ObjectSerializationCodecFactory class in the filter chain. If your application is specifically using those classes, you have to upgrade to the latest version of MINA core library. Upgrading will not be enough: you also need to explicitly allow the classes the decoder will accept in the ObjectSerializationDecoder instance, using one of the three new methods: or ** * Accept class names where the supplied ClassNameMatcher matches for * deserialization, unless they are otherwise rejected. * * @param classNameMatcher the matcher to use * or public void accept(ClassNameMatcher classNameMatcher) or ** * Accept class names that match the supplied pattern for * deserialization, unless they are otherwise rejected. * * @param pattern standard Java regexp * or public void accept(Pattern pattern) or ** * Accept the wildcard specified classes for deserialization, * unless they are otherwise rejected. * * @param patterns Wildcard file name patterns as defined by * {@link org.apache.commons.io.FilenameUtils#wildcardMatch(String, String) FilenameUtils.wildcardMatch} * or public void accept(String... patterns) By default, the decoder will reject *all* classes that will be present in the incoming data. Note: The FtpServer, SSHd and Vysper sub-project are not affected by this issue",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2024-52046",
+        "https://www.ibm.com/support/pages/node/7281441"
+      ]
+    },
+    {
+      "id": "CVE-2024-6763",
+      "source": "ibm",
+      "title": "CVE-2024-6763",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2025-11143",
+      "source": "ibm",
+      "title": "CVE-2025-11143",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2025-11187",
+      "source": "ibm",
+      "title": "CVE-2025-11187",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2025-14813",
+      "source": "ibm",
+      "title": "CVE-2025-14813",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2025-15468",
+      "source": "ibm",
+      "title": "CVE-2025-15468",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2025-15469",
+      "source": "ibm",
+      "title": "CVE-2025-15469",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2025-21502",
+      "source": "ibm",
+      "title": "CVE-2025-21502",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2025-59375",
+      "source": "ibm",
+      "title": "CVE-2025-59375",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2025-62718",
+      "source": "ibm",
+      "title": "CVE-2025-62718",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2025-64756",
+      "source": "ibm",
+      "title": "CVE-2025-64756",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2025-66199",
+      "source": "ibm",
+      "title": "CVE-2025-66199",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2025-68160",
+      "source": "ibm",
+      "title": "CVE-2025-68160",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2025-68161",
+      "source": "ibm",
+      "title": "CVE-2025-68161",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2025-69418",
+      "source": "ibm",
+      "title": "CVE-2025-69418",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-0636",
+      "source": "ibm",
+      "title": "CVE-2026-0636",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-0994",
+      "source": "ibm",
+      "title": "CVE-2026-0994",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-11332",
+      "source": "ibm",
+      "title": "CVE-2026-11332",
+      "description": "A flaw was found in ansible-core. The ansible-galaxy role install command processes dependency specifications from a role's meta or requirements.yml file. Due to improper neutralization of argument delimiters, a malicious role author can inject arbitrary git configuration flags through the src field. This allows arbitrary code execution on the machine of a user who installs the role via ansible-galaxy role install",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-11332",
+        "https://www.ibm.com/support/pages/node/7281382"
+      ]
+    },
+    {
+      "id": "CVE-2026-11541",
+      "source": "ibm",
+      "title": "CVE-2026-11541",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281446",
+        "https://www.ibm.com/support/pages/node/7281412",
+        "https://www.ibm.com/support/pages/node/7281442"
+      ]
+    },
+    {
+      "id": "CVE-2026-11714",
+      "source": "ibm",
+      "title": "CVE-2026-11714",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281412"
+      ]
+    },
+    {
+      "id": "CVE-2026-11806",
+      "source": "ibm",
+      "title": "CVE-2026-11806",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281446",
+        "https://www.ibm.com/support/pages/node/7281442"
+      ]
+    },
+    {
+      "id": "CVE-2026-12143",
+      "source": "ibm",
+      "title": "CVE-2026-12143",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-13149",
+      "source": "ibm",
+      "title": "CVE-2026-13149",
+      "description": "brace-expansion through 5.0.6 is vulnerable to denial of service. The expand() function exhibits exponential-time complexity in the number of consecutive non-expanding '{}' brace groups. An attacker who passes a crafted string to expand(), directly or transitively, can cause significant CPU consumption and event-loop blocking. The max option does not mitigate this, as it bounds the output size rather than the recursion work",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-13149",
+        "https://www.ibm.com/support/pages/node/7281384"
+      ]
+    },
+    {
+      "id": "CVE-2026-13311",
+      "source": "ibm",
+      "title": "CVE-2026-13311",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-14683",
+      "source": "ibm",
+      "title": "CVE-2026-14683",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349",
+        "https://www.ibm.com/support/pages/node/7281466"
+      ]
+    },
+    {
+      "id": "CVE-2026-14684",
+      "source": "ibm",
+      "title": "CVE-2026-14684",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349",
+        "https://www.ibm.com/support/pages/node/7281466"
+      ]
+    },
+    {
+      "id": "CVE-2026-14685",
+      "source": "ibm",
+      "title": "CVE-2026-14685",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349",
+        "https://www.ibm.com/support/pages/node/7281466"
+      ]
+    },
+    {
+      "id": "CVE-2026-14686",
+      "source": "ibm",
+      "title": "CVE-2026-14686",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349",
+        "https://www.ibm.com/support/pages/node/7281466"
+      ]
+    },
+    {
+      "id": "CVE-2026-14893",
+      "source": "ibm",
+      "title": "CVE-2026-14893",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-15076",
+      "source": "ibm",
+      "title": "CVE-2026-15076",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-1605",
+      "source": "ibm",
+      "title": "CVE-2026-1605",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-22007",
+      "source": "ibm",
+      "title": "CVE-2026-22007",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-22013",
+      "source": "ibm",
+      "title": "CVE-2026-22013",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-22018",
+      "source": "ibm",
+      "title": "CVE-2026-22018",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-22021",
+      "source": "ibm",
+      "title": "CVE-2026-22021",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-22752",
+      "source": "ibm",
+      "title": "CVE-2026-22752",
+      "description": "Authentication bypass by primary weakness vulnerability in Spring Security Spring Authorization Server. This issue affects Spring Authorization Server: from 7.0.0 through 7.0.4, from 1.5.0 through 1.5.6, from 1.4.0 through 1.4.9, from 1.3.0 through 1.3.10",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-22752",
+        "https://www.ibm.com/support/pages/node/7281438"
+      ]
+    },
+    {
+      "id": "CVE-2026-22795",
+      "source": "ibm",
+      "title": "CVE-2026-22795",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-22796",
+      "source": "ibm",
+      "title": "CVE-2026-22796",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-2303",
+      "source": "ibm",
+      "title": "CVE-2026-2303",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-2332",
+      "source": "ibm",
+      "title": "CVE-2026-2332",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-23745",
+      "source": "ibm",
+      "title": "CVE-2026-23745",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-23950",
+      "source": "ibm",
+      "title": "CVE-2026-23950",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-24842",
+      "source": "ibm",
+      "title": "CVE-2026-24842",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-25639",
+      "source": "ibm",
+      "title": "CVE-2026-25639",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-25680",
+      "source": "ibm",
+      "title": "CVE-2026-25680",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-25681",
+      "source": "ibm",
+      "title": "CVE-2026-25681",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-26960",
+      "source": "ibm",
+      "title": "CVE-2026-26960",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-27136",
+      "source": "ibm",
+      "title": "CVE-2026-27136",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-29786",
+      "source": "ibm",
+      "title": "CVE-2026-29786",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-30827",
+      "source": "ibm",
+      "title": "CVE-2026-30827",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-31790",
+      "source": "ibm",
+      "title": "CVE-2026-31790",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-33845",
+      "source": "ibm",
+      "title": "CVE-2026-33845",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-33846",
+      "source": "ibm",
+      "title": "CVE-2026-33846",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-33997",
+      "source": "ibm",
+      "title": "CVE-2026-33997",
+      "description": "Moby is an open source container framework. Prior to version 29.3.1, a security vulnerability has been detected that allows plugins privilege validation to be bypassed during docker plugin install. Due to an error in the daemon's privilege comparison logic, the daemon may incorrectly accept a privilege set that differs from the one approved by the user. Plugins that request exactly one privilege are also affected, because no comparison is performed at all. This issue has been patched in version 29.3.1",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-33997",
+        "https://www.ibm.com/support/pages/node/7276995"
+      ]
+    },
+    {
+      "id": "CVE-2026-34040",
+      "source": "ibm",
+      "title": "CVE-2026-34040",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2026-34040",
+        "https://www.ibm.com/support/pages/node/7276996"
+      ]
+    },
+    {
+      "id": "CVE-2026-34043",
+      "source": "ibm",
+      "title": "CVE-2026-34043",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-34197",
+      "source": "ibm",
+      "title": "CVE-2026-34197",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache ActiveMQ, Apache ActiveMQ Web. The MessageServlet in the ActiveMQ web console API copies every JMS message property into an HTTP response header without any validation. This can allow overwriting and injecting security headers by setting them on JMS messages that are returned by the servlet. This issue affects Apache ActiveMQ: before 5.19.7, from 6.0.0 before 6.2.6; Apache ActiveMQ Web: before 5.19.7, from 6.0.0 before 6.2.6. Users are recommended to upgrade to version 5.19.7 or 6.2.6, which fixes the issue. The MessageServlet has now been deprecated and disabled by default",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42253",
+        "https://www.ibm.com/support/pages/node/7281375"
+      ]
+    },
+    {
+      "id": "CVE-2026-34268",
+      "source": "ibm",
+      "title": "CVE-2026-34268",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-34477",
+      "source": "ibm",
+      "title": "CVE-2026-34477",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-34478",
+      "source": "ibm",
+      "title": "CVE-2026-34478",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-34479",
+      "source": "ibm",
+      "title": "CVE-2026-34479",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-34480",
+      "source": "ibm",
+      "title": "CVE-2026-34480",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-34481",
+      "source": "ibm",
+      "title": "CVE-2026-34481",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-39821",
+      "source": "ibm",
+      "title": "CVE-2026-39821",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-39827",
+      "source": "ibm",
+      "title": "CVE-2026-39827",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-39828",
+      "source": "ibm",
+      "title": "CVE-2026-39828",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-39829",
+      "source": "ibm",
+      "title": "CVE-2026-39829",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-39830",
+      "source": "ibm",
+      "title": "CVE-2026-39830",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-39831",
+      "source": "ibm",
+      "title": "CVE-2026-39831",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-39832",
+      "source": "ibm",
+      "title": "CVE-2026-39832",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-39833",
+      "source": "ibm",
+      "title": "CVE-2026-39833",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-39834",
+      "source": "ibm",
+      "title": "CVE-2026-39834",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-39835",
+      "source": "ibm",
+      "title": "CVE-2026-39835",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-40175",
+      "source": "ibm",
+      "title": "CVE-2026-40175",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-40356",
+      "source": "ibm",
+      "title": "CVE-2026-40356",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-40895",
+      "source": "ibm",
+      "title": "CVE-2026-40895",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-40983",
+      "source": "ibm",
+      "title": "CVE-2026-40983",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-40984",
+      "source": "ibm",
+      "title": "CVE-2026-40984",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-40988",
+      "source": "ibm",
+      "title": "CVE-2026-40988",
+      "description": "Since Spring Security SAML decrypts SAML Responses as well as elements of SAML LogoutRequests and LogoutResponses without requiring a valid signature, attackers may be able to craft these SAML payloads and use the Service Provider as a decryption oracle. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41694",
+        "https://www.ibm.com/support/pages/node/7281369"
+      ]
+    },
+    {
+      "id": "CVE-2026-41035",
+      "source": "ibm",
+      "title": "CVE-2026-41035",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-4111",
+      "source": "ibm",
+      "title": "CVE-2026-4111",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-41409",
+      "source": "ibm",
+      "title": "CVE-2026-41409",
+      "description": "The ObjectSerializationDecoder in Apache MINA uses Java’s native deserialization protocol to process incoming serialized data but lacks the necessary security checks and defenses. This vulnerability allows attackers to exploit the deserialization process by sending specially crafted malicious serialized data, potentially leading to remote code execution (RCE) attacks. This issue affects MINA core versions 2.0.X, 2.1.X and 2.2.X, and will be fixed by the releases 2.0.27, 2.1.10 and 2.2.4. It's also important to note that an application using MINA core library will only be affected if the IoBuffer#getObject() method is called, and this specific method is potentially called when adding a ProtocolCodecFilter instance using the ObjectSerializationCodecFactory class in the filter chain. If your application is specifically using those classes, you have to upgrade to the latest version of MINA core library. Upgrading will not be enough: you also need to explicitly allow the classes the decoder will accept in the ObjectSerializationDecoder instance, using one of the three new methods: or ** * Accept class names where the supplied ClassNameMatcher matches for * deserialization, unless they are otherwise rejected. * * @param classNameMatcher the matcher to use * or public void accept(ClassNameMatcher classNameMatcher) or ** * Accept class names that match the supplied pattern for * deserialization, unless they are otherwise rejected. * * @param pattern standard Java regexp * or public void accept(Pattern pattern) or ** * Accept the wildcard specified classes for deserialization, * unless they are otherwise rejected. * * @param patterns Wildcard file name patterns as defined by * {@link org.apache.commons.io.FilenameUtils#wildcardMatch(String, String) FilenameUtils.wildcardMatch} * or public void accept(String... patterns) By default, the decoder will reject *all* classes that will be present in the incoming data. Note: The FtpServer, SSHd and Vysper sub-project are not affected by this issue",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2024-52046",
+        "https://www.ibm.com/support/pages/node/7281441"
+      ]
+    },
+    {
+      "id": "CVE-2026-41635",
+      "source": "ibm",
+      "title": "CVE-2026-41635",
+      "description": "The ObjectSerializationDecoder in Apache MINA uses Java’s native deserialization protocol to process incoming serialized data but lacks the necessary security checks and defenses. This vulnerability allows attackers to exploit the deserialization process by sending specially crafted malicious serialized data, potentially leading to remote code execution (RCE) attacks. This issue affects MINA core versions 2.0.X, 2.1.X and 2.2.X, and will be fixed by the releases 2.0.27, 2.1.10 and 2.2.4. It's also important to note that an application using MINA core library will only be affected if the IoBuffer#getObject() method is called, and this specific method is potentially called when adding a ProtocolCodecFilter instance using the ObjectSerializationCodecFactory class in the filter chain. If your application is specifically using those classes, you have to upgrade to the latest version of MINA core library. Upgrading will not be enough: you also need to explicitly allow the classes the decoder will accept in the ObjectSerializationDecoder instance, using one of the three new methods: or ** * Accept class names where the supplied ClassNameMatcher matches for * deserialization, unless they are otherwise rejected. * * @param classNameMatcher the matcher to use * or public void accept(ClassNameMatcher classNameMatcher) or ** * Accept class names that match the supplied pattern for * deserialization, unless they are otherwise rejected. * * @param pattern standard Java regexp * or public void accept(Pattern pattern) or ** * Accept the wildcard specified classes for deserialization, * unless they are otherwise rejected. * * @param patterns Wildcard file name patterns as defined by * {@link org.apache.commons.io.FilenameUtils#wildcardMatch(String, String) FilenameUtils.wildcardMatch} * or public void accept(String... patterns) By default, the decoder will reject *all* classes that will be present in the incoming data. Note: The FtpServer, SSHd and Vysper sub-project are not affected by this issue",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2024-52046",
+        "https://www.ibm.com/support/pages/node/7281441"
+      ]
+    },
+    {
+      "id": "CVE-2026-41694",
+      "source": "ibm",
+      "title": "CVE-2026-41694",
+      "description": "Since Spring Security SAML decrypts SAML Responses as well as elements of SAML LogoutRequests and LogoutResponses without requiring a valid signature, attackers may be able to craft these SAML payloads and use the Service Provider as a decryption oracle. Affected versions: Spring Security 5.7.0 through 5.7.23; 5.8.0 through 5.8.25; 6.3.0 through 6.3.16; 6.4.0 through 6.4.16; 6.5.0 through 6.5.10; 7.0.0 through 7.0.5",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41694",
+        "https://www.ibm.com/support/pages/node/7281369"
+      ]
+    },
+    {
+      "id": "CVE-2026-42009",
+      "source": "ibm",
+      "title": "CVE-2026-42009",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-42010",
+      "source": "ibm",
+      "title": "CVE-2026-42010",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-42033",
+      "source": "ibm",
+      "title": "CVE-2026-42033",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42034",
+      "source": "ibm",
+      "title": "CVE-2026-42034",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42035",
+      "source": "ibm",
+      "title": "CVE-2026-42035",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42036",
+      "source": "ibm",
+      "title": "CVE-2026-42036",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42037",
+      "source": "ibm",
+      "title": "CVE-2026-42037",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42038",
+      "source": "ibm",
+      "title": "CVE-2026-42038",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42039",
+      "source": "ibm",
+      "title": "CVE-2026-42039",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42040",
+      "source": "ibm",
+      "title": "CVE-2026-42040",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42041",
+      "source": "ibm",
+      "title": "CVE-2026-42041",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42042",
+      "source": "ibm",
+      "title": "CVE-2026-42042",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42043",
+      "source": "ibm",
+      "title": "CVE-2026-42043",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42044",
+      "source": "ibm",
+      "title": "CVE-2026-42044",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42245",
+      "source": "ibm",
+      "title": "CVE-2026-42245",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-42246",
+      "source": "ibm",
+      "title": "CVE-2026-42246",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-42253",
+      "source": "ibm",
+      "title": "CVE-2026-42253",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache ActiveMQ, Apache ActiveMQ Web. The MessageServlet in the ActiveMQ web console API copies every JMS message property into an HTTP response header without any validation. This can allow overwriting and injecting security headers by setting them on JMS messages that are returned by the servlet. This issue affects Apache ActiveMQ: before 5.19.7, from 6.0.0 before 6.2.6; Apache ActiveMQ Web: before 5.19.7, from 6.0.0 before 6.2.6. Users are recommended to upgrade to version 5.19.7 or 6.2.6, which fixes the issue. The MessageServlet has now been deprecated and disabled by default",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42253",
+        "https://www.ibm.com/support/pages/node/7281375"
+      ]
+    },
+    {
+      "id": "CVE-2026-42256",
+      "source": "ibm",
+      "title": "CVE-2026-42256",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-42257",
+      "source": "ibm",
+      "title": "CVE-2026-42257",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-42258",
+      "source": "ibm",
+      "title": "CVE-2026-42258",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-42264",
+      "source": "ibm",
+      "title": "CVE-2026-42264",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-42502",
+      "source": "ibm",
+      "title": "CVE-2026-42502",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-42506",
+      "source": "ibm",
+      "title": "CVE-2026-42506",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-42508",
+      "source": "ibm",
+      "title": "CVE-2026-42508",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-42578",
+      "source": "ibm",
+      "title": "CVE-2026-42578",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-42588",
+      "source": "ibm",
+      "title": "CVE-2026-42588",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache ActiveMQ, Apache ActiveMQ Web. The MessageServlet in the ActiveMQ web console API copies every JMS message property into an HTTP response header without any validation. This can allow overwriting and injecting security headers by setting them on JMS messages that are returned by the servlet. This issue affects Apache ActiveMQ: before 5.19.7, from 6.0.0 before 6.2.6; Apache ActiveMQ Web: before 5.19.7, from 6.0.0 before 6.2.6. Users are recommended to upgrade to version 5.19.7 or 6.2.6, which fixes the issue. The MessageServlet has now been deprecated and disabled by default",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42253",
+        "https://www.ibm.com/support/pages/node/7281375"
+      ]
+    },
+    {
+      "id": "CVE-2026-44024",
+      "source": "ibm",
+      "title": "CVE-2026-44024",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44025",
+      "source": "ibm",
+      "title": "CVE-2026-44025",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-4410",
+      "source": "ibm",
+      "title": "CVE-2026-4410",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281446",
+        "https://www.ibm.com/support/pages/node/7281442"
+      ]
+    },
+    {
+      "id": "CVE-2026-44160",
+      "source": "ibm",
+      "title": "CVE-2026-44160",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44161",
+      "source": "ibm",
+      "title": "CVE-2026-44161",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-4424",
+      "source": "ibm",
+      "title": "CVE-2026-4424",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44431",
+      "source": "ibm",
+      "title": "CVE-2026-44431",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44486",
+      "source": "ibm",
+      "title": "CVE-2026-44486",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44487",
+      "source": "ibm",
+      "title": "CVE-2026-44487",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44488",
+      "source": "ibm",
+      "title": "CVE-2026-44488",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44490",
+      "source": "ibm",
+      "title": "CVE-2026-44490",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44492",
+      "source": "ibm",
+      "title": "CVE-2026-44492",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44494",
+      "source": "ibm",
+      "title": "CVE-2026-44494",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44495",
+      "source": "ibm",
+      "title": "CVE-2026-44495",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44496",
+      "source": "ibm",
+      "title": "CVE-2026-44496",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-44930",
+      "source": "ibm",
+      "title": "CVE-2026-44930",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-4519",
+      "source": "ibm",
+      "title": "CVE-2026-4519",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-45292",
+      "source": "ibm",
+      "title": "CVE-2026-45292",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-45505",
+      "source": "ibm",
+      "title": "CVE-2026-45505",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache ActiveMQ, Apache ActiveMQ Web. The MessageServlet in the ActiveMQ web console API copies every JMS message property into an HTTP response header without any validation. This can allow overwriting and injecting security headers by setting them on JMS messages that are returned by the servlet. This issue affects Apache ActiveMQ: before 5.19.7, from 6.0.0 before 6.2.6; Apache ActiveMQ Web: before 5.19.7, from 6.0.0 before 6.2.6. Users are recommended to upgrade to version 5.19.7 or 6.2.6, which fixes the issue. The MessageServlet has now been deprecated and disabled by default",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42253",
+        "https://www.ibm.com/support/pages/node/7281375"
+      ]
+    },
+    {
+      "id": "CVE-2026-46595",
+      "source": "ibm",
+      "title": "CVE-2026-46595",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-46597",
+      "source": "ibm",
+      "title": "CVE-2026-46597",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-46598",
+      "source": "ibm",
+      "title": "CVE-2026-46598",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-46605",
+      "source": "ibm",
+      "title": "CVE-2026-46605",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache ActiveMQ, Apache ActiveMQ Web. The MessageServlet in the ActiveMQ web console API copies every JMS message property into an HTTP response header without any validation. This can allow overwriting and injecting security headers by setting them on JMS messages that are returned by the servlet. This issue affects Apache ActiveMQ: before 5.19.7, from 6.0.0 before 6.2.6; Apache ActiveMQ Web: before 5.19.7, from 6.0.0 before 6.2.6. Users are recommended to upgrade to version 5.19.7 or 6.2.6, which fixes the issue. The MessageServlet has now been deprecated and disabled by default",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42253",
+        "https://www.ibm.com/support/pages/node/7281375"
+      ]
+    },
+    {
+      "id": "CVE-2026-4786",
+      "source": "ibm",
+      "title": "CVE-2026-4786",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-4867",
+      "source": "ibm",
+      "title": "CVE-2026-4867",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-48710",
+      "source": "ibm",
+      "title": "CVE-2026-48710",
+      "description": "Starlette is a lightweight ASGI framework or toolkit. Prior to version 1.0.1, the HTTP `Host` request header was not validated before being used to reconstruct `request.url`. Because the routing algorithm relies on the raw HTTP path while `request.url` is rebuilt from the `Host` header, a malformed header could make `request.url.path` differ from the path that was actually requested. Middleware and endpoints that apply security restrictions based on `request.url` (rather than the raw `scope` path) could therefore be bypassed. Users should upgrade to a version greater than or equal to version 1.0.1, which validates the `Host` header against the grammar of RFC 9112 §3.2 or RFC 3986 §3.2.2 when constructing `request.url` and falls back to `scope[server]` for malformed values",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-48710",
+        "https://www.ibm.com/support/pages/node/7281518"
+      ]
+    },
+    {
+      "id": "CVE-2026-49157",
+      "source": "ibm",
+      "title": "CVE-2026-49157",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache ActiveMQ, Apache ActiveMQ Web. The MessageServlet in the ActiveMQ web console API copies every JMS message property into an HTTP response header without any validation. This can allow overwriting and injecting security headers by setting them on JMS messages that are returned by the servlet. This issue affects Apache ActiveMQ: before 5.19.7, from 6.0.0 before 6.2.6; Apache ActiveMQ Web: before 5.19.7, from 6.0.0 before 6.2.6. Users are recommended to upgrade to version 5.19.7 or 6.2.6, which fixes the issue. The MessageServlet has now been deprecated and disabled by default",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42253",
+        "https://www.ibm.com/support/pages/node/7281375"
+      ]
+    },
+    {
+      "id": "CVE-2026-49270",
+      "source": "ibm",
+      "title": "CVE-2026-49270",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache ActiveMQ, Apache ActiveMQ Web. The MessageServlet in the ActiveMQ web console API copies every JMS message property into an HTTP response header without any validation. This can allow overwriting and injecting security headers by setting them on JMS messages that are returned by the servlet. This issue affects Apache ActiveMQ: before 5.19.7, from 6.0.0 before 6.2.6; Apache ActiveMQ Web: before 5.19.7, from 6.0.0 before 6.2.6. Users are recommended to upgrade to version 5.19.7 or 6.2.6, which fixes the issue. The MessageServlet has now been deprecated and disabled by default",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42253",
+        "https://www.ibm.com/support/pages/node/7281375"
+      ]
+    },
+    {
+      "id": "CVE-2026-49356",
+      "source": "ibm",
+      "title": "CVE-2026-49356",
+      "description": "Babel is a compiler for writing next generation JavaScript. Prior to 8.0.0-rc.6 and 7.29.6, @babel or core affected by an arbitrary file read via a sourceMappingURL comment. Using @babel or core to compile maliciously crafted code can allow an attacker to read any source map from the system that is running Babel, if the attacker controls the input source code, can read the output source code, and knows the path of the source map file that they want to read. This vulnerability is fixed in 8.0.0-rc.6 and 7.29.6",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-49356",
+        "https://www.ibm.com/support/pages/node/7281383"
+      ]
+    },
+    {
+      "id": "CVE-2026-49844",
+      "source": "ibm",
+      "title": "CVE-2026-49844",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-50645",
+      "source": "ibm",
+      "title": "CVE-2026-50645",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281412"
+      ]
+    },
+    {
+      "id": "CVE-2026-53550",
+      "source": "ibm",
+      "title": "CVE-2026-53550",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54500",
+      "source": "ibm",
+      "title": "CVE-2026-54500",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54502",
+      "source": "ibm",
+      "title": "CVE-2026-54502",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54592",
+      "source": "ibm",
+      "title": "CVE-2026-54592",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54896",
+      "source": "ibm",
+      "title": "CVE-2026-54896",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54897",
+      "source": "ibm",
+      "title": "CVE-2026-54897",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54898",
+      "source": "ibm",
+      "title": "CVE-2026-54898",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54899",
+      "source": "ibm",
+      "title": "CVE-2026-54899",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54900",
+      "source": "ibm",
+      "title": "CVE-2026-54900",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54901",
+      "source": "ibm",
+      "title": "CVE-2026-54901",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54902",
+      "source": "ibm",
+      "title": "CVE-2026-54902",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54903",
+      "source": "ibm",
+      "title": "CVE-2026-54903",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54904",
+      "source": "ibm",
+      "title": "CVE-2026-54904",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54905",
+      "source": "ibm",
+      "title": "CVE-2026-54905",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-54906",
+      "source": "ibm",
+      "title": "CVE-2026-54906",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-5516",
+      "source": "ibm",
+      "title": "CVE-2026-5516",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281446",
+        "https://www.ibm.com/support/pages/node/7281442"
+      ]
+    },
+    {
+      "id": "CVE-2026-5588",
+      "source": "ibm",
+      "title": "CVE-2026-5588",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-5598",
+      "source": "ibm",
+      "title": "CVE-2026-5598",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-5795",
+      "source": "ibm",
+      "title": "CVE-2026-5795",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-6100",
+      "source": "ibm",
+      "title": "CVE-2026-6100",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388",
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-6357",
+      "source": "ibm",
+      "title": "CVE-2026-6357",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-8149",
+      "source": "ibm",
+      "title": "CVE-2026-8149",
+      "description": "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs. Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response. At the very least, differential parsing may divulge implementation details",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-11143",
+        "https://www.ibm.com/support/pages/node/7277692"
+      ]
+    },
+    {
+      "id": "CVE-2026-8643",
+      "source": "ibm",
+      "title": "CVE-2026-8643",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7281349"
+      ]
+    },
+    {
+      "id": "CVE-2026-8646",
+      "source": "ibm",
+      "title": "CVE-2026-8646",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281446",
+        "https://www.ibm.com/support/pages/node/7281412",
+        "https://www.ibm.com/support/pages/node/7281442"
+      ]
+    },
+    {
+      "id": "CVE-2026-8723",
+      "source": "ibm",
+      "title": "CVE-2026-8723",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-9006",
+      "source": "ibm",
+      "title": "CVE-2026-9006",
+      "description": "IBM WebSphere Application Server 9.0, and 8.5 is vulnerable to server-side request forgery (SSRF) with the Ajax Proxy configured. This may allow an attacker to send unauthorized requests from the system, resulting in a security bypass or information disclosure",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-9006",
+        "https://www.ibm.com/support/pages/node/7281550"
+      ]
+    },
+    {
+      "id": "CVE-2026-9071",
+      "source": "ibm",
+      "title": "CVE-2026-9071",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281446",
+        "https://www.ibm.com/support/pages/node/7281412",
+        "https://www.ibm.com/support/pages/node/7281442"
+      ]
+    },
+    {
+      "id": "CVE-2026-9171",
+      "source": "ibm",
+      "title": "CVE-2026-9171",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281412"
+      ]
+    },
+    {
+      "id": "CVE-2026-9277",
+      "source": "ibm",
+      "title": "CVE-2026-9277",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    },
+    {
+      "id": "CVE-2026-9320",
+      "source": "ibm",
+      "title": "CVE-2026-9320",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281446",
+        "https://www.ibm.com/support/pages/node/7281412",
+        "https://www.ibm.com/support/pages/node/7281442"
+      ]
+    },
+    {
+      "id": "CVE-2026-9322",
+      "source": "ibm",
+      "title": "CVE-2026-9322",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7281412"
+      ]
+    },
+    {
+      "id": "CVE-2026-9358",
+      "source": "ibm",
+      "title": "CVE-2026-9358",
+      "description": "A flaw was found in gnutls. A remote attacker could exploit an issue in the Datagram Transport Layer Security (DTLS) packet reordering logic. The comparator function, responsible for ordering DTLS packets by sequence numbers, did not correctly handle packets with duplicate sequence numbers. This could lead to unstable packet ordering or undefined behavior, resulting in a denial of service",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-27",
+      "modified_date": "2026-07-27",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-42009",
+        "https://www.ibm.com/support/pages/node/7281388"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.ibm.com/support/pages/node/7281446",
+  "vendor": "ibm",
+  "references": [
+    "https://www.ibm.com/support/pages/node/7281446",
+    "https://www.ibm.com/support/pages/bulletin/",
+    "https://www.ibm.com/support/pages/node/7281375",
+    "https://www.ibm.com/support/pages/node/7281369",
+    "https://www.ibm.com/support/pages/node/7281388",
+    "https://www.ibm.com/support/pages/node/7281349",
+    "https://www.ibm.com/support/pages/node/7281550",
+    "https://www.ibm.com/support/pages/node/7281383",
+    "https://www.ibm.com/support/pages/node/7281384",
+    "https://www.ibm.com/support/pages/node/7281382",
+    "https://www.ibm.com/support/pages/node/7281438",
+    "https://www.ibm.com/support/pages/node/7281441",
+    "https://www.ibm.com/support/pages/node/7277692",
+    "https://www.ibm.com/support/pages/node/7281412",
+    "https://www.ibm.com/support/pages/node/7281518",
+    "https://www.ibm.com/support/pages/node/7276996",
+    "https://www.ibm.com/support/pages/node/7276995",
+    "https://www.ibm.com/support/pages/node/7281466",
+    "https://www.ibm.com/support/pages/node/7281442"
+  ]
+}

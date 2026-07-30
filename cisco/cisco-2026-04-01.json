@@ -2,8 +2,8 @@
   "id": "cisco-2026-04-01",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-04-01",
-  "description": "Merged 5 cisco security advisories published on 2026-04-01. Original advisory IDs: cisco-sa-cimc-xss-A2tkgVAB, cisco-sa-cimc-cmd-inj-3hKN3bVt, cisco-sa-ssm-cli-execution-cHUcWuNr, cisco-sa-cssm-priv-esc-xRAnOuO8, cisco-sa-epnm-improp-auth-mUwFWUU3\n\nTitles:\n- Cisco Integrated Management Controller Cross-Site Scripting Vulnerabilities\n- Cisco Integrated Management Controller Command Injection and Remote Code Execution Vulnerabilities\n- Cisco Smart Software Manager On-Prem Arbitrary Command Execution Vulnerability\n- Cisco Smart Software Manager On-Prem Privilege Escalation Vulnerability\n- Cisco Evolved Programmable Network Manager Improper Authorization Vulnerability",
-  "severity": "critical",
+  "description": "Merged 2 cisco security advisories published on 2026-04-01. Original advisory IDs: cisco-sa-cimc-xss-A2tkgVAB, cisco-sa-cimc-cmd-inj-3hKN3bVt\n\nTitles:\n- Cisco Integrated Management Controller Cross-Site Scripting Vulnerabilities\n- Cisco Integrated Management Controller Command Injection and Remote Code Execution Vulnerabilities",
+  "severity": "high",
   "cvss_scores": [
     {
       "version": "3.1",
@@ -28,28 +28,10 @@
       "score": 6.5,
       "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
       "severity": ""
-    },
-    {
-      "version": "3.1",
-      "score": 9.8,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "severity": ""
-    },
-    {
-      "version": "3.1",
-      "score": 7.3,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
-      "severity": ""
-    },
-    {
-      "version": "3.1",
-      "score": 8.0,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
-      "severity": ""
     }
   ],
-  "cvss_score": 9.8,
-  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cvss_score": 8.8,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
   "cwe_ids": [],
   "impact_type": "",
   "exploitability": "",
@@ -57,47 +39,9 @@
   "modified_date": "2026-04-22",
   "affected": [
     "cisco:cisco-sa-cimc-xss-A2tkgVAB",
-    "cisco:cisco-sa-cimc-cmd-inj-3hKN3bVt",
-    "cisco:cisco-sa-ssm-cli-execution-cHUcWuNr",
-    "cisco:cisco-sa-cssm-priv-esc-xRAnOuO8",
-    "cisco:cisco-sa-epnm-improp-auth-mUwFWUU3"
+    "cisco:cisco-sa-cimc-cmd-inj-3hKN3bVt"
   ],
   "affected_products": [
-    {
-      "vendor": "cisco",
-      "product": "Cisco Enterprise NFV Infrastructure",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:enterprise_nfv_infrastructure:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-20087"
-        },
-        {
-          "id": "CVE-2026-20085"
-        },
-        {
-          "id": "CVE-2026-20088"
-        },
-        {
-          "id": "CVE-2026-20090"
-        },
-        {
-          "id": "CVE-2026-20089"
-        },
-        {
-          "id": "CVE-2026-20095"
-        },
-        {
-          "id": "CVE-2026-20096"
-        }
-      ]
-    },
     {
       "vendor": "cisco",
       "product": "Cisco UCS E-Series",
@@ -127,6 +71,41 @@
         },
         {
           "id": "CVE-2026-20094"
+        },
+        {
+          "id": "CVE-2026-20095"
+        },
+        {
+          "id": "CVE-2026-20096"
+        }
+      ]
+    },
+    {
+      "vendor": "cisco",
+      "product": "Cisco Enterprise NFV Infrastructure",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:cisco:enterprise_nfv_infrastructure:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20087"
+        },
+        {
+          "id": "CVE-2026-20085"
+        },
+        {
+          "id": "CVE-2026-20088"
+        },
+        {
+          "id": "CVE-2026-20090"
+        },
+        {
+          "id": "CVE-2026-20089"
         },
         {
           "id": "CVE-2026-20095"
@@ -174,43 +153,6 @@
         },
         {
           "id": "CVE-2026-20097"
-        }
-      ]
-    },
-    {
-      "vendor": "cisco",
-      "product": "Cisco Smart Software Manager On-Prem",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:cisco_smart_software_manager_on-prem:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-20160"
-        },
-        {
-          "id": "CVE-2026-20151"
-        }
-      ]
-    },
-    {
-      "vendor": "cisco",
-      "product": "Cisco Evolved Programmable Network Manager",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:cisco_evolved_programmable_network_manager:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-20155"
         }
       ]
     }
@@ -353,51 +295,6 @@
       "references": [
         "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-cmd-inj-3hKN3bVt"
       ]
-    },
-    {
-      "id": "CVE-2026-20151",
-      "source": "cisco",
-      "title": "Cisco Smart Software Manager On-Prem Privilege Escalation Vulnerability",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.3,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
-      "published_date": "2026-04-01",
-      "modified_date": "2026-04-01",
-      "affected": [],
-      "references": [
-        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cssm-priv-esc-xRAnOuO8"
-      ]
-    },
-    {
-      "id": "CVE-2026-20155",
-      "source": "cisco",
-      "title": "Cisco Evolved Programmable Network Manager Improper Authorization Vulnerability",
-      "description": "",
-      "severity": null,
-      "cvss_score": 8.0,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
-      "published_date": "2026-04-01",
-      "modified_date": "2026-04-01",
-      "affected": [],
-      "references": [
-        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-epnm-improp-auth-mUwFWUU3"
-      ]
-    },
-    {
-      "id": "CVE-2026-20160",
-      "source": "cisco",
-      "title": "Cisco Smart Software Manager On-Prem Arbitrary Command Execution Vulnerability",
-      "description": "",
-      "severity": null,
-      "cvss_score": 9.8,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "published_date": "2026-04-01",
-      "modified_date": "2026-04-01",
-      "affected": [],
-      "references": [
-        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ssm-cli-execution-cHUcWuNr"
-      ]
     }
   ],
   "exploits": [],
@@ -406,9 +303,6 @@
   "vendor": "cisco",
   "references": [
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-A2tkgVAB",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-cmd-inj-3hKN3bVt",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ssm-cli-execution-cHUcWuNr",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cssm-priv-esc-xRAnOuO8",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-epnm-improp-auth-mUwFWUU3"
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-cmd-inj-3hKN3bVt"
   ]
 }
