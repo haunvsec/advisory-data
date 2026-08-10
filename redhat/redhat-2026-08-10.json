@@ -1,0 +1,287 @@
+{
+  "id": "redhat-2026-08-10",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-08-10",
+  "description": "Merged 7 redhat security advisories published on 2026-08-10. Original advisory IDs: RHSA-2026:52399, RHSA-2026:52400, RHSA-2026:52389, RHSA-2026:52397, RHSA-2026:52392, RHSA-2026:52390, RHSA-2026:52393\n\nTitles:\n- Red Hat Security Advisory: nodejs:22 security update\n- Red Hat Security Advisory: python3 security update\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: xorg-x11-server-Xwayland security update\n- Red Hat Security Advisory: mod_md security update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-770",
+    "CWE-1333",
+    "CWE-79",
+    "CWE-209",
+    "CWE-289",
+    "CWE-606",
+    "CWE-825",
+    "CWE-1286",
+    "CWE-805"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-10",
+  "modified_date": "2026-08-10",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-12151"
+        },
+        {
+          "id": "CVE-2026-13149"
+        },
+        {
+          "id": "CVE-2026-42338"
+        },
+        {
+          "id": "CVE-2026-48615"
+        },
+        {
+          "id": "CVE-2026-48618"
+        },
+        {
+          "id": "CVE-2026-48933"
+        },
+        {
+          "id": "CVE-2026-59873"
+        },
+        {
+          "id": "CVE-2026-59874"
+        },
+        {
+          "id": "CVE-2026-6100"
+        },
+        {
+          "id": "CVE-2026-25679"
+        },
+        {
+          "id": "CVE-2026-55999"
+        },
+        {
+          "id": "CVE-2026-29168"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-12151",
+      "source": "redhat",
+      "title": "undici: undici: Denial of Service due to unbounded memory growth via WebSocket frames",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12151"
+      ]
+    },
+    {
+      "id": "CVE-2026-13149",
+      "source": "redhat",
+      "title": "brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-13149"
+      ]
+    },
+    {
+      "id": "CVE-2026-25679",
+      "source": "redhat",
+      "title": "net/url: Incorrect parsing of IPv6 host literals in net/url",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-25679"
+      ]
+    },
+    {
+      "id": "CVE-2026-29168",
+      "source": "redhat",
+      "title": "httpd: mod_md: unrestricted OCSP response leads to resource exhaustion",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-29168"
+      ]
+    },
+    {
+      "id": "CVE-2026-42338",
+      "source": "redhat",
+      "title": "ip-address: ip-address: Cross-site scripting via improper HTML escaping of untrusted input",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-42338"
+      ]
+    },
+    {
+      "id": "CVE-2026-48615",
+      "source": "redhat",
+      "title": "nodejs: Node.js: Information disclosure of proxy credentials via proxy tunnel error handling",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48615"
+      ]
+    },
+    {
+      "id": "CVE-2026-48618",
+      "source": "redhat",
+      "title": "nodejs: Node.js: Authentication bypass due to TLS hostname handling and unicode dot separator mismatch",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.7,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48618"
+      ]
+    },
+    {
+      "id": "CVE-2026-48933",
+      "source": "redhat",
+      "title": "nodejs: Node.js WebCrypto: Denial of Service via large input to subtle.encrypt()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48933"
+      ]
+    },
+    {
+      "id": "CVE-2026-55999",
+      "source": "redhat",
+      "title": "xorg: X11: xserver: X.org: glamor Font Atlas Heap Buffer Overflow",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-55999"
+      ]
+    },
+    {
+      "id": "CVE-2026-59873",
+      "source": "redhat",
+      "title": "tar: node-tar: Denial of Service via crafted gzip bomb",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59873"
+      ]
+    },
+    {
+      "id": "CVE-2026-59874",
+      "source": "redhat",
+      "title": "tar: Node-tar: Denial of Service via malformed tar archive header",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59874"
+      ]
+    },
+    {
+      "id": "CVE-2026-6100",
+      "source": "redhat",
+      "title": "python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6100"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:52399",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:52399",
+    "https://access.redhat.com/errata/RHSA-2026:52400",
+    "https://access.redhat.com/errata/RHSA-2026:52389",
+    "https://access.redhat.com/errata/RHSA-2026:52397",
+    "https://access.redhat.com/errata/RHSA-2026:52392",
+    "https://access.redhat.com/errata/RHSA-2026:52390",
+    "https://access.redhat.com/errata/RHSA-2026:52393"
+  ]
+}

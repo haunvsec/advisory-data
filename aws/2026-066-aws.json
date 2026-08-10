@@ -1,0 +1,80 @@
+{
+  "id": "2026-066-aws",
+  "source": "aws",
+  "title": "Incomplete fix for CVE-2025-4318 code injection in Amazon &commat;aws-amplify/codegen-ui-react",
+  "description": "Incomplete fix for CVE-2025-4318 code injection in Amazon @aws-amplify/codegen-ui-react\nBulletin ID:\n2026-066-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n07/30/2026 11:00 AM PDT\nDescription:\nAmplify Codegen UI is a library that generates React components and themes from schema definitions for use in AWS Amplify projects. We identified\nCVE-2026-18245\n, an issue that exists in the amplify-codgen-ui-react package that could allow an authenticated user to run arbitrary JavaScript code during the component rendering and build process.\nImpacted versions:\n<2.20.6\nResolution:\nThis issue has been addressed in @aws-amplify/codegen-ui-react version\n2.20.6\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nThere are no workarounds. Upgrade to version 2.20.6.\nAcknowledgements\nWe would like to thank George Chen who reported this issue and collaborating on this issue through the coordinated issue disclosure process.\nReferences:\nGHSA-74xx-rjgf-m69j\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-30",
+  "modified_date": "",
+  "affected": [
+    "aws:Amplify Codegen UI is a library that generates React components and themes from schema definitions for use in AWS Amplify projects. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-4318"
+        },
+        {
+          "id": "CVE-2026-18245"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "2.20.6"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-4318",
+      "source": "aws",
+      "title": "CVE-2025-4318",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-30",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-18245",
+      "source": "aws",
+      "title": "CVE-2026-18245",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-30",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-066-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-066-aws/"
+  ]
+}

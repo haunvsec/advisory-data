@@ -2,7 +2,7 @@
   "id": "aws-alas-2026-07-24",
   "source": "aws-alas",
   "title": "Aws Security Advisories - 2026-07-24",
-  "description": "Merged 17 aws security advisories published on 2026-07-24. Original advisory IDs: ALAS2023NVIDIA-2026-298, ALAS2023NVIDIA-2026-299, ALAS2023NVIDIA-2026-300, ALAS2023NVIDIA-2026-301, ALAS2023NVIDIA-2026-302, ALAS2023NVIDIA-2026-303, ALAS2023NVIDIA-2026-304, ALAS2023NVIDIA-2026-305, ALAS2023NVIDIA-2026-306, ALAS2023NVIDIA-2026-307, ALAS2023NVIDIA-2026-308, ALAS2023NVIDIA-2026-309, ALAS2023NVIDIA-2026-310, ALAS2023NVIDIA-2026-311, ALAS2023NVIDIA-2026-312, ALAS2023NVIDIA-2026-313, ALAS2023-2026-2001\n\nTitles:\n- ALAS2023NVIDIA-2026-298 (important): nvlink5\n- ALAS2023NVIDIA-2026-299 (important): nvidia-xconfig\n- ALAS2023NVIDIA-2026-300 (important): nvidia-persistenced\n- ALAS2023NVIDIA-2026-301 (important): nvidia-open\n- ALAS2023NVIDIA-2026-302 (important): nvidia-modprobe\n- ALAS2023NVIDIA-2026-303 (important): nvidia-settings\n- ALAS2023NVIDIA-2026-304 (important): nvidia-kmod-common\n- ALAS2023NVIDIA-2026-305 (important): nvidia-imex\n- ALAS2023NVIDIA-2026-306 (important): nvidia-fabricmanager\n- ALAS2023NVIDIA-2026-307 (important): libnvsdm\n- ALAS2023NVIDIA-2026-308 (important): libnvidia-nscq\n- ALAS2023NVIDIA-2026-309 (important): nvidia-driver\n- ALAS2023NVIDIA-2026-310 (important): kmod-nvidia-open-dkms\n- ALAS2023NVIDIA-2026-311 (important): kmod-nvidia-latest-dkms\n- ALAS2023NVIDIA-2026-312 (important): cuda-drivers\n- ALAS2023NVIDIA-2026-313 (important): cuda-compat\n- ALAS2023-2026-2001 (important): kernel",
+  "description": "Merged 7 aws security advisories published on 2026-07-24. Original advisory IDs: ALAS2023NVIDIA-2026-298, ALAS2023NVIDIA-2026-299, ALAS2023NVIDIA-2026-300, ALAS2023NVIDIA-2026-301, ALAS2023NVIDIA-2026-302, ALAS2023NVIDIA-2026-303, ALAS2023NVIDIA-2026-304\n\nTitles:\n- ALAS2023NVIDIA-2026-298 (important): nvlink5\n- ALAS2023NVIDIA-2026-299 (important): nvidia-xconfig\n- ALAS2023NVIDIA-2026-300 (important): nvidia-persistenced\n- ALAS2023NVIDIA-2026-301 (important): nvidia-open\n- ALAS2023NVIDIA-2026-302 (important): nvidia-modprobe\n- ALAS2023NVIDIA-2026-303 (important): nvidia-settings\n- ALAS2023NVIDIA-2026-304 (important): nvidia-kmod-common",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -19,17 +19,7 @@
     "al2023:nvidia-open",
     "al2023:nvidia-modprobe",
     "al2023:nvidia-settings",
-    "al2023:nvidia-kmod-common",
-    "al2023:nvidia-imex",
-    "al2023:nvidia-fabricmanager",
-    "al2023:libnvsdm",
-    "al2023:libnvidia-nscq",
-    "al2023:nvidia-driver",
-    "al2023:kmod-nvidia-open-dkms",
-    "al2023:kmod-nvidia-latest-dkms",
-    "al2023:cuda-drivers",
-    "al2023:cuda-compat",
-    "al2023:kernel"
+    "al2023:nvidia-kmod-common"
   ],
   "affected_products": [
     {
@@ -150,247 +140,16 @@
           "id": "CVE-2026-24193"
         }
       ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Nvidia-imex",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:nvidia-imex:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-24193"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Nvidia-fabricmanager",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:nvidia-fabricmanager:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-24193"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Libnvsdm",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:libnvsdm:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-24193"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Libnvidia-nscq",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:libnvidia-nscq:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-24193"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Nvidia-driver",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:nvidia-driver:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-24193"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Kmod-nvidia-open-dkms",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:kmod-nvidia-open-dkms:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-24193"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Kmod-nvidia-latest-dkms",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:kmod-nvidia-latest-dkms:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-24193"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Cuda-drivers",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:cuda-drivers:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-24193"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Cuda-compat",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:cuda-compat:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-24193"
-        }
-      ]
-    },
-    {
-      "vendor": "al2023",
-      "product": "Kernel",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:al2023:kernel:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-45859"
-        },
-        {
-          "id": "CVE-2026-46324"
-        },
-        {
-          "id": "CVE-2026-53078"
-        },
-        {
-          "id": "CVE-2026-53359"
-        }
-      ]
     }
   ],
   "fixed_versions": [],
-  "solution": "dnf update nvlink5 --releasever latest\n\ndnf update nvidia-xconfig --releasever latest\n\ndnf update nvidia-persistenced --releasever latest\n\ndnf update nvidia-open --releasever latest\n\ndnf update nvidia-modprobe --releasever latest\n\ndnf update nvidia-settings --releasever latest\n\ndnf update nvidia-kmod-common --releasever latest\n\ndnf update nvidia-imex --releasever latest\n\ndnf update nvidia-fabricmanager --releasever latest\n\ndnf update libnvsdm --releasever latest\n\ndnf update libnvidia-nscq --releasever latest\n\ndnf update nvidia-driver --releasever latest\n\ndnf update kmod-nvidia-open-dkms --releasever latest\n\ndnf update kmod-nvidia-latest-dkms --releasever latest\n\ndnf update cuda-drivers --releasever latest\n\ndnf update cuda-compat --releasever latest\n\ndnf update kernel --releasever 2023.12.20260724",
+  "solution": "dnf update nvlink5 --releasever latest\n\ndnf update nvidia-xconfig --releasever latest\n\ndnf update nvidia-persistenced --releasever latest\n\ndnf update nvidia-open --releasever latest\n\ndnf update nvidia-modprobe --releasever latest\n\ndnf update nvidia-settings --releasever latest\n\ndnf update nvidia-kmod-common --releasever latest",
   "remediations": [],
   "cves": [
     {
       "id": "CVE-2026-24193",
       "source": "aws-alas",
       "title": "CVE-2026-24193",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-24",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-45859",
-      "source": "aws-alas",
-      "title": "CVE-2026-45859",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-24",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46324",
-      "source": "aws-alas",
-      "title": "CVE-2026-46324",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-24",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-53078",
-      "source": "aws-alas",
-      "title": "CVE-2026-53078",
-      "description": "",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-24",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-53359",
-      "source": "aws-alas",
-      "title": "CVE-2026-53359",
       "description": "",
       "severity": "high",
       "cvss_score": null,
@@ -412,16 +171,6 @@
     "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-301.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-302.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-303.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-304.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-305.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-306.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-307.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-308.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-309.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-310.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-311.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-312.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-313.html",
-    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-2001.html"
+    "https://alas.aws.amazon.com/AL2023/ALAS2023NVIDIA-2026-304.html"
   ]
 }

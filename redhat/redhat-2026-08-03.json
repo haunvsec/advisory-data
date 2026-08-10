@@ -1,0 +1,112 @@
+{
+  "id": "redhat-2026-08-03",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-08-03",
+  "description": "Merged 4 redhat security advisories published on 2026-08-03. Original advisory IDs: RHSA-2026:49775, RHSA-2026:49758, RHSA-2026:49715, RHSA-2026:49716\n\nTitles:\n- Red Hat Security Advisory: libsolv security update\n- Red Hat Security Advisory: perl-GD security update\n- Red Hat Security Advisory: RHEL AI 3.5 RPM runtime CVE fix - thrift\n- Red Hat Security Advisory: RHEL AI 3.4 RPM runtime CVE fix - thrift",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-787",
+    "CWE-78",
+    "CWE-122"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-03",
+  "modified_date": "2026-08-07",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux AI",
+    "redhat:Red Hat Enterprise Linux AI 3.5 for RHEL 9",
+    "redhat:Red Hat Enterprise Linux AI 3.4 for RHEL 9"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-48864"
+        },
+        {
+          "id": "CVE-2026-11526"
+        },
+        {
+          "id": "CVE-2026-55971"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-11526",
+      "source": "redhat",
+      "title": "perl-GD: perl-GD: Arbitrary command execution and file overwrite via crafted filenames",
+      "description": "",
+      "severity": "critical",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-03",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-11526"
+      ]
+    },
+    {
+      "id": "CVE-2026-48864",
+      "source": "redhat",
+      "title": "libsolv: Heap buffer overflow in libsolv repopagestore via unchecked decompression of malicious .solv page data",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-03",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48864"
+      ]
+    },
+    {
+      "id": "CVE-2026-55971",
+      "source": "redhat",
+      "title": "thrift: Apache Thrift C++ bindings: Remote code execution via heap-based buffer overflow",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-03",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-55971"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:49775",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:49775",
+    "https://access.redhat.com/errata/RHSA-2026:49758",
+    "https://access.redhat.com/errata/RHSA-2026:49715",
+    "https://access.redhat.com/errata/RHSA-2026:49716"
+  ]
+}

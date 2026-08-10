@@ -1,8 +1,8 @@
 {
-  "id": "aws-alas-2026-07-27",
-  "source": "aws-alas",
+  "id": "aws-2026-07-27",
+  "source": "aws",
   "title": "Aws Security Advisories - 2026-07-27",
-  "description": "Merged 3 aws security advisories published on 2026-07-27. Original advisory IDs: ALAS2023-2026-2003, ALAS2023-2026-2004, ALAS2023-2026-2005\n\nTitles:\n- ALAS2023-2026-2003 (important): kernel6.18\n- ALAS2023-2026-2004 (important): kernel6.12\n- ALAS2023-2026-2005 (important): kernel",
+  "description": "Merged 2 aws security advisories published on 2026-07-27. Original advisory IDs: aws-neptune-latest, aws-alas-2026-07-27\n\nTitles:\n- AWS Neptune Release Notes\n- Aws Security Advisories - 2026-07-27",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -13,11 +13,29 @@
   "published_date": "2026-07-27",
   "modified_date": "2026-07-27",
   "affected": [
+    "aws:neptune",
     "al2023:kernel6.18",
     "al2023:kernel6.12",
     "al2023:kernel"
   ],
   "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Neptune",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:aws:neptune:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-64600"
+        }
+      ]
+    },
     {
       "vendor": "al2023",
       "product": "Kernel6.18",
@@ -70,7 +88,9 @@
       ]
     }
   ],
-  "fixed_versions": [],
+  "fixed_versions": [
+    "1.3.0.0"
+  ],
   "solution": "dnf update kernel6.18 --releasever 2023.12.20260727\n\ndnf update kernel6.12 --releasever 2023.12.20260727\n\ndnf update kernel --releasever 2023.12.20260727",
   "remediations": [],
   "cves": [
@@ -90,9 +110,10 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-2003.html",
+  "url": "https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html",
   "vendor": "aws",
   "references": [
+    "https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-2003.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-2004.html",
     "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-2005.html"

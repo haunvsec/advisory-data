@@ -1,0 +1,78 @@
+{
+  "id": "2026-074-aws",
+  "source": "aws-kiro",
+  "title": "CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows",
+  "description": "CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows\nBulletin ID:\n2026-074-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n08/04/2026 12:30 PM PDT\nDescription:\nKiro is an agentic IDE and command-line interface users install on their desktop. We identified\nCVE-2026-18656\nand\nCVE-2026-18657\n, an issue where an uncontrolled search path element on Windows might allow an actor to execute arbitrary code via a maliciously crafted project directory containing a planted executable that is resolved before the system PATH when a local user opens the directory.\nImpacted versions:\nKiro IDE for Windows between versions 1.0.0 through 1.0.212\nKiro CLI for Windows prior to v2.10.0\nResolution:\nThis issue has been addressed in\nKiro IDE version 1.0.228\nand in\nKiro CLI version 2.10.0\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nNo workaround available.\nReferences:\nCVE-2026-18656\nCVE-2026-18657\nAcknowledgements:\nWe would like to thank Edo Maland for Kiro IDE issue through the coordinated vulnerability disclosure process.\nWe would like to thank Emanuele Barbeno, Cyrill Bannwart, Urs Mueller, Lukasz D, Yves Bieri of Compass Security for collaborating on Kiro CLI issue through the coordinated vulnerability disclosure process\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-04",
+  "modified_date": "",
+  "affected": [
+    "aws-kiro:Kiro is an agentic IDE and command-line interface users install on their desktop. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws-kiro",
+      "product": "Kiro is an agentic IDE and command-line interface users install on their desktop. We identified",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:aws-kiro:kiro_is_an_agentic_ide_and_command-line_interface_users_install_on_their_desktop._we_identified:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-18656"
+        },
+        {
+          "id": "CVE-2026-18657"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-18656",
+      "source": "aws-kiro",
+      "title": "CVE-2026-18656",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-04",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-18657",
+      "source": "aws-kiro",
+      "title": "CVE-2026-18657",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-04",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
+  "vendor": "aws-kiro",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/"
+  ]
+}

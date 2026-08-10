@@ -1,0 +1,84 @@
+{
+  "id": "aws-2026-05-20",
+  "source": "aws",
+  "title": "Aws Security Advisories - 2026-05-20",
+  "description": "Merged 2 aws security advisories published on 2026-05-20. Original advisory IDs: aws-rds-sqlserver-latest, 2026-034-aws\n\nTitles:\n- AWS RDS SQL Server Release Notes\n- CVE-2026-9133 - Arbitrary file read in rabbitmq-aws plugin",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-05-20",
+  "modified_date": "2026-05-20",
+  "affected": [
+    "aws:rds-sql-server",
+    "aws:rabbitmq-aws is a RabbitMQ plugin that resolves AWS ARNs in broker configuration at startup, fetching secrets (e.g., TLS certificates, private keys, passwords) from AWS services (Secrets Manager, S3, ACM Private CA) and passing them in-memory to RabbitMQ. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Rds-sql-server",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:aws:rds-sql-server:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-9133"
+        }
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-9133"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "17.0.4045.5",
+    "0.2.1"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-9133",
+      "source": "aws",
+      "title": "CVE-2026-9133",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-05-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/SQLServer.Concepts.General.html",
+  "vendor": "aws",
+  "references": [
+    "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/SQLServer.Concepts.General.html",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-034-aws/"
+  ]
+}

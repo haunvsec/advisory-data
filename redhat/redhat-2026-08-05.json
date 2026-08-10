@@ -1,0 +1,460 @@
+{
+  "id": "redhat-2026-08-05",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-08-05",
+  "description": "Merged 21 redhat security advisories published on 2026-08-05. Original advisory IDs: RHSA-2026:50863, RHSA-2026:50817, RHSA-2026:50816, RHSA-2026:50811, RHSA-2026:50808, RHSA-2026:50774, RHSA-2026:50779, RHSA-2026:50770, RHSA-2026:50771, RHSA-2026:50769, RHSA-2026:50772, RHSA-2026:50747, RHSA-2026:50718, RHSA-2026:50729, RHSA-2026:50691, RHSA-2026:50655, RHSA-2026:50688, RHSA-2026:50654, RHSA-2026:50653, RHSA-2026:50572, RHSA-2026:50538\n\nTitles:\n- Red Hat Security Advisory: libpq security update\n- Red Hat Security Advisory: gimp security update\n- Red Hat Security Advisory: python3 security update\n- Red Hat Security Advisory: postgresql security update\n- Red Hat Security Advisory: libpng security update\n- Red Hat Security Advisory: libtiff security update\n- Red Hat Security Advisory: python3.12 security update\n- Red Hat Security Advisory: freeipmi security update\n- Red Hat Security Advisory: freerdp security update\n- Red Hat Security Advisory: xorg-x11-server-Xwayland security update\n- Red Hat Security Advisory: gstreamer1-plugins-ugly-free security update\n- Red Hat Security Advisory: fence-agents security update\n- Red Hat Security Advisory: mod_http2 security update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-120",
+    "CWE-131",
+    "CWE-190",
+    "CWE-125",
+    "CWE-835",
+    "CWE-825",
+    "CWE-122",
+    "CWE-787",
+    "CWE-805",
+    "CWE-409",
+    "CWE-401"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-05",
+  "modified_date": "2026-08-10",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux High Availability E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Resilient Storage E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux High Availability E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Resilient Storage E4S (v.9.2)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-6477"
+        },
+        {
+          "id": "CVE-2026-42169"
+        },
+        {
+          "id": "CVE-2026-66758"
+        },
+        {
+          "id": "CVE-2026-66759"
+        },
+        {
+          "id": "CVE-2026-15308"
+        },
+        {
+          "id": "CVE-2026-6637"
+        },
+        {
+          "id": "CVE-2026-33416"
+        },
+        {
+          "id": "CVE-2026-12912"
+        },
+        {
+          "id": "CVE-2026-33554"
+        },
+        {
+          "id": "CVE-2026-50031"
+        },
+        {
+          "id": "CVE-2026-55827"
+        },
+        {
+          "id": "CVE-2026-55999"
+        },
+        {
+          "id": "CVE-2026-56000"
+        },
+        {
+          "id": "CVE-2026-53703"
+        },
+        {
+          "id": "CVE-2026-53704"
+        },
+        {
+          "id": "CVE-2026-59939"
+        },
+        {
+          "id": "CVE-2025-53020"
+        },
+        {
+          "id": "CVE-2026-43951"
+        },
+        {
+          "id": "CVE-2026-48913"
+        },
+        {
+          "id": "CVE-2026-49975"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-53020",
+      "source": "redhat",
+      "title": "mod_http2: Apache HTTP Server: HTTP/2 DoS by Memory Increase",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-53020"
+      ]
+    },
+    {
+      "id": "CVE-2026-12912",
+      "source": "redhat",
+      "title": "libtiff: libtiff: Heap-based buffer overflow via crafted PixarLog-compressed TIFF image",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-12912"
+      ]
+    },
+    {
+      "id": "CVE-2026-15308",
+      "source": "redhat",
+      "title": "python: Python: CPU Denial of Service in HTML parser via repeated unterminated markup declarations",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-15308"
+      ]
+    },
+    {
+      "id": "CVE-2026-33416",
+      "source": "redhat",
+      "title": "libpng: libpng: Arbitrary code execution due to use-after-free vulnerability",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33416"
+      ]
+    },
+    {
+      "id": "CVE-2026-33554",
+      "source": "redhat",
+      "title": "freeipmi: buffer overflows on response messages via ipmi-oem",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33554"
+      ]
+    },
+    {
+      "id": "CVE-2026-42169",
+      "source": "redhat",
+      "title": "gimp: GIMP APNG loader heap-buffer-overflow when fcTL width exceeds IHDR width (file-png.c)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-42169"
+      ]
+    },
+    {
+      "id": "CVE-2026-43951",
+      "source": "redhat",
+      "title": "httpd: Apache HTTP Server: Out-of-bounds Read in mod_headers and mod_mime",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43951"
+      ]
+    },
+    {
+      "id": "CVE-2026-48913",
+      "source": "redhat",
+      "title": "httpd: mod_http2: Apache HTTP Server mod_http2: Use After Free vulnerability allows arbitrary code execution or denial of service.",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48913"
+      ]
+    },
+    {
+      "id": "CVE-2026-49975",
+      "source": "redhat",
+      "title": "httpd: httpd: HTTP/2 Remote Denial of Service via compression bomb and Slowloris-style attack",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-49975"
+      ]
+    },
+    {
+      "id": "CVE-2026-50031",
+      "source": "redhat",
+      "title": "freeipmi: FreeIPMI: Denial of service via buffer overflow in ipmi-oem client",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50031"
+      ]
+    },
+    {
+      "id": "CVE-2026-53703",
+      "source": "redhat",
+      "title": "gstreamer1-plugins-ugly-free: GStreamer: Out-of-bounds read in RealMedia demuxer audio stream header parser",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53703"
+      ]
+    },
+    {
+      "id": "CVE-2026-53704",
+      "source": "redhat",
+      "title": "gstreamer1-plugins-ugly-free: GStreamer: Out-of-bounds read in RealMedia demuxer FILEINFO metadata parser",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53704"
+      ]
+    },
+    {
+      "id": "CVE-2026-55827",
+      "source": "redhat",
+      "title": "FreeRDP: FreeRDP: Remote code execution via heap out-of-bounds write in RemoteFX decoding",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-55827"
+      ]
+    },
+    {
+      "id": "CVE-2026-55999",
+      "source": "redhat",
+      "title": "xorg: X11: xserver: X.org: glamor Font Atlas Heap Buffer Overflow",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-55999"
+      ]
+    },
+    {
+      "id": "CVE-2026-56000",
+      "source": "redhat",
+      "title": "X.org: xorg-x11-server: GLX contextTags Use-After-Free in CommonMakeCurrent()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-56000"
+      ]
+    },
+    {
+      "id": "CVE-2026-59939",
+      "source": "redhat",
+      "title": "httplib2: httplib2: Denial of Service via unbounded decompression of HTTP response bodies",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59939"
+      ]
+    },
+    {
+      "id": "CVE-2026-6477",
+      "source": "redhat",
+      "title": "postgresql: PostgreSQL libpq: Buffer overflow allows server superuser to overwrite client stack memory",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6477"
+      ]
+    },
+    {
+      "id": "CVE-2026-6637",
+      "source": "redhat",
+      "title": "postgresql: PostgreSQL: Arbitrary code execution vulnerability in 'refint' module",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-6637"
+      ]
+    },
+    {
+      "id": "CVE-2026-66758",
+      "source": "redhat",
+      "title": "gimp: integer overflow in file-fits plugin causes a heap-based buffer overflow on crafted FITS images",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-66758"
+      ]
+    },
+    {
+      "id": "CVE-2026-66759",
+      "source": "redhat",
+      "title": "gimp: out-of-bounds read in file-icns plugin causes information disclosure or crash on crafted ICNS images",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+      "published_date": "2026-08-05",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-66759"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:50863",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:50863",
+    "https://access.redhat.com/errata/RHSA-2026:50817",
+    "https://access.redhat.com/errata/RHSA-2026:50816",
+    "https://access.redhat.com/errata/RHSA-2026:50811",
+    "https://access.redhat.com/errata/RHSA-2026:50808",
+    "https://access.redhat.com/errata/RHSA-2026:50774",
+    "https://access.redhat.com/errata/RHSA-2026:50779",
+    "https://access.redhat.com/errata/RHSA-2026:50770",
+    "https://access.redhat.com/errata/RHSA-2026:50771",
+    "https://access.redhat.com/errata/RHSA-2026:50769",
+    "https://access.redhat.com/errata/RHSA-2026:50772",
+    "https://access.redhat.com/errata/RHSA-2026:50747",
+    "https://access.redhat.com/errata/RHSA-2026:50718",
+    "https://access.redhat.com/errata/RHSA-2026:50729",
+    "https://access.redhat.com/errata/RHSA-2026:50691",
+    "https://access.redhat.com/errata/RHSA-2026:50655",
+    "https://access.redhat.com/errata/RHSA-2026:50688",
+    "https://access.redhat.com/errata/RHSA-2026:50654",
+    "https://access.redhat.com/errata/RHSA-2026:50653",
+    "https://access.redhat.com/errata/RHSA-2026:50572",
+    "https://access.redhat.com/errata/RHSA-2026:50538"
+  ]
+}

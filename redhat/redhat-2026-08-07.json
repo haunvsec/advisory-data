@@ -1,0 +1,190 @@
+{
+  "id": "redhat-2026-08-07",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-08-07",
+  "description": "Merged 3 redhat security advisories published on 2026-08-07. Original advisory IDs: RHSA-2026:51746, RHSA-2026:51603, RHSA-2026:51604\n\nTitles:\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-266",
+    "CWE-280",
+    "CWE-130",
+    "CWE-754",
+    "CWE-763",
+    "CWE-826",
+    "CWE-825"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-07",
+  "modified_date": "2026-08-10",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.2)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-10263"
+        },
+        {
+          "id": "CVE-2026-46054"
+        },
+        {
+          "id": "CVE-2026-64531"
+        },
+        {
+          "id": "CVE-2025-40026"
+        },
+        {
+          "id": "CVE-2026-31787"
+        },
+        {
+          "id": "CVE-2026-45984"
+        },
+        {
+          "id": "CVE-2026-52923"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-10263",
+      "source": "redhat",
+      "title": "kernel: Arm Processors: Privilege escalation or information disclosure via writes to higher exception level resources",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+      "published_date": "2026-08-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-10263"
+      ]
+    },
+    {
+      "id": "CVE-2025-40026",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-40026"
+      ]
+    },
+    {
+      "id": "CVE-2026-31787",
+      "source": "redhat",
+      "title": "kernel: xen/privcmd: fix double free via VMA splitting",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-08-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31787"
+      ]
+    },
+    {
+      "id": "CVE-2026-45984",
+      "source": "redhat",
+      "title": "kernel: gfs2: Fix use-after-free in iomap inline data write path",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-45984"
+      ]
+    },
+    {
+      "id": "CVE-2026-46054",
+      "source": "redhat",
+      "title": "kernel: selinux: fix overlayfs mmap() and mprotect() access checks",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46054"
+      ]
+    },
+    {
+      "id": "CVE-2026-52923",
+      "source": "redhat",
+      "title": "kernel: ipc: limit next_id allocation to the valid ID range",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H",
+      "published_date": "2026-08-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-52923"
+      ]
+    },
+    {
+      "id": "CVE-2026-64531",
+      "source": "redhat",
+      "title": "kernel: net: openvswitch: reject oversized nested action attrs",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-07",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64531"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:51746",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:51746",
+    "https://access.redhat.com/errata/RHSA-2026:51603",
+    "https://access.redhat.com/errata/RHSA-2026:51604"
+  ]
+}
