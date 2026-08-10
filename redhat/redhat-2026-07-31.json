@@ -1,0 +1,822 @@
+{
+  "id": "redhat-2026-07-31",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-07-31",
+  "description": "Merged 27 redhat security advisories published on 2026-07-31. Original advisory IDs: RHSA-2026:49212, RHSA-2026:49211, RHSA-2026:48817, RHSA-2026:49214, RHSA-2026:49213, RHSA-2026:48866, RHSA-2026:48826, RHSA-2026:48819, RHSA-2026:48818, RHSA-2026:48865, RHSA-2026:48816, RHSA-2026:48811, RHSA-2026:48813, RHSA-2026:48814, RHSA-2026:48815, RHSA-2026:48650, RHSA-2026:48703, RHSA-2026:48790, RHSA-2026:48759, RHSA-2026:48760, RHSA-2026:49031, RHSA-2026:48864, RHSA-2026:48585, RHSA-2026:49030, RHSA-2026:49032, RHSA-2026:49033, RHSA-2026:48386\n\nTitles:\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: libsolv security update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: abrt security update\n- Red Hat Security Advisory: freeipmi security update\n- Red Hat Security Advisory: vim security update\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: python-pillow security update\n- Red Hat Security Advisory: fence-agents security update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-825",
+    "CWE-763",
+    "CWE-431",
+    "CWE-606",
+    "CWE-125",
+    "CWE-787",
+    "CWE-272",
+    "CWE-416",
+    "CWE-280",
+    "CWE-367",
+    "CWE-362",
+    "CWE-120",
+    "CWE-122",
+    "CWE-121",
+    "CWE-94",
+    "CWE-770",
+    "CWE-764",
+    "CWE-551",
+    "CWE-131",
+    "CWE-409",
+    "CWE-1050",
+    "CWE-1285",
+    "CWE-266",
+    "CWE-754"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-31",
+  "modified_date": "2026-08-10",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
+    "redhat:Red Hat Enterprise Linux Real Time (v. 9)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux Real Time (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
+    "redhat:Red Hat Enterprise Linux CRB (v. 8)",
+    "redhat:Red Hat Enterprise Linux NFV (v. 8)",
+    "redhat:Red Hat Enterprise Linux RT (v. 8)",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux BaseOS TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux Real Time EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux Real Time EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.4)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-52923"
+        },
+        {
+          "id": "CVE-2026-52993"
+        },
+        {
+          "id": "CVE-2026-64530"
+        },
+        {
+          "id": "CVE-2025-68211"
+        },
+        {
+          "id": "CVE-2026-46303"
+        },
+        {
+          "id": "CVE-2026-48864"
+        },
+        {
+          "id": "CVE-2026-31692"
+        },
+        {
+          "id": "CVE-2026-43116"
+        },
+        {
+          "id": "CVE-2026-46150"
+        },
+        {
+          "id": "CVE-2026-54228"
+        },
+        {
+          "id": "CVE-2026-54229"
+        },
+        {
+          "id": "CVE-2026-33554"
+        },
+        {
+          "id": "CVE-2026-50031"
+        },
+        {
+          "id": "CVE-2026-9149"
+        },
+        {
+          "id": "CVE-2026-9150"
+        },
+        {
+          "id": "CVE-2026-55693"
+        },
+        {
+          "id": "CVE-2026-57455"
+        },
+        {
+          "id": "CVE-2026-57456"
+        },
+        {
+          "id": "CVE-2026-59856"
+        },
+        {
+          "id": "CVE-2026-59858"
+        },
+        {
+          "id": "CVE-2026-32280"
+        },
+        {
+          "id": "CVE-2026-32282"
+        },
+        {
+          "id": "CVE-2026-32283"
+        },
+        {
+          "id": "CVE-2026-33186"
+        },
+        {
+          "id": "CVE-2026-34986"
+        },
+        {
+          "id": "CVE-2026-54059"
+        },
+        {
+          "id": "CVE-2026-54060"
+        },
+        {
+          "id": "CVE-2026-55379"
+        },
+        {
+          "id": "CVE-2026-55380"
+        },
+        {
+          "id": "CVE-2025-10263"
+        },
+        {
+          "id": "CVE-2025-40026"
+        },
+        {
+          "id": "CVE-2026-64561"
+        },
+        {
+          "id": "CVE-2026-59939"
+        },
+        {
+          "id": "CVE-2026-63807"
+        },
+        {
+          "id": "CVE-2026-46113"
+        },
+        {
+          "id": "CVE-2026-46116"
+        },
+        {
+          "id": "CVE-2026-53359"
+        },
+        {
+          "id": "CVE-2026-31787"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-10263",
+      "source": "redhat",
+      "title": "kernel: Arm Processors: Privilege escalation or information disclosure via writes to higher exception level resources",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-10263"
+      ]
+    },
+    {
+      "id": "CVE-2025-40026",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-40026"
+      ]
+    },
+    {
+      "id": "CVE-2025-68211",
+      "source": "redhat",
+      "title": "kernel: ksm: use range-walk function to jump over holes in scan_get_next_rmap_item",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-68211"
+      ]
+    },
+    {
+      "id": "CVE-2026-31692",
+      "source": "redhat",
+      "title": "kernel: rtnetlink: add missing netlink_ns_capable() check for peer netns",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31692"
+      ]
+    },
+    {
+      "id": "CVE-2026-31787",
+      "source": "redhat",
+      "title": "kernel: xen/privcmd: fix double free via VMA splitting",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31787"
+      ]
+    },
+    {
+      "id": "CVE-2026-32280",
+      "source": "redhat",
+      "title": "crypto/x509: crypto/tls: golang: Go: Denial of Service vulnerability in certificate chain building",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32280"
+      ]
+    },
+    {
+      "id": "CVE-2026-32282",
+      "source": "redhat",
+      "title": "golang: internal/syscall/unix: Root.Chmod can follow symlinks out of the root",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32282"
+      ]
+    },
+    {
+      "id": "CVE-2026-32283",
+      "source": "redhat",
+      "title": "crypto/tls: golang: Go crypto/tls: Denial of Service via multiple TLS 1.3 key update messages",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-32283"
+      ]
+    },
+    {
+      "id": "CVE-2026-33186",
+      "source": "redhat",
+      "title": "google.golang.org/grpc/grpc-go: google.golang.org/grpc/authz: gRPC-Go: Authorization bypass due to improper HTTP/2 path validation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33186"
+      ]
+    },
+    {
+      "id": "CVE-2026-33554",
+      "source": "redhat",
+      "title": "freeipmi: buffer overflows on response messages via ipmi-oem",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33554"
+      ]
+    },
+    {
+      "id": "CVE-2026-34986",
+      "source": "redhat",
+      "title": "github.com/go-jose/go-jose/v3: github.com/go-jose/go-jose/v4: Go JOSE: Denial of Service via crafted JSON Web Encryption (JWE) object",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-34986"
+      ]
+    },
+    {
+      "id": "CVE-2026-43116",
+      "source": "redhat",
+      "title": "kernel: netfilter: ctnetlink: ensure safe access to master conntrack",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43116"
+      ]
+    },
+    {
+      "id": "CVE-2026-46113",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Fix shadow paging use-after-free due to unexpected GFN",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46113"
+      ]
+    },
+    {
+      "id": "CVE-2026-46116",
+      "source": "redhat",
+      "title": "kernel: xfrm: defensively unhash xfrm_state lists in __xfrm_state_delete",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46116"
+      ]
+    },
+    {
+      "id": "CVE-2026-46150",
+      "source": "redhat",
+      "title": "kernel: fanotify: fix false positive on permission events",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46150"
+      ]
+    },
+    {
+      "id": "CVE-2026-46303",
+      "source": "redhat",
+      "title": "kernel: isofs: validate Rock Ridge CE continuation extent against volume size",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46303"
+      ]
+    },
+    {
+      "id": "CVE-2026-48864",
+      "source": "redhat",
+      "title": "libsolv: Heap buffer overflow in libsolv repopagestore via unchecked decompression of malicious .solv page data",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-48864"
+      ]
+    },
+    {
+      "id": "CVE-2026-50031",
+      "source": "redhat",
+      "title": "freeipmi: FreeIPMI: Denial of service via buffer overflow in ipmi-oem client",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-50031"
+      ]
+    },
+    {
+      "id": "CVE-2026-52923",
+      "source": "redhat",
+      "title": "kernel: ipc: limit next_id allocation to the valid ID range",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-52923"
+      ]
+    },
+    {
+      "id": "CVE-2026-52993",
+      "source": "redhat",
+      "title": "kernel: tipc: fix double-free in tipc_buf_append()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-52993"
+      ]
+    },
+    {
+      "id": "CVE-2026-53359",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Fix shadow paging use-after-free due to unexpected role",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53359"
+      ]
+    },
+    {
+      "id": "CVE-2026-54059",
+      "source": "redhat",
+      "title": "python-pillow: Pillow: Denial of Service via crafted PCF font data",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-54059"
+      ]
+    },
+    {
+      "id": "CVE-2026-54060",
+      "source": "redhat",
+      "title": "python-pillow: Pillow: Denial of Service via excessive memory allocation when processing font files",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-54060"
+      ]
+    },
+    {
+      "id": "CVE-2026-54228",
+      "source": "redhat",
+      "title": "abrt: TOCTOU race condition in abrt-dbus SetElement allows arbitrary file writes to dump directories",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-54228"
+      ]
+    },
+    {
+      "id": "CVE-2026-54229",
+      "source": "redhat",
+      "title": "abrt: ChownProblemDir succeeds during active post-create event processing due to inadequate locking",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-54229"
+      ]
+    },
+    {
+      "id": "CVE-2026-55379",
+      "source": "redhat",
+      "title": "python-pillow: Pillow: Denial of Service via crafted BDF font file",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-55379"
+      ]
+    },
+    {
+      "id": "CVE-2026-55380",
+      "source": "redhat",
+      "title": "python-pillow: Pillow: Denial of Service via crafted GD 2.x image file",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-55380"
+      ]
+    },
+    {
+      "id": "CVE-2026-55693",
+      "source": "redhat",
+      "title": "vim: Vim: Out-of-bounds Write in Spell File Word Count",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-55693"
+      ]
+    },
+    {
+      "id": "CVE-2026-57455",
+      "source": "redhat",
+      "title": "vim: Vim: Denial of Service via stack out-of-bounds write in spell_soundfold_sofo()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.7,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-57455"
+      ]
+    },
+    {
+      "id": "CVE-2026-57456",
+      "source": "redhat",
+      "title": "vim: Vim: Arbitrary code execution via malicious docstrings in Python omni-completion",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-57456"
+      ]
+    },
+    {
+      "id": "CVE-2026-59856",
+      "source": "redhat",
+      "title": "vim: Vim: Arbitrary code execution via crafted PHP file in omni-completion",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59856"
+      ]
+    },
+    {
+      "id": "CVE-2026-59858",
+      "source": "redhat",
+      "title": "vim: Vim: Arbitrary command execution via crafted tags file in C omni-completion",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:L",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59858"
+      ]
+    },
+    {
+      "id": "CVE-2026-59939",
+      "source": "redhat",
+      "title": "httplib2: httplib2: Denial of Service via unbounded decompression of HTTP response bodies",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59939"
+      ]
+    },
+    {
+      "id": "CVE-2026-63807",
+      "source": "redhat",
+      "title": "kernel: KVM: x86/mmu: Ensure hugepage is in by slot before checking max mapping level",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-63807"
+      ]
+    },
+    {
+      "id": "CVE-2026-64530",
+      "source": "redhat",
+      "title": "kernel: net: sched: UAF via missing handler for TC_ACT_CONSUMED in tcf_qevent_handle",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64530"
+      ]
+    },
+    {
+      "id": "CVE-2026-64561",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Check for invalid/obsolete root *after* making MMU pages available",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64561"
+      ]
+    },
+    {
+      "id": "CVE-2026-9149",
+      "source": "redhat",
+      "title": "libsolv: Heap buffer overflow in libsolv repo_add_solv via negative maxsize from crafted .solv file",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-9149"
+      ]
+    },
+    {
+      "id": "CVE-2026-9150",
+      "source": "redhat",
+      "title": "libsolv: Stack-based buffer overflow in libsolv's Debian metadata parser when handling SHA384/SHA512 checksums",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-9150"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:49212",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:49212",
+    "https://access.redhat.com/errata/RHSA-2026:49211",
+    "https://access.redhat.com/errata/RHSA-2026:48817",
+    "https://access.redhat.com/errata/RHSA-2026:49214",
+    "https://access.redhat.com/errata/RHSA-2026:49213",
+    "https://access.redhat.com/errata/RHSA-2026:48866",
+    "https://access.redhat.com/errata/RHSA-2026:48826",
+    "https://access.redhat.com/errata/RHSA-2026:48819",
+    "https://access.redhat.com/errata/RHSA-2026:48818",
+    "https://access.redhat.com/errata/RHSA-2026:48865",
+    "https://access.redhat.com/errata/RHSA-2026:48816",
+    "https://access.redhat.com/errata/RHSA-2026:48811",
+    "https://access.redhat.com/errata/RHSA-2026:48813",
+    "https://access.redhat.com/errata/RHSA-2026:48814",
+    "https://access.redhat.com/errata/RHSA-2026:48815",
+    "https://access.redhat.com/errata/RHSA-2026:48650",
+    "https://access.redhat.com/errata/RHSA-2026:48703",
+    "https://access.redhat.com/errata/RHSA-2026:48790",
+    "https://access.redhat.com/errata/RHSA-2026:48759",
+    "https://access.redhat.com/errata/RHSA-2026:48760",
+    "https://access.redhat.com/errata/RHSA-2026:49031",
+    "https://access.redhat.com/errata/RHSA-2026:48864",
+    "https://access.redhat.com/errata/RHSA-2026:48585",
+    "https://access.redhat.com/errata/RHSA-2026:49030",
+    "https://access.redhat.com/errata/RHSA-2026:49032",
+    "https://access.redhat.com/errata/RHSA-2026:49033",
+    "https://access.redhat.com/errata/RHSA-2026:48386"
+  ]
+}

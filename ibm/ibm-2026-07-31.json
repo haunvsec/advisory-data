@@ -1,0 +1,1600 @@
+{
+  "id": "ibm-2026-07-31",
+  "source": "ibm",
+  "title": "Ibm Security Advisories - 2026-07-31",
+  "description": "Merged 9 ibm security advisories published on 2026-07-31. Original advisory IDs: IBM-7282136, IBM-7282287, IBM-7282097, IBM-7282186, IBM-7282177, IBM-7282170, IBM-7282171, IBM-7282264, IBM-7282267\n\nTitles:\n- Multiple vulnerabilities in IBM Aspera Enterprise Webapps\n- IBM Financial Transaction Manager is impacted by multiple vulnerabilities in RedHat Proxy for Kubernetes RBAC authorization\n- Multiple security vulnerabilities are addressed with IBM Process Mining Interim Fix for July 2026\n- IBM Storage Protect Server is affected by a vulnerability in the Eclipse Jersey-client library that could cause critical SSL/TLS security configurations issues (CVE-2025-12383).\n- IBM Storage Protect Operations Center is affected by a vulnerability in IBM WebSphere Application Server Liberty that may allow an attacker to trigger denial-of-service conditions. (CVE-2026-5516, CWE-362)\n- IBM Storage Protect Client is vulnerable to cross-site scripting due to Angular (CVE-2026-27970)\n- IBM Storage Protect Client is vulnerable to stored cross-site scripting due to Angular (CVE-2025-66412)\n- IBM Storage Protect Operations Center is affected by a security configuration vulnerability(CVE-2025-14923)\n- IBM Storage Protect Operations Center is affected by a hardcoded protection mechanism vulnerability(CVE-2025-14917, CWE-1393).",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-31",
+  "modified_date": "2026-08-01",
+  "affected": [
+    "ibm:IBM Aspera",
+    "ibm:IBM Aspera Enterprise",
+    "ibm:IBM Aspera Enterprise On Demand",
+    "ibm:IBM Financial Transaction Manager",
+    "ibm:IBM Process Mining",
+    "ibm:IBM Spectrum Protect",
+    "ibm:IBM Storage Protect"
+  ],
+  "affected_products": [
+    {
+      "vendor": "ibm",
+      "product": "IBM Aspera",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_aspera:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-38969"
+        },
+        {
+          "id": "CVE-2026-43868"
+        },
+        {
+          "id": "CVE-2026-54297"
+        },
+        {
+          "id": "CVE-2026-55602"
+        },
+        {
+          "id": "CVE-2026-55603"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Aspera Enterprise",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_aspera_enterprise:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-38969"
+        },
+        {
+          "id": "CVE-2026-43868"
+        },
+        {
+          "id": "CVE-2026-54297"
+        },
+        {
+          "id": "CVE-2026-55602"
+        },
+        {
+          "id": "CVE-2026-55603"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Aspera Enterprise On Demand",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_aspera_enterprise_on_demand:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-38969"
+        },
+        {
+          "id": "CVE-2026-43868"
+        },
+        {
+          "id": "CVE-2026-54297"
+        },
+        {
+          "id": "CVE-2026-55602"
+        },
+        {
+          "id": "CVE-2026-55603"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Financial Transaction Manager",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_financial_transaction_manager:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-33186"
+        },
+        {
+          "id": "CVE-2026-35469"
+        },
+        {
+          "id": "CVE-2026-46579"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Process Mining",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_process_mining:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-48431"
+        },
+        {
+          "id": "CVE-2026-10051"
+        },
+        {
+          "id": "CVE-2026-33244"
+        },
+        {
+          "id": "CVE-2026-33245"
+        },
+        {
+          "id": "CVE-2026-34077"
+        },
+        {
+          "id": "CVE-2026-40181"
+        },
+        {
+          "id": "CVE-2026-40988"
+        },
+        {
+          "id": "CVE-2026-41003"
+        },
+        {
+          "id": "CVE-2026-41602"
+        },
+        {
+          "id": "CVE-2026-41603"
+        },
+        {
+          "id": "CVE-2026-41604"
+        },
+        {
+          "id": "CVE-2026-41606"
+        },
+        {
+          "id": "CVE-2026-41694"
+        },
+        {
+          "id": "CVE-2026-41706"
+        },
+        {
+          "id": "CVE-2026-42055"
+        },
+        {
+          "id": "CVE-2026-42211"
+        },
+        {
+          "id": "CVE-2026-42342"
+        },
+        {
+          "id": "CVE-2026-47838"
+        },
+        {
+          "id": "CVE-2026-48988"
+        },
+        {
+          "id": "CVE-2026-49476"
+        },
+        {
+          "id": "CVE-2026-49477"
+        },
+        {
+          "id": "CVE-2026-49978"
+        },
+        {
+          "id": "CVE-2026-50229"
+        },
+        {
+          "id": "CVE-2026-53404"
+        },
+        {
+          "id": "CVE-2026-53434"
+        },
+        {
+          "id": "CVE-2026-54059"
+        },
+        {
+          "id": "CVE-2026-54060"
+        },
+        {
+          "id": "CVE-2026-54273"
+        },
+        {
+          "id": "CVE-2026-54274"
+        },
+        {
+          "id": "CVE-2026-54275"
+        },
+        {
+          "id": "CVE-2026-54276"
+        },
+        {
+          "id": "CVE-2026-54277"
+        },
+        {
+          "id": "CVE-2026-54278"
+        },
+        {
+          "id": "CVE-2026-54279"
+        },
+        {
+          "id": "CVE-2026-54280"
+        },
+        {
+          "id": "CVE-2026-54291"
+        },
+        {
+          "id": "CVE-2026-54512"
+        },
+        {
+          "id": "CVE-2026-54513"
+        },
+        {
+          "id": "CVE-2026-54514"
+        },
+        {
+          "id": "CVE-2026-54515"
+        },
+        {
+          "id": "CVE-2026-54516"
+        },
+        {
+          "id": "CVE-2026-54517"
+        },
+        {
+          "id": "CVE-2026-54518"
+        },
+        {
+          "id": "CVE-2026-55223"
+        },
+        {
+          "id": "CVE-2026-55276"
+        },
+        {
+          "id": "CVE-2026-55379"
+        },
+        {
+          "id": "CVE-2026-55380"
+        },
+        {
+          "id": "CVE-2026-55955"
+        },
+        {
+          "id": "CVE-2026-55956"
+        },
+        {
+          "id": "CVE-2026-58501"
+        },
+        {
+          "id": "CVE-2026-59879"
+        },
+        {
+          "id": "CVE-2026-59880"
+        },
+        {
+          "id": "CVE-2026-59884"
+        },
+        {
+          "id": "CVE-2026-59885"
+        },
+        {
+          "id": "CVE-2026-59886"
+        },
+        {
+          "id": "CVE-2026-59887"
+        },
+        {
+          "id": "CVE-2026-59890"
+        },
+        {
+          "id": "CVE-2026-59939"
+        },
+        {
+          "id": "CVE-2026-66053"
+        },
+        {
+          "id": "CVE-2026-6790"
+        },
+        {
+          "id": "CVE-2026-8384"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Spectrum Protect",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_spectrum_protect:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-12383"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Storage Protect",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_storage_protect:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-5516"
+        },
+        {
+          "id": "CVE-2026-27970"
+        },
+        {
+          "id": "CVE-2025-66412"
+        },
+        {
+          "id": "CVE-2025-14923"
+        },
+        {
+          "id": "CVE-2025-14917"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-12383",
+      "source": "ibm",
+      "title": "CVE-2025-12383",
+      "description": "In Eclipse Jersey versions 2.45, 3.0.16, 3.1.9 a race condition can cause ignoring of critical SSL configurations - such as mutual authentication, custom key or trust stores, and other security settings. This issue may result in SSLHandshakeException under normal circumstances, but under certain conditions, it could lead to unauthorized trust in insecure servers (see PoC)",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-12383",
+        "https://www.ibm.com/support/pages/node/7282186"
+      ]
+    },
+    {
+      "id": "CVE-2025-14917",
+      "source": "ibm",
+      "title": "CVE-2025-14917",
+      "description": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.3 IBM WebSphere Application Server Liberty could provide weaker than expected security when administering security settings",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-14917",
+        "https://www.ibm.com/support/pages/node/7282267"
+      ]
+    },
+    {
+      "id": "CVE-2025-14923",
+      "source": "ibm",
+      "title": "CVE-2025-14923",
+      "description": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.2 IBM WebSphere Application Server Liberty could provide weaker than expected security when using the Security Utility when administering security settings",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-14923",
+        "https://www.ibm.com/support/pages/node/7282264"
+      ]
+    },
+    {
+      "id": "CVE-2025-48431",
+      "source": "ibm",
+      "title": "CVE-2025-48431",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2025-66412",
+      "source": "ibm",
+      "title": "CVE-2025-66412",
+      "description": "Angular is a development platform for building mobile and desktop web applications using TypeScript or JavaScript and other languages. Prior to 21.0.2, 20.3.15, and 19.2.17, A Stored Cross-Site Scripting (XSS) vulnerability has been identified in the Angular Template Compiler. It occurs because the compiler's internal security schema is incomplete, allowing attackers to bypass Angular's built-in security sanitization. Specifically, the schema fails to classify certain URL-holding attributes (e.g., those that could contain javascript: URLs) as requiring strict URL security, enabling the injection of malicious scripts. This vulnerability is fixed in 21.0.2, 20.3.15, and 19.2.17",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-08-01",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2025-66412",
+        "https://www.ibm.com/support/pages/node/7282171"
+      ]
+    },
+    {
+      "id": "CVE-2026-10051",
+      "source": "ibm",
+      "title": "CVE-2026-10051",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-27970",
+      "source": "ibm",
+      "title": "CVE-2026-27970",
+      "description": "Angular is a development platform for building mobile and desktop web applications using TypeScript or JavaScript and other languages. Versions prior to 21.2.0, 21.1.16, 20.3.17, and 19.2.19 have a cross-Site scripting vulnerability in the Angular internationalization (i18n) pipeline. In ICU messages (International Components for Unicode), HTML from translated content was not properly sanitized and could execute arbitrary JavaScript. Angular i18n typically involves three steps, extracting all messages from an application in the source language, sending the messages to be translated, and then merging their translations back into the final source code. Translations are frequently handled by contracts with specific partner companies, and involve sending the source messages to a separate contractor before receiving final translations for display to the end user. If the returned translations have malicious content, it could be rendered into the application and execute arbitrary JavaScript. When successfully exploited, this vulnerability allows for execution of attacker controlled JavaScript in the application origin. Depending on the nature of the application being exploited this could lead to credential exfiltration and or or page vandalism. Several preconditions apply to the attack. The attacker must compromise the translation file (xliff, xtb, etc.). Unlike most XSS vulnerabilities, this issue is not exploitable by arbitrary users. An attacker must first compromise an application's translation file before they can escalate privileges into the Angular application client. The victim application must use Angular i18n, use one or more ICU messages, render an ICU message, and not defend against XSS via a safe content security policy. Versions 21.2.0, 21.1.6, 20.3.17, and 19.2.19 patch the issue. Until the patch is applied, developers should consider reviewing and verifying translated content received from untrusted third parties before incorporating it in an Angular application, enabling strict CSP controls to block unauthorized JavaScript from executing on the page, and enabling Trusted Types to enforce proper HTML sanitization",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-08-01",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-27970",
+        "https://www.ibm.com/support/pages/node/7282170"
+      ]
+    },
+    {
+      "id": "CVE-2026-33186",
+      "source": "ibm",
+      "title": "CVE-2026-33186",
+      "description": "gRPC-Go is the Go language implementation of gRPC. Versions prior to 1.79.3 have an authorization bypass resulting from improper input validation of the HTTP or 2 `:path` pseudo-header. The gRPC-Go server was too lenient in its routing logic, accepting requests where the `:path` omitted the mandatory leading slash (e.g., `Service or Method` instead of ` or Service or Method`). While the server successfully routed these requests to the correct handler, authorization interceptors (including the official `grpc or authz` package) evaluated the raw, non-canonical path string. Consequently, deny rules defined using canonical paths (starting with ` or `) failed to match the incoming request, allowing it to bypass the policy if a fallback allow rule was present. This affects gRPC-Go servers that use path-based authorization interceptors, such as the official RBAC implementation in `google.golang.org or grpc or authz` or custom interceptors relying on `info.FullMethod` or `grpc.Method(ctx)`; AND that have a security policy contains specific deny rules for canonical paths but allows other requests by default (a fallback allow rule). The vulnerability is exploitable by an attacker who can send raw HTTP or 2 frames with malformed `:path` headers directly to the gRPC server. The fix in version 1.79.3 ensures that any request with a `:path` that does not start with a leading slash is immediately rejected with a `codes.Unimplemented` error, preventing it from reaching authorization interceptors or handlers with a non-canonical path string. While upgrading is the most secure and recommended path, users can mitigate the vulnerability using one of the following methods: Use a validating interceptor (recommended mitigation); infrastructure-level normalization; and or or policy hardening",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-33186",
+        "https://www.ibm.com/support/pages/node/7282287"
+      ]
+    },
+    {
+      "id": "CVE-2026-33244",
+      "source": "ibm",
+      "title": "CVE-2026-33244",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-33245",
+      "source": "ibm",
+      "title": "CVE-2026-33245",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-34077",
+      "source": "ibm",
+      "title": "CVE-2026-34077",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-35469",
+      "source": "ibm",
+      "title": "CVE-2026-35469",
+      "description": "gRPC-Go is the Go language implementation of gRPC. Versions prior to 1.79.3 have an authorization bypass resulting from improper input validation of the HTTP or 2 `:path` pseudo-header. The gRPC-Go server was too lenient in its routing logic, accepting requests where the `:path` omitted the mandatory leading slash (e.g., `Service or Method` instead of ` or Service or Method`). While the server successfully routed these requests to the correct handler, authorization interceptors (including the official `grpc or authz` package) evaluated the raw, non-canonical path string. Consequently, deny rules defined using canonical paths (starting with ` or `) failed to match the incoming request, allowing it to bypass the policy if a fallback allow rule was present. This affects gRPC-Go servers that use path-based authorization interceptors, such as the official RBAC implementation in `google.golang.org or grpc or authz` or custom interceptors relying on `info.FullMethod` or `grpc.Method(ctx)`; AND that have a security policy contains specific deny rules for canonical paths but allows other requests by default (a fallback allow rule). The vulnerability is exploitable by an attacker who can send raw HTTP or 2 frames with malformed `:path` headers directly to the gRPC server. The fix in version 1.79.3 ensures that any request with a `:path` that does not start with a leading slash is immediately rejected with a `codes.Unimplemented` error, preventing it from reaching authorization interceptors or handlers with a non-canonical path string. While upgrading is the most secure and recommended path, users can mitigate the vulnerability using one of the following methods: Use a validating interceptor (recommended mitigation); infrastructure-level normalization; and or or policy hardening",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-33186",
+        "https://www.ibm.com/support/pages/node/7282287"
+      ]
+    },
+    {
+      "id": "CVE-2026-38969",
+      "source": "ibm",
+      "title": "CVE-2026-38969",
+      "description": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-38969",
+        "https://www.ibm.com/support/pages/node/7282136"
+      ]
+    },
+    {
+      "id": "CVE-2026-40181",
+      "source": "ibm",
+      "title": "CVE-2026-40181",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-40988",
+      "source": "ibm",
+      "title": "CVE-2026-40988",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-41003",
+      "source": "ibm",
+      "title": "CVE-2026-41003",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-41602",
+      "source": "ibm",
+      "title": "CVE-2026-41602",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-41603",
+      "source": "ibm",
+      "title": "CVE-2026-41603",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-41604",
+      "source": "ibm",
+      "title": "CVE-2026-41604",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-41606",
+      "source": "ibm",
+      "title": "CVE-2026-41606",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-41694",
+      "source": "ibm",
+      "title": "CVE-2026-41694",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-41706",
+      "source": "ibm",
+      "title": "CVE-2026-41706",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-42055",
+      "source": "ibm",
+      "title": "CVE-2026-42055",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-42211",
+      "source": "ibm",
+      "title": "CVE-2026-42211",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-42342",
+      "source": "ibm",
+      "title": "CVE-2026-42342",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-43868",
+      "source": "ibm",
+      "title": "CVE-2026-43868",
+      "description": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-38969",
+        "https://www.ibm.com/support/pages/node/7282136"
+      ]
+    },
+    {
+      "id": "CVE-2026-46579",
+      "source": "ibm",
+      "title": "CVE-2026-46579",
+      "description": "gRPC-Go is the Go language implementation of gRPC. Versions prior to 1.79.3 have an authorization bypass resulting from improper input validation of the HTTP or 2 `:path` pseudo-header. The gRPC-Go server was too lenient in its routing logic, accepting requests where the `:path` omitted the mandatory leading slash (e.g., `Service or Method` instead of ` or Service or Method`). While the server successfully routed these requests to the correct handler, authorization interceptors (including the official `grpc or authz` package) evaluated the raw, non-canonical path string. Consequently, deny rules defined using canonical paths (starting with ` or `) failed to match the incoming request, allowing it to bypass the policy if a fallback allow rule was present. This affects gRPC-Go servers that use path-based authorization interceptors, such as the official RBAC implementation in `google.golang.org or grpc or authz` or custom interceptors relying on `info.FullMethod` or `grpc.Method(ctx)`; AND that have a security policy contains specific deny rules for canonical paths but allows other requests by default (a fallback allow rule). The vulnerability is exploitable by an attacker who can send raw HTTP or 2 frames with malformed `:path` headers directly to the gRPC server. The fix in version 1.79.3 ensures that any request with a `:path` that does not start with a leading slash is immediately rejected with a `codes.Unimplemented` error, preventing it from reaching authorization interceptors or handlers with a non-canonical path string. While upgrading is the most secure and recommended path, users can mitigate the vulnerability using one of the following methods: Use a validating interceptor (recommended mitigation); infrastructure-level normalization; and or or policy hardening",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-33186",
+        "https://www.ibm.com/support/pages/node/7282287"
+      ]
+    },
+    {
+      "id": "CVE-2026-47838",
+      "source": "ibm",
+      "title": "CVE-2026-47838",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-48988",
+      "source": "ibm",
+      "title": "CVE-2026-48988",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-49476",
+      "source": "ibm",
+      "title": "CVE-2026-49476",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-49477",
+      "source": "ibm",
+      "title": "CVE-2026-49477",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-49978",
+      "source": "ibm",
+      "title": "CVE-2026-49978",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-50229",
+      "source": "ibm",
+      "title": "CVE-2026-50229",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-53404",
+      "source": "ibm",
+      "title": "CVE-2026-53404",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-53434",
+      "source": "ibm",
+      "title": "CVE-2026-53434",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54059",
+      "source": "ibm",
+      "title": "CVE-2026-54059",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54060",
+      "source": "ibm",
+      "title": "CVE-2026-54060",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54273",
+      "source": "ibm",
+      "title": "CVE-2026-54273",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54274",
+      "source": "ibm",
+      "title": "CVE-2026-54274",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54275",
+      "source": "ibm",
+      "title": "CVE-2026-54275",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54276",
+      "source": "ibm",
+      "title": "CVE-2026-54276",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54277",
+      "source": "ibm",
+      "title": "CVE-2026-54277",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54278",
+      "source": "ibm",
+      "title": "CVE-2026-54278",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54279",
+      "source": "ibm",
+      "title": "CVE-2026-54279",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54280",
+      "source": "ibm",
+      "title": "CVE-2026-54280",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54291",
+      "source": "ibm",
+      "title": "CVE-2026-54291",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54297",
+      "source": "ibm",
+      "title": "CVE-2026-54297",
+      "description": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-38969",
+        "https://www.ibm.com/support/pages/node/7282136"
+      ]
+    },
+    {
+      "id": "CVE-2026-54512",
+      "source": "ibm",
+      "title": "CVE-2026-54512",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54513",
+      "source": "ibm",
+      "title": "CVE-2026-54513",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54514",
+      "source": "ibm",
+      "title": "CVE-2026-54514",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54515",
+      "source": "ibm",
+      "title": "CVE-2026-54515",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54516",
+      "source": "ibm",
+      "title": "CVE-2026-54516",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54517",
+      "source": "ibm",
+      "title": "CVE-2026-54517",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-54518",
+      "source": "ibm",
+      "title": "CVE-2026-54518",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-5516",
+      "source": "ibm",
+      "title": "CVE-2026-5516",
+      "description": "IBM WebSphere Application Server - Liberty 22.0.0.11 through 26.0.0.5 IBM WebSphere Application Server Liberty could allow a remote attacker to bypass security under limited conditions by exploiting a specific timing window",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5516",
+        "https://www.ibm.com/support/pages/node/7282177"
+      ]
+    },
+    {
+      "id": "CVE-2026-55223",
+      "source": "ibm",
+      "title": "CVE-2026-55223",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-55276",
+      "source": "ibm",
+      "title": "CVE-2026-55276",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-55379",
+      "source": "ibm",
+      "title": "CVE-2026-55379",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-55380",
+      "source": "ibm",
+      "title": "CVE-2026-55380",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-55602",
+      "source": "ibm",
+      "title": "CVE-2026-55602",
+      "description": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-38969",
+        "https://www.ibm.com/support/pages/node/7282136"
+      ]
+    },
+    {
+      "id": "CVE-2026-55603",
+      "source": "ibm",
+      "title": "CVE-2026-55603",
+      "description": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-38969",
+        "https://www.ibm.com/support/pages/node/7282136"
+      ]
+    },
+    {
+      "id": "CVE-2026-55955",
+      "source": "ibm",
+      "title": "CVE-2026-55955",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-55956",
+      "source": "ibm",
+      "title": "CVE-2026-55956",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-58501",
+      "source": "ibm",
+      "title": "CVE-2026-58501",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-59879",
+      "source": "ibm",
+      "title": "CVE-2026-59879",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-59880",
+      "source": "ibm",
+      "title": "CVE-2026-59880",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-59884",
+      "source": "ibm",
+      "title": "CVE-2026-59884",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-59885",
+      "source": "ibm",
+      "title": "CVE-2026-59885",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-59886",
+      "source": "ibm",
+      "title": "CVE-2026-59886",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-59887",
+      "source": "ibm",
+      "title": "CVE-2026-59887",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-59890",
+      "source": "ibm",
+      "title": "CVE-2026-59890",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-59939",
+      "source": "ibm",
+      "title": "CVE-2026-59939",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-66053",
+      "source": "ibm",
+      "title": "CVE-2026-66053",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-6790",
+      "source": "ibm",
+      "title": "CVE-2026-6790",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    },
+    {
+      "id": "CVE-2026-8384",
+      "source": "ibm",
+      "title": "CVE-2026-8384",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected. Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "2026-07-31",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-55956",
+        "https://www.ibm.com/support/pages/node/7282097"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.ibm.com/support/pages/node/7282136",
+  "vendor": "ibm",
+  "references": [
+    "https://www.ibm.com/support/pages/node/7282136",
+    "https://www.ibm.com/support/pages/bulletin/",
+    "https://www.ibm.com/support/pages/node/7282287",
+    "https://www.ibm.com/support/pages/node/7282097",
+    "https://www.ibm.com/support/pages/node/7282186",
+    "https://www.ibm.com/support/pages/node/7282177",
+    "https://www.ibm.com/support/pages/node/7282170",
+    "https://www.ibm.com/support/pages/node/7282171",
+    "https://www.ibm.com/support/pages/node/7282264",
+    "https://www.ibm.com/support/pages/node/7282267"
+  ]
+}

@@ -20,7 +20,7 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-07-24",
-  "modified_date": "2026-07-29",
+  "modified_date": "2026-08-10",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
@@ -63,6 +63,9 @@
         },
         {
           "id": "CVE-2026-53059"
+        },
+        {
+          "id": "CVE-2026-64561"
         },
         {
           "id": "CVE-2025-40237"
@@ -252,6 +255,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-53059"
+      ]
+    },
+    {
+      "id": "CVE-2026-64561",
+      "source": "redhat",
+      "title": "kernel: KVM: x86: Check for invalid/obsolete root *after* making MMU pages available",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-07-24",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64561"
       ]
     }
   ],
