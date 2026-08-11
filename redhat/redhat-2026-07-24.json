@@ -2,39 +2,18 @@
   "id": "redhat-2026-07-24",
   "source": "redhat",
   "title": "Redhat Security Advisories - 2026-07-24",
-  "description": "Merged 4 redhat security advisories published on 2026-07-24. Original advisory IDs: RHSA-2026:45192, RHSA-2026:45114, RHSA-2026:45115, RHSA-2026:45116\n\nTitles:\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: kernel-rt security update",
-  "severity": "important",
+  "description": "Merged 9 redhat security advisories published on 2026-07-24. Original advisory IDs: RHSA-2026:45381, RHSA-2026:45360, RHSA-2026:45192, RHSA-2026:45341, RHSA-2026:45327, RHSA-2026:45114, RHSA-2026:45115, RHSA-2026:45116, RHSA-2026:45128\n\nTitles:\n- RHSA-2026:45381 Security Advisory\n- RHSA-2026:45360 Security Advisory\n- RHSA-2026:45192 Security Advisory\n- RHSA-2026:45341 Security Advisory\n- RHSA-2026:45327 Security Advisory\n- RHSA-2026:45114 Security Advisory\n- RHSA-2026:45115 Security Advisory\n- RHSA-2026:45116 Security Advisory\n- RHSA-2026:45128 Security Advisory",
+  "severity": "low",
   "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
-  "cwe_ids": [
-    "CWE-754",
-    "CWE-825",
-    "CWE-190",
-    "CWE-476",
-    "CWE-821",
-    "CWE-272",
-    "CWE-911",
-    "CWE-763"
-  ],
+  "cwe_ids": [],
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-07-24",
-  "modified_date": "2026-08-10",
+  "modified_date": "2026-07-24",
   "affected": [
-    "redhat:Red Hat Enterprise Linux",
-    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
-    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
-    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
-    "redhat:Red Hat Enterprise Linux Real Time (v. 9)",
-    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
-    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
-    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
-    "redhat:Red Hat Enterprise Linux Real Time (v. 10)",
-    "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
-    "redhat:Red Hat Enterprise Linux CRB (v. 8)",
-    "redhat:Red Hat Enterprise Linux NFV (v. 8)",
-    "redhat:Red Hat Enterprise Linux RT (v. 8)"
+    "redhat:rhel"
   ],
   "affected_products": [
     {
@@ -49,6 +28,15 @@
       "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
+        {
+          "id": "CVE-2026-14257"
+        },
+        {
+          "id": "CVE-2026-48617"
+        },
+        {
+          "id": "CVE-2026-13149"
+        },
         {
           "id": "CVE-2025-40026"
         },
@@ -68,6 +56,18 @@
           "id": "CVE-2026-64561"
         },
         {
+          "id": "CVE-2025-11233"
+        },
+        {
+          "id": "CVE-2026-9545"
+        },
+        {
+          "id": "CVE-2026-44216"
+        },
+        {
+          "id": "CVE-2026-53910"
+        },
+        {
           "id": "CVE-2025-40237"
         },
         {
@@ -84,6 +84,9 @@
         },
         {
           "id": "CVE-2026-52993"
+        },
+        {
+          "id": "CVE-2026-44838"
         }
       ]
     }
@@ -93,194 +96,279 @@
   "remediations": [],
   "cves": [
     {
-      "id": "CVE-2025-40026",
+      "id": "CVE-2025-11233",
       "source": "redhat",
-      "title": "kernel: KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O",
+      "title": "CVE-2025-11233",
       "description": "",
       "severity": null,
-      "cvss_score": 5.5,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2025-40026"
-      ]
+      "references": []
+    },
+    {
+      "id": "CVE-2025-40026",
+      "source": "redhat",
+      "title": "CVE-2025-40026",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-24",
+      "modified_date": "",
+      "affected": [],
+      "references": []
     },
     {
       "id": "CVE-2025-40237",
       "source": "redhat",
-      "title": "kernel: fs/notify: call exportfs_encode_fid with s_umount",
+      "title": "CVE-2025-40237",
       "description": "",
       "severity": null,
-      "cvss_score": 5.8,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2025-40237"
-      ]
+      "references": []
+    },
+    {
+      "id": "CVE-2026-13149",
+      "source": "redhat",
+      "title": "CVE-2026-13149",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-24",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-14257",
+      "source": "redhat",
+      "title": "CVE-2026-14257",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-24",
+      "modified_date": "",
+      "affected": [],
+      "references": []
     },
     {
       "id": "CVE-2026-23110",
       "source": "redhat",
-      "title": "kernel: scsi: core: Wake up the error handler when final completions race against each other",
+      "title": "CVE-2026-23110",
       "description": "",
       "severity": null,
-      "cvss_score": 5.5,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-23110"
-      ]
+      "references": []
     },
     {
       "id": "CVE-2026-31692",
       "source": "redhat",
-      "title": "kernel: rtnetlink: add missing netlink_ns_capable() check for peer netns",
+      "title": "CVE-2026-31692",
       "description": "",
       "severity": null,
-      "cvss_score": 7.1,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-31692"
-      ]
+      "references": []
+    },
+    {
+      "id": "CVE-2026-44216",
+      "source": "redhat",
+      "title": "CVE-2026-44216",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-24",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-44838",
+      "source": "redhat",
+      "title": "CVE-2026-44838",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-24",
+      "modified_date": "",
+      "affected": [],
+      "references": []
     },
     {
       "id": "CVE-2026-46099",
       "source": "redhat",
-      "title": "kernel: net: ipv6: fix NOREF dst use in seg6 and rpl lwtunnels",
+      "title": "CVE-2026-46099",
       "description": "",
       "severity": null,
-      "cvss_score": 7.0,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-46099"
-      ]
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48617",
+      "source": "redhat",
+      "title": "CVE-2026-48617",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-24",
+      "modified_date": "",
+      "affected": [],
+      "references": []
     },
     {
       "id": "CVE-2026-52950",
       "source": "redhat",
-      "title": "kernel: drm/xe/dma-buf: fix UAF with retry loop",
+      "title": "CVE-2026-52950",
       "description": "",
       "severity": null,
-      "cvss_score": 7.0,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-52950"
-      ]
+      "references": []
     },
     {
       "id": "CVE-2026-52973",
       "source": "redhat",
-      "title": "kernel: futex: Drop CLONE_THREAD requirement for private default hash alloc",
+      "title": "CVE-2026-52973",
       "description": "",
       "severity": null,
-      "cvss_score": 7.0,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-52973"
-      ]
+      "references": []
     },
     {
       "id": "CVE-2026-52976",
       "source": "redhat",
-      "title": "kernel: drm/xe: Fix error cleanup in xe_exec_queue_create_ioctl()",
+      "title": "CVE-2026-52976",
       "description": "",
       "severity": null,
-      "cvss_score": 7.0,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-52976"
-      ]
+      "references": []
     },
     {
       "id": "CVE-2026-52993",
       "source": "redhat",
-      "title": "kernel: tipc: fix double-free in tipc_buf_append()",
+      "title": "CVE-2026-52993",
       "description": "",
       "severity": null,
-      "cvss_score": 7.0,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-52993"
-      ]
+      "references": []
     },
     {
       "id": "CVE-2026-53006",
       "source": "redhat",
-      "title": "kernel: ipv6: fix possible UAF in icmpv6_rcv()",
+      "title": "CVE-2026-53006",
       "description": "",
       "severity": null,
-      "cvss_score": 7.0,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-53006"
-      ]
+      "references": []
     },
     {
       "id": "CVE-2026-53059",
       "source": "redhat",
-      "title": "kernel: dm log: fix out-of-bounds write due to region_count overflow",
+      "title": "CVE-2026-53059",
       "description": "",
       "severity": null,
-      "cvss_score": 6.3,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-53059"
-      ]
+      "references": []
+    },
+    {
+      "id": "CVE-2026-53910",
+      "source": "redhat",
+      "title": "CVE-2026-53910",
+      "description": "",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-24",
+      "modified_date": "",
+      "affected": [],
+      "references": []
     },
     {
       "id": "CVE-2026-64561",
       "source": "redhat",
-      "title": "kernel: KVM: x86: Check for invalid/obsolete root *after* making MMU pages available",
+      "title": "CVE-2026-64561",
       "description": "",
       "severity": null,
-      "cvss_score": 7.0,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_vector": null,
       "published_date": "2026-07-24",
       "modified_date": "",
       "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-64561"
-      ]
+      "references": []
+    },
+    {
+      "id": "CVE-2026-9545",
+      "source": "redhat",
+      "title": "CVE-2026-9545",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-24",
+      "modified_date": "",
+      "affected": [],
+      "references": []
     }
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://access.redhat.com/errata/RHSA-2026:45192",
+  "url": "https://access.redhat.com/errata/RHSA-2026:45381",
   "vendor": "redhat",
   "references": [
+    "https://access.redhat.com/errata/RHSA-2026:45381",
+    "https://access.redhat.com/errata/RHSA-2026:45360",
     "https://access.redhat.com/errata/RHSA-2026:45192",
+    "https://access.redhat.com/errata/RHSA-2026:45341",
+    "https://access.redhat.com/errata/RHSA-2026:45327",
     "https://access.redhat.com/errata/RHSA-2026:45114",
     "https://access.redhat.com/errata/RHSA-2026:45115",
-    "https://access.redhat.com/errata/RHSA-2026:45116"
+    "https://access.redhat.com/errata/RHSA-2026:45116",
+    "https://access.redhat.com/errata/RHSA-2026:45128"
   ]
 }
