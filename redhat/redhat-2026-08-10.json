@@ -2,30 +2,39 @@
   "id": "redhat-2026-08-10",
   "source": "redhat",
   "title": "Redhat Security Advisories - 2026-08-10",
-  "description": "Merged 27 redhat security advisories published on 2026-08-10. Original advisory IDs: RHSA-2026:52930, RHSA-2026:52929, RHSA-2026:52928, RHSA-2026:52848, RHSA-2026:52832, RHSA-2026:52833, RHSA-2026:52772, RHSA-2026:52765, RHSA-2026:52764, RHSA-2026:52674, RHSA-2026:52761, RHSA-2026:52675, RHSA-2026:52667, RHSA-2026:52649, RHSA-2026:52551, RHSA-2026:52395, RHSA-2026:52396, RHSA-2026:52399, RHSA-2026:52400, RHSA-2026:52398, RHSA-2026:52389, RHSA-2026:52397, RHSA-2026:52392, RHSA-2026:52391, RHSA-2026:52390, RHSA-2026:52393, RHSA-2026:52394\n\nTitles:\n- Red Hat Security Advisory: postgresql-jdbc security update\n- Red Hat Security Advisory: mariadb:10.11 security update\n- Red Hat Security Advisory: RHELAI 3.0 Backport fixes for CVE-2026-64835 and CVE-2026-58049\n- Red Hat Security Advisory: RHELAI 3.2 Backport fixes for CVE-2026-64835 and CVE-2026-58049\n- Red Hat Security Advisory: perl-DBI:1.641 security update\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: libarchive security update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: python-pillow security update\n- Red Hat Security Advisory: postgresql security update\n- Red Hat Security Advisory: postgresql:12 security update\n- Red Hat Security Advisory: nodejs:22 security update\n- Red Hat Security Advisory: python3 security update\n- Red Hat Security Advisory: xorg-x11-server-Xwayland security update\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: mod_md security update\n- Red Hat Security Advisory: nodejs-nodemon security update",
-  "severity": "important",
+  "description": "Merged 36 redhat security advisories published on 2026-08-10. Original advisory IDs: RHSA-2026:52950, RHSA-2026:52953, RHSA-2026:52952, RHSA-2026:52978, RHSA-2026:52951, RHSA-2026:52948, RHSA-2026:52949, RHSA-2026:52930, RHSA-2026:52929, RHSA-2026:52928, RHSA-2026:52848, RHSA-2026:52841, RHSA-2026:52826, RHSA-2026:52832, RHSA-2026:52833, RHSA-2026:52772, RHSA-2026:52765, RHSA-2026:52764, RHSA-2026:52674, RHSA-2026:52761, RHSA-2026:52675, RHSA-2026:52667, RHSA-2026:52649, RHSA-2026:52551, RHSA-2026:52395, RHSA-2026:52396, RHSA-2026:52399, RHSA-2026:52400, RHSA-2026:52398, RHSA-2026:52389, RHSA-2026:52397, RHSA-2026:52392, RHSA-2026:52391, RHSA-2026:52390, RHSA-2026:52393, RHSA-2026:52394\n\nTitles:\n- Red Hat Security Advisory: libgcrypt security update\n- Red Hat Security Advisory: postgresql-jdbc security update\n- Red Hat Security Advisory: java-21-ibm-semeru-certified-jdk security update\n- Red Hat Security Advisory: java-1.8.0-ibm security update\n- Red Hat Security Advisory: mariadb:10.11 security update\n- Red Hat Security Advisory: nodejs-nodemon security update\n- Red Hat Security Advisory: ignition security update\n- Red Hat Security Advisory: RHELAI 3.0 Backport fixes for CVE-2026-64835 and CVE-2026-58049\n- Red Hat Security Advisory: RHELAI 3.2 Backport fixes for CVE-2026-64835 and CVE-2026-58049\n- Red Hat Security Advisory: perl-DBI:1.641 security update\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: libarchive security update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: python-pillow security update\n- Red Hat Security Advisory: postgresql security update\n- Red Hat Security Advisory: postgresql:12 security update\n- Red Hat Security Advisory: nodejs:22 security update\n- Red Hat Security Advisory: python3 security update\n- Red Hat Security Advisory: xorg-x11-server-Xwayland security update\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: mod_md security update",
+  "severity": "moderate",
   "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [
+    "CWE-131",
     "CWE-770",
-    "CWE-78",
+    "CWE-1284",
+    "CWE-124",
+    "CWE-843",
+    "CWE-190",
+    "CWE-400",
+    "CWE-295",
     "CWE-787",
+    "CWE-1333",
+    "CWE-476",
+    "CWE-347",
+    "CWE-470",
+    "CWE-78",
+    "CWE-1289",
     "CWE-125",
     "CWE-94",
-    "CWE-131",
     "CWE-617",
     "CWE-763",
     "CWE-280",
     "CWE-825",
     "CWE-415",
     "CWE-266",
-    "CWE-190",
     "CWE-409",
     "CWE-1050",
     "CWE-1285",
     "CWE-606",
-    "CWE-1333",
     "CWE-79",
     "CWE-209",
     "CWE-289",
@@ -35,28 +44,36 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-08-10",
-  "modified_date": "2026-08-10",
+  "modified_date": "2026-08-11",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
     "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
     "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux Supplementary (v. 10)",
+    "redhat:Red Hat Enterprise Linux Supplementary EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux Supplementary (v. 8)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
     "redhat:Red Hat Enterprise Linux AI",
     "redhat:Red Hat Enterprise Linux AI 3.0 for RHEL 9",
     "redhat:Red Hat Enterprise Linux AI 3.2 for RHEL 9",
     "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
     "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
     "redhat:Red Hat Enterprise Linux CRB (v. 8)",
-    "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
     "redhat:Red Hat Enterprise Linux Real Time EUS (v. 10.0)",
     "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
     "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
     "redhat:Red Hat Enterprise Linux NFV (v. 8)",
     "redhat:Red Hat Enterprise Linux RT (v. 8)",
-    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
     "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
-    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
     "redhat:Red Hat Enterprise Linux Real Time EUS (v.9.6)",
     "redhat:Red Hat Enterprise Linux Real Time for NFV EUS (v.9.6)",
     "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
@@ -66,9 +83,6 @@
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
     "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
     "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
-    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
-    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
-    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
     "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
     "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)"
   ],
@@ -86,10 +100,64 @@
       "purl": "",
       "cves": [
         {
+          "id": "CVE-2026-41989"
+        },
+        {
           "id": "CVE-2026-42198"
         },
         {
+          "id": "CVE-2026-16243"
+        },
+        {
+          "id": "CVE-2026-16439"
+        },
+        {
+          "id": "CVE-2026-16441"
+        },
+        {
+          "id": "CVE-2026-41254"
+        },
+        {
+          "id": "CVE-2026-46917"
+        },
+        {
+          "id": "CVE-2026-46968"
+        },
+        {
+          "id": "CVE-2026-47010"
+        },
+        {
+          "id": "CVE-2026-47021"
+        },
+        {
+          "id": "CVE-2026-47027"
+        },
+        {
+          "id": "CVE-2026-47059"
+        },
+        {
+          "id": "CVE-2026-47063"
+        },
+        {
+          "id": "CVE-2026-60147"
+        },
+        {
+          "id": "CVE-2026-8400"
+        },
+        {
+          "id": "CVE-2026-47057"
+        },
+        {
+          "id": "CVE-2026-47058"
+        },
+        {
           "id": "CVE-2026-49261"
+        },
+        {
+          "id": "CVE-2026-69152"
+        },
+        {
+          "id": "CVE-2026-39821"
         },
         {
           "id": "CVE-2026-58049"
@@ -330,6 +398,51 @@
       ]
     },
     {
+      "id": "CVE-2026-16243",
+      "source": "redhat",
+      "title": "Eclipse OMR: Eclipse OMR: Denial of service via improper input validation in arraycmp SIMD",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-16243"
+      ]
+    },
+    {
+      "id": "CVE-2026-16439",
+      "source": "redhat",
+      "title": "Eclipse Foundation OpenJ9: Eclipse OpenJ9: Buffer underflow via tracing method arguments",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-16439"
+      ]
+    },
+    {
+      "id": "CVE-2026-16441",
+      "source": "redhat",
+      "title": "Eclipse Foundation OpenJ9: Eclipse OpenJ9: Incorrect method delegation can lead to integrity issues",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:L",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-16441"
+      ]
+    },
+    {
       "id": "CVE-2026-22990",
       "source": "redhat",
       "title": "kernel: libceph: replace overzealous BUG_ON in osdmap_apply_incremental()",
@@ -405,6 +518,51 @@
       ]
     },
     {
+      "id": "CVE-2026-39821",
+      "source": "redhat",
+      "title": "golang.org/x/net/idna: golang: net/http: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-39821"
+      ]
+    },
+    {
+      "id": "CVE-2026-41254",
+      "source": "redhat",
+      "title": "Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information disclosure or denial of service via integer overflow in CubeSize",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-41254"
+      ]
+    },
+    {
+      "id": "CVE-2026-41989",
+      "source": "redhat",
+      "title": "Libgcrypt: Libgcrypt: Denial of Service and buffer overflow via crafted ECDH ciphertext",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-41989"
+      ]
+    },
+    {
       "id": "CVE-2026-42198",
       "source": "redhat",
       "title": "jdbc.postgresql.org: pgjdbc: Client-side Denial of Service via malicious SCRAM-SHA-256 authentication",
@@ -462,6 +620,141 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-46054"
+      ]
+    },
+    {
+      "id": "CVE-2026-46917",
+      "source": "redhat",
+      "title": "openjdk: Improve DTLS handshaking (Oracle CPU 2026-07)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46917"
+      ]
+    },
+    {
+      "id": "CVE-2026-46968",
+      "source": "redhat",
+      "title": "openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46968"
+      ]
+    },
+    {
+      "id": "CVE-2026-47010",
+      "source": "redhat",
+      "title": "openjdk: Enhance JPEG handling (Oracle CPU 2026-07)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.7,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47010"
+      ]
+    },
+    {
+      "id": "CVE-2026-47021",
+      "source": "redhat",
+      "title": "openjdk: Enhance XBM image support (Oracle CPU 2026-07)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47021"
+      ]
+    },
+    {
+      "id": "CVE-2026-47027",
+      "source": "redhat",
+      "title": "openjdk: Enhance Jar file processing (Oracle CPU 2026-07)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47027"
+      ]
+    },
+    {
+      "id": "CVE-2026-47057",
+      "source": "redhat",
+      "title": "openjdk: Improve Nashorn index handling (Oracle CPU 2026-07)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47057"
+      ]
+    },
+    {
+      "id": "CVE-2026-47058",
+      "source": "redhat",
+      "title": "openjdk: Enhance Dataview Implementation (Oracle CPU 2026-07)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47058"
+      ]
+    },
+    {
+      "id": "CVE-2026-47059",
+      "source": "redhat",
+      "title": "openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.7,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47059"
+      ]
+    },
+    {
+      "id": "CVE-2026-47063",
+      "source": "redhat",
+      "title": "openjdk: Enhance Jar handling (Oracle CPU 2026-07)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47063"
       ]
     },
     {
@@ -735,6 +1028,21 @@
       ]
     },
     {
+      "id": "CVE-2026-60147",
+      "source": "redhat",
+      "title": "openjdk: Improve certification checking (Oracle CPU 2026-07)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60147"
+      ]
+    },
+    {
       "id": "CVE-2026-6100",
       "source": "redhat",
       "title": "python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules",
@@ -793,17 +1101,56 @@
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-64835"
       ]
+    },
+    {
+      "id": "CVE-2026-69152",
+      "source": "redhat",
+      "title": "brace-expansion: brace-expansion: Denial of Service via unbounded intermediate arrays",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-69152"
+      ]
+    },
+    {
+      "id": "CVE-2026-8400",
+      "source": "redhat",
+      "title": "java-1.8.0-ibm: Arbitrary class loading and instantiation via malicious IIOP server",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-10",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-8400"
+      ]
     }
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://access.redhat.com/errata/RHSA-2026:52930",
+  "url": "https://access.redhat.com/errata/RHSA-2026:52950",
   "vendor": "redhat",
   "references": [
+    "https://access.redhat.com/errata/RHSA-2026:52950",
+    "https://access.redhat.com/errata/RHSA-2026:52953",
+    "https://access.redhat.com/errata/RHSA-2026:52952",
+    "https://access.redhat.com/errata/RHSA-2026:52978",
+    "https://access.redhat.com/errata/RHSA-2026:52951",
+    "https://access.redhat.com/errata/RHSA-2026:52948",
+    "https://access.redhat.com/errata/RHSA-2026:52949",
     "https://access.redhat.com/errata/RHSA-2026:52930",
     "https://access.redhat.com/errata/RHSA-2026:52929",
     "https://access.redhat.com/errata/RHSA-2026:52928",
     "https://access.redhat.com/errata/RHSA-2026:52848",
+    "https://access.redhat.com/errata/RHSA-2026:52841",
+    "https://access.redhat.com/errata/RHSA-2026:52826",
     "https://access.redhat.com/errata/RHSA-2026:52832",
     "https://access.redhat.com/errata/RHSA-2026:52833",
     "https://access.redhat.com/errata/RHSA-2026:52772",
