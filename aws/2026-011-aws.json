@@ -1,0 +1,64 @@
+{
+  "id": "2026-011-aws",
+  "source": "aws",
+  "title": "CVE-2026-5190 - AWS C Event Stream Streaming Decoder Stack Buffer Overflow",
+  "description": "CVE-2026-5190 - AWS C Event Stream Streaming Decoder Stack Buffer Overflow\nPosted on:\nMar 31, 2026\nBulletin ID:\n2026-011-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n03/31/2026 10:15 AM PST\nDescription:\nAWS Common Runtime library is used by several AWS SDKs to communicate with event-stream services (Ex. Kinesis, Transcribe). We identified\nCVE-2026-5190\n. AWS Common Runtime event-stream decoder component before 0.6.0 might allow a third party operating a server to cause memory corruption leading to arbitrary code execution on a client application that processes crafted event-stream messages.\nImpacted versions:\naws-c-event-stream < 0.6.0and the following higher level libraries that expose event-stream functionality\naws-iot-device-sdk-cpp-v2 < 1.42.1\naws-iot-device-sdk-java-v2 < 1.30.1\naws-iot-device-sdk-python-v2 < 1.28.2\naws-iot-device-sdk-js-v2 < 1.25.1\naws-sdk-swift < 1.6.70\naws-sdk-cpp < 1.11.764\nResolution:\nThis issue has been addressed in aws-c-event-stream version\n0.6.0\n, aws-iot-device-sdk-cpp-v2 version\n1.42.1\n, aws-iot-device-sdk-java-v2 version\n1.30.1\n, aws-iot-device-sdk-python-v2 version\n1.28.2\n, aws-iot-device-sdk-js-v2 version\n1.25.1\n, aws-sdk-swift\n1.6.70\n, and aws-sdk-cpp version\n1.11.764\n.\nWe recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nThe issue can only occur when client communicates using event-stream protocol with a third party operating a server. To avoid the issue, ensure that the server being communicated with is trusted. AWS servers would not trigger this issue.\nReference:\nCVE-2026-5190\nGHSA-xvjw-fjq5-68hf\nWe would like to thank\n1seal.org\nfor collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-03-31",
+  "modified_date": "",
+  "affected": [
+    "aws:AWS Common Runtime library is used by several AWS SDKs to communicate with event-stream services (Ex. Kinesis, Transcribe). We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-5190"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "0.6.0"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-5190",
+      "source": "aws",
+      "title": "CVE-2026-5190",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-03-31",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-011-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-011-aws/"
+  ]
+}

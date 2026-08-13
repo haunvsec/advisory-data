@@ -1,0 +1,64 @@
+{
+  "id": "2026-052-aws",
+  "source": "aws",
+  "title": "CVE-2026-14471 - Authenticated SQL injection in the metrics-service retention policy subsystem of mcp-gateway-registry",
+  "description": "CVE-2026-14471 - Authenticated SQL injection in the metrics-service retention policy subsystem of mcp-gateway-registry\nBulletin ID:\n2026-052-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n07/06/2026 13:45 PM PDT\nDescription:\nAmazon mcp-gateway-registry is an open-source gateway and registry for Model Context Protocol (MCP) servers, providing centralized discovery, authentication/authorization, and proxying of MCP tools for AI agents. We identified\nCVE-2026-14471\n, an issue in the metrics-service retention policy management component where a caller-supplied table_name value is interpolated into SQL statements in identifier position without proper neutralization. An authenticated remote user is able to supply a crafted table_name value to execute arbitrary SQL queries against the metrics database. This allows the user to read stored data (including API key material) and to delete or alter stored data.\nImpacted versions:\n>=1.0.3 AND <=1.0.12\nResolution:\nThis issue has been addressed in mcp-gateway-registry version\n1.0.13\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nThere is no workaround. Upgrade to version 1.0.13 or later; please check the GitHub repository for the\nlatest release\n.\nReferences:\nCVE-2026-14471\nGHSA-79qc-vqfr-xx5q\nPR #451\nAcknowledgement:\nWe would like to thank the security research community for collaborating on this issue through the coordinated disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-06",
+  "modified_date": "",
+  "affected": [
+    "aws:Amazon mcp-gateway-registry is an open-source gateway and registry for Model Context Protocol (MCP) servers, providing centralized discovery, authentication/authorization, and proxying of MCP tools for AI agents. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-14471"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "1.0.13"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-14471",
+      "source": "aws",
+      "title": "CVE-2026-14471",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-06",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-052-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-052-aws/"
+  ]
+}

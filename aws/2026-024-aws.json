@@ -1,0 +1,62 @@
+{
+  "id": "2026-024-aws",
+  "source": "aws",
+  "title": "CVE-2026-7461 - OS Command Injection in Amazon ECS Agent via FSx Windows File Server Volume Credentials",
+  "description": "CVE-2026-7461 - OS Command Injection in Amazon ECS Agent via FSx Windows File Server Volume Credentials\nPosted on:\nApr 30, 2026\nBulletin ID:\n2026-024-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n04/30/2026 11:45 AM PDT\nDescription:\nAmazon Elastic Container Service (Amazon ECS)\nis a fully managed container orchestration service that enables customers to deploy, manage, and scale containerized applications. The Amazon ECS agent supports mounting\nFSx for Windows File Server\nvolumes in task definitions on Windows EC2 instances. We identified\nCVE-2026-7461\n, a command injection issue in FSx volume mounting that enables code execution with SYSTEM privileges via a specially crafted credentials in ECS task definitions.\nImpacted versions:\nVersion 1.47.0 through 1.102.2 of the ECS Agent for Windows\nResolution:\nThis issue only impacts ECS Windows worker instances. ECS on Fargate is not affected. This issue has been addressed in ECS agent version 1.103.0. We recommend\nupgrading\nto the\nlatest\nAmazon ECS-optimized Windows AMI with an updated ECS agent version.\nWorkarounds:\nCustomers who cannot update to the latest AMI can restrict ecs:RegisterTaskDefinition permissions to trusted IAM principals only and restrict write access to Secrets Manager secrets referenced in FSx volume configurations.\nReferences:\nCVE-2026-7461\nGHSA-fc67-c4hg-q653\nAcknowledgment:\nWe would like to thank Sachin Patil for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-04-30",
+  "modified_date": "",
+  "affected": [
+    "aws:Amazon Elastic Container Service (Amazon ECS)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Elastic Container Service",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:aws:amazon_elastic_container_service:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-7461"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-7461",
+      "source": "aws",
+      "title": "CVE-2026-7461",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-04-30",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-024-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-024-aws/"
+  ]
+}

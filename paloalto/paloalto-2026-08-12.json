@@ -1,0 +1,293 @@
+{
+  "id": "paloalto-2026-08-12",
+  "source": "paloalto",
+  "title": "Paloalto Security Advisories - 2026-08-12",
+  "description": "Merged 9 paloalto security advisories published on 2026-08-12. Original advisory IDs: CVE-2026-0301, CVE-2026-0299, CVE-2026-0298, CVE-2026-0297, CVE-2026-0296, CVE-2026-0295, CVE-2026-0293, CVE-2026-0292, CVE-2026-0291\n\nTitles:\n- PAN-OS: Information Disclosure Vulnerability in URL Filtering\n- GlobalProtect App: Local Privilege Escalation Vulnerabilities\n- GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP)\n- GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake\n- GlobalProtect App: Improper Certificate Validation Bypass Vulnerability\n- GlobalProtect App: Local Privilege Escalation via Race Condition on macOS\n- Prisma Access Agent: Anti-Tamper Protection Bypass on Windows\n- Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows\n- Prisma Access Agent: Authenticated Limited File Deletion on Linux",
+  "severity": "medium",
+  "cvss_scores": [
+    {
+      "version": "3.1",
+      "score": 1.7,
+      "vector": "",
+      "severity": "low"
+    },
+    {
+      "version": "3.1",
+      "score": 5.9,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 5.2,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 4.5,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 4.1,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 5.6,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 2.1,
+      "vector": "",
+      "severity": "low"
+    },
+    {
+      "version": "3.1",
+      "score": 1.1,
+      "vector": "",
+      "severity": "low"
+    }
+  ],
+  "cvss_score": 5.9,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-12",
+  "modified_date": "2026-08-12",
+  "affected": [
+    "paloalto:panos",
+    "paloalto:globalprotect",
+    "paloalto:prisma"
+  ],
+  "affected_products": [
+    {
+      "vendor": "paloalto",
+      "product": "Palo Alto PAN-OS",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:paloalto:pan_os:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0301"
+        }
+      ]
+    },
+    {
+      "vendor": "paloalto",
+      "product": "Palo Alto GlobalProtect",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:paloalto:globalprotect:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0299"
+        },
+        {
+          "id": "CVE-2026-0298"
+        },
+        {
+          "id": "CVE-2026-0297"
+        },
+        {
+          "id": "CVE-2026-0296"
+        }
+      ]
+    },
+    {
+      "vendor": "paloalto",
+      "product": "Palo Alto Prisma",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:paloalto:prisma:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0295"
+        },
+        {
+          "id": "CVE-2026-0294"
+        },
+        {
+          "id": "CVE-2026-0293"
+        },
+        {
+          "id": "CVE-2026-0292"
+        },
+        {
+          "id": "CVE-2026-0291"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-0291",
+      "source": "paloalto",
+      "title": "Prisma Access Agent: Authenticated Limited File Deletion on Linux",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 1.1,
+      "cvss_vector": null,
+      "published_date": "2026-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0292",
+      "source": "paloalto",
+      "title": "Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 2.1,
+      "cvss_vector": null,
+      "published_date": "2026-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0293",
+      "source": "paloalto",
+      "title": "Prisma Access Agent: Anti-Tamper Protection Bypass on Windows",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 5.6,
+      "cvss_vector": null,
+      "published_date": "2026-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0294",
+      "source": "paloalto",
+      "title": "GlobalProtect App: Local Privilege Escalation via Race Condition on macOS",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 4.1,
+      "cvss_vector": null,
+      "published_date": "2026-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0295",
+      "source": "paloalto",
+      "title": "GlobalProtect App: Local Privilege Escalation via Race Condition on macOS",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 4.1,
+      "cvss_vector": null,
+      "published_date": "2026-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0296",
+      "source": "paloalto",
+      "title": "GlobalProtect App: Improper Certificate Validation Bypass Vulnerability",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 4.5,
+      "cvss_vector": null,
+      "published_date": "2026-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0297",
+      "source": "paloalto",
+      "title": "GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 5.2,
+      "cvss_vector": null,
+      "published_date": "2026-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0298",
+      "source": "paloalto",
+      "title": "GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP)",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 5.2,
+      "cvss_vector": null,
+      "published_date": "2026-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0299",
+      "source": "paloalto",
+      "title": "GlobalProtect App: Local Privilege Escalation Vulnerabilities",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 5.9,
+      "cvss_vector": null,
+      "published_date": "2026-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0301",
+      "source": "paloalto",
+      "title": "PAN-OS: Information Disclosure Vulnerability in URL Filtering",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 1.7,
+      "cvss_vector": null,
+      "published_date": "2026-08-12",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://security.paloaltonetworks.com/CVE-2026-0301",
+  "vendor": "paloalto",
+  "references": [
+    "https://security.paloaltonetworks.com/CVE-2026-0301",
+    "https://security.paloaltonetworks.com/CVE-2026-0299",
+    "https://security.paloaltonetworks.com/CVE-2026-0298",
+    "https://security.paloaltonetworks.com/CVE-2026-0297",
+    "https://security.paloaltonetworks.com/CVE-2026-0296",
+    "https://security.paloaltonetworks.com/CVE-2026-0295",
+    "https://security.paloaltonetworks.com/CVE-2026-0293",
+    "https://security.paloaltonetworks.com/CVE-2026-0292",
+    "https://security.paloaltonetworks.com/CVE-2026-0291"
+  ]
+}

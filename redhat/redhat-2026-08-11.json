@@ -2,12 +2,15 @@
   "id": "redhat-2026-08-11",
   "source": "redhat",
   "title": "Redhat Security Advisories - 2026-08-11",
-  "description": "Merged 20 redhat security advisories published on 2026-08-11. Original advisory IDs: RHSA-2026:53475, RHSA-2026:53452, RHSA-2026:53455, RHSA-2026:53446, RHSA-2026:53444, RHSA-2026:53435, RHSA-2026:53450, RHSA-2026:53445, RHSA-2026:53415, RHSA-2026:53412, RHSA-2026:53416, RHSA-2026:53413, RHSA-2026:53402, RHSA-2026:53329, RHSA-2026:53365, RHSA-2026:53363, RHSA-2026:53330, RHSA-2026:53374, RHSA-2026:53364, RHSA-2026:53298\n\nTitles:\n- Red Hat Security Advisory: thunderbird security update\n- Red Hat Security Advisory: gstreamer1-plugins-good security update\n- Red Hat Security Advisory: udisks2 security update\n- Red Hat Security Advisory: xorg-x11-server-Xwayland security update\n- Red Hat Security Advisory: opentelemetry-collector security update\n- Red Hat Security Advisory: host-metering security update\n- Red Hat Security Advisory: ldns security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: fence-agents security update\n- Red Hat Security Advisory: rhc security update\n- Red Hat Security Advisory: resource-agents security update\n- Red Hat Security Advisory: nodejs22 security update",
+  "description": "Merged 28 redhat security advisories published on 2026-08-11. Original advisory IDs: RHSA-2026:53844, RHSA-2026:53845, RHSA-2026:53848, RHSA-2026:53847, RHSA-2026:53846, RHSA-2026:53475, RHSA-2026:53454, RHSA-2026:53453, RHSA-2026:53452, RHSA-2026:53451, RHSA-2026:53455, RHSA-2026:53446, RHSA-2026:53444, RHSA-2026:53435, RHSA-2026:53450, RHSA-2026:53445, RHSA-2026:53415, RHSA-2026:53412, RHSA-2026:53416, RHSA-2026:53413, RHSA-2026:53402, RHSA-2026:53329, RHSA-2026:53365, RHSA-2026:53363, RHSA-2026:53330, RHSA-2026:53374, RHSA-2026:53364, RHSA-2026:53298\n\nTitles:\n- Red Hat Security Advisory: iscsi-initiator-utils security, bug fix, and enhancement update\n- Red Hat Security Advisory: isns-utils security update\n- Red Hat Security Advisory: thunderbird security update\n- Red Hat Security Advisory: gstreamer1-plugins-good security update\n- Red Hat Security Advisory: udisks2 security update\n- Red Hat Security Advisory: xorg-x11-server-Xwayland security update\n- Red Hat Security Advisory: opentelemetry-collector security update\n- Red Hat Security Advisory: host-metering security update\n- Red Hat Security Advisory: ldns security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: fence-agents security update\n- Red Hat Security Advisory: rhc security update\n- Red Hat Security Advisory: resource-agents security update\n- Red Hat Security Advisory: nodejs22 security update",
   "severity": "important",
   "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [
+    "CWE-22",
+    "CWE-1220",
+    "CWE-763",
     "CWE-125",
     "CWE-476",
     "CWE-501",
@@ -26,7 +29,6 @@
     "CWE-653",
     "CWE-358",
     "CWE-807",
-    "CWE-1220",
     "CWE-312",
     "CWE-770",
     "CWE-863",
@@ -35,7 +37,6 @@
     "CWE-1341",
     "CWE-1289",
     "CWE-256",
-    "CWE-22",
     "CWE-940",
     "CWE-824",
     "CWE-130",
@@ -47,29 +48,32 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-08-11",
-  "modified_date": "2026-08-11",
+  "modified_date": "2026-08-12",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
-    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
     "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)",
     "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
     "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)",
     "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
     "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
-    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
-    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
-    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)",
     "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
     "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
-    "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
     "redhat:Red Hat Enterprise Linux Real Time (v. 9)",
     "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
     "redhat:Red Hat Enterprise Linux HighAvailability (v. 8)",
     "redhat:Red Hat Enterprise Linux ResilientStorage (v. 8)",
-    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
     "redhat:Red Hat Enterprise Linux Real Time (v. 10)"
   ],
   "affected_products": [
@@ -85,6 +89,15 @@
       "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
+        {
+          "id": "CVE-2026-44943"
+        },
+        {
+          "id": "CVE-2026-44944"
+        },
+        {
+          "id": "CVE-2026-55995"
+        },
         {
           "id": "CVE-2026-14899"
         },
@@ -1017,6 +1030,36 @@
       ]
     },
     {
+      "id": "CVE-2026-44943",
+      "source": "redhat",
+      "title": "open-iscsi: open-iscsi: Privilege Escalation via Path Traversal",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+      "published_date": "2026-08-11",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-44943"
+      ]
+    },
+    {
+      "id": "CVE-2026-44944",
+      "source": "redhat",
+      "title": "open-iscsi: open-iscsi: Authentication bypass in iscsiuio control socket",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-11",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-44944"
+      ]
+    },
+    {
       "id": "CVE-2026-52923",
       "source": "redhat",
       "title": "kernel: ipc: limit next_id allocation to the valid ID range",
@@ -1029,6 +1072,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-52923"
+      ]
+    },
+    {
+      "id": "CVE-2026-55995",
+      "source": "redhat",
+      "title": "open-isns: open-iscsi: Denial of Service via double-free in iSNS attribute decoder",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-11",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-55995"
       ]
     },
     {
@@ -1139,11 +1197,19 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://access.redhat.com/errata/RHSA-2026:53475",
+  "url": "https://access.redhat.com/errata/RHSA-2026:53844",
   "vendor": "redhat",
   "references": [
+    "https://access.redhat.com/errata/RHSA-2026:53844",
+    "https://access.redhat.com/errata/RHSA-2026:53845",
+    "https://access.redhat.com/errata/RHSA-2026:53848",
+    "https://access.redhat.com/errata/RHSA-2026:53847",
+    "https://access.redhat.com/errata/RHSA-2026:53846",
     "https://access.redhat.com/errata/RHSA-2026:53475",
+    "https://access.redhat.com/errata/RHSA-2026:53454",
+    "https://access.redhat.com/errata/RHSA-2026:53453",
     "https://access.redhat.com/errata/RHSA-2026:53452",
+    "https://access.redhat.com/errata/RHSA-2026:53451",
     "https://access.redhat.com/errata/RHSA-2026:53455",
     "https://access.redhat.com/errata/RHSA-2026:53446",
     "https://access.redhat.com/errata/RHSA-2026:53444",

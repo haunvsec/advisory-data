@@ -1,0 +1,62 @@
+{
+  "id": "2026-071-aws",
+  "source": "aws",
+  "title": "CVE-2026-18654 - Disabled SSH host key verification in AWS CLI EMR helper commands",
+  "description": "CVE-2026-18654 - Disabled SSH host key verification in AWS CLI EMR helper commands\nBulletin ID:\n2026-071-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n08/03/2026 12:30 PM PDT\nDescription:\nAWS Command Line Interface (AWS CLI) is a unified tool to manage AWS services from the command line. We identified\nCVE-2026-18654\n, an issue where the EMR SSH helper commands (aws emr ssh, aws emr socks, aws emr put, aws emr get) disabled SSH host key verification, which might allow man-in-the-middle actors to intercept SSH sessions and file transfers via network positioning between the client and the EMR cluster endpoint.\nImpacted versions:\nAWS CLI v1 <= 1.45.27\nAWS CLI v2 <= 2.35.2\nResolution:\nThis issue has been addressed in\nAWS CLI v1 version 1.45.28\nand\nAWS CLI v2 version 2.35.3\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nThere is no workaround. The insecure SSH option was hardcoded and could not be overridden by the user. Customers must upgrade to the fixed versions.\nReferences:\nCVE-2026-18654\nGHSA-hqvf-45jj-mccq\nAcknowledgement:\nWe would like to thank Ali Sunbul for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-03",
+  "modified_date": "",
+  "affected": [
+    "aws:AWS Command Line Interface (AWS CLI) is a unified tool to manage AWS services from the command line. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-18654"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-18654",
+      "source": "aws",
+      "title": "CVE-2026-18654",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-03",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-071-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-071-aws/"
+  ]
+}

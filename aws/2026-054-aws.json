@@ -1,0 +1,64 @@
+{
+  "id": "2026-054-aws",
+  "source": "aws",
+  "title": "CVE-2026-15643 - AWS HealthLake MCP Server SSRF via Unvalidated Pagination URL",
+  "description": "CVE-2026-15643 - AWS HealthLake MCP Server SSRF via Unvalidated Pagination URL\nBulletin ID:\n2026-054-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n07/14/2026 13:00 PM PDT\nDescription:\nAWS HealthLake MCP Server (awslabs.healthlake-mcp-server) is a Model Context Protocol server that enables AI assistants to interact with AWS HealthLake FHIR datastores. We identified\nCVE-2026-15643\na server-side request forgery in the pagination handling component in AWS awslabs.healthlake-mcp-server before 0.0.14 on all platforms might allow a remote authenticated user to exfiltrate AWS temporary security credentials to an arbitrary endpoint via a crafted next_token parameter. The server does not validate that pagination URLs point back to the expected HealthLake endpoint, allowing an actor to redirect subsequent requests to an actor-controlled server.\nImpacted versions:\n< 0.0.14\nResolution:\nThis issue has been addressed in awslabs.healthlake-mcp-server version\n0.0.14\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nIn the interim, scope the IAM policy used by the server to least privilege rather than Resource: \"*\", and do not rely on the --readonly flag as a security boundary — it is an in-process guard over the mutating tools, not an IAM control, so disclosed credentials retain their full granted authority. Operators using role-based (STS) deployments should consider rotating the affected role's credentials if they suspect using an affected version.\nReferences:\nCVE-2026-15643\nGHSA-c5vr-x62j-w6rw\nAcknowledgement:\nWe would like to thank Marios Gyftos for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-14",
+  "modified_date": "",
+  "affected": [
+    "aws:AWS HealthLake MCP Server (awslabs.healthlake-mcp-server) is a Model Context Protocol server that enables AI assistants to interact with AWS HealthLake FHIR datastores. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-15643"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "0.0.14"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-15643",
+      "source": "aws",
+      "title": "CVE-2026-15643",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-14",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-054-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-054-aws/"
+  ]
+}

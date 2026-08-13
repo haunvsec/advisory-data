@@ -1,0 +1,62 @@
+{
+  "id": "2026-069-aws",
+  "source": "aws",
+  "title": "CVE-2026-18394 - Incorrect authorization in Strands Agents Tools http_request tool",
+  "description": "CVE-2026-18394 - Incorrect authorization in Strands Agents Tools http_request tool\nBulletin ID:\n2026-069-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n07/31/2026 12:30 PM PDT\nDescription:\nStrands Agents is an open-source SDK for building AI agents. The strands-agents-tools package provides pre-built tools for use with the SDK, including the http_request tool for making HTTP API requests.\nWe identified\nCVE-2026-18394\n, an incorrect authorization issue in the http_request tool. Operators can use the HTTP_REQUEST_TOKEN_CONFIG allowlist to bind a credential to a set of approved hostnames so it is sent only to those hosts. The tool also exposed a proxies parameter in the input schema that the large language model (LLM) could control. A crafted prompt, for example one delivered through untrusted web content the agent reads (indirect prompt injection), could set proxies to an actor-controlled endpoint. The hostname allowlist check still passes on the request URL, the credential is attached, and the request is routed through the actor's proxy on the first hop, disclosing the credential in cleartext in the Authorization header.\nImpacted versions:\n< 0.8.2\nResolution:\nThis issue has been addressed in\nstrands-agents-tools version 0.8.2\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes. As a precautionary measure, we recommend all operators who configured credentials via HTTP_REQUEST_TOKEN_CONFIG on affected versions rotate those credentials, even if there is no indication a credential was exposed.\nWorkarounds:\nUntil you can upgrade, do not bind credentials with HTTP_REQUEST_TOKEN_CONFIG when the http_request tool is available to an agent that processes untrusted content, and configure any required proxies out of band through the HTTP_PROXY and HTTPS_PROXY environment variables rather than through the tool.\nReferences:\nCVE-2026-18394\nGHSA-qhw6-2h72-m84v\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-31",
+  "modified_date": "",
+  "affected": [
+    "aws:Strands Agents is an open-source SDK for building AI agents. The strands-agents-tools package provides pre-built tools for use with the SDK, including the http_request tool for making HTTP API requests."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-18394"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-18394",
+      "source": "aws",
+      "title": "CVE-2026-18394",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-31",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-069-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-069-aws/"
+  ]
+}
