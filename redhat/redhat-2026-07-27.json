@@ -2,7 +2,7 @@
   "id": "redhat-2026-07-27",
   "source": "redhat",
   "title": "Redhat Security Advisories - 2026-07-27",
-  "description": "Merged 30 redhat security advisories published on 2026-07-27. Original advisory IDs: RHSA-2026:46986, RHSA-2026:46956, RHSA-2026:46951, RHSA-2026:46532, RHSA-2026:46482, RHSA-2026:46473, RHSA-2026:46467, RHSA-2026:46461, RHSA-2026:46460, RHSA-2026:46456, RHSA-2026:46398, RHSA-2026:46397, RHSA-2026:46392, RHSA-2026:46387, RHSA-2026:46388, RHSA-2026:46385, RHSA-2026:46389, RHSA-2026:46386, RHSA-2026:46396, RHSA-2026:46382, RHSA-2026:46391, RHSA-2026:46384, RHSA-2026:46393, RHSA-2026:46381, RHSA-2026:46395, RHSA-2026:46383, RHSA-2026:46394, RHSA-2026:46377, RHSA-2026:46379, RHSA-2026:46380\n\nTitles:\n- Red Hat Security Advisory: libreswan security update\n- Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.5\n- Red Hat Security Advisory: kpatch-patch-6_12_0-211_16_1 security update\n- Red Hat Security Advisory: dovecot security update\n- Red Hat Security Advisory: sssd security update\n- Red Hat Security Advisory: tigervnc security update\n- Red Hat Security Advisory: evince security update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: libreoffice security update\n- Red Hat Security Advisory: freerdp security update\n- Red Hat Security Advisory: grafana security, bug fix, and enhancement update\n- Red Hat Security Advisory: go-fdo-server security update\n- Red Hat Security Advisory: go-fdo-client security update",
+  "description": "Merged 10 redhat security advisories published on 2026-07-27. Original advisory IDs: RHSA-2026:46986, RHSA-2026:46956, RHSA-2026:46951, RHSA-2026:46532, RHSA-2026:46482, RHSA-2026:46473, RHSA-2026:46467, RHSA-2026:46461, RHSA-2026:46460, RHSA-2026:46456\n\nTitles:\n- Red Hat Security Advisory: libreswan security update\n- Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.5\n- Red Hat Security Advisory: kpatch-patch-6_12_0-211_16_1 security update\n- Red Hat Security Advisory: dovecot security update\n- Red Hat Security Advisory: sssd security update\n- Red Hat Security Advisory: tigervnc security update\n- Red Hat Security Advisory: evince security update\n- Red Hat Security Advisory: kernel-rt security update",
   "severity": "important",
   "cvss_scores": [],
   "cvss_score": null,
@@ -21,15 +21,12 @@
     "CWE-416",
     "CWE-125",
     "CWE-787",
-    "CWE-77",
-    "CWE-606",
-    "CWE-825",
-    "CWE-1289"
+    "CWE-77"
   ],
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-07-27",
-  "modified_date": "2026-08-13",
+  "modified_date": "2026-08-14",
   "affected": [
     "redhat:Fast Datapath for Red Hat Enterprise Linux 9",
     "redhat:Red Hat Enterprise Linux AI",
@@ -46,15 +43,7 @@
     "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
     "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)",
     "redhat:Red Hat Enterprise Linux for Real Time (v. 7 ELS)",
-    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
-    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
-    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
-    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
-    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
-    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)",
-    "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
-    "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
-    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)"
   ],
   "affected_products": [
     {
@@ -131,36 +120,6 @@
         },
         {
           "id": "CVE-2026-43279"
-        },
-        {
-          "id": "CVE-2026-8357"
-        },
-        {
-          "id": "CVE-2026-45700"
-        },
-        {
-          "id": "CVE-2026-4430"
-        },
-        {
-          "id": "CVE-2026-44740"
-        },
-        {
-          "id": "CVE-2026-40033"
-        },
-        {
-          "id": "CVE-2026-44420"
-        },
-        {
-          "id": "CVE-2026-44421"
-        },
-        {
-          "id": "CVE-2026-44422"
-        },
-        {
-          "id": "CVE-2026-27145"
-        },
-        {
-          "id": "CVE-2026-39821"
         }
       ]
     }
@@ -230,21 +189,6 @@
       ]
     },
     {
-      "id": "CVE-2026-27145",
-      "source": "redhat",
-      "title": "crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-07-27",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-27145"
-      ]
-    },
-    {
       "id": "CVE-2026-32281",
       "source": "redhat",
       "title": "crypto/x509: golang: Go crypto/x509: Denial of Service via inefficient certificate chain validation",
@@ -260,21 +204,6 @@
       ]
     },
     {
-      "id": "CVE-2026-39821",
-      "source": "redhat",
-      "title": "golang.org/x/net/idna: golang: net/http: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing",
-      "description": "",
-      "severity": null,
-      "cvss_score": 8.2,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N",
-      "published_date": "2026-07-27",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-39821"
-      ]
-    },
-    {
       "id": "CVE-2026-39892",
       "source": "redhat",
       "title": "cryptography: Cryptography: Buffer overflow via non-contiguous buffer in API",
@@ -287,21 +216,6 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-39892"
-      ]
-    },
-    {
-      "id": "CVE-2026-40033",
-      "source": "redhat",
-      "title": "freerdp: FreeRDP: Remote code execution via heap-buffer-overflow in gdi_CacheToSurface",
-      "description": "",
-      "severity": null,
-      "cvss_score": 8.8,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "published_date": "2026-07-27",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-40033"
       ]
     },
     {
@@ -332,96 +246,6 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-43279"
-      ]
-    },
-    {
-      "id": "CVE-2026-4430",
-      "source": "redhat",
-      "title": "LibreOffice: LibreOffice: Denial of Service via crafted OOXML documents",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.6,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H",
-      "published_date": "2026-07-27",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-4430"
-      ]
-    },
-    {
-      "id": "CVE-2026-44420",
-      "source": "redhat",
-      "title": "freerdp: FreeRDP: Arbitrary code execution and denial of service via heap-buffer-overflow",
-      "description": "",
-      "severity": null,
-      "cvss_score": 8.8,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "published_date": "2026-07-27",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-44420"
-      ]
-    },
-    {
-      "id": "CVE-2026-44421",
-      "source": "redhat",
-      "title": "freerdp: FreeRDP: Arbitrary code execution via crafted RDPGFX PDUs",
-      "description": "",
-      "severity": null,
-      "cvss_score": 8.8,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "published_date": "2026-07-27",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-44421"
-      ]
-    },
-    {
-      "id": "CVE-2026-44422",
-      "source": "redhat",
-      "title": "freerdp: FreeRDP: Arbitrary code execution or denial of service via heap use-after-free in RDPEAR NDR parser",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "published_date": "2026-07-27",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-44422"
-      ]
-    },
-    {
-      "id": "CVE-2026-44740",
-      "source": "redhat",
-      "title": "github.com/go-git/go-billy: Billy: Denial of Service via crafted input due to insufficient validation",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-07-27",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-44740"
-      ]
-    },
-    {
-      "id": "CVE-2026-45700",
-      "source": "redhat",
-      "title": "freerdp: FreeRDP: Out-of-bounds write in planar bitmap decoder allows arbitrary code execution",
-      "description": "",
-      "severity": null,
-      "cvss_score": 8.8,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "published_date": "2026-07-27",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-45700"
       ]
     },
     {
@@ -618,21 +442,6 @@
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-64600"
       ]
-    },
-    {
-      "id": "CVE-2026-8357",
-      "source": "redhat",
-      "title": "libreoffice: LibreOffice Calc: Arbitrary code execution via heap buffer overflow in formula compilation",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.8,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "published_date": "2026-07-27",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-8357"
-      ]
     }
   ],
   "exploits": [],
@@ -649,26 +458,6 @@
     "https://access.redhat.com/errata/RHSA-2026:46467",
     "https://access.redhat.com/errata/RHSA-2026:46461",
     "https://access.redhat.com/errata/RHSA-2026:46460",
-    "https://access.redhat.com/errata/RHSA-2026:46456",
-    "https://access.redhat.com/errata/RHSA-2026:46398",
-    "https://access.redhat.com/errata/RHSA-2026:46397",
-    "https://access.redhat.com/errata/RHSA-2026:46392",
-    "https://access.redhat.com/errata/RHSA-2026:46387",
-    "https://access.redhat.com/errata/RHSA-2026:46388",
-    "https://access.redhat.com/errata/RHSA-2026:46385",
-    "https://access.redhat.com/errata/RHSA-2026:46389",
-    "https://access.redhat.com/errata/RHSA-2026:46386",
-    "https://access.redhat.com/errata/RHSA-2026:46396",
-    "https://access.redhat.com/errata/RHSA-2026:46382",
-    "https://access.redhat.com/errata/RHSA-2026:46391",
-    "https://access.redhat.com/errata/RHSA-2026:46384",
-    "https://access.redhat.com/errata/RHSA-2026:46393",
-    "https://access.redhat.com/errata/RHSA-2026:46381",
-    "https://access.redhat.com/errata/RHSA-2026:46395",
-    "https://access.redhat.com/errata/RHSA-2026:46383",
-    "https://access.redhat.com/errata/RHSA-2026:46394",
-    "https://access.redhat.com/errata/RHSA-2026:46377",
-    "https://access.redhat.com/errata/RHSA-2026:46379",
-    "https://access.redhat.com/errata/RHSA-2026:46380"
+    "https://access.redhat.com/errata/RHSA-2026:46456"
   ]
 }

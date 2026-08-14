@@ -2,8 +2,8 @@
   "id": "redhat-2026-07-30",
   "source": "redhat",
   "title": "Redhat Security Advisories - 2026-07-30",
-  "description": "Merged 14 redhat security advisories published on 2026-07-30. Original advisory IDs: RHSA-2026:48605, RHSA-2026:48603, RHSA-2026:48615, RHSA-2026:48586, RHSA-2026:48604, RHSA-2026:48606, RHSA-2026:47757, RHSA-2026:47755, RHSA-2026:47736, RHSA-2026:47731, RHSA-2026:47718, RHSA-2026:47632, RHSA-2026:47633, RHSA-2026:48225\n\nTitles:\n- Red Hat Security Advisory: fence-agents security update\n- Red Hat Security Advisory: hplip security update\n- Red Hat Security Advisory: hplip security, bug fix, and enhancement update\n- Red Hat Security Advisory: openssh security update\n- Red Hat Security Advisory: gstreamer1-plugins-bad-free security update\n- Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: perl:5.32 security update",
-  "severity": "important",
+  "description": "Merged 16 redhat security advisories published on 2026-07-30. Original advisory IDs: RHSA-2026:48605, RHSA-2026:48603, RHSA-2026:48615, RHSA-2026:48586, RHSA-2026:48604, RHSA-2026:48606, RHSA-2026:47757, RHSA-2026:47755, RHSA-2026:47749, RHSA-2026:47750, RHSA-2026:47736, RHSA-2026:47731, RHSA-2026:47718, RHSA-2026:47632, RHSA-2026:47633, RHSA-2026:48225\n\nTitles:\n- Red Hat Security Advisory: fence-agents security update\n- Red Hat Security Advisory: hplip security update\n- Red Hat Security Advisory: hplip security, bug fix, and enhancement update\n- Red Hat Security Advisory: openssh security update\n- Red Hat Security Advisory: php:8.2 security, bug fix, and enhancement update\n- Red Hat Security Advisory: php:7.4 security, bug fix, and enhancement update\n- Red Hat Security Advisory: gstreamer1-plugins-bad-free security update\n- Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: perl:5.32 security update",
+  "severity": "low",
   "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
@@ -16,9 +16,9 @@
     "CWE-923",
     "CWE-22",
     "CWE-825",
+    "CWE-122",
     "CWE-787",
     "CWE-121",
-    "CWE-122",
     "CWE-1288",
     "CWE-1285",
     "CWE-763",
@@ -30,7 +30,7 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-07-30",
-  "modified_date": "2026-08-13",
+  "modified_date": "2026-08-14",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
@@ -95,6 +95,9 @@
         },
         {
           "id": "CVE-2026-60002"
+        },
+        {
+          "id": "CVE-2026-14355"
         },
         {
           "id": "CVE-2026-59691"
@@ -179,6 +182,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2025-68724"
+      ]
+    },
+    {
+      "id": "CVE-2026-14355",
+      "source": "redhat",
+      "title": "php: ext/openssl: memory corruption in openssl_encrypt with AES-WRAP-PAD",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 5.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-07-30",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-14355"
       ]
     },
     {
@@ -525,6 +543,8 @@
     "https://access.redhat.com/errata/RHSA-2026:48606",
     "https://access.redhat.com/errata/RHSA-2026:47757",
     "https://access.redhat.com/errata/RHSA-2026:47755",
+    "https://access.redhat.com/errata/RHSA-2026:47749",
+    "https://access.redhat.com/errata/RHSA-2026:47750",
     "https://access.redhat.com/errata/RHSA-2026:47736",
     "https://access.redhat.com/errata/RHSA-2026:47731",
     "https://access.redhat.com/errata/RHSA-2026:47718",

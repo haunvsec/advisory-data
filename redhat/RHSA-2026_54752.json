@@ -1,0 +1,87 @@
+{
+  "id": "RHSA-2026:54752",
+  "source": "redhat",
+  "title": "Red Hat Security Advisory: gstreamer1-plugins-bad-free security update",
+  "description": "Red Hat Security Advisory: gstreamer1-plugins-bad-free security update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-787",
+    "CWE-121"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-14",
+  "modified_date": "2026-08-14",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-59691"
+        },
+        {
+          "id": "CVE-2026-59692"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-59691",
+      "source": "redhat",
+      "title": "gstreamer: gstreamer: rfbsrc/librfb Hextile heap out-of-bounds write with 16bpp framebuffer",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+      "published_date": "2026-08-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59691"
+      ]
+    },
+    {
+      "id": "CVE-2026-59692",
+      "source": "redhat",
+      "title": "gstreamer: gstreamer: DTLS certificate Subject DN stack buffer overflow in openssl_verify_callback",
+      "description": "",
+      "severity": "important",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-14",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59692"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:54752",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:54752"
+  ]
+}

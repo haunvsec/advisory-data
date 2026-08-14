@@ -2,8 +2,8 @@
   "id": "redhat-2026-07-29",
   "source": "redhat",
   "title": "Redhat Security Advisories - 2026-07-29",
-  "description": "Merged 30 redhat security advisories published on 2026-07-29. Original advisory IDs: RHSA-2026:47756, RHSA-2026:47739, RHSA-2026:48036, RHSA-2026:48171, RHSA-2026:47712, RHSA-2026:47716, RHSA-2026:47910, RHSA-2026:47714, RHSA-2026:47721, RHSA-2026:47722, RHSA-2026:48222, RHSA-2026:47772, RHSA-2026:47939, RHSA-2026:48021, RHSA-2026:47719, RHSA-2026:47905, RHSA-2026:47717, RHSA-2026:47982, RHSA-2026:48033, RHSA-2026:48034, RHSA-2026:48032, RHSA-2026:47981, RHSA-2026:47998, RHSA-2026:47983, RHSA-2026:47997, RHSA-2026:48016, RHSA-2026:47984, RHBA-2026:47115, RHSA-2026:47869, RHSA-2026:47620\n\nTitles:\n- Red Hat Security Advisory: openssh security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: hplip security update\n- Red Hat Security Advisory: golang security, bug fix, and enhancement update\n- Red Hat Security Advisory: grafana-pcp security, bug fix, and enhancement update\n- Red Hat Security Advisory: grafana security, bug fix, and enhancement update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: mariadb-connector-c security update\n- Red Hat Security Advisory: python3.12 security update\n- Red Hat Security Advisory: python-pillow security update\n- Red Hat Security Advisory: container-selinux and crun security, bug fix, and enhancement update\n- Red Hat Security Advisory: gstreamer1-plugins-bad-free security update\n- Red Hat Security Advisory: vim security update\n- Red Hat Security Advisory: nodejs22 security update\n- Red Hat Security Advisory: nodejs24 security update\n- Red Hat Security Advisory: nodejs-nodemon security update\n- Red Hat Security Advisory: kpatch-patch security update\n- Red Hat Bug Fix Advisory: coreutils bug fix and enhancement update\n- Red Hat Security Advisory: kernel security update",
-  "severity": "important",
+  "description": "Merged 31 redhat security advisories published on 2026-07-29. Original advisory IDs: RHSA-2026:47756, RHSA-2026:47739, RHSA-2026:48036, RHSA-2026:48171, RHSA-2026:48170, RHSA-2026:47712, RHSA-2026:47716, RHSA-2026:47910, RHSA-2026:47714, RHSA-2026:47721, RHSA-2026:47722, RHSA-2026:48222, RHSA-2026:47772, RHSA-2026:47939, RHSA-2026:48021, RHSA-2026:47719, RHSA-2026:47905, RHSA-2026:47717, RHSA-2026:47982, RHSA-2026:48033, RHSA-2026:48034, RHSA-2026:48032, RHSA-2026:47981, RHSA-2026:47998, RHSA-2026:47983, RHSA-2026:47997, RHSA-2026:48016, RHSA-2026:47984, RHBA-2026:47115, RHSA-2026:47869, RHSA-2026:47620\n\nTitles:\n- Red Hat Security Advisory: openssh security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: hplip security update\n- Red Hat Security Advisory: php security, bug fix, and enhancement update\n- Red Hat Security Advisory: golang security, bug fix, and enhancement update\n- Red Hat Security Advisory: grafana-pcp security, bug fix, and enhancement update\n- Red Hat Security Advisory: grafana security, bug fix, and enhancement update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: mariadb-connector-c security update\n- Red Hat Security Advisory: python3.12 security update\n- Red Hat Security Advisory: python-pillow security update\n- Red Hat Security Advisory: container-selinux and crun security, bug fix, and enhancement update\n- Red Hat Security Advisory: gstreamer1-plugins-bad-free security update\n- Red Hat Security Advisory: vim security update\n- Red Hat Security Advisory: nodejs22 security update\n- Red Hat Security Advisory: nodejs24 security update\n- Red Hat Security Advisory: nodejs-nodemon security update\n- Red Hat Security Advisory: kpatch-patch security update\n- Red Hat Bug Fix Advisory: coreutils bug fix and enhancement update\n- Red Hat Security Advisory: kernel security update",
+  "severity": "low",
   "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
@@ -23,6 +23,7 @@
     "CWE-367",
     "CWE-764",
     "CWE-78",
+    "CWE-122",
     "CWE-733",
     "CWE-440",
     "CWE-431",
@@ -31,7 +32,6 @@
     "CWE-787",
     "CWE-115",
     "CWE-617",
-    "CWE-122",
     "CWE-120",
     "CWE-94",
     "CWE-1333",
@@ -43,7 +43,7 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-07-29",
-  "modified_date": "2026-08-13",
+  "modified_date": "2026-08-14",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
@@ -51,6 +51,7 @@
     "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
     "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
     "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
     "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
     "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.2)",
     "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.2)",
@@ -59,7 +60,6 @@
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
     "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
     "redhat:Red Hat Enterprise Linux CRB (v. 8)",
-    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
     "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
     "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
     "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
@@ -130,6 +130,9 @@
         },
         {
           "id": "CVE-2026-8632"
+        },
+        {
+          "id": "CVE-2026-14355"
         },
         {
           "id": "CVE-2026-27143"
@@ -256,6 +259,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-13149"
+      ]
+    },
+    {
+      "id": "CVE-2026-14355",
+      "source": "redhat",
+      "title": "php: ext/openssl: memory corruption in openssl_encrypt with AES-WRAP-PAD",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 5.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-07-29",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-14355"
       ]
     },
     {
@@ -853,6 +871,7 @@
     "https://access.redhat.com/errata/RHSA-2026:47739",
     "https://access.redhat.com/errata/RHSA-2026:48036",
     "https://access.redhat.com/errata/RHSA-2026:48171",
+    "https://access.redhat.com/errata/RHSA-2026:48170",
     "https://access.redhat.com/errata/RHSA-2026:47712",
     "https://access.redhat.com/errata/RHSA-2026:47716",
     "https://access.redhat.com/errata/RHSA-2026:47910",
