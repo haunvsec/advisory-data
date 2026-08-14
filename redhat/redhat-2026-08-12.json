@@ -2,7 +2,7 @@
   "id": "redhat-2026-08-12",
   "source": "redhat",
   "title": "Redhat Security Advisories - 2026-08-12",
-  "description": "Merged 27 redhat security advisories published on 2026-08-12. Original advisory IDs: RHSA-2026:54417, RHSA-2026:54343, RHSA-2026:47117, RHSA-2026:47126, RHSA-2026:47129, RHSA-2026:54339, RHSA-2026:54268, RHSA-2026:54272, RHSA-2026:54290, RHSA-2026:54254, RHSA-2026:54248, RHSA-2026:54249, RHSA-2026:54259, RHSA-2026:54246, RHSA-2026:54244, RHSA-2026:54247, RHSA-2026:54210, RHSA-2026:54191, RHSA-2026:54182, RHSA-2026:54181, RHSA-2026:54178, RHSA-2026:54185, RHSA-2026:54180, RHSA-2026:54142, RHSA-2026:54168, RHSA-2026:53990, RHSA-2026:53989\n\nTitles:\n- Red Hat Security Advisory: python-pillow security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: libgcrypt security update\n- Red Hat Security Advisory: resource-agents security update\n- Red Hat Security Advisory: firefox security update\n- Red Hat Security Advisory: python3.9 security update\n- Red Hat Security Advisory: abrt security update\n- Red Hat Security Advisory: python-idna security update\n- Red Hat Security Advisory: ldns security update\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: dhcpcd security update\n- Red Hat Security Advisory: rhc-worker-script security update\n- Red Hat Security Advisory: grafana security, bug fix, and enhancement update\n- Red Hat Security Advisory: mariadb:10.11 security update\n- Red Hat Security Advisory: rhc-worker-playbook security update",
+  "description": "Merged 29 redhat security advisories published on 2026-08-12. Original advisory IDs: RHSA-2026:54417, RHSA-2026:54401, RHSA-2026:54343, RHSA-2026:54377, RHSA-2026:47117, RHSA-2026:47126, RHSA-2026:47129, RHSA-2026:54339, RHSA-2026:54268, RHSA-2026:54272, RHSA-2026:54290, RHSA-2026:54254, RHSA-2026:54248, RHSA-2026:54249, RHSA-2026:54259, RHSA-2026:54246, RHSA-2026:54244, RHSA-2026:54247, RHSA-2026:54210, RHSA-2026:54191, RHSA-2026:54182, RHSA-2026:54181, RHSA-2026:54178, RHSA-2026:54185, RHSA-2026:54180, RHSA-2026:54142, RHSA-2026:54168, RHSA-2026:53990, RHSA-2026:53989\n\nTitles:\n- Red Hat Security Advisory: python-pillow security update\n- Red Hat Security Advisory: rhc security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: ldns security update\n- Red Hat Security Advisory: libgcrypt security update\n- Red Hat Security Advisory: resource-agents security update\n- Red Hat Security Advisory: firefox security update\n- Red Hat Security Advisory: python3.9 security update\n- Red Hat Security Advisory: abrt security update\n- Red Hat Security Advisory: python-idna security update\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: dhcpcd security update\n- Red Hat Security Advisory: rhc-worker-script security update\n- Red Hat Security Advisory: grafana security, bug fix, and enhancement update\n- Red Hat Security Advisory: mariadb:10.11 security update\n- Red Hat Security Advisory: rhc-worker-playbook security update",
   "severity": "important",
   "cvss_scores": [],
   "cvss_score": null,
@@ -10,9 +10,12 @@
   "cwe_ids": [
     "CWE-125",
     "CWE-787",
+    "CWE-606",
+    "CWE-1289",
     "CWE-364",
     "CWE-120",
     "CWE-825",
+    "CWE-940",
     "CWE-131",
     "CWE-201",
     "CWE-476",
@@ -37,32 +40,31 @@
     "CWE-59",
     "CWE-74",
     "CWE-770",
-    "CWE-940",
     "CWE-416",
     "CWE-835",
     "CWE-1286",
     "CWE-764",
     "CWE-551",
     "CWE-1341",
-    "CWE-1289",
     "CWE-183",
     "CWE-267",
     "CWE-78",
-    "CWE-606",
     "CWE-763"
   ],
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-08-12",
-  "modified_date": "2026-08-12",
+  "modified_date": "2026-08-13",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream E4S (v.8.8)",
     "redhat:Red Hat Enterprise Linux AppStream TUS (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
     "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
     "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
     "redhat:Red Hat Enterprise Linux Real Time (v. 10)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
     "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
     "redhat:Red Hat Enterprise Linux HighAvailability (v. 8)",
     "redhat:Red Hat Enterprise Linux ResilientStorage (v. 8)",
@@ -72,7 +74,6 @@
     "redhat:Red Hat Enterprise Linux BaseOS (v. 9)",
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
     "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
-    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
     "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
     "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
     "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)",
@@ -81,7 +82,6 @@
     "redhat:Red Hat Enterprise Linux NFV (v. 8)",
     "redhat:Red Hat Enterprise Linux RT (v. 8)",
     "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
-    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
     "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
     "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)",
     "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
@@ -110,6 +110,12 @@
           "id": "CVE-2026-59197"
         },
         {
+          "id": "CVE-2026-27145"
+        },
+        {
+          "id": "CVE-2026-39821"
+        },
+        {
           "id": "CVE-2026-53202"
         },
         {
@@ -120,6 +126,9 @@
         },
         {
           "id": "CVE-2026-64300"
+        },
+        {
+          "id": "CVE-2026-10846"
         },
         {
           "id": "CVE-2026-41989"
@@ -245,9 +254,6 @@
           "id": "CVE-2026-45409"
         },
         {
-          "id": "CVE-2026-10846"
-        },
-        {
           "id": "CVE-2026-45991"
         },
         {
@@ -275,9 +281,6 @@
           "id": "CVE-2026-33811"
         },
         {
-          "id": "CVE-2026-39821"
-        },
-        {
           "id": "CVE-2026-8609"
         },
         {
@@ -291,9 +294,6 @@
         },
         {
           "id": "CVE-2026-49261"
-        },
-        {
-          "id": "CVE-2026-27145"
         },
         {
           "id": "CVE-2025-54518"
@@ -1175,7 +1175,7 @@
     {
       "id": "CVE-2026-53202",
       "source": "redhat",
-      "title": "kernel: accel/ivpu: Fix signed integer truncation in IPC receive",
+      "title": "kernel: Kernel: Privilege escalation and denial of service via integer truncation in accel/ivpu",
       "description": "",
       "severity": null,
       "cvss_score": 7.0,
@@ -1359,7 +1359,9 @@
   "vendor": "redhat",
   "references": [
     "https://access.redhat.com/errata/RHSA-2026:54417",
+    "https://access.redhat.com/errata/RHSA-2026:54401",
     "https://access.redhat.com/errata/RHSA-2026:54343",
+    "https://access.redhat.com/errata/RHSA-2026:54377",
     "https://access.redhat.com/errata/RHSA-2026:47117",
     "https://access.redhat.com/errata/RHSA-2026:47126",
     "https://access.redhat.com/errata/RHSA-2026:47129",

@@ -2,7 +2,7 @@
   "id": "cisco-2026-05-06",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-05-06",
-  "description": "Merged 2 cisco security advisories published on 2026-05-06. Original advisory IDs: cisco-2026-05-06, cisco-sa-nso-dos-7Egqyc\n\nTitles:\n- Cisco Security Advisories - 2026-05-06\n- Cisco Crosswork Network Controller and Cisco Network Services Orchestrator Advisory",
+  "description": "Merged 7 cisco security advisories published on 2026-05-06. Original advisory IDs: cisco-sa-nso-dos-7Egqyc, cisco-sa-unity-rce-ssrf-hENhuASy, cisco-sa-ise-unauth-bypass-uxjRXGpb, cisco-sa-pi-unauth-infodiscl-LFnLgmey, cisco-sa-slido-idor-CpsFmKxN, cisco-sa-iot-fnd-dos-n8N26Q4u, cisco-sa-sg350-snmp-dos-GEFZr2Tj\n\nTitles:\n- Cisco Crosswork Network Controller and Cisco Network Services Orchestrator Advisory\n- Cisco Unity Connection Remote Code Execution and Server-Side Request Forgery Vulnerabilities\n- Cisco Identity Services Engine Authentication Bypass Vulnerabilities\n- Cisco Prime Infrastructure Information Disclosure Vulnerability\n- Cisco Slido Insecure Direct Object Reference Vulnerability\n- Cisco IoT Field Network Director Vulnerabilities\n- Cisco SG350 and SG350X Series Managed Switches SNMP Denial of Service Vulnerability",
   "severity": "high",
   "cvss_scores": [
     {
@@ -15,12 +15,6 @@
       "version": "3.1",
       "score": 7.2,
       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-      "severity": ""
-    },
-    {
-      "version": "3.1",
-      "score": 4.3,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
       "severity": ""
     },
     {
@@ -70,7 +64,6 @@
   "affected": [
     "cisco:cisco-sa-nso-dos-7Egqyc",
     "cisco:cisco-sa-unity-rce-ssrf-hENhuASy",
-    "cisco:cisco-sa-ece-lite-agent-BCgSN8eb",
     "cisco:cisco-sa-ise-unauth-bypass-uxjRXGpb",
     "cisco:cisco-sa-pi-unauth-infodiscl-LFnLgmey",
     "cisco:cisco-sa-slido-idor-CpsFmKxN",
@@ -112,23 +105,6 @@
         },
         {
           "id": "CVE-2026-20035"
-        }
-      ]
-    },
-    {
-      "vendor": "cisco",
-      "product": "CVRFPID-256410",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:cvrfpid-256410:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-20172"
         }
       ]
     },
@@ -324,21 +300,6 @@
       ]
     },
     {
-      "id": "CVE-2026-20172",
-      "source": "cisco",
-      "title": "Cisco Enterprise Chat and Email Lite Agent File Upload Vulnerability",
-      "description": "",
-      "severity": null,
-      "cvss_score": 4.3,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
-      "published_date": "2026-05-06",
-      "modified_date": "2026-05-06",
-      "affected": [],
-      "references": [
-        "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ece-lite-agent-BCgSN8eb"
-      ]
-    },
-    {
       "id": "CVE-2026-20185",
       "source": "cisco",
       "title": "Cisco SG350 and SG350X Series Managed Switches SNMP Denial of Service Vunerability",
@@ -436,7 +397,6 @@
   "references": [
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nso-dos-7Egqyc",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-unity-rce-ssrf-hENhuASy",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ece-lite-agent-BCgSN8eb",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-unauth-bypass-uxjRXGpb",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-pi-unauth-infodiscl-LFnLgmey",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-slido-idor-CpsFmKxN",
