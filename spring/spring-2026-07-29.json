@@ -2,7 +2,7 @@
   "id": "spring-2026-07-29",
   "source": "spring",
   "title": "Spring Security Advisories - 2026-07-29",
-  "description": "Merged 6 spring security advisories published on 2026-07-29. Original advisory IDs: CVE-2026-59327, CVE-2026-59328, CVE-2026-47873, CVE-2026-47882, CVE-2026-59326, CVE-2026-47858\n\nTitles:\n- cve-2026-59327 - MEDIUM - CVE-2026-59327: Cleartext Storage of Spring Boot DevTools Remote Secret in Eclipse Launch Configurations\n- cve-2026-59328 - MEDIUM - CVE-2026-59328: Cross-Site Scripting in Eclipse Spring Boot Starter Wizard Dependency Tooltips\n- cve-2026-47873 - HIGH - CVE-2026-47873: Spring Tools Docker integration publishes unauthenticated debug (JDWP) and JMX ports on all network interfaces\n- cve-2026-47882 - LOW - CVE-2026-47882: Spring Boot DevTools remote secret generated with a non-cryptographic PRNG\n- cve-2026-59326 - LOW - CVE-2026-59326: HTTP Proxy Credentials Logged in Plaintext by the Spring Boot Language Server\n- cve-2026-47858 - HIGH - CVE-2026-47858: live information startup mode is vulnerable for remote code execution",
+  "description": "Merged 6 spring security advisories published on 2026-07-29. Original advisory IDs: CVE-2026-47858, CVE-2026-47873, CVE-2026-47882, CVE-2026-59326, CVE-2026-59327, CVE-2026-59328\n\nTitles:\n- cve-2026-47858 - HIGH - CVE-2026-47858: live information startup mode is vulnerable for remote code execution\n- cve-2026-47873 - HIGH - CVE-2026-47873: Spring Tools Docker integration publishes unauthenticated debug (JDWP) and JMX ports on all network interfaces\n- cve-2026-47882 - LOW - CVE-2026-47882: Spring Boot DevTools remote secret generated with a non-cryptographic PRNG\n- cve-2026-59326 - LOW - CVE-2026-59326: HTTP Proxy Credentials Logged in Plaintext by the Spring Boot Language Server\n- cve-2026-59327 - MEDIUM - CVE-2026-59327: Cleartext Storage of Spring Boot DevTools Remote Secret in Eclipse Launch Configurations\n- cve-2026-59328 - MEDIUM - CVE-2026-59328: Cross-Site Scripting in Eclipse Spring Boot Starter Wizard Dependency Tooltips",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -30,10 +30,7 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-59327"
-        },
-        {
-          "id": "CVE-2026-59328"
+          "id": "CVE-2026-47858"
         },
         {
           "id": "CVE-2026-47873"
@@ -45,7 +42,50 @@
           "id": "CVE-2026-59326"
         },
         {
+          "id": "CVE-2026-59327"
+        },
+        {
+          "id": "CVE-2026-59328"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Tools for VSCode / Cursor / Theia",
+      "version_range": "2.2.0 and earlier",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:*:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
           "id": "CVE-2026-47858"
+        },
+        {
+          "id": "CVE-2026-59326"
+        }
+      ]
+    },
+    {
+      "vendor": "spring",
+      "product": "Spring Tools for VSCode / Cursor / Theia",
+      "version_range": "All versions prior to version 5 (no longer supported) are also affected.",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:spring:*:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-47858"
+        },
+        {
+          "id": "CVE-2026-59326"
         }
       ]
     },
@@ -62,16 +102,16 @@
       "purl": "",
       "cves": [
         {
-          "id": "CVE-2026-59327"
-        },
-        {
-          "id": "CVE-2026-59328"
-        },
-        {
           "id": "CVE-2026-47873"
         },
         {
           "id": "CVE-2026-47882"
+        },
+        {
+          "id": "CVE-2026-59327"
+        },
+        {
+          "id": "CVE-2026-59328"
         }
       ]
     },
@@ -106,46 +146,6 @@
       "cves": [
         {
           "id": "CVE-2026-59328"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Tools for VSCode / Cursor / Theia",
-      "version_range": "2.2.0 and earlier",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:*:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-59326"
-        },
-        {
-          "id": "CVE-2026-47858"
-        }
-      ]
-    },
-    {
-      "vendor": "spring",
-      "product": "Spring Tools for VSCode / Cursor / Theia",
-      "version_range": "All versions prior to version 5 (no longer supported) are also affected.",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:spring:*:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-59326"
-        },
-        {
-          "id": "CVE-2026-47858"
         }
       ]
     }
@@ -235,14 +235,14 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://spring.io/security/cve-2026-59327",
+  "url": "https://spring.io/security/cve-2026-47858",
   "vendor": "spring",
   "references": [
-    "https://spring.io/security/cve-2026-59327",
-    "https://spring.io/security/cve-2026-59328",
+    "https://spring.io/security/cve-2026-47858",
     "https://spring.io/security/cve-2026-47873",
     "https://spring.io/security/cve-2026-47882",
     "https://spring.io/security/cve-2026-59326",
-    "https://spring.io/security/cve-2026-47858"
+    "https://spring.io/security/cve-2026-59327",
+    "https://spring.io/security/cve-2026-59328"
   ]
 }
