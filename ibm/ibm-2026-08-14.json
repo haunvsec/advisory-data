@@ -1,0 +1,569 @@
+{
+  "id": "ibm-2026-08-14",
+  "source": "ibm",
+  "title": "Ibm Security Advisories - 2026-08-14",
+  "description": "Merged 3 ibm security advisories published on 2026-08-14. Original advisory IDs: IBM-7283663, IBM-7283821, IBM-7283824\n\nTitles:\n- IBM Enterprise Build of Quarkus is affected by multiple vulnerabilities\n- The Network Threat Analytics App for IBM QRadar SIEM contains components with known vulnerabilities\n- The Log Source Management App for IBM QRadar SIEM contains components with known vulnerabilities",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-14",
+  "modified_date": "2026-08-14",
+  "affected": [
+    "ibm:IBM Enterprise Build of Quarkus",
+    "ibm:IBM Security QRadar Network Threat Analytics",
+    "ibm:QRadar SIEM (4378-QD1)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "ibm",
+      "product": "IBM Enterprise Build of Quarkus",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_enterprise_build_of_quarkus:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-18401"
+        },
+        {
+          "id": "CVE-2026-53712"
+        },
+        {
+          "id": "CVE-2026-54291"
+        },
+        {
+          "id": "CVE-2026-56624"
+        },
+        {
+          "id": "CVE-2026-59888"
+        },
+        {
+          "id": "CVE-2026-59889"
+        },
+        {
+          "id": "CVE-2026-68494"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Security QRadar Network Threat Analytics",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_security_qradar_network_threat_analytics:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-13149"
+        },
+        {
+          "id": "CVE-2026-45623"
+        },
+        {
+          "id": "CVE-2026-45822"
+        },
+        {
+          "id": "CVE-2026-64641"
+        },
+        {
+          "id": "CVE-2026-64643"
+        },
+        {
+          "id": "CVE-2026-64644"
+        },
+        {
+          "id": "CVE-2026-64645"
+        },
+        {
+          "id": "CVE-2026-64646"
+        },
+        {
+          "id": "CVE-2026-64647"
+        },
+        {
+          "id": "CVE-2026-64648"
+        },
+        {
+          "id": "CVE-2026-64649"
+        },
+        {
+          "id": "CVE-2026-65898"
+        },
+        {
+          "id": "CVE-2026-65899"
+        },
+        {
+          "id": "CVE-2026-65900"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "QRadar SIEM",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:qradar_siem:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-59879"
+        },
+        {
+          "id": "CVE-2026-59880"
+        },
+        {
+          "id": "CVE-2026-65898"
+        },
+        {
+          "id": "CVE-2026-65899"
+        },
+        {
+          "id": "CVE-2026-65900"
+        },
+        {
+          "id": "CVE-2026-66010"
+        },
+        {
+          "id": "CVE-2026-8723"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-13149",
+      "source": "ibm",
+      "title": "CVE-2026-13149",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-18401",
+      "source": "ibm",
+      "title": "CVE-2026-18401",
+      "description": "SCRAM (Salted Challenge Response Authentication Mechanism) is part of the family of Simple Authentication and Security Layer (SASL, RFC 4422) authentication mechanisms. Prior to 3.3, a flaw in com.ongres.scram:scram-client and com.ongres.scram:scram-common allows an attacker capable of a TLS man-in-the-middle attack to silently downgrade a connection from SCRAM-SHA-256-PLUS with channel binding to standard SCRAM-SHA-256 without channel binding when TlsServerEndpoint processes an X.509 certificate using a modern signature algorithm such as Ed25519; getChannelBindingData() can return an empty byte array after NoSuchAlgorithmException, and the ScramClient builder treats that as absent channel-binding data. This issue is fixed in version 3.3",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53712",
+        "https://www.ibm.com/support/pages/node/7283663"
+      ]
+    },
+    {
+      "id": "CVE-2026-45623",
+      "source": "ibm",
+      "title": "CVE-2026-45623",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-45822",
+      "source": "ibm",
+      "title": "CVE-2026-45822",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-53712",
+      "source": "ibm",
+      "title": "CVE-2026-53712",
+      "description": "SCRAM (Salted Challenge Response Authentication Mechanism) is part of the family of Simple Authentication and Security Layer (SASL, RFC 4422) authentication mechanisms. Prior to 3.3, a flaw in com.ongres.scram:scram-client and com.ongres.scram:scram-common allows an attacker capable of a TLS man-in-the-middle attack to silently downgrade a connection from SCRAM-SHA-256-PLUS with channel binding to standard SCRAM-SHA-256 without channel binding when TlsServerEndpoint processes an X.509 certificate using a modern signature algorithm such as Ed25519; getChannelBindingData() can return an empty byte array after NoSuchAlgorithmException, and the ScramClient builder treats that as absent channel-binding data. This issue is fixed in version 3.3",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53712",
+        "https://www.ibm.com/support/pages/node/7283663"
+      ]
+    },
+    {
+      "id": "CVE-2026-54291",
+      "source": "ibm",
+      "title": "CVE-2026-54291",
+      "description": "SCRAM (Salted Challenge Response Authentication Mechanism) is part of the family of Simple Authentication and Security Layer (SASL, RFC 4422) authentication mechanisms. Prior to 3.3, a flaw in com.ongres.scram:scram-client and com.ongres.scram:scram-common allows an attacker capable of a TLS man-in-the-middle attack to silently downgrade a connection from SCRAM-SHA-256-PLUS with channel binding to standard SCRAM-SHA-256 without channel binding when TlsServerEndpoint processes an X.509 certificate using a modern signature algorithm such as Ed25519; getChannelBindingData() can return an empty byte array after NoSuchAlgorithmException, and the ScramClient builder treats that as absent channel-binding data. This issue is fixed in version 3.3",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53712",
+        "https://www.ibm.com/support/pages/node/7283663"
+      ]
+    },
+    {
+      "id": "CVE-2026-56624",
+      "source": "ibm",
+      "title": "CVE-2026-56624",
+      "description": "SCRAM (Salted Challenge Response Authentication Mechanism) is part of the family of Simple Authentication and Security Layer (SASL, RFC 4422) authentication mechanisms. Prior to 3.3, a flaw in com.ongres.scram:scram-client and com.ongres.scram:scram-common allows an attacker capable of a TLS man-in-the-middle attack to silently downgrade a connection from SCRAM-SHA-256-PLUS with channel binding to standard SCRAM-SHA-256 without channel binding when TlsServerEndpoint processes an X.509 certificate using a modern signature algorithm such as Ed25519; getChannelBindingData() can return an empty byte array after NoSuchAlgorithmException, and the ScramClient builder treats that as absent channel-binding data. This issue is fixed in version 3.3",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53712",
+        "https://www.ibm.com/support/pages/node/7283663"
+      ]
+    },
+    {
+      "id": "CVE-2026-59879",
+      "source": "ibm",
+      "title": "CVE-2026-59879",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283824"
+      ]
+    },
+    {
+      "id": "CVE-2026-59880",
+      "source": "ibm",
+      "title": "CVE-2026-59880",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283824"
+      ]
+    },
+    {
+      "id": "CVE-2026-59888",
+      "source": "ibm",
+      "title": "CVE-2026-59888",
+      "description": "SCRAM (Salted Challenge Response Authentication Mechanism) is part of the family of Simple Authentication and Security Layer (SASL, RFC 4422) authentication mechanisms. Prior to 3.3, a flaw in com.ongres.scram:scram-client and com.ongres.scram:scram-common allows an attacker capable of a TLS man-in-the-middle attack to silently downgrade a connection from SCRAM-SHA-256-PLUS with channel binding to standard SCRAM-SHA-256 without channel binding when TlsServerEndpoint processes an X.509 certificate using a modern signature algorithm such as Ed25519; getChannelBindingData() can return an empty byte array after NoSuchAlgorithmException, and the ScramClient builder treats that as absent channel-binding data. This issue is fixed in version 3.3",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53712",
+        "https://www.ibm.com/support/pages/node/7283663"
+      ]
+    },
+    {
+      "id": "CVE-2026-59889",
+      "source": "ibm",
+      "title": "CVE-2026-59889",
+      "description": "SCRAM (Salted Challenge Response Authentication Mechanism) is part of the family of Simple Authentication and Security Layer (SASL, RFC 4422) authentication mechanisms. Prior to 3.3, a flaw in com.ongres.scram:scram-client and com.ongres.scram:scram-common allows an attacker capable of a TLS man-in-the-middle attack to silently downgrade a connection from SCRAM-SHA-256-PLUS with channel binding to standard SCRAM-SHA-256 without channel binding when TlsServerEndpoint processes an X.509 certificate using a modern signature algorithm such as Ed25519; getChannelBindingData() can return an empty byte array after NoSuchAlgorithmException, and the ScramClient builder treats that as absent channel-binding data. This issue is fixed in version 3.3",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53712",
+        "https://www.ibm.com/support/pages/node/7283663"
+      ]
+    },
+    {
+      "id": "CVE-2026-64641",
+      "source": "ibm",
+      "title": "CVE-2026-64641",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-64643",
+      "source": "ibm",
+      "title": "CVE-2026-64643",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-64644",
+      "source": "ibm",
+      "title": "CVE-2026-64644",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-64645",
+      "source": "ibm",
+      "title": "CVE-2026-64645",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-64646",
+      "source": "ibm",
+      "title": "CVE-2026-64646",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-64647",
+      "source": "ibm",
+      "title": "CVE-2026-64647",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-64648",
+      "source": "ibm",
+      "title": "CVE-2026-64648",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-64649",
+      "source": "ibm",
+      "title": "CVE-2026-64649",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821"
+      ]
+    },
+    {
+      "id": "CVE-2026-65898",
+      "source": "ibm",
+      "title": "CVE-2026-65898",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821",
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283824"
+      ]
+    },
+    {
+      "id": "CVE-2026-65899",
+      "source": "ibm",
+      "title": "CVE-2026-65899",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821",
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283824"
+      ]
+    },
+    {
+      "id": "CVE-2026-65900",
+      "source": "ibm",
+      "title": "CVE-2026-65900",
+      "description": "DOMPurify versions =3.0.0 and before 3.4.8, when configured with SAFE_FOR_TEMPLATES together with a DOM output mode (RETURN_DOM, RETURN_DOM_FRAGMENT, or IN_PLACE), fail to strip template expressions (e.g. ${evil}, {{evil}}, %evil%) inside template element content. The final normalization or scrub pass (_scrubTemplateExpressions) uses a NodeIterator and node.normalize() that do not descend into template.content, so expressions that only form after adjacent text nodes merge survive sanitization. This bypasses SAFE_FOR_TEMPLATES and can allow a downstream template engine to evaluate attacker-supplied expressions. The string output path is not affected",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+        "https://www.ibm.com/support/pages/node/7283821",
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283824"
+      ]
+    },
+    {
+      "id": "CVE-2026-66010",
+      "source": "ibm",
+      "title": "CVE-2026-66010",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283824"
+      ]
+    },
+    {
+      "id": "CVE-2026-68494",
+      "source": "ibm",
+      "title": "CVE-2026-68494",
+      "description": "SCRAM (Salted Challenge Response Authentication Mechanism) is part of the family of Simple Authentication and Security Layer (SASL, RFC 4422) authentication mechanisms. Prior to 3.3, a flaw in com.ongres.scram:scram-client and com.ongres.scram:scram-common allows an attacker capable of a TLS man-in-the-middle attack to silently downgrade a connection from SCRAM-SHA-256-PLUS with channel binding to standard SCRAM-SHA-256 without channel binding when TlsServerEndpoint processes an X.509 certificate using a modern signature algorithm such as Ed25519; getChannelBindingData() can return an empty byte array after NoSuchAlgorithmException, and the ScramClient builder treats that as absent channel-binding data. This issue is fixed in version 3.3",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-53712",
+        "https://www.ibm.com/support/pages/node/7283663"
+      ]
+    },
+    {
+      "id": "CVE-2026-8723",
+      "source": "ibm",
+      "title": "CVE-2026-8723",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-14",
+      "modified_date": "2026-08-14",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283824"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.ibm.com/support/pages/node/7283663",
+  "vendor": "ibm",
+  "references": [
+    "https://www.ibm.com/support/pages/node/7283663",
+    "https://www.ibm.com/support/pages/bulletin/",
+    "https://www.ibm.com/support/pages/node/7283821",
+    "https://www.ibm.com/support/pages/node/7283824"
+  ]
+}

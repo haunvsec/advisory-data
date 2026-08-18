@@ -1,0 +1,3071 @@
+{
+  "id": "ibm-2026-08-11",
+  "source": "ibm",
+  "title": "Ibm Security Advisories - 2026-08-11",
+  "description": "Merged 13 ibm security advisories published on 2026-08-11. Original advisory IDs: IBM-7283253, IBM-7283256, IBM-7283359, IBM-7283252, IBM-7283292, IBM-7283274, IBM-7283289, IBM-7282933, IBM-7282930, IBM-7282932, IBM-7282851, IBM-7283146, IBM-7283241\n\nTitles:\n- IBM Decision Intelligence Client Managed Software (Formerly Known as IBM Automation Decision Services)  for July 2026- Multiple CVEs addressed\n- IBM Cloud Pak for Data System (CPDS 1x) is affected by multiple critical vulnerabilities in OpenSSL, Java SE, and Jetty\n- IBM Db2 Mirror for i is affected by multiple vulnerabilities\n- IBM Engineering Lifecycle Management - Engineering Workflow Management is impacted by vulnerabilities in bootstrap-3.4.1.tgz client library\n- IBM i is Affected By Multiple Vulnerabilities in Navigator for i\n- IBM i is Affected By Improper Validation Vulnerability in Line Printer Daemon [CVE-2026-17445]\n- IBM i is Affected By Multiple Vulnerabilities in SQL\n- IBM InfoSphere Information Server is affected by multiple vulnerabilities in QOS.CH Sarl logback\n- IBM InfoSphere Information Server is affected by multiple vulnerabilities in json\n- IBM InfoSphere Information Server is affected by multiple vulnerabilities in Apache Thrift\n- Vulnerability in OpenSSL affects IBM Netezza Appliance\n- IBM WebSphere Application Server - Liberty is affected by multiple vulnerabilities\n- IBM Transformation Extender Advanced is affected by IBM WebSphere Application Server Liberty vulnerabilities",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-11",
+  "modified_date": "2026-08-11",
+  "affected": [
+    "ibm:IBM Automation Decision Services",
+    "ibm:IBM Cloud Pak for Data System",
+    "ibm:IBM Db2 Mirror for i",
+    "ibm:IBM i",
+    "ibm:IBM Engineering Workflow Management",
+    "ibm:IBM i 7.3 Preventative Service Planning",
+    "ibm:IBM i 7.4 Preventative Service Planning",
+    "ibm:IBM i 7.5 Preventative Service Planning",
+    "ibm:IBM i 7.6 Preventative Service Planning",
+    "ibm:IBM InfoSphere Information Server",
+    "ibm:IBM Netezza Appliance",
+    "ibm:IBM OpenPages",
+    "ibm:IBM Transformation Extender Advanced"
+  ],
+  "affected_products": [
+    {
+      "vendor": "ibm",
+      "product": "IBM Automation Decision Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_automation_decision_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2021-23337"
+        },
+        {
+          "id": "CVE-2025-13465"
+        },
+        {
+          "id": "CVE-2025-14813"
+        },
+        {
+          "id": "CVE-2025-62718"
+        },
+        {
+          "id": "CVE-2025-67030"
+        },
+        {
+          "id": "CVE-2026-0636"
+        },
+        {
+          "id": "CVE-2026-12143"
+        },
+        {
+          "id": "CVE-2026-2950"
+        },
+        {
+          "id": "CVE-2026-39852"
+        },
+        {
+          "id": "CVE-2026-41115"
+        },
+        {
+          "id": "CVE-2026-41417"
+        },
+        {
+          "id": "CVE-2026-41691"
+        },
+        {
+          "id": "CVE-2026-41907"
+        },
+        {
+          "id": "CVE-2026-41988"
+        },
+        {
+          "id": "CVE-2026-42033"
+        },
+        {
+          "id": "CVE-2026-42034"
+        },
+        {
+          "id": "CVE-2026-42035"
+        },
+        {
+          "id": "CVE-2026-42036"
+        },
+        {
+          "id": "CVE-2026-42037"
+        },
+        {
+          "id": "CVE-2026-42038"
+        },
+        {
+          "id": "CVE-2026-42039"
+        },
+        {
+          "id": "CVE-2026-42040"
+        },
+        {
+          "id": "CVE-2026-42041"
+        },
+        {
+          "id": "CVE-2026-42042"
+        },
+        {
+          "id": "CVE-2026-42043"
+        },
+        {
+          "id": "CVE-2026-42044"
+        },
+        {
+          "id": "CVE-2026-42578"
+        },
+        {
+          "id": "CVE-2026-42579"
+        },
+        {
+          "id": "CVE-2026-42580"
+        },
+        {
+          "id": "CVE-2026-42581"
+        },
+        {
+          "id": "CVE-2026-42583"
+        },
+        {
+          "id": "CVE-2026-42584"
+        },
+        {
+          "id": "CVE-2026-42585"
+        },
+        {
+          "id": "CVE-2026-42587"
+        },
+        {
+          "id": "CVE-2026-4800"
+        },
+        {
+          "id": "CVE-2026-5588"
+        },
+        {
+          "id": "CVE-2026-5598"
+        },
+        {
+          "id": "CVE-2026-59887"
+        },
+        {
+          "id": "CVE-2026-8723"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Cloud Pak for Data System",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_cloud_pak_for_data_system:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-21925"
+        },
+        {
+          "id": "CVE-2026-21933"
+        },
+        {
+          "id": "CVE-2026-34180"
+        },
+        {
+          "id": "CVE-2026-34181"
+        },
+        {
+          "id": "CVE-2026-34182"
+        },
+        {
+          "id": "CVE-2026-34183"
+        },
+        {
+          "id": "CVE-2026-42764"
+        },
+        {
+          "id": "CVE-2026-42766"
+        },
+        {
+          "id": "CVE-2026-42767"
+        },
+        {
+          "id": "CVE-2026-42768"
+        },
+        {
+          "id": "CVE-2026-42769"
+        },
+        {
+          "id": "CVE-2026-42770"
+        },
+        {
+          "id": "CVE-2026-45445"
+        },
+        {
+          "id": "CVE-2026-45446"
+        },
+        {
+          "id": "CVE-2026-45447"
+        },
+        {
+          "id": "CVE-2026-5795"
+        },
+        {
+          "id": "CVE-2026-7383"
+        },
+        {
+          "id": "CVE-2026-9076"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Db2 Mirror for i",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_db2_mirror_for_i:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-16708"
+        },
+        {
+          "id": "CVE-2026-16879"
+        },
+        {
+          "id": "CVE-2026-16905"
+        },
+        {
+          "id": "CVE-2026-16915"
+        },
+        {
+          "id": "CVE-2026-17079"
+        },
+        {
+          "id": "CVE-2026-17081"
+        },
+        {
+          "id": "CVE-2026-17173"
+        },
+        {
+          "id": "CVE-2026-17175"
+        },
+        {
+          "id": "CVE-2026-17177"
+        },
+        {
+          "id": "CVE-2026-17179"
+        },
+        {
+          "id": "CVE-2026-17181"
+        },
+        {
+          "id": "CVE-2026-17182"
+        },
+        {
+          "id": "CVE-2026-17184"
+        },
+        {
+          "id": "CVE-2026-17186"
+        },
+        {
+          "id": "CVE-2026-17209"
+        },
+        {
+          "id": "CVE-2026-17227"
+        },
+        {
+          "id": "CVE-2026-18178"
+        },
+        {
+          "id": "CVE-2026-18554"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM i",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_i:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-16708"
+        },
+        {
+          "id": "CVE-2026-16879"
+        },
+        {
+          "id": "CVE-2026-16905"
+        },
+        {
+          "id": "CVE-2026-16915"
+        },
+        {
+          "id": "CVE-2026-17079"
+        },
+        {
+          "id": "CVE-2026-17081"
+        },
+        {
+          "id": "CVE-2026-17173"
+        },
+        {
+          "id": "CVE-2026-17175"
+        },
+        {
+          "id": "CVE-2026-17177"
+        },
+        {
+          "id": "CVE-2026-17179"
+        },
+        {
+          "id": "CVE-2026-17181"
+        },
+        {
+          "id": "CVE-2026-17182"
+        },
+        {
+          "id": "CVE-2026-17184"
+        },
+        {
+          "id": "CVE-2026-17186"
+        },
+        {
+          "id": "CVE-2026-17209"
+        },
+        {
+          "id": "CVE-2026-17227"
+        },
+        {
+          "id": "CVE-2026-18178"
+        },
+        {
+          "id": "CVE-2026-18554"
+        },
+        {
+          "id": "CVE-2026-16694"
+        },
+        {
+          "id": "CVE-2026-16904"
+        },
+        {
+          "id": "CVE-2026-17094"
+        },
+        {
+          "id": "CVE-2026-17095"
+        },
+        {
+          "id": "CVE-2026-17099"
+        },
+        {
+          "id": "CVE-2026-17101"
+        },
+        {
+          "id": "CVE-2026-17266"
+        },
+        {
+          "id": "CVE-2026-17268"
+        },
+        {
+          "id": "CVE-2026-17276"
+        },
+        {
+          "id": "CVE-2026-18098"
+        },
+        {
+          "id": "CVE-2026-18099"
+        },
+        {
+          "id": "CVE-2026-18106"
+        },
+        {
+          "id": "CVE-2026-18144"
+        },
+        {
+          "id": "CVE-2026-18148"
+        },
+        {
+          "id": "CVE-2026-18150"
+        },
+        {
+          "id": "CVE-2026-18235"
+        },
+        {
+          "id": "CVE-2026-18246"
+        },
+        {
+          "id": "CVE-2026-18250"
+        },
+        {
+          "id": "CVE-2026-18683"
+        },
+        {
+          "id": "CVE-2026-18713"
+        },
+        {
+          "id": "CVE-2026-18847"
+        },
+        {
+          "id": "CVE-2026-66010"
+        },
+        {
+          "id": "CVE-2026-17445"
+        },
+        {
+          "id": "CVE-2026-17109"
+        },
+        {
+          "id": "CVE-2026-17110"
+        },
+        {
+          "id": "CVE-2026-17111"
+        },
+        {
+          "id": "CVE-2026-17222"
+        },
+        {
+          "id": "CVE-2026-17418"
+        },
+        {
+          "id": "CVE-2026-17419"
+        },
+        {
+          "id": "CVE-2026-17420"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Engineering Workflow Management",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_engineering_workflow_management:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2024-6484"
+        },
+        {
+          "id": "CVE-2024-6485"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM i 7.3 Preventative Service Planning",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_i_7.3_preventative_service_planning:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-16694"
+        },
+        {
+          "id": "CVE-2026-16904"
+        },
+        {
+          "id": "CVE-2026-17094"
+        },
+        {
+          "id": "CVE-2026-17095"
+        },
+        {
+          "id": "CVE-2026-17099"
+        },
+        {
+          "id": "CVE-2026-17101"
+        },
+        {
+          "id": "CVE-2026-17266"
+        },
+        {
+          "id": "CVE-2026-17268"
+        },
+        {
+          "id": "CVE-2026-17276"
+        },
+        {
+          "id": "CVE-2026-18098"
+        },
+        {
+          "id": "CVE-2026-18099"
+        },
+        {
+          "id": "CVE-2026-18106"
+        },
+        {
+          "id": "CVE-2026-18144"
+        },
+        {
+          "id": "CVE-2026-18148"
+        },
+        {
+          "id": "CVE-2026-18150"
+        },
+        {
+          "id": "CVE-2026-18235"
+        },
+        {
+          "id": "CVE-2026-18246"
+        },
+        {
+          "id": "CVE-2026-18250"
+        },
+        {
+          "id": "CVE-2026-18683"
+        },
+        {
+          "id": "CVE-2026-18713"
+        },
+        {
+          "id": "CVE-2026-18847"
+        },
+        {
+          "id": "CVE-2026-66010"
+        },
+        {
+          "id": "CVE-2026-17445"
+        },
+        {
+          "id": "CVE-2026-17109"
+        },
+        {
+          "id": "CVE-2026-17110"
+        },
+        {
+          "id": "CVE-2026-17111"
+        },
+        {
+          "id": "CVE-2026-17222"
+        },
+        {
+          "id": "CVE-2026-17418"
+        },
+        {
+          "id": "CVE-2026-17419"
+        },
+        {
+          "id": "CVE-2026-17420"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM i 7.4 Preventative Service Planning",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_i_7.4_preventative_service_planning:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-16694"
+        },
+        {
+          "id": "CVE-2026-16904"
+        },
+        {
+          "id": "CVE-2026-17094"
+        },
+        {
+          "id": "CVE-2026-17095"
+        },
+        {
+          "id": "CVE-2026-17099"
+        },
+        {
+          "id": "CVE-2026-17101"
+        },
+        {
+          "id": "CVE-2026-17266"
+        },
+        {
+          "id": "CVE-2026-17268"
+        },
+        {
+          "id": "CVE-2026-17276"
+        },
+        {
+          "id": "CVE-2026-18098"
+        },
+        {
+          "id": "CVE-2026-18099"
+        },
+        {
+          "id": "CVE-2026-18106"
+        },
+        {
+          "id": "CVE-2026-18144"
+        },
+        {
+          "id": "CVE-2026-18148"
+        },
+        {
+          "id": "CVE-2026-18150"
+        },
+        {
+          "id": "CVE-2026-18235"
+        },
+        {
+          "id": "CVE-2026-18246"
+        },
+        {
+          "id": "CVE-2026-18250"
+        },
+        {
+          "id": "CVE-2026-18683"
+        },
+        {
+          "id": "CVE-2026-18713"
+        },
+        {
+          "id": "CVE-2026-18847"
+        },
+        {
+          "id": "CVE-2026-66010"
+        },
+        {
+          "id": "CVE-2026-17445"
+        },
+        {
+          "id": "CVE-2026-17109"
+        },
+        {
+          "id": "CVE-2026-17110"
+        },
+        {
+          "id": "CVE-2026-17111"
+        },
+        {
+          "id": "CVE-2026-17222"
+        },
+        {
+          "id": "CVE-2026-17418"
+        },
+        {
+          "id": "CVE-2026-17419"
+        },
+        {
+          "id": "CVE-2026-17420"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM i 7.5 Preventative Service Planning",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_i_7.5_preventative_service_planning:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-16694"
+        },
+        {
+          "id": "CVE-2026-16904"
+        },
+        {
+          "id": "CVE-2026-17094"
+        },
+        {
+          "id": "CVE-2026-17095"
+        },
+        {
+          "id": "CVE-2026-17099"
+        },
+        {
+          "id": "CVE-2026-17101"
+        },
+        {
+          "id": "CVE-2026-17266"
+        },
+        {
+          "id": "CVE-2026-17268"
+        },
+        {
+          "id": "CVE-2026-17276"
+        },
+        {
+          "id": "CVE-2026-18098"
+        },
+        {
+          "id": "CVE-2026-18099"
+        },
+        {
+          "id": "CVE-2026-18106"
+        },
+        {
+          "id": "CVE-2026-18144"
+        },
+        {
+          "id": "CVE-2026-18148"
+        },
+        {
+          "id": "CVE-2026-18150"
+        },
+        {
+          "id": "CVE-2026-18235"
+        },
+        {
+          "id": "CVE-2026-18246"
+        },
+        {
+          "id": "CVE-2026-18250"
+        },
+        {
+          "id": "CVE-2026-18683"
+        },
+        {
+          "id": "CVE-2026-18713"
+        },
+        {
+          "id": "CVE-2026-18847"
+        },
+        {
+          "id": "CVE-2026-66010"
+        },
+        {
+          "id": "CVE-2026-17445"
+        },
+        {
+          "id": "CVE-2026-17109"
+        },
+        {
+          "id": "CVE-2026-17110"
+        },
+        {
+          "id": "CVE-2026-17111"
+        },
+        {
+          "id": "CVE-2026-17222"
+        },
+        {
+          "id": "CVE-2026-17418"
+        },
+        {
+          "id": "CVE-2026-17419"
+        },
+        {
+          "id": "CVE-2026-17420"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM i 7.6 Preventative Service Planning",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_i_7.6_preventative_service_planning:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-16694"
+        },
+        {
+          "id": "CVE-2026-16904"
+        },
+        {
+          "id": "CVE-2026-17094"
+        },
+        {
+          "id": "CVE-2026-17095"
+        },
+        {
+          "id": "CVE-2026-17099"
+        },
+        {
+          "id": "CVE-2026-17101"
+        },
+        {
+          "id": "CVE-2026-17266"
+        },
+        {
+          "id": "CVE-2026-17268"
+        },
+        {
+          "id": "CVE-2026-17276"
+        },
+        {
+          "id": "CVE-2026-18098"
+        },
+        {
+          "id": "CVE-2026-18099"
+        },
+        {
+          "id": "CVE-2026-18106"
+        },
+        {
+          "id": "CVE-2026-18144"
+        },
+        {
+          "id": "CVE-2026-18148"
+        },
+        {
+          "id": "CVE-2026-18150"
+        },
+        {
+          "id": "CVE-2026-18235"
+        },
+        {
+          "id": "CVE-2026-18246"
+        },
+        {
+          "id": "CVE-2026-18250"
+        },
+        {
+          "id": "CVE-2026-18683"
+        },
+        {
+          "id": "CVE-2026-18713"
+        },
+        {
+          "id": "CVE-2026-18847"
+        },
+        {
+          "id": "CVE-2026-66010"
+        },
+        {
+          "id": "CVE-2026-17445"
+        },
+        {
+          "id": "CVE-2026-17109"
+        },
+        {
+          "id": "CVE-2026-17110"
+        },
+        {
+          "id": "CVE-2026-17111"
+        },
+        {
+          "id": "CVE-2026-17222"
+        },
+        {
+          "id": "CVE-2026-17418"
+        },
+        {
+          "id": "CVE-2026-17419"
+        },
+        {
+          "id": "CVE-2026-17420"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM InfoSphere Information Server",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_infosphere_information_server:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-10532"
+        },
+        {
+          "id": "CVE-2026-9828"
+        },
+        {
+          "id": "CVE-2023-1370"
+        },
+        {
+          "id": "CVE-2023-34610"
+        },
+        {
+          "id": "CVE-2024-57699"
+        },
+        {
+          "id": "CVE-2018-11798"
+        },
+        {
+          "id": "CVE-2019-0205"
+        },
+        {
+          "id": "CVE-2020-13949"
+        },
+        {
+          "id": "CVE-2026-41603"
+        },
+        {
+          "id": "CVE-2026-43869"
+        },
+        {
+          "id": "CVE-2026-66053"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Netezza Appliance",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_netezza_appliance:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-28386"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM OpenPages",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_openpages:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11541"
+        },
+        {
+          "id": "CVE-2026-11806"
+        },
+        {
+          "id": "CVE-2026-4410"
+        },
+        {
+          "id": "CVE-2026-5516"
+        },
+        {
+          "id": "CVE-2026-8646"
+        },
+        {
+          "id": "CVE-2026-9071"
+        },
+        {
+          "id": "CVE-2026-9320"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Transformation Extender Advanced",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_transformation_extender_advanced:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-3621"
+        },
+        {
+          "id": "CVE-2026-5516"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2018-11798",
+      "source": "ibm",
+      "title": "CVE-2018-11798",
+      "description": "The Apache Thrift Node.js static web server in versions 0.9.2 through 0.11.0 have been determined to contain a security vulnerability in which a remote user has the ability to access files outside the set webservers docroot path",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2018-11798",
+        "https://www.ibm.com/support/pages/node/7282932"
+      ]
+    },
+    {
+      "id": "CVE-2019-0205",
+      "source": "ibm",
+      "title": "CVE-2019-0205",
+      "description": "The Apache Thrift Node.js static web server in versions 0.9.2 through 0.11.0 have been determined to contain a security vulnerability in which a remote user has the ability to access files outside the set webservers docroot path",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2018-11798",
+        "https://www.ibm.com/support/pages/node/7282932"
+      ]
+    },
+    {
+      "id": "CVE-2020-13949",
+      "source": "ibm",
+      "title": "CVE-2020-13949",
+      "description": "The Apache Thrift Node.js static web server in versions 0.9.2 through 0.11.0 have been determined to contain a security vulnerability in which a remote user has the ability to access files outside the set webservers docroot path",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2018-11798",
+        "https://www.ibm.com/support/pages/node/7282932"
+      ]
+    },
+    {
+      "id": "CVE-2021-23337",
+      "source": "ibm",
+      "title": "CVE-2021-23337",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2023-1370",
+      "source": "ibm",
+      "title": "CVE-2023-1370",
+      "description": "A security issue was found in Netplex Json-smart 2.5.0 through 2.5.1. When loading a specially crafted JSON input, containing a large number of ’{’, a stack exhaustion can be trigger, which could allow an attacker to cause a Denial of Service (DoS). This issue exists because of an incomplete fix for CVE-2023-1370",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2024-57699",
+        "https://www.ibm.com/support/pages/node/7282930"
+      ]
+    },
+    {
+      "id": "CVE-2023-34610",
+      "source": "ibm",
+      "title": "CVE-2023-34610",
+      "description": "A security issue was found in Netplex Json-smart 2.5.0 through 2.5.1. When loading a specially crafted JSON input, containing a large number of ’{’, a stack exhaustion can be trigger, which could allow an attacker to cause a Denial of Service (DoS). This issue exists because of an incomplete fix for CVE-2023-1370",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2024-57699",
+        "https://www.ibm.com/support/pages/node/7282930"
+      ]
+    },
+    {
+      "id": "CVE-2024-57699",
+      "source": "ibm",
+      "title": "CVE-2024-57699",
+      "description": "A security issue was found in Netplex Json-smart 2.5.0 through 2.5.1. When loading a specially crafted JSON input, containing a large number of ’{’, a stack exhaustion can be trigger, which could allow an attacker to cause a Denial of Service (DoS). This issue exists because of an incomplete fix for CVE-2023-1370",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2024-57699",
+        "https://www.ibm.com/support/pages/node/7282930"
+      ]
+    },
+    {
+      "id": "CVE-2024-6484",
+      "source": "ibm",
+      "title": "CVE-2024-6484",
+      "description": "A security vulnerability has been discovered in bootstrap that could enable Cross-Site Scripting (XSS) attacks. The vulnerability is associated with the data-loading-text attribute within the button plugin. This vulnerability can be exploited by injecting malicious JavaScript code into the attribute, which would then be executed when the button's loading state is triggered",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2024-6485",
+        "https://www.ibm.com/support/pages/node/7283252"
+      ]
+    },
+    {
+      "id": "CVE-2024-6485",
+      "source": "ibm",
+      "title": "CVE-2024-6485",
+      "description": "A security vulnerability has been discovered in bootstrap that could enable Cross-Site Scripting (XSS) attacks. The vulnerability is associated with the data-loading-text attribute within the button plugin. This vulnerability can be exploited by injecting malicious JavaScript code into the attribute, which would then be executed when the button's loading state is triggered",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2024-6485",
+        "https://www.ibm.com/support/pages/node/7283252"
+      ]
+    },
+    {
+      "id": "CVE-2025-13465",
+      "source": "ibm",
+      "title": "CVE-2025-13465",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2025-14813",
+      "source": "ibm",
+      "title": "CVE-2025-14813",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2025-62718",
+      "source": "ibm",
+      "title": "CVE-2025-62718",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2025-67030",
+      "source": "ibm",
+      "title": "CVE-2025-67030",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-0636",
+      "source": "ibm",
+      "title": "CVE-2026-0636",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-10532",
+      "source": "ibm",
+      "title": "CVE-2026-10532",
+      "description": "Deserialization of untrusted data vulnerability in QOS.CH Sarl logback logback-core (HardenedObjectInputStream (logback-core) modules) allows Object Injection albeit heavily restricted. More precisely, an attacker able to influence serialized data sent to SimpleSocketServer or SimpleSSLSocketServer can instantiate objects from classes in the java.lang and java.util packages that are not explicitly blocked. Although deserialization is heavily restricted by HardenedObjectInputStream and no practical way to achieve remote code execution or significant privilege escalation has been identified, this issue constitutes a bypass of the intended security restrictions. This issue affects logback: through 1.5.32 inclusive",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-9828",
+        "https://www.ibm.com/support/pages/node/7282933"
+      ]
+    },
+    {
+      "id": "CVE-2026-11541",
+      "source": "ibm",
+      "title": "CVE-2026-11541",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7283146"
+      ]
+    },
+    {
+      "id": "CVE-2026-11806",
+      "source": "ibm",
+      "title": "CVE-2026-11806",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7283146"
+      ]
+    },
+    {
+      "id": "CVE-2026-12143",
+      "source": "ibm",
+      "title": "CVE-2026-12143",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-16694",
+      "source": "ibm",
+      "title": "CVE-2026-16694",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-16708",
+      "source": "ibm",
+      "title": "CVE-2026-16708",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-16879",
+      "source": "ibm",
+      "title": "CVE-2026-16879",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-16904",
+      "source": "ibm",
+      "title": "CVE-2026-16904",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-16905",
+      "source": "ibm",
+      "title": "CVE-2026-16905",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-16915",
+      "source": "ibm",
+      "title": "CVE-2026-16915",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17079",
+      "source": "ibm",
+      "title": "CVE-2026-17079",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17081",
+      "source": "ibm",
+      "title": "CVE-2026-17081",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17094",
+      "source": "ibm",
+      "title": "CVE-2026-17094",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-17095",
+      "source": "ibm",
+      "title": "CVE-2026-17095",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-17099",
+      "source": "ibm",
+      "title": "CVE-2026-17099",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-17101",
+      "source": "ibm",
+      "title": "CVE-2026-17101",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-17109",
+      "source": "ibm",
+      "title": "CVE-2026-17109",
+      "description": "IBM i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements in an SQL parameter",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17420",
+        "https://www.ibm.com/support/pages/node/7283289"
+      ]
+    },
+    {
+      "id": "CVE-2026-17110",
+      "source": "ibm",
+      "title": "CVE-2026-17110",
+      "description": "IBM i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements in an SQL parameter",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17420",
+        "https://www.ibm.com/support/pages/node/7283289"
+      ]
+    },
+    {
+      "id": "CVE-2026-17111",
+      "source": "ibm",
+      "title": "CVE-2026-17111",
+      "description": "IBM i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements in an SQL parameter",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17420",
+        "https://www.ibm.com/support/pages/node/7283289"
+      ]
+    },
+    {
+      "id": "CVE-2026-17173",
+      "source": "ibm",
+      "title": "CVE-2026-17173",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17175",
+      "source": "ibm",
+      "title": "CVE-2026-17175",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17177",
+      "source": "ibm",
+      "title": "CVE-2026-17177",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17179",
+      "source": "ibm",
+      "title": "CVE-2026-17179",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17181",
+      "source": "ibm",
+      "title": "CVE-2026-17181",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17182",
+      "source": "ibm",
+      "title": "CVE-2026-17182",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17184",
+      "source": "ibm",
+      "title": "CVE-2026-17184",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17186",
+      "source": "ibm",
+      "title": "CVE-2026-17186",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17209",
+      "source": "ibm",
+      "title": "CVE-2026-17209",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17222",
+      "source": "ibm",
+      "title": "CVE-2026-17222",
+      "description": "IBM i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements in an SQL parameter",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17420",
+        "https://www.ibm.com/support/pages/node/7283289"
+      ]
+    },
+    {
+      "id": "CVE-2026-17227",
+      "source": "ibm",
+      "title": "CVE-2026-17227",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-17266",
+      "source": "ibm",
+      "title": "CVE-2026-17266",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-17268",
+      "source": "ibm",
+      "title": "CVE-2026-17268",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-17276",
+      "source": "ibm",
+      "title": "CVE-2026-17276",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-17418",
+      "source": "ibm",
+      "title": "CVE-2026-17418",
+      "description": "IBM i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements in an SQL parameter",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17420",
+        "https://www.ibm.com/support/pages/node/7283289"
+      ]
+    },
+    {
+      "id": "CVE-2026-17419",
+      "source": "ibm",
+      "title": "CVE-2026-17419",
+      "description": "IBM i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements in an SQL parameter",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17420",
+        "https://www.ibm.com/support/pages/node/7283289"
+      ]
+    },
+    {
+      "id": "CVE-2026-17420",
+      "source": "ibm",
+      "title": "CVE-2026-17420",
+      "description": "IBM i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements in an SQL parameter",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17420",
+        "https://www.ibm.com/support/pages/node/7283289"
+      ]
+    },
+    {
+      "id": "CVE-2026-17445",
+      "source": "ibm",
+      "title": "CVE-2026-17445",
+      "description": "IBM i could allow a remote authenticated attacker to bypass security restrictions due to improper validation of an attacker-supplied user profile name",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17445",
+        "https://www.ibm.com/support/pages/node/7283274"
+      ]
+    },
+    {
+      "id": "CVE-2026-18098",
+      "source": "ibm",
+      "title": "CVE-2026-18098",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18099",
+      "source": "ibm",
+      "title": "CVE-2026-18099",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18106",
+      "source": "ibm",
+      "title": "CVE-2026-18106",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18144",
+      "source": "ibm",
+      "title": "CVE-2026-18144",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18148",
+      "source": "ibm",
+      "title": "CVE-2026-18148",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18150",
+      "source": "ibm",
+      "title": "CVE-2026-18150",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18178",
+      "source": "ibm",
+      "title": "CVE-2026-18178",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-18235",
+      "source": "ibm",
+      "title": "CVE-2026-18235",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18246",
+      "source": "ibm",
+      "title": "CVE-2026-18246",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18250",
+      "source": "ibm",
+      "title": "CVE-2026-18250",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18554",
+      "source": "ibm",
+      "title": "CVE-2026-18554",
+      "description": "IBM Db2 Mirror for i could allow a remote authenticated attacker to bypass security restrictions due to improper neutralization of special elements used in an SQL command",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-17227",
+        "https://www.ibm.com/support/pages/node/7283359"
+      ]
+    },
+    {
+      "id": "CVE-2026-18683",
+      "source": "ibm",
+      "title": "CVE-2026-18683",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18713",
+      "source": "ibm",
+      "title": "CVE-2026-18713",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-18847",
+      "source": "ibm",
+      "title": "CVE-2026-18847",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-21925",
+      "source": "ibm",
+      "title": "CVE-2026-21925",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-21933",
+      "source": "ibm",
+      "title": "CVE-2026-21933",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-28386",
+      "source": "ibm",
+      "title": "CVE-2026-28386",
+      "description": "Issue summary: Applications using AES-CFB128 encryption or decryption on systems with AVX-512 and VAES support can trigger an out-of-bounds read of up to 15 bytes when processing partial cipher blocks. Impact summary: This out-of-bounds read may trigger a crash which leads to Denial of Service for an application if the input buffer ends at a memory page boundary and the following page is unmapped. There is no information disclosure as the over-read bytes are not written to output. The vulnerable code path is only reached when processing partial blocks (when a previous call left an incomplete block and the current call provides fewer bytes than needed to complete it). Additionally, the input buffer must be positioned at a page boundary with the following page unmapped. CFB mode is not used in TLS or DTLS protocols, which use CBC, GCM, CCM, or ChaCha20-Poly1305 instead. For these reasons the issue was assessed as Low severity according to our Security Policy. Only x86-64 systems with AVX-512 and VAES instruction support are affected. Other architectures and systems without VAES support use different code paths that are not affected. OpenSSL FIPS module in 3.6 version is affected by this issue",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-28386",
+        "https://www.ibm.com/support/pages/node/7282851"
+      ]
+    },
+    {
+      "id": "CVE-2026-2950",
+      "source": "ibm",
+      "title": "CVE-2026-2950",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-34180",
+      "source": "ibm",
+      "title": "CVE-2026-34180",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-34181",
+      "source": "ibm",
+      "title": "CVE-2026-34181",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-34182",
+      "source": "ibm",
+      "title": "CVE-2026-34182",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-34183",
+      "source": "ibm",
+      "title": "CVE-2026-34183",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-3621",
+      "source": "ibm",
+      "title": "CVE-2026-3621",
+      "description": "IBM WebSphere Application Server - Liberty 22.0.0.11 through 26.0.0.5 IBM WebSphere Application Server Liberty could allow a remote attacker to bypass security under limited conditions by exploiting a specific timing window",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-5516",
+        "https://www.ibm.com/support/pages/node/7283241"
+      ]
+    },
+    {
+      "id": "CVE-2026-39852",
+      "source": "ibm",
+      "title": "CVE-2026-39852",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-41115",
+      "source": "ibm",
+      "title": "CVE-2026-41115",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-41417",
+      "source": "ibm",
+      "title": "CVE-2026-41417",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-41603",
+      "source": "ibm",
+      "title": "CVE-2026-41603",
+      "description": "The Apache Thrift Node.js static web server in versions 0.9.2 through 0.11.0 have been determined to contain a security vulnerability in which a remote user has the ability to access files outside the set webservers docroot path",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2018-11798",
+        "https://www.ibm.com/support/pages/node/7282932"
+      ]
+    },
+    {
+      "id": "CVE-2026-41691",
+      "source": "ibm",
+      "title": "CVE-2026-41691",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-41907",
+      "source": "ibm",
+      "title": "CVE-2026-41907",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-41988",
+      "source": "ibm",
+      "title": "CVE-2026-41988",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42033",
+      "source": "ibm",
+      "title": "CVE-2026-42033",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42034",
+      "source": "ibm",
+      "title": "CVE-2026-42034",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42035",
+      "source": "ibm",
+      "title": "CVE-2026-42035",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42036",
+      "source": "ibm",
+      "title": "CVE-2026-42036",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42037",
+      "source": "ibm",
+      "title": "CVE-2026-42037",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42038",
+      "source": "ibm",
+      "title": "CVE-2026-42038",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42039",
+      "source": "ibm",
+      "title": "CVE-2026-42039",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42040",
+      "source": "ibm",
+      "title": "CVE-2026-42040",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42041",
+      "source": "ibm",
+      "title": "CVE-2026-42041",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42042",
+      "source": "ibm",
+      "title": "CVE-2026-42042",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42043",
+      "source": "ibm",
+      "title": "CVE-2026-42043",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42044",
+      "source": "ibm",
+      "title": "CVE-2026-42044",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42578",
+      "source": "ibm",
+      "title": "CVE-2026-42578",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42579",
+      "source": "ibm",
+      "title": "CVE-2026-42579",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42580",
+      "source": "ibm",
+      "title": "CVE-2026-42580",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42581",
+      "source": "ibm",
+      "title": "CVE-2026-42581",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42583",
+      "source": "ibm",
+      "title": "CVE-2026-42583",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42584",
+      "source": "ibm",
+      "title": "CVE-2026-42584",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42585",
+      "source": "ibm",
+      "title": "CVE-2026-42585",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42587",
+      "source": "ibm",
+      "title": "CVE-2026-42587",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-42764",
+      "source": "ibm",
+      "title": "CVE-2026-42764",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-42766",
+      "source": "ibm",
+      "title": "CVE-2026-42766",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-42767",
+      "source": "ibm",
+      "title": "CVE-2026-42767",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-42768",
+      "source": "ibm",
+      "title": "CVE-2026-42768",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-42769",
+      "source": "ibm",
+      "title": "CVE-2026-42769",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-42770",
+      "source": "ibm",
+      "title": "CVE-2026-42770",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-43869",
+      "source": "ibm",
+      "title": "CVE-2026-43869",
+      "description": "The Apache Thrift Node.js static web server in versions 0.9.2 through 0.11.0 have been determined to contain a security vulnerability in which a remote user has the ability to access files outside the set webservers docroot path",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2018-11798",
+        "https://www.ibm.com/support/pages/node/7282932"
+      ]
+    },
+    {
+      "id": "CVE-2026-4410",
+      "source": "ibm",
+      "title": "CVE-2026-4410",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7283146"
+      ]
+    },
+    {
+      "id": "CVE-2026-45445",
+      "source": "ibm",
+      "title": "CVE-2026-45445",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-45446",
+      "source": "ibm",
+      "title": "CVE-2026-45446",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-45447",
+      "source": "ibm",
+      "title": "CVE-2026-45447",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-4800",
+      "source": "ibm",
+      "title": "CVE-2026-4800",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-5516",
+      "source": "ibm",
+      "title": "CVE-2026-5516",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7283146",
+        "https://www.cve.org/CVERecord?id=CVE-2026-5516",
+        "https://www.ibm.com/support/pages/node/7283241"
+      ]
+    },
+    {
+      "id": "CVE-2026-5588",
+      "source": "ibm",
+      "title": "CVE-2026-5588",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-5598",
+      "source": "ibm",
+      "title": "CVE-2026-5598",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-5795",
+      "source": "ibm",
+      "title": "CVE-2026-5795",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-59887",
+      "source": "ibm",
+      "title": "CVE-2026-59887",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-66010",
+      "source": "ibm",
+      "title": "CVE-2026-66010",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-66010",
+        "https://www.ibm.com/support/pages/node/7283292"
+      ]
+    },
+    {
+      "id": "CVE-2026-66053",
+      "source": "ibm",
+      "title": "CVE-2026-66053",
+      "description": "The Apache Thrift Node.js static web server in versions 0.9.2 through 0.11.0 have been determined to contain a security vulnerability in which a remote user has the ability to access files outside the set webservers docroot path",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2018-11798",
+        "https://www.ibm.com/support/pages/node/7282932"
+      ]
+    },
+    {
+      "id": "CVE-2026-7383",
+      "source": "ibm",
+      "title": "CVE-2026-7383",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-8646",
+      "source": "ibm",
+      "title": "CVE-2026-8646",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7283146"
+      ]
+    },
+    {
+      "id": "CVE-2026-8723",
+      "source": "ibm",
+      "title": "CVE-2026-8723",
+      "description": "An improper authorization vulnerability has been identified in Apache Kafka. The implementation of the CONSUMER_GROUP_DESCRIBE (69) API validates the DESCRIBE operation on the GROUP resource instead of the READ operation that documented in the official kafka documentation and the KIP-848. This discrepancy can result in misconfigured Access Control Lists (ACLs) and unintended security postures, like granting READ permission to users who should not be able to join or sync groups, or allowing users without READ permission (but with DESCRIBE permission) to access sensitive group metadata. The correct permission for CONSUMER_GROUP_DESCRIBE API is DESCRIBE GROUP so the current implementation is correct. However, the kafka documentation as well as the KIP-848 will be updated to reflect the correct permission. We advise the Kafka users to review existing group ACLs to ensure the principle of least privilege",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-41115",
+        "https://www.ibm.com/support/pages/node/7283253"
+      ]
+    },
+    {
+      "id": "CVE-2026-9071",
+      "source": "ibm",
+      "title": "CVE-2026-9071",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7283146"
+      ]
+    },
+    {
+      "id": "CVE-2026-9076",
+      "source": "ibm",
+      "title": "CVE-2026-9076",
+      "description": "Java SE could allow a remote attacker to bypass security controls and perform unauthorized update, insert, delete, or read operations on accessible data, caused by an easily exploitable vulnerability",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-21933",
+        "https://www.ibm.com/support/pages/node/7283256"
+      ]
+    },
+    {
+      "id": "CVE-2026-9320",
+      "source": "ibm",
+      "title": "CVE-2026-9320",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7283146"
+      ]
+    },
+    {
+      "id": "CVE-2026-9828",
+      "source": "ibm",
+      "title": "CVE-2026-9828",
+      "description": "Deserialization of untrusted data vulnerability in QOS.CH Sarl logback logback-core (HardenedObjectInputStream (logback-core) modules) allows Object Injection albeit heavily restricted. More precisely, an attacker able to influence serialized data sent to SimpleSocketServer or SimpleSSLSocketServer can instantiate objects from classes in the java.lang and java.util packages that are not explicitly blocked. Although deserialization is heavily restricted by HardenedObjectInputStream and no practical way to achieve remote code execution or significant privilege escalation has been identified, this issue constitutes a bypass of the intended security restrictions. This issue affects logback: through 1.5.32 inclusive",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-11",
+      "modified_date": "2026-08-11",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-9828",
+        "https://www.ibm.com/support/pages/node/7282933"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.ibm.com/support/pages/node/7283253",
+  "vendor": "ibm",
+  "references": [
+    "https://www.ibm.com/support/pages/node/7283253",
+    "https://www.ibm.com/support/pages/bulletin/",
+    "https://www.ibm.com/support/pages/node/7283256",
+    "https://www.ibm.com/support/pages/node/7283359",
+    "https://www.ibm.com/support/pages/node/7283252",
+    "https://www.ibm.com/support/pages/node/7283292",
+    "https://www.ibm.com/support/pages/node/7283274",
+    "https://www.ibm.com/support/pages/node/7283289",
+    "https://www.ibm.com/support/pages/node/7282933",
+    "https://www.ibm.com/support/pages/node/7282930",
+    "https://www.ibm.com/support/pages/node/7282932",
+    "https://www.ibm.com/support/pages/node/7282851",
+    "https://www.ibm.com/support/pages/node/7283146",
+    "https://www.ibm.com/support/pages/node/7283241"
+  ]
+}
