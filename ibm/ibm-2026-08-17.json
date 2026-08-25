@@ -2,7 +2,7 @@
   "id": "ibm-2026-08-17",
   "source": "ibm",
   "title": "Ibm Security Advisories - 2026-08-17",
-  "description": "Merged 5 ibm security advisories published on 2026-08-17. Original advisory IDs: IBM-7283960, IBM-7283980, IBM-7283994, IBM-7284088, IBM-7282646\n\nTitles:\n- IBM App Connect for Manufacturing is vulnerable to multiple vulnerabilities due to open62541 (CVE-2026-63035, CVE-2026-63362, CVE-2026-63559, CVE-2026-65423 & CVE-2026-15690)\n- Multiple Vulnerabilities in IBM Data Product Hub\n- IBM Financial Transaction Manager v4.0.6.0 is impacted by multiple vulnerabilities in RedHat Universal Base Image\n- Multiple Vulnerabilities in watsonx.data\n- Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
+  "description": "Merged 4 ibm security advisories published on 2026-08-17. Original advisory IDs: IBM-7283960, IBM-7283980, IBM-7283994, IBM-7284088\n\nTitles:\n- IBM App Connect for Manufacturing is vulnerable to multiple vulnerabilities due to open62541 (CVE-2026-63035, CVE-2026-63362, CVE-2026-63559, CVE-2026-65423 & CVE-2026-15690)\n- Multiple Vulnerabilities in IBM Data Product Hub\n- IBM Financial Transaction Manager v4.0.6.0 is impacted by multiple vulnerabilities in RedHat Universal Base Image\n- Multiple Vulnerabilities in watsonx.data",
   "severity": "critical",
   "cvss_scores": [],
   "cvss_score": null,
@@ -16,8 +16,7 @@
     "ibm:IBM App Connect for Manufacturing",
     "ibm:IBM Data Product Exchange",
     "ibm:IBM Financial Transaction Manager",
-    "ibm:IBM watsonx Subscription",
-    "ibm:Langflow OSS"
+    "ibm:IBM watsonx Subscription"
   ],
   "affected_products": [
     {
@@ -426,41 +425,6 @@
           "id": "CVE-2026-50011"
         }
       ]
-    },
-    {
-      "vendor": "ibm",
-      "product": "Langflow OSS",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:ibm:langflow_oss:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-17624"
-        },
-        {
-          "id": "CVE-2026-17632"
-        },
-        {
-          "id": "CVE-2026-17633"
-        },
-        {
-          "id": "CVE-2026-8182"
-        },
-        {
-          "id": "CVE-2026-8478"
-        },
-        {
-          "id": "CVE-2026-9196"
-        },
-        {
-          "id": "CVE-2026-9201"
-        }
-      ]
     }
   ],
   "fixed_versions": [],
@@ -817,54 +781,6 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-8646",
         "https://www.ibm.com/support/pages/node/7283980"
-      ]
-    },
-    {
-      "id": "CVE-2026-17624",
-      "source": "ibm",
-      "title": "CVE-2026-17624",
-      "description": "IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute arbitrary code due to a cryptographic weakness in the custom component validation mechanism. When the optional hardening mode that restricts execution to trusted component templates is enabled, the application validates component code using a truncated SHA‑256 hash. Because the hash comparison relies on only a portion of the digest, an attacker can craft malicious component code that collides with a trusted template hash and bypasses validation. Successful exploitation allows the attacker to introduce and execute unauthorized Python code within the Langflow process, defeating the intended security control and potentially leading to full compromise of the affected instance",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-08-17",
-      "modified_date": "2026-08-17",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-9201",
-        "https://www.ibm.com/support/pages/node/7282646"
-      ]
-    },
-    {
-      "id": "CVE-2026-17632",
-      "source": "ibm",
-      "title": "CVE-2026-17632",
-      "description": "IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute arbitrary code due to a cryptographic weakness in the custom component validation mechanism. When the optional hardening mode that restricts execution to trusted component templates is enabled, the application validates component code using a truncated SHA‑256 hash. Because the hash comparison relies on only a portion of the digest, an attacker can craft malicious component code that collides with a trusted template hash and bypasses validation. Successful exploitation allows the attacker to introduce and execute unauthorized Python code within the Langflow process, defeating the intended security control and potentially leading to full compromise of the affected instance",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-08-17",
-      "modified_date": "2026-08-17",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-9201",
-        "https://www.ibm.com/support/pages/node/7282646"
-      ]
-    },
-    {
-      "id": "CVE-2026-17633",
-      "source": "ibm",
-      "title": "CVE-2026-17633",
-      "description": "IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute arbitrary code due to a cryptographic weakness in the custom component validation mechanism. When the optional hardening mode that restricts execution to trusted component templates is enabled, the application validates component code using a truncated SHA‑256 hash. Because the hash comparison relies on only a portion of the digest, an attacker can craft malicious component code that collides with a trusted template hash and bypasses validation. Successful exploitation allows the attacker to introduce and execute unauthorized Python code within the Langflow process, defeating the intended security control and potentially leading to full compromise of the affected instance",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-08-17",
-      "modified_date": "2026-08-17",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-9201",
-        "https://www.ibm.com/support/pages/node/7282646"
       ]
     },
     {
@@ -2324,38 +2240,6 @@
       ]
     },
     {
-      "id": "CVE-2026-8182",
-      "source": "ibm",
-      "title": "CVE-2026-8182",
-      "description": "IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute arbitrary code due to a cryptographic weakness in the custom component validation mechanism. When the optional hardening mode that restricts execution to trusted component templates is enabled, the application validates component code using a truncated SHA‑256 hash. Because the hash comparison relies on only a portion of the digest, an attacker can craft malicious component code that collides with a trusted template hash and bypasses validation. Successful exploitation allows the attacker to introduce and execute unauthorized Python code within the Langflow process, defeating the intended security control and potentially leading to full compromise of the affected instance",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-08-17",
-      "modified_date": "2026-08-17",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-9201",
-        "https://www.ibm.com/support/pages/node/7282646"
-      ]
-    },
-    {
-      "id": "CVE-2026-8478",
-      "source": "ibm",
-      "title": "CVE-2026-8478",
-      "description": "IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute arbitrary code due to a cryptographic weakness in the custom component validation mechanism. When the optional hardening mode that restricts execution to trusted component templates is enabled, the application validates component code using a truncated SHA‑256 hash. Because the hash comparison relies on only a portion of the digest, an attacker can craft malicious component code that collides with a trusted template hash and bypasses validation. Successful exploitation allows the attacker to introduce and execute unauthorized Python code within the Langflow process, defeating the intended security control and potentially leading to full compromise of the affected instance",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-08-17",
-      "modified_date": "2026-08-17",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-9201",
-        "https://www.ibm.com/support/pages/node/7282646"
-      ]
-    },
-    {
       "id": "CVE-2026-8646",
       "source": "ibm",
       "title": "CVE-2026-8646",
@@ -2404,38 +2288,6 @@
       ]
     },
     {
-      "id": "CVE-2026-9196",
-      "source": "ibm",
-      "title": "CVE-2026-9196",
-      "description": "IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute arbitrary code due to a cryptographic weakness in the custom component validation mechanism. When the optional hardening mode that restricts execution to trusted component templates is enabled, the application validates component code using a truncated SHA‑256 hash. Because the hash comparison relies on only a portion of the digest, an attacker can craft malicious component code that collides with a trusted template hash and bypasses validation. Successful exploitation allows the attacker to introduce and execute unauthorized Python code within the Langflow process, defeating the intended security control and potentially leading to full compromise of the affected instance",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-08-17",
-      "modified_date": "2026-08-17",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-9201",
-        "https://www.ibm.com/support/pages/node/7282646"
-      ]
-    },
-    {
-      "id": "CVE-2026-9201",
-      "source": "ibm",
-      "title": "CVE-2026-9201",
-      "description": "IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute arbitrary code due to a cryptographic weakness in the custom component validation mechanism. When the optional hardening mode that restricts execution to trusted component templates is enabled, the application validates component code using a truncated SHA‑256 hash. Because the hash comparison relies on only a portion of the digest, an attacker can craft malicious component code that collides with a trusted template hash and bypasses validation. Successful exploitation allows the attacker to introduce and execute unauthorized Python code within the Langflow process, defeating the intended security control and potentially leading to full compromise of the affected instance",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-08-17",
-      "modified_date": "2026-08-17",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-9201",
-        "https://www.ibm.com/support/pages/node/7282646"
-      ]
-    },
-    {
       "id": "CVE-2026-9320",
       "source": "ibm",
       "title": "CVE-2026-9320",
@@ -2461,7 +2313,6 @@
     "https://www.ibm.com/support/pages/bulletin/",
     "https://www.ibm.com/support/pages/node/7283980",
     "https://www.ibm.com/support/pages/node/7283994",
-    "https://www.ibm.com/support/pages/node/7284088",
-    "https://www.ibm.com/support/pages/node/7282646"
+    "https://www.ibm.com/support/pages/node/7284088"
   ]
 }

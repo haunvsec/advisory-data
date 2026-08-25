@@ -1,0 +1,1461 @@
+{
+  "id": "redhat-2026-08-19",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-08-19",
+  "description": "Merged 27 redhat security advisories published on 2026-08-19. Original advisory IDs: RHSA-2026:57189, RHSA-2026:57174, RHSA-2026:55781, RHSA-2026:57149, RHSA-2026:57148, RHSA-2026:57126, RHSA-2026:55774, RHSA-2026:55798, RHSA-2026:55787, RHSA-2026:57015, RHSA-2026:56973, RHSA-2026:55761, RHSA-2026:56969, RHSA-2026:56982, RHSA-2026:56970, RHSA-2026:56963, RHSA-2026:56971, RHSA-2026:56966, RHSA-2026:56964, RHSA-2026:56965, RHSA-2026:56959, RHSA-2026:56954, RHSA-2026:56936, RHSA-2026:56772, RHSA-2026:56658, RHSA-2026:56574, RHSA-2026:56573\n\nTitles:\n- Red Hat Security Advisory: bind security update\n- Red Hat Security Advisory: postfix security update\n- Red Hat Security Advisory: java-17-openjdk security update\n- Red Hat Security Advisory: ansible-core security update\n- Red Hat Security Advisory: yggdrasil security update\n- Red Hat Security Advisory: java-1.8.0-openjdk security update\n- Red Hat Security Advisory: java-25-openjdk security update\n- Red Hat Security Advisory: java-21-openjdk security update\n- Red Hat Security Advisory: glib2 security update\n- Red Hat Security Advisory: mysql:8.4 security, bug fix, and enhancement update\n- Red Hat Security Advisory: kpatch-patch-4_18_0-477_107_1, kpatch-patch-4_18_0-477_120_1, kpatch-patch-4_18_0-477_130_1, kpatch-patch-4_18_0-477_143_1, and kpatch-patch-4_18_0-477_97_1 security update\n- Red Hat Security Advisory: php8.4 security, bug fix, and enhancement update\n- Red Hat Security Advisory: gegl04 security update\n- Red Hat Security Advisory: perl-Date-Manip security update\n- Red Hat Security Advisory: gstreamer1-plugins-good security update\n- Red Hat Security Advisory: libcupsfilters security update\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: libarchive security update\n- Red Hat Security Advisory: gstreamer1-plugins-bad-free security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-770",
+    "CWE-1287",
+    "CWE-345",
+    "CWE-400",
+    "CWE-617",
+    "CWE-193",
+    "CWE-88",
+    "CWE-1289",
+    "CWE-126",
+    "CWE-125",
+    "CWE-22",
+    "CWE-413",
+    "CWE-266",
+    "CWE-648",
+    "CWE-248",
+    "CWE-497",
+    "CWE-843",
+    "CWE-130",
+    "CWE-431",
+    "CWE-89",
+    "CWE-787",
+    "CWE-131",
+    "CWE-1333",
+    "CWE-191",
+    "CWE-835",
+    "CWE-551",
+    "CWE-415",
+    "CWE-121",
+    "CWE-821",
+    "CWE-822",
+    "CWE-805",
+    "CWE-190",
+    "CWE-1220"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-19",
+  "modified_date": "2026-08-25",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.4)",
+    "redhat:Red Hat Enterprise Linux AppStream AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.8.8)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
+    "redhat:Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux Real Time EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.4)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-3039"
+        },
+        {
+          "id": "CVE-2026-5946"
+        },
+        {
+          "id": "CVE-2026-10723"
+        },
+        {
+          "id": "CVE-2026-11331"
+        },
+        {
+          "id": "CVE-2026-11622"
+        },
+        {
+          "id": "CVE-2026-11721"
+        },
+        {
+          "id": "CVE-2026-13204"
+        },
+        {
+          "id": "CVE-2026-13321"
+        },
+        {
+          "id": "CVE-2026-43964"
+        },
+        {
+          "id": "CVE-2026-60589"
+        },
+        {
+          "id": "CVE-2026-61308"
+        },
+        {
+          "id": "CVE-2026-70907"
+        },
+        {
+          "id": "CVE-2026-11332"
+        },
+        {
+          "id": "CVE-2026-33810"
+        },
+        {
+          "id": "CVE-2026-70906"
+        },
+        {
+          "id": "CVE-2026-15588"
+        },
+        {
+          "id": "CVE-2026-58010"
+        },
+        {
+          "id": "CVE-2026-58011"
+        },
+        {
+          "id": "CVE-2026-58012"
+        },
+        {
+          "id": "CVE-2026-58013"
+        },
+        {
+          "id": "CVE-2026-58014"
+        },
+        {
+          "id": "CVE-2026-58015"
+        },
+        {
+          "id": "CVE-2026-46936"
+        },
+        {
+          "id": "CVE-2026-47012"
+        },
+        {
+          "id": "CVE-2026-47023"
+        },
+        {
+          "id": "CVE-2026-47052"
+        },
+        {
+          "id": "CVE-2026-47064"
+        },
+        {
+          "id": "CVE-2026-60145"
+        },
+        {
+          "id": "CVE-2026-60163"
+        },
+        {
+          "id": "CVE-2026-60177"
+        },
+        {
+          "id": "CVE-2026-60178"
+        },
+        {
+          "id": "CVE-2026-60182"
+        },
+        {
+          "id": "CVE-2026-60183"
+        },
+        {
+          "id": "CVE-2026-60184"
+        },
+        {
+          "id": "CVE-2026-60185"
+        },
+        {
+          "id": "CVE-2026-60186"
+        },
+        {
+          "id": "CVE-2026-60187"
+        },
+        {
+          "id": "CVE-2026-60188"
+        },
+        {
+          "id": "CVE-2026-60189"
+        },
+        {
+          "id": "CVE-2026-60190"
+        },
+        {
+          "id": "CVE-2026-60191"
+        },
+        {
+          "id": "CVE-2026-60315"
+        },
+        {
+          "id": "CVE-2026-60316"
+        },
+        {
+          "id": "CVE-2026-60331"
+        },
+        {
+          "id": "CVE-2026-60332"
+        },
+        {
+          "id": "CVE-2026-60585"
+        },
+        {
+          "id": "CVE-2026-60747"
+        },
+        {
+          "id": "CVE-2026-61081"
+        },
+        {
+          "id": "CVE-2026-61094"
+        },
+        {
+          "id": "CVE-2026-61096"
+        },
+        {
+          "id": "CVE-2026-61109"
+        },
+        {
+          "id": "CVE-2026-43038"
+        },
+        {
+          "id": "CVE-2026-43125"
+        },
+        {
+          "id": "CVE-2026-43329"
+        },
+        {
+          "id": "CVE-2026-64530"
+        },
+        {
+          "id": "CVE-2026-17543"
+        },
+        {
+          "id": "CVE-2026-17544"
+        },
+        {
+          "id": "CVE-2026-2050"
+        },
+        {
+          "id": "CVE-2026-60075"
+        },
+        {
+          "id": "CVE-2026-18649"
+        },
+        {
+          "id": "CVE-2026-73433"
+        },
+        {
+          "id": "CVE-2026-73434"
+        },
+        {
+          "id": "CVE-2026-64611"
+        },
+        {
+          "id": "CVE-2026-64612"
+        },
+        {
+          "id": "CVE-2026-33186"
+        },
+        {
+          "id": "CVE-2026-14164"
+        },
+        {
+          "id": "CVE-2026-59691"
+        },
+        {
+          "id": "CVE-2026-59692"
+        },
+        {
+          "id": "CVE-2026-23110"
+        },
+        {
+          "id": "CVE-2026-31411"
+        },
+        {
+          "id": "CVE-2026-53016"
+        },
+        {
+          "id": "CVE-2026-53059"
+        },
+        {
+          "id": "CVE-2025-54518"
+        },
+        {
+          "id": "CVE-2026-43112"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2025-54518",
+      "source": "redhat",
+      "title": "kernel: xen: AMD Zen 2 Processors: Privilege escalation via improper CPU cache isolation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-54518"
+      ]
+    },
+    {
+      "id": "CVE-2026-10723",
+      "source": "redhat",
+      "title": "bind: bind9: Incorrect acceptance of NSEC3 records",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-10723"
+      ]
+    },
+    {
+      "id": "CVE-2026-11331",
+      "source": "redhat",
+      "title": "bind9: bind: Potential wildcard CNAME RPZ policy bypass",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-11331"
+      ]
+    },
+    {
+      "id": "CVE-2026-11332",
+      "source": "redhat",
+      "title": "ansible-core: argument injection in ansible-galaxy role install leads to arbitrary code execution",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-11332"
+      ]
+    },
+    {
+      "id": "CVE-2026-11622",
+      "source": "redhat",
+      "title": "bind: bind9: Potential memory usage beyond configured limits",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-11622"
+      ]
+    },
+    {
+      "id": "CVE-2026-11721",
+      "source": "redhat",
+      "title": "bind: bind9: Cache poisoning via label count discrepancy, RRSIG, wildcards",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-11721"
+      ]
+    },
+    {
+      "id": "CVE-2026-13204",
+      "source": "redhat",
+      "title": "bind: bind9: Unexpected exit with NSEC and NSEC3 both present",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-13204"
+      ]
+    },
+    {
+      "id": "CVE-2026-13321",
+      "source": "redhat",
+      "title": "bind: bind9: DNSSEC Validation Bypass via Out-of-Zone NSEC Next Field",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-13321"
+      ]
+    },
+    {
+      "id": "CVE-2026-14164",
+      "source": "redhat",
+      "title": "libarchive: Double-Free Vulnerability in RAR5 Decompression Logic via dangling filtered_buf pointer in init_unpack()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-14164"
+      ]
+    },
+    {
+      "id": "CVE-2026-15588",
+      "source": "redhat",
+      "title": "GDBusServer: glib2: GDBusServer pre-authentication DoS via unbounded SASL line buffering",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-15588"
+      ]
+    },
+    {
+      "id": "CVE-2026-17543",
+      "source": "redhat",
+      "title": "php: ext-pgsql: PHP: SQL injection via improper backslash escaping",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-17543"
+      ]
+    },
+    {
+      "id": "CVE-2026-17544",
+      "source": "redhat",
+      "title": "php: PHP: Arbitrary code execution via out-of-bounds write in bccomp()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-17544"
+      ]
+    },
+    {
+      "id": "CVE-2026-18649",
+      "source": "redhat",
+      "title": "gst-plugins-good: gst-plugins-good: unbounded memory growth in rtph264depay and rtph265depay RTP depayloaders",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-18649"
+      ]
+    },
+    {
+      "id": "CVE-2026-2050",
+      "source": "redhat",
+      "title": "gimp: GIMP: Arbitrary code execution via heap-based buffer overflow in HDR file parsing",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-2050"
+      ]
+    },
+    {
+      "id": "CVE-2026-23110",
+      "source": "redhat",
+      "title": "kernel: scsi: core: Wake up the error handler when final completions race against each other",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-23110"
+      ]
+    },
+    {
+      "id": "CVE-2026-3039",
+      "source": "redhat",
+      "title": "bind: BIND 9 server memory exhaustion during GSS-API TKEY negotiation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-3039"
+      ]
+    },
+    {
+      "id": "CVE-2026-31411",
+      "source": "redhat",
+      "title": "kernel: net: atm: fix crash due to unvalidated vcc pointer in sigd_send()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-31411"
+      ]
+    },
+    {
+      "id": "CVE-2026-33186",
+      "source": "redhat",
+      "title": "google.golang.org/grpc/grpc-go: google.golang.org/grpc/authz: gRPC-Go: Authorization bypass due to improper HTTP/2 path validation",
+      "description": "",
+      "severity": null,
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33186"
+      ]
+    },
+    {
+      "id": "CVE-2026-33810",
+      "source": "redhat",
+      "title": "crypto/x509: golang: Go crypto/x509: Certificate validation bypass due to incorrect DNS constraint application",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:L",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33810"
+      ]
+    },
+    {
+      "id": "CVE-2026-43038",
+      "source": "redhat",
+      "title": "kernel: ipv6: icmp: clear skb2->cb[] in ip6_err_gen_icmpv6_unreach()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43038"
+      ]
+    },
+    {
+      "id": "CVE-2026-43112",
+      "source": "redhat",
+      "title": "kernel: fs/smb/client: fix out-of-bounds read in cifs_sanitize_prepath",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43112"
+      ]
+    },
+    {
+      "id": "CVE-2026-43125",
+      "source": "redhat",
+      "title": "kernel: dlm: validate length in dlm_search_rsb_tree",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43125"
+      ]
+    },
+    {
+      "id": "CVE-2026-43329",
+      "source": "redhat",
+      "title": "kernel: netfilter: flowtable: strictly check for maximum number of actions",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43329"
+      ]
+    },
+    {
+      "id": "CVE-2026-43964",
+      "source": "redhat",
+      "title": "postfix: buffer over-read via malformed enhanced status code",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43964"
+      ]
+    },
+    {
+      "id": "CVE-2026-46936",
+      "source": "redhat",
+      "title": "mysql: DDL unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-46936"
+      ]
+    },
+    {
+      "id": "CVE-2026-47012",
+      "source": "redhat",
+      "title": "mysql: Optimizer unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47012"
+      ]
+    },
+    {
+      "id": "CVE-2026-47023",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47023"
+      ]
+    },
+    {
+      "id": "CVE-2026-47052",
+      "source": "redhat",
+      "title": "mysql: InnoDB unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47052"
+      ]
+    },
+    {
+      "id": "CVE-2026-47064",
+      "source": "redhat",
+      "title": "mysql: Optimizer unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-47064"
+      ]
+    },
+    {
+      "id": "CVE-2026-53016",
+      "source": "redhat",
+      "title": "kernel: crypto: ccp - copy IV using skcipher ivsize",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53016"
+      ]
+    },
+    {
+      "id": "CVE-2026-53059",
+      "source": "redhat",
+      "title": "kernel: dm log: fix out-of-bounds write due to region_count overflow",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53059"
+      ]
+    },
+    {
+      "id": "CVE-2026-58010",
+      "source": "redhat",
+      "title": "glib: buffer over-read in glib/gvariant-serialiser.c via gvs_tuple_is_normal()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-58010"
+      ]
+    },
+    {
+      "id": "CVE-2026-58011",
+      "source": "redhat",
+      "title": "glib: out-of-bounds read in glib/gdatetime.c:g_date_time_get_ymd via invalid GDateTime",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-58011"
+      ]
+    },
+    {
+      "id": "CVE-2026-58012",
+      "source": "redhat",
+      "title": "glib: buffer over-read in g_regex_replace() via glib/gregex.c:string_append() and g_utf8_next_char()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-58012"
+      ]
+    },
+    {
+      "id": "CVE-2026-58013",
+      "source": "redhat",
+      "title": "glib: buffer over-read in glib/giochannel.c via \"g_io_channel_read_line_backend\"",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-58013"
+      ]
+    },
+    {
+      "id": "CVE-2026-58014",
+      "source": "redhat",
+      "title": "glib: off-by-one error in glib/gkeyfile.c via \"g_key_file_get_locale_string_list\"",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-58014"
+      ]
+    },
+    {
+      "id": "CVE-2026-58015",
+      "source": "redhat",
+      "title": "glib: path traversal in glib/gio/gdbusauthmechanismsha1.c via keyring_lookup_entry and mechanism_client_data_receive",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-58015"
+      ]
+    },
+    {
+      "id": "CVE-2026-5946",
+      "source": "redhat",
+      "title": "bind: BIND: Denial of Service via specially crafted DNS messages",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-5946"
+      ]
+    },
+    {
+      "id": "CVE-2026-59691",
+      "source": "redhat",
+      "title": "gstreamer: gstreamer: rfbsrc/librfb Hextile heap out-of-bounds write with 16bpp framebuffer",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59691"
+      ]
+    },
+    {
+      "id": "CVE-2026-59692",
+      "source": "redhat",
+      "title": "gstreamer: gstreamer: DTLS certificate Subject DN stack buffer overflow in openssl_verify_callback",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-59692"
+      ]
+    },
+    {
+      "id": "CVE-2026-60075",
+      "source": "redhat",
+      "title": "perl-Date-Manip: Date::Manip for Perl: Denial of Service via CPU exhaustion in date parsing",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60075"
+      ]
+    },
+    {
+      "id": "CVE-2026-60145",
+      "source": "redhat",
+      "title": "mysql: Optimizer unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60145"
+      ]
+    },
+    {
+      "id": "CVE-2026-60163",
+      "source": "redhat",
+      "title": "mysql: Group Replication Plugin unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60163"
+      ]
+    },
+    {
+      "id": "CVE-2026-60177",
+      "source": "redhat",
+      "title": "mysql: Clone Plugin unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60177"
+      ]
+    },
+    {
+      "id": "CVE-2026-60178",
+      "source": "redhat",
+      "title": "mysql: Clone Plugin unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60178"
+      ]
+    },
+    {
+      "id": "CVE-2026-60182",
+      "source": "redhat",
+      "title": "mysql: Clone Plugin unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60182"
+      ]
+    },
+    {
+      "id": "CVE-2026-60183",
+      "source": "redhat",
+      "title": "mysql: Clone Plugin unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60183"
+      ]
+    },
+    {
+      "id": "CVE-2026-60184",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60184"
+      ]
+    },
+    {
+      "id": "CVE-2026-60185",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60185"
+      ]
+    },
+    {
+      "id": "CVE-2026-60186",
+      "source": "redhat",
+      "title": "mysql: Group Replication Plugin unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60186"
+      ]
+    },
+    {
+      "id": "CVE-2026-60187",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60187"
+      ]
+    },
+    {
+      "id": "CVE-2026-60188",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60188"
+      ]
+    },
+    {
+      "id": "CVE-2026-60189",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60189"
+      ]
+    },
+    {
+      "id": "CVE-2026-60190",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 2.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60190"
+      ]
+    },
+    {
+      "id": "CVE-2026-60191",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60191"
+      ]
+    },
+    {
+      "id": "CVE-2026-60315",
+      "source": "redhat",
+      "title": "mysql: X Plugin unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60315"
+      ]
+    },
+    {
+      "id": "CVE-2026-60316",
+      "source": "redhat",
+      "title": "mysql: X Plugin unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60316"
+      ]
+    },
+    {
+      "id": "CVE-2026-60331",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60331"
+      ]
+    },
+    {
+      "id": "CVE-2026-60332",
+      "source": "redhat",
+      "title": "mysql: Group Replication GCS unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60332"
+      ]
+    },
+    {
+      "id": "CVE-2026-60585",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60585"
+      ]
+    },
+    {
+      "id": "CVE-2026-60589",
+      "source": "redhat",
+      "title": "OpenJDK: Improve Resource Resolving (2026-08 Security Update)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.7,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60589"
+      ]
+    },
+    {
+      "id": "CVE-2026-60747",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.2,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-60747"
+      ]
+    },
+    {
+      "id": "CVE-2026-61081",
+      "source": "redhat",
+      "title": "mysql: Performance Schema unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 2.7,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-61081"
+      ]
+    },
+    {
+      "id": "CVE-2026-61094",
+      "source": "redhat",
+      "title": "mysql: Replication unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-61094"
+      ]
+    },
+    {
+      "id": "CVE-2026-61096",
+      "source": "redhat",
+      "title": "mysql: Pluggable Auth unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 2.9,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-61096"
+      ]
+    },
+    {
+      "id": "CVE-2026-61109",
+      "source": "redhat",
+      "title": "mysql: JSON unspecified vulnerability (CPU Jul 2026)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-61109"
+      ]
+    },
+    {
+      "id": "CVE-2026-61308",
+      "source": "redhat",
+      "title": "OpenJDK: Enhance HTTP Connections (2026-08 Security Update)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-61308"
+      ]
+    },
+    {
+      "id": "CVE-2026-64530",
+      "source": "redhat",
+      "title": "kernel: net: sched: UAF via missing handler for TC_ACT_CONSUMED in tcf_qevent_handle",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64530"
+      ]
+    },
+    {
+      "id": "CVE-2026-64611",
+      "source": "redhat",
+      "title": "libcupsfilters: cups-filters: libcupsfilters: CPU exhaustion via infinite loop in cfIEEE1284NormalizeMakeModel()",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64611"
+      ]
+    },
+    {
+      "id": "CVE-2026-64612",
+      "source": "redhat",
+      "title": "libcupsfilters: cups-filters: libcupsfilters: CUPS image filter process abort via malformed PNG",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64612"
+      ]
+    },
+    {
+      "id": "CVE-2026-70906",
+      "source": "redhat",
+      "title": "OpenJDK: Improve font loading (2026-08 Security Update)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-70906"
+      ]
+    },
+    {
+      "id": "CVE-2026-70907",
+      "source": "redhat",
+      "title": "OpenJDK: Enhance TLS server (2026-08 Security Update)",
+      "description": "",
+      "severity": null,
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-70907"
+      ]
+    },
+    {
+      "id": "CVE-2026-73433",
+      "source": "redhat",
+      "title": "gstreamer1-plugins-good: gstreamer: unsigned integer underflow in avidemux FUJIFILM strd parsing leading to out-of-bounds read/write",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.6,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-73433"
+      ]
+    },
+    {
+      "id": "CVE-2026-73434",
+      "source": "redhat",
+      "title": "gstreamer1-plugins-good: gstreamer: out-of-bounds read in avidemux vprp video field descriptor parsing",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+      "published_date": "2026-08-19",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-73434"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:57189",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:57189",
+    "https://access.redhat.com/errata/RHSA-2026:57174",
+    "https://access.redhat.com/errata/RHSA-2026:55781",
+    "https://access.redhat.com/errata/RHSA-2026:57149",
+    "https://access.redhat.com/errata/RHSA-2026:57148",
+    "https://access.redhat.com/errata/RHSA-2026:57126",
+    "https://access.redhat.com/errata/RHSA-2026:55774",
+    "https://access.redhat.com/errata/RHSA-2026:55798",
+    "https://access.redhat.com/errata/RHSA-2026:55787",
+    "https://access.redhat.com/errata/RHSA-2026:57015",
+    "https://access.redhat.com/errata/RHSA-2026:56973",
+    "https://access.redhat.com/errata/RHSA-2026:55761",
+    "https://access.redhat.com/errata/RHSA-2026:56969",
+    "https://access.redhat.com/errata/RHSA-2026:56982",
+    "https://access.redhat.com/errata/RHSA-2026:56970",
+    "https://access.redhat.com/errata/RHSA-2026:56963",
+    "https://access.redhat.com/errata/RHSA-2026:56971",
+    "https://access.redhat.com/errata/RHSA-2026:56966",
+    "https://access.redhat.com/errata/RHSA-2026:56964",
+    "https://access.redhat.com/errata/RHSA-2026:56965",
+    "https://access.redhat.com/errata/RHSA-2026:56959",
+    "https://access.redhat.com/errata/RHSA-2026:56954",
+    "https://access.redhat.com/errata/RHSA-2026:56936",
+    "https://access.redhat.com/errata/RHSA-2026:56772",
+    "https://access.redhat.com/errata/RHSA-2026:56658",
+    "https://access.redhat.com/errata/RHSA-2026:56574",
+    "https://access.redhat.com/errata/RHSA-2026:56573"
+  ]
+}

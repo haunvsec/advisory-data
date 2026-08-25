@@ -1,0 +1,896 @@
+{
+  "id": "mariadb-2026-07-21",
+  "source": "mariadb",
+  "title": "Mariadb Security Advisories - 2026-07-21",
+  "description": "Merged 50 mariadb security advisories published on 2026-07-21. Original advisory IDs: CVE-2026-61081, CVE-2026-60747, CVE-2026-60585, CVE-2026-60331, CVE-2026-60184, CVE-2026-49261, CVE-2026-48165, CVE-2026-48163, CVE-2026-47064, CVE-2026-47023, CVE-2026-44173, CVE-2026-44172, CVE-2026-44171, CVE-2026-44170, CVE-2026-44169, CVE-2026-44168, CVE-2026-35549, CVE-2026-3494, CVE-2026-34303, CVE-2026-32710, CVE-2026-21968, CVE-2025-30722, CVE-2025-30693, CVE-2025-21490, CVE-2025-13699, CVE-2024-21096, CVE-2023-52971, CVE-2023-52970, CVE-2023-52969, CVE-2023-52968, CVE-2023-5157, CVE-2023-22084, CVE-2022-47015, CVE-2022-38791, CVE-2022-32091, CVE-2022-32089, CVE-2022-32088, CVE-2022-32087, CVE-2022-32086, CVE-2022-32085, CVE-2022-32084, CVE-2022-32083, CVE-2022-32082, CVE-2022-32081, CVE-2022-31624, CVE-2022-31623, CVE-2022-31622, CVE-2022-31621, CVE-2022-27457, CVE-2022-27456\n\nTitles:\n- CVE-2026-61081\n- CVE-2026-60747\n- CVE-2026-60585\n- CVE-2026-60331\n- CVE-2026-60184\n- CVE-2026-49261\n- CVE-2026-48165\n- CVE-2026-48163\n- CVE-2026-47064\n- CVE-2026-47023\n- CVE-2026-44173\n- CVE-2026-44172\n- CVE-2026-44171\n- CVE-2026-44170\n- CVE-2026-44169\n- CVE-2026-44168\n- CVE-2026-35549\n- CVE-2026-3494\n- CVE-2026-34303\n- CVE-2026-32710\n- CVE-2026-21968\n- CVE-2025-30722\n- CVE-2025-30693\n- CVE-2025-21490\n- CVE-2025-13699\n- CVE-2024-21096\n- CVE-2023-52971\n- CVE-2023-52970\n- CVE-2023-52969\n- CVE-2023-52968\n- CVE-2023-5157\n- CVE-2023-22084\n- CVE-2022-47015\n- CVE-2022-38791\n- CVE-2022-32091\n- CVE-2022-32089\n- CVE-2022-32088\n- CVE-2022-32087\n- CVE-2022-32086\n- CVE-2022-32085\n- CVE-2022-32084\n- CVE-2022-32083\n- CVE-2022-32082\n- CVE-2022-32081\n- CVE-2022-31624\n- CVE-2022-31623\n- CVE-2022-31622\n- CVE-2022-31621\n- CVE-2022-27457\n- CVE-2022-27456",
+  "severity": null,
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-07-21",
+  "modified_date": "2026-07-21",
+  "affected": [
+    "mariadb:mariadb-server"
+  ],
+  "affected_products": [
+    {
+      "vendor": "mariadb",
+      "product": "MariaDB Server",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-61081"
+        },
+        {
+          "id": "CVE-2026-60747"
+        },
+        {
+          "id": "CVE-2026-60585"
+        },
+        {
+          "id": "CVE-2026-60331"
+        },
+        {
+          "id": "CVE-2026-60184"
+        },
+        {
+          "id": "CVE-2026-49261"
+        },
+        {
+          "id": "CVE-2026-48165"
+        },
+        {
+          "id": "CVE-2026-48163"
+        },
+        {
+          "id": "CVE-2026-47064"
+        },
+        {
+          "id": "CVE-2026-47023"
+        },
+        {
+          "id": "CVE-2026-44173"
+        },
+        {
+          "id": "CVE-2026-44172"
+        },
+        {
+          "id": "CVE-2026-44171"
+        },
+        {
+          "id": "CVE-2026-44170"
+        },
+        {
+          "id": "CVE-2026-44169"
+        },
+        {
+          "id": "CVE-2026-44168"
+        },
+        {
+          "id": "CVE-2026-35549"
+        },
+        {
+          "id": "CVE-2026-3494"
+        },
+        {
+          "id": "CVE-2026-34303"
+        },
+        {
+          "id": "CVE-2026-32710"
+        },
+        {
+          "id": "CVE-2026-21968"
+        },
+        {
+          "id": "CVE-2025-30722"
+        },
+        {
+          "id": "CVE-2025-30693"
+        },
+        {
+          "id": "CVE-2025-21490"
+        },
+        {
+          "id": "CVE-2025-13699"
+        },
+        {
+          "id": "CVE-2024-21096"
+        },
+        {
+          "id": "CVE-2023-52971"
+        },
+        {
+          "id": "CVE-2023-52970"
+        },
+        {
+          "id": "CVE-2023-52969"
+        },
+        {
+          "id": "CVE-2023-52968"
+        },
+        {
+          "id": "CVE-2023-5157"
+        },
+        {
+          "id": "CVE-2023-22084"
+        },
+        {
+          "id": "CVE-2022-47015"
+        },
+        {
+          "id": "CVE-2022-38791"
+        },
+        {
+          "id": "CVE-2022-32091"
+        },
+        {
+          "id": "CVE-2022-32089"
+        },
+        {
+          "id": "CVE-2022-32088"
+        },
+        {
+          "id": "CVE-2022-32087"
+        },
+        {
+          "id": "CVE-2022-32086"
+        },
+        {
+          "id": "CVE-2022-32085"
+        },
+        {
+          "id": "CVE-2022-32084"
+        },
+        {
+          "id": "CVE-2022-32083"
+        },
+        {
+          "id": "CVE-2022-32082"
+        },
+        {
+          "id": "CVE-2022-32081"
+        },
+        {
+          "id": "CVE-2022-31624"
+        },
+        {
+          "id": "CVE-2022-31623"
+        },
+        {
+          "id": "CVE-2022-31622"
+        },
+        {
+          "id": "CVE-2022-31621"
+        },
+        {
+          "id": "CVE-2022-27457"
+        },
+        {
+          "id": "CVE-2022-27456"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2022-27456",
+      "source": "mariadb",
+      "title": "CVE-2022-27456",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-27457",
+      "source": "mariadb",
+      "title": "CVE-2022-27457",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-31621",
+      "source": "mariadb",
+      "title": "CVE-2022-31621",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-31622",
+      "source": "mariadb",
+      "title": "CVE-2022-31622",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-31623",
+      "source": "mariadb",
+      "title": "CVE-2022-31623",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-31624",
+      "source": "mariadb",
+      "title": "CVE-2022-31624",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-32081",
+      "source": "mariadb",
+      "title": "CVE-2022-32081",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-32082",
+      "source": "mariadb",
+      "title": "CVE-2022-32082",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-32083",
+      "source": "mariadb",
+      "title": "CVE-2022-32083",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-32084",
+      "source": "mariadb",
+      "title": "CVE-2022-32084",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-32085",
+      "source": "mariadb",
+      "title": "CVE-2022-32085",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-32086",
+      "source": "mariadb",
+      "title": "CVE-2022-32086",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-32087",
+      "source": "mariadb",
+      "title": "CVE-2022-32087",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-32088",
+      "source": "mariadb",
+      "title": "CVE-2022-32088",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-32089",
+      "source": "mariadb",
+      "title": "CVE-2022-32089",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-32091",
+      "source": "mariadb",
+      "title": "CVE-2022-32091",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-38791",
+      "source": "mariadb",
+      "title": "CVE-2022-38791",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2022-47015",
+      "source": "mariadb",
+      "title": "CVE-2022-47015",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-22084",
+      "source": "mariadb",
+      "title": "CVE-2023-22084",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-5157",
+      "source": "mariadb",
+      "title": "CVE-2023-5157",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-52968",
+      "source": "mariadb",
+      "title": "CVE-2023-52968",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-52969",
+      "source": "mariadb",
+      "title": "CVE-2023-52969",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-52970",
+      "source": "mariadb",
+      "title": "CVE-2023-52970",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2023-52971",
+      "source": "mariadb",
+      "title": "CVE-2023-52971",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2024-21096",
+      "source": "mariadb",
+      "title": "CVE-2024-21096",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-13699",
+      "source": "mariadb",
+      "title": "CVE-2025-13699",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-21490",
+      "source": "mariadb",
+      "title": "CVE-2025-21490",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-30693",
+      "source": "mariadb",
+      "title": "CVE-2025-30693",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2025-30722",
+      "source": "mariadb",
+      "title": "CVE-2025-30722",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-21968",
+      "source": "mariadb",
+      "title": "CVE-2026-21968",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-32710",
+      "source": "mariadb",
+      "title": "CVE-2026-32710",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-34303",
+      "source": "mariadb",
+      "title": "CVE-2026-34303",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-3494",
+      "source": "mariadb",
+      "title": "CVE-2026-3494",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-35549",
+      "source": "mariadb",
+      "title": "CVE-2026-35549",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-44168",
+      "source": "mariadb",
+      "title": "CVE-2026-44168",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-44169",
+      "source": "mariadb",
+      "title": "CVE-2026-44169",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-44170",
+      "source": "mariadb",
+      "title": "CVE-2026-44170",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-44171",
+      "source": "mariadb",
+      "title": "CVE-2026-44171",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-44172",
+      "source": "mariadb",
+      "title": "CVE-2026-44172",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-44173",
+      "source": "mariadb",
+      "title": "CVE-2026-44173",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-47023",
+      "source": "mariadb",
+      "title": "CVE-2026-47023",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-47064",
+      "source": "mariadb",
+      "title": "CVE-2026-47064",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48163",
+      "source": "mariadb",
+      "title": "CVE-2026-48163",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-48165",
+      "source": "mariadb",
+      "title": "CVE-2026-48165",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-49261",
+      "source": "mariadb",
+      "title": "CVE-2026-49261",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-60184",
+      "source": "mariadb",
+      "title": "CVE-2026-60184",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-60331",
+      "source": "mariadb",
+      "title": "CVE-2026-60331",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-60585",
+      "source": "mariadb",
+      "title": "CVE-2026-60585",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-60747",
+      "source": "mariadb",
+      "title": "CVE-2026-60747",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-61081",
+      "source": "mariadb",
+      "title": "CVE-2026-61081",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://mariadb.com/docs/server/security/cve/community-server",
+  "vendor": "mariadb",
+  "references": [
+    "https://mariadb.com/docs/server/security/cve/community-server",
+    "https://mariadb.com/kb/en/cve-2026-61081/",
+    "https://mariadb.com/kb/en/cve-2026-60747/",
+    "https://mariadb.com/kb/en/cve-2026-60585/",
+    "https://mariadb.com/kb/en/cve-2026-60331/",
+    "https://mariadb.com/kb/en/cve-2026-60184/",
+    "https://mariadb.com/kb/en/cve-2026-49261/",
+    "https://mariadb.com/kb/en/cve-2026-48165/",
+    "https://mariadb.com/kb/en/cve-2026-48163/",
+    "https://mariadb.com/kb/en/cve-2026-47064/",
+    "https://mariadb.com/kb/en/cve-2026-47023/",
+    "https://mariadb.com/kb/en/cve-2026-44173/",
+    "https://mariadb.com/kb/en/cve-2026-44172/",
+    "https://mariadb.com/kb/en/cve-2026-44171/",
+    "https://mariadb.com/kb/en/cve-2026-44170/",
+    "https://mariadb.com/kb/en/cve-2026-44169/",
+    "https://mariadb.com/kb/en/cve-2026-44168/",
+    "https://mariadb.com/kb/en/cve-2026-35549/",
+    "https://mariadb.com/kb/en/cve-2026-3494/",
+    "https://mariadb.com/kb/en/cve-2026-34303/",
+    "https://mariadb.com/kb/en/cve-2026-32710/",
+    "https://mariadb.com/kb/en/cve-2026-21968/",
+    "https://mariadb.com/kb/en/cve-2025-30722/",
+    "https://mariadb.com/kb/en/cve-2025-30693/",
+    "https://mariadb.com/kb/en/cve-2025-21490/",
+    "https://mariadb.com/kb/en/cve-2025-13699/",
+    "https://mariadb.com/kb/en/cve-2024-21096/",
+    "https://mariadb.com/kb/en/cve-2023-52971/",
+    "https://mariadb.com/kb/en/cve-2023-52970/",
+    "https://mariadb.com/kb/en/cve-2023-52969/",
+    "https://mariadb.com/kb/en/cve-2023-52968/",
+    "https://mariadb.com/kb/en/cve-2023-5157/",
+    "https://mariadb.com/kb/en/cve-2023-22084/",
+    "https://mariadb.com/kb/en/cve-2022-47015/",
+    "https://mariadb.com/kb/en/cve-2022-38791/",
+    "https://mariadb.com/kb/en/cve-2022-32091/",
+    "https://mariadb.com/kb/en/cve-2022-32089/",
+    "https://mariadb.com/kb/en/cve-2022-32088/",
+    "https://mariadb.com/kb/en/cve-2022-32087/",
+    "https://mariadb.com/kb/en/cve-2022-32086/",
+    "https://mariadb.com/kb/en/cve-2022-32085/",
+    "https://mariadb.com/kb/en/cve-2022-32084/",
+    "https://mariadb.com/kb/en/cve-2022-32083/",
+    "https://mariadb.com/kb/en/cve-2022-32082/",
+    "https://mariadb.com/kb/en/cve-2022-32081/",
+    "https://mariadb.com/kb/en/cve-2022-31624/",
+    "https://mariadb.com/kb/en/cve-2022-31623/",
+    "https://mariadb.com/kb/en/cve-2022-31622/",
+    "https://mariadb.com/kb/en/cve-2022-31621/",
+    "https://mariadb.com/kb/en/cve-2022-27457/",
+    "https://mariadb.com/kb/en/cve-2022-27456/"
+  ]
+}

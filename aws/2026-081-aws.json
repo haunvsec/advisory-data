@@ -1,0 +1,64 @@
+{
+  "id": "2026-081-aws",
+  "source": "aws",
+  "title": "CVE-2026-18428 - OpenSearch SQL Plugin - Async Query Validation Bypass",
+  "description": "CVE-2026-18428 - OpenSearch SQL Plugin - Async Query Validation Bypass\nBulletin ID:\n2026-081-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n08/13/2026 10:30 PM PDT\nDescription:\nOpenSearch SQL plugin is a plugin that enables SQL and PPL query capabilities on OpenSearch clusters, including direct query integration with external data sources via Apache Spark. An issue exists where the Flint extension query handler validates SQL queries without sufficient restrictions, allowing a user with async query access to bypass the SQL grammar deny list via the direct query endpoint.\nAffected Products & Versions:\nOpenSearch SQL Plugin (open-source, self-managed):\nAffected:\nv2.13 to v3.6\nFixed:\nversions\n3.7\nand\n2.19.6\nAmazon OpenSearch Service (AWS Managed):\nAffected:\nv2.13 to v3.5\nFixed:\nv2.13 to v3.5 (via service software update)\nResolution:\nFor OpenSearch (open-source), this issue has been addressed in OpenSearch SQL plugin versions\n3.7\nand\n2.19.6\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nFor Amazon OpenSearch Service (managed), this issue has been addressed in all affected versions from 2.13 to 3.5. We recommend that customers update their domains to the latest service software version as soon as possible. No engine version upgrade is required. You can apply the update from the console by selecting your domain, choosing Actions, Service Software Version, then clicking Update. Domains with automatic software updates enabled receive this update during their next off-peak window with no action required. For full details, see\nService software updates in Amazon OpenSearch Service\n.\nWorkarounds:\nUsers who do not use the direct query feature (external data sources with Spark integration) are not affected. Users who have direct query configured should restrict async query access to trusted users only until the patch is applied.\nReferences:\nCVE-2026-18428\nGHSA-g4jr-343c-fvjm\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-13",
+  "modified_date": "",
+  "affected": [
+    "aws:OpenSearch SQL plugin is a plugin that enables SQL and PPL query capabilities on OpenSearch clusters, including direct query integration with external data sources via Apache Spark. An issue exists where the Flint extension query handler validates SQL queries without sufficient restrictions, allowing a user with async query access to bypass the SQL grammar deny list via the direct query endpoint."
+  ],
+  "affected_products": [
+    {
+      "vendor": "apache",
+      "product": "Apache Spark",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:apache:spark:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-18428"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "3.7"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-18428",
+      "source": "aws",
+      "title": "CVE-2026-18428",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-13",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-081-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-081-aws/"
+  ]
+}

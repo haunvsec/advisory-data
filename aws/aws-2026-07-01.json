@@ -2,7 +2,7 @@
   "id": "aws-2026-07-01",
   "source": "aws",
   "title": "Aws Security Advisories - 2026-07-01",
-  "description": "Merged 2 aws security advisories published on 2026-07-01. Original advisory IDs: 2026-049-aws, 2026-050-aws\n\nTitles:\n- CVE-2026-13769 – Insecure file permissions in AWS CLI\n- CVE-2026-13760 - OS Command Injection in NodejsFunction Docker Bundling in aws-cdk-lib",
+  "description": "Merged 3 aws security advisories published on 2026-07-01. Original advisory IDs: 2026-049-aws, 2026-050-aws, 2026-051-aws\n\nTitles:\n- CVE-2026-13769 – Insecure file permissions in AWS CLI\n- CVE-2026-13760 - OS Command Injection in NodejsFunction Docker Bundling in aws-cdk-lib\n- CVE-2026-14265- Deserialization of Untrusted Data in AWS Advanced JDBC Wrapper RemoteQueryCachePlugin",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -14,7 +14,8 @@
   "modified_date": "2026-07-01",
   "affected": [
     "aws:The AWS Command Line Interface (AWS CLI) is a unified tool for managing AWS services from the command line. We identified",
-    "aws:AWS CDK (aws-cdk-lib) is an open-source framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. We identified"
+    "aws:AWS CDK (aws-cdk-lib) is an open-source framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. We identified",
+    "aws:The AWS Advanced JDBC Wrapper is an open-source JDBC driver wrapper that extends a JDBC driver to enable Amazon Aurora and AWS Cloud features such as failover handling and caching. We identified"
   ],
   "affected_products": [
     {
@@ -34,6 +35,9 @@
         },
         {
           "id": "CVE-2026-13760"
+        },
+        {
+          "id": "CVE-2026-14265"
         }
       ]
     }
@@ -67,6 +71,19 @@
       "modified_date": "",
       "affected": [],
       "references": []
+    },
+    {
+      "id": "CVE-2026-14265",
+      "source": "aws",
+      "title": "CVE-2026-14265",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-01",
+      "modified_date": "",
+      "affected": [],
+      "references": []
     }
   ],
   "exploits": [],
@@ -75,6 +92,7 @@
   "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-049-aws/",
-    "https://aws.amazon.com/security/security-bulletins/rss/2026-050-aws/"
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-050-aws/",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-051-aws/"
   ]
 }
