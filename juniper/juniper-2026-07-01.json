@@ -2,8 +2,8 @@
   "id": "juniper-2026-07-01",
   "source": "juniper",
   "title": "Juniper Security Advisories - 2026-07-01",
-  "description": "Merged 2 juniper security advisories published on 2026-07-01. Original advisory IDs: JSA110085, JSA110084\n\nTitles:\n- JSA110085 : 2026-07 Security Bulletin: Junos OS and Junos OS Evolved: EX Series, QFX Series, MX Series: A specific 'show l2-learning/ethernet-switching' command causes l2ald crash (CVE-2026-57025)\n- JSA110084 : 2026-07 Security Bulletin: Junos OS: MX with SPC3, SRX Series: Repeated VPN negotiation failures will eventually cause iked to crash continuously (CVE-2026-57024)",
-  "severity": null,
+  "description": "Merged 2 juniper security advisories published on 2026-07-01. Original advisory IDs: juniper-2026-07-01, JSA110086\n\nTitles:\n- Juniper Security Advisories - 2026-07-01\n- JSA110086 : 2026-07 Security Bulletin: Junos OS: MX Series with SPC3, SRX Series: Processing of a specifically malformed SIP invite causes a flowd crash (CVE-2026-57026)",
+  "severity": "low",
   "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
@@ -34,6 +34,9 @@
         },
         {
           "id": "CVE-2026-57024"
+        },
+        {
+          "id": "CVE-2026-57026"
         }
       ]
     }
@@ -67,6 +70,19 @@
       "modified_date": "",
       "affected": [],
       "references": []
+    },
+    {
+      "id": "CVE-2026-57026",
+      "source": "juniper",
+      "title": "JSA110086 : 2026-07 Security Bulletin: Junos OS: MX Series with SPC3, SRX Series: Processing of a specifically malformed SIP invite causes a flowd crash (CVE-2026-57026)",
+      "description": "",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-07-01",
+      "modified_date": "",
+      "affected": [],
+      "references": []
     }
   ],
   "exploits": [],
@@ -75,6 +91,7 @@
   "vendor": "juniper",
   "references": [
     "https://supportportal.juniper.net/s/article/2026-07-Security-Bulletin-Junos-OS-and-Junos-OS-Evolved-EX-Series-QFX-Series-MX-Series-A-specific-show-l2-learning-command-causes-l2ald-crash-CVE-2026-57025",
-    "https://supportportal.juniper.net/s/article/2026-07-Security-Bulletin-Junos-OS-MX-with-SPC3-SRX-Series-Repeated-VPN-negotiation-failures-will-eventually-cause-iked-to-crash-continuously-CVE-2026-57024"
+    "https://supportportal.juniper.net/s/article/2026-07-Security-Bulletin-Junos-OS-MX-with-SPC3-SRX-Series-Repeated-VPN-negotiation-failures-will-eventually-cause-iked-to-crash-continuously-CVE-2026-57024",
+    "https://supportportal.juniper.net/s/article/2026-07-Security-Bulletin-Junos-OS-MX-Series-with-SPC3-SRX-Series-Processing-of-a-specifically-malformed-SIP-invite-causes-a-flowd-crash-CVE-2026-57026"
   ]
 }
