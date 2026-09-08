@@ -2,7 +2,7 @@
   "id": "cisco-2026-08-19",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-08-19",
-  "description": "Merged 8 cisco security advisories published on 2026-08-19. Original advisory IDs: cisco-sa-hardening-crosswork-UzDTU9Vh, cisco-sa-hardening-csw1-shSvndWP, cisco-sa-ie1k-NgXUFF52, cisco-sa-ucce-pcce-ssrf-TghHxD, cisco-sa-cuic-sql-inject-2qbfWSm5, cisco-sa-ie1k-uxq86Lnx, cisco-sa-roomos-bof-vTMANZgu, cisco-sa-bworks-xxe-uwUd7CEt\n\nTitles:\n- Cisco Crosswork Security Hardening Release: August 2026\n- Cisco Secure Workload Software Security Hardening Release: August 2026\n- Cisco Industrial Ethernet 1000 Series Switches Stored Cross-Site Scripting Vulnerability\n- Cisco Packaged Contact Center Enterprise and Cisco Unified Contact Center Enterprise Server-Side Request Forgery Vulnerability\n- Cisco Unified Intelligence Center SQL Injection Vulnerability\n- Cisco Industrial Ethernet 1000 Series Switches Denial of Service Vulnerability\n- Cisco RoomOS Stack Overflow Vulnerability\n- Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
+  "description": "Merged 8 cisco security advisories published on 2026-08-19. Original advisory IDs: cisco-sa-hardening-crosswork-UzDTU9Vh, cisco-sa-ie1k-NgXUFF52, cisco-sa-hardening-csw1-shSvndWP, cisco-sa-ucce-pcce-ssrf-TghHxD, cisco-sa-cuic-sql-inject-2qbfWSm5, cisco-sa-ie1k-uxq86Lnx, cisco-sa-roomos-bof-vTMANZgu, cisco-sa-bworks-xxe-uwUd7CEt\n\nTitles:\n- Cisco Crosswork Security Hardening Release: August 2026\n- Cisco Industrial Ethernet 1000 Series Switches Stored Cross-Site Scripting Vulnerability\n- Cisco Secure Workload Software Security Hardening Release: August 2026\n- Cisco Packaged Contact Center Enterprise and Cisco Unified Contact Center Enterprise Server-Side Request Forgery Vulnerability\n- Cisco Unified Intelligence Center SQL Injection Vulnerability\n- Cisco Industrial Ethernet 1000 Series Switches Denial of Service Vulnerability\n- Cisco RoomOS Stack Overflow Vulnerability\n- Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
   "severity": "critical",
   "cvss_scores": [
     {
@@ -25,6 +25,12 @@
     },
     {
       "version": "3.1",
+      "score": 5.4,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "severity": ""
+    },
+    {
+      "version": "3.1",
       "score": 9.6,
       "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:H",
       "severity": ""
@@ -33,12 +39,6 @@
       "version": "3.1",
       "score": 7.5,
       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "severity": ""
-    },
-    {
-      "version": "3.1",
-      "score": 5.4,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
       "severity": ""
     },
     {
@@ -81,8 +81,8 @@
   "modified_date": "2026-08-21",
   "affected": [
     "cisco:cisco-sa-hardening-crosswork-UzDTU9Vh",
-    "cisco:cisco-sa-hardening-csw1-shSvndWP",
     "cisco:cisco-sa-ie1k-NgXUFF52",
+    "cisco:cisco-sa-hardening-csw1-shSvndWP",
     "cisco:cisco-sa-ucce-pcce-ssrf-TghHxD",
     "cisco:cisco-sa-cuic-sql-inject-2qbfWSm5",
     "cisco:cisco-sa-ie1k-uxq86Lnx",
@@ -118,6 +118,26 @@
     },
     {
       "vendor": "cisco",
+      "product": "CVRFPID-286528",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:cisco:cvrfpid-286528:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20232"
+        },
+        {
+          "id": "CVE-2026-20177"
+        }
+      ]
+    },
+    {
+      "vendor": "cisco",
       "product": "CVRFPID-284493",
       "version_range": "",
       "fixed_version": "",
@@ -142,26 +162,6 @@
         },
         {
           "id": "CVE-2026-20319"
-        }
-      ]
-    },
-    {
-      "vendor": "cisco",
-      "product": "CVRFPID-286528",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:cvrfpid-286528:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-20232"
-        },
-        {
-          "id": "CVE-2026-20177"
         }
       ]
     },
@@ -487,8 +487,8 @@
   "vendor": "cisco",
   "references": [
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-csw1-shSvndWP",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ie1k-NgXUFF52",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-csw1-shSvndWP",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucce-pcce-ssrf-TghHxD",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ie1k-uxq86Lnx",
