@@ -1,0 +1,62 @@
+{
+  "id": "2026-089-aws",
+  "source": "aws",
+  "title": "CVE-2026-78379 - Consent bypass in Strands Agents Tools python_repl tool",
+  "description": "CVE-2026-78379 - Consent bypass in Strands Agents Tools python_repl tool\nBulletin ID:\n2026-089-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n08/25/2026 12:00 PM PDT\nDescription:\nStrands Agents is an open-source Python SDK for building and running AI agents. The strands-agents-tools package provides pre-built tools for use with the SDK, including the python_repl tool, which executes Python code on the agent's host, and the batch tool, which invokes several other tools in a single call. Before executing code, python_repl prompts the operator for approval. We identified\nCVE-2026-78379\n, a consent bypass in the python_repl tool. Improper neutralization of input used for LLM prompting in the python_repl tool in Amazon Strands Agents Tools before 0.8.5 might allow remote actors to execute arbitrary Python code on the agent's host by bypassing the human consent gate, via a crafted prompt that forwards non_interactive_mode as a keyword argument through the batch tool.\nImpacted versions:\n< 0.8.5\nResolution:\nThis issue has been addressed in\nstrands-agents-tools version 0.8.5\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes. In version 0.8.5, python_repl reads non_interactive_mode only from the STRANDS_NON_INTERACTIVE environment variable, so the flag is set by the operator and can no longer be supplied by a caller.\nWorkarounds:\nUntil you can upgrade, remove either batch or python_repl from the tool list you pass to the agent, since the bypass requires both to be registered on the same agent. Do not make python_repl available to an agent that processes untrusted content, and run any agent that uses python_repl in an isolated, least-privilege environment so that executed code is contained.\nReferences:\nCVE-2026-78379\nGHSA-qc8m-4887-8wwh\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-25",
+  "modified_date": "",
+  "affected": [
+    "aws:Strands Agents is an open-source Python SDK for building and running AI agents. The strands-agents-tools package provides pre-built tools for use with the SDK, including the python_repl tool, which executes Python code on the agent's host, and the batch tool, which invokes several other tools in a single call. Before executing code, python_repl prompts the operator for approval. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-78379"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-78379",
+      "source": "aws",
+      "title": "CVE-2026-78379",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-25",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-089-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-089-aws/"
+  ]
+}

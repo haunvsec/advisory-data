@@ -1,0 +1,146 @@
+{
+  "id": "redhat-2026-08-27",
+  "source": "redhat",
+  "title": "Redhat Security Advisories - 2026-08-27",
+  "description": "Merged 7 redhat security advisories published on 2026-08-27. Original advisory IDs: RHSA-2026:60486, RHSA-2026:60484, RHSA-2026:60485, RHSA-2026:60394, RHSA-2026:60437, RHSA-2026:60438, RHSA-2026:60428\n\nTitles:\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: libxml2 security update\n- Red Hat Security Advisory: kernel-rt security update\n- Red Hat Security Advisory: iscsi-initiator-utils security, bug fix, and enhancement update",
+  "severity": "important",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-416",
+    "CWE-120",
+    "CWE-22",
+    "CWE-1220"
+  ],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-27",
+  "modified_date": "2026-09-04",
+  "affected": [
+    "redhat:Red Hat Enterprise Linux",
+    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux Real Time EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV EUS (v.9.6)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.4)",
+    "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.6)",
+    "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)",
+    "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 10)",
+    "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)",
+    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Real Time E4S (v.9.2)",
+    "redhat:Red Hat Enterprise Linux Real Time for NFV E4S (v.9.2)"
+  ],
+  "affected_products": [
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-74581"
+        },
+        {
+          "id": "CVE-2026-11979"
+        },
+        {
+          "id": "CVE-2026-44943"
+        },
+        {
+          "id": "CVE-2026-44944"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-11979",
+      "source": "redhat",
+      "title": "libxml2: libxml2: Arbitrary code execution in xmlcatalog utility via buffer overflow",
+      "description": "",
+      "severity": null,
+      "cvss_score": 4.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L",
+      "published_date": "2026-08-27",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-11979"
+      ]
+    },
+    {
+      "id": "CVE-2026-44943",
+      "source": "redhat",
+      "title": "open-iscsi: open-iscsi: Privilege Escalation via Path Traversal",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+      "published_date": "2026-08-27",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-44943"
+      ]
+    },
+    {
+      "id": "CVE-2026-44944",
+      "source": "redhat",
+      "title": "open-iscsi: open-iscsi: Authentication bypass in iscsiuio control socket",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-27",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-44944"
+      ]
+    },
+    {
+      "id": "CVE-2026-74581",
+      "source": "redhat",
+      "title": "kernel: net: ipv6: use-after-free in fib6_rule_suppress due to stale res->rt6 pointer",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-08-27",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-74581"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://access.redhat.com/errata/RHSA-2026:60486",
+  "vendor": "redhat",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:60486",
+    "https://access.redhat.com/errata/RHSA-2026:60484",
+    "https://access.redhat.com/errata/RHSA-2026:60485",
+    "https://access.redhat.com/errata/RHSA-2026:60394",
+    "https://access.redhat.com/errata/RHSA-2026:60437",
+    "https://access.redhat.com/errata/RHSA-2026:60438",
+    "https://access.redhat.com/errata/RHSA-2026:60428"
+  ]
+}

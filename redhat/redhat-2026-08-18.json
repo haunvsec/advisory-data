@@ -9,6 +9,7 @@
   "cvss_vector": null,
   "cwe_ids": [
     "CWE-787",
+    "CWE-295",
     "CWE-1289",
     "CWE-427",
     "CWE-843",
@@ -34,7 +35,7 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-08-18",
-  "modified_date": "2026-08-25",
+  "modified_date": "2026-09-07",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
@@ -64,6 +65,12 @@
       "cves": [
         {
           "id": "CVE-2026-19387"
+        },
+        {
+          "id": "CVE-2026-27137"
+        },
+        {
+          "id": "CVE-2026-33810"
         },
         {
           "id": "CVE-2026-39821"
@@ -262,6 +269,36 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-19387"
+      ]
+    },
+    {
+      "id": "CVE-2026-27137",
+      "source": "redhat",
+      "title": "crypto/x509: Incorrect enforcement of email constraints in crypto/x509",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-08-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-27137"
+      ]
+    },
+    {
+      "id": "CVE-2026-33810",
+      "source": "redhat",
+      "title": "crypto/x509: golang: Go crypto/x509: Certificate validation bypass due to incorrect DNS constraint application",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:L",
+      "published_date": "2026-08-18",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-33810"
       ]
     },
     {

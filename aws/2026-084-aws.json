@@ -1,0 +1,62 @@
+{
+  "id": "2026-084-aws",
+  "source": "aws",
+  "title": "CVE-2026-75910 - Issue with Athena Federated Query Clickhouse Connector",
+  "description": "CVE-2026-75910 - Issue with Athena Federated Query Clickhouse Connector\nBulletin ID:\n2026-084-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n08/20/2026 13:00 PM PDT\nDescription:\nAmazon Athena is a serverless, interactive query service that lets you analyze data directly in Amazon S3 using standard SQL. Athena Query Federation is a feature that allows you to connect to data sources outside of Amazon S3 like DynamoDB, Azure Synapse, and custom connectors using standard SQL syntax. These connectors are open source and deployed to the Athena service on a regular basis. We identified\nCVE-2026-75910\n. Incorrect privilege assignment in the ClickHouse connector deployment template before the v2026.17.1 release could allow an authenticated remote user to read arbitrary AWS Secrets Manager secrets in the deploying account by pointing the connector's connection string at an unrelated secret and at a database endpoint under the user's control, causing the connector to transmit the secret to that endpoint.\nImpacted versions:\n< V2026.17.1\nResolution:\nThis issue has been addressed in\naws-athena-query-federation version V2026.17.1\n. We recommend upgrading to the latest version and ensuring that any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nTo work around the issue, users should redeploy the connector with the current template and supply a non-empty SecretNamePrefix value.\nReferences:\naws-athena-query-federation\nCVE-2026-75910\nGHSA-vmjg-c6wv-wjm9\nAcknowledgement:\nWe would like to thank Changli from Xidian University for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-20",
+  "modified_date": "",
+  "affected": [
+    "aws:Amazon Athena is a serverless, interactive query service that lets you analyze data directly in Amazon S3 using standard SQL. Athena Query Federation is a feature that allows you to connect to data sources outside of Amazon S3 like DynamoDB, Azure Synapse, and custom connectors using standard SQL syntax. These connectors are open source and deployed to the Athena service on a regular basis. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-75910"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-75910",
+      "source": "aws",
+      "title": "CVE-2026-75910",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-20",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-084-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-084-aws/"
+  ]
+}

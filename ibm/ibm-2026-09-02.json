@@ -1,0 +1,3322 @@
+{
+  "id": "ibm-2026-09-02",
+  "source": "ibm",
+  "title": "Ibm Security Advisories - 2026-09-02",
+  "description": "Merged 8 ibm security advisories published on 2026-09-02. Original advisory IDs: IBM-7286027, IBM-7286032, IBM-7286070, IBM-7286089, IBM-7286060, IBM-7286058, IBM-7286059, IBM-7286188\n\nTitles:\n- Multiple vulnerabilities in IBM WebSphere Liberty impact IBM License Key Server Administration and Reporting Tool and IBM LKS Administration Agent\n- Due to use of bootstrap, IBM License Key Server Administration and Reporting Tool is affected by Cross-site scripting\n- IBM Instana Observability is affected by multiple vulnerabilities within Instana Agent container image\n- Vulnerabilities exists in NPS of IBM Netezza Appliance\n- SOAR App Host  is vulnerable to using components with known vulnerabilities (CVE-2026-41254, CVE-2026-47057)\n- IBM Security SOAR is vulnerable to using components with known vulnerabilities (CVE-2026-41254, CVE-2026-47057)\n- IBM Security SOAR is vulnerable to using components with known vulnerabilities (CVE-2026-69247, CVE-2026-69248, CVE-2026-69249)\n- Security vulnerabilities have been addressed in IBM Verify Identity Access and IBM Security Verify Access",
+  "severity": "critical",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-09-02",
+  "modified_date": "2026-09-02",
+  "affected": [
+    "ibm:IBM Common Licensing",
+    "ibm:IBM Instana Observability",
+    "ibm:IBM Netezza Appliance",
+    "ibm:IBM Security SOAR",
+    "ibm:IBM Security Verify Access",
+    "ibm:IBM Verify Identity Access"
+  ],
+  "affected_products": [
+    {
+      "vendor": "ibm",
+      "product": "IBM Common Licensing",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_common_licensing:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-10842"
+        },
+        {
+          "id": "CVE-2026-11541"
+        },
+        {
+          "id": "CVE-2026-11806"
+        },
+        {
+          "id": "CVE-2026-11897"
+        },
+        {
+          "id": "CVE-2026-14981"
+        },
+        {
+          "id": "CVE-2026-15057"
+        },
+        {
+          "id": "CVE-2026-15064"
+        },
+        {
+          "id": "CVE-2026-15325"
+        },
+        {
+          "id": "CVE-2026-15328"
+        },
+        {
+          "id": "CVE-2026-16192"
+        },
+        {
+          "id": "CVE-2026-50645"
+        },
+        {
+          "id": "CVE-2026-54225"
+        },
+        {
+          "id": "CVE-2026-5516"
+        },
+        {
+          "id": "CVE-2026-57819"
+        },
+        {
+          "id": "CVE-2026-64958"
+        },
+        {
+          "id": "CVE-2026-8646"
+        },
+        {
+          "id": "CVE-2026-9071"
+        },
+        {
+          "id": "CVE-2026-9171"
+        },
+        {
+          "id": "CVE-2026-9320"
+        },
+        {
+          "id": "CVE-2026-9322"
+        },
+        {
+          "id": "CVE-2024-6485"
+        },
+        {
+          "id": "CVE-2025-1647"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Instana Observability",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_instana_observability:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-44487"
+        },
+        {
+          "id": "CVE-2026-11352"
+        },
+        {
+          "id": "CVE-2026-11586"
+        },
+        {
+          "id": "CVE-2026-12064"
+        },
+        {
+          "id": "CVE-2026-15308"
+        },
+        {
+          "id": "CVE-2026-19274"
+        },
+        {
+          "id": "CVE-2026-19283"
+        },
+        {
+          "id": "CVE-2026-41838"
+        },
+        {
+          "id": "CVE-2026-41841"
+        },
+        {
+          "id": "CVE-2026-41842"
+        },
+        {
+          "id": "CVE-2026-41843"
+        },
+        {
+          "id": "CVE-2026-41844"
+        },
+        {
+          "id": "CVE-2026-41848"
+        },
+        {
+          "id": "CVE-2026-41851"
+        },
+        {
+          "id": "CVE-2026-44249"
+        },
+        {
+          "id": "CVE-2026-44892"
+        },
+        {
+          "id": "CVE-2026-44894"
+        },
+        {
+          "id": "CVE-2026-45416"
+        },
+        {
+          "id": "CVE-2026-47244"
+        },
+        {
+          "id": "CVE-2026-48043"
+        },
+        {
+          "id": "CVE-2026-8286"
+        },
+        {
+          "id": "CVE-2026-8925"
+        },
+        {
+          "id": "CVE-2026-9547"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Netezza Appliance",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_netezza_appliance:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2025-11226"
+        },
+        {
+          "id": "CVE-2026-10050"
+        },
+        {
+          "id": "CVE-2026-10051"
+        },
+        {
+          "id": "CVE-2026-10723"
+        },
+        {
+          "id": "CVE-2026-11331"
+        },
+        {
+          "id": "CVE-2026-11622"
+        },
+        {
+          "id": "CVE-2026-11721"
+        },
+        {
+          "id": "CVE-2026-12185"
+        },
+        {
+          "id": "CVE-2026-12617"
+        },
+        {
+          "id": "CVE-2026-12803"
+        },
+        {
+          "id": "CVE-2026-12816"
+        },
+        {
+          "id": "CVE-2026-12860"
+        },
+        {
+          "id": "CVE-2026-13006"
+        },
+        {
+          "id": "CVE-2026-13204"
+        },
+        {
+          "id": "CVE-2026-13321"
+        },
+        {
+          "id": "CVE-2026-13506"
+        },
+        {
+          "id": "CVE-2026-13586"
+        },
+        {
+          "id": "CVE-2026-14682"
+        },
+        {
+          "id": "CVE-2026-15055"
+        },
+        {
+          "id": "CVE-2026-15816"
+        },
+        {
+          "id": "CVE-2026-16524"
+        },
+        {
+          "id": "CVE-2026-16526"
+        },
+        {
+          "id": "CVE-2026-16527"
+        },
+        {
+          "id": "CVE-2026-16529"
+        },
+        {
+          "id": "CVE-2026-19880"
+        },
+        {
+          "id": "CVE-2026-39892"
+        },
+        {
+          "id": "CVE-2026-41417"
+        },
+        {
+          "id": "CVE-2026-41603"
+        },
+        {
+          "id": "CVE-2026-41608"
+        },
+        {
+          "id": "CVE-2026-43871"
+        },
+        {
+          "id": "CVE-2026-44891"
+        },
+        {
+          "id": "CVE-2026-45112"
+        },
+        {
+          "id": "CVE-2026-48144"
+        },
+        {
+          "id": "CVE-2026-48145"
+        },
+        {
+          "id": "CVE-2026-48586"
+        },
+        {
+          "id": "CVE-2026-49158"
+        },
+        {
+          "id": "CVE-2026-5450"
+        },
+        {
+          "id": "CVE-2026-55831"
+        },
+        {
+          "id": "CVE-2026-55833"
+        },
+        {
+          "id": "CVE-2026-55851"
+        },
+        {
+          "id": "CVE-2026-55968"
+        },
+        {
+          "id": "CVE-2026-55969"
+        },
+        {
+          "id": "CVE-2026-55970"
+        },
+        {
+          "id": "CVE-2026-55971"
+        },
+        {
+          "id": "CVE-2026-56745"
+        },
+        {
+          "id": "CVE-2026-56746"
+        },
+        {
+          "id": "CVE-2026-56817"
+        },
+        {
+          "id": "CVE-2026-56818"
+        },
+        {
+          "id": "CVE-2026-56819"
+        },
+        {
+          "id": "CVE-2026-56820"
+        },
+        {
+          "id": "CVE-2026-56821"
+        },
+        {
+          "id": "CVE-2026-56822"
+        },
+        {
+          "id": "CVE-2026-58023"
+        },
+        {
+          "id": "CVE-2026-58059"
+        },
+        {
+          "id": "CVE-2026-58060"
+        },
+        {
+          "id": "CVE-2026-58061"
+        },
+        {
+          "id": "CVE-2026-58062"
+        },
+        {
+          "id": "CVE-2026-58063"
+        },
+        {
+          "id": "CVE-2026-58216"
+        },
+        {
+          "id": "CVE-2026-58218"
+        },
+        {
+          "id": "CVE-2026-58389"
+        },
+        {
+          "id": "CVE-2026-58662"
+        },
+        {
+          "id": "CVE-2026-59647"
+        },
+        {
+          "id": "CVE-2026-59648"
+        },
+        {
+          "id": "CVE-2026-59650"
+        },
+        {
+          "id": "CVE-2026-59651"
+        },
+        {
+          "id": "CVE-2026-59652"
+        },
+        {
+          "id": "CVE-2026-59888"
+        },
+        {
+          "id": "CVE-2026-59898"
+        },
+        {
+          "id": "CVE-2026-59899"
+        },
+        {
+          "id": "CVE-2026-59900"
+        },
+        {
+          "id": "CVE-2026-59901"
+        },
+        {
+          "id": "CVE-2026-59919"
+        },
+        {
+          "id": "CVE-2026-59920"
+        },
+        {
+          "id": "CVE-2026-59921"
+        },
+        {
+          "id": "CVE-2026-60075"
+        },
+        {
+          "id": "CVE-2026-64607"
+        },
+        {
+          "id": "CVE-2026-66053"
+        },
+        {
+          "id": "CVE-2026-6790"
+        },
+        {
+          "id": "CVE-2026-69247"
+        },
+        {
+          "id": "CVE-2026-72693"
+        },
+        {
+          "id": "CVE-2026-8763"
+        },
+        {
+          "id": "CVE-2026-9538"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Security SOAR",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_security_soar:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-16243"
+        },
+        {
+          "id": "CVE-2026-16439"
+        },
+        {
+          "id": "CVE-2026-16441"
+        },
+        {
+          "id": "CVE-2026-41254"
+        },
+        {
+          "id": "CVE-2026-46968"
+        },
+        {
+          "id": "CVE-2026-47010"
+        },
+        {
+          "id": "CVE-2026-47021"
+        },
+        {
+          "id": "CVE-2026-47027"
+        },
+        {
+          "id": "CVE-2026-47057"
+        },
+        {
+          "id": "CVE-2026-47058"
+        },
+        {
+          "id": "CVE-2026-47059"
+        },
+        {
+          "id": "CVE-2026-47063"
+        },
+        {
+          "id": "CVE-2026-60147"
+        },
+        {
+          "id": "CVE-2026-8400"
+        },
+        {
+          "id": "CVE-2026-69247"
+        },
+        {
+          "id": "CVE-2026-69248"
+        },
+        {
+          "id": "CVE-2026-69249"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Security Verify Access",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_security_verify_access:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11921"
+        },
+        {
+          "id": "CVE-2026-11926"
+        },
+        {
+          "id": "CVE-2026-11927"
+        },
+        {
+          "id": "CVE-2026-11928"
+        },
+        {
+          "id": "CVE-2026-11929"
+        },
+        {
+          "id": "CVE-2026-11932"
+        },
+        {
+          "id": "CVE-2026-11934"
+        },
+        {
+          "id": "CVE-2026-12101"
+        },
+        {
+          "id": "CVE-2026-12358"
+        },
+        {
+          "id": "CVE-2026-13260"
+        },
+        {
+          "id": "CVE-2026-13272"
+        },
+        {
+          "id": "CVE-2026-13276"
+        },
+        {
+          "id": "CVE-2026-13277"
+        },
+        {
+          "id": "CVE-2026-13297"
+        },
+        {
+          "id": "CVE-2026-14981"
+        },
+        {
+          "id": "CVE-2026-15064"
+        },
+        {
+          "id": "CVE-2026-15325"
+        },
+        {
+          "id": "CVE-2026-15328"
+        },
+        {
+          "id": "CVE-2026-16243"
+        },
+        {
+          "id": "CVE-2026-16439"
+        },
+        {
+          "id": "CVE-2026-16441"
+        },
+        {
+          "id": "CVE-2026-41254"
+        },
+        {
+          "id": "CVE-2026-46968"
+        },
+        {
+          "id": "CVE-2026-47010"
+        },
+        {
+          "id": "CVE-2026-47021"
+        },
+        {
+          "id": "CVE-2026-47027"
+        },
+        {
+          "id": "CVE-2026-47057"
+        },
+        {
+          "id": "CVE-2026-47058"
+        },
+        {
+          "id": "CVE-2026-47059"
+        },
+        {
+          "id": "CVE-2026-47063"
+        },
+        {
+          "id": "CVE-2026-60147"
+        },
+        {
+          "id": "CVE-2026-8400"
+        }
+      ]
+    },
+    {
+      "vendor": "ibm",
+      "product": "IBM Verify Identity Access",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:ibm_verify_identity_access:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-11921"
+        },
+        {
+          "id": "CVE-2026-11926"
+        },
+        {
+          "id": "CVE-2026-11927"
+        },
+        {
+          "id": "CVE-2026-11928"
+        },
+        {
+          "id": "CVE-2026-11929"
+        },
+        {
+          "id": "CVE-2026-11932"
+        },
+        {
+          "id": "CVE-2026-11934"
+        },
+        {
+          "id": "CVE-2026-12101"
+        },
+        {
+          "id": "CVE-2026-12358"
+        },
+        {
+          "id": "CVE-2026-13260"
+        },
+        {
+          "id": "CVE-2026-13272"
+        },
+        {
+          "id": "CVE-2026-13276"
+        },
+        {
+          "id": "CVE-2026-13277"
+        },
+        {
+          "id": "CVE-2026-13297"
+        },
+        {
+          "id": "CVE-2026-14981"
+        },
+        {
+          "id": "CVE-2026-15064"
+        },
+        {
+          "id": "CVE-2026-15325"
+        },
+        {
+          "id": "CVE-2026-15328"
+        },
+        {
+          "id": "CVE-2026-16243"
+        },
+        {
+          "id": "CVE-2026-16439"
+        },
+        {
+          "id": "CVE-2026-16441"
+        },
+        {
+          "id": "CVE-2026-41254"
+        },
+        {
+          "id": "CVE-2026-46968"
+        },
+        {
+          "id": "CVE-2026-47010"
+        },
+        {
+          "id": "CVE-2026-47021"
+        },
+        {
+          "id": "CVE-2026-47027"
+        },
+        {
+          "id": "CVE-2026-47057"
+        },
+        {
+          "id": "CVE-2026-47058"
+        },
+        {
+          "id": "CVE-2026-47059"
+        },
+        {
+          "id": "CVE-2026-47063"
+        },
+        {
+          "id": "CVE-2026-60147"
+        },
+        {
+          "id": "CVE-2026-8400"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2023-44487",
+      "source": "ibm",
+      "title": "CVE-2023-44487",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2024-6485",
+      "source": "ibm",
+      "title": "CVE-2024-6485",
+      "description": "A security vulnerability has been discovered in bootstrap that could enable Cross-Site Scripting (XSS) attacks. The vulnerability is associated with the data-loading-text attribute within the button plugin. This vulnerability can be exploited by injecting malicious JavaScript code into the attribute, which would then be executed when the button's loading state is triggered",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2024-6485",
+        "https://www.ibm.com/support/pages/node/7286032"
+      ]
+    },
+    {
+      "id": "CVE-2025-11226",
+      "source": "ibm",
+      "title": "CVE-2025-11226",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2025-1647",
+      "source": "ibm",
+      "title": "CVE-2025-1647",
+      "description": "A security vulnerability has been discovered in bootstrap that could enable Cross-Site Scripting (XSS) attacks. The vulnerability is associated with the data-loading-text attribute within the button plugin. This vulnerability can be exploited by injecting malicious JavaScript code into the attribute, which would then be executed when the button's loading state is triggered",
+      "severity": "medium",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2024-6485",
+        "https://www.ibm.com/support/pages/node/7286032"
+      ]
+    },
+    {
+      "id": "CVE-2026-10050",
+      "source": "ibm",
+      "title": "CVE-2026-10050",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-10051",
+      "source": "ibm",
+      "title": "CVE-2026-10051",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-10723",
+      "source": "ibm",
+      "title": "CVE-2026-10723",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-10842",
+      "source": "ibm",
+      "title": "CVE-2026-10842",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-11331",
+      "source": "ibm",
+      "title": "CVE-2026-11331",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-11352",
+      "source": "ibm",
+      "title": "CVE-2026-11352",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-11541",
+      "source": "ibm",
+      "title": "CVE-2026-11541",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-11586",
+      "source": "ibm",
+      "title": "CVE-2026-11586",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-11622",
+      "source": "ibm",
+      "title": "CVE-2026-11622",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-11721",
+      "source": "ibm",
+      "title": "CVE-2026-11721",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-11806",
+      "source": "ibm",
+      "title": "CVE-2026-11806",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-11897",
+      "source": "ibm",
+      "title": "CVE-2026-11897",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-11921",
+      "source": "ibm",
+      "title": "CVE-2026-11921",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-11926",
+      "source": "ibm",
+      "title": "CVE-2026-11926",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-11927",
+      "source": "ibm",
+      "title": "CVE-2026-11927",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-11928",
+      "source": "ibm",
+      "title": "CVE-2026-11928",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-11929",
+      "source": "ibm",
+      "title": "CVE-2026-11929",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-11932",
+      "source": "ibm",
+      "title": "CVE-2026-11932",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-11934",
+      "source": "ibm",
+      "title": "CVE-2026-11934",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-12064",
+      "source": "ibm",
+      "title": "CVE-2026-12064",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-12101",
+      "source": "ibm",
+      "title": "CVE-2026-12101",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-12185",
+      "source": "ibm",
+      "title": "CVE-2026-12185",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-12358",
+      "source": "ibm",
+      "title": "CVE-2026-12358",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-12617",
+      "source": "ibm",
+      "title": "CVE-2026-12617",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-12803",
+      "source": "ibm",
+      "title": "CVE-2026-12803",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-12816",
+      "source": "ibm",
+      "title": "CVE-2026-12816",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-12860",
+      "source": "ibm",
+      "title": "CVE-2026-12860",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-13006",
+      "source": "ibm",
+      "title": "CVE-2026-13006",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-13204",
+      "source": "ibm",
+      "title": "CVE-2026-13204",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-13260",
+      "source": "ibm",
+      "title": "CVE-2026-13260",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-13272",
+      "source": "ibm",
+      "title": "CVE-2026-13272",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-13276",
+      "source": "ibm",
+      "title": "CVE-2026-13276",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-13277",
+      "source": "ibm",
+      "title": "CVE-2026-13277",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-13297",
+      "source": "ibm",
+      "title": "CVE-2026-13297",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-13321",
+      "source": "ibm",
+      "title": "CVE-2026-13321",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-13506",
+      "source": "ibm",
+      "title": "CVE-2026-13506",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-13586",
+      "source": "ibm",
+      "title": "CVE-2026-13586",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-14682",
+      "source": "ibm",
+      "title": "CVE-2026-14682",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-14981",
+      "source": "ibm",
+      "title": "CVE-2026-14981",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027",
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-15055",
+      "source": "ibm",
+      "title": "CVE-2026-15055",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-15057",
+      "source": "ibm",
+      "title": "CVE-2026-15057",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-15064",
+      "source": "ibm",
+      "title": "CVE-2026-15064",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027",
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-15308",
+      "source": "ibm",
+      "title": "CVE-2026-15308",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-15325",
+      "source": "ibm",
+      "title": "CVE-2026-15325",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027",
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-15328",
+      "source": "ibm",
+      "title": "CVE-2026-15328",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027",
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-15816",
+      "source": "ibm",
+      "title": "CVE-2026-15816",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-16192",
+      "source": "ibm",
+      "title": "CVE-2026-16192",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-16243",
+      "source": "ibm",
+      "title": "CVE-2026-16243",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-16439",
+      "source": "ibm",
+      "title": "CVE-2026-16439",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-16441",
+      "source": "ibm",
+      "title": "CVE-2026-16441",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-16524",
+      "source": "ibm",
+      "title": "CVE-2026-16524",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-16526",
+      "source": "ibm",
+      "title": "CVE-2026-16526",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-16527",
+      "source": "ibm",
+      "title": "CVE-2026-16527",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-16529",
+      "source": "ibm",
+      "title": "CVE-2026-16529",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-19274",
+      "source": "ibm",
+      "title": "CVE-2026-19274",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-19283",
+      "source": "ibm",
+      "title": "CVE-2026-19283",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-19880",
+      "source": "ibm",
+      "title": "CVE-2026-19880",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-39892",
+      "source": "ibm",
+      "title": "CVE-2026-39892",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-41254",
+      "source": "ibm",
+      "title": "CVE-2026-41254",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-41417",
+      "source": "ibm",
+      "title": "CVE-2026-41417",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-41603",
+      "source": "ibm",
+      "title": "CVE-2026-41603",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-41608",
+      "source": "ibm",
+      "title": "CVE-2026-41608",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-41838",
+      "source": "ibm",
+      "title": "CVE-2026-41838",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-41841",
+      "source": "ibm",
+      "title": "CVE-2026-41841",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-41842",
+      "source": "ibm",
+      "title": "CVE-2026-41842",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-41843",
+      "source": "ibm",
+      "title": "CVE-2026-41843",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-41844",
+      "source": "ibm",
+      "title": "CVE-2026-41844",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-41848",
+      "source": "ibm",
+      "title": "CVE-2026-41848",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-41851",
+      "source": "ibm",
+      "title": "CVE-2026-41851",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-43871",
+      "source": "ibm",
+      "title": "CVE-2026-43871",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-44249",
+      "source": "ibm",
+      "title": "CVE-2026-44249",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-44891",
+      "source": "ibm",
+      "title": "CVE-2026-44891",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-44892",
+      "source": "ibm",
+      "title": "CVE-2026-44892",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-44894",
+      "source": "ibm",
+      "title": "CVE-2026-44894",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-45112",
+      "source": "ibm",
+      "title": "CVE-2026-45112",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-45416",
+      "source": "ibm",
+      "title": "CVE-2026-45416",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-46968",
+      "source": "ibm",
+      "title": "CVE-2026-46968",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-47010",
+      "source": "ibm",
+      "title": "CVE-2026-47010",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-47021",
+      "source": "ibm",
+      "title": "CVE-2026-47021",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-47027",
+      "source": "ibm",
+      "title": "CVE-2026-47027",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-47057",
+      "source": "ibm",
+      "title": "CVE-2026-47057",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-47058",
+      "source": "ibm",
+      "title": "CVE-2026-47058",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-47059",
+      "source": "ibm",
+      "title": "CVE-2026-47059",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-47063",
+      "source": "ibm",
+      "title": "CVE-2026-47063",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-47244",
+      "source": "ibm",
+      "title": "CVE-2026-47244",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-48043",
+      "source": "ibm",
+      "title": "CVE-2026-48043",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-48144",
+      "source": "ibm",
+      "title": "CVE-2026-48144",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-48145",
+      "source": "ibm",
+      "title": "CVE-2026-48145",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-48586",
+      "source": "ibm",
+      "title": "CVE-2026-48586",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-49158",
+      "source": "ibm",
+      "title": "CVE-2026-49158",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-50645",
+      "source": "ibm",
+      "title": "CVE-2026-50645",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-54225",
+      "source": "ibm",
+      "title": "CVE-2026-54225",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-5450",
+      "source": "ibm",
+      "title": "CVE-2026-5450",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-5516",
+      "source": "ibm",
+      "title": "CVE-2026-5516",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-55831",
+      "source": "ibm",
+      "title": "CVE-2026-55831",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-55833",
+      "source": "ibm",
+      "title": "CVE-2026-55833",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-55851",
+      "source": "ibm",
+      "title": "CVE-2026-55851",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-55968",
+      "source": "ibm",
+      "title": "CVE-2026-55968",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-55969",
+      "source": "ibm",
+      "title": "CVE-2026-55969",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-55970",
+      "source": "ibm",
+      "title": "CVE-2026-55970",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-55971",
+      "source": "ibm",
+      "title": "CVE-2026-55971",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-56745",
+      "source": "ibm",
+      "title": "CVE-2026-56745",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-56746",
+      "source": "ibm",
+      "title": "CVE-2026-56746",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-56817",
+      "source": "ibm",
+      "title": "CVE-2026-56817",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-56818",
+      "source": "ibm",
+      "title": "CVE-2026-56818",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-56819",
+      "source": "ibm",
+      "title": "CVE-2026-56819",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-56820",
+      "source": "ibm",
+      "title": "CVE-2026-56820",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-56821",
+      "source": "ibm",
+      "title": "CVE-2026-56821",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-56822",
+      "source": "ibm",
+      "title": "CVE-2026-56822",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-57819",
+      "source": "ibm",
+      "title": "CVE-2026-57819",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-58023",
+      "source": "ibm",
+      "title": "CVE-2026-58023",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-58059",
+      "source": "ibm",
+      "title": "CVE-2026-58059",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-58060",
+      "source": "ibm",
+      "title": "CVE-2026-58060",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-58061",
+      "source": "ibm",
+      "title": "CVE-2026-58061",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-58062",
+      "source": "ibm",
+      "title": "CVE-2026-58062",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-58063",
+      "source": "ibm",
+      "title": "CVE-2026-58063",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-58216",
+      "source": "ibm",
+      "title": "CVE-2026-58216",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-58218",
+      "source": "ibm",
+      "title": "CVE-2026-58218",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-58389",
+      "source": "ibm",
+      "title": "CVE-2026-58389",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-58662",
+      "source": "ibm",
+      "title": "CVE-2026-58662",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59647",
+      "source": "ibm",
+      "title": "CVE-2026-59647",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59648",
+      "source": "ibm",
+      "title": "CVE-2026-59648",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59650",
+      "source": "ibm",
+      "title": "CVE-2026-59650",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59651",
+      "source": "ibm",
+      "title": "CVE-2026-59651",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59652",
+      "source": "ibm",
+      "title": "CVE-2026-59652",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59888",
+      "source": "ibm",
+      "title": "CVE-2026-59888",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59898",
+      "source": "ibm",
+      "title": "CVE-2026-59898",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59899",
+      "source": "ibm",
+      "title": "CVE-2026-59899",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59900",
+      "source": "ibm",
+      "title": "CVE-2026-59900",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59901",
+      "source": "ibm",
+      "title": "CVE-2026-59901",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59919",
+      "source": "ibm",
+      "title": "CVE-2026-59919",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59920",
+      "source": "ibm",
+      "title": "CVE-2026-59920",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-59921",
+      "source": "ibm",
+      "title": "CVE-2026-59921",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-60075",
+      "source": "ibm",
+      "title": "CVE-2026-60075",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-60147",
+      "source": "ibm",
+      "title": "CVE-2026-60147",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-64607",
+      "source": "ibm",
+      "title": "CVE-2026-64607",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-64958",
+      "source": "ibm",
+      "title": "CVE-2026-64958",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-66053",
+      "source": "ibm",
+      "title": "CVE-2026-66053",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-6790",
+      "source": "ibm",
+      "title": "CVE-2026-6790",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-69247",
+      "source": "ibm",
+      "title": "CVE-2026-69247",
+      "description": "python-cryptography is a package designed to expose cryptographic primitives and recipes to Python developers. In versions 42.0.0 through 48.0.0, when resolving invalid certificate chains that include duplicate copies of self-signed certificates, the processing recursively invokes the same candidate, leading to an exponential blowup. Although the limitation that the chain depth cannot exceed a specified maximum depth prevents unbounded recursion and guarantees termination, an attacker-controlled certificate chain can lead the processing to easily take more than 5s to reject in testing. This amplification could form the basis for a resource exhaustion denial of service attack. The core issue arises in the recursive nature of build_chain_inner, which does not de-duplicate against previously analyzed candidates. As the correctness of validation is not affected, the integrity of a system cannot be compromised through this vector, only its availability. This issue is fixed in 49.0.0",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089",
+        "https://www.cve.org/CVERecord?id=CVE-2026-69249",
+        "https://www.ibm.com/support/pages/node/7286059"
+      ]
+    },
+    {
+      "id": "CVE-2026-69248",
+      "source": "ibm",
+      "title": "CVE-2026-69248",
+      "description": "python-cryptography is a package designed to expose cryptographic primitives and recipes to Python developers. In versions 42.0.0 through 48.0.0, when resolving invalid certificate chains that include duplicate copies of self-signed certificates, the processing recursively invokes the same candidate, leading to an exponential blowup. Although the limitation that the chain depth cannot exceed a specified maximum depth prevents unbounded recursion and guarantees termination, an attacker-controlled certificate chain can lead the processing to easily take more than 5s to reject in testing. This amplification could form the basis for a resource exhaustion denial of service attack. The core issue arises in the recursive nature of build_chain_inner, which does not de-duplicate against previously analyzed candidates. As the correctness of validation is not affected, the integrity of a system cannot be compromised through this vector, only its availability. This issue is fixed in 49.0.0",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-69249",
+        "https://www.ibm.com/support/pages/node/7286059"
+      ]
+    },
+    {
+      "id": "CVE-2026-69249",
+      "source": "ibm",
+      "title": "CVE-2026-69249",
+      "description": "python-cryptography is a package designed to expose cryptographic primitives and recipes to Python developers. In versions 42.0.0 through 48.0.0, when resolving invalid certificate chains that include duplicate copies of self-signed certificates, the processing recursively invokes the same candidate, leading to an exponential blowup. Although the limitation that the chain depth cannot exceed a specified maximum depth prevents unbounded recursion and guarantees termination, an attacker-controlled certificate chain can lead the processing to easily take more than 5s to reject in testing. This amplification could form the basis for a resource exhaustion denial of service attack. The core issue arises in the recursive nature of build_chain_inner, which does not de-duplicate against previously analyzed candidates. As the correctness of validation is not affected, the integrity of a system cannot be compromised through this vector, only its availability. This issue is fixed in 49.0.0",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-69249",
+        "https://www.ibm.com/support/pages/node/7286059"
+      ]
+    },
+    {
+      "id": "CVE-2026-72693",
+      "source": "ibm",
+      "title": "CVE-2026-72693",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-8286",
+      "source": "ibm",
+      "title": "CVE-2026-8286",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-8400",
+      "source": "ibm",
+      "title": "CVE-2026-8400",
+      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty Continuous delivery has a flaw in the ORB component in IBM SDK, Java Technology Edition, may allow a malicious IIOP server to induce loading and instantation of arbitrary classes",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8400",
+        "https://www.ibm.com/support/pages/node/7286060",
+        "https://www.ibm.com/support/pages/node/7286058",
+        "https://www.ibm.com/support/pages/node/7286188"
+      ]
+    },
+    {
+      "id": "CVE-2026-8646",
+      "source": "ibm",
+      "title": "CVE-2026-8646",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-8763",
+      "source": "ibm",
+      "title": "CVE-2026-8763",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-8925",
+      "source": "ibm",
+      "title": "CVE-2026-8925",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    },
+    {
+      "id": "CVE-2026-9071",
+      "source": "ibm",
+      "title": "CVE-2026-9071",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-9171",
+      "source": "ibm",
+      "title": "CVE-2026-9171",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-9320",
+      "source": "ibm",
+      "title": "CVE-2026-9320",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-9322",
+      "source": "ibm",
+      "title": "CVE-2026-9322",
+      "description": "IBM WebSphere Application Server 9.0 and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are vulnerable to HTTP request smuggling. A remote attacker could smuggle a specially crafted request to the application server thereby allowing the attacker to bypass security controls, spoof identity, escalate privilege, and expose sensitive information",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-8646",
+        "https://www.ibm.com/support/pages/node/7286027"
+      ]
+    },
+    {
+      "id": "CVE-2026-9538",
+      "source": "ibm",
+      "title": "CVE-2026-9538",
+      "description": "Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, any caller that can deliver bytes to a Netty channel pipeline containing `XmlDecoder` can send XML with a `DOCTYPE` declaration to an `AsyncXMLInputFactory` instantiated with no security configuration, leaving DTD and entity handling active depending on Aalto XML async parser behavior and creating conditional XML external entity risk. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final",
+      "severity": "critical",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-56817",
+        "https://www.ibm.com/support/pages/node/7286089"
+      ]
+    },
+    {
+      "id": "CVE-2026-9547",
+      "source": "ibm",
+      "title": "CVE-2026-9547",
+      "description": "When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP or SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error",
+      "severity": "high",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-02",
+      "modified_date": "2026-09-02",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-12064",
+        "https://www.ibm.com/support/pages/node/7286070"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.ibm.com/support/pages/node/7286027",
+  "vendor": "ibm",
+  "references": [
+    "https://www.ibm.com/support/pages/node/7286027",
+    "https://www.ibm.com/support/pages/bulletin/",
+    "https://www.ibm.com/support/pages/node/7286032",
+    "https://www.ibm.com/support/pages/node/7286070",
+    "https://www.ibm.com/support/pages/node/7286089",
+    "https://www.ibm.com/support/pages/node/7286060",
+    "https://www.ibm.com/support/pages/node/7286058",
+    "https://www.ibm.com/support/pages/node/7286059",
+    "https://www.ibm.com/support/pages/node/7286188"
+  ]
+}
