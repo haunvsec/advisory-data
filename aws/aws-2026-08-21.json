@@ -2,7 +2,7 @@
   "id": "aws-2026-08-21",
   "source": "aws",
   "title": "Aws Security Advisories - 2026-08-21",
-  "description": "Merged 2 aws security advisories published on 2026-08-21. Original advisory IDs: 2026-086-aws, aws-2026-08-21\n\nTitles:\n- Issue with FreeRTOS-Kernel - CVE-2026-77234, CVE-2026-77235, CVE-2026-77236, CVE-2026-77237\n- Aws Security Advisories - 2026-08-21",
+  "description": "Merged 3 aws security advisories published on 2026-08-21. Original advisory IDs: 2026-086-aws, 2026-087-aws, 2026-088-aws\n\nTitles:\n- Issue with FreeRTOS-Kernel - CVE-2026-77234, CVE-2026-77235, CVE-2026-77236, CVE-2026-77237\n- CVE-2026-77810 - Issue with Athena Federated Query Neptune Connector\n- CVE-2026-77811 - Stored Cross-Site Scripting via Integration Template Asset in OpenSearch Dashboards",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -14,6 +14,7 @@
   "modified_date": "2026-08-21",
   "affected": [
     "aws:FreeRTOS-Kernel is a real-time operating system kernel for microcontrollers and small microprocessors. AWS identified four issues with FreeRTOS-Kernel, affecting multiple versions.",
+    "aws:Amazon Athena is a serverless, interactive query service that lets you analyze data directly in Amazon S3 using standard SQL. Athena Query Federation is a feature that allows you to connect to data sources outside of Amazon S3 like DynamoDB, Azure Synapse, and custom connectors using standard SQL syntax. These connectors are",
     "aws:Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters. We identified"
   ],
   "affected_products": [
@@ -55,6 +56,9 @@
       "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
+        {
+          "id": "CVE-2026-77810"
+        },
         {
           "id": "CVE-2026-77811"
         }
@@ -120,6 +124,19 @@
       "references": []
     },
     {
+      "id": "CVE-2026-77810",
+      "source": "aws",
+      "title": "CVE-2026-77810",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-21",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
       "id": "CVE-2026-77811",
       "source": "aws",
       "title": "CVE-2026-77811",
@@ -139,6 +156,7 @@
   "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-086-aws/",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-087-aws/",
     "https://aws.amazon.com/security/security-bulletins/rss/2026-088-aws/"
   ]
 }

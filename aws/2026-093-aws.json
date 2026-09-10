@@ -1,0 +1,96 @@
+{
+  "id": "2026-093-aws",
+  "source": "aws",
+  "title": "CVE-2026-83551 - Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK",
+  "description": "CVE-2026-83551 - Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK\nBulletin ID:\n2026-093-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n09/01/2026 11:00 AM PDT\nDescription:\nSageMaker Python SDK's @step and @remote decorator pipeline component uses an HMAC key to protect the integrity of serialized function payloads stored in S3. We identified an issue where the HMAC secret key is stored in cleartext within pipeline definitions and accessible via the DescribePipeline API.\nThis allows an actor with a role in that account that has permissions to invoke DescribePipeline to extract the key, create cloud-pickled payloads with valid HMACs, and overwrite S3 objects, achieving code execution in another user's pipeline execution context within the same AWS account.\nImpacted versions:\nHMAC Configuration in SageMaker Python SDK v3 < v3.11.0\nHMAC Configuration in SageMaker Python SDK v2 < v2.256.0\nResolution:\nThis issue has been addressed in Amazon SageMaker Python SDK version\n3.11.0\n(v3) and\n2.256.0\n(v2). The v3 fix replaces symmetric HMAC signing with asymmetric ECDSA signing, ensuring only the private key (which remains on the client) can generate valid signatures. The v2 fix removes the stored key entirely. We recommend upgrading to the latest version and updating the existing pipeline definitions created via @step decorator (e.g., calling pipeline.upsert()) with the updated SDK. This replaces the stored symmetric HMAC key with an asymmetric public key, ensuring previously registered pipelines are no longer exposed. For @remote decorator users, upgrading the SDK is sufficient, no additional action is required as each invocation creates a fresh job with no persisted key material.\nWorkarounds:\nCustomers who cannot immediately upgrade should restrict sagemaker:DescribePipeline IAM permissions to only trusted users within the account, and configure a dedicated per-user s3_root_uri for @remote/@step decorator workloads to isolate serialized payloads.\nRelated Advisories:\nCVE-2026-1777\n/\nGHSA-rjrp-m2jw-pv9c\nCVE-2026-8596\n/\nGHSA-7hh5-prp2-mfh5\nReferences:\nCVE-2026-83551\nGHSA-7xmc-crrw-fv5r\nAcknowledgement:\nWe would like to thank @kimchikingdom for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-09-01",
+  "modified_date": "",
+  "affected": [
+    "aws:SageMaker Python SDK's @step and @remote decorator pipeline component uses an HMAC key to protect the integrity of serialized function payloads stored in S3. We identified an issue where the HMAC secret key is stored in cleartext within pipeline definitions and accessible via the DescribePipeline API."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-83551"
+        },
+        {
+          "id": "CVE-2026-8596"
+        },
+        {
+          "id": "CVE-2026-1777"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [
+    "3.11.0"
+  ],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-83551",
+      "source": "aws",
+      "title": "CVE-2026-83551",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-01",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-8596",
+      "source": "aws",
+      "title": "CVE-2026-8596",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-01",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-1777",
+      "source": "aws",
+      "title": "CVE-2026-1777",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-01",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-093-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-093-aws/"
+  ]
+}

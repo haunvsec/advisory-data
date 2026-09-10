@@ -1,0 +1,62 @@
+{
+  "id": "2026-091-aws",
+  "source": "aws",
+  "title": "CVE-2026-81849 - Path traversal in the aws:downloadContent plugin in amazon-ssm-agent",
+  "description": "CVE-2026-81849 - Path traversal in the aws:downloadContent plugin in amazon-ssm-agent\nBulletin ID:\n2026-091-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n08/28/2026 11:00 AM PDT\nDescription:\nAWS Systems Manager Agent (amazon-ssm-agent) is Amazon software that runs on Amazon Elastic Compute Cloud (Amazon EC2) instances, edge devices, on-premises servers, and virtual machines (VMs). Amazon-ssm-agent makes it possible for Systems Manager to update, manage, and configure these resources. We identified\nCVE-2026-81849\n, where an improper limitation of a pathname to a restricted directory in the\naws:downloadContent plugin\nin amazon-ssm-agent before 3.3.4515.0 might allow an authenticated remote user whose ssm:SendCommand permission is restricted to the AWS-DownloadContent document, to write arbitrary files outside the intended download directory with root privileges, via crafted object keys in the S3 source the document is directed to retrieve. This issue may lead to arbitrary code execution as root if specific sensitive files are overwritten.\nTo remediate this issue, customers should upgrade amazon-ssm-agent to version 3.3.4515.0 or later.\nImpacted versions:\nAmazon amazon-ssm-agent from 2.0.767.0 to 3.3.4364.0\nResolution:\nThis issue has been addressed in\namazon-ssm-agent version  3.3.4515.0\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nThere are no workarounds available.\nReferences:\nCVE-2026-81849\nGHSA-mqvm-jv87-w7rx\nAcknowledgement:\nWe would like to thank wareeqshile for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-08-28",
+  "modified_date": "",
+  "affected": [
+    "aws:AWS Systems Manager Agent (amazon-ssm-agent) is Amazon software that runs on Amazon Elastic Compute Cloud (Amazon EC2) instances, edge devices, on-premises servers, and virtual machines (VMs). Amazon-ssm-agent makes it possible for Systems Manager to update, manage, and configure these resources. We identified"
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-81849"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-81849",
+      "source": "aws",
+      "title": "CVE-2026-81849",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-08-28",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-091-aws/",
+  "vendor": "aws",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-091-aws/"
+  ]
+}

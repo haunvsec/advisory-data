@@ -2,7 +2,7 @@
   "id": "aws-2026-09-04",
   "source": "aws",
   "title": "Aws Security Advisories - 2026-09-04",
-  "description": "Merged 3 aws security advisories published on 2026-09-04. Original advisory IDs: 2026-099-aws, 2026-100-aws, 2026-097-aws\n\nTitles:\n- CVE-2026-85781 - Unverified access point ownership in Amazon EFS CSI Driver\n- CVE-2026-85786 - Incomplete fix for CVE-2026-75936 memory-amplification denial of service in Amazon ion-java\n- CVE-2026-85654 - Code injection in the CDK generator in Amazon awslabs.dynamodb-mcp-server",
+  "description": "Merged 5 aws security advisories published on 2026-09-04. Original advisory IDs: 2026-099-aws, 2026-101-aws, 2026-100-aws, 2026-097-aws, 2026-098-aws\n\nTitles:\n- CVE-2026-85781 - Unverified access point ownership in Amazon EFS CSI Driver\n- CVE-2026-85787 - An incomplete list of disallowed inputs in the SQL validation component in Amazon awslabs postgres-mcp-server to modify data beyond the read-only scope\n- CVE-2026-85786 - Incomplete fix for CVE-2026-75936 memory-amplification denial of service in Amazon ion-java\n- CVE-2026-85654 - Code injection in the CDK generator in Amazon awslabs.dynamodb-mcp-server\n- CVE-2026-85656 - OS command injection in Amazon log4j-cve-2021-44228-hotpatch",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -14,8 +14,10 @@
   "modified_date": "2026-09-04",
   "affected": [
     "aws:The",
+    "aws:We have identified",
     "aws:ion-java is a Java library that implements the Amazon Ion data format specification. We identified",
-    "aws:Amazon awslabs.dynamodb-mcp-server is an open-source Model Context Protocol (MCP) server that enables AI coding assistants to interact with Amazon DynamoDB, including table design, data modeling, and CDK infrastructure generation. We identified"
+    "aws:Amazon awslabs.dynamodb-mcp-server is an open-source Model Context Protocol (MCP) server that enables AI coding assistants to interact with Amazon DynamoDB, including table design, data modeling, and CDK infrastructure generation. We identified",
+    "aws:log4j-cve-2021-44228-hotpatch is a tool which injects a Java agent into a running JVM process. The agent will attempt to patch the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances to unconditionally return the string \"Patched JndiLookup::lookup()\". It is designed to address the CVE-2021-44228 remote code execution issue in Log4j without restarting the Java process. We identified"
   ],
   "affected_products": [
     {
@@ -32,6 +34,23 @@
       "cves": [
         {
           "id": "CVE-2026-85781"
+        }
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "We have identified",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:aws:we_have_identified:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-85787"
         }
       ]
     },
@@ -69,6 +88,12 @@
       "cves": [
         {
           "id": "CVE-2026-85654"
+        },
+        {
+          "id": "CVE-2021-44228"
+        },
+        {
+          "id": "CVE-2026-85656"
         }
       ]
     }
@@ -77,6 +102,19 @@
   "solution": "",
   "remediations": [],
   "cves": [
+    {
+      "id": "CVE-2021-44228",
+      "source": "aws",
+      "title": "CVE-2021-44228",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-04",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
     {
       "id": "CVE-2026-75936",
       "source": "aws",
@@ -94,6 +132,19 @@
       "id": "CVE-2026-85654",
       "source": "aws",
       "title": "CVE-2026-85654",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-04",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-85656",
+      "source": "aws",
+      "title": "CVE-2026-85656",
       "description": "",
       "severity": null,
       "cvss_score": null,
@@ -128,6 +179,19 @@
       "modified_date": "",
       "affected": [],
       "references": []
+    },
+    {
+      "id": "CVE-2026-85787",
+      "source": "aws",
+      "title": "CVE-2026-85787",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-04",
+      "modified_date": "",
+      "affected": [],
+      "references": []
     }
   ],
   "exploits": [],
@@ -136,7 +200,9 @@
   "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-099-aws/",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-101-aws/",
     "https://aws.amazon.com/security/security-bulletins/rss/2026-100-aws/",
-    "https://aws.amazon.com/security/security-bulletins/rss/2026-097-aws/"
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-097-aws/",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-098-aws/"
   ]
 }

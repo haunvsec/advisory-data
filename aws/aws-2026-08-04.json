@@ -2,7 +2,7 @@
   "id": "aws-2026-08-04",
   "source": "aws",
   "title": "Aws Security Advisories - 2026-08-04",
-  "description": "Merged 2 aws security advisories published on 2026-08-04. Original advisory IDs: 2026-074-aws, 2026-073-aws\n\nTitles:\n- CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows\n- CVE-2026-18830 - Issue with Amazon Bedrock AgentCore harness – Insufficient Input Validation",
+  "description": "Merged 2 aws security advisories published on 2026-08-04. Original advisory IDs: 2026-073-aws, 2026-074-aws\n\nTitles:\n- CVE-2026-18830 - Issue with Amazon Bedrock AgentCore harness – Insufficient Input Validation\n- CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -13,10 +13,27 @@
   "published_date": "2026-08-04",
   "modified_date": "2026-08-04",
   "affected": [
-    "aws:Kiro is an agentic IDE and command-line interface users install on their desktop. We identified",
-    "aws:We have identified"
+    "aws:We have identified",
+    "aws:Kiro is an agentic IDE and command-line interface users install on their desktop. We identified"
   ],
   "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "We have identified",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:aws:we_have_identified:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-18830"
+        }
+      ]
+    },
     {
       "vendor": "aws",
       "product": "Kiro is an agentic IDE and command-line interface users install on their desktop. We identified",
@@ -34,23 +51,6 @@
         },
         {
           "id": "CVE-2026-18657"
-        }
-      ]
-    },
-    {
-      "vendor": "aws",
-      "product": "We have identified",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:aws:we_have_identified:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-18830"
         }
       ]
     }
@@ -101,10 +101,10 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-073-aws/",
   "vendor": "aws",
   "references": [
-    "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
-    "https://aws.amazon.com/security/security-bulletins/rss/2026-073-aws/"
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-073-aws/",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/"
   ]
 }

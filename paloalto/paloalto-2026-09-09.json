@@ -1,0 +1,285 @@
+{
+  "id": "paloalto-2026-09-09",
+  "source": "paloalto",
+  "title": "Paloalto Security Advisories - 2026-09-09",
+  "description": "Merged 8 paloalto security advisories published on 2026-09-09. Original advisory IDs: CVE-2026-0310, CVE-2026-0308, CVE-2026-0307, CVE-2026-0306, CVE-2026-0305, CVE-2026-0304, CVE-2026-0303, CVE-2026-0302\n\nTitles:\n- PAN-OS: Buffer Overflow Vulnerability via XML Processing\n- PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface\n- GlobalProtect App: Local Privilege Escalation Vulnerabilities\n- Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows\n- Prisma Access Agent: Information Disclosure Vulnerability on Linux\n- Cortex XDR Broker VM: Privilege Escalation Vulnerability\n- Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File\n- Checkov by Prisma Cloud: OS Command Injection Vulnerability",
+  "severity": "high",
+  "cvss_scores": [
+    {
+      "version": "3.1",
+      "score": 7.2,
+      "vector": "",
+      "severity": "high"
+    },
+    {
+      "version": "3.1",
+      "score": 1.1,
+      "vector": "",
+      "severity": "low"
+    },
+    {
+      "version": "3.1",
+      "score": 5.9,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 5.8,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 4.3,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 4.8,
+      "vector": "",
+      "severity": "medium"
+    },
+    {
+      "version": "3.1",
+      "score": 2.4,
+      "vector": "",
+      "severity": "low"
+    }
+  ],
+  "cvss_score": 7.2,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-09-09",
+  "modified_date": "2026-09-09",
+  "affected": [
+    "paloalto:panos",
+    "paloalto:globalprotect",
+    "paloalto:prisma",
+    "paloalto:cortex"
+  ],
+  "affected_products": [
+    {
+      "vendor": "paloalto",
+      "product": "Palo Alto PAN-OS",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:paloalto:pan_os:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0310"
+        },
+        {
+          "id": "CVE-2026-0309"
+        },
+        {
+          "id": "CVE-2026-0308"
+        }
+      ]
+    },
+    {
+      "vendor": "paloalto",
+      "product": "Palo Alto GlobalProtect",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:paloalto:globalprotect:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0307"
+        }
+      ]
+    },
+    {
+      "vendor": "paloalto",
+      "product": "Palo Alto Prisma",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:paloalto:prisma:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0306"
+        },
+        {
+          "id": "CVE-2026-0305"
+        },
+        {
+          "id": "CVE-2026-0303"
+        },
+        {
+          "id": "CVE-2026-0302"
+        }
+      ]
+    },
+    {
+      "vendor": "paloalto",
+      "product": "Cortex",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:paloalto:cortex:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-0304"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-0302",
+      "source": "paloalto",
+      "title": "Checkov by Prisma Cloud: OS Command Injection Vulnerability",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 1.1,
+      "cvss_vector": null,
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0303",
+      "source": "paloalto",
+      "title": "Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 2.4,
+      "cvss_vector": null,
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0304",
+      "source": "paloalto",
+      "title": "Cortex XDR Broker VM: Privilege Escalation Vulnerability",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 4.8,
+      "cvss_vector": null,
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0305",
+      "source": "paloalto",
+      "title": "Prisma Access Agent: Information Disclosure Vulnerability on Linux",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 4.3,
+      "cvss_vector": null,
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0306",
+      "source": "paloalto",
+      "title": "Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 5.8,
+      "cvss_vector": null,
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0307",
+      "source": "paloalto",
+      "title": "GlobalProtect App: Local Privilege Escalation Vulnerabilities",
+      "description": "",
+      "severity": "medium",
+      "cvss_score": 5.9,
+      "cvss_vector": null,
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0308",
+      "source": "paloalto",
+      "title": "PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface",
+      "description": "",
+      "severity": "low",
+      "cvss_score": 1.1,
+      "cvss_vector": null,
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0309",
+      "source": "paloalto",
+      "title": "PAN-OS: Buffer Overflow Vulnerability via XML Processing",
+      "description": "",
+      "severity": "high",
+      "cvss_score": 7.2,
+      "cvss_vector": null,
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    },
+    {
+      "id": "CVE-2026-0310",
+      "source": "paloalto",
+      "title": "PAN-OS: Buffer Overflow Vulnerability via XML Processing",
+      "description": "",
+      "severity": "high",
+      "cvss_score": 7.2,
+      "cvss_vector": null,
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://security.paloaltonetworks.com/CVE-2026-0310",
+  "vendor": "paloalto",
+  "references": [
+    "https://security.paloaltonetworks.com/CVE-2026-0310",
+    "https://security.paloaltonetworks.com/CVE-2026-0308",
+    "https://security.paloaltonetworks.com/CVE-2026-0307",
+    "https://security.paloaltonetworks.com/CVE-2026-0306",
+    "https://security.paloaltonetworks.com/CVE-2026-0305",
+    "https://security.paloaltonetworks.com/CVE-2026-0304",
+    "https://security.paloaltonetworks.com/CVE-2026-0303",
+    "https://security.paloaltonetworks.com/CVE-2026-0302"
+  ]
+}

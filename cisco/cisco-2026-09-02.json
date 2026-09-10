@@ -2,21 +2,9 @@
   "id": "cisco-2026-09-02",
   "source": "cisco",
   "title": "Cisco Security Advisories - 2026-09-02",
-  "description": "Merged 4 cisco security advisories published on 2026-09-02. Original advisory IDs: cisco-sa-esa-smime-disc-dzw4rEdY, cisco-sa-hardening-iosxr-qg64NcM, cisco-sa-phone-dos-txMYNRzv, cisco-sa-n9k-s1-rce-EH8dEtr\n\nTitles:\n- Cisco Secure Email Secure/Multipurpose Internet Mail Extensions Ciphertext Decryption Vulnerabilities\n- Cisco IOS XR Software Security Hardening Release: September 2026\n- Cisco Desk Phone 9800 Series, IP Phone 7800 and 8800 Series, and Video Phone 8875 with SIP Software Denial of Service Vulnerability\n- Cisco Nexus 9000 Series Switches Silicon One Remote Code Execution Vulnerability",
+  "description": "Merged 4 cisco security advisories published on 2026-09-02. Original advisory IDs: cisco-sa-hardening-iosxr-qg64NcM, cisco-sa-esa-smime-disc-dzw4rEdY, cisco-sa-phone-dos-txMYNRzv, cisco-sa-n9k-s1-rce-EH8dEtr\n\nTitles:\n- Cisco IOS XR Software Security Hardening Release: September 2026\n- Cisco Secure Email Secure/Multipurpose Internet Mail Extensions Ciphertext Decryption Vulnerabilities\n- Cisco Desk Phone 9800 Series, IP Phone 7800 and 8800 Series, and Video Phone 8875 with SIP Software Denial of Service Vulnerability\n- Cisco Nexus 9000 Series Switches Silicon One Remote Code Execution Vulnerability",
   "severity": "critical",
   "cvss_scores": [
-    {
-      "version": "3.1",
-      "score": 5.9,
-      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-      "severity": ""
-    },
-    {
-      "version": "3.1",
-      "score": 8.8,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "severity": ""
-    },
     {
       "version": "3.1",
       "score": 9.8,
@@ -43,6 +31,18 @@
     },
     {
       "version": "3.1",
+      "score": 8.8,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "severity": ""
+    },
+    {
+      "version": "3.1",
+      "score": 5.9,
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "severity": ""
+    },
+    {
+      "version": "3.1",
       "score": 7.5,
       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "severity": ""
@@ -54,14 +54,49 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-09-02",
-  "modified_date": "2026-09-08",
+  "modified_date": "2026-09-09",
   "affected": [
-    "cisco:cisco-sa-esa-smime-disc-dzw4rEdY",
     "cisco:cisco-sa-hardening-iosxr-qg64NcM",
+    "cisco:cisco-sa-esa-smime-disc-dzw4rEdY",
     "cisco:cisco-sa-phone-dos-txMYNRzv",
     "cisco:cisco-sa-n9k-s1-rce-EH8dEtr"
   ],
   "affected_products": [
+    {
+      "vendor": "cisco",
+      "product": "CVRFPID-5834",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:cisco:cvrfpid-5834:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-20274"
+        },
+        {
+          "id": "CVE-2026-20275"
+        },
+        {
+          "id": "CVE-2026-20276"
+        },
+        {
+          "id": "CVE-2026-20277"
+        },
+        {
+          "id": "CVE-2026-20278"
+        },
+        {
+          "id": "CVE-2026-20280"
+        },
+        {
+          "id": "CVE-2026-20279"
+        }
+      ]
+    },
     {
       "vendor": "cisco",
       "product": "CVRFPID-189790",
@@ -79,41 +114,6 @@
         },
         {
           "id": "CVE-2026-20355"
-        }
-      ]
-    },
-    {
-      "vendor": "cisco",
-      "product": "CVRFPID-5834",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:cisco:cvrfpid-5834:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-20280"
-        },
-        {
-          "id": "CVE-2026-20274"
-        },
-        {
-          "id": "CVE-2026-20275"
-        },
-        {
-          "id": "CVE-2026-20276"
-        },
-        {
-          "id": "CVE-2026-20277"
-        },
-        {
-          "id": "CVE-2026-20278"
-        },
-        {
-          "id": "CVE-2026-20279"
         }
       ]
     },
@@ -180,7 +180,7 @@
       "cvss_score": 9.8,
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "published_date": "2026-09-02",
-      "modified_date": "2026-09-04",
+      "modified_date": "2026-09-09",
       "affected": [],
       "references": [
         "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM"
@@ -195,7 +195,7 @@
       "cvss_score": 8.8,
       "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "published_date": "2026-09-02",
-      "modified_date": "2026-09-04",
+      "modified_date": "2026-09-09",
       "affected": [],
       "references": [
         "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM"
@@ -210,7 +210,7 @@
       "cvss_score": 8.6,
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
       "published_date": "2026-09-02",
-      "modified_date": "2026-09-04",
+      "modified_date": "2026-09-09",
       "affected": [],
       "references": [
         "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM"
@@ -225,7 +225,7 @@
       "cvss_score": 8.2,
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
       "published_date": "2026-09-02",
-      "modified_date": "2026-09-04",
+      "modified_date": "2026-09-09",
       "affected": [],
       "references": [
         "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM"
@@ -240,7 +240,7 @@
       "cvss_score": 8.8,
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "published_date": "2026-09-02",
-      "modified_date": "2026-09-04",
+      "modified_date": "2026-09-09",
       "affected": [],
       "references": [
         "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM"
@@ -255,7 +255,7 @@
       "cvss_score": 9.8,
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "published_date": "2026-09-02",
-      "modified_date": "2026-09-04",
+      "modified_date": "2026-09-09",
       "affected": [],
       "references": [
         "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM"
@@ -270,7 +270,7 @@
       "cvss_score": 8.8,
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "published_date": "2026-09-02",
-      "modified_date": "2026-09-04",
+      "modified_date": "2026-09-09",
       "affected": [],
       "references": [
         "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM"
@@ -324,11 +324,11 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-smime-disc-dzw4rEdY",
+  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM",
   "vendor": "cisco",
   "references": [
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-smime-disc-dzw4rEdY",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-smime-disc-dzw4rEdY",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phone-dos-txMYNRzv",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n9k-s1-rce-EH8dEtr"
   ]
