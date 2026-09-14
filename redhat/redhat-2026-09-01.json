@@ -65,7 +65,7 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-09-01",
-  "modified_date": "2026-09-09",
+  "modified_date": "2026-09-14",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
@@ -423,6 +423,9 @@
           "id": "CVE-2026-33818"
         },
         {
+          "id": "CVE-2026-42504"
+        },
+        {
           "id": "CVE-2026-56853"
         },
         {
@@ -612,7 +615,7 @@
     {
       "id": "CVE-2026-18649",
       "source": "redhat",
-      "title": "gst-plugins-good: gst-plugins-good: unbounded memory growth in rtph264depay and rtph265depay RTP depayloaders",
+      "title": "gstreamer1-plugins-good: gst-plugins-good: unbounded memory growth in rtph264depay and rtph265depay RTP depayloaders",
       "description": "",
       "severity": null,
       "cvss_score": 7.5,
@@ -877,6 +880,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-42338"
+      ]
+    },
+    {
+      "id": "CVE-2026-42504",
+      "source": "redhat",
+      "title": "mime: golang: Golang MIME: Denial of Service via maliciously-crafted MIME header",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-09-01",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-42504"
       ]
     },
     {

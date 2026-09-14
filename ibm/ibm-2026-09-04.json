@@ -2,7 +2,7 @@
   "id": "ibm-2026-09-04",
   "source": "ibm",
   "title": "Ibm Security Advisories - 2026-09-04",
-  "description": "Merged 6 ibm security advisories published on 2026-09-04. Original advisory IDs: IBM-7286374, IBM-7286438, IBM-7286370, IBM-7286362, IBM-7286395, IBM-7286446\n\nTitles:\n- IBM Decision Intelligence Client Managed Software (Formerly Known as IBM Automation Decision Services)  for Aug 2026- Multiple CVEs addressed\n- DataStage on Cloud Pak for Data has several vulnerabilities due to open source software\n- The IBM SPSS Collaboration and Deployment Services impacted by multiple vulnerabilities in DOMPurify\n- IBM Watson Explorer is affected by a vulnerability in IBM WebSphere Application Server Liberty (CVE-2026-10842)\n- Vulnerability in Netty affects IBM watsonx Assistant Cartridge and  IBM watsonx Orchestrate with watsonx Assistant Cartridge.\n- Multiple vulnerabilities within WebSphere Application Server, affect IBM Tivoli Monitoring.",
+  "description": "Merged 5 ibm security advisories published on 2026-09-04. Original advisory IDs: IBM-7286374, IBM-7286438, IBM-7286370, IBM-7286362, IBM-7286395\n\nTitles:\n- IBM Decision Intelligence Client Managed Software (Formerly Known as IBM Automation Decision Services)  for Aug 2026- Multiple CVEs addressed\n- DataStage on Cloud Pak for Data has several vulnerabilities due to open source software\n- The IBM SPSS Collaboration and Deployment Services impacted by multiple vulnerabilities in DOMPurify\n- IBM Watson Explorer is affected by a vulnerability in IBM WebSphere Application Server Liberty (CVE-2026-10842)\n- Vulnerability in Netty affects IBM watsonx Assistant Cartridge and  IBM watsonx Orchestrate with watsonx Assistant Cartridge.",
   "severity": "high",
   "cvss_scores": [],
   "cvss_score": null,
@@ -17,9 +17,7 @@
     "ibm:IBM DataStage Enterprise for IBM Cloud Pak for Data",
     "ibm:IBM SPSS Collaboration and Deployment Services",
     "ibm:IBM Watson Explorer",
-    "ibm:IBM watsonx Assistant Cartridge",
-    "ibm:IBM watsonx Assistant Cartridge for IBM Cloud Pak for Data",
-    "ibm:Tivoli Monitoring"
+    "ibm:IBM watsonx Assistant Cartridge"
   ],
   "affected_products": [
     {
@@ -304,73 +302,6 @@
           "id": "CVE-2026-11816"
         }
       ]
-    },
-    {
-      "vendor": "ibm",
-      "product": "IBM watsonx Assistant Cartridge for IBM Cloud Pak for Data",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:ibm:ibm_watsonx_assistant_cartridge_for_ibm_cloud_pak_for_data:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-11816"
-        }
-      ]
-    },
-    {
-      "vendor": "ibm",
-      "product": "Tivoli Monitoring",
-      "version_range": "",
-      "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:ibm:tivoli_monitoring:*:*:*:*:*:*:*:*",
-      "purl": "",
-      "cves": [
-        {
-          "id": "CVE-2026-10842"
-        },
-        {
-          "id": "CVE-2026-14446"
-        },
-        {
-          "id": "CVE-2026-14512"
-        },
-        {
-          "id": "CVE-2026-14515"
-        },
-        {
-          "id": "CVE-2026-14528"
-        },
-        {
-          "id": "CVE-2026-14529"
-        },
-        {
-          "id": "CVE-2026-14974"
-        },
-        {
-          "id": "CVE-2026-14981"
-        },
-        {
-          "id": "CVE-2026-15064"
-        },
-        {
-          "id": "CVE-2026-15325"
-        },
-        {
-          "id": "CVE-2026-15328"
-        },
-        {
-          "id": "CVE-2026-16184"
-        }
-      ]
     }
   ],
   "fixed_versions": [],
@@ -422,8 +353,7 @@
       "affected": [],
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286362",
-        "https://www.ibm.com/support/pages/node/7286446"
+        "https://www.ibm.com/support/pages/node/7286362"
       ]
     },
     {
@@ -539,86 +469,6 @@
       ]
     },
     {
-      "id": "CVE-2026-14446",
-      "source": "ibm",
-      "title": "CVE-2026-14446",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
-      ]
-    },
-    {
-      "id": "CVE-2026-14512",
-      "source": "ibm",
-      "title": "CVE-2026-14512",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
-      ]
-    },
-    {
-      "id": "CVE-2026-14515",
-      "source": "ibm",
-      "title": "CVE-2026-14515",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
-      ]
-    },
-    {
-      "id": "CVE-2026-14528",
-      "source": "ibm",
-      "title": "CVE-2026-14528",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
-      ]
-    },
-    {
-      "id": "CVE-2026-14529",
-      "source": "ibm",
-      "title": "CVE-2026-14529",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
-      ]
-    },
-    {
       "id": "CVE-2026-14682",
       "source": "ibm",
       "title": "CVE-2026-14682",
@@ -699,38 +549,6 @@
       ]
     },
     {
-      "id": "CVE-2026-14974",
-      "source": "ibm",
-      "title": "CVE-2026-14974",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
-      ]
-    },
-    {
-      "id": "CVE-2026-14981",
-      "source": "ibm",
-      "title": "CVE-2026-14981",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
-      ]
-    },
-    {
       "id": "CVE-2026-15055",
       "source": "ibm",
       "title": "CVE-2026-15055",
@@ -744,22 +562,6 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-9828",
         "https://www.ibm.com/support/pages/node/7286374"
-      ]
-    },
-    {
-      "id": "CVE-2026-15064",
-      "source": "ibm",
-      "title": "CVE-2026-15064",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
       ]
     },
     {
@@ -792,54 +594,6 @@
       "references": [
         "https://www.cve.org/CVERecord?id=CVE-2026-9828",
         "https://www.ibm.com/support/pages/node/7286374"
-      ]
-    },
-    {
-      "id": "CVE-2026-15325",
-      "source": "ibm",
-      "title": "CVE-2026-15325",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
-      ]
-    },
-    {
-      "id": "CVE-2026-15328",
-      "source": "ibm",
-      "title": "CVE-2026-15328",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
-      ]
-    },
-    {
-      "id": "CVE-2026-16184",
-      "source": "ibm",
-      "title": "CVE-2026-16184",
-      "description": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-04",
-      "modified_date": "2026-09-04",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-10842",
-        "https://www.ibm.com/support/pages/node/7286446"
       ]
     },
     {
@@ -1687,7 +1441,6 @@
     "https://www.ibm.com/support/pages/node/7286438",
     "https://www.ibm.com/support/pages/node/7286370",
     "https://www.ibm.com/support/pages/node/7286362",
-    "https://www.ibm.com/support/pages/node/7286395",
-    "https://www.ibm.com/support/pages/node/7286446"
+    "https://www.ibm.com/support/pages/node/7286395"
   ]
 }

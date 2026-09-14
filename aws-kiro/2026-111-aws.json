@@ -1,0 +1,62 @@
+{
+  "id": "2026-111-aws",
+  "source": "aws-kiro",
+  "title": "CVE-2026-89332 - Kiro IDE Sensitive Workspace Data Exfiltration via Agent-Written Workspace Configuration",
+  "description": "CVE-2026-89332 - Kiro IDE Sensitive Workspace Data Exfiltration via Agent-Written Workspace Configuration\nBulletin ID:\n2026-111-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n09/11/2026 12:00 PM PDT\nDescription:\nKiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents.\nWe identified\nCVE-2026-89332\n, where the Kiro agent could modify a workspace's settings file in an untrusted workspace in Kiro IDE. A specially crafted repository could use this to point the Kiro Powers registry URL, which Kiro fetches when the Powers panel is opened, at an external endpoint, sending potentially sensitive workspace data to that endpoint. Kiro presented the edit to the user for approval, showing the inserted data and the URL, but the file was already written to disk, so opening the Powers panel before responding to the prompt made the request anyway.\nImpacted versions:\nKiro IDE < 0.8.135\nResolution:\nThis issue has been addressed in\nKiro IDE version 0.8.135\nand greater. We recommend upgrading to the latest version and rotate any credentials present in a project opened on an earlier version.\nWorkarounds:\nNone.\nReferences:\nCVE-2026-89332\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "severity": "high",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-09-11",
+  "modified_date": "",
+  "affected": [
+    "aws-kiro:Kiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents."
+  ],
+  "affected_products": [
+    {
+      "vendor": "aws-kiro",
+      "product": "Kiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents.",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:aws-kiro:kiro_ide_is_an_agentic_development_environment_that_makes_it_easy_for_developers_to_ship_real_engineering_work_with_the_help_of_ai_agents.:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2026-89332"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2026-89332",
+      "source": "aws-kiro",
+      "title": "CVE-2026-89332",
+      "description": "",
+      "severity": null,
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-11",
+      "modified_date": "",
+      "affected": [],
+      "references": []
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-111-aws/",
+  "vendor": "aws-kiro",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-111-aws/"
+  ]
+}

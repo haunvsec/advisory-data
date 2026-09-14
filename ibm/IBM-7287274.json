@@ -1,0 +1,712 @@
+{
+  "id": "IBM-7287274",
+  "source": "ibm",
+  "title": "Multiple vulnerabilities that affects Cirata Symphony for IBM Big Replicate",
+  "description": "netty-resolver-dns, netty-codec-classes-quic, netty-codec-redis, spring-core, netty-codec-http2, netty-handler, spring-expression, netty-transport-sctp, netty-codec-http3, netty-codec-haproxy, micrometer-core, netty-transport-native-epoll, spring-boot-autoconfigure, netty-codec-http, HdrHistogram dependency packages are being used by Cirata Symphony for IBM Big Replicate . This bulletin describes the upgrades necessary to address the vulnerability.",
+  "severity": "low",
+  "cvss_scores": [],
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "exploitability": "",
+  "published_date": "2026-09-12",
+  "modified_date": "2026-09-12",
+  "affected": [
+    "ibm:Cirata Symphony for Big Replicate"
+  ],
+  "affected_products": [
+    {
+      "vendor": "ibm",
+      "product": "Cirata Symphony for Big Replicate",
+      "version_range": "",
+      "fixed_version": "",
+      "fixed_kb": "",
+      "remediation_url": "",
+      "supercedence": "",
+      "restart_required": "",
+      "cpe": "cpe:2.3:a:ibm:cirata_symphony_for_big_replicate:*:*:*:*:*:*:*:*",
+      "purl": "",
+      "cves": [
+        {
+          "id": "CVE-2023-44487"
+        },
+        {
+          "id": "CVE-2026-14683"
+        },
+        {
+          "id": "CVE-2026-14684"
+        },
+        {
+          "id": "CVE-2026-14685"
+        },
+        {
+          "id": "CVE-2026-14686"
+        },
+        {
+          "id": "CVE-2026-40983"
+        },
+        {
+          "id": "CVE-2026-40984"
+        },
+        {
+          "id": "CVE-2026-40992"
+        },
+        {
+          "id": "CVE-2026-41001"
+        },
+        {
+          "id": "CVE-2026-41848"
+        },
+        {
+          "id": "CVE-2026-41850"
+        },
+        {
+          "id": "CVE-2026-41851"
+        },
+        {
+          "id": "CVE-2026-41852"
+        },
+        {
+          "id": "CVE-2026-44249"
+        },
+        {
+          "id": "CVE-2026-44250"
+        },
+        {
+          "id": "CVE-2026-44890"
+        },
+        {
+          "id": "CVE-2026-44892"
+        },
+        {
+          "id": "CVE-2026-44893"
+        },
+        {
+          "id": "CVE-2026-44894"
+        },
+        {
+          "id": "CVE-2026-45416"
+        },
+        {
+          "id": "CVE-2026-45536"
+        },
+        {
+          "id": "CVE-2026-45673"
+        },
+        {
+          "id": "CVE-2026-45674"
+        },
+        {
+          "id": "CVE-2026-46340"
+        },
+        {
+          "id": "CVE-2026-47244"
+        },
+        {
+          "id": "CVE-2026-47691"
+        },
+        {
+          "id": "CVE-2026-48006"
+        },
+        {
+          "id": "CVE-2026-48043"
+        },
+        {
+          "id": "CVE-2026-48059"
+        },
+        {
+          "id": "CVE-2026-48748"
+        },
+        {
+          "id": "CVE-2026-50009"
+        },
+        {
+          "id": "CVE-2026-50010"
+        },
+        {
+          "id": "CVE-2026-50011"
+        },
+        {
+          "id": "CVE-2026-50020"
+        },
+        {
+          "id": "CVE-2026-50560"
+        }
+      ]
+    }
+  ],
+  "fixed_versions": [],
+  "solution": "",
+  "remediations": [],
+  "cves": [
+    {
+      "id": "CVE-2023-44487",
+      "source": "ibm",
+      "title": "CVE-2023-44487",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-14683",
+      "source": "ibm",
+      "title": "CVE-2026-14683",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-14684",
+      "source": "ibm",
+      "title": "CVE-2026-14684",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-14685",
+      "source": "ibm",
+      "title": "CVE-2026-14685",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-14686",
+      "source": "ibm",
+      "title": "CVE-2026-14686",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-40983",
+      "source": "ibm",
+      "title": "CVE-2026-40983",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-40984",
+      "source": "ibm",
+      "title": "CVE-2026-40984",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-40992",
+      "source": "ibm",
+      "title": "CVE-2026-40992",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-41001",
+      "source": "ibm",
+      "title": "CVE-2026-41001",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-41848",
+      "source": "ibm",
+      "title": "CVE-2026-41848",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-41850",
+      "source": "ibm",
+      "title": "CVE-2026-41850",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-41851",
+      "source": "ibm",
+      "title": "CVE-2026-41851",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-41852",
+      "source": "ibm",
+      "title": "CVE-2026-41852",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-44249",
+      "source": "ibm",
+      "title": "CVE-2026-44249",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-44250",
+      "source": "ibm",
+      "title": "CVE-2026-44250",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-44890",
+      "source": "ibm",
+      "title": "CVE-2026-44890",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-44892",
+      "source": "ibm",
+      "title": "CVE-2026-44892",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-44893",
+      "source": "ibm",
+      "title": "CVE-2026-44893",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-44894",
+      "source": "ibm",
+      "title": "CVE-2026-44894",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-45416",
+      "source": "ibm",
+      "title": "CVE-2026-45416",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-45536",
+      "source": "ibm",
+      "title": "CVE-2026-45536",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-45673",
+      "source": "ibm",
+      "title": "CVE-2026-45673",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-45674",
+      "source": "ibm",
+      "title": "CVE-2026-45674",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-46340",
+      "source": "ibm",
+      "title": "CVE-2026-46340",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-47244",
+      "source": "ibm",
+      "title": "CVE-2026-47244",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-47691",
+      "source": "ibm",
+      "title": "CVE-2026-47691",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-48006",
+      "source": "ibm",
+      "title": "CVE-2026-48006",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-48043",
+      "source": "ibm",
+      "title": "CVE-2026-48043",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-48059",
+      "source": "ibm",
+      "title": "CVE-2026-48059",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-48748",
+      "source": "ibm",
+      "title": "CVE-2026-48748",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-50009",
+      "source": "ibm",
+      "title": "CVE-2026-50009",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-50010",
+      "source": "ibm",
+      "title": "CVE-2026-50010",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-50011",
+      "source": "ibm",
+      "title": "CVE-2026-50011",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-50020",
+      "source": "ibm",
+      "title": "CVE-2026-50020",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    },
+    {
+      "id": "CVE-2026-50560",
+      "source": "ibm",
+      "title": "CVE-2026-50560",
+      "description": "A vulnerability was found in HdrHistogram up to 2.2.2. This issue affects the function org.HdrHistogram.DoubleHistogram.recordValue of the file src or main or java or org or HdrHistogram or DoubleHistogram.java of the component Range Check. Performing a manipulation results in incorrect comparison. The attack is only possible with local access. The exploit has been made public and could be used. The presence of this vulnerability remains uncertain at this time. This issue is disputed due to the potential lack of crossing of security boundaries and the pre-requisites for a successful attack",
+      "severity": "low",
+      "cvss_score": null,
+      "cvss_vector": null,
+      "published_date": "2026-09-12",
+      "modified_date": "2026-09-12",
+      "affected": [],
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-2026-14686",
+        "https://www.ibm.com/support/pages/node/7287274"
+      ]
+    }
+  ],
+  "exploits": [],
+  "credits": [],
+  "url": "https://www.ibm.com/support/pages/node/7287274",
+  "vendor": "ibm",
+  "references": [
+    "https://www.ibm.com/support/pages/node/7287274",
+    "https://www.ibm.com/support/pages/bulletin/"
+  ]
+}

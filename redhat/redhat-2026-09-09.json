@@ -2,12 +2,15 @@
   "id": "redhat-2026-09-09",
   "source": "redhat",
   "title": "Redhat Security Advisories - 2026-09-09",
-  "description": "Merged 34 redhat security advisories published on 2026-09-09. Original advisory IDs: RHSA-2026:66016, RHSA-2026:65993, RHSA-2026:65999, RHSA-2026:65959, RHSA-2026:65918, RHSA-2026:65886, RHSA-2026:65897, RHSA-2026:65899, RHSA-2026:65895, RHSA-2026:65900, RHSA-2026:65887, RHSA-2026:65888, RHSA-2026:65880, RHSA-2026:65832, RHSA-2026:65855, RHSA-2026:65816, RHSA-2026:65803, RHSA-2026:65763, RHSA-2026:65770, RHSA-2026:65768, RHSA-2026:65773, RHSA-2026:65766, RHSA-2026:65769, RHSA-2026:65767, RHSA-2026:65771, RHSA-2026:65765, RHSA-2026:65762, RHSA-2026:65757, RHSA-2026:65764, RHSA-2026:65708, RHSA-2026:65712, RHSA-2026:65709, RHSA-2026:65711, RHSA-2026:65710\n\nTitles:\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: qt5-qtbase security update\n- Red Hat Security Advisory: gstreamer1-plugins-good security update\n- Red Hat Security Advisory: delve security update\n- Red Hat Security Advisory: image-builder security update\n- Red Hat Security Advisory: postgresql16-postgis security update\n- Red Hat Security Advisory: openssh security update\n- Red Hat Security Advisory: perl-DBI security update\n- Red Hat Security Advisory: firefox security update\n- Red Hat Security Advisory: ignition security update\n- Red Hat Security Advisory: mrtg security update\n- Red Hat Security Advisory: freerdp security update\n- Red Hat Security Advisory: qt6-qt5compat security update\n- Red Hat Security Advisory: libvirt security update\n- Red Hat Security Advisory: glib2 security update\n- Red Hat Security Advisory: thunderbird security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update\n- Red Hat Security Advisory: kernel security update",
+  "description": "Merged 41 redhat security advisories published on 2026-09-09. Original advisory IDs: RHSA-2026:66248, RHSA-2026:66204, RHSA-2026:66203, RHSA-2026:66179, RHSA-2026:66016, RHSA-2026:66026, RHSA-2026:65993, RHSA-2026:66000, RHSA-2026:65998, RHSA-2026:65999, RHSA-2026:65959, RHSA-2026:65918, RHSA-2026:65886, RHSA-2026:65897, RHSA-2026:65899, RHSA-2026:65895, RHSA-2026:65900, RHSA-2026:65887, RHSA-2026:65888, RHSA-2026:65880, RHSA-2026:65832, RHSA-2026:65855, RHSA-2026:65816, RHSA-2026:65803, RHSA-2026:65763, RHSA-2026:65770, RHSA-2026:65768, RHSA-2026:65773, RHSA-2026:65766, RHSA-2026:65769, RHSA-2026:65767, RHSA-2026:65771, RHSA-2026:65765, RHSA-2026:65762, RHSA-2026:65757, RHSA-2026:65764, RHSA-2026:65708, RHSA-2026:65712, RHSA-2026:65709, RHSA-2026:65711, RHSA-2026:65710\n\nTitles:\n- Red Hat Security Advisory: ansible-core security update\n- Red Hat Security Advisory: python-lxml security update\n- Red Hat Security Advisory: python3.12-lxml security update\n- Red Hat Security Advisory: perl-DBI security update\n- Red Hat Security Advisory: osbuild-composer security update\n- Red Hat Security Advisory: virtuoso-opensource security update\n- Red Hat Security Advisory: qt5-qtbase security update\n- Red Hat Security Advisory: kernel security update\n- Red Hat Security Advisory: gzip security update\n- Red Hat Security Advisory: gstreamer1-plugins-good security update\n- Red Hat Security Advisory: delve security update\n- Red Hat Security Advisory: image-builder security update\n- Red Hat Security Advisory: postgresql16-postgis security update\n- Red Hat Security Advisory: openssh security update\n- Red Hat Security Advisory: firefox security update\n- Red Hat Security Advisory: ignition security update\n- Red Hat Security Advisory: mrtg security update\n- Red Hat Security Advisory: freerdp security update\n- Red Hat Security Advisory: qt6-qt5compat security update\n- Red Hat Security Advisory: libvirt security update\n- Red Hat Security Advisory: glib2 security update\n- Red Hat Security Advisory: thunderbird security update\n- Red Hat Security Advisory: kernel security, bug fix, and enhancement update",
   "severity": "important",
   "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [
+    "CWE-88",
+    "CWE-166",
+    "CWE-94",
     "CWE-457",
     "CWE-200",
     "CWE-776",
@@ -16,16 +19,18 @@
     "CWE-770",
     "CWE-79",
     "CWE-1050",
+    "CWE-89",
     "CWE-125",
+    "CWE-787",
+    "CWE-825",
+    "CWE-805",
+    "CWE-59",
     "CWE-191",
     "CWE-1341",
     "CWE-1046",
-    "CWE-825",
-    "CWE-94",
     "CWE-653",
     "CWE-266",
     "CWE-201",
-    "CWE-787",
     "CWE-497",
     "CWE-472",
     "CWE-807",
@@ -36,7 +41,6 @@
     "CWE-940",
     "CWE-360",
     "CWE-733",
-    "CWE-59",
     "CWE-120",
     "CWE-476",
     "CWE-126",
@@ -45,7 +49,6 @@
     "CWE-130",
     "CWE-1024",
     "CWE-364",
-    "CWE-805",
     "CWE-909",
     "CWE-480",
     "CWE-413",
@@ -59,15 +62,18 @@
   "impact_type": "",
   "exploitability": "",
   "published_date": "2026-09-09",
-  "modified_date": "2026-09-09",
+  "modified_date": "2026-09-12",
   "affected": [
     "redhat:Red Hat Enterprise Linux",
     "redhat:Red Hat Enterprise Linux AppStream (v. 8)",
     "redhat:Red Hat Enterprise Linux AppStream (v. 9)",
+    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
+    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)",
+    "redhat:Red Hat Enterprise Linux BaseOS (v. 8)",
+    "redhat:Red Hat Enterprise Linux CRB (v. 8)",
     "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
     "redhat:Red Hat Enterprise Linux AppStream EUS (v. 10.0)",
-    "redhat:Red Hat Enterprise Linux CRB (v. 8)",
     "redhat:Red Hat Enterprise Linux AppStream (v. 10)",
     "redhat:Red Hat Enterprise Linux BaseOS EUS (v. 10.0)",
     "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
@@ -78,8 +84,6 @@
     "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
     "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.4)",
     "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)",
-    "redhat:Red Hat Enterprise Linux Server (v. 7 ELS)",
-    "redhat:Red Hat Enterprise Linux Server Optional (v. 7 ELS)",
     "redhat:Red Hat Enterprise Linux BaseOS AUS (v.8.6)",
     "redhat:Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)",
     "redhat:Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.",
@@ -109,6 +113,15 @@
       "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
       "purl": "",
       "cves": [
+        {
+          "id": "CVE-2026-11332"
+        },
+        {
+          "id": "CVE-2026-49825"
+        },
+        {
+          "id": "CVE-2026-19546"
+        },
         {
           "id": "CVE-2024-9355"
         },
@@ -140,7 +153,37 @@
           "id": "CVE-2026-56862"
         },
         {
+          "id": "CVE-2025-61021"
+        },
+        {
           "id": "CVE-2026-9499"
+        },
+        {
+          "id": "CVE-2026-43493"
+        },
+        {
+          "id": "CVE-2026-53002"
+        },
+        {
+          "id": "CVE-2026-64007"
+        },
+        {
+          "id": "CVE-2026-64563"
+        },
+        {
+          "id": "CVE-2026-68343"
+        },
+        {
+          "id": "CVE-2026-72129"
+        },
+        {
+          "id": "CVE-2026-74480"
+        },
+        {
+          "id": "CVE-2026-41991"
+        },
+        {
+          "id": "CVE-2026-41992"
         },
         {
           "id": "CVE-2026-18649"
@@ -174,9 +217,6 @@
         },
         {
           "id": "CVE-2026-60002"
-        },
-        {
-          "id": "CVE-2026-19546"
         },
         {
           "id": "CVE-2026-74934"
@@ -413,8 +453,8 @@
       "title": "kernel: netfilter: nf_tables: don't skip expired elements during walk",
       "description": "",
       "severity": null,
-      "cvss_score": 7.0,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "published_date": "2026-09-09",
       "modified_date": "",
       "affected": [],
@@ -468,6 +508,36 @@
       ]
     },
     {
+      "id": "CVE-2025-61021",
+      "source": "redhat",
+      "title": "virtuoso-opensource: Openlink Virtuoso-opensource: Denial of Service via crafted SQL statements",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2025-61021"
+      ]
+    },
+    {
+      "id": "CVE-2026-11332",
+      "source": "redhat",
+      "title": "ansible-core: argument injection in ansible-galaxy role install leads to arbitrary code execution",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-11332"
+      ]
+    },
+    {
       "id": "CVE-2026-15588",
       "source": "redhat",
       "title": "GDBusServer: glib2: GDBusServer pre-authentication DoS via unbounded SASL line buffering",
@@ -500,7 +570,7 @@
     {
       "id": "CVE-2026-18649",
       "source": "redhat",
-      "title": "gst-plugins-good: gst-plugins-good: unbounded memory growth in rtph264depay and rtph265depay RTP depayloaders",
+      "title": "gstreamer1-plugins-good: gst-plugins-good: unbounded memory growth in rtph264depay and rtph265depay RTP depayloaders",
       "description": "",
       "severity": null,
       "cvss_score": 7.5,
@@ -648,6 +718,36 @@
       ]
     },
     {
+      "id": "CVE-2026-41991",
+      "source": "redhat",
+      "title": "gzip: gzip: Arbitrary file overwrite via insecure temporary file handling in gzexe utility",
+      "description": "",
+      "severity": null,
+      "cvss_score": 6.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:H",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-41991"
+      ]
+    },
+    {
+      "id": "CVE-2026-41992",
+      "source": "redhat",
+      "title": "gzip: gzip: Information disclosure via global buffer overflow in LZH decompression",
+      "description": "",
+      "severity": null,
+      "cvss_score": 3.6,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-41992"
+      ]
+    },
+    {
       "id": "CVE-2026-42499",
       "source": "redhat",
       "title": "net/mail: golang: net/mail: Denial of Service via pathological email address parsing",
@@ -690,6 +790,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-43114"
+      ]
+    },
+    {
+      "id": "CVE-2026-43493",
+      "source": "redhat",
+      "title": "kernel: crypto: pcrypt - Fix handling of MAY_BACKLOG requests",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-43493"
       ]
     },
     {
@@ -798,6 +913,21 @@
       ]
     },
     {
+      "id": "CVE-2026-49825",
+      "source": "redhat",
+      "title": "lxml: lxml-html-clean: lxml: URL bypass vulnerability in Cleaner via missing xlink:href",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-49825"
+      ]
+    },
+    {
       "id": "CVE-2026-52933",
       "source": "redhat",
       "title": "kernel: io_uring/poll: fix signed comparison in io_poll_get_ownership()",
@@ -810,6 +940,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-52933"
+      ]
+    },
+    {
+      "id": "CVE-2026-53002",
+      "source": "redhat",
+      "title": "kernel: netfilter: conntrack: remove sprintf usage",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-53002"
       ]
     },
     {
@@ -1128,6 +1273,21 @@
       ]
     },
     {
+      "id": "CVE-2026-64007",
+      "source": "redhat",
+      "title": "kernel: netfilter: synproxy: refresh tcphdr after skb_ensure_writable",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64007"
+      ]
+    },
+    {
       "id": "CVE-2026-64191",
       "source": "redhat",
       "title": "kernel: i2c: stub: Reject I2C block transfers with invalid length",
@@ -1188,6 +1348,21 @@
       ]
     },
     {
+      "id": "CVE-2026-64563",
+      "source": "redhat",
+      "title": "kernel: rhashtable: clear stale iter->p on table restart",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-64563"
+      ]
+    },
+    {
       "id": "CVE-2026-67288",
       "source": "redhat",
       "title": "FreeRDP: FreeRDP: Denial of Service via crafted smartcard cache requests",
@@ -1230,6 +1405,36 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-67301"
+      ]
+    },
+    {
+      "id": "CVE-2026-68343",
+      "source": "redhat",
+      "title": "kernel: smb: client: validate DFS referral PathConsumed",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-68343"
+      ]
+    },
+    {
+      "id": "CVE-2026-72129",
+      "source": "redhat",
+      "title": "kernel: nvmet-rdma: handle inline data with a nonzero offset",
+      "description": "",
+      "severity": null,
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-72129"
       ]
     },
     {
@@ -1290,6 +1495,21 @@
       "affected": [],
       "references": [
         "https://access.redhat.com/security/cve/CVE-2026-73515"
+      ]
+    },
+    {
+      "id": "CVE-2026-74480",
+      "source": "redhat",
+      "title": "kernel: net: bridge: stop fast-leave after deleting a port group",
+      "description": "",
+      "severity": null,
+      "cvss_score": 7.8,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "published_date": "2026-09-09",
+      "modified_date": "",
+      "affected": [],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-74480"
       ]
     },
     {
@@ -1775,11 +1995,18 @@
   ],
   "exploits": [],
   "credits": [],
-  "url": "https://access.redhat.com/errata/RHSA-2026:66016",
+  "url": "https://access.redhat.com/errata/RHSA-2026:66248",
   "vendor": "redhat",
   "references": [
+    "https://access.redhat.com/errata/RHSA-2026:66248",
+    "https://access.redhat.com/errata/RHSA-2026:66204",
+    "https://access.redhat.com/errata/RHSA-2026:66203",
+    "https://access.redhat.com/errata/RHSA-2026:66179",
     "https://access.redhat.com/errata/RHSA-2026:66016",
+    "https://access.redhat.com/errata/RHSA-2026:66026",
     "https://access.redhat.com/errata/RHSA-2026:65993",
+    "https://access.redhat.com/errata/RHSA-2026:66000",
+    "https://access.redhat.com/errata/RHSA-2026:65998",
     "https://access.redhat.com/errata/RHSA-2026:65999",
     "https://access.redhat.com/errata/RHSA-2026:65959",
     "https://access.redhat.com/errata/RHSA-2026:65918",
