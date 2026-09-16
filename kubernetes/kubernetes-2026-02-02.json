@@ -1,61 +1,27 @@
 {
   "id": "kubernetes-2026-02-02",
   "source": "kubernetes",
+  "vendor": "kubernetes",
   "title": "Kubernetes Security Advisories - 2026-02-02",
   "description": "Merged 4 kubernetes security advisories published on 2026-02-02. Original advisory IDs: CVE-2026-24514, CVE-2026-24513, CVE-2026-24512, CVE-2026-1580\n\nTitles:\n- ingress-nginx Admission Controller denial of service\n- ingress-nginx auth-url protection bypass\n- ingress-nginx rules.http.paths.path nginx configuration injection\n- ingress-nginx auth-method nginx configuration injection",
+  "published_date": "2026-02-02",
+  "modified_date": "2026-02-02",
   "severity": null,
-  "cvss_scores": [
-    {
-      "version": "3.1",
-      "score": null,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)",
-      "severity": ""
-    },
-    {
-      "version": "3.1",
-      "score": null,
-      "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N)",
-      "severity": ""
-    },
-    {
-      "version": "3.1",
-      "score": null,
-      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H)",
-      "severity": ""
-    }
-  ],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-02-02",
-  "modified_date": "2026-02-02",
-  "affected": [
-    "kubernetes:ingress-nginx: < 1.13.7",
-    "kubernetes:ingress-nginx: < 1.14.3",
-    "kubernetes:ingress-nginx: < v1.13.7",
-    "kubernetes:ingress-nginx: < v1.14.3"
-  ],
   "affected_products": [
     {
       "vendor": "kubernetes",
       "product": "Ingress-nginx: < 1.13.7",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:kubernetes:ingress-nginx____1.13.7:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-24514"
-        },
-        {
-          "id": "CVE-2026-24513"
-        }
+        "CVE-2026-24514",
+        "CVE-2026-24513"
       ]
     },
     {
@@ -63,19 +29,11 @@
       "product": "Ingress-nginx: < 1.14.3",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:kubernetes:ingress-nginx____1.14.3:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-24514"
-        },
-        {
-          "id": "CVE-2026-24513"
-        }
+        "CVE-2026-24514",
+        "CVE-2026-24513"
       ]
     },
     {
@@ -83,19 +41,11 @@
       "product": "Ingress-nginx: < v1.13.7",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:kubernetes:ingress-nginx____v1.13.7:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-24512"
-        },
-        {
-          "id": "CVE-2026-1580"
-        }
+        "CVE-2026-24512",
+        "CVE-2026-1580"
       ]
     },
     {
@@ -103,124 +53,22 @@
       "product": "Ingress-nginx: < v1.14.3",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:kubernetes:ingress-nginx____v1.14.3:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-24512"
-        },
-        {
-          "id": "CVE-2026-1580"
-        }
+        "CVE-2026-24512",
+        "CVE-2026-1580"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-1580",
-      "source": "kubernetes",
-      "title": "ingress-nginx auth-method nginx configuration injection",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H)",
-      "published_date": "2026-02-02",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-24512",
-      "source": "kubernetes",
-      "title": "ingress-nginx rules.http.paths.path nginx configuration injection",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H)",
-      "published_date": "2026-02-02",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-24513",
-      "source": "kubernetes",
-      "title": "ingress-nginx auth-url protection bypass",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N)",
-      "published_date": "2026-02-02",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-24514",
-      "source": "kubernetes",
-      "title": "ingress-nginx Admission Controller denial of service",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)",
-      "published_date": "2026-02-02",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    }
-  ],
-  "exploits": [],
-  "credits": [
-    {
-      "name": "This issue was discovered by Matan Shabtay.",
-      "role": "finder",
-      "url": ""
-    },
-    {
-      "name": "The issue was fixed and coordinated by Steven Jin, Marco Ebert, and Tabitha Sable",
-      "role": "finder",
-      "url": ""
-    },
-    {
-      "name": "This issue was discovered by Aurelia Schittler.",
-      "role": "finder",
-      "url": ""
-    },
-    {
-      "name": "The issue was fixed and coordinated by Tabitha Sable and Marco Ebert.",
-      "role": "finder",
-      "url": ""
-    },
-    {
-      "name": "This issue was discovered by Maxime Escourbiac and Yassine Bengana (Michelin CERT).",
-      "role": "finder",
-      "url": ""
-    },
-    {
-      "name": "The issue was fixed and coordinated by Steven Jin, Tabitha Sable, and Marco Ebert.",
-      "role": "finder",
-      "url": ""
-    },
-    {
-      "name": "This issue was discovered by Volcengine Security Team.",
-      "role": "finder",
-      "url": ""
-    },
-    {
-      "name": "The issue was fixed and coordinated by Steven Jin, Marco Ebert, and Tabitha Sable.",
-      "role": "finder",
-      "url": ""
-    }
+    "CVE-2026-1580",
+    "CVE-2026-24512",
+    "CVE-2026-24513",
+    "CVE-2026-24514"
   ],
   "url": "https://www.cve.org/cverecord?id=CVE-2026-24514",
-  "vendor": "kubernetes",
   "references": [
     "https://www.cve.org/cverecord?id=CVE-2026-24514",
     "https://github.com/kubernetes/kubernetes/issues/136680",

@@ -1,37 +1,26 @@
 {
   "id": "aws-2026-09-09",
   "source": "aws",
+  "vendor": "aws",
   "title": "Aws Security Advisories - 2026-09-09",
   "description": "Merged 2 aws security advisories published on 2026-09-09. Original advisory IDs: 2026-103-aws, 2026-104-aws\n\nTitles:\n- CVE-2026-85788 - Issue with awslabs mysql-mcp-server\n- CVE-2026-87911",
+  "published_date": "2026-09-09",
+  "modified_date": "2026-09-09",
   "severity": "high",
-  "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-09-09",
-  "modified_date": "2026-09-09",
-  "affected": [
-    "aws:We identified an issue in awslabs.mysql-mcp-server (an open-source, self-hosted Model Context Protocol server distributed via",
-    "aws:awslabs.postgres-mcp-server is a python package that implements a Postgres MCP server. We found"
-  ],
   "affected_products": [
     {
       "vendor": "aws",
       "product": "Amazon Web Services",
       "version_range": "awslabs.mysql-mcp-server ≤ 1.0.21",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-85788"
-        }
+        "CVE-2026-85788"
       ]
     },
     {
@@ -39,54 +28,19 @@
       "product": "Awslabs.postgres-mcp-server is a python package that implements a Postgres MCP server. We found",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:aws:awslabs.postgres-mcp-server_is_a_python_package_that_implements_a_postgres_mcp_server._we_found:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-87911"
-        }
+        "CVE-2026-87911"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-85788",
-      "source": "aws",
-      "title": "CVE-2026-85788",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-09",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-87911",
-      "source": "aws",
-      "title": "CVE-2026-87911",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-09",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    }
+    "CVE-2026-85788",
+    "CVE-2026-87911"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-103-aws/",
-  "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-103-aws/",
     "https://aws.amazon.com/security/security-bulletins/rss/2026-104-aws/"

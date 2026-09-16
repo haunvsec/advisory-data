@@ -1,61 +1,34 @@
 {
   "id": "2026-090-aws",
   "source": "aws",
+  "vendor": "aws",
   "title": "CVE-2026-81838 - Zip Slip path traversal in awsdac (diagram-as-code)",
   "description": "CVE-2026-81838 - Zip Slip path traversal in awsdac (diagram-as-code)\nBulletin ID:\n2026-090-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n08/27/2026 13:00 PM PDT\nLast Updated:\n08/28/2026 09:30 AM PDT\nDescription:\nawsdac (diagram-as-code) is a CLI tool that generates AWS architecture diagrams from YAML definitions, enabling version-controlled, code-driven diagramming. We identified\nCVE-2026-81838\n, a Zip Slip (path traversal) issue. When awsdac extracts a zip archive referenced by a ZipFile resource in a definition file, a crafted archive can write files outside the intended cache directory, to any path writable by the user running awsdac. Depending on the file written, this can lead to arbitrary code execution.\nLeveraging this issue requires processing a definition file from an untrusted source. This can occur when:\nawsdac is run without definition trust restrictions (versions prior to 0.22.4 had no trust distinction; version 0.22.4 and later require the --allow-untrusted-definitions flag), or\na definition file is loaded from the local filesystem (`Type: LocalFile`), which bypasses the definition URL allowlist.\nCI/CD environments that process definition files from untrusted or semi-trusted sources are the primary risk scenario.\nawsdac is a client-side CLI tool that renders architecture diagrams locally. This issue does not affect any AWS service, AWS account, or customer data. The impact is limited to the machine on which awsdac runs.\nImpacted versions:\nawsdac: versions 0.10 through 0.23 (inclusive)\nResolution:\nThis issue has been addressed in\nversion 0.24\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nIf you cannot upgrade immediately:\nOnly process definition files (including local files) from sources you trust.\nDo not run awsdac with the --allow-untrusted-definitions flag (version 0.22.4 and later).\nIn CI/CD pipelines, pin the definition files consumed by awsdac to reviewed, trusted content.\nReferences:\nCVE-2026-81838\nGHSA-hhpv-ppg2-jfj5\nAcknowledgement:\nWe would like to thank George Chen for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-08-27",
+  "modified_date": "",
   "severity": "high",
-  "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-08-27",
-  "modified_date": "",
-  "affected": [
-    "aws:awsdac (diagram-as-code) is a CLI tool that generates AWS architecture diagrams from YAML definitions, enabling version-controlled, code-driven diagramming. We identified"
-  ],
   "affected_products": [
     {
       "vendor": "aws",
       "product": "Amazon Web Services",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-81838"
-        }
+        "CVE-2026-81838"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-81838",
-      "source": "aws",
-      "title": "CVE-2026-81838",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-08-27",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    }
+    "CVE-2026-81838"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-090-aws/",
-  "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-090-aws/"
   ]

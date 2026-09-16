@@ -1,123 +1,34 @@
 {
   "id": "paloalto-2026-05-13",
   "source": "paloalto",
+  "vendor": "paloalto",
   "title": "Paloalto Security Advisories - 2026-05-13",
   "description": "Merged 2 paloalto security advisories published on 2026-05-13. Original advisory IDs: CVE-2026-0265, paloalto-2026-05-13\n\nTitles:\n- PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled\n- Paloalto Security Advisories - 2026-05-13",
+  "published_date": "2026-05-13",
+  "modified_date": "2026-05-13",
   "severity": "high",
-  "cvss_scores": [
-    {
-      "version": "3.1",
-      "score": 7.2,
-      "vector": "",
-      "severity": "high"
-    },
-    {
-      "version": "3.1",
-      "score": 6.6,
-      "vector": "",
-      "severity": "medium"
-    },
-    {
-      "version": "3.1",
-      "score": 6.1,
-      "vector": "",
-      "severity": "medium"
-    },
-    {
-      "version": "3.1",
-      "score": 4.8,
-      "vector": "",
-      "severity": "medium"
-    },
-    {
-      "version": "3.1",
-      "score": 7.8,
-      "vector": "",
-      "severity": "high"
-    },
-    {
-      "version": "3.1",
-      "score": 4.4,
-      "vector": "",
-      "severity": "medium"
-    },
-    {
-      "version": "3.1",
-      "score": 5.9,
-      "vector": "",
-      "severity": "medium"
-    },
-    {
-      "version": "3.1",
-      "score": 5.2,
-      "vector": "",
-      "severity": "medium"
-    },
-    {
-      "version": "3.1",
-      "score": 4.9,
-      "vector": "",
-      "severity": "medium"
-    },
-    {
-      "version": "3.1",
-      "score": 6.2,
-      "vector": "",
-      "severity": "medium"
-    }
-  ],
   "cvss_score": 7.8,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-05-13",
-  "modified_date": "2026-05-13",
-  "affected": [
-    "paloalto:panos",
-    "paloalto:globalprotect",
-    "paloalto:prisma"
-  ],
   "affected_products": [
     {
       "vendor": "paloalto",
       "product": "Palo Alto PAN-OS",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:paloalto:pan_os:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-0265"
-        },
-        {
-          "id": "CVE-2026-0264"
-        },
-        {
-          "id": "CVE-2026-0263"
-        },
-        {
-          "id": "CVE-2026-0262"
-        },
-        {
-          "id": "CVE-2026-0259"
-        },
-        {
-          "id": "CVE-2026-0261"
-        },
-        {
-          "id": "CVE-2026-0258"
-        },
-        {
-          "id": "CVE-2026-0257"
-        },
-        {
-          "id": "CVE-2026-0256"
-        }
+        "CVE-2026-0265",
+        "CVE-2026-0264",
+        "CVE-2026-0263",
+        "CVE-2026-0262",
+        "CVE-2026-0259",
+        "CVE-2026-0261",
+        "CVE-2026-0258",
+        "CVE-2026-0257",
+        "CVE-2026-0256"
       ]
     },
     {
@@ -125,22 +36,12 @@
       "product": "Palo Alto GlobalProtect",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:paloalto:globalprotect:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-0251"
-        },
-        {
-          "id": "CVE-2026-0250"
-        },
-        {
-          "id": "CVE-2026-0249"
-        }
+        "CVE-2026-0251",
+        "CVE-2026-0250",
+        "CVE-2026-0249"
       ]
     },
     {
@@ -148,213 +49,32 @@
       "product": "Palo Alto Prisma",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:paloalto:prisma:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-0248"
-        },
-        {
-          "id": "CVE-2026-0247"
-        }
+        "CVE-2026-0248",
+        "CVE-2026-0247"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-0247",
-      "source": "paloalto",
-      "title": "Prisma Access Agent Endpoint DLP: Authorization Bypass Vulnerabilities",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0248",
-      "source": "paloalto",
-      "title": "Prisma Access Agent: Improper Certificate Validation Vulnerability",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": 6.2,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0249",
-      "source": "paloalto",
-      "title": "GlobalProtect App: Certificate Validation Bypass Vulnerabilities",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": 4.9,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0250",
-      "source": "paloalto",
-      "title": "GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": 5.2,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0251",
-      "source": "paloalto",
-      "title": "GlobalProtect App: Local Privilege Escalation Vulnerabilities",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": 5.9,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0256",
-      "source": "paloalto",
-      "title": "PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": 4.4,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0257",
-      "source": "paloalto",
-      "title": "PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities",
-      "description": "",
-      "severity": "high",
-      "cvss_score": 7.8,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0258",
-      "source": "paloalto",
-      "title": "PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": 4.8,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0259",
-      "source": "paloalto",
-      "title": "PAN-OS: Authenticated Admin Command Injection Vulnerability",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0261",
-      "source": "paloalto",
-      "title": "PAN-OS: Authenticated Admin Command Injection Vulnerability",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": 6.1,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0262",
-      "source": "paloalto",
-      "title": "PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing",
-      "description": "",
-      "severity": "medium",
-      "cvss_score": 6.6,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0263",
-      "source": "paloalto",
-      "title": "PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing",
-      "description": "",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0264",
-      "source": "paloalto",
-      "title": "PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution",
-      "description": "",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-0265",
-      "source": "paloalto",
-      "title": "PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled",
-      "description": "",
-      "severity": "high",
-      "cvss_score": 7.2,
-      "cvss_vector": null,
-      "published_date": "2026-05-13",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    }
+    "CVE-2026-0247",
+    "CVE-2026-0248",
+    "CVE-2026-0249",
+    "CVE-2026-0250",
+    "CVE-2026-0251",
+    "CVE-2026-0256",
+    "CVE-2026-0257",
+    "CVE-2026-0258",
+    "CVE-2026-0259",
+    "CVE-2026-0261",
+    "CVE-2026-0262",
+    "CVE-2026-0263",
+    "CVE-2026-0264",
+    "CVE-2026-0265"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://security.paloaltonetworks.com/CVE-2026-0265",
-  "vendor": "paloalto",
   "references": [
     "https://security.paloaltonetworks.com/CVE-2026-0265",
     "https://security.paloaltonetworks.com/CVE-2026-0264",

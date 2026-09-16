@@ -1,37 +1,26 @@
 {
   "id": "aws-2026-09-03",
   "source": "aws",
+  "vendor": "aws",
   "title": "Aws Security Advisories - 2026-09-03",
   "description": "Merged 2 aws security advisories published on 2026-09-03. Original advisory IDs: 2026-095-aws, 2026-096-aws\n\nTitles:\n- CVE-2026-85012 - OS command injection in the Amazon CodeCatalyst blueprints SDK\n- CVE-2026-85028: Creation of Temporary File in Directory with Insecure Permissions in AWS FPGA Development Kit",
+  "published_date": "2026-09-03",
+  "modified_date": "2026-09-03",
   "severity": "high",
-  "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-09-03",
-  "modified_date": "2026-09-03",
-  "affected": [
-    "aws:Amazon CodeCatalyst blueprints are reusable project templates that generate a software project. The @amazon-codecatalyst/blueprints.blueprint npm package is the open source framework that blueprint authors build on, published from",
-    "aws:The"
-  ],
   "affected_products": [
     {
       "vendor": "aws",
       "product": "Amazon Web Services",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-85012"
-        }
+        "CVE-2026-85012"
       ]
     },
     {
@@ -39,54 +28,19 @@
       "product": "The",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:aws:the:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-85028"
-        }
+        "CVE-2026-85028"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-85012",
-      "source": "aws",
-      "title": "CVE-2026-85012",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-03",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-85028",
-      "source": "aws",
-      "title": "CVE-2026-85028",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-03",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    }
+    "CVE-2026-85012",
+    "CVE-2026-85028"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-095-aws/",
-  "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-095-aws/",
     "https://aws.amazon.com/security/security-bulletins/rss/2026-096-aws/"

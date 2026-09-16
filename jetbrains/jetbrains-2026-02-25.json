@@ -1,10 +1,12 @@
 {
   "id": "jetbrains-2026-02-25",
   "source": "jetbrains",
+  "vendor": "jetbrains",
   "title": "Jetbrains Security Advisories - 2026-02-25",
   "description": "Merged 4 jetbrains security advisories published on 2026-02-25. Original advisory IDs: CVE-2026-28196, CVE-2026-28195, CVE-2026-28194, CVE-2026-28193\n\nTitles:\n- CVE-2026-28196\n- CVE-2026-28195\n- CVE-2026-28194\n- CVE-2026-28193",
+  "published_date": "2026-02-25",
+  "modified_date": "2026-02-25",
   "severity": "high",
-  "cvss_scores": [],
   "cvss_score": 8.8,
   "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
   "cwe_ids": [
@@ -13,35 +15,18 @@
     "CWE-601"
   ],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-02-25",
-  "modified_date": "2026-02-25",
-  "affected": [
-    "jetbrains:teamcity",
-    "jetbrains:hub"
-  ],
   "affected_products": [
     {
       "vendor": "jetbrains",
       "product": "JetBrains TeamCity",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:jetbrains:teamcity:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-28196"
-        },
-        {
-          "id": "CVE-2026-28195"
-        },
-        {
-          "id": "CVE-2026-28194"
-        }
+        "CVE-2026-28196",
+        "CVE-2026-28195",
+        "CVE-2026-28194"
       ]
     },
     {
@@ -49,22 +34,12 @@
       "product": "JetBrains TeamCity",
       "version_range": "< 2025.11.3",
       "fixed_version": "2025.11.3",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:jetbrains:teamcity:2025.11.3:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-28196"
-        },
-        {
-          "id": "CVE-2026-28195"
-        },
-        {
-          "id": "CVE-2026-28194"
-        }
+        "CVE-2026-28196",
+        "CVE-2026-28195",
+        "CVE-2026-28194"
       ]
     },
     {
@@ -72,16 +47,10 @@
       "product": "JetBrains Hub",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:jetbrains:hub:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-28193"
-        }
+        "CVE-2026-28193"
       ]
     },
     {
@@ -89,88 +58,21 @@
       "product": "JetBrains YouTrack",
       "version_range": "< 2025.3.121962",
       "fixed_version": "2025.3.121962",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:jetbrains:youtrack:2025.3.121962:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-28193"
-        }
+        "CVE-2026-28193"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-28193",
-      "source": "jetbrains",
-      "title": "CVE-2026-28193",
-      "description": "In JetBrains YouTrack before 2025.3.121962 apps were able to send requests to the app permissions endpoint",
-      "severity": "high",
-      "cvss_score": 8.8,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "published_date": "2026-02-25",
-      "modified_date": "2026-02-26",
-      "affected": [],
-      "references": [
-        "https://www.jetbrains.com/privacy-security/issues-fixed/"
-      ]
-    },
-    {
-      "id": "CVE-2026-28194",
-      "source": "jetbrains",
-      "title": "CVE-2026-28194",
-      "description": "In JetBrains TeamCity before 2025.11.3 open redirect was possible in the React project creation flow",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-      "published_date": "2026-02-25",
-      "modified_date": "2026-02-25",
-      "affected": [],
-      "references": [
-        "https://www.jetbrains.com/privacy-security/issues-fixed/"
-      ]
-    },
-    {
-      "id": "CVE-2026-28195",
-      "source": "jetbrains",
-      "title": "CVE-2026-28195",
-      "description": "In JetBrains TeamCity before 2025.11.3 missing authorization allowed project developers to add parameters to build configurations",
-      "severity": "medium",
-      "cvss_score": 4.3,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
-      "published_date": "2026-02-25",
-      "modified_date": "2026-02-25",
-      "affected": [],
-      "references": [
-        "https://www.jetbrains.com/privacy-security/issues-fixed/"
-      ]
-    },
-    {
-      "id": "CVE-2026-28196",
-      "source": "jetbrains",
-      "title": "CVE-2026-28196",
-      "description": "In JetBrains TeamCity before 2025.11.3 disabling versioned settings left a credentials config on disk",
-      "severity": "low",
-      "cvss_score": 2.3,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
-      "published_date": "2026-02-25",
-      "modified_date": "2026-02-25",
-      "affected": [],
-      "references": [
-        "https://www.jetbrains.com/privacy-security/issues-fixed/"
-      ]
-    }
+    "CVE-2026-28193",
+    "CVE-2026-28194",
+    "CVE-2026-28195",
+    "CVE-2026-28196"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://www.jetbrains.com/privacy-security/issues-fixed/",
-  "vendor": "jetbrains",
   "references": [
     "https://www.jetbrains.com/privacy-security/issues-fixed/",
     "https://www.jetbrains.com/privacy-security/issues-fixed/#CVE-2026-28196",

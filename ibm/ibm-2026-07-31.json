@@ -1,51 +1,30 @@
 {
   "id": "ibm-2026-07-31",
   "source": "ibm",
+  "vendor": "ibm",
   "title": "Ibm Security Advisories - 2026-07-31",
   "description": "Merged 2 ibm security advisories published on 2026-07-31. Original advisory IDs: IBM-7282136, IBM-7282287\n\nTitles:\n- Multiple vulnerabilities in IBM Aspera Enterprise Webapps\n- IBM Financial Transaction Manager is impacted by multiple vulnerabilities in RedHat Proxy for Kubernetes RBAC authorization",
+  "published_date": "2026-07-31",
+  "modified_date": "2026-07-31",
   "severity": "critical",
-  "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-07-31",
-  "modified_date": "2026-07-31",
-  "affected": [
-    "ibm:IBM Aspera",
-    "ibm:IBM Aspera Enterprise",
-    "ibm:IBM Aspera Enterprise On Demand",
-    "ibm:IBM Financial Transaction Manager"
-  ],
   "affected_products": [
     {
       "vendor": "ibm",
       "product": "IBM Aspera",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:ibm:ibm_aspera:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-38969"
-        },
-        {
-          "id": "CVE-2026-43868"
-        },
-        {
-          "id": "CVE-2026-54297"
-        },
-        {
-          "id": "CVE-2026-55602"
-        },
-        {
-          "id": "CVE-2026-55603"
-        }
+        "CVE-2026-38969",
+        "CVE-2026-43868",
+        "CVE-2026-54297",
+        "CVE-2026-55602",
+        "CVE-2026-55603"
       ]
     },
     {
@@ -53,28 +32,14 @@
       "product": "IBM Aspera Enterprise",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:ibm:ibm_aspera_enterprise:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-38969"
-        },
-        {
-          "id": "CVE-2026-43868"
-        },
-        {
-          "id": "CVE-2026-54297"
-        },
-        {
-          "id": "CVE-2026-55602"
-        },
-        {
-          "id": "CVE-2026-55603"
-        }
+        "CVE-2026-38969",
+        "CVE-2026-43868",
+        "CVE-2026-54297",
+        "CVE-2026-55602",
+        "CVE-2026-55603"
       ]
     },
     {
@@ -82,28 +47,14 @@
       "product": "IBM Aspera Enterprise On Demand",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:ibm:ibm_aspera_enterprise_on_demand:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-38969"
-        },
-        {
-          "id": "CVE-2026-43868"
-        },
-        {
-          "id": "CVE-2026-54297"
-        },
-        {
-          "id": "CVE-2026-55602"
-        },
-        {
-          "id": "CVE-2026-55603"
-        }
+        "CVE-2026-38969",
+        "CVE-2026-43868",
+        "CVE-2026-54297",
+        "CVE-2026-55602",
+        "CVE-2026-55603"
       ]
     },
     {
@@ -111,162 +62,27 @@
       "product": "IBM Financial Transaction Manager",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:ibm:ibm_financial_transaction_manager:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-33186"
-        },
-        {
-          "id": "CVE-2026-35469"
-        },
-        {
-          "id": "CVE-2026-46579"
-        }
+        "CVE-2026-33186",
+        "CVE-2026-35469",
+        "CVE-2026-46579"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-33186",
-      "source": "ibm",
-      "title": "CVE-2026-33186",
-      "description": "gRPC-Go is the Go language implementation of gRPC. Versions prior to 1.79.3 have an authorization bypass resulting from improper input validation of the HTTP or 2 `:path` pseudo-header. The gRPC-Go server was too lenient in its routing logic, accepting requests where the `:path` omitted the mandatory leading slash (e.g., `Service or Method` instead of ` or Service or Method`). While the server successfully routed these requests to the correct handler, authorization interceptors (including the official `grpc or authz` package) evaluated the raw, non-canonical path string. Consequently, deny rules defined using canonical paths (starting with ` or `) failed to match the incoming request, allowing it to bypass the policy if a fallback allow rule was present. This affects gRPC-Go servers that use path-based authorization interceptors, such as the official RBAC implementation in `google.golang.org or grpc or authz` or custom interceptors relying on `info.FullMethod` or `grpc.Method(ctx)`; AND that have a security policy contains specific deny rules for canonical paths but allows other requests by default (a fallback allow rule). The vulnerability is exploitable by an attacker who can send raw HTTP or 2 frames with malformed `:path` headers directly to the gRPC server. The fix in version 1.79.3 ensures that any request with a `:path` that does not start with a leading slash is immediately rejected with a `codes.Unimplemented` error, preventing it from reaching authorization interceptors or handlers with a non-canonical path string. While upgrading is the most secure and recommended path, users can mitigate the vulnerability using one of the following methods: Use a validating interceptor (recommended mitigation); infrastructure-level normalization; and or or policy hardening",
-      "severity": "critical",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-31",
-      "modified_date": "2026-07-31",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-33186",
-        "https://www.ibm.com/support/pages/node/7282287"
-      ]
-    },
-    {
-      "id": "CVE-2026-35469",
-      "source": "ibm",
-      "title": "CVE-2026-35469",
-      "description": "gRPC-Go is the Go language implementation of gRPC. Versions prior to 1.79.3 have an authorization bypass resulting from improper input validation of the HTTP or 2 `:path` pseudo-header. The gRPC-Go server was too lenient in its routing logic, accepting requests where the `:path` omitted the mandatory leading slash (e.g., `Service or Method` instead of ` or Service or Method`). While the server successfully routed these requests to the correct handler, authorization interceptors (including the official `grpc or authz` package) evaluated the raw, non-canonical path string. Consequently, deny rules defined using canonical paths (starting with ` or `) failed to match the incoming request, allowing it to bypass the policy if a fallback allow rule was present. This affects gRPC-Go servers that use path-based authorization interceptors, such as the official RBAC implementation in `google.golang.org or grpc or authz` or custom interceptors relying on `info.FullMethod` or `grpc.Method(ctx)`; AND that have a security policy contains specific deny rules for canonical paths but allows other requests by default (a fallback allow rule). The vulnerability is exploitable by an attacker who can send raw HTTP or 2 frames with malformed `:path` headers directly to the gRPC server. The fix in version 1.79.3 ensures that any request with a `:path` that does not start with a leading slash is immediately rejected with a `codes.Unimplemented` error, preventing it from reaching authorization interceptors or handlers with a non-canonical path string. While upgrading is the most secure and recommended path, users can mitigate the vulnerability using one of the following methods: Use a validating interceptor (recommended mitigation); infrastructure-level normalization; and or or policy hardening",
-      "severity": "critical",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-31",
-      "modified_date": "2026-07-31",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-33186",
-        "https://www.ibm.com/support/pages/node/7282287"
-      ]
-    },
-    {
-      "id": "CVE-2026-38969",
-      "source": "ibm",
-      "title": "CVE-2026-38969",
-      "description": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-31",
-      "modified_date": "2026-07-31",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-38969",
-        "https://www.ibm.com/support/pages/node/7282136"
-      ]
-    },
-    {
-      "id": "CVE-2026-43868",
-      "source": "ibm",
-      "title": "CVE-2026-43868",
-      "description": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-31",
-      "modified_date": "2026-07-31",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-38969",
-        "https://www.ibm.com/support/pages/node/7282136"
-      ]
-    },
-    {
-      "id": "CVE-2026-46579",
-      "source": "ibm",
-      "title": "CVE-2026-46579",
-      "description": "gRPC-Go is the Go language implementation of gRPC. Versions prior to 1.79.3 have an authorization bypass resulting from improper input validation of the HTTP or 2 `:path` pseudo-header. The gRPC-Go server was too lenient in its routing logic, accepting requests where the `:path` omitted the mandatory leading slash (e.g., `Service or Method` instead of ` or Service or Method`). While the server successfully routed these requests to the correct handler, authorization interceptors (including the official `grpc or authz` package) evaluated the raw, non-canonical path string. Consequently, deny rules defined using canonical paths (starting with ` or `) failed to match the incoming request, allowing it to bypass the policy if a fallback allow rule was present. This affects gRPC-Go servers that use path-based authorization interceptors, such as the official RBAC implementation in `google.golang.org or grpc or authz` or custom interceptors relying on `info.FullMethod` or `grpc.Method(ctx)`; AND that have a security policy contains specific deny rules for canonical paths but allows other requests by default (a fallback allow rule). The vulnerability is exploitable by an attacker who can send raw HTTP or 2 frames with malformed `:path` headers directly to the gRPC server. The fix in version 1.79.3 ensures that any request with a `:path` that does not start with a leading slash is immediately rejected with a `codes.Unimplemented` error, preventing it from reaching authorization interceptors or handlers with a non-canonical path string. While upgrading is the most secure and recommended path, users can mitigate the vulnerability using one of the following methods: Use a validating interceptor (recommended mitigation); infrastructure-level normalization; and or or policy hardening",
-      "severity": "critical",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-31",
-      "modified_date": "2026-07-31",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-33186",
-        "https://www.ibm.com/support/pages/node/7282287"
-      ]
-    },
-    {
-      "id": "CVE-2026-54297",
-      "source": "ibm",
-      "title": "CVE-2026-54297",
-      "description": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-31",
-      "modified_date": "2026-07-31",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-38969",
-        "https://www.ibm.com/support/pages/node/7282136"
-      ]
-    },
-    {
-      "id": "CVE-2026-55602",
-      "source": "ibm",
-      "title": "CVE-2026-55602",
-      "description": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-31",
-      "modified_date": "2026-07-31",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-38969",
-        "https://www.ibm.com/support/pages/node/7282136"
-      ]
-    },
-    {
-      "id": "CVE-2026-55603",
-      "source": "ibm",
-      "title": "CVE-2026-55603",
-      "description": "Rejected reason: DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none",
-      "severity": "high",
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-31",
-      "modified_date": "2026-07-31",
-      "affected": [],
-      "references": [
-        "https://www.cve.org/CVERecord?id=CVE-2026-38969",
-        "https://www.ibm.com/support/pages/node/7282136"
-      ]
-    }
+    "CVE-2026-33186",
+    "CVE-2026-35469",
+    "CVE-2026-38969",
+    "CVE-2026-43868",
+    "CVE-2026-46579",
+    "CVE-2026-54297",
+    "CVE-2026-55602",
+    "CVE-2026-55603"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://www.ibm.com/support/pages/node/7282136",
-  "vendor": "ibm",
   "references": [
     "https://www.ibm.com/support/pages/node/7282136",
     "https://www.ibm.com/support/pages/bulletin/",

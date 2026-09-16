@@ -1,40 +1,27 @@
 {
   "id": "aws-2026-05-14",
   "source": "aws",
+  "vendor": "aws",
   "title": "Aws Security Advisories - 2026-05-14",
   "description": "Merged 2 aws security advisories published on 2026-05-14. Original advisory IDs: 2026-031-aws, aws-2026-05-14\n\nTitles:\n- Issue with Amazon SageMaker Python SDK - Model artifact integrity verification issues (CVE-2026-8596 &amp; CVE-2026-8597)\n- Aws Security Advisories - 2026-05-14",
+  "published_date": "2026-05-14",
+  "modified_date": "2026-05-14",
   "severity": "high",
-  "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-05-14",
-  "modified_date": "2026-05-14",
-  "affected": [
-    "aws:Amazon SageMaker Python SDK is an open-source library for training and deploying machine learning models on Amazon SageMaker. The ModelBuilder component simplifies model deployment by automating model artifact preparation and SageMaker model creation.",
-    "aws:coreMQTT"
-  ],
   "affected_products": [
     {
       "vendor": "aws",
       "product": "Amazon Web Services",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-8597"
-        },
-        {
-          "id": "CVE-2026-8596"
-        }
+        "CVE-2026-8597",
+        "CVE-2026-8596"
       ]
     },
     {
@@ -42,67 +29,20 @@
       "product": "CoreMQTT",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:aws:coremqtt:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-8686"
-        }
+        "CVE-2026-8686"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-8596",
-      "source": "aws",
-      "title": "CVE-2026-8596",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-05-14",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-8597",
-      "source": "aws",
-      "title": "CVE-2026-8597",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-05-14",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-8686",
-      "source": "aws",
-      "title": "CVE-2026-8686",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-05-14",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    }
+    "CVE-2026-8596",
+    "CVE-2026-8597",
+    "CVE-2026-8686"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-031-aws/",
-  "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-031-aws/",
     "https://aws.amazon.com/security/security-bulletins/rss/2026-032-aws/"

@@ -1,10 +1,12 @@
 {
   "id": "redhat-2026-08-20",
   "source": "redhat",
+  "vendor": "redhat",
   "title": "Redhat Security Advisories - 2026-08-20",
   "description": "Merged 6 redhat security advisories published on 2026-08-20. Original advisory IDs: RHSA-2026:57772, RHSA-2026:57785, RHSA-2026:57741, RHSA-2026:57775, RHSA-2026:57649, RHSA-2026:57641\n\nTitles:\n- Red Hat Security Advisory: dracut security update\n- Red Hat Security Advisory: libreswan security update\n- Red Hat Security Advisory: golang security update\n- Red Hat Security Advisory: mod_md security update",
-  "severity": "important",
-  "cvss_scores": [],
+  "published_date": "2026-08-20",
+  "modified_date": "2026-09-09",
+  "severity": "high",
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [
@@ -26,475 +28,70 @@
     "CWE-770"
   ],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-08-20",
-  "modified_date": "2026-09-09",
-  "affected": [
-    "redhat:Red Hat Enterprise Linux",
-    "redhat:Red Hat Enterprise Linux AppStream EUS (v.9.6)",
-    "redhat:Red Hat Enterprise Linux BaseOS EUS (v.9.6)",
-    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.4)",
-    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.4)",
-    "redhat:Red Hat Enterprise Linux AppStream E4S (v.9.2)",
-    "redhat:Red Hat Enterprise Linux BaseOS E4S (v.9.2)"
-  ],
   "affected_products": [
     {
       "vendor": "redhat",
       "product": "Red Hat Enterprise Linux",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-6893"
-        },
-        {
-          "id": "CVE-2026-15816"
-        },
-        {
-          "id": "CVE-2026-12413"
-        },
-        {
-          "id": "CVE-2026-14957"
-        },
-        {
-          "id": "CVE-2026-50721"
-        },
-        {
-          "id": "CVE-2026-50722"
-        },
-        {
-          "id": "CVE-2026-27137"
-        },
-        {
-          "id": "CVE-2026-27145"
-        },
-        {
-          "id": "CVE-2026-33810"
-        },
-        {
-          "id": "CVE-2026-33811"
-        },
-        {
-          "id": "CVE-2026-33814"
-        },
-        {
-          "id": "CVE-2026-39817"
-        },
-        {
-          "id": "CVE-2026-39819"
-        },
-        {
-          "id": "CVE-2026-39820"
-        },
-        {
-          "id": "CVE-2026-39821"
-        },
-        {
-          "id": "CVE-2026-39822"
-        },
-        {
-          "id": "CVE-2026-39823"
-        },
-        {
-          "id": "CVE-2026-39825"
-        },
-        {
-          "id": "CVE-2026-39826"
-        },
-        {
-          "id": "CVE-2026-42499"
-        },
-        {
-          "id": "CVE-2026-42501"
-        },
-        {
-          "id": "CVE-2026-42504"
-        },
-        {
-          "id": "CVE-2026-42507"
-        },
-        {
-          "id": "CVE-2026-29168"
-        }
+        "CVE-2026-6893",
+        "CVE-2026-15816",
+        "CVE-2026-12413",
+        "CVE-2026-14957",
+        "CVE-2026-50721",
+        "CVE-2026-50722",
+        "CVE-2026-27137",
+        "CVE-2026-27145",
+        "CVE-2026-33810",
+        "CVE-2026-33811",
+        "CVE-2026-33814",
+        "CVE-2026-39817",
+        "CVE-2026-39819",
+        "CVE-2026-39820",
+        "CVE-2026-39821",
+        "CVE-2026-39822",
+        "CVE-2026-39823",
+        "CVE-2026-39825",
+        "CVE-2026-39826",
+        "CVE-2026-42499",
+        "CVE-2026-42501",
+        "CVE-2026-42504",
+        "CVE-2026-42507",
+        "CVE-2026-29168"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-12413",
-      "source": "redhat",
-      "title": "librenswan: IKEv2 Denial of Service via malformed fragmentation",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-12413"
-      ]
-    },
-    {
-      "id": "CVE-2026-14957",
-      "source": "redhat",
-      "title": "libreswan: badly formatted X.509 certificate can cause an assertion failure that crashes the daemon process",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-14957"
-      ]
-    },
-    {
-      "id": "CVE-2026-15816",
-      "source": "redhat",
-      "title": "dracut: dracut: root code execution via unescaped error message written to sourced emergency hook script in die()",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-15816"
-      ]
-    },
-    {
-      "id": "CVE-2026-27137",
-      "source": "redhat",
-      "title": "crypto/x509: Incorrect enforcement of email constraints in crypto/x509",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-27137"
-      ]
-    },
-    {
-      "id": "CVE-2026-27145",
-      "source": "redhat",
-      "title": "crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-27145"
-      ]
-    },
-    {
-      "id": "CVE-2026-29168",
-      "source": "redhat",
-      "title": "httpd: mod_md: unrestricted OCSP response leads to resource exhaustion",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-29168"
-      ]
-    },
-    {
-      "id": "CVE-2026-33810",
-      "source": "redhat",
-      "title": "crypto/x509: golang: Go crypto/x509: Certificate validation bypass due to incorrect DNS constraint application",
-      "description": "",
-      "severity": null,
-      "cvss_score": 8.8,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:L",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-33810"
-      ]
-    },
-    {
-      "id": "CVE-2026-33811",
-      "source": "redhat",
-      "title": "net: golang: Go net package: Denial of Service via long CNAME response in LookupCNAME",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-33811"
-      ]
-    },
-    {
-      "id": "CVE-2026-33814",
-      "source": "redhat",
-      "title": "net/http/internal/http2: golang: golang.org/x/net: Go HTTP/2: Denial of Service via malformed SETTINGS_MAX_FRAME_SIZE frame",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-33814"
-      ]
-    },
-    {
-      "id": "CVE-2026-39817",
-      "source": "redhat",
-      "title": "cmd/go: golang: Go tool pack: Arbitrary file write via malicious archive extraction",
-      "description": "",
-      "severity": null,
-      "cvss_score": 5.9,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:N",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-39817"
-      ]
-    },
-    {
-      "id": "CVE-2026-39819",
-      "source": "redhat",
-      "title": "cmd/go: golang: Go 'go bug' command: Arbitrary file overwrite via symlink attack",
-      "description": "",
-      "severity": null,
-      "cvss_score": 4.4,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-39819"
-      ]
-    },
-    {
-      "id": "CVE-2026-39820",
-      "source": "redhat",
-      "title": "net/mail: golang: Go net/mail: Denial of Service via crafted email inputs",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-39820"
-      ]
-    },
-    {
-      "id": "CVE-2026-39821",
-      "source": "redhat",
-      "title": "golang.org/x/net/idna: golang: net/http: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing",
-      "description": "",
-      "severity": null,
-      "cvss_score": 8.2,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-39821"
-      ]
-    },
-    {
-      "id": "CVE-2026-39822",
-      "source": "redhat",
-      "title": "golang: Go os.Root: Symlink following vulnerability allows directory traversal",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.8,
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-39822"
-      ]
-    },
-    {
-      "id": "CVE-2026-39823",
-      "source": "redhat",
-      "title": "html/template: golang: Go html/template: Cross-Site Scripting via improper URL escaping in meta tag content",
-      "description": "",
-      "severity": null,
-      "cvss_score": 5.4,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-39823"
-      ]
-    },
-    {
-      "id": "CVE-2026-39825",
-      "source": "redhat",
-      "title": "net/http/httputil: golang: net/http/httputil: ReverseProxy forwards hidden query parameters, potentially bypassing security controls",
-      "description": "",
-      "severity": null,
-      "cvss_score": 6.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-39825"
-      ]
-    },
-    {
-      "id": "CVE-2026-39826",
-      "source": "redhat",
-      "title": "html/template: golang: html/template: Cross-site scripting due to incorrect script tag escaping",
-      "description": "",
-      "severity": null,
-      "cvss_score": 5.4,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-39826"
-      ]
-    },
-    {
-      "id": "CVE-2026-42499",
-      "source": "redhat",
-      "title": "net/mail: golang: net/mail: Denial of Service via pathological email address parsing",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-42499"
-      ]
-    },
-    {
-      "id": "CVE-2026-42501",
-      "source": "redhat",
-      "title": "cmd/go: golang: Go command (cmd/go): Integrity bypass due to checksum validation flaw via malicious module proxy",
-      "description": "",
-      "severity": null,
-      "cvss_score": 5.3,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-42501"
-      ]
-    },
-    {
-      "id": "CVE-2026-42504",
-      "source": "redhat",
-      "title": "mime: golang: Golang MIME: Denial of Service via maliciously-crafted MIME header",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-42504"
-      ]
-    },
-    {
-      "id": "CVE-2026-42507",
-      "source": "redhat",
-      "title": "net/textproto: golang: Golang net/textproto: Misleading error messages via input injection",
-      "description": "",
-      "severity": null,
-      "cvss_score": 5.3,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-42507"
-      ]
-    },
-    {
-      "id": "CVE-2026-50721",
-      "source": "redhat",
-      "title": "librenswan: IKEv1 Denial of Service via RSA-SHA1 (PKCS#1 Version 1.5 Encrypted) authentication payload",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-50721"
-      ]
-    },
-    {
-      "id": "CVE-2026-50722",
-      "source": "redhat",
-      "title": "librenswan: IKEv2 Denial of Service via RSA-SHA1 (PKCS#1 RSASSA-PKCS1-v1_5) authentication payload",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-50722"
-      ]
-    },
-    {
-      "id": "CVE-2026-6893",
-      "source": "redhat",
-      "title": "dracut: dracut: Root code execution via DHCP options command injection",
-      "description": "",
-      "severity": null,
-      "cvss_score": 7.5,
-      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "published_date": "2026-08-20",
-      "modified_date": "",
-      "affected": [],
-      "references": [
-        "https://access.redhat.com/security/cve/CVE-2026-6893"
-      ]
-    }
+    "CVE-2026-12413",
+    "CVE-2026-14957",
+    "CVE-2026-15816",
+    "CVE-2026-27137",
+    "CVE-2026-27145",
+    "CVE-2026-29168",
+    "CVE-2026-33810",
+    "CVE-2026-33811",
+    "CVE-2026-33814",
+    "CVE-2026-39817",
+    "CVE-2026-39819",
+    "CVE-2026-39820",
+    "CVE-2026-39821",
+    "CVE-2026-39822",
+    "CVE-2026-39823",
+    "CVE-2026-39825",
+    "CVE-2026-39826",
+    "CVE-2026-42499",
+    "CVE-2026-42501",
+    "CVE-2026-42504",
+    "CVE-2026-42507",
+    "CVE-2026-50721",
+    "CVE-2026-50722",
+    "CVE-2026-6893"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://access.redhat.com/errata/RHSA-2026:57772",
-  "vendor": "redhat",
   "references": [
     "https://access.redhat.com/errata/RHSA-2026:57772",
     "https://access.redhat.com/errata/RHSA-2026:57785",

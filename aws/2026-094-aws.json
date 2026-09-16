@@ -1,61 +1,34 @@
 {
   "id": "2026-094-aws",
   "source": "aws",
+  "vendor": "aws",
   "title": "CVE-2026-84851- Uncontrolled recursion in the Ion reader in Amazon Ion-C before 1.1.6",
   "description": "CVE-2026-84851- Uncontrolled recursion in the Ion reader in Amazon Ion-C before 1.1.6\nBulletin ID:\n2026-094-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n09/02/2026 13:30 PM PDT\nDescription:\nAmazon Ion-C (ion-c) is the C implementation of the Amazon Ion data serialization format. It is distributed as an open-source library (amazon-ion/ion-c) that applications embed to read and write Ion text and binary data. We identified\nCVE-2026-84851\n, an uncontrolled recursion issue in versions before 1.1.6 that might allow a remote unauthenticated actor to craft Ion data that exhausts the native call stack and crashes the application using the library, resulting in a denial of service.\nImpacted versions:\n< 1.1.6\nResolution:\nThis issue has been addressed in\nion-c version 1.1.6\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fix, which sets a default recursion depth limit. When this limit is exceeded, IERR_STACK_OVERFLOW is raised, allowing the application to handle the error and continue.\nWorkarounds:\nPrior to 1.1.6, unbounded recursion can be avoided by discontinuing use of ion-c APIs that automatically re-write the data being read by an ion_reader (ion_writer_write_one_value / ion_writer_write_all_values), replacing this logic with code that manually walks the value tree (either iteratively, or recursively with a manually enforced depth limit). In version 1.1.6, a default recursion depth limit is automatically enforced.\nReferences:\nCVE-2026-84851\nGHSA-9gfg-hgj4-gh44\nAcknowledgement:\nWe would like to thank Asadbek Fatullayev for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-09-02",
+  "modified_date": "",
   "severity": "high",
-  "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-09-02",
-  "modified_date": "",
-  "affected": [
-    "aws:Amazon Ion-C (ion-c) is the C implementation of the Amazon Ion data serialization format. It is distributed as an open-source library (amazon-ion/ion-c) that applications embed to read and write Ion text and binary data. We identified"
-  ],
   "affected_products": [
     {
       "vendor": "aws",
       "product": "Amazon Web Services",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-84851"
-        }
+        "CVE-2026-84851"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-84851",
-      "source": "aws",
-      "title": "CVE-2026-84851",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-02",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    }
+    "CVE-2026-84851"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-094-aws/",
-  "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-094-aws/"
   ]

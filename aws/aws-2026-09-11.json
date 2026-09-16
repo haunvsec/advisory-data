@@ -1,48 +1,29 @@
 {
   "id": "aws-2026-09-11",
   "source": "aws",
+  "vendor": "aws",
   "title": "Aws Security Advisories - 2026-09-11",
   "description": "Merged 4 aws security advisories published on 2026-09-11. Original advisory IDs: 2026-111-aws, 2026-110-aws, 2026-109-aws, 2026-108-aws\n\nTitles:\n- CVE-2026-89332 - Kiro IDE Sensitive Workspace Data Exfiltration via Agent-Written Workspace Configuration\n- CVE-2026-89090 - Denial of service in the event stream header decoder in AWS SDK for Go v2\n- CVE-2026-18061 - XML External Entity (XXE) in AWS Advanced JDBC Wrapper RemoteQueryCachePlugin\n- CVE-2026-89065 and CVE-2026-89066: Issue with projen - Path traversal and OS command injection",
+  "published_date": "2026-09-11",
+  "modified_date": "2026-09-11",
   "severity": "high",
-  "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-09-11",
-  "modified_date": "2026-09-11",
-  "affected": [
-    "aws:Kiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents.",
-    "aws:An issue exists in the the EventStream header decoder in AWS SDK for Go v2 in versions predating",
-    "aws:The",
-    "aws:projen is an open-source tool for defining and synthesizing software project configurations as code. AWS identified two issues in projen affecting the generated file manifest cleanup component and the task synthesis component."
-  ],
   "affected_products": [
     {
       "vendor": "aws",
       "product": "Amazon Web Services",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-89332"
-        },
-        {
-          "id": "CVE-2026-89090"
-        },
-        {
-          "id": "CVE-2026-89066"
-        },
-        {
-          "id": "CVE-2026-89065"
-        }
+        "CVE-2026-89332",
+        "CVE-2026-89090",
+        "CVE-2026-89066",
+        "CVE-2026-89065"
       ]
     },
     {
@@ -50,93 +31,22 @@
       "product": "The",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:aws:the:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-18061"
-        }
+        "CVE-2026-18061"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-18061",
-      "source": "aws",
-      "title": "CVE-2026-18061",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-11",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-89065",
-      "source": "aws",
-      "title": "CVE-2026-89065",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-11",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-89066",
-      "source": "aws",
-      "title": "CVE-2026-89066",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-11",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-89090",
-      "source": "aws",
-      "title": "CVE-2026-89090",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-11",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-89332",
-      "source": "aws",
-      "title": "CVE-2026-89332",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-09-11",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    }
+    "CVE-2026-18061",
+    "CVE-2026-89065",
+    "CVE-2026-89066",
+    "CVE-2026-89090",
+    "CVE-2026-89332"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-111-aws/",
-  "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-111-aws/",
     "https://aws.amazon.com/security/security-bulletins/rss/2026-110-aws/",

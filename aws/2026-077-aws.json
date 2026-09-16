@@ -1,61 +1,34 @@
 {
   "id": "2026-077-aws",
   "source": "aws",
+  "vendor": "aws",
   "title": "CVE-2026-19111 - Insecure direct object reference in Strands Agents Tools memory tools",
   "description": "CVE-2026-19111 - Insecure direct object reference in Strands Agents Tools memory tools\nBulletin ID:\n2026-077-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n08/06/2026 11:00 AM PDT\nDescription:\nStrands Agents is an open-source SDK for building AI agents. The strands-agents-tools package provides pre-built tools for use with the SDK, including the mongodb_memory, elasticsearch_memory, and mem0_memory tools for storing and retrieving agent memories.\nWe identified\nCVE-2026-19111\n, an insecure direct object reference (IDOR) issue in the mongodb_memory, elasticsearch_memory, and mem0_memory tools. Each tool uses a namespace field as the sole tenant-isolation key, and that namespace was exposed as a parameter the large language model (LLM) could control through the tool schema. A crafted prompt could cause a tool to emit a call with a forged namespace, allowing a remote authenticated user to read, modify, or delete memories belonging to other tenants, or to inject false memories into another tenant's namespace. The standalone mongodb_memory and elasticsearch_memory functions additionally exposed connection parameters, which could allow the memory layer to be redirected to an actor-specified cluster.\nImpacted versions:\n< 0.8.3\nResolution:\nThis issue has been addressed in\nstrands-agents-tools version 0.8.3\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nUntil you can upgrade, do not deploy the mongodb_memory, elasticsearch_memory, or mem0_memory tools in multi-tenant agents where end users share a single agent deployment. Restrict these tools to single-tenant deployments in which every request maps to one fixed namespace, and do not use the standalone mongodb_memory or elasticsearch_memory functions that accept connection parameters.\nReferences:\nCVE-2026-19111\nGHSA-mpxq-953j-42m4\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-08-06",
+  "modified_date": "",
   "severity": "high",
-  "cvss_scores": [],
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-08-06",
-  "modified_date": "",
-  "affected": [
-    "aws:Strands Agents is an open-source SDK for building AI agents. The strands-agents-tools package provides pre-built tools for use with the SDK, including the mongodb_memory, elasticsearch_memory, and mem0_memory tools for storing and retrieving agent memories."
-  ],
   "affected_products": [
     {
       "vendor": "aws",
       "product": "Amazon Web Services",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:amazon:web_services:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-19111"
-        }
+        "CVE-2026-19111"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2026-19111",
-      "source": "aws",
-      "title": "CVE-2026-19111",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-08-06",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    }
+    "CVE-2026-19111"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-077-aws/",
-  "vendor": "aws",
   "references": [
     "https://aws.amazon.com/security/security-bulletins/rss/2026-077-aws/"
   ]

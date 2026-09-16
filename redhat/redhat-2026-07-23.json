@@ -1,1629 +1,230 @@
 {
   "id": "redhat-2026-07-23",
   "source": "redhat",
+  "vendor": "redhat",
   "title": "Redhat Security Advisories - 2026-07-23",
   "description": "Merged 44 redhat security advisories published on 2026-07-23. Original advisory IDs: RHSA-2026:44694, RHSA-2026:44696, RHSA-2026:44624, RHSA-2026:44622, RHSA-2026:44568, RHSA-2026:42877, RHSA-2026:44522, RHSA-2026:44438, RHSA-2026:44480, RHSA-2026:40030, RHSA-2026:44481, RHSA-2026:44479, RHSA-2026:44385, RHSA-2026:44391, RHSA-2026:42876, RHSA-2026:44420, RHSA-2026:44451, RHSA-2026:42900, RHSA-2026:42897, RHSA-2026:42898, RHSA-2026:42893, RHSA-2026:42889, RHSA-2026:42878, RHSA-2026:42879, RHSA-2026:44430, RHSA-2026:44427, RHSA-2026:44426, RHSA-2026:44416, RHSA-2026:44355, RHSA-2026:44373, RHSA-2026:44357, RHSA-2026:44308, RHSA-2026:42882, RHSA-2026:42881, RHSA-2026:44343, RHSA-2026:44270, RHSA-2026:42880, RHSA-2026:40021, RHSA-2026:40022, RHSA-2026:44271, RHSA-2026:40023, RHSA-2026:42895, RHSA-2026:44162, RHSA-2026:44152\n\nTitles:\n- RHSA-2026:44694 Security Advisory\n- RHSA-2026:44696 Security Advisory\n- RHSA-2026:44624 Security Advisory\n- RHSA-2026:44622 Security Advisory\n- RHSA-2026:44568 Security Advisory\n- RHSA-2026:42877 Security Advisory\n- RHSA-2026:44522 Security Advisory\n- RHSA-2026:44438 Security Advisory\n- RHSA-2026:44480 Security Advisory\n- RHSA-2026:40030 Security Advisory\n- RHSA-2026:44481 Security Advisory\n- RHSA-2026:44479 Security Advisory\n- RHSA-2026:44385 Security Advisory\n- RHSA-2026:44391 Security Advisory\n- RHSA-2026:42876 Security Advisory\n- RHSA-2026:44420 Security Advisory\n- RHSA-2026:44451 Security Advisory\n- RHSA-2026:42900 Security Advisory\n- RHSA-2026:42897 Security Advisory\n- RHSA-2026:42898 Security Advisory\n- RHSA-2026:42893 Security Advisory\n- RHSA-2026:42889 Security Advisory\n- RHSA-2026:42878 Security Advisory\n- RHSA-2026:42879 Security Advisory\n- RHSA-2026:44430 Security Advisory\n- RHSA-2026:44427 Security Advisory\n- RHSA-2026:44426 Security Advisory\n- RHSA-2026:44416 Security Advisory\n- RHSA-2026:44355 Security Advisory\n- RHSA-2026:44373 Security Advisory\n- RHSA-2026:44357 Security Advisory\n- RHSA-2026:44308 Security Advisory\n- RHSA-2026:42882 Security Advisory\n- RHSA-2026:42881 Security Advisory\n- RHSA-2026:44343 Security Advisory\n- RHSA-2026:44270 Security Advisory\n- RHSA-2026:42880 Security Advisory\n- RHSA-2026:40021 Security Advisory\n- RHSA-2026:40022 Security Advisory\n- RHSA-2026:44271 Security Advisory\n- RHSA-2026:40023 Security Advisory\n- RHSA-2026:42895 Security Advisory\n- RHSA-2026:44162 Security Advisory\n- RHSA-2026:44152 Security Advisory",
-  "severity": "important",
-  "cvss_scores": [],
+  "published_date": "2026-07-23",
+  "modified_date": "2026-07-23",
+  "severity": "high",
   "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
-  "exploitability": "",
-  "published_date": "2026-07-23",
-  "modified_date": "2026-07-23",
-  "affected": [
-    "redhat:rhel"
-  ],
   "affected_products": [
     {
       "vendor": "redhat",
       "product": "Red Hat Enterprise Linux",
       "version_range": "",
       "fixed_version": "",
-      "fixed_kb": "",
-      "remediation_url": "",
-      "supercedence": "",
-      "restart_required": "",
-      "cpe": "cpe:2.3:a:redhat:enterprise_linux:*:*:*:*:*:*:*:*",
+      "cpe": "",
       "purl": "",
       "cves": [
-        {
-          "id": "CVE-2026-31684"
-        },
-        {
-          "id": "CVE-2026-43190"
-        },
-        {
-          "id": "CVE-2026-46152"
-        },
-        {
-          "id": "CVE-2025-62727"
-        },
-        {
-          "id": "CVE-2025-66418"
-        },
-        {
-          "id": "CVE-2025-66471"
-        },
-        {
-          "id": "CVE-2026-21441"
-        },
-        {
-          "id": "CVE-2026-24486"
-        },
-        {
-          "id": "CVE-2026-42561"
-        },
-        {
-          "id": "CVE-2026-44431"
-        },
-        {
-          "id": "CVE-2026-48710"
-        },
-        {
-          "id": "CVE-2026-54283"
-        },
-        {
-          "id": "CVE-2026-5435"
-        },
-        {
-          "id": "CVE-2026-5928"
-        },
-        {
-          "id": "CVE-2026-6238"
-        },
-        {
-          "id": "CVE-2026-39821"
-        },
-        {
-          "id": "CVE-2026-39822"
-        },
-        {
-          "id": "CVE-2026-25681"
-        },
-        {
-          "id": "CVE-2026-27136"
-        },
-        {
-          "id": "CVE-2026-27145"
-        },
-        {
-          "id": "CVE-2026-33376"
-        },
-        {
-          "id": "CVE-2026-33377"
-        },
-        {
-          "id": "CVE-2026-33811"
-        },
-        {
-          "id": "CVE-2026-41567"
-        },
-        {
-          "id": "CVE-2026-42151"
-        },
-        {
-          "id": "CVE-2026-42154"
-        },
-        {
-          "id": "CVE-2026-43870"
-        },
-        {
-          "id": "CVE-2026-46384"
-        },
-        {
-          "id": "CVE-2026-46385"
-        },
-        {
-          "id": "CVE-2026-53488"
-        },
-        {
-          "id": "CVE-2026-53492"
-        },
-        {
-          "id": "CVE-2026-55677"
-        },
-        {
-          "id": "CVE-2026-6473"
-        },
-        {
-          "id": "CVE-2026-6479"
-        },
-        {
-          "id": "CVE-2026-41254"
-        },
-        {
-          "id": "CVE-2026-46968"
-        },
-        {
-          "id": "CVE-2026-47010"
-        },
-        {
-          "id": "CVE-2026-47021"
-        },
-        {
-          "id": "CVE-2026-47027"
-        },
-        {
-          "id": "CVE-2026-47057"
-        },
-        {
-          "id": "CVE-2026-47058"
-        },
-        {
-          "id": "CVE-2026-47059"
-        },
-        {
-          "id": "CVE-2026-47063"
-        },
-        {
-          "id": "CVE-2026-60147"
-        },
-        {
-          "id": "CVE-2026-43279"
-        },
-        {
-          "id": "CVE-2026-45447"
-        },
-        {
-          "id": "CVE-2026-28390"
-        },
-        {
-          "id": "CVE-2026-33186"
-        },
-        {
-          "id": "CVE-2026-35469"
-        },
-        {
-          "id": "CVE-2024-34459"
-        },
-        {
-          "id": "CVE-2025-5278"
-        },
-        {
-          "id": "CVE-2025-6170"
-        },
-        {
-          "id": "CVE-2025-10911"
-        },
-        {
-          "id": "CVE-2025-13151"
-        },
-        {
-          "id": "CVE-2026-5450"
-        },
-        {
-          "id": "CVE-2026-6472"
-        },
-        {
-          "id": "CVE-2026-6474"
-        },
-        {
-          "id": "CVE-2026-6475"
-        },
-        {
-          "id": "CVE-2026-6477"
-        },
-        {
-          "id": "CVE-2026-6478"
-        },
-        {
-          "id": "CVE-2026-6637"
-        },
-        {
-          "id": "CVE-2026-9256"
-        },
-        {
-          "id": "CVE-2026-15308"
-        },
-        {
-          "id": "CVE-2026-31790"
-        },
-        {
-          "id": "CVE-2026-41411"
-        },
-        {
-          "id": "CVE-2026-42055"
-        },
-        {
-          "id": "CVE-2026-44432"
-        },
-        {
-          "id": "CVE-2026-48864"
-        },
-        {
-          "id": "CVE-2026-54369"
-        },
-        {
-          "id": "CVE-2026-54370"
-        },
-        {
-          "id": "CVE-2026-58016"
-        },
-        {
-          "id": "CVE-2026-56852"
-        },
-        {
-          "id": "CVE-2024-46738"
-        },
-        {
-          "id": "CVE-2024-50076"
-        },
-        {
-          "id": "CVE-2025-39982"
-        },
-        {
-          "id": "CVE-2026-31488"
-        },
-        {
-          "id": "CVE-2026-31613"
-        },
-        {
-          "id": "CVE-2026-46116"
-        },
-        {
-          "id": "CVE-2026-46209"
-        },
-        {
-          "id": "CVE-2026-46917"
-        },
-        {
-          "id": "CVE-2026-43513"
-        },
-        {
-          "id": "CVE-2026-67322"
-        },
-        {
-          "id": "CVE-2026-67323"
-        },
-        {
-          "id": "CVE-2026-67325"
-        },
-        {
-          "id": "CVE-2026-67326"
-        },
-        {
-          "id": "CVE-2026-42006"
-        },
-        {
-          "id": "CVE-2026-59676"
-        },
-        {
-          "id": "CVE-2026-59677"
-        },
-        {
-          "id": "CVE-2026-46323"
-        },
-        {
-          "id": "CVE-2026-1519"
-        },
-        {
-          "id": "CVE-2026-46243"
-        },
-        {
-          "id": "CVE-2026-46331"
-        },
-        {
-          "id": "CVE-2026-29063"
-        },
-        {
-          "id": "CVE-2026-46579"
-        },
-        {
-          "id": "CVE-2026-54512"
-        },
-        {
-          "id": "CVE-2026-54513"
-        },
-        {
-          "id": "CVE-2026-49834"
-        },
-        {
-          "id": "CVE-2026-54787"
-        },
-        {
-          "id": "CVE-2026-15788"
-        }
+        "CVE-2026-31684",
+        "CVE-2026-43190",
+        "CVE-2026-46152",
+        "CVE-2025-62727",
+        "CVE-2025-66418",
+        "CVE-2025-66471",
+        "CVE-2026-21441",
+        "CVE-2026-24486",
+        "CVE-2026-42561",
+        "CVE-2026-44431",
+        "CVE-2026-48710",
+        "CVE-2026-54283",
+        "CVE-2026-5435",
+        "CVE-2026-5928",
+        "CVE-2026-6238",
+        "CVE-2026-39821",
+        "CVE-2026-39822",
+        "CVE-2026-25681",
+        "CVE-2026-27136",
+        "CVE-2026-27145",
+        "CVE-2026-33376",
+        "CVE-2026-33377",
+        "CVE-2026-33811",
+        "CVE-2026-41567",
+        "CVE-2026-42151",
+        "CVE-2026-42154",
+        "CVE-2026-43870",
+        "CVE-2026-46384",
+        "CVE-2026-46385",
+        "CVE-2026-53488",
+        "CVE-2026-53492",
+        "CVE-2026-55677",
+        "CVE-2026-6473",
+        "CVE-2026-6479",
+        "CVE-2026-41254",
+        "CVE-2026-46968",
+        "CVE-2026-47010",
+        "CVE-2026-47021",
+        "CVE-2026-47027",
+        "CVE-2026-47057",
+        "CVE-2026-47058",
+        "CVE-2026-47059",
+        "CVE-2026-47063",
+        "CVE-2026-60147",
+        "CVE-2026-43279",
+        "CVE-2026-45447",
+        "CVE-2026-28390",
+        "CVE-2026-33186",
+        "CVE-2026-35469",
+        "CVE-2024-34459",
+        "CVE-2025-5278",
+        "CVE-2025-6170",
+        "CVE-2025-10911",
+        "CVE-2025-13151",
+        "CVE-2026-5450",
+        "CVE-2026-6472",
+        "CVE-2026-6474",
+        "CVE-2026-6475",
+        "CVE-2026-6477",
+        "CVE-2026-6478",
+        "CVE-2026-6637",
+        "CVE-2026-9256",
+        "CVE-2026-15308",
+        "CVE-2026-31790",
+        "CVE-2026-41411",
+        "CVE-2026-42055",
+        "CVE-2026-44432",
+        "CVE-2026-48864",
+        "CVE-2026-54369",
+        "CVE-2026-54370",
+        "CVE-2026-58016",
+        "CVE-2026-56852",
+        "CVE-2024-46738",
+        "CVE-2024-50076",
+        "CVE-2025-39982",
+        "CVE-2026-31488",
+        "CVE-2026-31613",
+        "CVE-2026-46116",
+        "CVE-2026-46209",
+        "CVE-2026-46917",
+        "CVE-2026-43513",
+        "CVE-2026-67322",
+        "CVE-2026-67323",
+        "CVE-2026-67325",
+        "CVE-2026-67326",
+        "CVE-2026-42006",
+        "CVE-2026-59676",
+        "CVE-2026-59677",
+        "CVE-2026-46323",
+        "CVE-2026-1519",
+        "CVE-2026-46243",
+        "CVE-2026-46331",
+        "CVE-2026-29063",
+        "CVE-2026-46579",
+        "CVE-2026-54512",
+        "CVE-2026-54513",
+        "CVE-2026-49834",
+        "CVE-2026-54787",
+        "CVE-2026-15788"
       ]
     }
   ],
-  "fixed_versions": [],
-  "solution": "",
   "remediations": [],
   "cves": [
-    {
-      "id": "CVE-2024-34459",
-      "source": "redhat",
-      "title": "CVE-2024-34459",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2024-46738",
-      "source": "redhat",
-      "title": "CVE-2024-46738",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2024-50076",
-      "source": "redhat",
-      "title": "CVE-2024-50076",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2025-10911",
-      "source": "redhat",
-      "title": "CVE-2025-10911",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2025-13151",
-      "source": "redhat",
-      "title": "CVE-2025-13151",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2025-39982",
-      "source": "redhat",
-      "title": "CVE-2025-39982",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2025-5278",
-      "source": "redhat",
-      "title": "CVE-2025-5278",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2025-6170",
-      "source": "redhat",
-      "title": "CVE-2025-6170",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2025-62727",
-      "source": "redhat",
-      "title": "CVE-2025-62727",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2025-66418",
-      "source": "redhat",
-      "title": "CVE-2025-66418",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2025-66471",
-      "source": "redhat",
-      "title": "CVE-2025-66471",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-1519",
-      "source": "redhat",
-      "title": "CVE-2026-1519",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-15308",
-      "source": "redhat",
-      "title": "CVE-2026-15308",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-15788",
-      "source": "redhat",
-      "title": "CVE-2026-15788",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-21441",
-      "source": "redhat",
-      "title": "CVE-2026-21441",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-24486",
-      "source": "redhat",
-      "title": "CVE-2026-24486",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-25681",
-      "source": "redhat",
-      "title": "CVE-2026-25681",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-27136",
-      "source": "redhat",
-      "title": "CVE-2026-27136",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-27145",
-      "source": "redhat",
-      "title": "CVE-2026-27145",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-28390",
-      "source": "redhat",
-      "title": "CVE-2026-28390",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-29063",
-      "source": "redhat",
-      "title": "CVE-2026-29063",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-31488",
-      "source": "redhat",
-      "title": "CVE-2026-31488",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-31613",
-      "source": "redhat",
-      "title": "CVE-2026-31613",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-31684",
-      "source": "redhat",
-      "title": "CVE-2026-31684",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-31790",
-      "source": "redhat",
-      "title": "CVE-2026-31790",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-33186",
-      "source": "redhat",
-      "title": "CVE-2026-33186",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-33376",
-      "source": "redhat",
-      "title": "CVE-2026-33376",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-33377",
-      "source": "redhat",
-      "title": "CVE-2026-33377",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-33811",
-      "source": "redhat",
-      "title": "CVE-2026-33811",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-35469",
-      "source": "redhat",
-      "title": "CVE-2026-35469",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-39821",
-      "source": "redhat",
-      "title": "CVE-2026-39821",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-39822",
-      "source": "redhat",
-      "title": "CVE-2026-39822",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-41254",
-      "source": "redhat",
-      "title": "CVE-2026-41254",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-41411",
-      "source": "redhat",
-      "title": "CVE-2026-41411",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-41567",
-      "source": "redhat",
-      "title": "CVE-2026-41567",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-42006",
-      "source": "redhat",
-      "title": "CVE-2026-42006",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-42055",
-      "source": "redhat",
-      "title": "CVE-2026-42055",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-42151",
-      "source": "redhat",
-      "title": "CVE-2026-42151",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-42154",
-      "source": "redhat",
-      "title": "CVE-2026-42154",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-42561",
-      "source": "redhat",
-      "title": "CVE-2026-42561",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-43190",
-      "source": "redhat",
-      "title": "CVE-2026-43190",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-43279",
-      "source": "redhat",
-      "title": "CVE-2026-43279",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-43513",
-      "source": "redhat",
-      "title": "CVE-2026-43513",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-43870",
-      "source": "redhat",
-      "title": "CVE-2026-43870",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-44431",
-      "source": "redhat",
-      "title": "CVE-2026-44431",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-44432",
-      "source": "redhat",
-      "title": "CVE-2026-44432",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-45447",
-      "source": "redhat",
-      "title": "CVE-2026-45447",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46116",
-      "source": "redhat",
-      "title": "CVE-2026-46116",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46152",
-      "source": "redhat",
-      "title": "CVE-2026-46152",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46209",
-      "source": "redhat",
-      "title": "CVE-2026-46209",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46243",
-      "source": "redhat",
-      "title": "CVE-2026-46243",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46323",
-      "source": "redhat",
-      "title": "CVE-2026-46323",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46331",
-      "source": "redhat",
-      "title": "CVE-2026-46331",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46384",
-      "source": "redhat",
-      "title": "CVE-2026-46384",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46385",
-      "source": "redhat",
-      "title": "CVE-2026-46385",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46579",
-      "source": "redhat",
-      "title": "CVE-2026-46579",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46917",
-      "source": "redhat",
-      "title": "CVE-2026-46917",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-46968",
-      "source": "redhat",
-      "title": "CVE-2026-46968",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-47010",
-      "source": "redhat",
-      "title": "CVE-2026-47010",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-47021",
-      "source": "redhat",
-      "title": "CVE-2026-47021",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-47027",
-      "source": "redhat",
-      "title": "CVE-2026-47027",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-47057",
-      "source": "redhat",
-      "title": "CVE-2026-47057",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-47058",
-      "source": "redhat",
-      "title": "CVE-2026-47058",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-47059",
-      "source": "redhat",
-      "title": "CVE-2026-47059",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-47063",
-      "source": "redhat",
-      "title": "CVE-2026-47063",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-48710",
-      "source": "redhat",
-      "title": "CVE-2026-48710",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-48864",
-      "source": "redhat",
-      "title": "CVE-2026-48864",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-49834",
-      "source": "redhat",
-      "title": "CVE-2026-49834",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-53488",
-      "source": "redhat",
-      "title": "CVE-2026-53488",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-53492",
-      "source": "redhat",
-      "title": "CVE-2026-53492",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-54283",
-      "source": "redhat",
-      "title": "CVE-2026-54283",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-5435",
-      "source": "redhat",
-      "title": "CVE-2026-5435",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-54369",
-      "source": "redhat",
-      "title": "CVE-2026-54369",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-54370",
-      "source": "redhat",
-      "title": "CVE-2026-54370",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-5450",
-      "source": "redhat",
-      "title": "CVE-2026-5450",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-54512",
-      "source": "redhat",
-      "title": "CVE-2026-54512",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-54513",
-      "source": "redhat",
-      "title": "CVE-2026-54513",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-54787",
-      "source": "redhat",
-      "title": "CVE-2026-54787",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-55677",
-      "source": "redhat",
-      "title": "CVE-2026-55677",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-56852",
-      "source": "redhat",
-      "title": "CVE-2026-56852",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-58016",
-      "source": "redhat",
-      "title": "CVE-2026-58016",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-5928",
-      "source": "redhat",
-      "title": "CVE-2026-5928",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-59676",
-      "source": "redhat",
-      "title": "CVE-2026-59676",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-59677",
-      "source": "redhat",
-      "title": "CVE-2026-59677",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-60147",
-      "source": "redhat",
-      "title": "CVE-2026-60147",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-6238",
-      "source": "redhat",
-      "title": "CVE-2026-6238",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-6472",
-      "source": "redhat",
-      "title": "CVE-2026-6472",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-6473",
-      "source": "redhat",
-      "title": "CVE-2026-6473",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-6474",
-      "source": "redhat",
-      "title": "CVE-2026-6474",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-6475",
-      "source": "redhat",
-      "title": "CVE-2026-6475",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-6477",
-      "source": "redhat",
-      "title": "CVE-2026-6477",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-6478",
-      "source": "redhat",
-      "title": "CVE-2026-6478",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-6479",
-      "source": "redhat",
-      "title": "CVE-2026-6479",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-6637",
-      "source": "redhat",
-      "title": "CVE-2026-6637",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-67322",
-      "source": "redhat",
-      "title": "CVE-2026-67322",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-67323",
-      "source": "redhat",
-      "title": "CVE-2026-67323",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-67325",
-      "source": "redhat",
-      "title": "CVE-2026-67325",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-67326",
-      "source": "redhat",
-      "title": "CVE-2026-67326",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    },
-    {
-      "id": "CVE-2026-9256",
-      "source": "redhat",
-      "title": "CVE-2026-9256",
-      "description": "",
-      "severity": null,
-      "cvss_score": null,
-      "cvss_vector": null,
-      "published_date": "2026-07-23",
-      "modified_date": "",
-      "affected": [],
-      "references": []
-    }
+    "CVE-2024-34459",
+    "CVE-2024-46738",
+    "CVE-2024-50076",
+    "CVE-2025-10911",
+    "CVE-2025-13151",
+    "CVE-2025-39982",
+    "CVE-2025-5278",
+    "CVE-2025-6170",
+    "CVE-2025-62727",
+    "CVE-2025-66418",
+    "CVE-2025-66471",
+    "CVE-2026-1519",
+    "CVE-2026-15308",
+    "CVE-2026-15788",
+    "CVE-2026-21441",
+    "CVE-2026-24486",
+    "CVE-2026-25681",
+    "CVE-2026-27136",
+    "CVE-2026-27145",
+    "CVE-2026-28390",
+    "CVE-2026-29063",
+    "CVE-2026-31488",
+    "CVE-2026-31613",
+    "CVE-2026-31684",
+    "CVE-2026-31790",
+    "CVE-2026-33186",
+    "CVE-2026-33376",
+    "CVE-2026-33377",
+    "CVE-2026-33811",
+    "CVE-2026-35469",
+    "CVE-2026-39821",
+    "CVE-2026-39822",
+    "CVE-2026-41254",
+    "CVE-2026-41411",
+    "CVE-2026-41567",
+    "CVE-2026-42006",
+    "CVE-2026-42055",
+    "CVE-2026-42151",
+    "CVE-2026-42154",
+    "CVE-2026-42561",
+    "CVE-2026-43190",
+    "CVE-2026-43279",
+    "CVE-2026-43513",
+    "CVE-2026-43870",
+    "CVE-2026-44431",
+    "CVE-2026-44432",
+    "CVE-2026-45447",
+    "CVE-2026-46116",
+    "CVE-2026-46152",
+    "CVE-2026-46209",
+    "CVE-2026-46243",
+    "CVE-2026-46323",
+    "CVE-2026-46331",
+    "CVE-2026-46384",
+    "CVE-2026-46385",
+    "CVE-2026-46579",
+    "CVE-2026-46917",
+    "CVE-2026-46968",
+    "CVE-2026-47010",
+    "CVE-2026-47021",
+    "CVE-2026-47027",
+    "CVE-2026-47057",
+    "CVE-2026-47058",
+    "CVE-2026-47059",
+    "CVE-2026-47063",
+    "CVE-2026-48710",
+    "CVE-2026-48864",
+    "CVE-2026-49834",
+    "CVE-2026-53488",
+    "CVE-2026-53492",
+    "CVE-2026-54283",
+    "CVE-2026-5435",
+    "CVE-2026-54369",
+    "CVE-2026-54370",
+    "CVE-2026-5450",
+    "CVE-2026-54512",
+    "CVE-2026-54513",
+    "CVE-2026-54787",
+    "CVE-2026-55677",
+    "CVE-2026-56852",
+    "CVE-2026-58016",
+    "CVE-2026-5928",
+    "CVE-2026-59676",
+    "CVE-2026-59677",
+    "CVE-2026-60147",
+    "CVE-2026-6238",
+    "CVE-2026-6472",
+    "CVE-2026-6473",
+    "CVE-2026-6474",
+    "CVE-2026-6475",
+    "CVE-2026-6477",
+    "CVE-2026-6478",
+    "CVE-2026-6479",
+    "CVE-2026-6637",
+    "CVE-2026-67322",
+    "CVE-2026-67323",
+    "CVE-2026-67325",
+    "CVE-2026-67326",
+    "CVE-2026-9256"
   ],
-  "exploits": [],
-  "credits": [],
   "url": "https://access.redhat.com/errata/RHSA-2026:44694",
-  "vendor": "redhat",
   "references": [
     "https://access.redhat.com/errata/RHSA-2026:44694",
     "https://access.redhat.com/errata/RHSA-2026:44696",
