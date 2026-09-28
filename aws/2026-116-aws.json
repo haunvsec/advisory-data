@@ -1,0 +1,35 @@
+{
+  "id": "2026-116-aws",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "CVE-2026-94450 - Potential denial of service when configured to send Retry packets in s2n-quic",
+  "description": "CVE-2026-94450 - Potential denial of service when configured to send Retry packets in s2n-quic\nBulletin ID:\n2026-116-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n09/22/2026 13:00 PM PDT\nDescription:\ns2n-quic is a Rust implementation of the QUIC protocol. We identified\nCVE-2026-94450\n, an issue with improper validation of the Destination Connection ID length when a server is configured to send Retry packets. s2n-quic 1.88.0 and earlier allow an unauthenticated user to shut down a server endpoint via a single crafted UDP datagram. No AWS services are affected by this issue, and customers of AWS services do not need to take action. Only server endpoints specifically configured to issue Retry packets are affected.\nImpacted versions:\n<= v1.88.0\nResolution:\nThis issue has been addressed in\ns2n-quic version 1.89.0\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nThere is no workaround that mitigates this issue. Upgrading to the patched version is the recommended remediation.\nReferences:\nCVE-2026-94450\nGHSA-5rw2-6x5m-v22x\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-09-22",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "S2n-quic is a Rust implementation of the QUIC protocol. We identified",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-94450"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-94450"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-116-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-116-aws/"
+  ]
+}

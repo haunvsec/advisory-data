@@ -1,0 +1,78 @@
+{
+  "id": "aws-2026-09-17",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "Aws Security Advisories - 2026-09-17",
+  "description": "Merged 2 aws security advisories published on 2026-09-17. Original advisory IDs: 2026-114-aws, aws-alas-2026-09-17\n\nTitles:\n- CVE-2026-92943 - Improper validation of certificate with host mismatch in AWS IoT Device SDK for Python\n- Aws Security Advisories - 2026-09-17",
+  "published_date": "2026-09-17",
+  "modified_date": "2026-09-28",
+  "severity": "critical",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-92943"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Valkey",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-82631",
+        "CVE-2026-82677",
+        "CVE-2026-85522",
+        "CVE-2026-86227"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Unbound",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-81642"
+      ]
+    }
+  ],
+  "remediations": [
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update valkey --releasever 2023.12.20260917",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update unbound --releasever 2023.12.20260917",
+      "url": ""
+    }
+  ],
+  "cves": [
+    "CVE-2026-81642",
+    "CVE-2026-82631",
+    "CVE-2026-82677",
+    "CVE-2026-85522",
+    "CVE-2026-86227",
+    "CVE-2026-92943"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-114-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-114-aws/",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3091.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3101.html"
+  ]
+}

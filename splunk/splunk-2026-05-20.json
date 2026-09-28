@@ -3,7 +3,7 @@
   "source": "splunk",
   "vendor": "splunk",
   "title": "Splunk Security Advisories - 2026-05-20",
-  "description": "Merged 14 splunk security advisories published on 2026-05-20. Original advisory IDs: SVD-2026-0516, SVD-2026-0515, SVD-2026-0514, SVD-2026-0513, SVD-2026-0512, SVD-2026-0511, SVD-2026-0510, SVD-2026-0509, SVD-2026-0508, SVD-2026-0507, SVD-2026-0506, SVD-2026-0505, SVD-2026-0504, SVD-2026-0502\n\nTitles:\n- Third-Party Package Updates in Splunk Add-on for Tomcat App - May 2026\n- Third-Party Package Updates in Splunk User Behavior Analytics - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Java Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Analytics Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Apache Web Server Agent - May 2026\n- Third-Party Package Updates in Splunk Universal Forwarder - May 2026\n- Third-Party Package Updates in Splunk Enterprise - May 2026\n- Denial of Service through coldToFrozen.sh Script in Splunk Enterprise\n- Improper Access Control through Role Inheritance in Splunk AI Toolkit app",
+  "description": "Merged 15 splunk security advisories published on 2026-05-20. Original advisory IDs: SVD-2026-0516, SVD-2026-0515, SVD-2026-0514, SVD-2026-0513, SVD-2026-0512, SVD-2026-0511, SVD-2026-0510, SVD-2026-0509, SVD-2026-0508, SVD-2026-0507, SVD-2026-0506, SVD-2026-0505, SVD-2026-0504, SVD-2026-0503, SVD-2026-0502\n\nTitles:\n- Third-Party Package Updates in Splunk Add-on for Tomcat App - May 2026\n- Third-Party Package Updates in Splunk User Behavior Analytics - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Java Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Analytics Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Apache Web Server Agent - May 2026\n- Third-Party Package Updates in Splunk Universal Forwarder - May 2026\n- Third-Party Package Updates in Splunk Enterprise - May 2026\n- Denial of Service through coldToFrozen.sh Script in Splunk Enterprise\n- Sensitive Information Disclosure through Log Files in Splunk Enterprise\n- Improper Access Control through Role Inheritance in Splunk AI Toolkit app",
   "published_date": "2026-05-20",
   "modified_date": "2026-05-20",
   "severity": null,
@@ -410,6 +410,7 @@
         "CVE-2025-68156",
         "CVE-2026-27141",
         "CVE-2026-20240",
+        "CVE-2026-20239",
         "CVE-2026-20238"
       ]
     },
@@ -492,6 +493,11 @@
     {
       "type": "Vendor Fix",
       "description": "Upgrade Splunk Enterprise to versions 10.2.2, 10.0.5, 9.4.11, 9.3.12, or higher.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.4\nSplunk Archiver\nNot affected\nN/A\nSplunk Enterprise\n10.2\nSplunk Archiver\n10.2.0 to 10.2.1\n10.2.2\nSplunk Enterprise\n10.0\nSplunk Archiver\n10.0.0 to 10.0.4\n10.0.5\nSplunk Enterprise\n9.4\nSplunk Archiver\n9.4.0 to 9.4.10\n9.4.11\nSplunk Enterprise\n9.3\nSplunk Archiver\n9.3.0 to 9.3.11\n9.3.12\nMitigations and Workarounds\nTurn off the",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "Upgrade Splunk Enterprise to versions 10.2.2, 10.0.5, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nsplunkd\n10.2.0 to 10.2.1\n10.2.2\nSplunk Enterprise\n10.0\nsplunkd\n10.0.0 to 10.0.4\n10.0.5\nSplunk Enterprise\n9.4\nsplunkd\nNot affected\nN/A\nSplunk Enterprise\n9.3\nsplunkd\nNot affected\nN/A\nSplunk Cloud Platform\n10.3.2512\nsplunkd\nBelow 10.3.2512.8\n10.3.2512.8\nSplunk Clo",
       "url": ""
     },
     {
@@ -780,6 +786,7 @@
     "CVE-2026-1605",
     "CVE-2026-1861",
     "CVE-2026-20238",
+    "CVE-2026-20239",
     "CVE-2026-20240",
     "CVE-2026-21637",
     "CVE-2026-21710",
@@ -912,6 +919,7 @@
     "https://advisory.splunk.com/advisories/SVD-2026-0506",
     "https://advisory.splunk.com/advisories/SVD-2026-0505",
     "https://advisory.splunk.com/advisories/SVD-2026-0504",
+    "https://advisory.splunk.com/advisories/SVD-2026-0503",
     "https://advisory.splunk.com/advisories/SVD-2026-0502"
   ]
 }

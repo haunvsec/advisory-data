@@ -1,0 +1,129 @@
+{
+  "id": "kubernetes-2026-09-14",
+  "source": "kubernetes",
+  "vendor": "kubernetes",
+  "title": "Kubernetes Security Advisories - 2026-09-14",
+  "description": "Merged 2 kubernetes security advisories published on 2026-09-14. Original advisory IDs: CVE-2026-76654, CVE-2026-2270\n\nTitles:\n- Subpath symlinking on Windows nodes permits NTLM coercion\n- StatefulSet and ControllerRevision write permissions allow cross-namespace pod creation",
+  "published_date": "2026-09-14",
+  "modified_date": "2026-09-14",
+  "severity": "medium",
+  "cvss_score": 5.9,
+  "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N)",
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "kubernetes",
+      "product": "Kubelet: <= v1.34.11",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-76654"
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Kubelet: <= v1.35.8",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-76654"
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Kubelet: <= v1.36.4",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-76654"
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Kubelet: = v1.37.0",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-76654"
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Kube-controller-manager: <= v1.34.11",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-2270"
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Kube-controller-manager: <= v1.35.8",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-2270"
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Kube-controller-manager: <= v1.36.4",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-2270"
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Kube-controller-manager: = v1.37.0",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-2270"
+      ]
+    },
+    {
+      "vendor": "kubernetes",
+      "product": "Kubernetes",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-2270"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-2270",
+    "CVE-2026-76654"
+  ],
+  "url": "https://www.cve.org/cverecord?id=CVE-2026-76654",
+  "references": [
+    "https://www.cve.org/cverecord?id=CVE-2026-76654",
+    "https://github.com/kubernetes/kubernetes/issues/142098",
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2026-76654",
+    "https://www.cve.org/cverecord?id=CVE-2026-2270",
+    "https://github.com/kubernetes/kubernetes/issues/142097",
+    "https://groups.google.com/g/kubernetes-announce/search?q=CVE-2026-2270"
+  ]
+}

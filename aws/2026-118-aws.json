@@ -1,0 +1,35 @@
+{
+  "id": "2026-118-aws",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "CVE-2026-96883 - Type confusion in AWS pgcollection allows remote code execution",
+  "description": "CVE-2026-96883 - Type confusion in AWS pgcollection allows remote code execution\nBulletin ID:\n2026-118-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n09/24/2026 12:00 PM PDT\nDescription:\npgcollection is an open source extension to PostgreSQL. We identified\nCVE-2026-96883\n, an issue in pgcollection's type coercion logic. When requesting a stored icollection value as a type incompatible with how it was actually stored causes the extension to misinterprets the datum's representation, allowing an authenticated database user to crash the PostgreSQL backend or execute arbitrary code.\nImpacted versions:\npgcollection v2.0.0 through v2.1.1\nResolution:\nThis issue has been addressed in\npgcollection version 2.1.2\n. This issue does not impact existing Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL customers. These services only ship 1.1.1 version, which does not contain this issue.\nCustomers who downloaded and compiled pgcollection 2.0.0 through 2.1.1 from the AWS GitHub repository and deployed them in their own PostgreSQL environments should upgrade to\nversion 2.1.2\nor later.\nWorkarounds:\nNone.\nReferences:\nCVE-2026-96883\nGHSA-g539-cj32-hv6r\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-09-24",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-96883"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-96883"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-118-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-118-aws/"
+  ]
+}
