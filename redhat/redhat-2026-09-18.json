@@ -1,0 +1,1710 @@
+{
+  "id": "redhat-2026-09-18",
+  "source": "redhat",
+  "vendor": "redhat",
+  "title": "Redhat Security Advisories - 2026-09-18",
+  "description": "Merged 6 redhat security advisories published on 2026-09-18. Original advisory IDs: RHSA-2026:68651, RHSA-2026:68642, RHSA-2026:67880, RHSA-2026:67861, RHSA-2026:68786, RHSA-2026:68787\n\nTitles:\n- Red Hat Security Advisory: tomcat9 security update\n- Red Hat Security Advisory: gstreamer1-plugins-good security update\n- Red Hat Security Advisory: corosync security update\n- Red Hat Security Advisory: gstreamer1-plugins-bad-free security update\n- Red Hat Security Advisory: perl-Net-DNS security update",
+  "published_date": "2026-09-18",
+  "modified_date": "2026-09-25",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [
+    "CWE-184",
+    "CWE-770",
+    "CWE-1286",
+    "CWE-201",
+    "CWE-303",
+    "CWE-178",
+    "CWE-208",
+    "CWE-551",
+    "CWE-79",
+    "CWE-358",
+    "CWE-390",
+    "CWE-778",
+    "CWE-294",
+    "CWE-807",
+    "CWE-1188",
+    "CWE-191",
+    "CWE-125",
+    "CWE-122",
+    "CWE-787",
+    "CWE-835"
+  ],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:enterprise_linux:10.2",
+      "purl": "pkg:rpm/redhat/tomcat9-admin-webapps@9.0.120-1.el10_2?arch=noarch&epoch=1",
+      "cves": [
+        "CVE-2026-32990",
+        "CVE-2026-41284",
+        "CVE-2026-41293",
+        "CVE-2026-42498",
+        "CVE-2026-43512",
+        "CVE-2026-43513",
+        "CVE-2026-43514",
+        "CVE-2026-43515",
+        "CVE-2026-50229",
+        "CVE-2026-53404",
+        "CVE-2026-53434",
+        "CVE-2026-55276",
+        "CVE-2026-55955",
+        "CVE-2026-55956",
+        "CVE-2026-59083",
+        "CVE-2026-59084"
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:enterprise_linux:10.2",
+      "purl": "pkg:rpm/redhat/tomcat9-webapps@9.0.120-1.el10_2?arch=noarch&epoch=1",
+      "cves": [
+        "CVE-2026-32990",
+        "CVE-2026-41284",
+        "CVE-2026-41293",
+        "CVE-2026-42498",
+        "CVE-2026-43512",
+        "CVE-2026-43513",
+        "CVE-2026-43514",
+        "CVE-2026-43515",
+        "CVE-2026-50229",
+        "CVE-2026-53404",
+        "CVE-2026-53434",
+        "CVE-2026-55276",
+        "CVE-2026-55955",
+        "CVE-2026-55956",
+        "CVE-2026-59083",
+        "CVE-2026-59084"
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:enterprise_linux:10.2",
+      "purl": "pkg:rpm/redhat/tomcat9-lib@9.0.120-1.el10_2?arch=noarch&epoch=1",
+      "cves": [
+        "CVE-2026-32990",
+        "CVE-2026-41284",
+        "CVE-2026-41293",
+        "CVE-2026-42498",
+        "CVE-2026-43512",
+        "CVE-2026-43513",
+        "CVE-2026-43514",
+        "CVE-2026-43515",
+        "CVE-2026-50229",
+        "CVE-2026-53404",
+        "CVE-2026-53434",
+        "CVE-2026-55276",
+        "CVE-2026-55955",
+        "CVE-2026-55956",
+        "CVE-2026-59083",
+        "CVE-2026-59084"
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:enterprise_linux:10.2",
+      "purl": "pkg:rpm/redhat/tomcat9@9.0.120-1.el10_2?arch=noarch&epoch=1",
+      "cves": [
+        "CVE-2026-32990",
+        "CVE-2026-41284",
+        "CVE-2026-41293",
+        "CVE-2026-42498",
+        "CVE-2026-43512",
+        "CVE-2026-43513",
+        "CVE-2026-43514",
+        "CVE-2026-43515",
+        "CVE-2026-50229",
+        "CVE-2026-53404",
+        "CVE-2026-53434",
+        "CVE-2026-55276",
+        "CVE-2026-55955",
+        "CVE-2026-55956",
+        "CVE-2026-59083",
+        "CVE-2026-59084"
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:enterprise_linux:10.2",
+      "purl": "pkg:rpm/redhat/tomcat9@9.0.120-1.el10_2?arch=src&epoch=1",
+      "cves": [
+        "CVE-2026-32990",
+        "CVE-2026-41284",
+        "CVE-2026-41293",
+        "CVE-2026-42498",
+        "CVE-2026-43512",
+        "CVE-2026-43513",
+        "CVE-2026-43514",
+        "CVE-2026-43515",
+        "CVE-2026-50229",
+        "CVE-2026-53404",
+        "CVE-2026-53434",
+        "CVE-2026-55276",
+        "CVE-2026-55955",
+        "CVE-2026-55956",
+        "CVE-2026-59083",
+        "CVE-2026-59084"
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:enterprise_linux:10.2",
+      "purl": "pkg:rpm/redhat/tomcat9-docs-webapp@9.0.120-1.el10_2?arch=noarch&epoch=1",
+      "cves": [
+        "CVE-2026-32990",
+        "CVE-2026-41284",
+        "CVE-2026-41293",
+        "CVE-2026-42498",
+        "CVE-2026-43512",
+        "CVE-2026-43513",
+        "CVE-2026-43514",
+        "CVE-2026-43515",
+        "CVE-2026-50229",
+        "CVE-2026-53404",
+        "CVE-2026-53434",
+        "CVE-2026-55276",
+        "CVE-2026-55955",
+        "CVE-2026-55956",
+        "CVE-2026-59083",
+        "CVE-2026-59084"
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:enterprise_linux:10.2",
+      "purl": "pkg:rpm/redhat/tomcat9-jsp-2.3-api@9.0.120-1.el10_2?arch=noarch&epoch=1",
+      "cves": [
+        "CVE-2026-32990",
+        "CVE-2026-41284",
+        "CVE-2026-41293",
+        "CVE-2026-42498",
+        "CVE-2026-43512",
+        "CVE-2026-43513",
+        "CVE-2026-43514",
+        "CVE-2026-43515",
+        "CVE-2026-50229",
+        "CVE-2026-53404",
+        "CVE-2026-53434",
+        "CVE-2026-55276",
+        "CVE-2026-55955",
+        "CVE-2026-55956",
+        "CVE-2026-59083",
+        "CVE-2026-59084"
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:enterprise_linux:10.2",
+      "purl": "pkg:rpm/redhat/tomcat9-servlet-4.0-api@9.0.120-1.el10_2?arch=noarch&epoch=1",
+      "cves": [
+        "CVE-2026-32990",
+        "CVE-2026-41284",
+        "CVE-2026-41293",
+        "CVE-2026-42498",
+        "CVE-2026-43512",
+        "CVE-2026-43513",
+        "CVE-2026-43514",
+        "CVE-2026-43515",
+        "CVE-2026-50229",
+        "CVE-2026-53404",
+        "CVE-2026-53434",
+        "CVE-2026-55276",
+        "CVE-2026-55955",
+        "CVE-2026-55956",
+        "CVE-2026-59083",
+        "CVE-2026-59084"
+      ]
+    },
+    {
+      "vendor": "apache",
+      "product": "Apache Tomcat",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:enterprise_linux:10.2",
+      "purl": "pkg:rpm/redhat/tomcat9-el-3.0-api@9.0.120-1.el10_2?arch=noarch&epoch=1",
+      "cves": [
+        "CVE-2026-32990",
+        "CVE-2026-41284",
+        "CVE-2026-41293",
+        "CVE-2026-42498",
+        "CVE-2026-43512",
+        "CVE-2026-43513",
+        "CVE-2026-43514",
+        "CVE-2026-43515",
+        "CVE-2026-50229",
+        "CVE-2026-53404",
+        "CVE-2026-53434",
+        "CVE-2026-55276",
+        "CVE-2026-55955",
+        "CVE-2026-55956",
+        "CVE-2026-59083",
+        "CVE-2026-59084"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-qt-debuginfo@1.22.1-4.el9_4.3?arch=i686",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-debuginfo@1.22.1-4.el9_4.3?arch=aarch64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-qt-debuginfo@1.22.1-4.el9_4.3?arch=aarch64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good@1.22.1-4.el9_4.3?arch=ppc64le",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-debuginfo@1.22.1-4.el9_4.3?arch=i686",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-debugsource@1.22.1-4.el9_4.3?arch=x86_64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good@1.22.1-4.el9_4.3?arch=s390x",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-debugsource@1.22.1-4.el9_4.3?arch=i686",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-gtk@1.22.1-4.el9_4.3?arch=aarch64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-gtk-debuginfo@1.22.1-4.el9_4.3?arch=s390x",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-qt-debuginfo@1.22.1-4.el9_4.3?arch=ppc64le",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-gtk-debuginfo@1.22.1-4.el9_4.3?arch=aarch64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-gtk-debuginfo@1.22.1-4.el9_4.3?arch=ppc64le",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-qt-debuginfo@1.22.1-4.el9_4.3?arch=s390x",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-qt-debuginfo@1.22.1-4.el9_4.3?arch=x86_64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-gtk-debuginfo@1.22.1-4.el9_4.3?arch=x86_64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-gtk@1.22.1-4.el9_4.3?arch=ppc64le",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-debuginfo@1.22.1-4.el9_4.3?arch=s390x",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-debugsource@1.22.1-4.el9_4.3?arch=ppc64le",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-debugsource@1.22.1-4.el9_4.3?arch=s390x",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-gtk@1.22.1-4.el9_4.3?arch=s390x",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-debuginfo@1.22.1-4.el9_4.3?arch=x86_64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good@1.22.1-4.el9_4.3?arch=src",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-gtk@1.22.1-4.el9_4.3?arch=x86_64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-debugsource@1.22.1-4.el9_4.3?arch=aarch64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-gtk@1.22.1-4.el9_4.3?arch=i686",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-gtk-debuginfo@1.22.1-4.el9_4.3?arch=i686",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good@1.22.1-4.el9_4.3?arch=i686",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good@1.22.1-4.el9_4.3?arch=x86_64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good@1.22.1-4.el9_4.3?arch=aarch64",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.4::appstream",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-good-debuginfo@1.22.1-4.el9_4.3?arch=ppc64le",
+      "cves": [
+        "CVE-2026-73433",
+        "CVE-2026-73434"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosync@3.1.7-1.el9_2.2?arch=src",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosynclib-devel@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib-devel@3.1.7-1.el9_2.2?arch=aarch64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosynclib@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib@3.1.7-1.el9_2.2?arch=aarch64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosynclib@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosynclib-devel@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib-devel@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync@3.1.7-1.el9_2.2?arch=aarch64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=aarch64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosynclib-devel@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib-devel@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=aarch64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosynclib@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib-devel@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=aarch64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=s390x",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosynclib@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosync-debuginfo@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib-devel@3.1.7-1.el9_2.2?arch=ppc64le",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=aarch64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::highavailability",
+      "purl": "pkg:rpm/redhat/corosync-vqsim-debuginfo@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosynclib-devel@3.1.7-1.el9_2.2?arch=i686",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::resilientstorage",
+      "purl": "pkg:rpm/redhat/corosync-debugsource@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:rhel_e4s:9.2::appstream",
+      "purl": "pkg:rpm/redhat/corosynclib-debuginfo@3.1.7-1.el9_2.2?arch=x86_64",
+      "cves": [
+        "CVE-2026-81665"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-devel@1.10.4-8.el7_9?arch=x86_64",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-debuginfo@1.10.4-8.el7_9?arch=x86_64",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-gtk@1.10.4-8.el7_9?arch=x86_64",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-gtk@1.10.4-8.el7_9?arch=ppc64le",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-gtk@1.10.4-8.el7_9?arch=s390x",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-debuginfo@1.10.4-8.el7_9?arch=ppc64le",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free@1.10.4-8.el7_9?arch=i686",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-debuginfo@1.10.4-8.el7_9?arch=s390",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free@1.10.4-8.el7_9?arch=s390x",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free@1.10.4-8.el7_9?arch=x86_64",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-debuginfo@1.10.4-8.el7_9?arch=i686",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-gtk@1.10.4-8.el7_9?arch=i686",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-devel@1.10.4-8.el7_9?arch=s390",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-debuginfo@1.10.4-8.el7_9?arch=s390x",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free@1.10.4-8.el7_9?arch=ppc64le",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-devel@1.10.4-8.el7_9?arch=s390x",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free@1.10.4-8.el7_9?arch=s390",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-devel@1.10.4-8.el7_9?arch=ppc64le",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-gtk@1.10.4-8.el7_9?arch=s390",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free@1.10.4-8.el7_9?arch=src",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/o:redhat:rhel_els:7",
+      "purl": "pkg:rpm/redhat/gstreamer1-plugins-bad-free-devel@1.10.4-8.el7_9?arch=i686",
+      "cves": [
+        "CVE-2026-19387"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::crb",
+      "purl": "pkg:rpm/redhat/perl-Net-DNS-Nameserver@1.29-6.el9_8.1?arch=noarch",
+      "cves": [
+        "CVE-2026-81928"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "purl": "pkg:rpm/redhat/perl-Net-DNS@1.29-6.el9_8.1?arch=src",
+      "cves": [
+        "CVE-2026-81928"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "purl": "pkg:rpm/redhat/perl-Net-DNS@1.29-6.el9_8.1?arch=noarch",
+      "cves": [
+        "CVE-2026-81928"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:enterprise_linux:8::appstream",
+      "purl": "pkg:rpm/redhat/perl-Net-DNS@1.15-2.el8_10?arch=noarch",
+      "cves": [
+        "CVE-2026-81928"
+      ]
+    },
+    {
+      "vendor": "redhat",
+      "product": "Red Hat Enterprise Linux",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "cpe:/a:redhat:enterprise_linux:8::appstream",
+      "purl": "pkg:rpm/redhat/perl-Net-DNS@1.15-2.el8_10?arch=src",
+      "cves": [
+        "CVE-2026-81928"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-19387",
+    "CVE-2026-32990",
+    "CVE-2026-41284",
+    "CVE-2026-41293",
+    "CVE-2026-42498",
+    "CVE-2026-43512",
+    "CVE-2026-43513",
+    "CVE-2026-43514",
+    "CVE-2026-43515",
+    "CVE-2026-50229",
+    "CVE-2026-53404",
+    "CVE-2026-53434",
+    "CVE-2026-55276",
+    "CVE-2026-55955",
+    "CVE-2026-55956",
+    "CVE-2026-59083",
+    "CVE-2026-59084",
+    "CVE-2026-73433",
+    "CVE-2026-73434",
+    "CVE-2026-81665",
+    "CVE-2026-81928"
+  ],
+  "url": "https://access.redhat.com/errata/RHSA-2026:68651",
+  "references": [
+    "https://access.redhat.com/errata/RHSA-2026:68651",
+    "https://access.redhat.com/errata/RHSA-2026:68642",
+    "https://access.redhat.com/errata/RHSA-2026:67880",
+    "https://access.redhat.com/errata/RHSA-2026:67861",
+    "https://access.redhat.com/errata/RHSA-2026:68786",
+    "https://access.redhat.com/errata/RHSA-2026:68787"
+  ]
+}
