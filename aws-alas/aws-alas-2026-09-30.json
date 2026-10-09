@@ -1,0 +1,694 @@
+{
+  "id": "aws-alas-2026-09-30",
+  "source": "aws-alas",
+  "vendor": "aws",
+  "title": "Aws Security Advisories - 2026-09-30",
+  "description": "Merged 39 aws security advisories published on 2026-09-30. Original advisory IDs: ALAS2023LIVEPATCH-2026-389, ALAS2023LIVEPATCH-2026-390, ALAS2023LIVEPATCH-2026-391, ALAS2023LIVEPATCH-2026-392, ALAS2023LIVEPATCH-2026-393, ALAS2023LIVEPATCH-2026-394, ALAS2023LIVEPATCH-2026-395, ALAS2023LIVEPATCH-2026-396, ALAS2023LIVEPATCH-2026-397, ALAS2023LIVEPATCH-2026-398, ALAS2023LIVEPATCH-2026-399, ALAS2023LIVEPATCH-2026-400, ALAS2023LIVEPATCH-2026-401, ALAS2023LIVEPATCH-2026-402, ALAS2023LIVEPATCH-2026-403, ALAS2023LIVEPATCH-2026-404, ALAS2023LIVEPATCH-2026-405, ALAS2023LIVEPATCH-2026-406, ALAS2023LIVEPATCH-2026-407, ALAS2023LIVEPATCH-2026-408, ALAS2023LIVEPATCH-2026-409, ALAS2023LIVEPATCH-2026-410, ALAS2023LIVEPATCH-2026-411, ALAS2023LIVEPATCH-2026-412, ALAS2023LIVEPATCH-2026-413, ALAS2023LIVEPATCH-2026-414, ALAS2023LIVEPATCH-2026-415, ALAS2023LIVEPATCH-2026-416, ALAS2023LIVEPATCH-2026-417, ALAS2023LIVEPATCH-2026-418, ALAS2023LIVEPATCH-2026-419, ALAS2023LIVEPATCH-2026-420, ALAS2023LIVEPATCH-2026-421, ALAS2023LIVEPATCH-2026-422, ALAS2023LIVEPATCH-2026-423, ALAS2023-2026-3146, ALAS2023-2026-3147, ALAS2023-2026-3148, ALAS2023-2026-3149\n\nTitles:\n- ALAS2023LIVEPATCH-2026-389 (important): kernel-livepatch-6.1.188-233.385\n- ALAS2023LIVEPATCH-2026-390 (important): kernel-livepatch-6.18.51-120.162\n- ALAS2023LIVEPATCH-2026-391 (important): kernel-livepatch-6.12.110-135.201\n- ALAS2023LIVEPATCH-2026-392 (important): kernel-livepatch-6.12.103-129.197\n- ALAS2023LIVEPATCH-2026-393 (important): kernel-livepatch-6.18.48-109.150\n- ALAS2023LIVEPATCH-2026-394 (important): kernel-livepatch-6.1.186-228.376\n- ALAS2023LIVEPATCH-2026-395 (important): kernel-livepatch-6.1.175-219.359\n- ALAS2023LIVEPATCH-2026-396 (important): kernel-livepatch-6.18.36-69.134\n- ALAS2023LIVEPATCH-2026-397 (important): kernel-livepatch-6.18.35-68.129\n- ALAS2023LIVEPATCH-2026-398 (important): kernel-livepatch-6.18.36-69.136\n- ALAS2023LIVEPATCH-2026-399 (important): kernel-livepatch-6.1.176-221.360\n- ALAS2023LIVEPATCH-2026-400 (important): kernel-livepatch-6.1.176-220.358\n- ALAS2023LIVEPATCH-2026-401 (important): kernel-livepatch-6.12.92-122.168\n- ALAS2023LIVEPATCH-2026-402 (important): kernel-livepatch-6.1.180-225.360\n- ALAS2023LIVEPATCH-2026-403 (important): kernel-livepatch-6.1.176-220.360\n- ALAS2023LIVEPATCH-2026-404 (important): kernel-livepatch-6.1.176-223.369\n- ALAS2023LIVEPATCH-2026-405 (important): kernel-livepatch-6.1.177-224.371\n- ALAS2023LIVEPATCH-2026-406 (important): kernel-livepatch-6.1.186-228.374\n- ALAS2023LIVEPATCH-2026-407 (important): kernel-livepatch-6.12.95-124.187\n- ALAS2023LIVEPATCH-2026-408 (important): kernel-livepatch-6.1.182-227.379\n- ALAS2023LIVEPATCH-2026-409 (important): kernel-livepatch-6.1.176-221.367\n- ALAS2023LIVEPATCH-2026-410 (important): kernel-livepatch-6.18.48-107.148\n- ALAS2023LIVEPATCH-2026-411 (important): kernel-livepatch-6.18.36-69.138\n- ALAS2023LIVEPATCH-2026-412 (important): kernel-livepatch-6.18.38-76.139\n- ALAS2023LIVEPATCH-2026-413 (important): kernel-livepatch-6.12.103-127.188\n- ALAS2023LIVEPATCH-2026-414 (important): kernel-livepatch-6.12.94-123.190\n- ALAS2023LIVEPATCH-2026-415 (important): kernel-livepatch-6.18.38-73.137\n- ALAS2023LIVEPATCH-2026-416 (important): kernel-livepatch-6.18.41-94.142\n- ALAS2023LIVEPATCH-2026-417 (important): kernel-livepatch-6.12.94-123.176\n- ALAS2023LIVEPATCH-2026-418 (important): kernel-livepatch-6.12.94-123.180\n- ALAS2023LIVEPATCH-2026-419 (important): kernel-livepatch-6.18.44-99.149\n- ALAS2023LIVEPATCH-2026-420 (important): kernel-livepatch-6.18.39-79.141\n- ALAS2023LIVEPATCH-2026-421 (important): kernel-livepatch-6.12.94-123.174\n- ALAS2023LIVEPATCH-2026-422 (important): kernel-livepatch-6.12.100-125.179\n- ALAS2023LIVEPATCH-2026-423 (important): kernel-livepatch-6.12.94-123.192\n- ALAS2023-2026-3146 (important): kernel\n- ALAS2023-2026-3147 (important): kernel6.12\n- ALAS2023-2026-3148 (important): kernel6.18\n- ALAS2023-2026-3149 (critical): amazon-ssm-agent",
+  "published_date": "2026-09-30",
+  "modified_date": "2026-09-30",
+  "severity": "critical",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.188-233.385",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.51-120.162",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.110-135.201",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.103-129.197",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.48-109.150",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.186-228.376",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.175-219.359",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.36-69.134",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.35-68.129",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.36-69.136",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.176-221.360",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.176-220.358",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.92-122.168",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.180-225.360",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.176-220.360",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.176-223.369",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.177-224.371",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.186-228.374",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.95-124.187",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.182-227.379",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.1.176-221.367",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.48-107.148",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.36-69.138",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.38-76.139",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.103-127.188",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.94-123.190",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.38-73.137",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.41-94.142",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.94-123.176",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.94-123.180",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.44-99.149",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.18.39-79.141",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.94-123.174",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.100-125.179",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel-livepatch-6.12.94-123.192",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel6.12",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel6.18",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80521"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Amazon-ssm-agent",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-42505",
+        "CVE-2026-71556",
+        "CVE-2026-71557",
+        "CVE-2026-89049"
+      ]
+    }
+  ],
+  "remediations": [
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.188-233.385 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.51-120.162 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.110-135.201 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.103-129.197 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.48-109.150 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.186-228.376 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.175-219.359 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.36-69.134 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.35-68.129 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.36-69.136 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.176-221.360 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.176-220.358 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.92-122.168 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.180-225.360 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.176-220.360 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.176-223.369 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.177-224.371 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.186-228.374 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.95-124.187 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.182-227.379 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.1.176-221.367 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.48-107.148 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.36-69.138 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.38-76.139 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.103-127.188 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.94-123.190 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.38-73.137 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.41-94.142 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.94-123.176 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.94-123.180 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.44-99.149 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.18.39-79.141 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.94-123.174 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.100-125.179 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel-livepatch-6.12.94-123.192 --releasever latest",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel --releasever 2023.12.20260930",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel6.12 --releasever 2023.12.20260930",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel6.18 --releasever 2023.12.20260930",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update amazon-ssm-agent --releasever 2023.12.20260930",
+      "url": ""
+    }
+  ],
+  "cves": [
+    "CVE-2026-42505",
+    "CVE-2026-71556",
+    "CVE-2026-71557",
+    "CVE-2026-80521",
+    "CVE-2026-89049"
+  ],
+  "url": "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-389.html",
+  "references": [
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-389.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-390.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-391.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-392.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-393.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-394.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-395.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-396.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-397.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-398.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-399.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-400.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-401.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-402.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-403.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-404.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-405.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-406.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-407.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-408.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-409.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-410.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-411.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-412.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-413.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-414.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-415.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-416.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-417.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-418.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-419.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-420.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-421.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-422.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023LIVEPATCH-2026-423.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3146.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3147.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3148.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3149.html"
+  ]
+}

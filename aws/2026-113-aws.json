@@ -1,0 +1,35 @@
+{
+  "id": "2026-113-aws",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "CVE-2026-86831: Improper validation of pod identifier uniqueness in aws-network-policy-agent in Amazon EKS",
+  "description": "CVE-2026-86831: Improper validation of pod identifier uniqueness in aws-network-policy-agent in Amazon EKS\nBulletin ID:\n2026-113-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n09/16/2026 12:30 PM PDT\nDescription:\nNetwork Policy Agent is an EKS Policy management feature. We identified\nCVE-2026-86831\n, a cross-namespace NetworkPolicy bypass in Amazon EKS Network Policy Agent (aws-network-policy-agent) before v1.4.0. Pod identifiers are constructed by concatenating the pod name and namespace with a hyphen delimiter, which is a legal character in both Kubernetes pod names and namespace names. This ambiguity can produce identical identifiers for pods across different namespaces, potentially allowing NetworkPolicy enforcement to be bypassed.\nImpacted versions:\n1.14.0<1.22.3 Amazon VPC CNI Managed Add-on\n< v1.4.0 Network Policy Agent\nResolution:\nTo remediate this issue, users should upgrade to\nAmazon EKS Network Policy Agent 1.4.0\nor later and\nAmazon VPC CNI Managed Add-on v1.22.4\nor later.\nWorkarounds:\nCustomers can mitigate this issue by defining namespace names that do not contain hyphens (-). By avoiding hyphens in namespace names, the ambiguity in the identifier construction is eliminated, ensuring that pod identifiers remain unique across namespaces.\nReferences:\nCVE-2026-86831\nGHSA-7xv7-8r3j-3j25\nGHSA-gjc7-c7mx-x8f3\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-09-16",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Network Policy Agent is an EKS Policy management feature. We identified",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-86831"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-86831"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-113-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-113-aws/"
+  ]
+}

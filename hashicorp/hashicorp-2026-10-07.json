@@ -1,0 +1,54 @@
+{
+  "id": "hashicorp-2026-10-07",
+  "source": "hashicorp",
+  "vendor": "hashicorp",
+  "title": "Hashicorp Security Advisories - 2026-10-07",
+  "description": "Merged 4 hashicorp security advisories published on 2026-10-07. Original advisory IDs: HCSEC-2026-43, HCSEC-2026-42, HCSEC-2026-41, HCSEC-2026-40\n\nTitles:\n- HCSEC-2026-43 - Vault Inconsistent ACL Policy Evaluation May Allow Bypass of Deny Restrictions\n- HCSEC-2026-42 - Vault Enterprise ACL Policy Cache Vulnerable to Cross-Namespace Policy Resolution\n- HCSEC-2026-41 - Vault Vulnerable to Arbitrary Code Execution via Plugin Catalog Entries Restored From Raft Snapshots\n- HCSEC-2026-40 - Vault PKI ACME Default Directory Policy May Issue Certificates With Unverified Identities",
+  "published_date": "2026-10-07",
+  "modified_date": "2026-10-07",
+  "severity": null,
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "hashicorp",
+      "product": "HashiCorp Vault",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-89322",
+        "CVE-2026-105816",
+        "CVE-2026-105818"
+      ]
+    },
+    {
+      "vendor": "hashicorp",
+      "product": "Vault-enterprise",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-105820"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-105816",
+    "CVE-2026-105818",
+    "CVE-2026-105820",
+    "CVE-2026-89322"
+  ],
+  "url": "https://discuss.hashicorp.com/t/hcsec-2026-43-vault-inconsistent-acl-policy-evaluation-may-allow-bypass-of-deny-restrictions/77815",
+  "references": [
+    "https://discuss.hashicorp.com/t/hcsec-2026-43-vault-inconsistent-acl-policy-evaluation-may-allow-bypass-of-deny-restrictions/77815",
+    "https://discuss.hashicorp.com/t/hcsec-2026-42-vault-enterprise-acl-policy-cache-vulnerable-to-cross-namespace-policy-resolution/77814",
+    "https://discuss.hashicorp.com/t/hcsec-2026-41-vault-vulnerable-to-arbitrary-code-execution-via-plugin-catalog-entries-restored-from-raft-snapshots/77813",
+    "https://discuss.hashicorp.com/t/hcsec-2026-40-vault-pki-acme-default-directory-policy-may-issue-certificates-with-unverified-identities/77812"
+  ]
+}

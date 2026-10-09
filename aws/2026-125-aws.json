@@ -1,0 +1,35 @@
+{
+  "id": "2026-125-aws",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "CVE-2026-104019 - OS command injection in the Studio Space startup script in Amazon SageMaker Distribution",
+  "description": "CVE-2026-104019 - OS command injection in the Studio Space startup script in Amazon SageMaker Distribution\nBulletin ID:\n2026-125-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n10/02/2026 13:00 PM PDT\nDescription:\nAmazon SageMaker Unified Studio is an AWS service that unifies data, analytics, and AI development. It lets you find and access your organization's data and act on it with integrated, purpose-built tools.\nWe identified\nCVE-2026-104019\n, an issue with the startup of SageMaker Spaces in SageMaker Unified Studio. The startup script in a SageMaker Space performs a network validation against all the available SageMaker connections in a project. Under certain conditions, improper sanitization of connection details during this validation could allow arbitrary code to be executed in the Space of another project member. In projects with the Trusted Identity Propagation feature enabled, this issue could result in a user with project contributor permissions (or higher) gaining access to another member's temporary execution role credentials and calling downstream trusted identity propagation-enabled AWS services on their behalf.\nWe implemented a fix to all supported SageMaker Distribution versions to sanitize connection details during the startup validation process. The fix is deployed globally and will apply to all Spaces automatically on the next startup.\nImpacted versions:\n2.8.x - 2.13.x: all versions affected, no fix (end of support)\n2.14.x: < 2.14.12, fixed in 2.14.12\n3.3.x - 3.8.x: all versions affected, no fix (end of support)\n3.9.x: < 3.9.12, fixed in 3.9.12\n4.0.x: < 4.0.11, fixed in 4.0.11\n4.1.x: < 4.1.11, fixed in 4.1.11\n4.2.x: < 4.2.8, fixed in 4.2.8\n4.3.x: < 4.3.5, fixed in 4.3.5\n4.4.x: < 4.4.3, fixed in 4.4.3\n4.5.x: not affected\n< 2.8.0 and < 3.3.0: not affected\nResolution:\nThis issue has been addressed in\nSageMaker Distribution versions 2.14.12, 3.9.12, 4.0.11, 4.1.11, 4.2.8, 4.3.5, and 4.4.3\n. In Amazon SageMaker Unified Studio, Studio Spaces adopt the latest patch of their minor line on restart once the patched images are deployed, so no version selection is required. We recommend restarting any spaces for these minor versions to receive this update.\nWorkarounds:\nNone.\nReferences:\nCVE-2026-104019\nGHSA-w64x-664p-7w66\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-10-02",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-104019"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-104019"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-125-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-125-aws/"
+  ]
+}

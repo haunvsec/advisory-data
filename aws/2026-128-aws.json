@@ -1,0 +1,35 @@
+{
+  "id": "2026-128-aws",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "CVE-2026-107352 - Missing authorization checks in Amazon Athena engine version 3 request handling",
+  "description": "CVE-2026-107352 - Missing authorization checks in Amazon Athena engine version 3 request handling\nBulletin ID:\n2026-128-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n10/07/2026 13:00 PM PDT\nDescription:\nMissing authorization checks in Amazon Athena engine version 3 request handling could have allowed an authenticated user to read limited query metadata (AWS account identifiers and SQL statement text) from other AWS accounts. AWS remediated the issue on September 1, 2026, and has confirmed no customer metadata was accessed. Query results, credentials, and Amazon S3 data were not affected. No customer action is required.\nResolution:\nThis issue was addressed service-side on September 1, 2026.\nWorkarounds:\nNo workaround is available.\nReferences:\nCVE-2026-107352\nAcknowledgement:\nWe would like to thank Oren Yomtov of Act Security for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-10-07",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-107352"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-107352"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-128-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-128-aws/"
+  ]
+}

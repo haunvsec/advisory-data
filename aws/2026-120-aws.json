@@ -1,0 +1,35 @@
+{
+  "id": "2026-120-aws",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "CVE-2026-103505 - Mount Option Injection in Amazon EFS CSI Driver",
+  "description": "CVE-2026-103505 - Mount Option Injection in Amazon EFS CSI Driver\nBulletin ID:\n2026-120-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n10/01/2026 08:30 AM PDT\nDescription:\nThe Amazon EFS CSI Driver is a Container Storage Interface driver that allows Kubernetes clusters to use Amazon Elastic File System. We identified\nCVE-2026-103505\n, where an actor with PersistentVolume creation privileges can inject additional mount options through the mounttargetipmap volumeAttribute. Appending comma-separated values to a value inside that JSON map causes the mount utility to parse them as separate mount options.\nImpacted versions:\n>= v3.1.0 AND <= v3.4.2\nResolution:\nThis issue has been addressed in\nAmazon EFS CSI Driver version v3.5.0\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nRestrict PersistentVolume and StorageClass creation to cluster administrators using Kubernetes RBAC, preventing untrusted users from supplying arbitrary field values.\nReferences:\nCVE-2026-103505\nGHSA-pv26-6q9q-5773\nPlease email\naws-security@amazon.com\nwith any security questions or concerns..",
+  "published_date": "2026-10-01",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "kubernetes",
+      "product": "Kubernetes",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-103505"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-103505"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-120-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-120-aws/"
+  ]
+}

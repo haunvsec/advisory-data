@@ -1,0 +1,271 @@
+{
+  "id": "aws-2026-09-29",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "Aws Security Advisories - 2026-09-29",
+  "description": "Merged 2 aws security advisories published on 2026-09-29. Original advisory IDs: 2026-119-aws, aws-alas-2026-09-29\n\nTitles:\n- CVE-2026-100308 - GluonTS arbitrary command execution during model deserialization\n- Aws Security Advisories - 2026-09-29",
+  "published_date": "2026-09-29",
+  "modified_date": "2026-09-29",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "GluonTS is an open source library for deep learning based time series models. We identified",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-100308"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Perl-Authen-SASL",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-86219"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Python3.13-tornado",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-82397"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Python-tornado",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-82397"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Perl-Net-DNS",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-81928"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Nginx-mod-njs",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-18329",
+        "CVE-2026-78222",
+        "CVE-2026-78689"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Libssh",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-59844",
+        "CVE-2026-59845",
+        "CVE-2026-59846",
+        "CVE-2026-59847",
+        "CVE-2026-59848",
+        "CVE-2026-59850"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Libpcap",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-0799",
+        "CVE-2026-31911",
+        "CVE-2026-31912",
+        "CVE-2026-6244",
+        "CVE-2026-6554"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel6.18",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80844",
+        "CVE-2026-81000"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel6.12",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-64058",
+        "CVE-2026-64068",
+        "CVE-2026-72288",
+        "CVE-2026-72398",
+        "CVE-2026-72413",
+        "CVE-2026-74347",
+        "CVE-2026-74405",
+        "CVE-2026-80844",
+        "CVE-2026-81000"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Kernel",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-80844",
+        "CVE-2026-81000"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Bubblewrap",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-87766"
+      ]
+    }
+  ],
+  "remediations": [
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update perl-Authen-SASL --releasever 2023.12.20260928",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update python3.13-tornado --releasever 2023.12.20260928",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update python-tornado --releasever 2023.12.20260928",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update perl-Net-DNS --releasever 2023.12.20260928",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update nginx-mod-njs --releasever 2023.12.20260928",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update libssh --releasever 2023.12.20260928",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update libpcap --releasever 2023.12.20260928",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel6.18 --releasever 2023.12.20260928",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel6.12 --releasever 2023.12.20260928",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update kernel --releasever 2023.12.20260928",
+      "url": ""
+    },
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update bubblewrap --releasever 2023.12.20260928",
+      "url": ""
+    }
+  ],
+  "cves": [
+    "CVE-2026-0799",
+    "CVE-2026-100308",
+    "CVE-2026-18329",
+    "CVE-2026-31911",
+    "CVE-2026-31912",
+    "CVE-2026-59844",
+    "CVE-2026-59845",
+    "CVE-2026-59846",
+    "CVE-2026-59847",
+    "CVE-2026-59848",
+    "CVE-2026-59850",
+    "CVE-2026-6244",
+    "CVE-2026-64058",
+    "CVE-2026-64068",
+    "CVE-2026-6554",
+    "CVE-2026-72288",
+    "CVE-2026-72398",
+    "CVE-2026-72413",
+    "CVE-2026-74347",
+    "CVE-2026-74405",
+    "CVE-2026-78222",
+    "CVE-2026-78689",
+    "CVE-2026-80844",
+    "CVE-2026-81000",
+    "CVE-2026-81928",
+    "CVE-2026-82397",
+    "CVE-2026-86219",
+    "CVE-2026-87766"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-119-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-119-aws/",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3090.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3092.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3093.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3094.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3095.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3096.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3100.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3102.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3103.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3104.html",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3105.html"
+  ]
+}

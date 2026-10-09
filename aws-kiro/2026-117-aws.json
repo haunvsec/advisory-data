@@ -1,0 +1,35 @@
+{
+  "id": "2026-117-aws",
+  "source": "aws-kiro",
+  "vendor": "aws-kiro",
+  "title": "CVE-2026-95985 - Kiro IDE Allows Agentic Writes to Global Configurations While Working in Untrusted Workspaces",
+  "description": "CVE-2026-95985 - Kiro IDE Allows Agentic Writes to Global Configurations While Working in Untrusted Workspaces\nBulletin ID:\n2026-117-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n09/24/2026 10:00 AM PDT\nDescription:\nKiro is an agentic IDE that users install on their desktop. We identified\nCVE-2026-95985\n. The file write tool in Kiro IDE before version 1.0.242 might allow remote unauthenticated actors to execute arbitrary commands and to inject crafted instructions into the agent's context. When a user runs the agent in a crafted repository as an untrusted workspace, sending any message can cause agent modifications to auto-loaded global configuration paths.\nImpacted versions:\n< 1.0.242\nResolution:\nThis issue has been addressed in\nKiro IDE version 1.0.242\n. We recommend upgrading to the latest version. Users who ran the agent in an untrusted workspace on an earlier version should also review the global Kiro configuration directory (~/.kiro on macOS and Linux, %USERPROFILE%\\.kiro on Windows) for entries they did not create.\nWorkarounds:\nNone.\nReferences:\nCVE-2026-95985\nAcknowledgement:\nWe would like to thank Dinh Ngoc Dung for collaborating on this issue through the coordinated disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-09-24",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws-kiro",
+      "product": "Kiro is an agentic IDE that users install on their desktop. We identified",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-95985"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-95985"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-117-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-117-aws/"
+  ]
+}
