@@ -1,0 +1,35 @@
+{
+  "id": "2026-151-aws",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "CVE-2026-115418 - SQL injection in the database-query custom resource handlers in Amazon Web Services (AWS)",
+  "description": "CVE-2026-115418 - SQL injection in the database-query custom resource handlers in Amazon Web Services (AWS)\nBulletin ID:\n2026-151-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n10/26/2026 09:30 AM PDT\nDescription:\nThe AWS Cloud Development Kit (CDK) @aws-cdk/aws-redshift-alpha module provides experimental constructs that manage Amazon Redshift users, tables and privileges. We identified\nCVE-2026-115418\n, an issue where crafted user names, comments or passwords set in these constructs could change the SQL that runs with Amazon Redshift superuser privileges at deployment, including granting access to all cluster users. Exploiting the issue requires the ability to influence the CDK application's construct property values.\nImpacted versions:\n<2.274.0-alpha.0\nResolution:\nThis issue has been addressed in\n@aws-cdk/aws-redshift-alpha version 2.274.0\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes. After upgrading, review existing table grants to PUBLIC.\nWorkarounds:\nUse only trusted, developer-authored values for user names, comments and passwords in these constructs, and review existing table grants to PUBLIC.\nReferences:\nCVE-2026-115418\nGHSA-25hh-xvj4-2cqv\nhttps://www.npmjs.com/package/@aws-cdk/aws-redshift-alpha\nAcknowledgement:\nWe would like to thank Joseph Semaan for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-10-26",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-115418"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-115418"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-151-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-151-aws/"
+  ]
+}

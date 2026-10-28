@@ -1,0 +1,35 @@
+{
+  "id": "2026-140-aws",
+  "source": "aws-kiro",
+  "vendor": "aws-kiro",
+  "title": "CVE-2026-112380 - Missing authorization in the WhatsApp channel in Kiro Crew",
+  "description": "CVE-2026-112380 - Missing authorization in the WhatsApp channel in Kiro Crew\nBulletin ID:\n2026-140-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n10/20/2026 13:00 PM PDT\nDescription:\nKiro Crew is an open-source personal AI agent that can be reached from a web dashboard, a CLI, or messaging channels such as WhatsApp, and that runs tools on the operator's machine.\nWe identified\nCVE-2026-112380\n, an authorization issue in the WhatsApp channel and the internal subagent run-control endpoints. In certain configurations where a WhatsApp group was added to an operator's allowed groups, or where the direct-message policy was set to open, a member of that WhatsApp group could send instructions to another session's subagent. The subagent then executed those instructions on the operator's machine under that session's approval policy, and the resulting audit trail was attributed to the operator rather than the actual sender.\nThe default configuration is not affected: whatsapp.groups defaults to empty and whatsapp.dm_policy defaults to self, so a group that is not explicitly listed is dropped before dispatch.\nImpacted versions:\n>=0.4.0 AND <0.7.2\nResolution:\nThis issue has been addressed in\nKiro Crew version 0.7.2\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes. The fix (\nPR #14338\n) makes WhatsApp group traffic subject to the same per-user allowlist as direct messages (deny by default), runs untrusted turns on a dedicated tool-less agent so the untrusted flag no longer depends on a permission prompt, and requires a verified caller identity with an ownership check on every subagent run-control route.\nWorkarounds:\nRemove every entry from whatsapp.groups and keep whatsapp.dm_policy at self (the default). With no listed group, group traffic is dropped before any dispatch. Alternatively, disable the WhatsApp channel until the upgrade is applied.\nReferences:\nCVE-2026-112380\nGHSA-x4jf-p42g-q3hc\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-10-20",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws-kiro",
+      "product": "Kiro Crew is an open-source personal AI agent that can be reached from a web dashboard, a CLI, or messaging channels such as WhatsApp, and that runs tools on the operator's machine.",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-112380"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-112380"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-140-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-140-aws/"
+  ]
+}

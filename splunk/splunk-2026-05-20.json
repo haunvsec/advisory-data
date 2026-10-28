@@ -3,11 +3,11 @@
   "source": "splunk",
   "vendor": "splunk",
   "title": "Splunk Security Advisories - 2026-05-20",
-  "description": "Merged 15 splunk security advisories published on 2026-05-20. Original advisory IDs: SVD-2026-0516, SVD-2026-0515, SVD-2026-0514, SVD-2026-0513, SVD-2026-0512, SVD-2026-0511, SVD-2026-0510, SVD-2026-0509, SVD-2026-0508, SVD-2026-0507, SVD-2026-0506, SVD-2026-0505, SVD-2026-0504, SVD-2026-0503, SVD-2026-0502\n\nTitles:\n- Third-Party Package Updates in Splunk Add-on for Tomcat App - May 2026\n- Third-Party Package Updates in Splunk User Behavior Analytics - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Java Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Analytics Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Apache Web Server Agent - May 2026\n- Third-Party Package Updates in Splunk Universal Forwarder - May 2026\n- Third-Party Package Updates in Splunk Enterprise - May 2026\n- Denial of Service through coldToFrozen.sh Script in Splunk Enterprise\n- Sensitive Information Disclosure through Log Files in Splunk Enterprise\n- Improper Access Control through Role Inheritance in Splunk AI Toolkit app",
+  "description": "Merged 8 splunk security advisories published on 2026-05-20. Original advisory IDs: SVD-2026-0516, SVD-2026-0515, SVD-2026-0514, SVD-2026-0513, SVD-2026-0512, SVD-2026-0511, SVD-2026-0510, SVD-2026-0509\n\nTitles:\n- Third-Party Package Updates in Splunk Add-on for Tomcat App - May 2026\n- Third-Party Package Updates in Splunk User Behavior Analytics - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Machine Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Java Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Private Synthetic Agent (PSA) - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Python Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Cluster Agent - May 2026\n- Third-Party Package Updates in Splunk AppDynamics Database Agent - May 2026",
   "published_date": "2026-05-20",
   "modified_date": "2026-05-20",
   "severity": null,
-  "cvss_score": 3.1,
+  "cvss_score": null,
   "cvss_vector": null,
   "cwe_ids": [],
   "impact_type": "",
@@ -398,34 +398,7 @@
         "CVE-2026-32289",
         "CVE-2026-33186",
         "CVE-2026-33810",
-        "CVE-2026-35469",
-        "CVE-2024-12798",
-        "CVE-2024-12801",
-        "CVE-2025-37731",
-        "CVE-2025-68384",
-        "CVE-2025-68390",
-        "CVE-2025-22872",
-        "CVE-2025-47911",
-        "CVE-2025-58190",
-        "CVE-2025-68156",
-        "CVE-2026-27141",
-        "CVE-2026-20240",
-        "CVE-2026-20239",
-        "CVE-2026-20238"
-      ]
-    },
-    {
-      "vendor": "splunk",
-      "product": "Splunk Universal Forwarder",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "",
-      "purl": "",
-      "cves": [
-        "CVE-2024-12084",
-        "CVE-2024-12086",
-        "CVE-2024-12087",
-        "CVE-2024-12088"
+        "CVE-2026-35469"
       ]
     }
   ],
@@ -468,41 +441,6 @@
     {
       "type": "Vendor Fix",
       "description": "Upgrade Splunk AppDynamics Database Agent to version 26.4.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Database Agent\n26.4\nBelow 26.4.0\n26.4.0",
-      "url": ""
-    },
-    {
-      "type": "Vendor Fix",
-      "description": "Upgrade Splunk AppDynamics Analytics Agent to version 26.4.0 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Analytics Agent\n26.4\nBelow 26.4.0\n26.4.0",
-      "url": ""
-    },
-    {
-      "type": "Vendor Fix",
-      "description": "Upgrade Splunk AppDynamics Apache Web Server Agent to versions 25.11.1 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AppDynamics Apache Web Server Agent\n25.11\nBelow 25.11.1\n25.11.1",
-      "url": ""
-    },
-    {
-      "type": "Vendor Fix",
-      "description": "Upgrade Splunk Universal Forwarder to versions 10.2.3, 10.0.6, 9.4.11, 9.3.12, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Universal Forwarder\n9.4\n9.4.0 to 9.4.10\n9.4.11",
-      "url": ""
-    },
-    {
-      "type": "Vendor Fix",
-      "description": "Upgrade Splunk Enterprise to versions 10.2.3, 10.0.6, 9.4.11, 9.3.12, or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nBelow 10.2.3\n10.2.3\nSplunk Enterprise\n10.0\n10.0.0 to 10.0.5\n10.0.6\nSplunk Enterprise\n9.4\n9.4.0 to 9.4.10\n9.4.11\nSplunk Enterprise\n9.3\n9.3.0 to 9.3.11\n9.3.12",
-      "url": ""
-    },
-    {
-      "type": "Vendor Fix",
-      "description": "Upgrade Splunk Enterprise to versions 10.2.2, 10.0.5, 9.4.11, 9.3.12, or higher.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.4\nSplunk Archiver\nNot affected\nN/A\nSplunk Enterprise\n10.2\nSplunk Archiver\n10.2.0 to 10.2.1\n10.2.2\nSplunk Enterprise\n10.0\nSplunk Archiver\n10.0.0 to 10.0.4\n10.0.5\nSplunk Enterprise\n9.4\nSplunk Archiver\n9.4.0 to 9.4.10\n9.4.11\nSplunk Enterprise\n9.3\nSplunk Archiver\n9.3.0 to 9.3.11\n9.3.12\nMitigations and Workarounds\nTurn off the",
-      "url": ""
-    },
-    {
-      "type": "Vendor Fix",
-      "description": "Upgrade Splunk Enterprise to versions 10.2.2, 10.0.5, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.2\nsplunkd\n10.2.0 to 10.2.1\n10.2.2\nSplunk Enterprise\n10.0\nsplunkd\n10.0.0 to 10.0.4\n10.0.5\nSplunk Enterprise\n9.4\nsplunkd\nNot affected\nN/A\nSplunk Enterprise\n9.3\nsplunkd\nNot affected\nN/A\nSplunk Cloud Platform\n10.3.2512\nsplunkd\nBelow 10.3.2512.8\n10.3.2512.8\nSplunk Clo",
-      "url": ""
-    },
-    {
-      "type": "Vendor Fix",
-      "description": "Upgrade Splunk AI Toolkit to version 5.7.3 or higher.\nProduct Status\nProduct\nBase Version\nAffected Version\nFix Version\nSplunk AI Toolkit\n5.7\nBelow 5.7.3\n5.7.3\nMitigations and Workarounds\nTurn Splunk AI Toolkit 5.7.2 and lower off until a patched version is available. See\nManage app and add-on objects\nin the Splunk documentation.\nIf you must leave the app on, then perform one of the following options and restart the Splunk platform instance:\n1. Edit the\n$SPLUNK_HOME/etc/aps/Splunk_ML_Toolkit/defa",
       "url": ""
     }
   ],
@@ -625,14 +563,8 @@
     "CVE-2024-0397",
     "CVE-2024-10220",
     "CVE-2024-11053",
-    "CVE-2024-12084",
-    "CVE-2024-12086",
-    "CVE-2024-12087",
-    "CVE-2024-12088",
     "CVE-2024-12718",
     "CVE-2024-12797",
-    "CVE-2024-12798",
-    "CVE-2024-12801",
     "CVE-2024-13009",
     "CVE-2024-13176",
     "CVE-2024-1597",
@@ -685,7 +617,6 @@
     "CVE-2025-22868",
     "CVE-2025-22869",
     "CVE-2025-22871",
-    "CVE-2025-22872",
     "CVE-2025-24855",
     "CVE-2025-27210",
     "CVE-2025-27553",
@@ -700,7 +631,6 @@
     "CVE-2025-30754",
     "CVE-2025-30761",
     "CVE-2025-31133",
-    "CVE-2025-37731",
     "CVE-2025-4138",
     "CVE-2025-4330",
     "CVE-2025-4432",
@@ -713,7 +643,6 @@
     "CVE-2025-46762",
     "CVE-2025-47273",
     "CVE-2025-47907",
-    "CVE-2025-47911",
     "CVE-2025-47913",
     "CVE-2025-48924",
     "CVE-2025-49146",
@@ -732,7 +661,6 @@
     "CVE-2025-58060",
     "CVE-2025-58187",
     "CVE-2025-58188",
-    "CVE-2025-58190",
     "CVE-2025-58436",
     "CVE-2025-59464",
     "CVE-2025-59465",
@@ -760,11 +688,8 @@
     "CVE-2025-67735",
     "CVE-2025-68119",
     "CVE-2025-68121",
-    "CVE-2025-68156",
     "CVE-2025-68160",
     "CVE-2025-68161",
-    "CVE-2025-68384",
-    "CVE-2025-68390",
     "CVE-2025-68973",
     "CVE-2025-69277",
     "CVE-2025-69418",
@@ -785,9 +710,6 @@
     "CVE-2026-1584",
     "CVE-2026-1605",
     "CVE-2026-1861",
-    "CVE-2026-20238",
-    "CVE-2026-20239",
-    "CVE-2026-20240",
     "CVE-2026-21637",
     "CVE-2026-21710",
     "CVE-2026-21712",
@@ -830,7 +752,6 @@
     "CVE-2026-27026",
     "CVE-2026-27139",
     "CVE-2026-27140",
-    "CVE-2026-27141",
     "CVE-2026-27142",
     "CVE-2026-27143",
     "CVE-2026-27144",
@@ -913,13 +834,6 @@
     "https://advisory.splunk.com/advisories/SVD-2026-0512",
     "https://advisory.splunk.com/advisories/SVD-2026-0511",
     "https://advisory.splunk.com/advisories/SVD-2026-0510",
-    "https://advisory.splunk.com/advisories/SVD-2026-0509",
-    "https://advisory.splunk.com/advisories/SVD-2026-0508",
-    "https://advisory.splunk.com/advisories/SVD-2026-0507",
-    "https://advisory.splunk.com/advisories/SVD-2026-0506",
-    "https://advisory.splunk.com/advisories/SVD-2026-0505",
-    "https://advisory.splunk.com/advisories/SVD-2026-0504",
-    "https://advisory.splunk.com/advisories/SVD-2026-0503",
-    "https://advisory.splunk.com/advisories/SVD-2026-0502"
+    "https://advisory.splunk.com/advisories/SVD-2026-0509"
   ]
 }
