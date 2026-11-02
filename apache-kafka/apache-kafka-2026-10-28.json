@@ -1,0 +1,73 @@
+{
+  "id": "apache-kafka-2026-10-28",
+  "source": "apache-kafka",
+  "vendor": "apache",
+  "title": "Apache Security Advisories - 2026-10-28",
+  "description": "Merged 12 apache security advisories published on 2026-10-28. Original advisory IDs: CVE-2026-114349, CVE-2026-112375, CVE-2026-111551, CVE-2026-111115, CVE-2026-111108, CVE-2026-110985, CVE-2026-116593, CVE-2026-111073, CVE-2026-110952, CVE-2026-115644, CVE-2026-111496, CVE-2026-83525\n\nTitles:\n- Apache Kafka: Apache Kafka: Denial of service via unbounded memory allocation when decoding compressed record batches\n- Apache Kafka: Apache Kafka: Unauthorized principal can read arbitrary broker files via IncrementalAlterConfigs\n- Apache Kafka: Apache Kafka: Denial of service in Kafka Streams and client deserializers via unbounded memory allocation\n- Apache Kafka: Apache Kafka: Broker OutOfMemoryError via tagged-field allocation amplification in flexible protocol request parsing\n- Apache Kafka: Apache Kafka: Broker OutOfMemoryError via array allocation amplification in code-generated protocol readers\n- Apache Kafka: Apache Kafka: Broker silently skips JWT signature verification for SASL/OAUTHBEARER when the JWKS endpoint URL is not configured\n- Apache Kafka: Apache Kafka: Kafka Connect configuration provider values exposed via validation REST API endpoint\n- Apache Kafka: Apache Kafka: PushTelemetry (KIP-714) metrics payloads are decompressed without a size limit, allowing a broker out-of-memory denial of service\n- Apache Kafka: Apache Kafka: Broker does not enforce JWT issuer and audience validation for SASL/OAUTHBEARER by default\n- Apache Kafka: Apache Kafka: Connect Admin REST API Authentication Bypass via Unapplied REST Extensions\n- Apache Kafka: Apache Kafka: Kafka Streams StreamThread hang from integer overflow in stream-time punctuation\n- Apache Kafka: Apache Kafka: Incorrect boolean operator in FetchSnapshot RPC handler allows authenticated network clients to crash the KRaft controller via a malformed request",
+  "published_date": "2026-10-28",
+  "modified_date": "2026-10-28",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "apache",
+      "product": "Apache Kafka",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-114349",
+        "CVE-2026-112375",
+        "CVE-2024-31141",
+        "CVE-2026-111551",
+        "CVE-2026-111115",
+        "CVE-2026-111108",
+        "CVE-2026-110985",
+        "CVE-2026-110952",
+        "CVE-2026-116593",
+        "CVE-2026-111073",
+        "CVE-2026-33557",
+        "CVE-2026-115644",
+        "CVE-2026-111496",
+        "CVE-2026-83525"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2024-31141",
+    "CVE-2026-110952",
+    "CVE-2026-110985",
+    "CVE-2026-111073",
+    "CVE-2026-111108",
+    "CVE-2026-111115",
+    "CVE-2026-111496",
+    "CVE-2026-111551",
+    "CVE-2026-112375",
+    "CVE-2026-114349",
+    "CVE-2026-115644",
+    "CVE-2026-116593",
+    "CVE-2026-33557",
+    "CVE-2026-83525"
+  ],
+  "url": "https://kafka.apache.org/community/cve-list/",
+  "references": [
+    "https://kafka.apache.org/community/cve-list/",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-114349",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-112375",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-111551",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-111115",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-111108",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-110985",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-116593",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-111073",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-110952",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-115644",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-111496",
+    "https://kafka.apache.org/community/cve-list/#CVE-2026-83525"
+  ]
+}

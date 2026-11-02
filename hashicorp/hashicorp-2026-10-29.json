@@ -1,0 +1,54 @@
+{
+  "id": "hashicorp-2026-10-29",
+  "source": "hashicorp",
+  "vendor": "hashicorp",
+  "title": "Hashicorp Security Advisories - 2026-10-29",
+  "description": "Merged 4 hashicorp security advisories published on 2026-10-29. Original advisory IDs: HCSEC-2026-54, HCSEC-2026-53, HCSEC-2026-52, HCSEC-2026-51\n\nTitles:\n- HCSEC-2026-54 - Boundary vulnerable to server-side request forgery in Vault credential store\n- HCSEC-2026-53 - Nomad allocation data migration may allow host directory permission modification via symlink following\n- HCSEC-2026-52 - Nomad dispatch payload writes can escape the allocation directory through symlinks\n- HCSEC-2026-51 - Nomad vulnerable to cross-namespace information disclosure in multiple endpoints",
+  "published_date": "2026-10-29",
+  "modified_date": "2026-10-29",
+  "severity": null,
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "hashicorp",
+      "product": "HashiCorp Vault",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-13303"
+      ]
+    },
+    {
+      "vendor": "hashicorp",
+      "product": "HashiCorp Nomad",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-119168",
+        "CVE-2026-107347",
+        "CVE-2026-102260"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-102260",
+    "CVE-2026-107347",
+    "CVE-2026-119168",
+    "CVE-2026-13303"
+  ],
+  "url": "https://discuss.hashicorp.com/t/hcsec-2026-54-boundary-vulnerable-to-server-side-request-forgery-in-vault-credential-store/77932",
+  "references": [
+    "https://discuss.hashicorp.com/t/hcsec-2026-54-boundary-vulnerable-to-server-side-request-forgery-in-vault-credential-store/77932",
+    "https://discuss.hashicorp.com/t/hcsec-2026-53-nomad-allocation-data-migration-may-allow-host-directory-permission-modification-via-symlink-following/77931",
+    "https://discuss.hashicorp.com/t/hcsec-2026-52-nomad-dispatch-payload-writes-can-escape-the-allocation-directory-through-symlinks/77930",
+    "https://discuss.hashicorp.com/t/hcsec-2026-51-nomad-vulnerable-to-cross-namespace-information-disclosure-in-multiple-endpoints/77929"
+  ]
+}

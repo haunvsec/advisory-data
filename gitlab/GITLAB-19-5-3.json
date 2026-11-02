@@ -1,0 +1,46 @@
+{
+  "id": "GITLAB-19-5-3",
+  "source": "gitlab",
+  "vendor": "gitlab",
+  "title": "GitLab Patch Release and Security Update: 19.5.3, 19.4.5, 19.3.7, 19.2.10, 19.1.10, 19.0.11, 18.11.14",
+  "description": "<!-- markdownlint-disable -->\n<!-- vale off -->\n<p>We have released versions 19.5.3, 19.4.5, 19.3.7, 19.2.10, 19.1.10, 19.0.11, 18.11.14 for GitLab Community Edition (CE) and Enterprise Edition (EE). We <a href=\"https://gitlab.com/gitlab-org/gitlab-runner/-/releases/v19.5.1\">also released version 19.5.1</a> for GitLab Runner and released versions 18.11.8, 19.0.13, 19.1.9, 19.2.5, 19.3.3, 19.4.3, 19.5.3 for GitLab AI Gateway. GitLab.com is already running the patched version. GitLab Dedicated tenants running 19.4.3-internal0 or later already include these fixes and do not need to take action.</p>\n<p>These versions address <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111943\">CVE-2026-111943</a>, along with additional unrelated bug fixes. We strongly recommend that all self-managed GitLab installations be upgraded to one of these versions. If you use the self-hosted version of Runners or AI Gateway, you must also upgrade those components to the latest versions; guidance is included below. GitLab-hosted infrastructure has already been upgraded.</p>\n<h2 id=\"security-update\"><strong>Security update</strong></h2>\n<h3 id=\"cve-2026-111943---gitlab-has-removed-trust-for-compromised-emudhra-intermediate-ca-certificates-for-gitlab-ceee\"><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111943\">CVE-2026-111943</a> - GitLab has removed trust for compromised eMudhra Intermediate CA Certificates for GitLab CE/EE</h3>\n<p>For GitLab CE/EE, GitLab has removed trust for eight eMudhra intermediate CA certificates whose private keys have been compromised. This release removes trust for those certificates from the certificate stores GitLab ships. For background, see eMudhra’s <a href=\"https://emudhra.we-have-a-problem.com/\">public incident write-up</a>.</p>\n<p><strong>Impacted Versions:</strong> GitLab CE/EE: all versions before 18.11.14, 19.0 before 19.0.11, 19.1 before 19.1.10, 19.2 before 19.2.10, 19.3 before 19.3.7, 19.4 before 19.4.5, and 19.5 before 19.5.3.</p>\n<p><strong>Act",
+  "published_date": "2026-10-29",
+  "modified_date": "",
+  "severity": null,
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "gitlab",
+      "product": "GitLab CE",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-111943"
+      ]
+    },
+    {
+      "vendor": "gitlab",
+      "product": "GitLab EE",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-111943"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-111943"
+  ],
+  "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-3-released/",
+  "references": [
+    "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-3-released/"
+  ]
+}
