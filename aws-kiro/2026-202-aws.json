@@ -1,0 +1,35 @@
+{
+  "id": "2026-202-aws",
+  "source": "aws-kiro",
+  "vendor": "aws-kiro",
+  "title": "CVE-2026-136267 - Improper neutralization of special elements used in an OS command in Kiro Web",
+  "description": "CVE-2026-136267 - Improper neutralization of special elements used in an OS command in Kiro Web\nBulletin ID:\n2026-202-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n11/25/2026 09:00 AM PST\nDescription:\nKiro Web is a cloud-hosted, AI-powered integrated development environment where subscribers use AI agents to work on software development tasks in the browser.\nWe are aware of\nCVE-2026-136267\n, an issue in Kiro Web where tool-call markup inside content an agent session read, such as a repository file or a web page, could be repeated by certain models and run as a command in the subscriber's hosted development environment without a consent prompt. The issue affected agent sessions using DeepSeek v3.2, GLM-5, MiniMax M2.1, MiniMax M2.5, or Qwen3-coder-next from 2026-05-18 through 2026-10-30.\nImpacted versions:\nKiro Web before 2026-10-30\nResolution:\nThis issue was addressed in Kiro Web through a service-side update completed on October 30, 2026. No customer action is required.\nWorkarounds:\nNo workaround is required. The issue has been addressed service-side.\nReferences:\nCVE-2026-136267\nAcknowledgement:\nWe would like to thank Brad Rucinski for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any s ecurity questions or concerns.",
+  "published_date": "2026-11-25",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws-kiro",
+      "product": "Kiro Web is a cloud-hosted, AI-powered integrated development environment where subscribers use AI agents to work on software development tasks in the browser.",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-136267"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-136267"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-202-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-202-aws/"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "2026-178-aws",
+  "source": "aws-kiro",
+  "vendor": "aws-kiro",
+  "title": "CVE-2026-124848 - Incorrect default permissions on session transcripts and prompt history in Kiro CLI",
+  "description": "CVE-2026-124848 - Incorrect default permissions on session transcripts and prompt history in Kiro CLI\nBulletin ID:\n2026-178-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n11/10/2026 12:45 PM PST\nDescription:\nKiro CLI is an AI coding assistant that runs in the terminal.\nWe identified\nCVE-2026-124848\n, an issue in Kiro CLI (formerly Amazon Q Developer CLI) before version 2.27.0 on macOS and Linux. Kiro CLI created its session transcript and prompt history files with permissions that allowed other local users on the same host to read them. Another local user might read a user's prompts, model responses and tool output, including any credentials or source code they contain.\nImpacted versions:\nKiro CLI >= 1.16.0 AND < 2.27.0\nResolution:\nThis issue has been addressed in\nKiro CLI version 2.27.0\n. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes. Users should launch the upgraded Kiro CLI once so existing session files are restricted to the owner. Users who ran Amazon Q Developer CLI 1.16.0 through 1.19.x should also delete the ~/.aws/amazonq/.cli_bash_history file or restrict it to the owner.\nWorkarounds:\nUsers who cannot upgrade immediately can restrict access to the owner by running \"chmod -R go-rwx ~/.kiro\" on macOS and Linux, and by running \"umask 077\" in the shell before launching Kiro CLI so that new files are created owner-only. Users who ran Amazon Q Developer CLI 1.16.0 through 1.19.x should also run \"chmod go-rwx ~/.aws/amazonq/.cli_bash_history\".\nReferences:\nCVE-2026-124848\nPlease email\naws-security@amazon.com\nwith any s ecurity questions or concerns.",
+  "published_date": "2026-11-10",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws-kiro",
+      "product": "Kiro CLI is an AI coding assistant that runs in the terminal.",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-124848"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-124848"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-178-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-178-aws/"
+  ]
+}

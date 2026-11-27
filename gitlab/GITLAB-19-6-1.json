@@ -1,0 +1,46 @@
+{
+  "id": "GITLAB-19-6-1",
+  "source": "gitlab",
+  "vendor": "gitlab",
+  "title": "GitLab Critical Patch Release: 19.6.1, 19.5.8, 19.4.10",
+  "description": "<!-- For detailed instructions on how to complete this, please see https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/blog-post.md -->\n<!-- markdownlint-disable -->\n<!-- vale off -->\n<p><strong>Update</strong>: On November 25, 2026, we backported the fix for CVE-2026-132825 and the other vulnerabilities disclosed in the <a href=\"https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/\">Ruby security advisory</a> to versions 19.3.10, 19.2.11, 19.1.11, 19.0.12, and 18.11.15 of GitLab Community Edition (CE) and Enterprise Edition (EE). Self-managed GitLab administrators running older versions of GitLab CE and EE can now upgrade to these versions to apply these security fixes.</p>\n<p>On November 20, 2026, we released versions 19.6.1, 19.5.8, 19.4.10 for GitLab Community Edition and Enterprise Edition.</p>\n<p>These versions contain important bug and security fixes, and we strongly recommend that all self-managed GitLab installations be upgraded to\none of these versions immediately.\nGitLab.com and GitLab Dedicated are already running a patched version. GitLab.com and GitLab Dedicated customers do not need to take action.\nGitLab Dedicated was previously protected through internal-only releases 19.5.7 and 19.4.9, which contained interim mitigations for these vulnerabilities; all fixes from those releases are also included in 19.5.8 and 19.4.10.</p>\n<p>GitLab releases fixes for vulnerabilities in patch releases. There are two types of patch releases:\nscheduled releases and ad-hoc critical patches for high-severity vulnerabilities. Scheduled releases are released twice a month on the second and fourth Wednesdays.\nFor more information, please visit our <a href=\"https://handbook.gitlab.com/handbook/engineering/releases/\">releases handbook</a> and <a href=\"https://about.gitlab.com/security/faq/\">security FAQ</a>.\nYou can see all of GitLab release blog posts <a href=\"https://docs.gitlab.com/releases/\">here</a>.</p>\n<p>We are ",
+  "published_date": "2026-11-20",
+  "modified_date": "",
+  "severity": null,
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "gitlab",
+      "product": "GitLab CE",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-132825"
+      ]
+    },
+    {
+      "vendor": "gitlab",
+      "product": "GitLab EE",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-132825"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-132825"
+  ],
+  "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-6-1-released/",
+  "references": [
+    "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-6-1-released/"
+  ]
+}

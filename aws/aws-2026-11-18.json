@@ -1,0 +1,83 @@
+{
+  "id": "aws-2026-11-18",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "Aws Security Advisories - 2026-11-18",
+  "description": "Merged 2 aws security advisories published on 2026-11-18. Original advisory IDs: aws-2026-11-18, ALAS2023-2026-3494\n\nTitles:\n- Aws Security Advisories - 2026-11-18\n- ALAS2023-2026-3494 (important): nginx",
+  "published_date": "2026-11-18",
+  "modified_date": "2026-11-18",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "AutoGluon is an open source machine learning framework maintained by AWS.",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-130638"
+      ]
+    },
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-114938"
+      ]
+    },
+    {
+      "vendor": "al2023",
+      "product": "Nginx",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-113425",
+        "CVE-2026-118899",
+        "CVE-2026-120967",
+        "CVE-2026-121810",
+        "CVE-2026-123007",
+        "CVE-2026-123633",
+        "CVE-2026-123634",
+        "CVE-2026-123640",
+        "CVE-2026-125283"
+      ]
+    }
+  ],
+  "remediations": [
+    {
+      "type": "Vendor Fix",
+      "description": "dnf update nginx --releasever 2023.12.20261118",
+      "url": ""
+    }
+  ],
+  "cves": [
+    "CVE-2026-113425",
+    "CVE-2026-114938",
+    "CVE-2026-118899",
+    "CVE-2026-120967",
+    "CVE-2026-121810",
+    "CVE-2026-123007",
+    "CVE-2026-123633",
+    "CVE-2026-123634",
+    "CVE-2026-123640",
+    "CVE-2026-125283",
+    "CVE-2026-130638"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-188-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-188-aws/",
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-189-aws/",
+    "https://alas.aws.amazon.com/AL2023/ALAS2023-2026-3494.html"
+  ]
+}

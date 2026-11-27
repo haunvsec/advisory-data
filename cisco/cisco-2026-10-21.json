@@ -3,9 +3,9 @@
   "source": "cisco",
   "vendor": "cisco",
   "title": "Cisco Security Advisories - 2026-10-21",
-  "description": "Merged 14 cisco security advisories published on 2026-10-21. Original advisory IDs: cisco-sa-voice-hardening-twgbH9e3, cisco-sa-exwy-hardening-FhcqBVcs, cisco-sa-snort3-mime-vulns-bkXjcKkt, cisco-sa-hardening-snort3-ybgmhTQe, cisco-sa-snort3-misc-dos-6mB22qAK, cisco-sa-snort3-gre-JNpMHrTv, cisco-sa-snort3-gtpcodec-dos-Rmecfepz, cisco-sa-snort3-vba-bufdos-jAuFdvn9, cisco-sa-vcs-static-cred-hr7EWZ8t, cisco-sa-cucm-access-PW9e8Jt2, cisco-sa-opensrc-snort3-2fXGJPfe, cisco-sa-asr9k-tUyxcyXN, cisco-sa-sec-client-priv-esc-muF8eZdm, cisco-sa-expressway-inf-disc-vvYqgSTS\n\nTitles:\n- Cisco Unified Communications Products Security Hardening Release: October 2026\n- Cisco Expressway Series Security Hardening Release: October 2026\n- Multiple Cisco Products Snort 3 SMTP MIME Denial of Service Vulnerability\n- Multiple Cisco Products Snort 3 Security Hardening Release: October 2026\n- Multiple Cisco Products Snort 3 Denial of Service Vulnerabilities\n- Multiple Cisco Products Snort 3 Generic Routing Encapsulation Denial of Service Vulnerability\n- Multiple Cisco Products Snort 3 Denial of Service Vulnerability\n- Multiple Cisco Products Snort 3 Visual Basic for Applications Buffer Overflow Denial of Service Vulnerability\n- Cisco Expressway Series Remote Code Execution Vulnerability\n- Cisco Unified Communications Manager Improper Access Control Vulnerability\n- Open Source Snort 3 Control Channel Socket Arbitrary Command Execution Vulnerability\n- Cisco IOS XR Software for ASR 9000 Series Routers IPv4 Unicast Packets Denial of Service Vulnerability\n- Cisco Secure Client Secure Firewall Posture Module Privilege Escalation Vulnerability\n- Cisco Expressway Series Information Disclosure Vulnerability",
+  "description": "Merged 15 cisco security advisories published on 2026-10-21. Original advisory IDs: cisco-sa-vcs-static-cred-hr7EWZ8t, cisco-sa-php-october26-Jj384Daq, cisco-sa-voice-hardening-twgbH9e3, cisco-sa-exwy-hardening-FhcqBVcs, cisco-sa-snort3-mime-vulns-bkXjcKkt, cisco-sa-hardening-snort3-ybgmhTQe, cisco-sa-snort3-misc-dos-6mB22qAK, cisco-sa-snort3-gre-JNpMHrTv, cisco-sa-snort3-gtpcodec-dos-Rmecfepz, cisco-sa-snort3-vba-bufdos-jAuFdvn9, cisco-sa-expressway-inf-disc-vvYqgSTS, cisco-sa-cucm-access-PW9e8Jt2, cisco-sa-opensrc-snort3-2fXGJPfe, cisco-sa-asr9k-tUyxcyXN, cisco-sa-sec-client-priv-esc-muF8eZdm\n\nTitles:\n- Cisco Expressway Series Remote Code Execution Vulnerability\n- Vulnerabilities in PHP Affecting Cisco Products: October 2026\n- Cisco Unified Communications Products Security Hardening Release: October 2026\n- Cisco Expressway Series Security Hardening Release: October 2026\n- Multiple Cisco Products Snort 3 SMTP MIME Denial of Service Vulnerability\n- Multiple Cisco Products Snort 3 Security Hardening Release: October 2026\n- Multiple Cisco Products Snort 3 Denial of Service Vulnerabilities\n- Multiple Cisco Products Snort 3 Generic Routing Encapsulation Denial of Service Vulnerability\n- Multiple Cisco Products Snort 3 Denial of Service Vulnerability\n- Multiple Cisco Products Snort 3 Visual Basic for Applications Buffer Overflow Denial of Service Vulnerability\n- Cisco Expressway Series Information Disclosure Vulnerability\n- Cisco Unified Communications Manager Improper Access Control Vulnerability\n- Open Source Snort 3 Control Channel Socket Arbitrary Command Execution Vulnerability\n- Cisco IOS XR Software for ASR 9000 Series Routers IPv4 Unicast Packets Denial of Service Vulnerability\n- Cisco Secure Client Secure Firewall Posture Module Privilege Escalation Vulnerability",
   "published_date": "2026-10-21",
-  "modified_date": "2026-10-27",
+  "modified_date": "2026-11-23",
   "severity": "critical",
   "cvss_score": 9.8,
   "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -14,7 +14,39 @@
   "affected_products": [
     {
       "vendor": "cisco",
-      "product": "CVRFPID-73608",
+      "product": "Cisco TelePresence Video Communication Server (VCS) Expressway",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-76466",
+        "CVE-2026-76495",
+        "CVE-2026-76492",
+        "CVE-2026-76491",
+        "CVE-2026-76490",
+        "CVE-2026-76493",
+        "CVE-2026-76497",
+        "CVE-2026-76494",
+        "CVE-2026-76496",
+        "CVE-2026-76435"
+      ]
+    },
+    {
+      "vendor": "cisco",
+      "product": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ]
+    },
+    {
+      "vendor": "cisco",
+      "product": "Cisco Unity Connection",
       "version_range": "",
       "fixed_version": "",
       "cpe": "",
@@ -32,7 +64,7 @@
     },
     {
       "vendor": "cisco",
-      "product": "CVRFPID-4844",
+      "product": "Cisco Emergency Responder",
       "version_range": "",
       "fixed_version": "",
       "cpe": "",
@@ -50,25 +82,7 @@
     },
     {
       "vendor": "cisco",
-      "product": "CVRFPID-189784",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "",
-      "purl": "",
-      "cves": [
-        "CVE-2026-76475",
-        "CVE-2026-76476",
-        "CVE-2026-76473",
-        "CVE-2026-76477",
-        "CVE-2026-76474",
-        "CVE-2026-76478",
-        "CVE-2026-76481",
-        "CVE-2026-76479"
-      ]
-    },
-    {
-      "vendor": "cisco",
-      "product": "CVRFPID-88444",
+      "product": "Cisco Unified CM",
       "version_range": "",
       "fixed_version": "",
       "cpe": "",
@@ -83,26 +97,6 @@
         "CVE-2026-76481",
         "CVE-2026-76479",
         "CVE-2026-76487"
-      ]
-    },
-    {
-      "vendor": "cisco",
-      "product": "CVRFPID-209614",
-      "version_range": "",
-      "fixed_version": "",
-      "cpe": "",
-      "purl": "",
-      "cves": [
-        "CVE-2026-76495",
-        "CVE-2026-76492",
-        "CVE-2026-76491",
-        "CVE-2026-76490",
-        "CVE-2026-76493",
-        "CVE-2026-76497",
-        "CVE-2026-76494",
-        "CVE-2026-76496",
-        "CVE-2026-76466",
-        "CVE-2026-76435"
       ]
     },
     {
@@ -129,6 +123,18 @@
     },
     {
       "vendor": "cisco",
+      "product": "CVRFPID-279755",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-20011",
+        "CVE-2026-20221"
+      ]
+    },
+    {
+      "vendor": "cisco",
       "product": "CVRFPID-309476",
       "version_range": "",
       "fixed_version": "",
@@ -136,6 +142,31 @@
       "purl": "",
       "cves": [
         "CVE-2026-20011",
+        "CVE-2026-20221"
+      ]
+    },
+    {
+      "vendor": "cisco",
+      "product": "Cisco Cyber Vision",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-20043",
+        "CVE-2026-20236",
+        "CVE-2026-20291",
+        "CVE-2026-20356"
+      ]
+    },
+    {
+      "vendor": "cisco",
+      "product": "Cisco Open Source Snort3",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
         "CVE-2026-20043",
         "CVE-2026-20236",
         "CVE-2026-20291",
@@ -144,7 +175,6 @@
         "CVE-2026-20019",
         "CVE-2026-20179",
         "CVE-2026-20197",
-        "CVE-2026-20221",
         "CVE-2026-76445",
         "CVE-2026-20218",
         "CVE-2026-76524"
@@ -152,13 +182,12 @@
     },
     {
       "vendor": "cisco",
-      "product": "CVRFPID-279755",
+      "product": "Cisco UTD SNORT IPS Engine Software",
       "version_range": "",
       "fixed_version": "",
       "cpe": "",
       "purl": "",
       "cves": [
-        "CVE-2026-20011",
         "CVE-2026-20043",
         "CVE-2026-20236",
         "CVE-2026-20291",
@@ -166,7 +195,6 @@
         "CVE-2026-20019",
         "CVE-2026-20179",
         "CVE-2026-20197",
-        "CVE-2026-20221",
         "CVE-2026-76445",
         "CVE-2026-20218"
       ]
@@ -179,10 +207,6 @@
       "cpe": "",
       "purl": "",
       "cves": [
-        "CVE-2026-20043",
-        "CVE-2026-20236",
-        "CVE-2026-20291",
-        "CVE-2026-20356",
         "CVE-2026-20221"
       ]
     },
@@ -199,7 +223,7 @@
     },
     {
       "vendor": "cisco",
-      "product": "CVRFPID-5834",
+      "product": "Cisco IOS XR",
       "version_range": "",
       "fixed_version": "",
       "cpe": "",
@@ -210,7 +234,7 @@
     },
     {
       "vendor": "cisco",
-      "product": "CVRFPID-109810",
+      "product": "Cisco Secure Client",
       "version_range": "",
       "fixed_version": "",
       "cpe": "",
@@ -222,6 +246,8 @@
   ],
   "remediations": [],
   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619",
     "CVE-2026-20011",
     "CVE-2026-20019",
     "CVE-2026-20043",
@@ -257,8 +283,10 @@
     "CVE-2026-76505",
     "CVE-2026-76524"
   ],
-  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3",
+  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t",
   "references": [
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-exwy-hardening-FhcqBVcs",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-mime-vulns-bkXjcKkt",
@@ -267,11 +295,10 @@
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-gre-JNpMHrTv",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-gtpcodec-dos-Rmecfepz",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-vba-bufdos-jAuFdvn9",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-expressway-inf-disc-vvYqgSTS",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-access-PW9e8Jt2",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-opensrc-snort3-2fXGJPfe",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asr9k-tUyxcyXN",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sec-client-priv-esc-muF8eZdm",
-    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-expressway-inf-disc-vvYqgSTS"
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sec-client-priv-esc-muF8eZdm"
   ]
 }

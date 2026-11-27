@@ -1,0 +1,35 @@
+{
+  "id": "2026-182-aws",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "CVE-2026-126793 - Privilege escalation in Aurora PostgreSQL dialect detection in AWS Advanced Go Wrapper",
+  "description": "CVE-2026-126793 - Privilege escalation in Aurora PostgreSQL dialect detection in AWS Advanced Go Wrapper\nBulletin ID:\n2026-182-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n11/12/2026 13:00 PM PST\nDescription:\nAWS Advanced Go Wrapper is an open source Go database driver wrapper that customers use to connect to Amazon Aurora PostgreSQL clusters.\nWe identified\nCVE-2026-126793\n, an issue in Aurora PostgreSQL dialect detection in AWS Advanced Go Wrapper from release 2026-04-06 (awssql/v2.0.0) and before release 2026-07-29 (awssql/v2.0.3). An authenticated database user who can create functions in a schema on another database user's search path might escalate privileges to those of that user, including a member of the rds_superuser role, when that user connects to an Aurora PostgreSQL cluster through an affected version of the wrapper.\nImpacted versions:\n>= 2026-04-06 AND < 2026-07-29 (awssql/v2 >= 2.0.0 AND < 2.0.3)\nResolution:\nThis issue has been addressed in\nAWS Advanced Go Wrapper release 2026-07-29 (awssql/v2.0.3)\n, released on July 29, 2026. We recommend upgrading to the latest version and ensuring any forked or derivative code is patched to incorporate the new fixes.\nWorkarounds:\nIf you cannot upgrade immediately, revoke the CREATE privilege on the public schema from PUBLIC (REVOKE CREATE ON SCHEMA public FROM PUBLIC;), and grant CREATE on any other schema in the search_path of database users that connect through AWS Advanced Go Wrapper only to trusted database users.\nReferences:\nCVE-2026-126793\nGHSA-fhr2-6r5v-gm9f\nAcknowledgement:\nWe would like to thank Arpit Jain (arpitjain099) for collaborating on this issue through the coordinated vulnerability disclosure process.\nPlease email\naws-security@amazon.com\nwith any s ecurity questions or concerns.",
+  "published_date": "2026-11-12",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "postgresql",
+      "product": "PostgreSQL",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-126793"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-126793"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-182-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-182-aws/"
+  ]
+}

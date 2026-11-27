@@ -3,15 +3,28 @@
   "source": "cisco",
   "vendor": "cisco",
   "title": "Cisco Security Advisories - 2026-09-16",
-  "description": "Merged 8 cisco security advisories published on 2026-09-16. Original advisory IDs: cisco-sa-ise-multiauth-bypass-sgD2HbL4, cisco-sa-asa-ftd-logging-dos-ZXXNesfN, cisco-sa-hardening-asaftdfmc-uvpPROhN, cisco-sa-asaftd-dtls-dos-Kp57HkyO, cisco-sa-asaftd-ikev2cert-dos-uWyc2xtv, cisco-sa-ftd-acl-bypass-8p6vFvw, cisco-sa-asaftd-tcpdns-dos-p6dUnjr5, cisco-sa-asaftd-eigrp-dos-GOhNejSj\n\nTitles:\n- Cisco Identity Services Engine Authentication Bypass Vulnerabilities\n- Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Logging Denial of Service Vulnerability\n- Cisco Secure Firewall Adaptive Security Appliance, Secure Firewall Threat Defense, and Secure Firewall Management Center Software Hardening Release: September 2026\n- Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Secure Firewall 3100 and 4200 Series DTLS Denial of Service Vulnerability\n- Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software IKEv2 Certificate Authentication Denial of Service Vulnerability\n- Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Object Group Access Control List Bypass Vulnerabilities\n- Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software TCP DNS Denial of Service Vulnerability\n- Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software EIGRP Denial of Service Vulnerability",
+  "description": "Merged 2 cisco security advisories published on 2026-09-16. Original advisory IDs: cisco-sa-ise-auth-bypass-1-MxcTNgwx, cisco-2026-09-16\n\nTitles:\n- Cisco Identity Services Engine Authorization Bypass Vulnerabilities\n- Cisco Security Advisories - 2026-09-16",
   "published_date": "2026-09-16",
-  "modified_date": "2026-09-24",
+  "modified_date": "2026-11-10",
   "severity": "critical",
   "cvss_score": 9.9,
   "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
   "cwe_ids": [],
   "impact_type": "",
   "affected_products": [
+    {
+      "vendor": "cisco",
+      "product": "Cisco Identity Services Engine",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-20183",
+        "CVE-2026-20285",
+        "CVE-2026-20286"
+      ]
+    },
     {
       "vendor": "cisco",
       "product": "CVRFPID-292424",
@@ -3635,10 +3648,13 @@
     "CVE-2026-20120",
     "CVE-2026-20121",
     "CVE-2026-20154",
+    "CVE-2026-20183",
     "CVE-2026-20222",
     "CVE-2026-20248",
     "CVE-2026-20249",
     "CVE-2026-20250",
+    "CVE-2026-20285",
+    "CVE-2026-20286",
     "CVE-2026-20329",
     "CVE-2026-20330",
     "CVE-2026-20331",
@@ -3652,8 +3668,9 @@
     "CVE-2026-76446",
     "CVE-2026-76447"
   ],
-  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4",
+  "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-1-MxcTNgwx",
   "references": [
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-1-MxcTNgwx",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-logging-dos-ZXXNesfN",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-asaftdfmc-uvpPROhN",

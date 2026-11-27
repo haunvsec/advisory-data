@@ -1,0 +1,35 @@
+{
+  "id": "2026-173-aws",
+  "source": "aws",
+  "vendor": "aws",
+  "title": "CVE-2026-122193 - Issue with Trusted Remote Execution Setup Guide - OS command injection in the example SSM documents in Trusted Remote Execution (REX)",
+  "description": "CVE-2026-122193 - Issue with Trusted Remote Execution Setup Guide - OS command injection in the example SSM documents in Trusted Remote Execution (REX)\nBulletin ID:\n2026-173-AWS\nScope:\nAWS\nContent Type:\nImportant (requires attention)\nPublication Date:\n11/06/2026 09:00 AM PST\nDescription:\nTrusted Remote Execution (REX) is an open-source framework for executing sandboxed scripts on managed instances, where a signed Cedar policy is meant to be the immutable security boundary around each script run.\nWe identified\nCVE-2026-122193\n, an OS command injection issue in an example provided in the set-up documentation. The example included a script that creates AWS Systems Manager (SSM) documents (Rex-RO and Rex-RW) for running scripts on managed instances. Due to how the example script handled input parameters, a user with permissions to invoke the SSM document could supply crafted input that would run unintended operating system commands on the managed instance, outside of the REX sandbox. The scriptArgs parameter is affected by the same class of issue.\nImpacted versions:\nThis is not an issue in a shipped REX artifact version. It is an affected example in the set-up documentation. Anyone who created the Rex-RO / Rex-RW SSM documents by following the guide is affected.\nResolution:\nWe removed this set-up example from the guide. We recommend you delete any SSM documents if you created them, in each account/region where you ran the example:\nDeleting custom SSM documents\ndelete-document\nWorkarounds:\nNone.\nReferences:\nCVE-2026-122193\nGHSA-95g5-m242-wvhr\nPlease email\naws-security@amazon.com\nwith any security questions or concerns.",
+  "published_date": "2026-11-06",
+  "modified_date": "",
+  "severity": "high",
+  "cvss_score": null,
+  "cvss_vector": null,
+  "cwe_ids": [],
+  "impact_type": "",
+  "affected_products": [
+    {
+      "vendor": "aws",
+      "product": "Amazon Web Services",
+      "version_range": "",
+      "fixed_version": "",
+      "cpe": "",
+      "purl": "",
+      "cves": [
+        "CVE-2026-122193"
+      ]
+    }
+  ],
+  "remediations": [],
+  "cves": [
+    "CVE-2026-122193"
+  ],
+  "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-173-aws/",
+  "references": [
+    "https://aws.amazon.com/security/security-bulletins/rss/2026-173-aws/"
+  ]
+}

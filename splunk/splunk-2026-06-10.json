@@ -3,7 +3,7 @@
   "source": "splunk",
   "vendor": "splunk",
   "title": "Splunk Security Advisories - 2026-06-10",
-  "description": "Merged 12 splunk security advisories published on 2026-06-10. Original advisory IDs: SVD-2026-0612, SVD-2026-0611, SVD-2026-0610, SVD-2026-0609, SVD-2026-0608, SVD-2026-0607, SVD-2026-0606, SVD-2026-0605, SVD-2026-0604, SVD-2026-0603, SVD-2026-0602, SVD-2026-0601\n\nTitles:\n- Third-Party Package Updates in Splunk SOAR - June 2026\n- Log Injection through HTTP Request Paths in Splunk SOAR\n- Third-Party Package Updates in Splunk Enterprise - June 2026\n- Improper Access Control in Splunk Enterprise\n- Stored Cross-Site Scripting (XSS) through Classic Dashboard in Splunk Enterprise\n- Improper Input Validation through Classic Dashboard CSS in Splunk Enterprise\n- Improper Input Validation through Protocol-Relative URL in Classic Dashboards in Splunk Enterprise\n- Improper Input Validation through Classic Dashboards in Splunk Enterprise\n- Information Disclosure through External Content Restriction Bypass in Splunk Enterprise\n- Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise\n- Server-Side Request Forgery (SSRF) through Dashboard Studio PDF Export in Splunk Enterprise\n- Remote Code Execution through Deserialization of Untrusted Data in Splunk Secure Gateway",
+  "description": "Merged 5 splunk security advisories published on 2026-06-10. Original advisory IDs: SVD-2026-0612, SVD-2026-0611, SVD-2026-0610, SVD-2026-0609, SVD-2026-0608\n\nTitles:\n- Third-Party Package Updates in Splunk SOAR - June 2026\n- Log Injection through HTTP Request Paths in Splunk SOAR\n- Third-Party Package Updates in Splunk Enterprise - June 2026\n- Improper Access Control in Splunk Enterprise\n- Stored Cross-Site Scripting (XSS) through Classic Dashboard in Splunk Enterprise",
   "published_date": "2026-06-10",
   "modified_date": "2026-06-10",
   "severity": null,
@@ -65,14 +65,7 @@
         "CVE-2026-4148",
         "CVE-2026-4358",
         "CVE-2026-20259",
-        "CVE-2026-20258",
-        "CVE-2026-20257",
-        "CVE-2026-20256",
-        "CVE-2026-20255",
-        "CVE-2026-20254",
-        "CVE-2026-20253",
-        "CVE-2026-20252",
-        "CVE-2026-20251"
+        "CVE-2026-20258"
       ]
     }
   ],
@@ -101,21 +94,6 @@
       "type": "Vendor Fix",
       "description": "Upgrade Splunk Enterprise to versions 10.4.0, 10.2.4, 10.0.7, 9.4.12, and 9.3.13, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.4\nSplunk Web\nNot affected\nN/A\nSplunk Enterprise\n10.2\nSplunk Web\n10.2.0 to 10.2.3\n10.2.4\nSplunk Enterprise\n10.0\nSplunk Web\n10.0.0 to 10.0.6\n10.0.7\nSplunk Enterprise\n9.4\nSplunk Web\n9.4.0 to 9.4.11\n9.4.12\nSplunk Enterprise\n9.3\nSplunk Web\n",
       "url": ""
-    },
-    {
-      "type": "Vendor Fix",
-      "description": "Upgrade Splunk Enterprise to versions 10.4.0, 10.2.4, 10.0.7, 9.4.12, and 9.3.13, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.4\nSplunk Web\nNot affected\n10.4.0\nSplunk Enterprise\n10.2\nSplunk Web\n10.2.0 to 10.2.3\n10.2.4\nSplunk Enterprise\n10.0\nSplunk Web\n10.0.0 to 10.0.6\n10.0.7\nSplunk Enterprise\n9.4\nSplunk Web\n9.4.0 to 9.4.11\n9.4.12\nSplunk Enterprise\n9.3\nSplunk W",
-      "url": ""
-    },
-    {
-      "type": "Vendor Fix",
-      "description": "Upgrade Splunk Enterprise to versions 10.4.0, 10.2.4 and 10.0.7, or higher. Splunk Enterprise versions 9.4 and earlier are not affected.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.4\nsplunkd\nNot affected\n10.4.0\nSplunk Enterprise\n10.2\nsplunkd\n10.2.0 to 10.2.3\n10.2.4\nSplunk Enterprise\n10.0\nsplunkd\n10.0.0 to 10.0.6\n10.0.7\nSplunk Enterprise\n9.4\nsplunkd\nNot affected\nNA\nSplunk Enterprise\n9.3\nsplunkd\nNot affected\nNA\nMitigations and Workarounds\nIf you ",
-      "url": ""
-    },
-    {
-      "type": "Vendor Fix",
-      "description": "Upgrade Splunk Enterprise to versions 10.4.0, 10.2.4, 10.0.7, 9.4.12, and 9.3.13, or higher.\nSplunk is actively monitoring and patching Splunk Cloud Platform instances.\nProduct Status\nProduct\nBase Version\nComponent\nAffected Version\nFix Version\nSplunk Enterprise\n10.4\nSplunk Secure Gateway\nNot affected\nN/A\nSplunk Enterprise\n10.2\nSplunk Secure Gateway\n10.2.0 to 10.2.3\n10.2.4\nSplunk Enterprise\n10.0\nSplunk Secure Gateway\n10.0.0 to 10.0.6\n10.0.7\nSplunk Enterprise\n9.4\nSplunk Secure Gateway\n9.4.0 to 9.4",
-      "url": ""
     }
   ],
   "cves": [
@@ -137,13 +115,6 @@
     "CVE-2026-2004",
     "CVE-2026-2005",
     "CVE-2026-2006",
-    "CVE-2026-20251",
-    "CVE-2026-20252",
-    "CVE-2026-20253",
-    "CVE-2026-20254",
-    "CVE-2026-20255",
-    "CVE-2026-20256",
-    "CVE-2026-20257",
     "CVE-2026-20258",
     "CVE-2026-20259",
     "CVE-2026-20260",
@@ -169,13 +140,6 @@
     "https://advisory.splunk.com/advisories/SVD-2026-0611",
     "https://advisory.splunk.com/advisories/SVD-2026-0610",
     "https://advisory.splunk.com/advisories/SVD-2026-0609",
-    "https://advisory.splunk.com/advisories/SVD-2026-0608",
-    "https://advisory.splunk.com/advisories/SVD-2026-0607",
-    "https://advisory.splunk.com/advisories/SVD-2026-0606",
-    "https://advisory.splunk.com/advisories/SVD-2026-0605",
-    "https://advisory.splunk.com/advisories/SVD-2026-0604",
-    "https://advisory.splunk.com/advisories/SVD-2026-0603",
-    "https://advisory.splunk.com/advisories/SVD-2026-0602",
-    "https://advisory.splunk.com/advisories/SVD-2026-0601"
+    "https://advisory.splunk.com/advisories/SVD-2026-0608"
   ]
 }
